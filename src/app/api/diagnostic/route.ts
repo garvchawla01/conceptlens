@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { action, standard, board, subject, topic, questions, userAnswers, derivationText, imageData } = body;
 
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3.8-flash" });
 
     // 1. GENERATE BATTERY
     if (action === "generate_battery" || action === "generate") {
