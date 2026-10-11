@@ -6,7 +6,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 
 // Helper with automatic retry for 503 high-demand temporary spikes
 async function generateWithRetry(promptOrParts: any, isJson: boolean = true) {
-  const models = ["gemini-3.8-flash", "gemini-2.5-flash"];
+  const models = ["gemini-3.8-flash"];
   let lastError: any = null;
 
   for (const modelName of models) {
