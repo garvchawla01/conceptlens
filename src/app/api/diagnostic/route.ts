@@ -1,244 +1,126 @@
-import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenAI, Type } from "@google/genai";
+import { NextResponse } from "next/server";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const engine = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY || "",
-});
+const apiKey = process.env.GEMINI_API_KEY || "";
+const genAI = new GoogleGenerativeAI(apiKey);
 
-const ACTIVE_MODEL = "gemini-3.8-flash";
-
-export async function POST(req: NextRequest) {
+export async function POST(req: Request) {
   try {
-    const body = await req.json();
-    const {
-      action,
-      studentClass,
-      board,
-      subject,
-      rawTopic,
-      quizData,
-      studentAnswers,
-      problemStatement,
-      studentSteps,
-      imageBase64,
-      imageMimeType,
-      questionText,
-      hint,
-      studentAnswer,
-    } = body;
-
-    if (!process.env.GEMINI_API_KEY) {
+    if (!apiKey) {
       return NextResponse.json(
-        { error: "API Key missing in environment." },
+        { error: "GEMINI_API_KEY is not configured on the server." },
         { status: 500 }
       );
     }
 
-    // 1. FAST MCQ GENERATION
-    if (action === "generate_quiz") {
-      const response = await engine.models.generateContent({
-        model: ACTIVE_MODEL,
-        contents: `Create exactly 4 short conceptual MCQ questions for ${board} ${studentClass} ${subject} on topic "${rawTopic}".
-Target 4 distinct classic traps/misconceptions.
-MANDATORY RULE: If the subject is Hindi, generate questions and options in grammatically correct Hindi (Devanagari script).
-MANDATORY LATEX RULE: Wrap ALL mathematical formulas, fractions, limits, powers, variables, and physics expressions strictly in dollar signs like $...$ (e.g. $\\lim_{x \\to 0} \\frac{|x|}{x}$, $F = \\mu N$, $x^2$). Keep question statements concise and conceptual.`,
-        config: {
-          thinkingConfig: { thinkingBudget: 0 },
-          maxOutputTokens: 2048,
-          responseMimeType: "application/json",
-          responseSchema: {
-            type: Type.OBJECT,
-            properties: {
-              normalizedTopic: { type: Type.STRING },
-              questions: {
-                type: Type.ARRAY,
-                items: {
-                  type: Type.OBJECT,
-                  properties: {
-                    id: { type: Type.INTEGER },
-                    question: { type: Type.STRING },
-                    options: {
-                      type: Type.ARRAY,
-                      items: {
-                        type: Type.OBJECT,
-                        properties: {
-                          id: { type: Type.STRING },
-                          text: { type: Type.STRING },
-                        },
-                        required: ["id", "text"],
-                      },
-                    },
-                    correctOption: { type: Type.STRING },
-                    conceptTested: { type: Type.STRING },
-                  },
-                  required: ["id", "question", "options", "correctOption", "conceptTested"],
-                },
-              },
-            },
-            required: ["normalizedTopic", "questions"],
-          },
-        },
+    const body = await req.json();
+    const { action, standard, board, subject, topic, questions, userAnswers, derivationText, imageData } = body;
+
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+
+    // 1. GENERATE BATTERY
+    if (action === "generate_battery" || action === "generate") {
+      const prompt = `You are a strict, world-class diagnostic assessment engine for STEM education (${board}, ${standard}).
+Topic: ${topic} (${subject}).
+Generate exactly 4 conceptual multiple-choice questions (MCQs) designed to uncover subtle misconceptions, traps, or intuitive pitfalls.
+Do NOT test mere rote formula recall; test genuine reasoning.
+
+Return ONLY a valid JSON array of 4 objects with this exact schema:
+[
+  {
+    "id": 1,
+    "question": "Question text with LaTeX math wrapped in $...$ or $$...$$",
+    "options": {
+      "A": "Option A with LaTeX if needed",
+      "B": "Option B with LaTeX if needed",
+      "C": "Option C with LaTeX if needed",
+      "D": "Option D with LaTeX if needed"
+    },
+    "correctOption": "A",
+    "conceptualFocus": "Core concept being tested"
+  }
+]`;
+
+      const result = await model.generateContent({
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig: { responseMimeType: "application/json" }
       });
 
-      const raw = response.text?.trim();
-      if (!raw) throw new Error("Empty diagnostic question payload received.");
-      return NextResponse.json({ success: true, data: JSON.parse(raw) });
+      const responseText = result.response.text();
+      const parsedQuestions = JSON.parse(responseText);
+
+      return NextResponse.json({ questions: parsedQuestions });
     }
 
-    // 2. FAST MCQ PATTERN AUDIT
-    if (action === "analyze_quiz") {
-      const response = await engine.models.generateContent({
-        model: ACTIVE_MODEL,
-        contents: `Standard: ${board} ${studentClass} ${subject}. Topic: "${rawTopic}".
-Questions: ${JSON.stringify(quizData)}
-Student Choices: ${JSON.stringify(studentAnswers)}
+    // 2. AUDIT BATTERY
+    if (action === "audit_battery" || action === "audit") {
+      const prompt = `You are a cognitive auditor for STEM reasoning.
+Student was tested on: ${topic} (${subject}, ${standard}).
+Questions and student responses:
+${JSON.stringify({ questions, userAnswers }, null, 2)}
 
-Diagnose succinctly: score, vulnerable sub-topics, why wrong options were selected, remedial framework, and 2 quick follow-up calibration checks.
-If Hindi subject, provide the feedback and diagnosis in Hindi.
-Wrap any mathematical formulas inside single dollar signs $...$.`,
-        config: {
-          thinkingConfig: { thinkingBudget: 0 },
-          maxOutputTokens: 2048,
-          responseMimeType: "application/json",
-          responseSchema: {
-            type: Type.OBJECT,
-            properties: {
-              score: { type: Type.INTEGER },
-              total: { type: Type.INTEGER },
-              weakSubTopics: {
-                type: Type.ARRAY,
-                items: { type: Type.STRING },
-              },
-              misconceptionsIdentified: {
-                type: Type.ARRAY,
-                items: {
-                  type: Type.OBJECT,
-                  properties: {
-                    questionNumber: { type: Type.INTEGER },
-                    wrongChoice: { type: Type.STRING },
-                    misconception: { type: Type.STRING },
-                  },
-                  required: ["questionNumber", "wrongChoice", "misconception"],
-                },
-              },
-              conceptualRemediation: { type: Type.STRING },
-              remedialPracticeQuestions: {
-                type: Type.ARRAY,
-                items: {
-                  type: Type.OBJECT,
-                  properties: {
-                    question: { type: Type.STRING },
-                    hint: { type: Type.STRING },
-                  },
-                  required: ["question", "hint"],
-                },
-              },
-            },
-            required: [
-              "score",
-              "total",
-              "weakSubTopics",
-              "misconceptionsIdentified",
-              "conceptualRemediation",
-              "remedialPracticeQuestions",
-            ],
-          },
-        },
+Analyze their selections, pinpoint their exact mental breakdown/misconception, and provide a single calibration verification task.
+Return ONLY valid JSON matching this schema:
+{
+  "status": "completed",
+  "score": <number of correctly answered questions>,
+  "identifiedMisconception": "Clear explanation of where their mental logic failed, using LaTeX $...$ where relevant",
+  "mentalModelShift": "Precise conceptual correction needed to fix this fallacy",
+  "calibrationQuestion": "One short single-step question to verify fix",
+  "calibrationExpectedProof": "Brief expected resolution"
+}`;
+
+      const result = await model.generateContent({
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig: { responseMimeType: "application/json" }
       });
 
-      const raw = response.text?.trim();
-      if (!raw) throw new Error("Empty analysis payload received.");
-      return NextResponse.json({ success: true, data: JSON.parse(raw) });
+      const parsedAudit = JSON.parse(result.response.text());
+      return NextResponse.json({ audit: parsedAudit });
     }
 
-    // 3. DEEP TRACE & REASONING
-    if (action === "trace_doubt") {
-      const promptText = `Academic Context: ${board} ${studentClass} ${subject} - Topic: "${rawTopic}".
-Problem Statement / Question context:
-"${problemStatement || "Inspect the problem statement inside the attached image directly."}"
+    // 3. TRACE DERIVATION
+    if (action === "trace_derivation" || action === "trace") {
+      const parts: any[] = [];
 
-Student's Attempted Derivation / Steps:
-"${studentSteps || "Examine the handwritten steps and drawings visible in the attached image."}"
-
-Carefully evaluate the math, logic, grammar, or conceptual reasoning step-by-step.
-Pinpoint the exact step or line where the reasoning broke, explain the root violated concept, provide the correct derivation/solution, and offer 1 validation test question.
-Wrap every formula or equation in dollar signs $...$.`;
-
-      const contentsPayload: any[] = [];
-
-      if (imageBase64 && imageMimeType) {
-        contentsPayload.push({
+      if (imageData) {
+        const base64Data = imageData.split(",")[1] || imageData;
+        parts.push({
           inlineData: {
-            mimeType: imageMimeType,
-            data: imageBase64,
-          },
+            data: base64Data,
+            mimeType: "image/jpeg"
+          }
         });
       }
 
-      contentsPayload.push(promptText);
+      parts.push({
+        text: `Analyze this student rough work / derivation on ${topic} (${subject}).
+Student text input: ${derivationText || "See attached image."}
+Find the exact line/step where mathematical reasoning or calculation broke down.
 
-      const response = await engine.models.generateContent({
-        model: ACTIVE_MODEL,
-        contents: contentsPayload,
-        config: {
-          thinkingConfig: { thinkingBudget: 1024 },
-          maxOutputTokens: 2048,
-          responseMimeType: "application/json",
-          responseSchema: {
-            type: Type.OBJECT,
-            properties: {
-              exactBreakPoint: { type: Type.STRING },
-              rootDeficiency: { type: Type.STRING },
-              stepByStepCorrection: { type: Type.STRING },
-              verificationCheck: { type: Type.STRING },
-            },
-            required: ["exactBreakPoint", "rootDeficiency", "stepByStepCorrection", "verificationCheck"],
-          },
-        },
+Return ONLY valid JSON with this exact schema:
+{
+  "stepOfFailure": "Line or step where the error occurred (use LaTeX $...$)",
+  "violatedPrinciple": "The mathematical axiom or law that was incorrectly applied",
+  "correctedDerivation": "The accurate step-by-step resolution from that point onwards",
+  "calibrationVerification": "A quick sanity check check question"
+}`
       });
 
-      const raw = response.text?.trim();
-      if (!raw) throw new Error("Empty tracer report received.");
-      return NextResponse.json({ success: true, data: JSON.parse(raw) });
-    }
-
-    // 4. FAST REMEDIAL EXERCISE VERIFICATION
-    if (action === "verify_remediation") {
-      const response = await engine.models.generateContent({
-        model: ACTIVE_MODEL,
-        contents: `Academic Context: ${board} ${studentClass} ${subject} - Topic: "${rawTopic}".
-Question: "${questionText}"
-Reference Hint/Anchor: "${hint}"
-Student's Submitted Answer: "${studentAnswer}"
-
-Evaluate strictly whether the student's answer or approach is conceptually correct.
-Wrap any mathematical formulas or variables in dollar signs $...$.`,
-        config: {
-          thinkingConfig: { thinkingBudget: 0 },
-          maxOutputTokens: 1000,
-          responseMimeType: "application/json",
-          responseSchema: {
-            type: Type.OBJECT,
-            properties: {
-              isCorrect: { type: Type.BOOLEAN },
-              verdictTitle: { type: Type.STRING },
-              conciseFeedback: { type: Type.STRING },
-            },
-            required: ["isCorrect", "verdictTitle", "conciseFeedback"],
-          },
-        },
+      const result = await model.generateContent({
+        contents: [{ role: "user", parts }],
+        generationConfig: { responseMimeType: "application/json" }
       });
 
-      const raw = response.text?.trim();
-      if (!raw) throw new Error("Empty verification payload.");
-      return NextResponse.json({ success: true, data: JSON.parse(raw) });
+      const parsedTrace = JSON.parse(result.response.text());
+      return NextResponse.json({ trace: parsedTrace });
     }
 
     return NextResponse.json({ error: "Invalid action routine." }, { status: 400 });
   } catch (error: any) {
-    console.error("Diagnostic execution error:", error);
+    console.error("API Route Error:", error);
     return NextResponse.json(
-      { error: error.message || "Failed to process diagnostic operation." },
+      { error: error.message || "Failed to execute diagnostic cognitive routine." },
       { status: 500 }
     );
   }
