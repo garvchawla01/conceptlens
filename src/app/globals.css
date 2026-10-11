@@ -9,8 +9,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html,
@@ -18,58 +16,28 @@ body {
   max-width: 100vw;
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--background);
-  color: var(--foreground);
+  background-color: #0d1117;
+  color: #ededed;
   -webkit-text-size-adjust: 100%;
-  touch-action: manipulation;
 }
 
-/* iOS & Android input/select focus auto-zoom prevention */
-select,
-input,
-textarea,
-button {
-  font-size: 16px !important;
-  touch-action: manipulation;
-}
-
-@media (min-width: 640px) {
-  select,
+/* Prevent auto-zoom on mobile inputs without breaking desktop layouts */
+@media screen and (max-width: 767px) {
   input,
-  textarea,
-  button {
-    font-size: 0.875rem !important; /* 14px on desktop / tablets */
+  select,
+  textarea {
+    font-size: 16px;
   }
 }
 
-/* KaTeX formula horizontal scroll fix on mobile */
+/* KaTeX container horizontal scroll fix on mobile */
 .katex-display {
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
   max-width: 100%;
 }
 
 .katex {
   max-width: 100%;
-  font-size: 1.05em;
-}
-
-/* Custom scrollbar for mathematical expressions */
-::-webkit-scrollbar {
-  height: 4px;
-  width: 4px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0d1117;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #21262d;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #30363d;
 }

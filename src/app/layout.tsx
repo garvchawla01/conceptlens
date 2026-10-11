@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ConceptLens",
-  description: "Cognitive Diagnostic Engine",
+  description: "Cognitive Diagnostic Engine - Look Closer, Learn Deeper",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#070709] text-[#e4e4e7]">
+      <body className="min-h-full flex flex-col bg-[#0d1117] text-[#ededed]">
         {children}
       </body>
     </html>

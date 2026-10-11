@@ -48,7 +48,6 @@ interface PastAuditItem {
 }
 
 export default function Home() {
-  // Navigation Tabs
   const [activeTab, setActiveTab] = useState<"diagnostic" | "tracer" | "history">("diagnostic");
 
   // Curriculum State
@@ -76,15 +75,11 @@ export default function Home() {
 
   // Audit Log State
   const [auditLogHistory, setAuditLogHistory] = useState<PastAuditItem[]>([]);
-
-  // Global Error state
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // Get current subjects based on chosen standard
   const currentSubjects: SubjectData[] = COMPREHENSIVE_CURRICULUM[selectedStandard] || [];
   const activeSubject = currentSubjects.find((s) => s.id === selectedSubjectId) || currentSubjects[0];
 
-  // Initialize or reset subject & chapter on standard change
   useEffect(() => {
     if (currentSubjects.length > 0) {
       setSelectedSubjectId(currentSubjects[0].id);
@@ -94,7 +89,6 @@ export default function Home() {
     }
   }, [selectedStandard]);
 
-  // Load audit history from local storage
   useEffect(() => {
     const saved = localStorage.getItem("conceptlens_audit_history");
     if (saved) {
@@ -106,7 +100,6 @@ export default function Home() {
     }
   }, []);
 
-  // Save audit history helper
   const saveAuditToHistory = (audit: AuditReport) => {
     const newItem: PastAuditItem = {
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", day: "numeric", month: "short" }),
@@ -121,7 +114,6 @@ export default function Home() {
     localStorage.setItem("conceptlens_audit_history", JSON.stringify(updated));
   };
 
-  // 1. Generate Diagnostic Battery
   const handleStartDiagnostic = async () => {
     setErrorMessage(null);
     setQuestions([]);
@@ -170,12 +162,10 @@ export default function Home() {
     }
   };
 
-  // 2. Submit Question Answer
   const handleSelectOption = (questionId: number, optionKey: string) => {
     setUserAnswers((prev) => ({ ...prev, [questionId]: optionKey }));
   };
 
-  // 3. Finalize Assessment & Trigger Audit
   const handleCompleteAssessment = async () => {
     setErrorMessage(null);
     setIsAuditingBattery(true);
@@ -213,7 +203,6 @@ export default function Home() {
     }
   };
 
-  // 4. Trace Rough Derivation Steps
   const handleRunDerivationTrace = async () => {
     if (!derivationText.trim() && !capturedImage) {
       setErrorMessage("Please input handwritten rough steps or capture a notebook photo.");
@@ -252,7 +241,6 @@ export default function Home() {
     }
   };
 
-  // Image Upload handler for Doubt Tracer
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
@@ -265,45 +253,46 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0d1117] text-gray-100 flex flex-col font-sans selection:bg-cyan-500/30 selection:text-cyan-200">
-      {/* Top Header */}
-      <header className="border-b border-gray-800 bg-[#161b22]/80 backdrop-blur sticky top-0 z-50 px-4 py-3 sm:px-8">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-lg bg-cyan-950 border border-cyan-500/40 flex items-center justify-center text-cyan-400 font-bold text-sm tracking-tighter">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#0d1117] text-gray-100 flex flex-col font-sans selection:bg-cyan-500/30 selection:text-cyan-200">
+      {/* Header: Fully responsive flex wrap */}
+      <header className="border-b border-gray-800 bg-[#161b22]/95 backdrop-blur sticky top-0 z-50 px-3 py-2.5 sm:px-8">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          {/* Logo & Title */}
+          <div className="flex items-center space-x-2.5">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-cyan-950 border border-cyan-500/40 flex items-center justify-center text-cyan-400 font-bold text-xs sm:text-sm shrink-0">
               CL
             </div>
             <div>
-              <div className="flex items-center space-x-2">
-                <span className="font-extrabold tracking-wider text-base sm:text-lg text-white">
+              <div className="flex items-center space-x-1.5">
+                <span className="font-extrabold tracking-wider text-sm sm:text-lg text-white">
                   CONCEPT<span className="text-cyan-400">LENS</span>
                 </span>
               </div>
-              <p className="text-[10px] text-gray-400 tracking-widest uppercase">
+              <p className="text-[9px] sm:text-[10px] text-gray-400 tracking-widest uppercase">
                 Look Closer • Learn Deeper
               </p>
             </div>
           </div>
 
-          {/* Navigation Tab Pills */}
-          <div className="flex items-center space-x-1 sm:space-x-2 bg-[#090d13] p-1 rounded-xl border border-gray-800">
+          {/* Tab Navigation */}
+          <div className="grid grid-cols-3 gap-1 bg-[#090d13] p-1 rounded-xl border border-gray-800 w-full sm:w-auto">
             <button
               type="button"
               onClick={() => setActiveTab("diagnostic")}
-              className={`px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium transition cursor-pointer ${
+              className={`py-2 px-1 text-center rounded-lg text-[11px] sm:text-sm font-medium transition cursor-pointer truncate ${
                 activeTab === "diagnostic"
-                  ? "bg-cyan-600/20 text-cyan-300 border border-cyan-500/30 shadow-sm"
+                  ? "bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 shadow-sm"
                   : "text-gray-400 hover:text-gray-200"
               }`}
             >
-              Diagnostic Assessment
+              Diagnostic
             </button>
             <button
               type="button"
               onClick={() => setActiveTab("tracer")}
-              className={`px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium transition cursor-pointer ${
+              className={`py-2 px-1 text-center rounded-lg text-[11px] sm:text-sm font-medium transition cursor-pointer truncate ${
                 activeTab === "tracer"
-                  ? "bg-cyan-600/20 text-cyan-300 border border-cyan-500/30 shadow-sm"
+                  ? "bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 shadow-sm"
                   : "text-gray-400 hover:text-gray-200"
               }`}
             >
@@ -312,9 +301,9 @@ export default function Home() {
             <button
               type="button"
               onClick={() => setActiveTab("history")}
-              className={`px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium transition cursor-pointer ${
+              className={`py-2 px-1 text-center rounded-lg text-[11px] sm:text-sm font-medium transition cursor-pointer truncate ${
                 activeTab === "history"
-                  ? "bg-cyan-600/20 text-cyan-300 border border-cyan-500/30 shadow-sm"
+                  ? "bg-cyan-600/30 text-cyan-300 border border-cyan-500/40 shadow-sm"
                   : "text-gray-400 hover:text-gray-200"
               }`}
             >
@@ -324,11 +313,11 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main Container */}
-      <main className="flex-1 max-w-4xl w-full mx-auto p-4 sm:p-6 space-y-6">
-        {/* Error Notification Banner */}
+      {/* Main Page Body */}
+      <main className="flex-1 max-w-4xl w-full mx-auto p-3 sm:p-6 space-y-4 sm:space-y-6">
+        {/* Error Notification */}
         {errorMessage && (
-          <div className="p-3.5 bg-red-950/40 border border-red-500/50 rounded-xl text-red-200 text-xs sm:text-sm flex items-start justify-between shadow-lg">
+          <div className="p-3 bg-red-950/50 border border-red-500/60 rounded-xl text-red-200 text-xs sm:text-sm flex items-start justify-between shadow-lg">
             <div className="flex space-x-2">
               <span className="text-red-400 font-bold font-mono">✕</span>
               <span>{errorMessage}</span>
@@ -336,28 +325,28 @@ export default function Home() {
             <button
               type="button"
               onClick={() => setErrorMessage(null)}
-              className="text-red-400 hover:text-red-200 font-bold ml-4"
+              className="text-red-400 hover:text-red-200 font-bold ml-3"
             >
               ✕
             </button>
           </div>
         )}
 
-        {/* 1. DIAGNOSTIC ASSESSMENT TAB */}
+        {/* 1. DIAGNOSTIC TAB */}
         {activeTab === "diagnostic" && (
-          <div className="space-y-6">
-            {/* Curriculum Configuration Panel */}
-            <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-4 sm:p-6 shadow-md space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Standard Dropdown */}
+          <div className="space-y-4 sm:space-y-6">
+            {/* Configuration Panel */}
+            <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-4 sm:p-6 shadow-md space-y-3 sm:space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                {/* Standard */}
                 <div>
-                  <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                  <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                     Standard / Grade
                   </label>
                   <select
                     value={selectedStandard}
                     onChange={(e) => setSelectedStandard(e.target.value)}
-                    className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-sm text-gray-200 focus:outline-none focus:border-cyan-500 transition"
+                    className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-gray-200 focus:outline-none focus:border-cyan-500"
                   >
                     {SUPPORTED_STANDARDS.map((std) => (
                       <option key={std.id} value={std.id}>
@@ -367,15 +356,15 @@ export default function Home() {
                   </select>
                 </div>
 
-                {/* Board Dropdown */}
+                {/* Board */}
                 <div>
-                  <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                  <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                     Board / Syllabus
                   </label>
                   <select
                     value={selectedBoard}
                     onChange={(e) => setSelectedBoard(e.target.value)}
-                    className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-sm text-gray-200 focus:outline-none focus:border-cyan-500 transition"
+                    className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-gray-200 focus:outline-none focus:border-cyan-500"
                   >
                     {SUPPORTED_BOARDS.map((b) => (
                       <option key={b.id} value={b.id}>
@@ -385,9 +374,9 @@ export default function Home() {
                   </select>
                 </div>
 
-                {/* Subject Dropdown grouped by Stream */}
+                {/* Subject & Stream */}
                 <div>
-                  <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                  <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
                     Subject & Stream
                   </label>
                   <select
@@ -399,7 +388,7 @@ export default function Home() {
                         setSelectedChapter(subj.chapters[0]);
                       }
                     }}
-                    className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-sm text-gray-200 focus:outline-none focus:border-cyan-500 transition"
+                    className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-gray-200 focus:outline-none focus:border-cyan-500"
                   >
                     {["Core", "Science", "Commerce", "Humanities/Arts"].map((streamGroup) => {
                       const groupSubs = currentSubjects.filter((s) => (s.stream || "Core") === streamGroup);
@@ -417,9 +406,9 @@ export default function Home() {
                   </select>
                 </div>
 
-                {/* Topic / Chapter Selection */}
+                {/* Chapter / Topic */}
                 <div>
-                  <div className="flex items-center justify-between mb-1.5">
+                  <div className="flex items-center justify-between mb-1">
                     <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wider">
                       Chapter / Topic
                     </label>
@@ -435,16 +424,16 @@ export default function Home() {
                   {isCustomTopicMode ? (
                     <input
                       type="text"
-                      placeholder="e.g. Total Internal Reflection, Snell's Law"
+                      placeholder="e.g. Total Internal Reflection, Integration"
                       value={customTopic}
                       onChange={(e) => setCustomTopic(e.target.value)}
-                      className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-sm text-gray-200 focus:outline-none focus:border-cyan-500 transition"
+                      className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-gray-200 focus:outline-none focus:border-cyan-500"
                     />
                   ) : (
                     <select
                       value={selectedChapter}
                       onChange={(e) => setSelectedChapter(e.target.value)}
-                      className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-sm text-gray-200 focus:outline-none focus:border-cyan-500 transition"
+                      className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-2.5 text-gray-200 focus:outline-none focus:border-cyan-500"
                     >
                       {activeSubject?.chapters.map((ch) => (
                         <option key={ch} value={ch}>
@@ -481,24 +470,24 @@ export default function Home() {
               )}
             </div>
 
-            {/* Questions Stepper */}
+            {/* Questions Stepper Container */}
             {questions.length > 0 && !auditResult && (
-              <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-5 sm:p-7 shadow-lg space-y-6">
-                {/* Stepper Header */}
-                <div className="flex items-center justify-between border-b border-gray-800 pb-3">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-xs font-semibold px-2.5 py-1 bg-cyan-950 text-cyan-300 border border-cyan-800/60 rounded-md">
-                      Question {currentQuestionIndex + 1} of {questions.length}
+              <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-4 sm:p-7 shadow-lg space-y-5">
+                {/* Stepper Status Header */}
+                <div className="flex items-center justify-between border-b border-gray-800 pb-3 gap-2">
+                  <div className="flex items-center space-x-2 truncate">
+                    <span className="text-[11px] sm:text-xs font-semibold px-2 py-0.5 bg-cyan-950 text-cyan-300 border border-cyan-800/60 rounded shrink-0">
+                      Q {currentQuestionIndex + 1}/{questions.length}
                     </span>
-                    <span className="text-xs text-gray-400">
+                    <span className="text-xs text-gray-400 truncate">
                       {questions[currentQuestionIndex].conceptualFocus}
                     </span>
                   </div>
-                  <div className="flex space-x-1">
+                  <div className="flex space-x-1 shrink-0">
                     {questions.map((q, idx) => (
                       <div
                         key={q.id}
-                        className={`w-2.5 h-2.5 rounded-full ${
+                        className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full ${
                           userAnswers[q.id]
                             ? "bg-cyan-400"
                             : idx === currentQuestionIndex
@@ -510,13 +499,13 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Question Stem with KaTeX */}
-                <div className="text-base sm:text-lg font-medium text-gray-100 leading-relaxed">
+                {/* Question Formula / Prompt */}
+                <div className="text-sm sm:text-lg font-medium text-gray-100 leading-relaxed overflow-x-auto pb-1">
                   <MathRenderer content={questions[currentQuestionIndex].question} />
                 </div>
 
                 {/* Multiple Choice Options */}
-                <div className="space-y-3">
+                <div className="space-y-2.5 sm:space-y-3">
                   {(["A", "B", "C", "D"] as const).map((optKey) => {
                     const optText = questions[currentQuestionIndex].options[optKey];
                     const isSelected = userAnswers[questions[currentQuestionIndex].id] === optKey;
@@ -526,22 +515,20 @@ export default function Home() {
                         key={optKey}
                         type="button"
                         onClick={() => handleSelectOption(questions[currentQuestionIndex].id, optKey)}
-                        className={`w-full text-left p-3.5 sm:p-4 rounded-xl border transition flex items-start space-x-3 cursor-pointer ${
+                        className={`w-full text-left p-3 sm:p-4 rounded-xl border transition flex items-start space-x-3 cursor-pointer ${
                           isSelected
-                            ? "bg-cyan-950/40 border-cyan-400 text-white shadow-md shadow-cyan-950"
+                            ? "bg-cyan-950/50 border-cyan-400 text-white shadow-md shadow-cyan-950"
                             : "bg-[#0d1117] border-gray-800 hover:border-gray-700 text-gray-300"
                         }`}
                       >
                         <span
                           className={`w-6 h-6 rounded-md flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 ${
-                            isSelected
-                              ? "bg-cyan-400 text-black"
-                              : "bg-gray-800 text-gray-400"
+                            isSelected ? "bg-cyan-400 text-black" : "bg-gray-800 text-gray-400"
                           }`}
                         >
                           {optKey}
                         </span>
-                        <div className="text-sm sm:text-base leading-relaxed flex-1">
+                        <div className="text-xs sm:text-base leading-relaxed flex-1 overflow-x-auto">
                           <MathRenderer content={optText} />
                         </div>
                       </button>
@@ -549,36 +536,36 @@ export default function Home() {
                   })}
                 </div>
 
-                {/* Stepper Navigation Buttons */}
-                <div className="flex items-center justify-between pt-4 border-t border-gray-800">
+                {/* Stepper Action Buttons */}
+                <div className="flex items-center justify-between pt-3 border-t border-gray-800">
                   <button
                     type="button"
                     onClick={() => setCurrentQuestionIndex((prev) => Math.max(prev - 1, 0))}
                     disabled={currentQuestionIndex === 0}
-                    className="px-4 py-2 bg-gray-800 hover:bg-gray-700 disabled:opacity-30 rounded-xl text-xs sm:text-sm font-medium transition cursor-pointer"
+                    className="px-3.5 py-2 bg-gray-800 hover:bg-gray-700 disabled:opacity-30 rounded-xl text-xs sm:text-sm font-medium transition cursor-pointer"
                   >
-                    ← Previous
+                    ← Prev
                   </button>
 
                   {currentQuestionIndex < questions.length - 1 ? (
                     <button
                       type="button"
                       onClick={() => setCurrentQuestionIndex((prev) => Math.min(prev + 1, questions.length - 1))}
-                      className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs sm:text-sm font-medium transition cursor-pointer"
+                      className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs sm:text-sm font-medium transition cursor-pointer"
                     >
-                      Next Question →
+                      Next →
                     </button>
                   ) : (
                     <button
                       type="button"
                       onClick={handleCompleteAssessment}
                       disabled={isAuditingBattery || Object.keys(userAnswers).length < questions.length}
-                      className="px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-xl text-xs sm:text-sm font-semibold transition disabled:opacity-40 shadow-md shadow-emerald-950 cursor-pointer flex items-center space-x-2"
+                      className="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 text-white rounded-xl text-xs sm:text-sm font-semibold transition disabled:opacity-40 shadow-md cursor-pointer flex items-center space-x-2"
                     >
                       {isAuditingBattery ? (
                         <>
                           <div className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                          <span>Generating Cognitive Audit...</span>
+                          <span>Auditing...</span>
                         </>
                       ) : (
                         <span>Complete & Run Audit</span>
@@ -589,64 +576,63 @@ export default function Home() {
               </div>
             )}
 
-            {/* Cognitive Audit Report Screen */}
+            {/* Cognitive Audit Report */}
             {auditResult && (
-              <div className="bg-[#161b22] border border-cyan-500/40 rounded-2xl p-5 sm:p-7 shadow-xl space-y-6">
-                <div className="flex items-center justify-between border-b border-gray-800 pb-4">
+              <div className="bg-[#161b22] border border-cyan-500/40 rounded-2xl p-4 sm:p-7 shadow-xl space-y-5">
+                <div className="flex items-center justify-between border-b border-gray-800 pb-3">
                   <div>
-                    <h2 className="text-lg sm:text-xl font-bold text-white flex items-center space-x-2">
+                    <h2 className="text-base sm:text-xl font-bold text-white flex items-center space-x-2">
                       <span className="text-cyan-400">⚡</span>
                       <span>Cognitive Diagnostic Audit</span>
                     </h2>
-                    <p className="text-xs text-gray-400 mt-0.5">
+                    <p className="text-[11px] sm:text-xs text-gray-400 mt-0.5">
                       Targeted Misconception Remediation Analysis
                     </p>
                   </div>
                   <div className="text-right">
-                    <span className="text-2xl font-black text-cyan-400">
+                    <span className="text-xl sm:text-2xl font-black text-cyan-400">
                       {auditResult.score}/{questions.length}
                     </span>
-                    <span className="block text-[10px] text-gray-400 uppercase tracking-wider">Score</span>
+                    <span className="block text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider">Score</span>
                   </div>
                 </div>
 
                 {/* Identified Misconception */}
-                <div className="p-4 bg-red-950/20 border border-red-900/50 rounded-xl space-y-1.5">
-                  <div className="text-xs font-semibold text-red-400 uppercase tracking-wider flex items-center space-x-1.5">
+                <div className="p-3.5 sm:p-4 bg-red-950/20 border border-red-900/50 rounded-xl space-y-1">
+                  <div className="text-[11px] sm:text-xs font-semibold text-red-400 uppercase tracking-wider flex items-center space-x-1.5">
                     <span>⚠️</span>
                     <span>Identified Reasoning Fallacy</span>
                   </div>
-                  <div className="text-sm text-gray-200 leading-relaxed">
+                  <div className="text-xs sm:text-sm text-gray-200 leading-relaxed overflow-x-auto">
                     <MathRenderer content={auditResult.identifiedMisconception} />
                   </div>
                 </div>
 
                 {/* Mental Model Shift */}
-                <div className="p-4 bg-cyan-950/20 border border-cyan-800/40 rounded-xl space-y-1.5">
-                  <div className="text-xs font-semibold text-cyan-400 uppercase tracking-wider flex items-center space-x-1.5">
+                <div className="p-3.5 sm:p-4 bg-cyan-950/20 border border-cyan-800/40 rounded-xl space-y-1">
+                  <div className="text-[11px] sm:text-xs font-semibold text-cyan-400 uppercase tracking-wider flex items-center space-x-1.5">
                     <span>💡</span>
                     <span>Conceptual Recalibration</span>
                   </div>
-                  <div className="text-sm text-gray-200 leading-relaxed">
+                  <div className="text-xs sm:text-sm text-gray-200 leading-relaxed overflow-x-auto">
                     <MathRenderer content={auditResult.mentalModelShift} />
                   </div>
                 </div>
 
-                {/* Calibration Question */}
-                <div className="p-4 bg-gray-900/60 border border-gray-800 rounded-xl space-y-2">
-                  <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
+                {/* Calibration Verification */}
+                <div className="p-3.5 sm:p-4 bg-gray-900/60 border border-gray-800 rounded-xl space-y-2">
+                  <div className="text-[11px] sm:text-xs font-semibold text-gray-400 uppercase tracking-wider">
                     Instant Sanity Check: Verification Task
                   </div>
-                  <div className="text-sm text-gray-200 font-medium">
+                  <div className="text-xs sm:text-sm text-gray-200 font-medium overflow-x-auto">
                     <MathRenderer content={auditResult.calibrationQuestion} />
                   </div>
-                  <div className="text-xs text-emerald-400 bg-emerald-950/40 border border-emerald-900/40 p-2.5 rounded-lg mt-2">
+                  <div className="text-xs text-emerald-400 bg-emerald-950/40 border border-emerald-900/40 p-2.5 rounded-lg mt-2 overflow-x-auto">
                     <span className="font-semibold">Expected Resolution: </span>
                     <MathRenderer content={auditResult.calibrationExpectedProof} />
                   </div>
                 </div>
 
-                {/* Retake Battery CTA */}
                 <button
                   type="button"
                   onClick={() => {
@@ -665,9 +651,9 @@ export default function Home() {
 
         {/* 2. DOUBT TRACER TAB */}
         {activeTab === "tracer" && (
-          <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-5 sm:p-7 shadow-lg space-y-6">
+          <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-4 sm:p-7 shadow-lg space-y-5">
             <div>
-              <h2 className="text-lg font-bold text-white flex items-center space-x-2">
+              <h2 className="text-base sm:text-lg font-bold text-white flex items-center space-x-2">
                 <span className="text-cyan-400">🔍</span>
                 <span>Multimodal Derivation Tracer</span>
               </h2>
@@ -676,7 +662,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Derivation Text Input */}
             <div>
               <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
                 Type Rough Derivation Steps
@@ -685,12 +670,11 @@ export default function Home() {
                 rows={4}
                 value={derivationText}
                 onChange={(e) => setDerivationText(e.target.value)}
-                placeholder="e.g. Step 1: int(tan(x)sec^2(x)dx)&#10;Step 2: Let u = sec(x), du = sec(x)tan(x)dx&#10;Step 3: ... where did my constant differ?"
-                className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-3 text-sm text-gray-200 focus:outline-none focus:border-cyan-500 font-mono"
+                placeholder="e.g. Step 1: int(tan(x)sec^2(x)dx)&#10;Step 2: Let u = sec(x)..."
+                className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-3 text-xs sm:text-sm text-gray-200 focus:outline-none focus:border-cyan-500 font-mono"
               />
             </div>
 
-            {/* Camera / Photo Capture Option */}
             <div>
               <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
                 Attach Notebook Image / Rough Steps
@@ -724,13 +708,12 @@ export default function Home() {
               </div>
 
               {capturedImage && (
-                <div className="mt-3 relative w-32 h-32 rounded-xl overflow-hidden border border-gray-700">
+                <div className="mt-3 relative w-28 h-28 sm:w-32 sm:h-32 rounded-xl overflow-hidden border border-gray-700">
                   <img src={capturedImage} alt="Captured Derivation" className="w-full h-full object-cover" />
                 </div>
               )}
             </div>
 
-            {/* Trace Derivation CTA */}
             <button
               type="button"
               onClick={handleRunDerivationTrace}
@@ -740,43 +723,33 @@ export default function Home() {
               {isTracingDerivation ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span>Pinpointing Derivation Breakdown...</span>
+                  <span>Pinpointing Breakdown...</span>
                 </>
               ) : (
                 <span>Trace Derivation Breakdown</span>
               )}
             </button>
 
-            {/* Trace Analysis Result */}
             {traceResult && (
-              <div className="p-5 bg-[#0d1117] border border-cyan-500/40 rounded-xl space-y-4 mt-6">
+              <div className="p-4 sm:p-5 bg-[#0d1117] border border-cyan-500/40 rounded-xl space-y-3.5 mt-4">
                 <div className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
                   Derivation Trace Breakdown
                 </div>
-
-                <div className="p-3.5 bg-red-950/20 border border-red-900/40 rounded-lg space-y-1">
-                  <span className="text-[11px] font-semibold text-red-400 uppercase tracking-wider">
-                    Line / Step of Breakdown:
-                  </span>
-                  <div className="text-sm text-gray-200">
+                <div className="p-3 bg-red-950/20 border border-red-900/40 rounded-lg space-y-1">
+                  <span className="text-[11px] font-semibold text-red-400 uppercase tracking-wider">Line of Failure:</span>
+                  <div className="text-xs sm:text-sm text-gray-200 overflow-x-auto">
                     <MathRenderer content={traceResult.stepOfFailure} />
                   </div>
                 </div>
-
-                <div className="p-3.5 bg-yellow-950/20 border border-yellow-900/40 rounded-lg space-y-1">
-                  <span className="text-[11px] font-semibold text-yellow-400 uppercase tracking-wider">
-                    Violated Axiom / Principle:
-                  </span>
-                  <div className="text-sm text-gray-200">
+                <div className="p-3 bg-yellow-950/20 border border-yellow-900/40 rounded-lg space-y-1">
+                  <span className="text-[11px] font-semibold text-yellow-400 uppercase tracking-wider">Violated Principle:</span>
+                  <div className="text-xs sm:text-sm text-gray-200 overflow-x-auto">
                     <MathRenderer content={traceResult.violatedPrinciple} />
                   </div>
                 </div>
-
-                <div className="p-3.5 bg-emerald-950/20 border border-emerald-900/40 rounded-lg space-y-1">
-                  <span className="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider">
-                    Corrected Resolution:
-                  </span>
-                  <div className="text-sm text-gray-200">
+                <div className="p-3 bg-emerald-950/20 border border-emerald-900/40 rounded-lg space-y-1">
+                  <span className="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider">Corrected Resolution:</span>
+                  <div className="text-xs sm:text-sm text-gray-200 overflow-x-auto">
                     <MathRenderer content={traceResult.correctedDerivation} />
                   </div>
                 </div>
@@ -785,13 +758,13 @@ export default function Home() {
           </div>
         )}
 
-        {/* 3. AUDIT LOG / REASONING FOOTPRINT TAB */}
+        {/* 3. AUDIT LOG TAB */}
         {activeTab === "history" && (
-          <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-5 sm:p-7 shadow-lg space-y-5">
+          <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-4 sm:p-6 shadow-lg space-y-4">
             <div className="flex items-center justify-between border-b border-gray-800 pb-3">
               <div>
-                <h2 className="text-lg font-bold text-white">Cognitive Audit Footprint</h2>
-                <p className="text-xs text-gray-400">Past diagnostic sessions and conceptual gap records.</p>
+                <h2 className="text-base sm:text-lg font-bold text-white">Cognitive Audit Footprint</h2>
+                <p className="text-xs text-gray-400">Past diagnostic sessions & gap logs.</p>
               </div>
               {auditLogHistory.length > 0 && (
                 <button
@@ -808,29 +781,29 @@ export default function Home() {
             </div>
 
             {auditLogHistory.length === 0 ? (
-              <div className="text-center py-12 text-gray-500 text-sm">
-                No diagnostic footprints logged yet. Run an assessment to generate audits!
+              <div className="text-center py-10 text-gray-500 text-xs sm:text-sm">
+                No diagnostic footprints logged yet.
               </div>
             ) : (
-              <div className="space-y-3">
+              <div className="space-y-2.5">
                 {auditLogHistory.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-4 bg-[#0d1117] border border-gray-800 rounded-xl space-y-2 hover:border-gray-700 transition"
+                    className="p-3.5 bg-[#0d1117] border border-gray-800 rounded-xl space-y-1.5"
                   >
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center space-x-2">
-                        <span className="text-xs font-semibold text-cyan-400 bg-cyan-950 px-2 py-0.5 rounded">
+                      <div className="flex items-center space-x-2 truncate">
+                        <span className="text-[10px] font-semibold text-cyan-400 bg-cyan-950 px-2 py-0.5 rounded shrink-0">
                           {item.subject}
                         </span>
-                        <span className="text-sm font-medium text-white">{item.topic}</span>
+                        <span className="text-xs sm:text-sm font-medium text-white truncate">{item.topic}</span>
                       </div>
-                      <span className="text-xs text-gray-400">{item.timestamp}</span>
+                      <span className="text-[10px] text-gray-400 shrink-0">{item.timestamp}</span>
                     </div>
 
                     <div className="flex items-center justify-between pt-1 text-xs">
-                      <div className="text-gray-300 flex-1 pr-4 line-clamp-1">
-                        <span className="text-gray-400">Remediated Gap: </span>
+                      <div className="text-gray-300 flex-1 pr-3 line-clamp-1">
+                        <span className="text-gray-400">Gap: </span>
                         <MathRenderer content={item.misconception} />
                       </div>
                       <span className="font-bold text-cyan-300 shrink-0">
