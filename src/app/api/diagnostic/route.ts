@@ -4,6 +4,39 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const apiKey = process.env.GEMINI_API_KEY || "";
 const genAI = new GoogleGenerativeAI(apiKey);
 
+// Helper with automatic retry for 503 high-demand temporary spikes
+async function generateWithRetry(promptOrParts: any, isJson: boolean = true) {
+  const models = ["gemini-3.8-flash", "gemini-2.5-flash"];
+  let lastError: any = null;
+
+  for (const modelName of models) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const model = genAI.getGenerativeModel({ model: modelName });
+        const config = isJson ? { responseMimeType: "application/json" } : {};
+        
+        const contents = Array.isArray(promptOrParts)
+          ? [{ role: "user", parts: promptOrParts }]
+          : [{ role: "user", parts: [{ text: promptOrParts }] }];
+
+        const result = await model.generateContent({
+          contents,
+          generationConfig: config,
+        });
+
+        const text = result.response.text();
+        return isJson ? JSON.parse(text) : text;
+      } catch (err: any) {
+        lastError = err;
+        // Wait 800ms before retrying if server is busy (503/429)
+        await new Promise((res) => setTimeout(res, 800));
+      }
+    }
+  }
+
+  throw lastError;
+}
+
 export async function POST(req: Request) {
   try {
     if (!apiKey) {
@@ -15,8 +48,6 @@ export async function POST(req: Request) {
 
     const body = await req.json();
     const { action, standard, board, subject, topic, questions, userAnswers, derivationText, imageData } = body;
-
-    const model = genAI.getGenerativeModel({ model: "gemini-3.8-flash" });
 
     // 1. GENERATE BATTERY
     if (action === "generate_battery" || action === "generate") {
@@ -41,14 +72,7 @@ Return ONLY a valid JSON array of 4 objects with this exact schema:
   }
 ]`;
 
-      const result = await model.generateContent({
-        contents: [{ role: "user", parts: [{ text: prompt }] }],
-        generationConfig: { responseMimeType: "application/json" }
-      });
-
-      const responseText = result.response.text();
-      const parsedQuestions = JSON.parse(responseText);
-
+      const parsedQuestions = await generateWithRetry(prompt, true);
       return NextResponse.json({ questions: parsedQuestions });
     }
 
@@ -70,12 +94,7 @@ Return ONLY valid JSON matching this schema:
   "calibrationExpectedProof": "Brief expected resolution"
 }`;
 
-      const result = await model.generateContent({
-        contents: [{ role: "user", parts: [{ text: prompt }] }],
-        generationConfig: { responseMimeType: "application/json" }
-      });
-
-      const parsedAudit = JSON.parse(result.response.text());
+      const parsedAudit = await generateWithRetry(prompt, true);
       return NextResponse.json({ audit: parsedAudit });
     }
 
@@ -88,8 +107,8 @@ Return ONLY valid JSON matching this schema:
         parts.push({
           inlineData: {
             data: base64Data,
-            mimeType: "image/jpeg"
-          }
+            mimeType: "image/jpeg",
+          },
         });
       }
 
@@ -103,16 +122,11 @@ Return ONLY valid JSON with this exact schema:
   "stepOfFailure": "Line or step where the error occurred (use LaTeX $...$)",
   "violatedPrinciple": "The mathematical axiom or law that was incorrectly applied",
   "correctedDerivation": "The accurate step-by-step resolution from that point onwards",
-  "calibrationVerification": "A quick sanity check check question"
-}`
+  "calibrationVerification": "A quick sanity check question"
+}`,
       });
 
-      const result = await model.generateContent({
-        contents: [{ role: "user", parts }],
-        generationConfig: { responseMimeType: "application/json" }
-      });
-
-      const parsedTrace = JSON.parse(result.response.text());
+      const parsedTrace = await generateWithRetry(parts, true);
       return NextResponse.json({ trace: parsedTrace });
     }
 
