@@ -1,44 +1,75 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0d1117;
+  --foreground: #ededed;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html,
+body {
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+/* iOS & Android input/select focus auto-zoom prevention */
+select,
+input,
+textarea,
+button {
+  font-size: 16px !important;
+  touch-action: manipulation;
+}
+
+@media (min-width: 640px) {
+  select,
+  input,
+  textarea,
+  button {
+    font-size: 0.875rem !important; /* 14px on desktop / tablets */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* KaTeX formula horizontal scroll fix on mobile */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+  max-width: 100%;
 }
 
-/* Mobile Touch & Click Enforcer */
-button, select, input, textarea {
-  touch-action: manipulation;
-  -webkit-tap-highlight-color: transparent;
-  pointer-events: auto !important;
+.katex {
+  max-width: 100%;
+  font-size: 1.05em;
 }
 
-header {
-  position: relative;
-  z-index: 50 !important;
-  pointer-events: auto !important;
+/* Custom scrollbar for mathematical expressions */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
 }
 
-header button {
-  pointer-events: auto !important;
-  cursor: pointer !important;
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #21262d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #30363d;
 }
