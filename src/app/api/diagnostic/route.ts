@@ -9,7 +9,7 @@ if (!apiKey) {
 
 const genAI = new GoogleGenerativeAI(apiKey || "");
 
-// Exponential Backoff Retry Function
+// Exponential Backoff Retry Function to handle 503 Service Unavailable / Rate Limits
 async function callGeminiWithRetry(prompt: string, maxRetries = 4, initialDelayMs = 2000) {
   let delay = initialDelayMs;
   const model = genAI.getGenerativeModel({ model: "gemini-3.8-flash" });
@@ -34,7 +34,7 @@ async function callGeminiWithRetry(prompt: string, maxRetries = 4, initialDelayM
           `[Attempt ${attempt}/${maxRetries}] gemini-3.8-flash busy (503/429). Retrying in ${delay}ms...`
         );
         await new Promise((resolve) => setTimeout(resolve, delay));
-        delay *= 2; // Agla wait time double hoga (2s -> 4s -> 8s)
+        delay *= 2; // Wait time doubles each round (2s -> 4s -> 8s)
       } else {
         console.error(`Final failure on attempt ${attempt}:`, error);
         throw error;
@@ -47,17 +47,43 @@ async function callGeminiWithRetry(prompt: string, maxRetries = 4, initialDelayM
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { prompt } = body;
 
-    if (!prompt) {
-      return NextResponse.json(
-        { error: "Prompt is required in request body." },
-        { status: 400 }
-      );
-    }
+    // UI form fields & direct prompt support
+    const {
+      prompt,
+      grade,
+      standard,
+      board,
+      syllabus,
+      subject,
+      stream,
+      topic,
+      chapter,
+      customTopic,
+    } = body;
 
-    // Call model with retry logic
-    const textOutput = await callGeminiWithRetry(prompt);
+    const selectedGrade = grade || standard || "Class 12";
+    const selectedBoard = board || syllabus || "CBSE (NCERT)";
+    const selectedSubject = subject || stream || "Mathematics";
+    const selectedTopic = customTopic || topic || chapter || "Continuity and Differentiability";
+
+    // Agar direct prompt nahi aaya, toh UI inputs se prompt construct karo
+    const finalPrompt =
+      prompt ||
+      `Act as an expert STEM educational diagnostic assessment engine.
+Create a structured diagnostic test for a student with the following specifications:
+- Standard / Grade: ${selectedGrade}
+- Board / Syllabus: ${selectedBoard}
+- Subject / Stream: ${selectedSubject}
+- Chapter / Topic: ${selectedTopic}
+
+Requirements:
+1. Provide diagnostic multiple-choice questions focusing on core conceptual understanding, common misconceptions, and logical reasoning.
+2. For each question, provide 4 options (A, B, C, D) along with the correct answer and a brief conceptual explanation.
+3. Keep the output strictly formatted, clean, and unambiguous.`;
+
+    // Execute call with exponential backoff retry
+    const textOutput = await callGeminiWithRetry(finalPrompt);
 
     return NextResponse.json({
       success: true,
@@ -73,7 +99,7 @@ export async function POST(req: NextRequest) {
       {
         success: false,
         error: isDemandError
-          ? "Google Gemini servers are facing extreme traffic spikes. Please retry in a few seconds."
+          ? "Google Gemini servers are facing temporary high demand. Please try again in a few seconds."
           : (error?.message || "Internal Server Error"),
       },
       { status: isDemandError ? 503 : 500 }
