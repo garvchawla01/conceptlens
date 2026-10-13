@@ -10,15 +10,22 @@ export async function POST(req: NextRequest) {
       body.customTopic ||
       "Continuity and Differentiability";
 
-    // Question bank se questions load karein
     const questions =
       QUESTION_BANK[topic] ||
       QUESTION_BANK["Continuity and Differentiability"];
 
+    // Frontend ko exact format bhejo jisme score/eval data pehle se configured ho
     return NextResponse.json({
       success: true,
       questions: questions,
-      source: "verified_question_bank",
+      score: {
+        total: questions.length,
+        obtained: 0
+      },
+      evaluation: {
+        totalQuestions: questions.length,
+        diagnosticSummary: "Diagnostic assessment loaded successfully."
+      }
     });
   } catch (error: any) {
     console.error("Diagnostic Route Error:", error);
