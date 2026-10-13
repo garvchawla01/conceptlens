@@ -28,16 +28,15 @@ interface AssessmentResult {
     explanation?: string;
     conceptTag?: string;
   }[];
+  weakConcepts: string[];
 }
 
 export default function ConceptLensDashboard() {
-  // Dropdown States
   const [standard, setStandard] = useState("Class 12");
   const [board, setBoard] = useState("CBSE (NCERT)");
   const [subject, setSubject] = useState("Mathematics");
   const [topic, setTopic] = useState("Continuity and Differentiability");
 
-  // Assessment Lifecycle States
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [questions, setQuestions] = useState<DiagnosticQuestion[]>([]);
@@ -45,7 +44,10 @@ export default function ConceptLensDashboard() {
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
   const [result, setResult] = useState<AssessmentResult | null>(null);
 
-  // Helper to extract clean display text from any options format
+  // Per-question AI diagnosis loading & results
+  const [aiDiagnoses, setAiDiagnoses] = useState<Record<number, string>>({});
+  const [loadingAi, setLoadingAi] = useState<Record<number, boolean>>({});
+
   const getOptionText = (opt: any): string => {
     if (typeof opt === "string") return opt;
     if (opt && typeof opt === "object") {
@@ -54,7 +56,6 @@ export default function ConceptLensDashboard() {
     return String(opt);
   };
 
-  // Helper to extract option key/identifier for selection matching
   const getOptionKey = (opt: any, index: number): string => {
     const letters = ["A", "B", "C", "D", "E"];
     if (typeof opt === "string") return opt;
@@ -64,13 +65,13 @@ export default function ConceptLensDashboard() {
     return letters[index] || String(index);
   };
 
-  // Start Assessment Handler
   const handleStartAssessment = async () => {
     setLoading(true);
     setErrorMessage(null);
     setResult(null);
     setSelectedAnswers({});
     setCurrentIndex(0);
+    setAiDiagnoses({});
 
     try {
       const res = await fetch("/api/diagnostic", {
@@ -86,7 +87,6 @@ export default function ConceptLensDashboard() {
       });
 
       const data = await res.json();
-
       if (!res.ok || !data.success) {
         throw new Error(data.error || "Failed to load diagnostic assessment.");
       }
@@ -103,7 +103,6 @@ export default function ConceptLensDashboard() {
     }
   };
 
-  // Option Select Handler
   const handleSelectOption = (optKey: string) => {
     setSelectedAnswers((prev) => ({
       ...prev,
@@ -111,15 +110,15 @@ export default function ConceptLensDashboard() {
     }));
   };
 
-  // Submit Assessment & Calculate Score Safely
   const handleSubmitAssessment = () => {
     try {
       let obtained = 0;
+      const weakList: string[] = [];
+
       const details = questions.map((q, idx) => {
         const userChoice = selectedAnswers[idx] || "";
         const correct = q.correctAnswer || "";
 
-        // Normalize comparison
         const isMatch =
           userChoice.trim().toLowerCase() === correct.trim().toLowerCase() ||
           userChoice.startsWith(correct) ||
@@ -127,6 +126,10 @@ export default function ConceptLensDashboard() {
 
         if (isMatch && userChoice !== "") {
           obtained += 1;
+        } else {
+          if (q.conceptTag && !weakList.includes(q.conceptTag)) {
+            weakList.push(q.conceptTag);
+          }
         }
 
         return {
@@ -144,16 +147,42 @@ export default function ConceptLensDashboard() {
       const percentage = Math.round((obtained / (total || 1)) * 100);
 
       setResult({
-        score: {
-          total,
-          obtained,
-          percentage,
-        },
+        score: { total, obtained, percentage },
         answers: selectedAnswers,
         details,
+        weakConcepts: weakList,
       });
     } catch (err: any) {
       setErrorMessage("Error evaluating assessment score.");
+    }
+  };
+
+  // Trigger Targeted AI Deep Dive for Weak Concept
+  const handleFetchAiDiagnosis = async (idx: number, item: any) => {
+    setLoadingAi((prev) => ({ ...prev, [idx]: true }));
+    try {
+      const res = await fetch("/api/explain", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question: item.question,
+          selectedOption: item.selected,
+          correctOption: item.correct,
+          conceptTag: item.conceptTag,
+          defaultExplanation: item.explanation,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setAiDiagnoses((prev) => ({ ...prev, [idx]: data.aiDiagnosis }));
+      }
+    } catch (err) {
+      setAiDiagnoses((prev) => ({
+        ...prev,
+        [idx]: item.explanation || "Review fundamental concepts of derivatives.",
+      }));
+    } finally {
+      setLoadingAi((prev) => ({ ...prev, [idx]: false }));
     }
   };
 
@@ -184,7 +213,7 @@ export default function ConceptLensDashboard() {
 
       {/* Error Alert */}
       {errorMessage && (
-        <div className="w-full max-w-4xl mb-6 p-4 rounded-xl bg-red-950/60 border border-red-800/80 text-red-200 text-sm flex items-center justify-between animate-fade-in">
+        <div className="w-full max-w-4xl mb-6 p-4 rounded-xl bg-red-950/60 border border-red-800/80 text-red-200 text-sm flex items-center justify-between">
           <span>✕ {errorMessage}</span>
           <button
             onClick={() => setErrorMessage(null)}
@@ -236,7 +265,6 @@ export default function ConceptLensDashboard() {
               className="w-full bg-slate-950 border border-slate-700/80 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-cyan-500"
             >
               <option value="Mathematics">Mathematics</option>
-              <option value="Physics">Physics</option>
             </select>
           </div>
 
@@ -286,12 +314,10 @@ export default function ConceptLensDashboard() {
             </div>
           </div>
 
-          {/* Question Text with Math rendering support */}
           <div className="text-base sm:text-lg font-medium text-slate-100 mb-6 leading-relaxed">
             <MathRenderer content={currentQ.question} />
           </div>
 
-          {/* Options List */}
           <div className="space-y-3 mb-6">
             {currentQ.options.map((opt, optIdx) => {
               const optText = getOptionText(opt);
@@ -326,7 +352,6 @@ export default function ConceptLensDashboard() {
             })}
           </div>
 
-          {/* Navigation Buttons */}
           <div className="flex items-center justify-between pt-4 border-t border-slate-800">
             <button
               onClick={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
@@ -355,7 +380,7 @@ export default function ConceptLensDashboard() {
         </section>
       )}
 
-      {/* Results View */}
+      {/* Comprehensive Diagnostic Report */}
       {result && (
         <section className="w-full max-w-4xl bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 shadow-xl mb-6">
           <div className="text-center pb-6 border-b border-slate-800">
@@ -379,15 +404,40 @@ export default function ConceptLensDashboard() {
             </div>
           </div>
 
-          {/* Breakdown & Misconception Insights */}
+          {/* Critical Knowledge Gaps Summary */}
+          {result.weakConcepts.length > 0 ? (
+            <div className="mt-6 p-4 rounded-xl bg-amber-950/20 border border-amber-800/50">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-amber-400 font-bold text-sm">⚠ Identified Knowledge Gaps:</span>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {result.weakConcepts.map((gap, i) => (
+                  <span
+                    key={i}
+                    className="text-xs bg-amber-950/60 text-amber-300 border border-amber-700/50 px-2.5 py-1 rounded-md font-medium"
+                  >
+                    {gap}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="mt-6 p-4 rounded-xl bg-emerald-950/20 border border-emerald-800/50">
+              <p className="text-emerald-400 font-semibold text-sm">
+                🎉 No conceptual misconceptions detected. Strong mastery demonstrated!
+              </p>
+            </div>
+          )}
+
+          {/* Detailed Question Review & AI Misconception Diagnosis */}
           <div className="mt-6 space-y-4">
             <h3 className="text-sm font-semibold text-slate-300 uppercase tracking-wider">
-              Concept Breakdown & Analysis
+              Question Breakdown & Cognitive Analysis
             </h3>
             {result.details.map((item, idx) => (
               <div
                 key={idx}
-                className={`p-4 rounded-xl border ${
+                className={`p-5 rounded-xl border ${
                   item.isCorrect
                     ? "bg-slate-950/50 border-emerald-900/60"
                     : "bg-red-950/20 border-red-900/60"
@@ -402,26 +452,49 @@ export default function ConceptLensDashboard() {
                       item.isCorrect ? "text-emerald-400" : "text-red-400"
                     }`}
                   >
-                    {item.isCorrect ? "✓ Correct" : "✕ Needs Review"}
+                    {item.isCorrect ? "✓ Mastered" : "✕ Misconception Detected"}
                   </span>
                 </div>
 
-                <div className="text-sm text-slate-200 mb-2 font-medium">
+                <div className="text-sm text-slate-200 mb-3 font-medium">
                   <MathRenderer content={item.question} />
                 </div>
 
                 {item.conceptTag && (
-                  <p className="text-xs text-cyan-400 mb-2">
+                  <p className="text-xs text-cyan-400 mb-3">
                     <span className="font-semibold text-slate-400">Target Concept:</span>{" "}
                     {item.conceptTag}
                   </p>
                 )}
 
+                {/* Standard Explanation */}
                 {item.explanation && (
-                  <p className="text-xs text-slate-300 bg-slate-900 p-2.5 rounded-lg border border-slate-800 mt-2">
-                    <span className="font-semibold text-cyan-300">Explanation:</span>{" "}
+                  <div className="text-xs text-slate-300 bg-slate-900/90 p-3 rounded-lg border border-slate-800 mb-3">
+                    <span className="font-bold text-cyan-400">Standard Rule:</span>{" "}
                     {item.explanation}
-                  </p>
+                  </div>
+                )}
+
+                {/* Targeted AI Misconception Diagnosis for Incorrect Answers */}
+                {!item.isCorrect && (
+                  <div className="pt-2 border-t border-red-950">
+                    {aiDiagnoses[idx] ? (
+                      <div className="mt-2 p-3.5 rounded-lg bg-cyan-950/30 border border-cyan-800/80 text-xs leading-relaxed text-cyan-200">
+                        <div className="flex items-center gap-1.5 font-bold text-cyan-400 mb-1.5">
+                          <span>✦ AI Cognitive Diagnostic Analysis:</span>
+                        </div>
+                        <p className="whitespace-pre-line">{aiDiagnoses[idx]}</p>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={() => handleFetchAiDiagnosis(idx, item)}
+                        disabled={loadingAi[idx]}
+                        className="mt-2 text-xs bg-cyan-950/70 hover:bg-cyan-900 border border-cyan-800 text-cyan-300 font-semibold py-1.5 px-3 rounded-lg transition flex items-center gap-2"
+                      >
+                        {loadingAi[idx] ? "Diagnosing with AI..." : "✦ Diagnose My Misconception (AI)"}
+                      </button>
+                    )}
+                  </div>
                 )}
               </div>
             ))}
@@ -432,6 +505,7 @@ export default function ConceptLensDashboard() {
               setResult(null);
               setQuestions([]);
               setSelectedAnswers({});
+              setAiDiagnoses({});
             }}
             className="w-full mt-6 bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2.5 rounded-xl text-sm transition"
           >
