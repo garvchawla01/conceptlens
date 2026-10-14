@@ -1,4 +1,4 @@
-"import client";
+"use client";
 
 import React, { useState, useEffect } from "react";
 import { CURRICULA_DATABASE, SubjectCurriculum, MCQQuestion } from "@/data/curricula";
