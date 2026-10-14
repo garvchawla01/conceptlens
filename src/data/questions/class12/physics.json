@@ -1,0 +1,734 @@
+{
+  "class": 12,
+  "subject": "Physics",
+  "PhysicsMCQs": [
+    {
+      "id": "c12_phy_ch01_01",
+      "question": "What is the SI unit of electric flux?",
+      "options": [
+        "N m^2 C^-1",
+        "N m C^-1",
+        "V m^-1",
+        "C^2 N^-1 m^-2"
+      ],
+      "correctAnswer": "N m^2 C^-1",
+      "conceptTag": "Electric Flux",
+      "explanation": "Electric flux $\\Phi = E \\cdot A$, where electric field $E$ has units of N/C and area $A$ has units of m^2, giving N m^2 C^-1 (or V m)."
+    },
+    {
+      "id": "c12_phy_ch01_02",
+      "question": "According to Gauss's Law, the total electric flux through a closed surface is equal to:",
+      "options": [
+        "Net charge enclosed divided by $\\varepsilon_0$",
+        "Net charge enclosed multiplied by $\\varepsilon_0$",
+        "Total charge inside and outside divided by $\\varepsilon_0$",
+        "Zero"
+      ],
+      "correctAnswer": "Net charge enclosed divided by $\\varepsilon_0$",
+      "conceptTag": "Gauss's Law",
+      "explanation": "Gauss's Law states that $\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{q_{enclosed}}{\\varepsilon_0}$."
+    },
+    {
+      "id": "c12_phy_ch01_03",
+      "question": "A point charge $+q$ is placed at the center of a cube of side $L$. What is the electric flux passing through one face of the cube?",
+      "options": [
+        "\\frac{q}{\\varepsilon_0}",
+        "\\frac{q}{6\\varepsilon_0}",
+        "\\frac{q}{4\\pi\\varepsilon_0}",
+        "\\frac{6q}{\\varepsilon_0}"
+      ],
+      "correctAnswer": "\\frac{q}{6\\varepsilon_0}",
+      "conceptTag": "Applications of Gauss's Law",
+      "explanation": "Total flux through the 6 faces of the cube is $\\frac{q}{\\varepsilon_0}$. By symmetry, the flux through each face is $\\frac{q}{6\\varepsilon_0}$."
+    },
+    {
+      "id": "c12_phy_ch01_04",
+      "question": "The force between two point charges placed at a distance $r$ apart in air is $F$. If the distance is doubled, the new force will be:",
+      "options": [
+        "2F",
+        "4F",
+        "F/2",
+        "F/4"
+      ],
+      "correctAnswer": "F/4",
+      "conceptTag": "Coulomb's Law",
+      "explanation": "According to Coulomb's law, $F \\propto \\frac{1}{r^2}$. Doubling the distance $r$ reduces the force by a factor of $2^2 = 4$."
+    },
+    {
+      "id": "c12_phy_ch02_01",
+      "question": "The electric potential at a distance $r$ from a point charge $q$ is proportional to:",
+      "options": [
+        "r",
+        "1/r",
+        "1/r^2",
+        "r^2"
+      ],
+      "correctAnswer": "1/r",
+      "conceptTag": "Electrostatic Potential",
+      "explanation": "Electric potential due to a point charge is given by $V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}$, which is inversely proportional to $r$."
+    },
+    {
+      "id": "c12_phy_ch02_02",
+      "question": "What is the equivalent capacitance of two capacitors of capacitance $C_1$ and $C_2$ connected in series?",
+      "options": [
+        "C_1 + C_2",
+        "\\frac{C_1 C_2}{C_1 + C_2}",
+        "\\frac{C_1 + C_2}{C_1 C_2}",
+        "\\frac{1}{C_1} + \\frac{1}{C_2}"
+      ],
+      "correctAnswer": "\\frac{C_1 C_2}{C_1 + C_2}",
+      "conceptTag": "Capacitors in Series",
+      "explanation": "For series combination of capacitors, $\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} \\implies C_{eq} = \\frac{C_1 C_2}{C_1 + C_2}$."
+    },
+    {
+      "id": "c12_phy_ch02_03",
+      "question": "The energy stored in a charged capacitor of capacitance $C$ with potential difference $V$ is given by:",
+      "options": [
+        "CV",
+        "\\frac{1}{2} C V^2",
+        "C V^2",
+        "\\frac{1}{2} \\frac{V}{C}"
+      ],
+      "correctAnswer": "\\frac{1}{2} C V^2",
+      "conceptTag": "Electrostatic Energy",
+      "explanation": "Energy stored in a capacitor is $U = \\frac{1}{2}CV^2$ (or $\\frac{1}{2}QV$ or $\\frac{Q^2}{2C}$)."
+    },
+    {
+      "id": "c12_phy_ch02_04",
+      "question": "Equipotential surfaces are always:",
+      "options": [
+        "Parallel to the electric field lines",
+        "Perpendicular to the electric field lines",
+        "At 45 degrees to electric field lines",
+        "Independent of electric field lines"
+      ],
+      "correctAnswer": "Perpendicular to the electric field lines",
+      "conceptTag": "Equipotential Surfaces",
+      "explanation": "Electric field lines are always perpendicular to equipotential surfaces at every point."
+    },
+    {
+      "id": "c12_phy_ch03_01",
+      "question": "Ohm's law is valid when the temperature of the conductor is:",
+      "options": [
+        "Kept constant",
+        "Continuously increasing",
+        "Very high",
+        "Zero Kelvin"
+      ],
+      "correctAnswer": "Kept constant",
+      "conceptTag": "Ohm's Law",
+      "explanation": "Ohm's law states that current is proportional to voltage provided physical conditions such as temperature remain constant."
+    },
+    {
+      "id": "c12_phy_ch03_02",
+      "question": "The resistivity of a metallic conductor typically depends upon:",
+      "options": [
+        "Length of the wire",
+        "Cross-sectional area",
+        "Nature of the material and temperature",
+        "Applied voltage"
+      ],
+      "correctAnswer": "Nature of the material and temperature",
+      "conceptTag": "Electrical Resistivity",
+      "explanation": "Resistivity is an intrinsic property of the material and varies with temperature, independent of dimensions like length or area."
+    },
+    {
+      "id": "c12_phy_ch03_03",
+      "question": "Kirchhoff's first law (junction rule) is based on the conservation of:",
+      "options": [
+        "Energy",
+        "Charge",
+        "Momentum",
+        "Mass"
+      ],
+      "correctAnswer": "Charge",
+      "conceptTag": "Kirchhoff's Laws",
+      "explanation": "Kirchhoff's current law states that the sum of currents entering a junction equals the sum leaving, reflecting the conservation of electric charge."
+    },
+    {
+      "id": "c12_phy_ch03_04",
+      "question": "A potentiometer is preferred over a voltmeter for measuring EMF of a cell because:",
+      "options": [
+        "It draws no current from the cell at balance point",
+        "It is portable",
+        "It has a lower resistance",
+        "It uses digital display"
+      ],
+      "correctAnswer": "It draws no current from the cell at balance point",
+      "conceptTag": "Potentiometer",
+      "explanation": "At the null/balance point, a potentiometer draws zero current from the cell being measured, giving an accurate measure of open-circuit EMF."
+    },
+    {
+      "id": "c12_phy_ch04_01",
+      "question": "Magnetic force on a moving charge $q$ with velocity $\\vec{v}$ in a magnetic field $\\vec{B}$ is given by:",
+      "options": [
+        "\\vec{F} = q(\\vec{v} \\times \\vec{B})",
+        "\\vec{F} = q(\\vec{B} \\times \\vec{v})",
+        "\\vec{F} = \\frac{q \\vec{v}}{\\vec{B}}",
+        "\\vec{F} = q(v \\cdot B)"
+      ],
+      "correctAnswer": "\\vec{F} = q(\\vec{v} \\times \\vec{B})",
+      "conceptTag": "Lorentz Magnetic Force",
+      "explanation": "The magnetic force vector is given by the cross product $\\vec{F} = q(\\vec{v} \\times \\vec{B})$."
+    },
+    {
+      "id": "c12_phy_ch04_02",
+      "question": "The path of a charged particle moving perpendicular to a uniform magnetic field is:",
+      "options": [
+        "Straight line",
+        "Circular",
+        "Parabolic",
+        "Helical"
+      ],
+      "correctAnswer": "Circular",
+      "conceptTag": "Motion in Magnetic Field",
+      "explanation": "When velocity is perpendicular to a uniform magnetic field, the magnetic force provides centripetal force, resulting in uniform circular motion."
+    },
+    {
+      "id": "c12_phy_ch04_03",
+      "question": "Bio-Savart law expresses the magnetic field due to a current element. The magnetic field $dB$ is proportional to:",
+      "options": [
+        "Inverse square of distance ($1/r^2$)",
+        "Inverse of distance ($1/r$)",
+        "Distance ($r$)",
+        "Distance squared ($r^2$)"
+      ],
+      "correctAnswer": "Inverse square of distance ($1/r^2$)",
+      "conceptTag": "Biot-Savart Law",
+      "explanation": "Bio-Savart law states $dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin\\theta}{r^2}$, showing inverse square dependence on distance $r$."
+    },
+    {
+      "id": "c12_phy_ch04_04",
+      "question": "Torque experienced by a current-carrying rectangular loop in a uniform magnetic field is maximum when the angle between area vector and magnetic field is:",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "correctAnswer": "90°",
+      "conceptTag": "Torque on Current Loop",
+      "explanation": "Torque $\\tau = NIAB \\sin\\theta$ (where $\\theta$ is angle between area vector and $B$). It is maximum when $\\theta = 90°$ (or plane of coil is parallel to $B$)."
+    },
+    {
+      "id": "c12_phy_ch05_01",
+      "question": "Magnetic field lines inside a bar magnet are directed from:",
+      "options": [
+        "North pole to South pole",
+        "South pole to North pole",
+        "Center to poles",
+        "Poles to center"
+      ],
+      "correctAnswer": "South pole to North pole",
+      "conceptTag": "Bar Magnet Properties",
+      "explanation": "Outside a magnet, field lines run from North to South, but inside they complete closed loops running from South to North."
+    },
+    {
+      "id": "c12_phy_ch05_02",
+      "question": "For a diamagnetic substance, magnetic susceptibility ($\\chi$) is:",
+      "options": [
+        "Small and positive",
+        "Large and positive",
+        "Small and negative",
+        "Zero"
+      ],
+      "correctAnswer": "Small and negative",
+      "conceptTag": "Magnetic Materials",
+      "explanation": "Diamagnetic substances are repelled by magnets and have a small negative magnetic susceptibility ($\\chi < 0$)."
+    },
+    {
+      "id": "c12_phy_ch05_03",
+      "question": "Curie's Law states that magnetic susceptibility of a paramagnetic material is inversely proportional to:",
+      "options": [
+        "Absolute temperature ($T$)",
+        "Magnetic field ($B$)",
+        "Density",
+        "Square of temperature ($T^2$)"
+      ],
+      "correctAnswer": "Absolute temperature ($T$)",
+      "conceptTag": "Curie's Law",
+      "explanation": "Curie's Law states $\\chi = \\frac{C}{T}$, meaning susceptibility is inversely proportional to absolute temperature $T$."
+    },
+    {
+      "id": "c12_phy_ch05_04",
+      "question": "At the magnetic equator of the Earth, the angle of dip is:",
+      "options": [
+        "0°",
+        "90°",
+        "45°",
+        "180°"
+      ],
+      "correctAnswer": "0°",
+      "conceptTag": "Earth's Magnetism",
+      "explanation": "At the magnetic equator, magnetic field lines are horizontal, so the angle of dip (inclination) is 0°."
+    },
+    {
+      "id": "c12_phy_ch06_01",
+      "question": "Lenz's law is a consequence of the conservation of:",
+      "options": [
+        "Charge",
+        "Energy",
+        "Momentum",
+        "Magnetic flux"
+      ],
+      "correctAnswer": "Energy",
+      "conceptTag": "Lenz's Law",
+      "explanation": "Lenz's law states that induced emf opposes the change causing it, which directly upholds the law of conservation of energy."
+    },
+    {
+      "id": "c12_phy_ch06_02",
+      "question": "The SI unit of magnetic flux is:",
+      "options": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Tesla per meter"
+      ],
+      "correctAnswer": "Weber",
+      "conceptTag": "Magnetic Flux",
+      "explanation": "Magnetic flux $\\Phi_B$ is measured in Webers (Wb), where $1\\text{ Wb} = 1\\text{ T}\\cdot\\text{m}^2$."
+    },
+    {
+      "id": "c12_phy_ch06_03",
+      "question": "Self-inductance ($L$) of a long solenoid depends upon:",
+      "options": [
+        "Current flowing through it",
+        "Geometry (number of turns, area, length) and core permeability",
+        "Applied voltage",
+        "Frequency of AC source"
+      ],
+      "correctAnswer": "Geometry (number of turns, area, length) and core permeability",
+      "conceptTag": "Self-Inductance",
+      "explanation": "Self-inductance depends purely on geometric factors and magnetic permeability of the core medium, independent of current."
+    },
+    {
+      "id": "c12_phy_ch06_04",
+      "question": "Eddy currents are produced when:",
+      "options": [
+        "A metal is placed in a varying magnetic field",
+        "Steady DC current flows in a wire",
+        "Capacitor is charged",
+        "Dielectric is polarized"
+      ],
+      "correctAnswer": "A metal is placed in a varying magnetic field",
+      "conceptTag": "Eddy Currents",
+      "explanation": "Eddy currents are circulating loops of induced electric current generated in bulk conductors exposed to changing magnetic fields."
+    },
+    {
+      "id": "c12_phy_ch07_01",
+      "question": "In a purely resistive AC circuit, voltage and current are:",
+      "options": [
+        "In phase",
+        "Out of phase by 90°",
+        "Out of phase by 180°",
+        "Out of phase by 45°"
+      ],
+      "correctAnswer": "In phase",
+      "conceptTag": "AC Circuits",
+      "explanation": "In a pure resistor, alternating voltage and alternating current reach their peak and zero values simultaneously, meaning they are in phase."
+    },
+    {
+      "id": "c12_phy_ch07_02",
+      "question": "Resonance frequency ($f_r$) of a series LCR circuit is given by:",
+      "options": [
+        "\\frac{1}{2\\pi\\sqrt{LC}}",
+        "2\\pi\\sqrt{LC}",
+        "\\frac{1}{\\sqrt{LC}}",
+        "\\frac{L}{C}"
+      ],
+      "correctAnswer": "\\frac{1}{2\\pi\\sqrt{LC}}",
+      "conceptTag": "LCR Resonance",
+      "explanation": "Resonance occurs when inductive reactance equals capacitive reactance ($X_L = X_C$), yielding angular frequency $\\omega_r = \\frac{1}{\\sqrt{LC}}$ or frequency $f_r = \\frac{1}{2\\pi\\sqrt{LC}}$."
+    },
+    {
+      "id": "c12_phy_ch07_03",
+      "question": "The power factor ($\\cos\\phi$) of an LCR series circuit at resonance is equal to:",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "Infinity"
+      ],
+      "correctAnswer": "1",
+      "conceptTag": "Power Factor",
+      "explanation": "At resonance, inductive and capacitive reactances cancel out making impedance $Z = R$, so phase angle $\\phi = 0$ and power factor $\\cos(0) = 1$."
+    },
+    {
+      "id": "c12_phy_ch07_04",
+      "question": "A step-down transformer steps up:",
+      "options": [
+        "Voltage",
+        "Current",
+        "Frequency",
+        "Power output"
+      ],
+      "correctAnswer": "Current",
+      "conceptTag": "Transformers",
+      "explanation": "A step-down transformer reduces voltage while proportionately stepping up the secondary current (assuming ideal 100% efficiency)."
+    },
+    {
+      "id": "c12_phy_ch08_01",
+      "question": "Electromagnetic waves are produced by:",
+      "options": [
+        "Stationary charges",
+        "Accelerated charges",
+        "Charges moving at constant velocity",
+        "Neutrons"
+      ],
+      "correctAnswer": "Accelerated charges",
+      "conceptTag": "Production of EM Waves",
+      "explanation": "Accelerated charges radiate electromagnetic waves consisting of oscillating electric and magnetic fields."
+    },
+    {
+      "id": "c12_phy_ch08_02",
+      "question": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "X-rays",
+        "Gamma rays"
+      ],
+      "correctAnswer": "Gamma rays",
+      "conceptTag": "Electromagnetic Spectrum",
+      "explanation": "In the EM spectrum, gamma rays have the highest frequency and shortest wavelength."
+    },
+    {
+      "id": "c12_phy_ch08_03",
+      "question": "The speed of electromagnetic waves in vacuum is given by:",
+      "options": [
+        "c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}",
+        "c = \\sqrt{\\mu_0 \\varepsilon_0}",
+        "c = \\frac{\\mu_0}{\\varepsilon_0}",
+        "c = \\mu_0 \\varepsilon_0"
+      ],
+      "correctAnswer": "c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}",
+      "conceptTag": "Speed of EM Waves",
+      "explanation": "Maxwell's equations establish that the speed of light in vacuum is $c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}$."
+    },
+    {
+      "id": "c12_phy_ch08_04",
+      "question": "Electromagnetic waves carry:",
+      "options": [
+        "Energy only",
+        "Momentum only",
+        "Both energy and momentum",
+        "Neither energy nor momentum"
+      ],
+      "correctAnswer": "Both energy and momentum",
+      "conceptTag": "Energy and Momentum of EM Waves",
+      "explanation": "EM waves carry both energy and linear momentum, exerting radiation pressure when striking surfaces."
+    },
+    {
+      "id": "c12_phy_ch09_01",
+      "question": "Refractive index of a medium with respect to vacuum is always:",
+      "options": [
+        "Equal to 1",
+        "Less than 1",
+        "Greater than 1",
+        "Zero"
+      ],
+      "correctAnswer": "Greater than 1",
+      "conceptTag": "Refractive Index",
+      "explanation": "Since light travels fastest in vacuum ($c$), the refractive index $n = c/v$ is always greater than 1 for any material medium."
+    },
+    {
+      "id": "c12_phy_ch09_02",
+      "question": "Total internal reflection can occur when light travels from:",
+      "options": [
+        "Rarer medium to denser medium",
+        "Denser medium to rarer medium",
+        "Air to water",
+        "Vacuum to glass"
+      ],
+      "correctAnswer": "Denser medium to rarer medium",
+      "conceptTag": "Total Internal Reflection",
+      "explanation": "Total internal reflection requires light to travel from an optically denser medium to a rarer medium at an angle exceeding the critical angle."
+    },
+    {
+      "id": "c12_phy_ch09_03",
+      "question": "Lens Maker's Formula relates focal length ($f$) to refractive index ($n$) and radii of curvature ($R_1, R_2$) as:",
+      "options": [
+        "\\frac{1}{f} = (n - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)",
+        "\\frac{1}{f} = \\frac{n}{R_1} + \\frac{n}{R_2}",
+        "f = \\frac{R_1 R_2}{n - 1}",
+        "\\frac{1}{f} = (n + 1)(R_1 + R_2)"
+      ],
+      "correctAnswer": "\\frac{1}{f} = (n - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)",
+      "conceptTag": "Lens Maker's Formula",
+      "explanation": "Lens Maker's formula is $\\frac{1}{f} = (n_{rel} - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)$."
+    },
+    {
+      "id": "c12_phy_ch09_04",
+      "question": "The magnifying power of a simple microscope is increased when it has:",
+      "options": [
+        "Larger focal length",
+        "Smaller focal length",
+        "Larger aperture",
+        "Longer tube length"
+      ],
+      "correctAnswer": "Smaller focal length",
+      "conceptTag": "Optical Instruments",
+      "explanation": "Magnifying power of a simple microscope is $m = 1 + \\frac{D}{f}$, showing that a smaller focal length ($f$) yields higher magnification."
+    },
+    {
+      "id": "c12_phy_ch10_01",
+      "question": "Huygens' principle suggests that every point on a wavefront acts as a source of:",
+      "options": [
+        "Secondary spherical wavelets",
+        "Primary plane waves",
+        "Corpuscles",
+        "Stationary nodes"
+      ],
+      "correctAnswer": "Secondary spherical wavelets",
+      "conceptTag": "Huygens' Principle",
+      "explanation": "Huygens' wavelet theory states that every point on a wavefront serves as the source of secondary spherical wavelets spreading forward at wave speed."
+    },
+    {
+      "id": "c12_phy_ch10_02",
+      "question": "In Young's double-slit experiment, fringe width ($\\beta$) is directly proportional to:",
+      "options": [
+        "Wavelength of light ($\\lambda$)",
+        "Distance between slits ($d$)",
+        "Frequency of light",
+        "Refractive index of surrounding medium"
+      ],
+      "correctAnswer": "Wavelength of light ($\\lambda$)",
+      "conceptTag": "Young's Double-Slit Experiment",
+      "explanation": "Fringe width formula is $\\beta = \\frac{\\lambda D}{d}$, proving it is directly proportional to wavelength $\\lambda$ and screen distance $D$."
+    },
+    {
+      "id": "c12_phy_ch10_03",
+      "question": "Polarization of light proves that light waves are:",
+      "options": [
+        "Longitudinal waves",
+        "Transverse waves",
+        "Mechanical sound waves",
+        "Stationary standing waves"
+      ],
+      "correctAnswer": "Transverse waves",
+      "conceptTag": "Polarization",
+      "explanation": "Polarization restricts transverse vibrations of light waves to a single plane, demonstrating that light waves are transverse in nature."
+    },
+    {
+      "id": "c12_phy_ch10_04",
+      "question": "Brewster's angle ($i_p$) and refractive index ($n$) of a reflecting medium are related as:",
+      "options": [
+        "n = \\tan(i_p)",
+        "n = \\sin(i_p)",
+        "n = \\cos(i_p)",
+        "n = \\cot(i_p)"
+      ],
+      "correctAnswer": "n = \\tan(i_p)",
+      "conceptTag": "Brewster's Law",
+      "explanation": "Brewster's law states that when unpolarized light is incident at polarizing angle $i_p$, reflected light is completely polarized, and $n = \\tan(i_p)$."
+    },
+    {
+      "id": "c12_phy_ch11_01",
+      "question": "Threshold frequency for photoelectric emission is defined as the:",
+      "options": [
+        "Maximum frequency below which photoelectric emission does not occur",
+        "Minimum frequency below which photoelectric emission does not occur",
+        "Frequency of incident light producing maximum current",
+        "Frequency independent of metal work function"
+      ],
+      "correctAnswer": "Minimum frequency below which photoelectric emission does not occur",
+      "conceptTag": "Photoelectric Effect",
+      "explanation": "Threshold frequency is the minimum frequency of incident radiation required to eject electrons from a metal surface."
+    },
+    {
+      "id": "c12_phy_ch11_02",
+      "question": "Einstein's photoelectric equation is given by:",
+      "options": [
+        "K_{max} = h\\nu - \\Phi_0",
+        "K_{max} = h\\nu + \\Phi_0",
+        "K_{max} = \\Phi_0 - h\\nu",
+        "K_{max} = \\frac{h\\nu}{\\Phi_0}"
+      ],
+      "correctAnswer": "K_{max} = h\\nu - \\Phi_0",
+      "conceptTag": "Einstein's Photoelectric Equation",
+      "explanation": "Maximum kinetic energy of emitted photoelectrons is $K_{max} = h\\nu - \\Phi_0$, where $\\Phi_0$ is the work function."
+    },
+    {
+      "id": "c12_phy_ch11_03",
+      "question": "De Broglie wavelength of an electron accelerated through potential difference $V$ is proportional to:",
+      "options": [
+        "1/\\sqrt{V}",
+        "1/V",
+        "\\sqrt{V}",
+        "V^2"
+      ],
+      "correctAnswer": "1/\\sqrt{V}",
+      "conceptTag": "De Broglie Wavelength",
+      "explanation": "De Broglie wavelength for an electron is $\\lambda = \\frac{12.27}{\\sqrt{V}}\\text{ Å}$, showing inverse proportionality to $\\sqrt{V}$."
+    },
+    {
+      "id": "c12_phy_ch11_04",
+      "question": "Davisson-Germer experiment proved:",
+      "options": [
+        "Wave nature of electrons",
+        "Particle nature of photons",
+        "Radioactive decay law",
+        "Nuclear fission"
+      ],
+      "correctAnswer": "Wave nature of electrons",
+      "conceptTag": "Davisson-Germer Experiment",
+      "explanation": "Electron diffraction observed in the Davisson-Germer experiment experimentally confirmed de Broglie's hypothesis of wave-particle duality for matter."
+    },
+    {
+      "id": "c12_phy_ch12_01",
+      "question": "In Rutherford's $\\alpha$-scattering experiment, most alpha particles passed straight through gold foil because:",
+      "options": [
+        "Atom is mostly empty space",
+        "Nucleus is negatively charged",
+        "Alpha particles have very small mass",
+        "Gold atoms are unstable"
+      ],
+      "correctAnswer": "Atom is mostly empty space",
+      "conceptTag": "Rutherford Scattering",
+      "explanation": "The fact that most $\\alpha$-particles suffered zero deflection indicated that the interior of an atom is largely empty space."
+    },
+    {
+      "id": "c12_phy_ch12_02",
+      "question": "Bohr's quantization condition for angular momentum states that orbital angular momentum is an integral multiple of:",
+      "options": [
+        "h",
+        "\\frac{h}{2\\pi}",
+        "\\hbar^2",
+        "2\\pi h"
+      ],
+      "correctAnswer": "\\frac{h}{2\\pi}",
+      "conceptTag": "Bohr's Postulate",
+      "explanation": "Bohr postulated that electrons revolve only in orbits where angular momentum $mvr = \\frac{nh}{2\\pi}$ (where $n = 1, 2, 3...$)."
+    },
+    {
+      "id": "c12_phy_ch12_03",
+      "question": "Which spectral series of hydrogen atom lies entirely in the ultraviolet region?",
+      "options": [
+        "Lyman series",
+        "Balmer series",
+        "Paschen series",
+        "Bracket series"
+      ],
+      "correctAnswer": "Lyman series",
+      "conceptTag": "Hydrogen Spectrum",
+      "explanation": "Transitions ending at $n = 1$ constitute the Lyman series, which falls in the ultraviolet region of the spectrum."
+    },
+    {
+      "id": "c12_phy_ch12_04",
+      "question": "The radius of the $n$-th Bohr orbit in hydrogen atom is proportional to:",
+      "options": [
+        "n",
+        "n^2",
+        "\\sqrt{n}",
+        "1/n"
+      ],
+      "correctAnswer": "n^2",
+      "conceptTag": "Bohr Radius",
+      "explanation": "Radius of Bohr orbits scales as $r_n \\propto n^2$."
+    },
+    {
+      "id": "c12_phy_ch13_01",
+      "question": "Mass defect of a nucleus is defined as the difference between:",
+      "options": [
+        "Total mass of individual nucleons and rest mass of nucleus",
+        "Mass of protons and mass of neutrons",
+        "Mass of electrons and mass of nucleus",
+        "Total mass of nucleus and mass of electrons"
+      ],
+      "correctAnswer": "Total mass of individual nucleons and rest mass of nucleus",
+      "conceptTag": "Mass Defect",
+      "explanation": "Mass defect $\\Delta m = [Zm_p + (A-Z)m_n] - M_{nucleus}$, representing mass converted to binding energy."
+    },
+    {
+      "id": "c12_phy_ch13_02",
+      "question": "Nuclear binding energy per nucleon is maximum for nuclei with mass number around:",
+      "options": [
+        "56 (Iron)",
+        "235 (Uranium)",
+        "2",
+        "1"
+      ],
+      "correctAnswer": "56 (Iron)",
+      "conceptTag": "Binding Energy Curve",
+      "explanation": "Binding energy per nucleon peaks around mass number $A \\approx 56$ (Iron group), making these nuclei the most stable."
+    },
+    {
+      "id": "c12_phy_ch13_03",
+      "question": "In nuclear fission of Uranium-235, energy is released because:",
+      "options": [
+        "Total binding energy of fragments is greater than parent nucleus",
+        "Mass increases during fission",
+        "Neutrons are destroyed",
+        "Protons turn into electrons"
+      ],
+      "correctAnswer": "Total binding energy of fragments is greater than parent nucleus",
+      "conceptTag": "Nuclear Fission",
+      "explanation": "Fission of heavy nuclei into intermediate fragments results in higher binding energy per nucleon, releasing mass energy."
+    },
+    {
+      "id": "c12_phy_ch13_04",
+      "question": "Half-life ($T_{1/2}$) of a radioactive substance is related to decay constant ($\\lambda$) by:",
+      "options": [
+        "T_{1/2} = \\frac{0.693}{\\lambda}",
+        "T_{1/2} = 0.693 \\lambda",
+        "T_{1/2} = \\frac{\\lambda}{0.693}",
+        "T_{1/2} = \\frac{1}{\\lambda}"
+      ],
+      "correctAnswer": "T_{1/2} = \\frac{0.693}{\\lambda}",
+      "conceptTag": "Radioactive Decay",
+      "explanation": "Half-life $T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}$."
+    },
+    {
+      "id": "c12_phy_ch14_01",
+      "question": "At absolute zero temperature (0 K), an intrinsic semiconductor behaves as a:",
+      "options": [
+        "Perfect insulator",
+        "Good conductor",
+        "Superconductor",
+        "Metallic resistor"
+      ],
+      "correctAnswer": "Perfect insulator",
+      "conceptTag": "Semiconductors",
+      "explanation": "At 0 K, valence band is completely filled and conduction band is completely empty, making intrinsic semiconductors perfect insulators."
+    },
+    {
+      "id": "c12_phy_ch14_02",
+      "question": "In an n-type semiconductor, the majority charge carriers are:",
+      "options": [
+        "Holes",
+        "Electrons",
+        "Protons",
+        "Positive ions"
+      ],
+      "correctAnswer": "Electrons",
+      "conceptTag": "Extrinsic Semiconductors",
+      "explanation": "Doping with pentavalent impurities (donor atoms) provides excess free electrons, making electrons the majority charge carriers in n-type semiconductors."
+    },
+    {
+      "id": "c12_phy_ch14_03",
+      "question": "In forward biasing of a p-n junction diode:",
+      "options": [
+        "Depletion region width decreases and resistance is low",
+        "Depletion region width increases and resistance is high",
+        "No current flows",
+        "Barrier potential increases"
+      ],
+      "correctAnswer": "Depletion region width decreases and resistance is low",
+      "conceptTag": "P-N Junction Diode",
+      "explanation": "Forward bias reduces potential barrier width, facilitating easy current flow and offering low resistance."
+    },
+    {
+      "id": "c12_phy_ch14_04",
+      "question": "Which logic gate gives a high (1) output only when all its inputs are high (1)?",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "NOT gate",
+        "NOR gate"
+      ],
+      "correctAnswer": "AND gate",
+      "conceptTag": "Logic Gates",
+      "explanation": "An AND gate outputs 1 if and only if all of its input terminals are at logic level 1."
+    }
+  ]
+}

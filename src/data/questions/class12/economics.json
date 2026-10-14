@@ -1,0 +1,422 @@
+{
+  "class": 12,
+  "subject": "Economics",
+  "EconomicsMCQs": [
+    {
+      "id": "c12_eco_ch01_01",
+      "question": "Which of the following is a stock variable?",
+      "options": [
+        "National income",
+        "Capital",
+        "Savings",
+        "Investment"
+      ],
+      "correctAnswer": "Capital",
+      "conceptTag": "Stock and Flow Variables",
+      "explanation": "A stock variable is measured at a specific point in time (e.g., capital, wealth), whereas flow variables are measured over a period of time (e.g., income, savings, investment)."
+    },
+    {
+      "id": "c12_eco_ch01_02",
+      "question": "Gross Domestic Product at Market Price (GDP_MP) minus Net Factor Income from Abroad (NFIA) equals:",
+      "options": [
+        "Gross National Product at Market Price (GNP_MP)",
+        "Net Domestic Product at Market Price (NDP_MP)",
+        "Gross National Product at Factor Cost (GNP_FC)",
+        "Gross Domestic Product at Factor Cost (GDP_FC)"
+      ],
+      "correctAnswer": "Gross National Product at Market Price (GNP_MP)",
+      "conceptTag": "National Income Aggregates",
+      "explanation": "Adding Net Factor Income from Abroad (NFIA) to Domestic aggregates yields National aggregates. Thus, GDP_MP + NFIA = GNP_MP."
+    },
+    {
+      "id": "c12_eco_ch01_03",
+      "question": "Which of the following is included in the estimation of National Income via the expenditure method?",
+      "options": [
+        "Intermediate consumption",
+        "Purchase of second-hand goods",
+        "Government final consumption expenditure",
+        "Transfer payments"
+      ],
+      "correctAnswer": "Government final consumption expenditure",
+      "conceptTag": "Expenditure Method",
+      "explanation": "The expenditure method aggregates Private Final Consumption Expenditure, Government Final Consumption Expenditure, Gross Domestic Capital Formation, and Net Exports."
+    },
+    {
+      "id": "c12_eco_ch01_04",
+      "question": "Net Indirect Taxes (NIT) are calculated as:",
+      "options": [
+        "Indirect taxes minus Subsidies",
+        "Subsidies minus Indirect taxes",
+        "Direct taxes plus Indirect taxes",
+        "Indirect taxes plus Subsidies"
+      ],
+      "correctAnswer": "Indirect taxes minus Subsidies",
+      "conceptTag": "Factor Cost vs Market Price",
+      "explanation": "Net Indirect Taxes represent the difference between indirect taxes imposed by the government and subsidies granted: NIT = Indirect Taxes - Subsidies."
+    },
+    {
+      "id": "c12_eco_ch02_01",
+      "question": "What is the primary function of a commercial bank?",
+      "options": [
+        "Issuing paper currency notes",
+        "Accepting deposits and granting loans",
+        "Regulating money supply in the country",
+        "Formulating monetary policy"
+      ],
+      "correctAnswer": "Accepting deposits and granting loans",
+      "conceptTag": "Commercial Banks",
+      "explanation": "Commercial banks are financial intermediaries whose core functions are accepting public deposits and extending credit/loans for profit."
+    },
+    {
+      "id": "c12_eco_ch02_02",
+      "question": "The central bank of India is:",
+      "options": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "Punjab National Bank",
+        "World Bank"
+      ],
+      "correctAnswer": "Reserve Bank of India",
+      "conceptTag": "Central Bank",
+      "explanation": "The Reserve Bank of India (RBI) is the apex central banking institution established in 1935 to regulate the nation's monetary and financial system."
+    },
+    {
+      "id": "c12_eco_ch02_03",
+      "question": "If the Legal Reserve Ratio (LRR) is 20%, what will be the value of the money multiplier?",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "20"
+      ],
+      "correctAnswer": "5",
+      "conceptTag": "Money Multiplier",
+      "explanation": "The money multiplier is the reciprocal of the Legal Reserve Ratio: $1 / LRR = 1 / 0.20 = 5$."
+    },
+    {
+      "id": "c12_eco_ch02_04",
+      "question": "Which of the following is a quantitative instrument of monetary policy?",
+      "options": [
+        "Margin requirements",
+        "Moral suasion",
+        "Bank rate",
+        "Selective credit controls"
+      ],
+      "correctAnswer": "Bank rate",
+      "conceptTag": "Monetary Policy Instruments",
+      "explanation": "Bank rate, Repo rate, Cash Reserve Ratio (CRR), and Statutory Liquidity Ratio (SLR) are quantitative monetary tools affecting overall credit volume."
+    },
+    {
+      "id": "c12_eco_ch03_01",
+      "question": "According to Keynesian theory, aggregate demand (AD) in a two-sector economy consists of:",
+      "options": [
+        "Consumption expenditure plus Investment expenditure ($C + I$)",
+        "Consumption only",
+        "Investment plus Government spending",
+        "Savings plus Investment"
+      ],
+      "correctAnswer": "Consumption expenditure plus Investment expenditure ($C + I$)",
+      "conceptTag": "Aggregate Demand",
+      "explanation": "In a simple two-sector closed economy, aggregate demand is the sum of household consumption demand ($C$) and business investment demand ($I$)."
+    },
+    {
+      "id": "c12_eco_ch03_02",
+      "question": "Marginal Propensity to Consume (MPC) is defined as the ratio of:",
+      "options": [
+        "Total consumption to total income",
+        "Change in consumption to change in income ($\\Delta C / \\Delta Y$)",
+        "Change in savings to change in income",
+        "Total savings to total income"
+      ],
+      "correctAnswer": "Change in consumption to change in income ($\\Delta C / \\Delta Y$)",
+      "conceptTag": "Marginal Propensity to Consume",
+      "explanation": "MPC measures the proportion of an additional unit of income that is spent on consumption: $MPC = \\Delta C / \\Delta Y$."
+    },
+    {
+      "id": "c12_eco_ch03_03",
+      "question": "What is the relationship between MPC and MPS (Marginal Propensity to Save)?",
+      "options": [
+        "MPC + MPS = 1",
+        "MPC - MPS = 1",
+        "MPC = MPS",
+        "MPC \\times MPS = 1"
+      ],
+      "correctAnswer": "MPC + MPS = 1",
+      "conceptTag": "Propensity to Consume and Save",
+      "explanation": "Since any change in income is either consumed or saved ($\\Delta Y = \\Delta C + \\Delta S$), dividing by $\\Delta Y$ yields $MPC + MPS = 1$."
+    },
+    {
+      "id": "c12_eco_ch03_04",
+      "question": "An inflationary gap occurs when:",
+      "options": [
+        "Actual Aggregate Demand is greater than Aggregate Supply at full employment level",
+        "Actual Aggregate Demand is less than full employment output",
+        "There is widespread unemployment",
+        "Investment equals savings"
+      ],
+      "correctAnswer": "Actual Aggregate Demand is greater than Aggregate Supply at full employment level",
+      "conceptTag": "Inflationary Gap",
+      "explanation": "An inflationary gap is the excess of aggregate demand over the level required to maintain full employment output, causing price inflation."
+    },
+    {
+      "id": "c12_eco_ch04_01",
+      "question": "Government budget is a statement of:",
+      "options": [
+        "Actual revenue and expenditure of past years",
+        "Estimated government receipts and expenditures for a financial year",
+        "Monetary policy targets of central bank",
+        "Corporate profits"
+      ],
+      "correctAnswer": "Estimated government receipts and expenditures for a financial year",
+      "conceptTag": "Government Budget Meaning",
+      "explanation": "A government budget is an annual financial statement showing estimated receipts and proposed expenditures of the government for the upcoming fiscal year."
+    },
+    {
+      "id": "c12_eco_ch04_02",
+      "question": "Which of the following is a capital receipt in a government budget?",
+      "options": [
+        "Income tax collections",
+        "Dividends from public sector undertakings",
+        "Borrowings and recovery of loans",
+        "Customs duties"
+      ],
+      "correctAnswer": "Borrowings and recovery of loans",
+      "conceptTag": "Capital Receipts",
+      "explanation": "Capital receipts either create financial liabilities (e.g., borrowings) or reduce financial assets (e.g., recovery of loans, disinvestment)."
+    },
+    {
+      "id": "c12_eco_ch04_03",
+      "question": "Fiscal deficit is defined as:",
+      "options": [
+        "Total expenditure minus total receipts excluding borrowings",
+        "Revenue expenditure minus revenue receipts",
+        "Total expenditure minus total revenue",
+        "Interest payments minus tax revenue"
+      ],
+      "correctAnswer": "Total expenditure minus total receipts excluding borrowings",
+      "conceptTag": "Fiscal Deficit",
+      "explanation": "Fiscal deficit measures the total borrowing requirement of the government: Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts)."
+    },
+    {
+      "id": "c12_eco_ch04_04",
+      "question": "Primary deficit is equal to:",
+      "options": [
+        "Fiscal deficit minus Interest payments",
+        "Revenue deficit plus capital deficit",
+        "Total expenditure minus tax revenue",
+        "Budget deficit plus borrowings"
+      ],
+      "correctAnswer": "Fiscal deficit minus Interest payments",
+      "conceptTag": "Primary Deficit",
+      "explanation": "Primary deficit indicates borrowing requirements excluding interest liabilities on past loans: Primary Deficit = Fiscal Deficit - Interest Payments."
+    },
+    {
+      "id": "c12_eco_ch05_01",
+      "question": "Balance of Payments (BoP) of a country records transactions relating to:",
+      "options": [
+        "Goods and services only",
+        "All economic transactions between residents of a country and the rest of the world",
+        "Capital assets only",
+        "Government borrowings alone"
+      ],
+      "correctAnswer": "All economic transactions between residents of a country and the rest of the world",
+      "conceptTag": "Balance of Payments Meaning",
+      "explanation": "BoP is a systematic accounting statement of all economic transactions between residents of a domestic country and foreign residents over a period."
+    },
+    {
+      "id": "c12_eco_ch05_02",
+      "question": "Which of the following is recorded in the current account of the Balance of Payments?",
+      "options": [
+        "Foreign Direct Investment (FDI)",
+        "External commercial borrowings",
+        "Export and import of goods and services",
+        "Purchase of foreign government bonds"
+      ],
+      "correctAnswer": "Export and import of goods and services",
+      "conceptTag": "Current Account of BoP",
+      "explanation": "The current account records visible trade (goods), invisible trade (services), income, and unilateral transfers."
+    },
+    {
+      "id": "c12_eco_ch05_03",
+      "question": "A deficit in the Balance of Payments arises when:",
+      "options": [
+        "Autonomous receipts exceed autonomous payments",
+        "Autonomous payments exceed autonomous receipts",
+        "Current account is in surplus",
+        "Foreign exchange reserves increase"
+      ],
+      "correctAnswer": "Autonomous payments exceed autonomous payments",
+      "conceptTag": "BoP Deficit",
+      "explanation": "BoP deficit occurs when autonomous foreign exchange outflows exceed inflows, requiring accommodating official reserve transactions to balance."
+    },
+    {
+      "id": "c12_eco_ch05_04",
+      "question": "Depreciation of domestic currency means:",
+      "options": [
+        "Fall in the market price of domestic currency in terms of foreign currency",
+        "Rise in external value of domestic currency",
+        "Fixing exchange rate by central bank",
+        "Elimination of trade deficit"
+      ],
+      "correctAnswer": "Fall in the market price of domestic currency in terms of foreign currency",
+      "conceptTag": "Foreign Exchange Rate",
+      "explanation": "Currency depreciation refers to a decrease in the value of domestic currency relative to foreign currency under floating exchange rate systems."
+    },
+    {
+      "id": "c12_eco_ch06_01",
+      "question": "The primary goal of India's five-year plans prior to 1991 included:",
+      "options": [
+        "Growth, modernization, self-reliance, and equity",
+        "Complete privatization of all public sector units",
+        "Export-led globalization immediately",
+        "Abolition of agriculture"
+      ],
+      "correctAnswer": "Growth, modernization, self-reliance, and equity",
+      "conceptTag": "Indian Economy 1947-1990",
+      "explanation": "India's planning framework pursued four core long-term goals: economic growth, modernization of technology, self-reliance, and social equity."
+    },
+    {
+      "id": "c12_eco_ch06_02",
+      "question": "Land reforms implemented in post-independence India aimed primarily at:",
+      "options": [
+        "Promoting corporate farming",
+        "Abolition of intermediaries (Zamindari system) and land to the tiller",
+        "Increasing industrial imports",
+        "Taxing agricultural income heavily"
+      ],
+      "correctAnswer": "Abolition of intermediaries (Zamindari system) and land to the tiller",
+      "conceptTag": "Land Reforms",
+      "explanation": "Land reforms focused on abolishing intermediary landlords (Zamindars) and establishing direct ownership rights for actual cultivators."
+    },
+    {
+      "id": "c12_eco_ch06_03",
+      "question": "The New Economic Policy (LPG reforms) was introduced in India in the year:",
+      "options": [
+        "1985",
+        "1991",
+        "2000",
+        "1969"
+      ],
+      "correctAnswer": "1991",
+      "conceptTag": "Economic Reforms of 1991",
+      "explanation": "Facing a severe balance of payments crisis, India launched structural economic reforms encompassing Liberalisation, Privatisation, and Globalisation (LPG) in July 1991."
+    },
+    {
+      "id": "c12_eco_ch06_04",
+      "question": "Privatization under the 1991 reforms primarily involved:",
+      "options": [
+        "Nationalization of private banks",
+        "Transfer of ownership or management of public sector enterprises to the private sector",
+        "Imposing strict licensing on industries",
+        "Banning foreign direct investment"
+      ],
+      "correctAnswer": "Transfer of ownership or management of public sector enterprises to the private sector",
+      "conceptTag": "Privatization",
+      "explanation": "Privatization refers to reducing state monopoly by transferring ownership, control, or operational management of public sector enterprises to private entities."
+    },
+    {
+      "id": "c12_eco_ch07_01",
+      "question": "Human Capital Formation refers to the process of adding to the stock of:",
+      "options": [
+        "Physical machinery and factories",
+        "Skilled, healthy, and educated human workforce",
+        "Gold and foreign exchange reserves",
+        "Public infrastructure"
+      ],
+      "correctAnswer": "Skilled, healthy, and educated human workforce",
+      "conceptTag": "Human Capital Formation",
+      "explanation": "Human capital formation involves investments in education, health, and training that enhance productivity and capabilities of the labor force."
+    },
+    {
+      "id": "c12_eco_ch07_02",
+      "question": "Rural development in India emphasizes critical areas including:",
+      "options": [
+        "Agricultural diversification, credit availability, and rural infrastructure development",
+        "Rapid urbanization of rural settlements",
+        "Complete abolition of farming",
+        "Concentration of heavy industries in villages"
+      ],
+      "correctAnswer": "Agricultural diversification, credit availability, and rural infrastructure development",
+      "conceptTag": "Rural Development",
+      "explanation": "Rural development targets credit expansion, organic farming, diversification into non-farm employment, and basic infrastructure like roads and healthcare."
+    },
+    {
+      "id": "c12_eco_ch07_03",
+      "question": "Jobless growth refers to an economic situation where:",
+      "options": [
+        "GDP grows at a high rate while employment growth fails to keep pace",
+        "Employment increases while GDP falls",
+        "There is zero economic output",
+        "Inflation is negative"
+      ],
+      "correctAnswer": "GDP grows at a high rate while employment growth fails to keep pace",
+      "conceptTag": "Employment and Unemployment",
+      "explanation": "Jobless growth describes an economic scenario of rising output accompanied by sluggish or stagnant growth in employment opportunities."
+    },
+    {
+      "id": "c12_eco_ch07_04",
+      "question": "Sustainable development is defined as development that meets the needs of the present without compromising:",
+      "options": [
+        "Short-term stock market profits",
+        "The ability of future generations to meet their own needs",
+        "Industrial growth targets",
+        "Export surpluses"
+      ],
+      "correctAnswer": "The ability of future generations to meet their own needs",
+      "conceptTag": "Environment and Sustainable Development",
+      "explanation": "Sustainable development balances economic growth with environmental conservation, ensuring resource availability for future generations."
+    },
+    {
+      "id": "c12_eco_ch08_01",
+      "question": "India, Pakistan, and China share which common developmental feature in their recent economic history?",
+      "options": [
+        "Initiation of economic reforms around the same decade (late 1970s / 1990s)",
+        "Adoption of identical democratic political systems from inception",
+        "Simultaneous transition to developed nation status in 1990",
+        "Complete absence of agricultural sectors"
+      ],
+      "correctAnswer": "Initiation of economic reforms around the same decade (late 1970s / 1990s)",
+      "conceptTag": "Development Strategies Comparison",
+      "explanation": "China initiated economic reforms in 1978, Pakistan in 1988, and India in 1991, reflecting comparative structural reform paths."
+    },
+    {
+      "id": "c12_eco_ch08_02",
+      "question": "Which of the following countries initiated its economic reforms first among the three Asian neighbors?",
+      "options": [
+        "India",
+        "China",
+        "Pakistan",
+        "All three started simultaneously"
+      ],
+      "correctAnswer": "China",
+      "conceptTag": "Comparative Development - China",
+      "explanation": "China pioneered economic reforms and open-door policies much earlier, commencing in 1978 under Deng Xiaoping."
+    },
+    {
+      "id": "c12_eco_ch08_03",
+      "question": "In terms of demographic indicators and human development index (HDI), China has performed better than India and Pakistan primarily due to:",
+      "options": [
+        "Higher investments in social infrastructure (health and education) and earlier population control measures",
+        "Lower GDP growth rates",
+        "Total reliance on agriculture",
+        "Absence of industrialization"
+      ],
+      "correctAnswer": "Higher investments in social infrastructure (health and education) and earlier population control measures",
+      "conceptTag": "Human Development Comparison",
+      "explanation": "China's early emphasis on healthcare, education, and family planning programs resulted in superior human development indices compared to its neighbors."
+    },
+    {
+      "id": "c12_eco_ch08_04",
+      "question": "Pakistan's economic growth slowed down in recent decades primarily due to:",
+      "options": [
+        "Political instability, reliance on foreign remittances and loans, and agricultural vulnerability",
+        "Excessive technological self-reliance",
+        "Rapid industrialization and zero inflation",
+        "Complete elimination of foreign debt"
+      ],
+      "correctAnswer": "Political instability, reliance on foreign remittances and loans, and agricultural vulnerability",
+      "conceptTag": "Economic Challenges in Pakistan",
+      "explanation": "Pakistan's economic trajectory faced setbacks due to political instability, macroeconomic imbalances, security challenges, and dependence on foreign debt."
+    }
+  ]
+}

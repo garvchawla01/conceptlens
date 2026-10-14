@@ -1,0 +1,733 @@
+{
+  "class": 12,
+  "subject": "Accountancy",
+  "AccountancyMCQs": [
+    {
+      "id": "c12_acc_ch01_01",
+      "question": "Interest on partner's capital is treated as which of the following when provided in the partnership deed?",
+      "options": [
+        "Charge against profit",
+        "Appropriation of profit",
+        "Direct expense",
+        "Capital reduction"
+      ],
+      "correctAnswer": "Appropriation of profit",
+      "conceptTag": "Partnership Basic Concepts",
+      "explanation": "Unless explicitly stated as a charge against profit in the partnership agreement, interest on capital is treated as an appropriation of profit."
+    },
+    {
+      "id": "c12_acc_ch01_02",
+      "question": "What is the primary purpose of preparing a Profit and Loss Appropriation Account?",
+      "options": [
+        "To calculate net operating profit",
+        "To distribute divisible profits among partners",
+        "To ascertain total business liabilities",
+        "To record capital contributions"
+      ],
+      "correctAnswer": "To distribute divisible profits among partners",
+      "conceptTag": "Profit and Loss Appropriation",
+      "explanation": "The P&L Appropriation Account shows how net profit from the P&L account is distributed among partners as interest on capital, salary, reserves, and profit share."
+    },
+    {
+      "id": "c12_acc_ch01_03",
+      "question": "In the absence of a partnership deed, interest on a loan advanced by a partner to the firm is allowed at what rate?",
+      "options": [
+        "5% per annum",
+        "6% per annum",
+        "10% per annum",
+        "No interest is allowed"
+      ],
+      "correctAnswer": "6% per annum",
+      "conceptTag": "Partnership Act 1932 Provisions",
+      "explanation": "According to the Indian Partnership Act, 1932, if there is no partnership deed, interest on a partner's loan is allowed at 6% per annum."
+    },
+    {
+      "id": "c12_acc_ch01_04",
+      "question": "Interest charged on a partner's drawings is debited to their capital/current account and credited to:",
+      "options": [
+        "Cash Account",
+        "Profit and Loss Appropriation Account",
+        "General Reserve Account",
+        "Interest Expense Account"
+      ],
+      "correctAnswer": "Profit and Loss Appropriation Account",
+      "conceptTag": "Interest on Drawings",
+      "explanation": "Interest on drawings is an income for the firm; hence, it is credited to the Profit and Loss Appropriation Account."
+    },
+    {
+      "id": "c12_acc_ch02_01",
+      "question": "What is the minimum percentage of minimum subscription required before a company can proceed to allot shares, as per SEBI guidelines?",
+      "options": [
+        "50%",
+        "75%",
+        "90%",
+        "100%"
+      ],
+      "correctAnswer": "90%",
+      "conceptTag": "Minimum Subscription",
+      "explanation": "SEBI guidelines require a company to receive a minimum subscription of 90% of the issued amount before share allotment."
+    },
+    {
+      "id": "c12_acc_ch02_02",
+      "question": "Under the Companies Act, 2013, general shares cannot be issued at a:",
+      "options": [
+        "Premium",
+        "Par",
+        "Discount",
+        "Cash consideration"
+      ],
+      "correctAnswer": "Discount",
+      "conceptTag": "Issue of Shares",
+      "explanation": "Except for sweat equity shares, the Companies Act, 2013 prohibits companies from issuing shares at a discount."
+    },
+    {
+      "id": "c12_acc_ch02_03",
+      "question": "Securities Premium Reserve can be utilized for which of the following purposes?",
+      "options": [
+        "Payment of cash dividends",
+        "Issuing fully paid bonus shares",
+        "Writing off routine operating expenses",
+        "Purchasing raw materials"
+      ],
+      "correctAnswer": "Issuing fully paid bonus shares",
+      "conceptTag": "Securities Premium Utilization",
+      "explanation": "Securities Premium Reserve can be used for specific purposes under Section 52, including issuing fully paid bonus shares and writing off preliminary expenses."
+    },
+    {
+      "id": "c12_acc_ch02_04",
+      "question": "When forfeited shares are reissued at a discount, the maximum discount allowed cannot exceed:",
+      "options": [
+        "Face value of the share",
+        "Amount previously forfeited on those shares",
+        "10% of share value",
+        "Paid-up value"
+      ],
+      "correctAnswer": "Amount previously forfeited on those shares",
+      "conceptTag": "Reissue of Forfeited Shares",
+      "explanation": "The discount on reissuing forfeited shares cannot exceed the amount credited to the Share Forfeiture Account from those specific shares."
+    },
+    {
+      "id": "c12_acc_ch03_01",
+      "question": "A computerized accounting system is fundamentally structured around:",
+      "options": [
+        "Manual ledger books",
+        "Database management principles",
+        "Paper vouchers only",
+        "Fixed accounting cycles without modification"
+      ],
+      "correctAnswer": "Database management principles",
+      "conceptTag": "Computerised Accounting Architecture",
+      "explanation": "Computerized accounting relies on a database management system to store, retrieve, and process financial data efficiently."
+    },
+    {
+      "id": "c12_acc_ch03_02",
+      "question": "Which of the following is a key advantage of a computerized accounting system over a manual one?",
+      "options": [
+        "High processing speed and reduced data redundancy",
+        "Zero requirement for data backups",
+        "Elimination of internal control needs",
+        "Immunity to human data-entry errors"
+      ],
+      "correctAnswer": "High processing speed and reduced data redundancy",
+      "conceptTag": "Advantages of Computerised Accounting",
+      "explanation": "Computerized systems offer rapid report generation, speed, accuracy, and elimination of repetitive manual ledger postings."
+    },
+    {
+      "id": "c12_acc_ch03_03",
+      "question": "Regular data back-up in a computerized accounting system protects primarily against:",
+      "options": [
+        "Market competition",
+        "Data loss due to system crashes or hardware failure",
+        "Tax audits",
+        "Employee resignation"
+      ],
+      "correctAnswer": "Data loss due to system crashes or hardware failure",
+      "conceptTag": "Data Security & Backup",
+      "explanation": "Backups ensure business continuity and recovery in the event of accidental deletion, hardware crashes, or software corruption."
+    },
+    {
+      "id": "c12_acc_ch03_04",
+      "question": "The report generated automatically by a computerized accounting system showing debit and credit balances is the:",
+      "options": [
+        "Bank reconciliation statement",
+        "Trial balance",
+        "Memorandum journal",
+        "Tax return filing"
+      ],
+      "correctAnswer": "Trial balance",
+      "conceptTag": "Reports in Computerised Accounting",
+      "explanation": "Once transactions are posted, software automatically compiles ledger balances to generate the trial balance instantly."
+    },
+    {
+      "id": "c12_acc_ch04_01",
+      "question": "Goodwill brought in cash by a new incoming partner is shared among old partners in their:",
+      "options": [
+        "New profit-sharing ratio",
+        "Sacrificing ratio",
+        "Capital contribution ratio",
+        "Equal ratio"
+      ],
+      "correctAnswer": "Sacrificing ratio",
+      "conceptTag": "Admission of a Partner - Goodwill",
+      "explanation": "Incoming partner's premium for goodwill compensates old partners for their sacrificed share of profits, so it is distributed in the sacrificing ratio."
+    },
+    {
+      "id": "c12_acc_ch04_02",
+      "question": "Sacrificing ratio is calculated as:",
+      "options": [
+        "New Ratio - Old Ratio",
+        "Old Ratio - New Ratio",
+        "Old Ratio + New Ratio",
+        "Capital Ratio - Profit Ratio"
+      ],
+      "correctAnswer": "Old Ratio - New Ratio",
+      "conceptTag": "Sacrificing Ratio",
+      "explanation": "Sacrifice represents the reduction in a partner's share, calculated as Old Ratio minus New Ratio."
+    },
+    {
+      "id": "c12_acc_ch04_03",
+      "question": "Revaluation Account prepared during the admission of a partner is a:",
+      "options": [
+        "Real account",
+        "Nominal account",
+        "Personal account",
+        "Liability account"
+      ],
+      "correctAnswer": "Nominal account",
+      "conceptTag": "Revaluation Account",
+      "explanation": "Revaluation account records gains and losses on assets and liabilities, functioning as a nominal account."
+    },
+    {
+      "id": "c12_acc_ch04_04",
+      "question": "Accumulated profits appearing in the balance sheet at the time of admission are transferred to:",
+      "options": [
+        "New partner's capital account only",
+        "Old partners' capital accounts in their old profit-sharing ratio",
+        "Revaluation account",
+        "Goodwill account"
+      ],
+      "correctAnswer": "Old partners' capital accounts in their old profit-sharing ratio",
+      "conceptTag": "Accumulated Profits on Admission",
+      "explanation": "Reserves and accumulated profits earned prior to admission belong exclusively to old partners and are distributed in their old profit-sharing ratio."
+    },
+    {
+      "id": "c12_acc_ch05_01",
+      "question": "Debenture holders of a company are classified as its:",
+      "options": [
+        "Owners",
+        "Creditors",
+        "Directors",
+        "Underwriters"
+      ],
+      "correctAnswer": "Creditors",
+      "conceptTag": "Nature of Debentures",
+      "explanation": "Debentures represent long-term borrowed capital; hence, debenture holders are creditors of the company."
+    },
+    {
+      "id": "c12_acc_ch05_02",
+      "question": "Loss on issue of debentures is treated as a:",
+      "options": [
+        "Capital loss to be written off over the tenure of debentures",
+        "Current trading expense",
+        "Intangible asset",
+        "Revenue reserve"
+      ],
+      "correctAnswer": "Capital loss to be written off over the tenure of debentures",
+      "conceptTag": "Issue of Debentures at Loss",
+      "explanation": "Loss on issue of debentures is a capital loss written off against Securities Premium Reserve or Statement of Profit and Loss over the life of the debentures."
+    },
+    {
+      "id": "c12_acc_ch05_03",
+      "question": "Debenture Redemption Reserve (DRR) must be created by specified companies out of:",
+      "options": [
+        "Capital reserve",
+        "Divisible profits available for payment of dividend",
+        "Securities premium",
+        "Revaluation surplus"
+      ],
+      "correctAnswer": "Divisible profits available for payment of dividend",
+      "conceptTag": "Debenture Redemption Reserve",
+      "explanation": "DRR is created out of profits available for dividend distribution to ensure financial security for redeeming debentures."
+    },
+    {
+      "id": "c12_acc_ch05_04",
+      "question": "Debentures issued as collateral security for a bank loan are recorded by:",
+      "options": [
+        "Making no entry in the books",
+        "Opening a Debenture Suspense Account",
+        "Debiting Bank Account directly",
+        "Crediting Share Capital"
+      ],
+      "correctAnswer": "Opening a Debenture Suspense Account",
+      "conceptTag": "Collateral Security",
+      "explanation": "Issuing debentures as collateral security can be recorded by debiting 'Debenture Suspense Account' and crediting 'Debentures Account'."
+    },
+    {
+      "id": "c12_acc_ch06_01",
+      "question": "In spreadsheet software, formulas always begin with which symbol?",
+      "options": [
+        "#",
+        "@",
+        "=",
+        "$"
+      ],
+      "correctAnswer": "=",
+      "conceptTag": "Spreadsheet Basics",
+      "explanation": "Spreadsheets require an equals sign (=) at the beginning of a cell entry to recognize it as a formula or function."
+    },
+    {
+      "id": "c12_acc_ch06_02",
+      "question": "Which function is used in a spreadsheet to calculate the arithmetic mean of a range of cells?",
+      "options": [
+        "SUM",
+        "AVERAGE",
+        "MEAN",
+        "COUNT"
+      ],
+      "correctAnswer": "AVERAGE",
+      "conceptTag": "Spreadsheet Functions",
+      "explanation": "The AVERAGE function computes the arithmetic mean of numbers within a specified cell range."
+    },
+    {
+      "id": "c12_acc_ch06_03",
+      "question": "A cell address in a spreadsheet is identified by its:",
+      "options": [
+        "Row number followed by column letter",
+        "Column letter and row number (e.g., A1)",
+        "Sheet name only",
+        "Font style"
+      ],
+      "correctAnswer": "Column letter and row number (e.g., A1)",
+      "conceptTag": "Spreadsheet Cell References",
+      "explanation": "Cells are referenced by their intersecting column letter and row number, such as A1, B10, etc."
+    },
+    {
+      "id": "c12_acc_ch06_04",
+      "question": "What is a workbook in spreadsheet terminology?",
+      "options": [
+        "A single worksheet grid",
+        "A file containing one or more worksheets",
+        "A printed accounting manual",
+        "A macro script"
+      ],
+      "correctAnswer": "A file containing one or more worksheets",
+      "conceptTag": "Spreadsheet Workbooks",
+      "explanation": "A spreadsheet file is called a workbook, which can contain multiple individual worksheets."
+    },
+    {
+      "id": "c12_acc_ch07_01",
+      "question": "Gaining ratio upon the retirement or death of a partner is calculated as:",
+      "options": [
+        "Old Ratio - New Ratio",
+        "New Ratio - Old Ratio",
+        "New Ratio + Old Ratio",
+        "Sacrificing Ratio"
+      ],
+      "correctAnswer": "New Ratio - Old Ratio",
+      "conceptTag": "Gaining Ratio",
+      "explanation": "Gaining ratio represents the increase in remaining partners' shares, calculated as New Ratio minus Old Ratio."
+    },
+    {
+      "id": "c12_acc_ch07_02",
+      "question": "On the retirement of a partner, the retiring partner's share of goodwill is debited to remaining partners' capital accounts in their:",
+      "options": [
+        "Old ratio",
+        "Gaining ratio",
+        "Capital contribution ratio",
+        "Equal ratio"
+      ],
+      "correctAnswer": "Gaining ratio",
+      "conceptTag": "Goodwill on Retirement",
+      "explanation": "Remaining partners gain the retiring partner's share and compensate them in their gaining ratio."
+    },
+    {
+      "id": "c12_acc_ch07_03",
+      "question": "If the amount due to a retiring partner is not paid immediately in cash, it is transferred to:",
+      "options": [
+        "Retiring Partner's Loan Account",
+        "General Reserve Account",
+        "Realization Account",
+        "Profit and Loss Account"
+      ],
+      "correctAnswer": "Retiring Partner's Loan Account",
+      "conceptTag": "Settlement of Retiring Partner",
+      "explanation": "Unpaid settlement amounts due to a retiring partner are credited to their Loan Account bearing interest as agreed."
+    },
+    {
+      "id": "c12_acc_ch07_04",
+      "question": "Profit on revaluation of assets at the time of retirement is credited to:",
+      "options": [
+        "Retiring partner only",
+        "All partners' capital accounts in their old profit-sharing ratio",
+        "Remaining partners in gaining ratio",
+        "Reserve fund"
+      ],
+      "correctAnswer": "All partners' capital accounts in their old profit-sharing ratio",
+      "conceptTag": "Revaluation on Retirement",
+      "explanation": "Revaluation profits accrued up to the date of retirement belong to all partners (including the retiring partner) in their old ratio."
+    },
+    {
+      "id": "c12_acc_ch08_01",
+      "question": "Schedule III of the Companies Act, 2013 prescribes the format for preparing:",
+      "options": [
+        "Trial balance only",
+        "Balance Sheet and Statement of Profit and Loss",
+        "Bank reconciliation statements",
+        "Cash budgets"
+      ],
+      "correctAnswer": "Balance Sheet and Statement of Profit and Loss",
+      "conceptTag": "Schedule III Format",
+      "explanation": "Schedule III provides the legal framework and standardized format for presenting company financial statements in India."
+    },
+    {
+      "id": "c12_acc_ch08_02",
+      "question": "In a company's balance sheet, share capital is presented under which main head?",
+      "options": [
+        "Non-Current Liabilities",
+        "Shareholders' Funds",
+        "Current Assets",
+        "Current Liabilities"
+      ],
+      "correctAnswer": "Shareholders' Funds",
+      "conceptTag": "Balance Sheet Presentation",
+      "explanation": "Share capital forms part of 'Equity and Liabilities' under the primary head 'Shareholders' Funds'."
+    },
+    {
+      "id": "c12_acc_ch08_03",
+      "question": "Calls-in-arrears in a company's balance sheet are presented by:",
+      "options": [
+        "Adding to subscribed share capital",
+        "Deducting from subscribed but not fully paid capital",
+        "Showing as a current asset",
+        "Ignoring until received"
+      ],
+      "correctAnswer": "Deducting from subscribed but not fully paid capital",
+      "conceptTag": "Presentation of Calls-in-Arrears",
+      "explanation": "Calls-in-arrears are deducted from the 'Subscribed and not fully paid' share capital total in the balance sheet notes."
+    },
+    {
+      "id": "c12_acc_ch08_04",
+      "question": "Revenue from operations for a non-financial manufacturing company includes:",
+      "options": [
+        "Sale of manufactured products",
+        "Interest income on bank deposits",
+        "Profit on sale of fixed assets",
+        "Dividend received"
+      ],
+      "correctAnswer": "Sale of manufactured products",
+      "conceptTag": "Statement of Profit and Loss",
+      "explanation": "Revenue from operations represents turnover from the principal business activities of the enterprise."
+    },
+    {
+      "id": "c12_acc_ch09_01",
+      "question": "Which spreadsheet tool is used to analyze alternative scenarios by changing input values to achieve a target outcome?",
+      "options": [
+        "Goal Seek",
+        "Spell Check",
+        "AutoSum",
+        "Sort and Filter"
+      ],
+      "correctAnswer": "Goal Seek",
+      "conceptTag": "Spreadsheet What-If Analysis",
+      "explanation": "Goal Seek is a built-in spreadsheet tool used for what-if analysis to find the necessary input value to achieve a specific result."
+    },
+    {
+      "id": "c12_acc_ch09_02",
+      "question": "The VLOOKUP function in a spreadsheet searches for a value in:",
+      "options": [
+        "The rightmost column of a table",
+        "The leftmost column of a table and returns a value from another column in the same row",
+        "Diagonal cells only",
+        "Header row exclusively"
+      ],
+      "correctAnswer": "The leftmost column of a table and returns a value from another column in the same row",
+      "conceptTag": "VLOOKUP Function",
+      "explanation": "VLOOKUP (Vertical Lookup) searches down the first column of a table and extracts corresponding data from a specified column index."
+    },
+    {
+      "id": "c12_acc_ch09_03",
+      "question": "In financial spreadsheet applications, the PMT function is used to calculate:",
+      "options": [
+        "Periodic payment for a loan based on constant payments and interest rate",
+        "Present market value of shares",
+        "Depreciation expense under SLM",
+        "Maximum profit margin"
+      ],
+      "correctAnswer": "Periodic payment for a loan based on constant payments and interest rate",
+      "conceptTag": "Financial Functions in Spreadsheets",
+      "explanation": "PMT calculates loan repayment installments given principal, interest rate, and number of periods."
+    },
+    {
+      "id": "c12_acc_ch09_04",
+      "question": "Conditional formatting in spreadsheets is utilized to:",
+      "options": [
+        "Format cell borders automatically",
+        "Highlight cells automatically based on specified criteria or rules",
+        "Convert text to uppercase",
+        "Protect worksheet passwords"
+      ],
+      "correctAnswer": "Highlight cells automatically based on specified criteria or rules",
+      "conceptTag": "Conditional Formatting",
+      "explanation": "Conditional formatting changes cell appearance (colors, icons) dynamically when cell values meet preset logical conditions."
+    },
+    {
+      "id": "c12_acc_ch10_01",
+      "question": "The Realization Account is prepared upon:",
+      "options": [
+        "Admission of a partner",
+        "Dissolution of a partnership firm",
+        "Issue of shares",
+        "Preparation of trial balance"
+      ],
+      "correctAnswer": "Dissolution of a partnership firm",
+      "conceptTag": "Dissolution & Realization",
+      "explanation": "Realization Account is a nominal account opened specifically upon the complete dissolution of a partnership firm to close books and dispose of assets."
+    },
+    {
+      "id": "c12_acc_ch10_02",
+      "question": "Realization Account is a:",
+      "options": [
+        "Real account",
+        "Nominal account",
+        "Personal account",
+        "Valuation account"
+      ],
+      "correctAnswer": "Nominal account",
+      "conceptTag": "Nature of Realization Account",
+      "explanation": "Realization account records the realization of assets and settlement of liabilities, functioning as a nominal account to determine profit or loss on dissolution."
+    },
+    {
+      "id": "c12_acc_ch10_03",
+      "question": "Unrecorded assets realized upon dissolution of a firm are credited to:",
+      "options": [
+        "Realization Account",
+        "Partners' Capital Accounts",
+        "Cash/Bank Account",
+        "Profit and Loss Account"
+      ],
+      "correctAnswer": "Realization Account",
+      "conceptTag": "Realization of Unrecorded Assets",
+      "explanation": "When unrecorded assets are sold, cash is debited and Realization Account is credited."
+    },
+    {
+      "id": "c12_acc_ch10_04",
+      "question": "In the event of dissolution, partnership debts and outside liabilities are paid first out of:",
+      "options": [
+        "Partners' private assets",
+        "Firm's assets",
+        "Reserve funds",
+        "Capital accounts"
+      ],
+      "correctAnswer": "Firm's assets",
+      "conceptTag": "Order of Payment on Dissolution",
+      "explanation": "Firm debts are settled primarily out of the firm's assets before any distribution is made to partners."
+    },
+    {
+      "id": "c12_acc_ch11_01",
+      "question": "Analysis of financial statements primarily involves:",
+      "options": [
+        "Collecting source vouchers",
+        "Simplifying and restating financial data for meaningful interpretation",
+        "Auditing tax compliance",
+        "Managing daily cash registers"
+      ],
+      "correctAnswer": "Simplifying and restating financial data for meaningful interpretation",
+      "conceptTag": "Financial Statement Analysis",
+      "explanation": "Financial statement analysis breaks down complex financial reports into simpler components to assess profitability and financial health."
+    },
+    {
+      "id": "c12_acc_ch11_02",
+      "question": "Horizontal analysis of financial statements is also known as:",
+      "options": [
+        "Comparative statements / trend analysis",
+        "Common-size statement analysis",
+        "Ratio analysis",
+        "Budgetary control"
+      ],
+      "correctAnswer": "Comparative statements / trend analysis",
+      "conceptTag": "Horizontal Analysis",
+      "explanation": "Horizontal analysis compares financial data across multiple accounting periods to evaluate growth trends."
+    },
+    {
+      "id": "c12_acc_ch11_03",
+      "question": "Vertical analysis evaluates financial statements for:",
+      "options": [
+        "Multiple years",
+        "A single accounting period (common-size statements)",
+        "Future budget forecasting",
+        "Tax assessment"
+      ],
+      "correctAnswer": "A single accounting period (common-size statements)",
+      "conceptTag": "Vertical Analysis",
+      "explanation": "Vertical analysis expresses each financial statement item as a percentage of a base figure (like total assets or revenue) for a single period."
+    },
+    {
+      "id": "c12_acc_ch11_04",
+      "question": "Which of the following is a limitation of financial statement analysis?",
+      "options": [
+        "Price level changes (inflation) are often ignored",
+        "It provides absolute certainty",
+        "It focuses solely on qualitative factors",
+        "It eliminates all business risk"
+      ],
+      "correctAnswer": "Price level changes (inflation) are often ignored",
+      "explanation": "Historical cost accounting means financial statements do not automatically adjust for inflation, representing a limitation in analysis."
+    },
+    {
+      "id": "c12_acc_ch12_01",
+      "question": "Which chart type is best suited for illustrating trends in business data over a continuous period of time?",
+      "options": [
+        "Pie chart",
+        "Line chart",
+        "Scatter plot",
+        "Donut chart"
+      ],
+      "correctAnswer": "Line chart",
+      "conceptTag": "Line Charts in Business",
+      "explanation": "Line charts effectively connect data points sequentially, highlighting trends and trajectories over time."
+    },
+    {
+      "id": "c12_acc_ch12_02",
+      "question": "A bar chart is primarily used for:",
+      "options": [
+        "Comparing discrete categorical data across groups",
+        "Showing parts of a single circle",
+        "Calculating running totals",
+        "Displaying regression equations"
+      ],
+      "correctAnswer": "Comparing discrete categorical data across groups",
+      "conceptTag": "Bar Charts",
+      "explanation": "Bar charts use horizontal or vertical bars to compare values across distinct categories or departments."
+    },
+    {
+      "id": "c12_acc_ch12_03",
+      "question": "Pie charts are most effective when illustrating:",
+      "options": [
+        "Proportions or percentage shares of a whole",
+        "Time-series growth rates",
+        "Correlation coefficients",
+        "Inventory turnover speeds"
+      ],
+      "correctAnswer": "Proportions or percentage shares of a whole",
+      "conceptTag": "Pie Charts",
+      "explanation": "Pie charts display data as proportional sectors of a 360-degree circle, ideal for showing percentage contributions to a total."
+    },
+    {
+      "id": "c12_acc_ch12_04",
+      "question": "Scatter plots in business data analysis are used to:",
+      "options": [
+        "Show the relationship or correlation between two continuous variables",
+        "List daily employee attendance",
+        "Summarize gross profit margins",
+        "Track petty cash vouchers"
+      ],
+      "correctAnswer": "Show the relationship or correlation between two continuous variables",
+      "conceptTag": "Scatter Plots",
+      "explanation": "Scatter plots map paired numerical data on Cartesian coordinates to identify correlations between variables."
+    },
+    {
+      "id": "c12_acc_ch13_01",
+      "question": "Current Ratio is a primary measure of a firm's:",
+      "options": [
+        "Short-term liquidity",
+        "Long-term solvency",
+        "Operating profitability",
+        "Asset turnover efficiency"
+      ],
+      "correctAnswer": "Short-term liquidity",
+      "conceptTag": "Liquidity Ratios",
+      "explanation": "Current ratio (Current Assets / Current Liabilities) measures the ability of a firm to meet short-term obligations."
+    },
+    {
+      "id": "c12_acc_ch13_02",
+      "question": "What is considered the ideal standard for the Quick Ratio (Acid-Test Ratio)?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "0.5:1"
+      ],
+      "correctAnswer": "1:1",
+      "conceptTag": "Quick Ratio",
+      "explanation": "An acid-test ratio of 1:1 is traditionally considered safe, indicating equal liquid assets to cover immediate current liabilities."
+    },
+    {
+      "id": "c12_acc_ch13_03",
+      "question": "Debt-Equity Ratio is an indicator of a firm's:",
+      "options": [
+        "Long-term solvency and financial leverage",
+        "Inventory management",
+        "Collection period",
+        "Cash generation rate"
+      ],
+      "correctAnswer": "Long-term solvency and financial leverage",
+      "conceptTag": "Solvency Ratios",
+      "explanation": "Debt-Equity Ratio compares external debt to shareholders' funds, evaluating financial leverage and long-term risk."
+    },
+    {
+      "id": "c12_acc_ch13_04",
+      "question": "Return on Investment (ROI) is calculated by dividing Net Profit Before Interest and Tax by:",
+      "options": [
+        "Capital Employed",
+        "Current Assets",
+        "Share capital only",
+        "Gross Revenue"
+      ],
+      "correctAnswer": "Capital Employed",
+      "conceptTag": "Profitability Ratios",
+      "explanation": "ROI assesses overall profitability by measuring percentage return generated on total capital employed."
+    },
+    {
+      "id": "c12_acc_ch14_01",
+      "question": "Cash Flow Statement is prepared in accordance with which Accounting Standard in India?",
+      "options": [
+        "AS-3 (Revised) / Ind AS 7",
+        "AS-1",
+        "AS-10",
+        "AS-2"
+      ],
+      "correctAnswer": "AS-3 (Revised) / Ind AS 7",
+      "conceptTag": "Cash Flow Statement Standard",
+      "explanation": "AS-3 (Companies Accounting Standards Rules) and Ind AS 7 govern the preparation and presentation of cash flow statements for Indian companies."
+    },
+    {
+      "id": "c12_acc_ch14_02",
+      "question": "Purchase of machinery by a manufacturing company is classified as cash flow from:",
+      "options": [
+        "Operating activities",
+        "Investing activities",
+        "Financing activities",
+        "Cash equivalents"
+      ],
+      "correctAnswer": "Investing activities",
+      "conceptTag": "Investing Activities",
+      "explanation": "Acquisition and disposal of long-term fixed assets are classified under cash flows from investing activities."
+    },
+    {
+      "id": "c12_acc_ch14_03",
+      "question": "Payment of dividend by a non-financial company is classified under cash flows from:",
+      "options": [
+        "Operating activities",
+        "Investing activities",
+        "Financing activities",
+        "Extraordinary items"
+      ],
+      "correctAnswer": "Financing activities",
+      "conceptTag": "Financing Activities",
+      "explanation": "Dividends paid represent a cost of obtaining financial capital, classified under financing activities."
+    },
+    {
+      "id": "c12_acc_ch14_04",
+      "question": "An increase in trade receivables during an accounting period results in:",
+      "options": [
+        "Inflow of operating cash",
+        "Outflow or deduction from operating profit when calculating cash from operations",
+        "No effect on cash flow",
+        "Increase in financing cash flow"
+      ],
+      "correctAnswer": "Outflow or deduction from operating profit when calculating cash from operations",
+      "conceptTag": "Operating Cash Flow Adjustments",
+      "explanation": "An increase in trade receivables means sales were recorded but cash was not collected, requiring a deduction from net profit under the indirect method."
+    }
+  ]
+}

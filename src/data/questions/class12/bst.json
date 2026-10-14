@@ -1,0 +1,630 @@
+{
+  "class": 12,
+  "subject": "Business Studies",
+  "BusinessStudiesMCQs": [
+    {
+      "id": "c12_bst_ch01_01",
+      "question": "Management is considered a dynamic function because:",
+      "options": [
+        "It adapts to changing external environment",
+        "It remains rigid and static",
+        "It focuses only on past records",
+        "It is performed by top management alone"
+      ],
+      "correctAnswer": "It adapts to changing external environment",
+      "conceptTag": "Nature of Management",
+      "explanation": "Management is a dynamic function because it has to adapt itself, its goals, and its operations to the constantly changing economic, social, and political environment."
+    },
+    {
+      "id": "c12_bst_ch01_02",
+      "question": "Which dimension of management refers to achieving targets efficiently while utilizing minimum resources?",
+      "options": [
+        "Management of work",
+        "Management of people",
+        "Management of operations",
+        "Management of profits"
+      ],
+      "correctAnswer": "Management of operations",
+      "conceptTag": "Dimensions of Management",
+      "explanation": "Management of operations links work and people, focusing on conversion of inputs into desired output efficiently and effectively."
+    },
+    {
+      "id": "c12_bst_ch01_03",
+      "question": "Coordination is considered the 'essence of management' because it:",
+      "options": [
+        "Is an optional administrative function",
+        "Integrates departmental efforts and synchronizes activities",
+        "Replaces planning entirely",
+        "Applies only to lower-level supervisors"
+      ],
+      "correctAnswer": "Integrates departmental efforts and synchronizes activities",
+      "conceptTag": "Coordination",
+      "explanation": "Coordination is the synchronization of different actions and efforts of various departments to ensure smooth organizational functioning."
+    },
+    {
+      "id": "c12_bst_ch01_04",
+      "question": "At which level of management are managers responsible for the welfare and survival of the organization as a whole?",
+      "options": [
+        "Operational level",
+        "Middle level",
+        "Top level",
+        "Supervisory level"
+      ],
+      "correctAnswer": "Top level",
+      "conceptTag": "Levels of Management",
+      "explanation": "Top-level management (Board of Directors, CEO, MD) is responsible for overall organizational goals, strategy formulation, survival, and welfare."
+    },
+    {
+      "id": "c12_bst_ch02_01",
+      "question": "Henri Fayol's principle of 'Division of Work' leads to:",
+      "options": [
+        "Specialization and increased efficiency",
+        "Duplication of effort",
+        "Centralization of authority",
+        "Increased labor turnover"
+      ],
+      "correctAnswer": "Specialization and increased efficiency",
+      "conceptTag": "Fayol's Principles",
+      "explanation": "Dividing work into smaller specialized tasks allows workers to gain expertise, improving output quality and speed."
+    },
+    {
+      "id": "c12_bst_ch02_02",
+      "question": "Which scientific management technique developed by F.W. Taylor aims to eliminate unnecessary movements of workers?",
+      "options": [
+        "Time study",
+        "Motion study",
+        "Fatigue study",
+        "Method study"
+      ],
+      "correctAnswer": "Motion study",
+      "conceptTag": "Taylor's Scientific Techniques",
+      "explanation": "Motion study involves close observation of body movements during a task to eliminate wasteful, unproductive motions."
+    },
+    {
+      "id": "c12_bst_ch02_03",
+      "question": "According to Fayol's principle of 'Scalar Chain', communication in an emergency can follow a shortcut known as:",
+      "options": [
+        "Gang plank",
+        "Functional foremanship",
+        "Mental revolution",
+        "Unity of command"
+      ],
+      "correctAnswer": "Gang plank",
+      "conceptTag": "Scalar Chain & Gang Plank",
+      "explanation": "Gang plank permits direct horizontal communication between employees at the same hierarchical level in urgent situations, bypassing rigid scalar chains."
+    },
+    {
+      "id": "c12_bst_ch02_04",
+      "question": "F.W. Taylor's technique of 'Functional Foremanship' is an extension of which general principle?",
+      "options": [
+        "Unity of command",
+        "Division of work",
+        "Equity",
+        "Order"
+      ],
+      "correctAnswer": "Division of work",
+      "conceptTag": "Functional Foremanship",
+      "explanation": "Functional foremanship extends the principle of specialization and division of work to factory shop-floor supervision by assigning 8 specialized foremen."
+    },
+    {
+      "id": "c12_bst_ch03_01",
+      "question": "The business environment is described as dynamic because it:",
+      "options": [
+        "Remains constant over time",
+        "Keeps changing continuously in terms of technology, tastes, and government policies",
+        "Can be predicted with 100% accuracy",
+        "Is completely controlled by individual firms"
+      ],
+      "correctAnswer": "Keeps changing continuously in terms of technology, tastes, and government policies",
+      "conceptTag": "Features of Business Environment",
+      "explanation": "The business environment is dynamic, meaning it is fluid and constantly evolving due to shifts in technology, consumer preferences, and legal frameworks."
+    },
+    {
+      "id": "c12_bst_ch03_02",
+      "question": "Demographic shifts, lifestyle changes, and societal values form part of which dimension of the business environment?",
+      "options": [
+        "Economic environment",
+        "Social environment",
+        "Political environment",
+        "Technological environment"
+      ],
+      "correctAnswer": "Social environment",
+      "conceptTag": "Dimensions of Business Environment",
+      "explanation": "The social environment includes cultural norms, societal values, traditions, demographic trends, and consumer lifestyle patterns."
+    },
+    {
+      "id": "c12_bst_ch03_03",
+      "question": "The introduction of Goods and Services Tax (GST) in India is an example of changes in which environment dimension?",
+      "options": [
+        "Legal and Political-Economic environment",
+        "Technological environment",
+        "Social environment only",
+        "Natural environment"
+      ],
+      "correctAnswer": "Legal and Political-Economic environment",
+      "conceptTag": "Economic & Legal Environment",
+      "explanation": "Tax reforms and statutory enactments represent changes in the legal and economic regulatory dimensions of the environment."
+    },
+    {
+      "id": "c12_bst_ch03_04",
+      "question": "What was a major objective of India's New Economic Policy of 1991 in terms of industrial licensing?",
+      "options": [
+        "Imposing strict bureaucratic licenses on all sectors",
+        "Liberalization by abolishing industrial licensing for most industries",
+        "Nationalizing all private enterprises",
+        "Banning foreign investments completely"
+      ],
+      "correctAnswer": "Liberalization by abolishing industrial licensing for most industries",
+      "conceptTag": "Economic Policy 1991",
+      "explanation": "The 1991 policy dismantled industrial licensing restrictions, opening up the economy through liberalization, privatization, and globalization."
+    },
+    {
+      "id": "c12_bst_ch04_01",
+      "question": "Planning is primarily described as a forward-looking function because:",
+      "options": [
+        "It deals with analyzing past errors exclusively",
+        "It involves looking ahead to anticipate future events and prepare accordingly",
+        "It eliminates all business uncertainties",
+        "It is performed only after operations conclude"
+      ],
+      "correctAnswer": "It involves looking ahead to anticipate future events and prepare accordingly",
+      "conceptTag": "Features of Planning",
+      "explanation": "Planning is forward-looking ('primacy of planning') as managers look ahead into the future, anticipate changes, and formulate courses of action."
+    },
+    {
+      "id": "c12_bst_ch04_02",
+      "question": "What is the first step in the planning process?",
+      "options": [
+        "Identifying alternative courses of action",
+        "Setting objectives",
+        "Evaluating alternatives",
+        "Selecting an alternative"
+      ],
+      "correctAnswer": "Setting objectives",
+      "conceptTag": "Planning Process",
+      "explanation": "Planning begins with setting objectives or goals that specify what is to be achieved and where resources should be focused."
+    },
+    {
+      "id": "c12_bst_ch04_03",
+      "question": "A single-use plan designed for a specific project or situation that is unlikely to be repeated in future is a:",
+      "options": [
+        "Policy",
+        "Procedure",
+        "Budget / Programme",
+        "Rule"
+      ],
+      "correctAnswer": "Budget / Programme",
+      "conceptTag": "Types of Plans",
+      "explanation": "Programmes and budgets are single-use plans tailored for unique, non-recurring projects or financial allocations."
+    },
+    {
+      "id": "c12_bst_ch04_04",
+      "question": "A major limitation of planning is that:",
+      "options": [
+        "It guarantees 100% success",
+        "It may lead to rigidity and inflexibility in dynamic environments",
+        "It reduces decision-making time",
+        "It requires no financial cost"
+      ],
+      "correctAnswer": "It may lead to rigidity and inflexibility in dynamic environments",
+      "conceptTag": "Limitations of Planning",
+      "explanation": "Rigid adherence to a pre-formulated plan can make an organization inflexible and unable to adapt to sudden environmental changes."
+    },
+    {
+      "id": "c12_bst_ch05_01",
+      "question": "The process of identifying and grouping the work to be performed, defining responsibility and authority, and establishing relationships is:",
+      "options": [
+        "Planning",
+        "Organising",
+        "Directing",
+        "Controlling"
+      ],
+      "correctAnswer": "Organising",
+      "conceptTag": "Organising Meaning",
+      "explanation": "Organising translates plans into action by structuring tasks, grouping activities, assigning duties, and establishing authority-responsibility relationships."
+    },
+    {
+      "id": "c12_bst_ch05_02",
+      "question": "Functional structure of an organization groups jobs based on:",
+      "options": [
+        "Product lines",
+        "Geographical regions",
+        "Major functions (e.g., Production, Marketing, Finance)",
+        "Customer segments"
+      ],
+      "correctAnswer": "Major functions (e.g., Production, Marketing, Finance)",
+      "conceptTag": "Functional Structure",
+      "explanation": "A functional structure groups activities and jobs according to specialized business functions like production, purchase, marketing, and finance."
+    },
+    {
+      "id": "c12_bst_ch05_03",
+      "question": "Delegation of authority involves the transfer of:",
+      "options": [
+        "Ultimate responsibility only",
+        "Authority, responsibility, and accountability",
+        "Authority to a subordinate while retaining ultimate responsibility",
+        "Ownership of the company"
+      ],
+      "correctAnswer": "Authority to a subordinate while retaining ultimate responsibility",
+      "conceptTag": "Delegation",
+      "explanation": "A manager delegates authority and assigns responsibility, but ultimate accountability remains with the manager (responsibility cannot be delegated)."
+    },
+    {
+      "id": "c12_bst_ch05_04",
+      "question": "Decentralization refers to:",
+      "options": [
+        "Concentration of all decision-making power at the top level",
+        "Systematic dispersal of decision-making authority to lower levels of management",
+        "Complete abolition of middle management",
+        "Random distribution of tasks without structure"
+      ],
+      "correctAnswer": "Systematic dispersal of decision-making authority to lower levels of management",
+      "conceptTag": "Decentralization",
+      "explanation": "Decentralization involves systematically pushing down decision-making authority to lower hierarchical levels, empowering operational managers."
+    },
+    {
+      "id": "c12_bst_ch06_01",
+      "question": "Staffing function of management begins with which of the following?",
+      "options": [
+        "Selection of candidates",
+        "Manpower planning (estimating manpower requirements)",
+        "Performance appraisal",
+        "Training and development"
+      ],
+      "correctAnswer": "Manpower planning (estimating manpower requirements)",
+      "conceptTag": "Staffing Process",
+      "explanation": "Staffing starts with estimating manpower requirements (workload and workforce analysis) to determine the number and type of personnel needed."
+    },
+    {
+      "id": "c12_bst_ch06_02",
+      "question": "Recruitment is considered a positive process because:",
+      "options": [
+        "It rejects unsuitable applicants",
+        "It attracts a large number of applicants to apply for vacant jobs",
+        "It involves rigorous medical tests",
+        "It concludes placement"
+      ],
+      "correctAnswer": "It attracts a large number of applicants to apply for vacant jobs",
+      "conceptTag": "Recruitment vs Selection",
+      "explanation": "Recruitment is a positive process seeking to attract maximum qualified candidates, whereas selection is a negative process eliminating unsuitable candidates."
+    },
+    {
+      "id": "c12_bst_ch06_03",
+      "question": "On-the-job training method where a trainee is placed under the guidance of a master worker is called:",
+      "options": [
+        "Vestibule training",
+        "Apprenticeship training",
+        "Internship training",
+        "Lecture method"
+      ],
+      "correctAnswer": "Apprenticeship training",
+      "conceptTag": "Training Methods",
+      "explanation": "Apprenticeship programs put a learner under the supervision of an experienced master craftsperson to acquire skilled trade proficiency."
+    },
+    {
+      "id": "c12_bst_ch06_04",
+      "question": "Placement and orientation ensure that:",
+      "options": [
+        "New employees are introduced to their jobs, colleagues, and organizational rules",
+        "Employees retire with full benefits",
+        "Wages are negotiated downward",
+        "Recruitment advertisements are published"
+      ],
+      "correctAnswer": "New employees are introduced to their jobs, colleagues, and organizational rules",
+      "conceptTag": "Placement and Orientation",
+      "explanation": "Orientation familiarizes the new recruit with the organization, co-workers, and job expectations, ensuring smooth induction."
+    },
+    {
+      "id": "c12_bst_ch07_01",
+      "question": "Directing as a function of management is initiated at:",
+      "options": [
+        "Top level only",
+        "Lower level only",
+        "All levels of management",
+        "Board of Directors level exclusively"
+      ],
+      "correctAnswer": "All levels of management",
+      "conceptTag": "Features of Directing",
+      "explanation": "Directing takes place at every level of management wherever superior-subordinate relationships exist."
+    },
+    {
+      "id": "c12_bst_ch07_02",
+      "question": "According to Maslow's Need Hierarchy Theory, physiological needs include:",
+      "options": [
+        "Status and recognition",
+        "Food, water, shelter, and basic survival needs",
+        "Job security and pension",
+        "Self-actualization"
+      ],
+      "correctAnswer": "Food, water, shelter, and basic survival needs",
+      "conceptTag": "Maslow's Hierarchy of Needs",
+      "explanation": "Physiological needs sit at the base of Maslow's pyramid, covering fundamental biological survival requirements like food, water, and shelter."
+    },
+    {
+      "id": "c12_bst_ch07_03",
+      "question": "Financial incentives used to motivate employees include:",
+      "options": [
+        "Job enrichment",
+        "Bonus, profit sharing, and productivity-linked wage incentives",
+        "Employee recognition programs",
+        "Career advancement opportunities"
+      ],
+      "correctAnswer": "Bonus, profit sharing, and productivity-linked wage incentives",
+      "conceptTag": "Financial Incentives",
+      "explanation": "Financial incentives involve direct monetary rewards such as pay, bonuses, profit sharing, and retirement benefits."
+    },
+    {
+      "id": "c12_bst_ch07_04",
+      "question": "Semantic barriers to effective communication arise due to:",
+      "options": [
+        "Distrust between sender and receiver",
+        "Faulty translations, ambiguous words, and different interpretations",
+        "Noise in telephone lines",
+        "Premature evaluation"
+      ],
+      "correctAnswer": "Faulty translations, ambiguous words, and different interpretations",
+      "conceptTag": "Communication Barriers",
+      "explanation": "Semantic barriers stem from problems and misunderstandings in language, symbols, or words used during message transmission."
+    },
+    {
+      "id": "c12_bst_ch08_01",
+      "question": "Controlling function of management comes to an end when:",
+      "options": [
+        "Standards are set",
+        "Actual performance is measured",
+        "Corrective action is taken",
+        "The control process loops back to planning"
+      ],
+      "correctAnswer": "The control process loops back to planning",
+      "conceptTag": "Controlling Process",
+      "explanation": "Controlling is a continuous process where feedback and corrective actions lead straight back to reviewing and updating future plans."
+    },
+    {
+      "id": "c12_bst_ch08_02",
+      "question": "Management by Exception (Critical Point Control) suggests that a manager should focus attention on:",
+      "options": [
+        "Minor routine deviations",
+        "Key Result Areas (KRAs) and significant deviations beyond permissible limits",
+        "Every single minor error",
+        "Zero operational activity"
+      ],
+      "correctAnswer": "Key Result Areas (KRAs) and significant deviations beyond permissible limits",
+      "conceptTag": "Management by Exception",
+      "explanation": "Management by Exception dictates that trying to control everything results in controlling nothing; managers should focus only on critical major deviations."
+    },
+    {
+      "id": "c12_bst_ch08_030",
+      "question": "What is the relationship between planning and controlling?",
+      "options": [
+        "They are completely independent functions",
+        "Planning is backward-looking while controlling is forward-looking",
+        "Planning is futuristic (forward-looking) and controlling evaluates past performance (backward-looking), making them interlinked and interdependent",
+        "Controlling replaces planning entirely"
+      ],
+      "correctAnswer": "Planning is futuristic (forward-looking) and controlling evaluates past performance (backward-looking), making them interlinked and interdependent",
+      "conceptTag": "Relationship between Planning and Controlling",
+      "explanation": "Planning provides standards for controlling, while controlling provides information to improve future planning, making them a continuous cycle."
+    },
+    {
+      "id": "c12_bst_ch08_04",
+      "question": "The first step in the controlling process is:",
+      "options": [
+        "Analyzing deviations",
+        "Setting performance standards",
+        "Measuring actual performance",
+        "Taking corrective action"
+      ],
+      "correctAnswer": "Setting performance standards",
+      "conceptTag": "Steps in Controlling",
+      "explanation": "Controlling begins by establishing performance standards against which actual outcomes can later be measured."
+    },
+    {
+      "id": "c12_bst_ch09_01",
+      "question": "The primary objective of financial management is:",
+      "options": [
+        "Minimizing sales volume",
+        "Maximization of shareholders' wealth",
+        "Maximizing short-term cash balances",
+        "Avoiding all borrowing"
+      ],
+      "correctAnswer": "Maximization of shareholders' wealth",
+      "conceptTag": "Objective of Financial Management",
+      "explanation": "Financial management aims to maximize the market value of equity shares, thereby maximizing the long-term wealth of shareholders."
+    },
+    {
+      "id": "c12_bst_ch09_02",
+      "question": "Capital budgeting decisions relate to:",
+      "options": [
+        "Working capital management",
+        "Investment in long-term fixed assets",
+        "Short-term bank loans",
+        "Dividend payout ratio"
+      ],
+      "correctAnswer": "Investment in long-term fixed assets",
+      "conceptTag": "Capital Budgeting Decisions",
+      "explanation": "Capital budgeting decisions involve committing funds to long-term fixed assets that affect earning capacity over future years."
+    },
+    {
+      "id": "c12_bst_ch09_03",
+      "question": "Trading on Equity refers to the use of:",
+      "options": [
+        "Fixed-cost bearing debt alongside equity to increase Return on Equity (ROE)",
+        "Equity shares only without any loans",
+        "Retained earnings exclusively",
+        "Short-term trade credit"
+      ],
+      "correctAnswer": "Fixed-cost bearing debt alongside equity to increase Return on Equity (ROE)",
+      "conceptTag": "Financial Leverage / Trading on Equity",
+      "explanation": "Trading on Equity means using cheaper debt finance alongside equity to boost the earnings per share (EPS) for shareholders when overall return exceeds interest rate."
+    },
+    {
+      "id": "c12_bst_ch09_04",
+      "question": "Working capital requirement is generally higher for a business enterprise that deals in:",
+      "options": [
+        "Services with cash sales",
+        "Goods with long operating cycles and labor-intensive production",
+        "High inventory turnover with quick cash realization",
+        "Pure digital products"
+      ],
+      "correctAnswer": "Goods with long operating cycles and labor-intensive production",
+      "conceptTag": "Working Capital Requirements",
+      "explanation": "Long operating cycles, slow inventory turnover, and labor-intensive operations tie up cash for extended periods, increasing working capital needs."
+    },
+    {
+      "id": "c12_bst_ch10_01",
+      "question": "Financial markets facilitate the transfer of savings from:",
+      "options": [
+        "Deficit units to surplus units",
+        "Household savers (surplus units) to business investors (deficit units)",
+        "Government to foreign banks exclusively",
+        "Commercial banks to central bank"
+      ],
+      "correctAnswer": "Household savers (surplus units) to business investors (deficit units)",
+      "conceptTag": "Role of Financial Markets",
+      "explanation": "Financial markets channel funds from households and savers who have surplus money to business enterprises that require capital for investment."
+    },
+    {
+      "id": "c12_bst_ch10_02",
+      "question": "Treasury bills (T-bills) are instruments of:",
+      "options": [
+        "Capital market",
+        "Money market",
+        "Commodity futures market",
+        "Foreign exchange market"
+      ],
+      "correctAnswer": "Money market",
+      "conceptTag": "Money Market Instruments",
+      "explanation": "Treasury bills are short-term zero-coupon debt instruments issued by the Reserve Bank of India on behalf of the Central Government in the money market."
+    },
+    {
+      "id": "c12_bst_ch10_03",
+      "question": "Primary market differs from secondary market in that the primary market:",
+      "options": [
+        "Deals in previously issued securities among investors",
+        "Is where securities are issued by corporations directly to investors for the first time (New Issue Market)",
+        "Operates exclusively over-the-counter without brokers",
+        "Trades solely in government bonds"
+      ],
+      "correctAnswer": "Is where securities are issued by corporations directly to investors for the first time (New Issue Market)",
+      "conceptTag": "Primary vs Secondary Market",
+      "explanation": "The primary market is the New Issue Market where companies sell new shares/debentures, whereas the secondary market (stock exchange) trades existing securities."
+    },
+    {
+      "id": "c12_bst_ch10_04",
+      "question": "SEBI (Securities and Exchange Board of India) was established primarily to:",
+      "options": [
+        "Regulate and promote the securities market and protect investor interests",
+        "Control commercial bank lending rates",
+        "Issue currency notes",
+        "Fix agricultural support prices"
+      ],
+      "correctAnswer": "Regulate and promote the securities market and protect investor interests",
+      "conceptTag": "SEBI",
+      "explanation": "SEBI was established as an apex regulatory body to foster orderly development of capital markets and safeguard investors against fraudulent practices."
+    },
+    {
+      "id": "c12_bst_ch11_01",
+      "question": "Marketing management philosophy that focuses heavily on aggressive selling and promotional efforts to push products is the:",
+      "options": [
+        "Production concept",
+        "Product concept",
+        "Selling concept",
+        "Marketing concept"
+      ],
+      "correctAnswer": "Selling concept",
+      "conceptTag": "Marketing Management Philosophies",
+      "explanation": "The selling concept assumes customers will not buy enough products unless the firm undertakes large-scale selling and aggressive promotional campaigns."
+    },
+    {
+      "id": "c12_bst_ch11_02",
+      "question": "The four Ps of the traditional marketing mix are:",
+      "options": [
+        "Product, Price, Place, Promotion",
+        "Planning, Processing, Production, Profit",
+        "People, Process, Physical evidence, Price",
+        "Packaging, Publicity, Positioning, Purchase"
+      ],
+      "correctAnswer": "Product, Price, Place, Promotion",
+      "conceptTag": "Marketing Mix",
+      "explanation": "The traditional marketing mix comprises four key variables under company control: Product, Price, Place (distribution), and Promotion."
+    },
+    {
+      "id": "c12_bst_ch11_030",
+      "question": "Labelling in marketing serves which essential function?",
+      "options": [
+        "Describing the product, contents, grade, and providing statutory warnings",
+        "Acting as transport packaging exclusively",
+        "Determining corporate income tax",
+        "Setting bank interest rates"
+      ],
+      "correctAnswer": "Describing the product, contents, grade, and providing statutory warnings",
+      "conceptTag": "Labelling",
+      "explanation": "Labels provide crucial consumer information including ingredients, usage instructions, manufacturing details, and statutory warnings."
+    },
+    {
+      "id": "c12_bst_ch11_04",
+      "question": "Sales promotion tool that offers temporary price reductions or extra quantity to stimulate immediate sales is:",
+      "options": [
+        "Personal selling",
+        "Rebate, Discount, and Sample distribution",
+        "Public relations press release",
+        "Institutional advertising"
+      ],
+      "correctAnswer": "Rebate, Discount, and Sample distribution",
+      "conceptTag": "Sales Promotion",
+      "explanation": "Sales promotion includes short-term incentives like discounts, rebates, refunds, and free samples designed to encourage prompt purchase."
+    },
+    {
+      "id": "c12_bst_ch12_01",
+      "question": "Consumer Protection Act in India empowers consumers with specific rights. Which of the following is a recognized consumer right?",
+      "options": [
+        "Right to be heard and seek redressal",
+        "Right to fix corporate product prices",
+        "Right to unlimited financial compensation without proof",
+        "Right to manage company operations"
+      ],
+      "correctAnswer": "Right to be heard and seek redressal",
+      "conceptTag": "Consumer Rights",
+      "explanation": "The Consumer Protection Act guarantees six core rights, including the right to safety, right to be informed, right to choose, right to be heard, right to seek redressal, and right to consumer education."
+    },
+    {
+      "id": "c12_bst_ch12_02",
+      "question": "Under the Consumer Protection Act, a District Commission has jurisdiction to entertain consumer complaints where the value of goods and services paid does not exceed:",
+      "options": [
+        "1 Crore rupees",
+        "10 Lakhs rupees",
+        "10 Crore rupees",
+        "50 Lakhs rupees"
+      ],
+      "correctAnswer": "1 Crore rupees",
+      "conceptTag": "Consumer Redressal Agencies",
+      "explanation": "District Commissions entertain consumer complaints where claims do not exceed ₹1 Crore; State Commissions handle ₹1 Crore to ₹10 Crores; National Commission handles claims above ₹10 Crores."
+    },
+    {
+      "id": "c12_bst_ch12_03",
+      "question": "Which of the following marks serves as a quality certification standard for agricultural products in India?",
+      "options": [
+        "ISI mark",
+        "AGMARK",
+        "Hallmark",
+        "FPO mark"
+      ],
+      "correctAnswer": "AGMARK",
+      "conceptTag": "Consumer Quality Certification",
+      "explanation": "AGMARK is the quality certification mark for agricultural and food products in India (ISI for industrial goods, Hallmark for precious metals)."
+    },
+    {
+      "id": "c12_bst_ch12_04",
+      "question": "Who can file a consumer complaint under the Consumer Protection Act?",
+      "options": [
+        "A consumer, recognized consumer association, or Central/State Government",
+        "Only the manufacturer of the defective product",
+        "Only the high court judge",
+        "Stock exchange brokers"
+      ],
+      "correctAnswer": "A consumer, recognized consumer association, or Central/State Government",
+      "conceptTag": "Consumer Complaints Filing",
+      "explanation": "Complaints can be filed by any consumer, a registered consumer association, central/state governments, or legal heirs of a deceased consumer."
+    }
+  ]
+}

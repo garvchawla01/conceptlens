@@ -1,0 +1,206 @@
+{
+  "class": 9,
+  "subject": "SST",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter_name": "The French Revolution",
+      "questions": [
+        {
+          "id": "c9_sst_ch01_01",
+          "question": "On which date did the storming of the Bastille prison take place, marking the outbreak of the French Revolution?",
+          "options": ["14 July 1789", "5 May 1789", "4 August 1789", "21 September 1792"],
+          "correctAnswer": "14 July 1789",
+          "conceptTag": "Outbreak of the French Revolution",
+          "explanation": "The fortress-prison Bastille was stormed by angry crowds on 14 July 1789, symbolizing the end of despotic royal power."
+        },
+        {
+          "id": "c9_sst_ch01_02",
+          "question": "Which social estate in 18th-century France bore the burden of all direct and indirect taxes?",
+          "options": ["First Estate", "Second Estate", "Third Estate", "The Monarchy"],
+          "correctAnswer": "Third Estate",
+          "conceptTag": "Old Regime Tax Structure",
+          "explanation": "The First Estate (clergy) and Second Estate (nobility) enjoyed feudal privileges and were exempt from taxes, leaving the Third Estate (commoners, peasants, bourgeoisie) to pay all taxes."
+        },
+        {
+          "id": "c9_sst_ch01_03",
+          "question": "Who wrote the influential treatise 'The Social Contract', arguing for a government based on a social contract between people and representatives?",
+          "options": ["John Locke", "Jean-Jacques Rousseau", "Montesquieu", "Voltaire"],
+          "correctAnswer": "Jean-Jacques Rousseau",
+          "conceptTag": "Philosophers of the French Revolution",
+          "explanation": "Rousseau proposed the social contract theory in his book, inspiring democratic governance based on the consent of the governed."
+        },
+        {
+          "id": "c9_sst_ch01_04",
+          "question": "What was the name of the direct tax paid directly to the state by the third estate in France?",
+          "options": ["Tithe", "Taille", "Corvée", "Feudal dues"],
+          "correctAnswer": "Taille",
+          "conceptTag": "Taxation Systems in Ancien Régime",
+          "explanation": "'Taille' was a direct tax levied on peasants by the state, while 'tithe' was a religious tax collected by the church."
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "chapter_name": "Socialism in Europe and the Russian Revolution",
+      "questions": [
+        {
+          "id": "c9_sst_ch02_01",
+          "question": "Which political group in Russia favored a radical socialist transformation led by Vladimir Lenin and advocated a disciplined, centralized party?",
+          "options": ["Bolsheviks", "Mensheviks", "Liberalists", "Conservatives"],
+          "correctAnswer": "Bolsheviks",
+          "conceptTag": "Russian Political Factions",
+          "explanation": "Led by Lenin, the Bolsheviks believed in a disciplined party of professional revolutionaries to seize power for workers and peasants."
+        },
+        {
+          "id": "c9_sst_ch02_02",
+          "question": "What was the name of the Russian parliament or elected consultative assembly created after the 1905 Revolution?",
+          "options": ["Duma", "Soviet", "Zemstvo", "Duma-Soviet"],
+          "correctAnswer": "Duma",
+          "conceptTag": "1905 Revolution and Duma",
+          "explanation": "Tsar Nicholas II permitted the creation of an elected consultative parliament known as the Duma during the 1905 upheaval."
+        },
+        {
+          "id": "c9_sst_ch02_03",
+          "question": "What collective farming program was initiated by Joseph Stalin in 1929 to modernize Soviet agriculture?",
+          "options": ["Collectivization", "New Economic Policy", "Perestroika", "Kulak redistribution"],
+          "correctAnswer": "Collectivization",
+          "conceptTag": "Stalin's Collectivization Program",
+          "explanation": "Stalin forced farmers into collective farms (kolkhoz) from 1929 onwards to eliminate small-scale landholding and boost grain production."
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "chapter_name": "India – Size and Location",
+      "questions": [
+        {
+          "id": "c9_sst_ch03_01",
+          "question": "What is the latitudinal and longitudinal extent of the mainland of India approximately?",
+          "options": ["About 30 degrees", "About 15 degrees", "About 45 degrees", "About 60 degrees"],
+          "correctAnswer": "About 30 degrees",
+          "conceptTag": "Extents and Coordinates of India",
+          "explanation": "Both the latitudinal and longitudinal extents of India's mainland span roughly 30 degrees (approx. 8°4'N to 37°6'N and 68°7'E to 97°25'E)."
+        },
+        {
+          "id": "c9_sst_ch03_02",
+          "question": "Which standard meridian of India is taken as the Standard Time for the whole country?",
+          "options": ["82°30' E passing through Mirzapur", "88°30' E passing through Kolkata", "68°7' E passing through Dwarka", "97°25' E passing through Arunachal"],
+          "correctAnswer": "82°30' E passing through Mirzapur",
+          "conceptTag": "Indian Standard Time (IST)",
+          "explanation": "The Standard Meridian of India is 82°30' E, passing through Mirzapur in Uttar Pradesh, maintaining a uniform time across the nation."
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "chapter_name": "Physical Features of India",
+      "questions": [
+        {
+          "id": "c9_sst_ch04_01",
+          "question": "Which physiographic division of India is known for its stable tableland composed of igneous and metamorphic rocks?",
+          "options": ["The Peninsular Plateau", "The Northern Plains", "The Coastal Plains", "The Himalayan Mountains"],
+          "correctAnswer": "The Peninsular Plateau",
+          "conceptTag": "Physiographic Divisions",
+          "explanation": "The Peninsular Plateau is an ancient tableland formed from the breaking and drifting of the Gondwana landmass."
+        },
+        {
+          "id": "c9_sst_ch04_02",
+          "question": "What are the longitudinal valleys lying between the Lesser Himalayas and the Shiwaliks known as?",
+          "options": ["Duns", "Bhabar", "Terai", "Doab"],
+          "correctAnswer": "Duns",
+          "conceptTag": "Himalayan Valleys",
+          "explanation": "Longitudinal valleys like Dehra Dun, Kotli Dun, and Patli Dun situated between the Lesser Himalayas and Shiwaliks are called Duns."
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "chapter_name": "What is Democracy? Why Democracy?",
+      "questions": [
+        {
+          "id": "c9_sst_ch05_01",
+          "question": "According to the defining features of democracy, who must hold the final decision-making power in a democratic government?",
+          "options": ["Rulers elected by the people", "Military generals", "Monarchs and hereditary kings", "Foreign donor agencies"],
+          "correctAnswer": "Rulers elected by the people",
+          "conceptTag": "Core Principles of Democracy",
+          "explanation": "In a democracy, the ultimate power rests with representatives freely elected by adult citizens."
+        },
+        {
+          "id": "c9_sst_ch05_02",
+          "question": "Which country experienced a military coup in 1999 led by General Pervez Musharraf, undermining its democratic framework?",
+          "options": ["Pakistan", "Zimbabwe", "China", "Mexico"],
+          "correctAnswer": "Pakistan",
+          "conceptTag": "Case Studies in Democratic Governance",
+          "explanation": "General Pervez Musharraf led a military coup in Pakistan in October 1999, overthrowing the elected government and later amending the constitution to vest executive powers in himself."
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "chapter_name": "Constitutional Design",
+      "questions": [
+        {
+          "id": "c9_sst_ch06_01",
+          "question": "Who served as the Chairman of the Drafting Committee of the Indian Constituent Assembly?",
+          "options": ["Dr. B.R. Ambedkar", "Dr. Rajendra Prasad", "Jawaharlal Nehru", "Sardar Vallabhbhai Patel"],
+          "correctAnswer": "Dr. B.R. Ambedkar",
+          "conceptTag": "Indian Constituent Assembly",
+          "explanation": "Dr. B.R. Ambedkar chaired the crucial Drafting Committee responsible for preparing the draft of the Indian Constitution."
+        },
+        {
+          "id": "c9_sst_ch06_02",
+          "question": "What term in the Preamble of the Indian Constitution signifies that citizens have complete freedom in religious belief, practice, and worship with no state religion?",
+          "options": ["Secular", "Sovereign", "Socialist", "Democratic"],
+          "correctAnswer": "Secular",
+          "conceptTag": "Values of the Indian Constitution",
+          "explanation": "India is declared a secular nation, meaning the state has no official religion and treats all religions with equal respect."
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "chapter_name": "The Story of Village Palampur",
+      "questions": [
+        {
+          "id": "c9_sst_ch07_01",
+          "question": "What is the standard unit of measuring land in rural areas, though local units like bigha and guartha are also used?",
+          "options": ["Hectare", "Acre", "Square meter", "Kilometer"],
+          "correctAnswer": "Hectare",
+          "conceptTag": "Factors of Production in Agriculture",
+          "explanation": "The standard SI unit for measuring land area in agriculture is the hectare (equivalent to 10,000 square meters)."
+        },
+        {
+          "id": "c9_sst_ch07_02",
+          "question": "Which of the following is considered fixed capital in farming operations?",
+          "options": ["Tools, machinery, and tubewells", "Seeds and fertilizers", "Cash in hand for daily wages", "Raw cotton"],
+          "correctAnswer": "Tools, machinery, and tubewells",
+          "conceptTag": "Types of Capital",
+          "explanation": "Fixed capital includes durable assets like agricultural machinery, buildings, and tools that last over multiple production cycles."
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "chapter_name": "Poverty as a Challenge",
+      "questions": [
+        {
+          "id": "c9_sst_ch08_01",
+          "question": "How is poverty line primarily measured in India based on consumption expenditure surveys conducted periodically?",
+          "options": ["Minimum level of living / calorie intake and consumption expenditure criteria", "Total national income per capita", "Stock market capitalization", "Industrial output volume"],
+          "correctAnswer": "Minimum level of living / calorie intake and consumption expenditure criteria",
+          "conceptTag": "Poverty Line Measurement",
+          "explanation": "The poverty line is calculated using a minimum required calorie intake (2400 calories in rural areas, 2100 in urban areas) and monetary consumption thresholds."
+        },
+        {
+          "id": "c9_sst_ch08_02",
+          "question": "Which major employment generation program guarantees 100 days of wage employment per year to rural households in India?",
+          "options": ["MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)", "PM Employment Generation Programme", "Pradhan Mantri Gram Sadak Yojana", "Swarna Jayanti Gram Swarozgar Yojana"],
+          "correctAnswer": "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)",
+          "conceptTag": "Poverty Alleviation Programmes",
+          "explanation": "Passed in 2005, MGNREGA ensures a legal guarantee of 100 days of manual wage employment per year to every rural household whose adult members volunteer."
+        }
+      ]
+    }
+  ]
+}

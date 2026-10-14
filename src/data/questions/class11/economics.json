@@ -1,0 +1,682 @@
+{
+  "class": 11,
+  "subject": "Economics",
+  "EconomicsMCQs": [
+    {
+      "id": "c11_eco_ch01_01",
+      "question": "What does statistics mean in the plural sense?",
+      "options": [
+        "Statistical methods",
+        "Numerical data collected in a systematic manner",
+        "Statistical analysis",
+        "Probability theory"
+      ],
+      "correctAnswer": "Numerical data collected in a systematic manner",
+      "conceptTag": "Meaning of Statistics",
+      "explanation": "In the plural sense, statistics refers to numerical facts or data collected systematically for a specific purpose."
+    },
+    {
+      "id": "c11_eco_ch01_02",
+      "question": "Who is considered the father of statistics?",
+      "options": [
+        "Adam Smith",
+        "Gottfried Achenwall",
+        "Alfred Marshall",
+        "Karl Pearson"
+      ],
+      "correctAnswer": "Gottfried Achenwall",
+      "conceptTag": "Origin of Statistics",
+      "explanation": "Gottfried Achenwall is credited with originating the term 'Statistics' and is often regarded as its father."
+    },
+    {
+      "id": "c11_eco_ch01_03",
+      "question": "Scarcity is the root of all economic problems because:",
+      "options": [
+        "Human wants are unlimited and resources are limited",
+        "Resources are unlimited and wants are limited",
+        "There is no alternative use of resources",
+        "Government controls all production"
+      ],
+      "correctAnswer": "Human wants are unlimited and resources are limited",
+      "conceptTag": "Central Problems of Economy",
+      "explanation": "Economic problems arise because resources are scarce relative to unlimited human wants, forcing choices regarding resource allocation."
+    },
+    {
+      "id": "c11_eco_ch01_04",
+      "question": "Which of the following is a quantitative variable?",
+      "options": [
+        "Beauty",
+        "Intelligence",
+        "Height of students",
+        "Honesty"
+      ],
+      "correctAnswer": "Height of students",
+      "conceptTag": "Variables in Statistics",
+      "explanation": "Height can be measured numerically, making it a quantitative variable, whereas beauty, intelligence, and honesty are qualitative attributes."
+    },
+    {
+      "id": "c11_eco_ch02_01",
+      "question": "Data collected firsthand by an investigator for a specific inquiry is called:",
+      "options": [
+        "Secondary data",
+        "Primary data",
+        "Published data",
+        "Internal data"
+      ],
+      "correctAnswer": "Primary data",
+      "conceptTag": "Sources of Data",
+      "explanation": "Primary data are original data collected for the first time directly by the investigator."
+    },
+    {
+      "id": "c11_eco_ch02_02",
+      "question": "Which method of collecting primary data covers a wide geographical area and is economical?",
+      "options": [
+        "Direct personal investigation",
+        "Mailing questionnaires",
+        "Oral interviews",
+        "Telephone interviews"
+      ],
+      "correctAnswer": "Mailing questionnaires",
+      "conceptTag": "Collection of Data Methods",
+      "explanation": "Mailing questionnaires allows reaching respondents across vast geographical areas at a relatively low cost."
+    },
+    {
+      "id": "c11_eco_ch02_03",
+      "question": "A complete enumeration of every unit in a population is known as:",
+      "options": [
+        "Sample survey",
+        "Census",
+        "Pilot survey",
+        "Random sampling"
+      ],
+      "correctAnswer": "Census",
+      "conceptTag": "Census vs Sample",
+      "explanation": "A census survey involves collecting data from every single member or unit of the population."
+    },
+    {
+      "id": "c11_eco_ch02_04",
+      "question": "Sampling error can be reduced by:",
+      "options": [
+        "Increasing the sample size",
+        "Decreasing the sample size",
+        "Using biased selection",
+        "Avoiding data collection"
+      ],
+      "correctAnswer": "Increasing the sample size",
+      "conceptTag": "Sampling Errors",
+      "explanation": "As the sample size increases, it becomes more representative of the population, thereby reducing sampling error."
+    },
+    {
+      "id": "c11_eco_ch03_01",
+      "question": "Arranging raw data into rows and columns according to certain characteristics is called:",
+      "options": [
+        "Tabulation",
+        "Classification",
+        "Frequency distribution",
+        "Diagrammatic presentation"
+      ],
+      "correctAnswer": "Tabulation",
+      "conceptTag": "Tabulation of Data",
+      "explanation": "Tabulation is the systematic arrangement of classified data in rows and columns to facilitate comparison and analysis."
+    },
+    {
+      "id": "c11_eco_ch03_02",
+      "question": "In a frequency distribution, the midpoint of a class interval is calculated as:",
+      "options": [
+        "Upper limit - Lower limit",
+        "\\frac{\\text{Lower limit} + \\text{Upper limit}}{2}",
+        "Upper limit \\times Lower limit",
+        "\\frac{\\text{Upper limit} - \\text{Lower limit}}{2}"
+      ],
+      "correctAnswer": "\\frac{\\text{Lower limit} + \\text{Upper limit}}{2}",
+      "conceptTag": "Frequency Distribution",
+      "explanation": "The class mark or midpoint of a class interval is found by averaging its lower and upper limits."
+    },
+    {
+      "id": "c11_eco_ch03_03",
+      "question": "A series in which upper limit of one class is excluded and forms the lower limit of the next class is:",
+      "options": [
+        "Inclusive series",
+        "Exclusive series",
+        "Cumulative series",
+        "Open-end series"
+      ],
+      "correctAnswer": "Exclusive series",
+      "conceptTag": "Types of Series",
+      "explanation": "In an exclusive series, items up to the upper limit are included in that class, while the upper limit itself is included in the next class."
+    },
+    {
+      "id": "c11_eco_ch03_04",
+      "question": "The difference between the upper limit and lower limit of a class interval is called:",
+      "options": [
+        "Class mark",
+        "Class width (Class size)",
+        "Range",
+        "Frequency"
+      ],
+      "correctAnswer": "Class width (Class size)",
+      "conceptTag": "Class Intervals",
+      "explanation": "Class width is defined as the difference between the upper class limit and the lower class limit."
+    },
+    {
+      "id": "c11_eco_ch04_01",
+      "question": "A bar diagram in which different components of a total are stacked in a single bar is called:",
+      "options": [
+        "Simple bar diagram",
+        "Multiple bar diagram",
+        "Component (Stacked) bar diagram",
+        "Percentage bar diagram"
+      ],
+      "correctAnswer": "Component (Stacked) bar diagram",
+      "conceptTag": "Diagrammatic Presentation",
+      "explanation": "Component bar diagrams show various parts or components of a total aggregate stacked vertically or horizontally within a single bar."
+    },
+    {
+      "id": "c11_eco_ch04_02",
+      "question": "Which graphical tool is used to determine the median graphically?",
+      "options": [
+        "Histogram",
+        "Frequency polygon",
+        "Ogive (Cumulative frequency curve)",
+        "Pie chart"
+      ],
+      "correctAnswer": "Ogive (Cumulative frequency curve)",
+      "conceptTag": "Graphical Presentation",
+      "explanation": "An ogive curve plots cumulative frequencies against class boundaries, allowing graphical location of the median."
+    },
+    {
+      "id": "c11_eco_ch04_03",
+      "question": "A histogram is best suited for representing:",
+      "options": [
+        "Discrete data",
+        "Continuous frequency distribution",
+        "Time series data",
+        "Qualitative attributes"
+      ],
+      "correctAnswer": "Continuous frequency distribution",
+      "conceptTag": "Histogram",
+      "explanation": "Histograms consist of adjacent rectangular bars constructed over continuous class intervals to represent frequency distributions."
+    },
+    {
+      "id": "c11_eco_ch04_04",
+      "question": "Pie diagrams represent data as sectors of a circle where the total angle of the circle is:",
+      "options": [
+        "90°",
+        "180°",
+        "360°",
+        "100°"
+      ],
+      "correctAnswer": "360°",
+      "conceptTag": "Pie Diagrams",
+      "explanation": "A circle representing 100% of data corresponds to a total angle of 360 degrees, where each sector angle is proportional to its component value."
+    },
+    {
+      "id": "c11_eco_ch05_01",
+      "question": "Which of the following is a positional average?",
+      "options": [
+        "Arithmetic mean",
+        "Median",
+        "Geometric mean",
+        "Harmonic mean"
+      ],
+      "correctAnswer": "Median",
+      "conceptTag": "Measures of Central Tendency",
+      "explanation": "Median and mode are positional averages since their value depends upon the position of items in the sorted data series."
+    },
+    {
+      "id": "c11_eco_ch05_02",
+      "question": "The sum of deviations of individual observations from their arithmetic mean is always:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Equal to 1"
+      ],
+      "correctAnswer": "Zero",
+      "conceptTag": "Properties of Mean",
+      "explanation": "A fundamental algebraic property of the arithmetic mean is that $\\sum (x - \\bar{x}) = 0$."
+    },
+    {
+      "id": "c11_eco_ch05_03",
+      "question": "If each observation in a data set is multiplied by 5, the new arithmetic mean will:",
+      "options": [
+        "Remain unchanged",
+        "Be multiplied by 5",
+        "Increase by 5",
+        "Be divided by 5"
+      ],
+      "correctAnswer": "Be multiplied by 5",
+      "conceptTag": "Properties of Mean",
+      "explanation": "The arithmetic mean is affected proportionately by changes in scale; multiplying each observation by a constant multiplies the mean by that constant."
+    },
+    {
+      "id": "c11_eco_ch05_04",
+      "question": "Which measure of central tendency is most affected by extreme values (outliers)?",
+      "options": [
+        "Median",
+        "Mode",
+        "Arithmetic Mean",
+        "Percentile"
+      ],
+      "correctAnswer": "Arithmetic Mean",
+      "conceptTag": "Comparison of Averages",
+      "explanation": "The arithmetic mean incorporates every data value into its calculation, making it highly sensitive to extreme outliers."
+    },
+    {
+      "id": "c11_eco_ch06_01",
+      "question": "Karl Pearson's correlation coefficient ($r$) always lies between:",
+      "options": [
+        "0 and 1",
+        "-1 and +1",
+        "-infinity and +infinity",
+        "0 and 100"
+      ],
+      "correctAnswer": "-1 and +1",
+      "conceptTag": "Correlation Coefficient",
+      "explanation": "The value of Karl Pearson's coefficient of correlation ranges strictly from -1 (perfect negative correlation) to +1 (perfect positive correlation)."
+    },
+    {
+      "id": "c11_eco_ch06_02",
+      "question": "Spearman's rank correlation coefficient is calculated using:",
+      "options": [
+        "Actual values of variables",
+        "Ranks assigned to observations",
+        "Frequencies",
+        "Standard deviations only"
+      ],
+      "correctAnswer": "Ranks assigned to observations",
+      "conceptTag": "Rank Correlation",
+      "explanation": "Spearman's rank correlation measures the relationship between ordinal data based on the ranks given to the variables rather than raw values."
+    },
+    {
+      "id": "c11_eco_ch06_03",
+      "question": "If an increase in one variable leads to a decrease in another variable, the correlation is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Perfect"
+      ],
+      "correctAnswer": "Negative",
+      "conceptTag": "Types of Correlation",
+      "explanation": "Inverse movement between two variables indicates a negative or inverse correlation."
+    },
+    {
+      "id": "c11_eco_ch06_04",
+      "question": "A scatter diagram that shows points spreading randomly across the graph indicates:",
+      "options": [
+        "Perfect positive correlation",
+        "Perfect negative correlation",
+        "Zero correlation (no correlation)",
+        "Non-linear correlation"
+      ],
+      "correctAnswer": "Zero correlation (no correlation)",
+      "conceptTag": "Scatter Diagram",
+      "explanation": "When plotted points show no clear upward or downward trend and scatter randomly, it signifies absence of correlation."
+    },
+    {
+      "id": "c11_eco_ch07_01",
+      "question": "Index numbers are often referred to as:",
+      "options": [
+        "Economic barometers",
+        "Measures of dispersion",
+        "Regression indicators",
+        "Probability estimators"
+      ],
+      "correctAnswer": "Economic barometers",
+      "conceptTag": "Index Numbers Overview",
+      "explanation": "Index numbers measure changes in economic variables over time, functioning as economic barometers to gauge economic health."
+    },
+    {
+      "id": "c11_eco_ch07_02",
+      "question": "Which index number formula uses base year quantities as weights?",
+      "options": [
+        "Paasche's index",
+        "Laspeyres's index",
+        "Fisher's ideal index",
+        "Simple aggregative index"
+      ],
+      "correctAnswer": "Laspeyres's index",
+      "conceptTag": "Laspeyres Index",
+      "explanation": "Laspeyres's price index uses base year consumption quantities ($q_0$) as weights."
+    },
+    {
+      "id": "c11_eco_ch07_03",
+      "question": "Fisher's Ideal Index number is considered ideal because it satisfies:",
+      "options": [
+        "Only unit test",
+        "Time Reversal Test and Factor Reversal Test",
+        "Circular test only",
+        "None of the tests"
+      ],
+      "correctAnswer": "Time Reversal Test and Factor Reversal Test",
+      "conceptTag": "Fisher's Index Number",
+      "explanation": "Fisher's index satisfies both the Time Reversal Test and the Factor Reversal Test, earning the title of 'ideal' index number."
+    },
+    {
+      "id": "c11_eco_ch07_04",
+      "question": "Consumer Price Index (CPI) is primarily used for calculating:",
+      "options": [
+        "Inflation and cost of living changes",
+        "National income at factor cost",
+        "Industrial production growth",
+        "Export volumes"
+      ],
+      "correctAnswer": "Inflation and cost of living changes",
+      "conceptTag": "Consumer Price Index",
+      "explanation": "CPI measures changes in retail prices paid by consumers for a basket of goods, reflecting cost-of-living adjustments and inflation."
+    },
+    {
+      "id": "c11_eco_ch08_01",
+      "question": "Project planning and implementation in India were supported heavily using statistical tools during:",
+      "options": [
+        "Economic planning and Five-Year Plans",
+        "Tax evasion audits",
+        "Meteorological forecasting",
+        "Agricultural crop failure"
+      ],
+      "correctAnswer": "Economic planning and Five-Year Plans",
+      "conceptTag": "Use of Statistical Tools",
+      "explanation": "Statistical tools are vital for national economic planning, policy evaluation, and target setting in frameworks like Five-Year Plans."
+    },
+    {
+      "id": "c11_eco_ch08_02",
+      "question": "Government policies regarding taxation and public expenditure are framed using:",
+      "options": [
+        "Statistical data on income and employment",
+        "Random guesses",
+        "Historical fiction",
+        "Meteorological charts"
+      ],
+      "correctAnswer": "Statistical data on income and employment",
+      "conceptTag": "Application of Statistics",
+      "explanation": "Fiscal policy and welfare schemes rely on empirical statistical data regarding poverty, income distribution, and employment."
+    },
+    {
+      "id": "c11_eco_ch08_03",
+      "question": "Which organization in India is primarily responsible for coordinating statistical activities and collecting official macro data?",
+      "options": [
+        "Reserve Bank of India",
+        "Ministry of Statistics and Programme Implementation (MoSPI)",
+        "SEBI",
+        "NITI Aayog"
+      ],
+      "correctAnswer": "Ministry of Statistics and Programme Implementation (MoSPI)",
+      "conceptTag": "Official Statistics in India",
+      "explanation": "MoSPI oversees national statistical coordination, conducting surveys through agencies like NSSO."
+    },
+    {
+      "id": "c11_eco_ch08_04",
+      "question": "Census of India is conducted periodically after every:",
+      "options": [
+        "5 years",
+        "10 years",
+        "2 years",
+        "15 years"
+      ],
+      "correctAnswer": "10 years",
+      "conceptTag": "Demographic Statistics",
+      "explanation": "The decennial Census of India is conducted every 10 years to gather comprehensive demographic and economic data."
+    },
+    {
+      "id": "c11_eco_ch09_01",
+      "question": "Microeconomics studies:",
+      "options": [
+        "Economy-wide inflation and unemployment",
+        "Behavior of individual economic units",
+        "National income determination",
+        "Aggregate demand and supply"
+      ],
+      "correctAnswer": "Behavior of individual economic units",
+      "conceptTag": "Introduction to Microeconomics",
+      "explanation": "Microeconomics analyzes individual economic agents and markets, such as households, firms, and specific product pricing."
+    },
+    {
+      "id": "c11_eco_ch09_02",
+      "question": "Which of the following is a central problem of an economy?",
+      "options": [
+        "What to produce and in what quantities",
+        "How to print currency notes",
+        "How to increase stock market returns",
+        "How to avoid international trade tariffs"
+      ],
+      "correctAnswer": "What to produce and in what quantities",
+      "conceptTag": "Central Problems",
+      "explanation": "Due to resource scarcity, every economy must solve three central problems: what to produce, how to produce, and for whom to produce."
+    },
+    {
+      "id": "c11_eco_ch09_03",
+      "question": "A Production Possibility Curve (PPC) is typically bowed outward (concave to the origin) due to:",
+      "options": [
+        "Constant opportunity cost",
+        "Increasing marginal opportunity cost",
+        "Decreasing returns to scale",
+        "Constant returns"
+      ],
+      "correctAnswer": "Increasing marginal opportunity cost",
+      "conceptTag": "Production Possibility Curve",
+      "explanation": "Resources are not equally efficient in producing all goods, leading to increasing marginal opportunity cost and a concave PPC."
+    },
+    {
+      "id": "c11_eco_ch09_04",
+      "question": "In a centrally planned economy, economic decisions are taken by:",
+      "options": [
+        "Price mechanism of free market",
+        "Central authority or government",
+        "Consumers alone",
+        "Multinational corporations"
+      ],
+      "correctAnswer": "Central authority or government",
+      "conceptTag": "Types of Economies",
+      "explanation": "In a centrally planned economy, the government or central planning authority makes major production and distribution decisions."
+    },
+    {
+      "id": "c11_eco_ch10_01",
+      "question": "Utility refers to:",
+      "options": [
+        "Price of a commodity",
+        "Want-satisfying power of a commodity",
+        "Cost of production",
+        "Profit earned by a firm"
+      ],
+      "correctAnswer": "Want-satisfying power of a commodity",
+      "conceptTag": "Concept of Utility",
+      "explanation": "Utility is the economic measure of satisfaction or want-satisfying power derived from consuming a good or service."
+    },
+    {
+      "id": "c11_eco_ch10_02",
+      "question": "The Law of Diminishing Marginal Utility states that as consumption of a good increases:",
+      "options": [
+        "Total utility increases at an increasing rate",
+        "Marginal utility derived from each successive unit goes on declining",
+        "Marginal utility remains constant",
+        "Total utility starts falling immediately"
+      ],
+      "correctAnswer": "Marginal utility derived from each successive unit goes on declining",
+      "conceptTag": "Diminishing Marginal Utility",
+      "explanation": "As a consumer consumes more units of a good, the satisfaction derived from each additional unit diminishes."
+    },
+    {
+      "id": "c11_eco_ch10_03",
+      "question": "An indifference curve slopes downward from left to right because:",
+      "options": [
+        "More of one good means less of the other to maintain same level of satisfaction",
+        "Marginal rate of substitution increases",
+        "Goods are perfect substitutes",
+        "Consumer income rises"
+      ],
+      "correctAnswer": "More of one good means less of the other to maintain same level of satisfaction",
+      "conceptTag": "Indifference Curves",
+      "explanation": "To keep total satisfaction constant along an indifference curve, increasing consumption of one good requires reducing consumption of the other."
+    },
+    {
+      "id": "c11_eco_ch10_04",
+      "question": "The price elasticity of demand for a luxury good is generally:",
+      "options": [
+        "Inelastic ($e_d < 1$)",
+        "Elastic ($e_d > 1$)",
+        "Unitary elastic ($e_d = 1$)",
+        "Zero"
+      ],
+      "correctAnswer": "Elastic ($e_d > 1$)",
+      "conceptTag": "Elasticity of Demand",
+      "explanation": "Luxury goods are discretionary and responsive to price changes, making their demand price-elastic."
+    },
+    {
+      "id": "c11_eco_ch11_01",
+      "question": "In the short run, a production function exhibits:",
+      "options": [
+        "All inputs variable",
+        "At least one fixed input and variable other inputs",
+        "All inputs fixed",
+        "Constant returns to scale"
+      ],
+      "correctAnswer": "At least one fixed input and variable other inputs",
+      "conceptTag": "Short-run Production Function",
+      "explanation": "In the short run, plant size or capital is fixed while variable inputs like labor are altered, governed by the Law of Variable Proportions."
+    },
+    {
+      "id": "c11_eco_ch11_02",
+      "question": "According to the Law of Variable Proportions, when total product increases at an increasing rate:",
+      "options": [
+        "Marginal product is rising",
+        "Marginal product is falling",
+        "Marginal product is zero",
+        "Marginal product is negative"
+      ],
+      "correctAnswer": "Marginal product is rising",
+      "conceptTag": "Returns to a Factor",
+      "explanation": "An increasing total product curve corresponds to a rising marginal product during the first stage of production."
+    },
+    {
+      "id": "c11_eco_ch11_03",
+      "question": "Which of the following costs continues to exist even when output is zero?",
+      "options": [
+        "Variable cost",
+        "Fixed cost",
+        "Marginal cost",
+        "Total variable cost"
+      ],
+      "correctAnswer": "Fixed cost",
+      "conceptTag": "Cost Concepts",
+      "explanation": "Fixed costs (like rent and machinery depreciation) must be paid regardless of whether production output is zero."
+    },
+    {
+      "id": "c11_eco_ch11_04",
+      "question": "The marginal cost curve intersects the average variable cost (AVC) curve at:",
+      "options": [
+        "Maximum point of AVC",
+        "Minimum point of AVC",
+        "Starting point of AVC",
+        "Intersection with AFC"
+      ],
+      "correctAnswer": "Minimum point of AVC",
+      "conceptTag": "Relation between MC and AC",
+      "explanation": "The MC curve cuts the AVC and ATC curves from below at their respective minimum points."
+    },
+    {
+      "id": "c11_eco_ch12_01",
+      "question": "Under perfect competition, an individual firm is a:",
+      "options": [
+        "Price maker",
+        "Price taker",
+        "Monopolist",
+        "Price discriminator"
+      ],
+      "correctAnswer": "Price taker",
+      "conceptTag": "Perfect Competition",
+      "explanation": "Because there are numerous buyers and sellers trading homogenous products, an individual firm accepts the market price as given (price taker)."
+    },
+    {
+      "id": "c11_eco_ch12_02",
+      "question": "For a firm in a perfectly competitive market, marginal revenue (MR) is equal to:",
+      "options": [
+        "Price ($P$)",
+        "Total cost",
+        "Average fixed cost",
+        "Zero"
+      ],
+      "correctAnswer": "Price ($P$)",
+      "conceptTag": "Revenue in Perfect Competition",
+      "explanation": "Since price remains constant across output levels for a price-taking firm, price equals both average revenue and marginal revenue ($P = AR = MR$)."
+    },
+    {
+      "id": "c11_eco_ch12_03",
+      "question": "Profit maximization condition for a competitive firm is:",
+      "options": [
+        "$MC = MR$ and $MC$ curve is rising",
+        "$MR = AC$",
+        "$Price = AVC$",
+        "$Total Revenue = Total Cost$ (zero profit)"
+      ],
+      "correctAnswer": "$MC = MR$ and $MC$ curve is rising",
+      "conceptTag": "Profit Maximization",
+      "explanation": "A firm maximizes profit where marginal cost equals marginal revenue provided marginal cost is rising at that output level."
+    },
+    {
+      "id": "c11_eco_ch12_04",
+      "question": "In the short run, a perfectly competitive firm will shut down production if price falls below:",
+      "options": [
+        "Minimum average total cost",
+        "Minimum average variable cost",
+        "Average fixed cost",
+        "Zero"
+      ],
+      "correctAnswer": "Minimum average variable cost",
+      "conceptTag": "Shut-down Point",
+      "explanation": "If price falls below the minimum average variable cost, the firm cannot cover variable operating expenses and will shut down immediately."
+    },
+    {
+      "id": "c11_eco_ch13_01",
+      "question": "Market equilibrium is determined at the point where:",
+      "options": [
+        "Market demand equals market supply",
+        "Demand exceeds supply",
+        "Supply exceeds demand",
+        "Price is zero"
+      ],
+      "correctAnswer": "Market demand equals market supply",
+      "conceptTag": "Market Equilibrium",
+      "explanation": "Equilibrium price and quantity occur where quantity demanded equals quantity supplied in the market."
+    },
+    {
+      "id": "c11_eco_ch13_02",
+      "question": "If market price is above the equilibrium price, it creates:",
+      "options": [
+        "Excess demand (shortage)",
+        "Excess supply (surplus)",
+        "Equilibrium",
+        "Monopoly profit"
+      ],
+      "correctAnswer": "Excess supply (surplus)",
+      "conceptTag": "Shift in Equilibrium",
+      "explanation": "When price exceeds equilibrium price, sellers supply more than buyers demand, resulting in an excess supply or surplus that pushes price down."
+    },
+    {
+      "id": "c11_eco_ch13_03",
+      "question": "An increase in consumer income for a normal good will shift the market demand curve to the:",
+      "options": [
+        "Left",
+        "Right",
+        "Remain unchanged",
+        "Become vertical"
+      ],
+      "correctAnswer": "Right",
+      "conceptTag": "Shift in Demand",
+      "explanation": "Higher income increases purchasing power for normal goods, shifting market demand rightward and raising equilibrium price and quantity."
+    },
+    {
+      "id": "c11_eco_ch13_04",
+      "question": "Simultaneous increase in both demand and supply will definitely result in:",
+      "options": [
+        "Higher equilibrium quantity",
+        "Higher equilibrium price",
+        "Lower equilibrium price",
+        "No change in quantity"
+      ],
+      "correctAnswer": "Higher equilibrium quantity",
+      "conceptTag": "Simultaneous Shifts",
+      "explanation": "When both demand and supply increase simultaneously, the equilibrium quantity unambiguously increases, while the effect on price depends on the magnitude of shifts."
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+{
+  "class": 12,
+  "subject": "Biology",
+  "BiologyMCQs": [
+    {
+      "id": "c12_bio_ch01_01",
+      "question": "Transfer of pollen grains from the anther to the stigma of another flower of the same plant is called:",
+      "options": [
+        "Autogamy",
+        "Geitonogamy",
+        "Xenogamy",
+        "Cleistogamy"
+      ],
+      "correctAnswer": "Geitonogamy",
+      "conceptTag": "Pollination Types",
+      "explanation": "Geitonogamy involves pollen transfer between flowers of the same plant; genetically it is similar to self-pollination (autogamy) as it occurs on the same plant, but functionally requires pollinating agents."
+    },
+    {
+      "id": "c12_bio_ch01_02",
+      "question": "The hard outer layer of a pollen grain (exine) is composed of a remarkably resistant organic substance called:",
+      "options": [
+        "Cellulose",
+        "Pectin",
+        "Sporopollenin",
+        "Lignin"
+      ],
+      "correctAnswer": "Sporopollenin",
+      "conceptTag": "Pollen Grain Structure",
+      "explanation": "Exine is made of sporopollenin, one of the most resistant organic materials known, capable of withstanding high temperatures, strong acids, and alkali degradation."
+    },
+    {
+      "id": "c12_bio_ch01_03",
+      "question": "What is the ploidy level of cells in the endosperm of angiosperms resulting from triple fusion?",
+      "options": [
+        "Haploid (n)",
+        "Diploid (2n)",
+        "Triploid (3n)",
+        "Tetraploid (4n)"
+      ],
+      "correctAnswer": "Triploid (3n)",
+      "conceptTag": "Double Fertilization & Endosperm",
+      "explanation": "Triple fusion involves the fusion of one male gamete (n) with two polar nuclei (2n), resulting in a primary endosperm nucleus that is triploid (3n)."
+    },
+    {
+      "id": "c12_bio_ch01_04",
+      "question": "Apomixis is a form of asexual reproduction that mimics sexual reproduction because it involves:",
+      "options": [
+        "Formation of seeds without fertilization",
+        "Fusion of gametes",
+        "Vegetative runners exclusively",
+        "Budding"
+      ],
+      "correctAnswer": "Formation of seeds without fertilization",
+      "conceptTag": "Apomixis and Polyembryony",
+      "explanation": "Apomixis is the production of seeds without fertilization (agamospermy), effectively producing clonal offspring while mimicking sexual seed formation."
+    },
+    {
+      "id": "c12_bio_ch02_01",
+      "question": "The process of release of secondary oocyte from the human ovary is known as:",
+      "options": [
+        "Menstruation",
+        "Ovulation",
+        "Implantation",
+        "Gastrulation"
+      ],
+      "correctAnswer": "Ovulation",
+      "conceptTag": "Female Reproductive System",
+      "explanation": "Ovulation is the rupture of the mature Graafian follicle releasing the secondary oocyte into the peritoneal cavity, usually triggered by the LH surge on day 14."
+    },
+    {
+      "id": "c12_bio_ch02_02",
+      "question": "Where does fertilization of the ovum by a spermatozoon typically take place in the human female reproductive tract?",
+      "options": [
+        "Uterus",
+        "Ampulla of the fallopian tube",
+        "Vagina",
+        "Cervix"
+      ],
+      "correctAnswer": "Ampulla of the fallopian tube",
+      "conceptTag": "Fertilization Site",
+      "explanation": "Fertilization occurs at the junction of the ampulla and isthmus (ampullary-isthmic junction) of the fallopian tube."
+    },
+    {
+      "id": "c12_bio_ch02_03",
+      "question": "The hormone primarily responsible for maintaining the corpus luteum and early pregnancy (detected in pregnancy test kits) is:",
+      "options": [
+        "Oxytocin",
+        "Human Chorionic Gonadotropin (hCG)",
+        "Prolactin",
+        "Relaxin"
+      ],
+      "correctAnswer": "Human Chorionic Gonadotropin (hCG)",
+      "conceptTag": "Pregnancy Hormones",
+      "explanation": "The developing placenta secretes human chorionic gonadotropin (hCG), which signals the corpus luteum to persist and continue producing progesterone."
+    },
+    {
+      "id": "c12_bio_ch02_04",
+      "question": "Spermiogenesis refers to the transformation of:",
+      "options": [
+        "Spermatogonia into primary spermatocytes",
+        "Spermatids into spermatozoa",
+        "Secondary spermatocytes into spermatids",
+        "Primary spermatocytes into secondary spermatocytes"
+      ],
+      "correctAnswer": "Spermatids into spermatozoa",
+      "conceptTag": "Spermatogenesis",
+      "explanation": "Spermiogenesis is the final stage of spermatogenesis where non-motile round spermatids transform into mature, motile spermatozoa."
+    },
+    {
+      "id": "c12_bio_ch03_01",
+      "question": "Which of the following is a permanent surgical method of contraception in human males?",
+      "options": [
+        "Tubectomy",
+        "Vasectomy",
+        "Coitus interruptus",
+        "Oral contraceptive pills"
+      ],
+      "correctAnswer": "Vasectomy",
+      "conceptTag": "Contraception / Surgical Methods",
+      "explanation": "Vasectomy is the surgical sterilization procedure in males where a small part of the vas deferens is cut and tied to prevent sperm transport."
+    },
+    {
+      "id": "c12_bio_ch03_02",
+      "question": "MTP (Medical Termination of Pregnancy) acts as safe legal abortion when performed during which trimester?",
+      "options": [
+        "First trimester",
+        "Second trimester only",
+        "Third trimester",
+        "Entire pregnancy duration"
+      ],
+      "correctAnswer": "First trimester",
+      "conceptTag": "Medical Termination of Pregnancy (MTP)",
+      "explanation": "MTP is safest during the first trimester (up to 12 weeks of pregnancy), whereas second-trimester abortions carry significantly higher clinical risks."
+    },
+    {
+      "id": "c12_bio_ch03_03",
+      "question": "Amniocentesis is a prenatal diagnostic technique based on chromosomal analysis of amniotic fluid, legally banned primarily to prevent:",
+      "options": [
+        "Down syndrome detection",
+        "Female foeticide (sex-determination)",
+        "Neural tube defect screening",
+        "Rh incompatibility tests"
+      ],
+      "correctAnswer": "Female foeticide (sex-determination)",
+      "conceptTag": "Amniocentesis & Sex Determination",
+      "explanation": "Although amniocentesis was devised to detect genetic disorders, it is legally restricted in India to prevent widespread female foeticide via illegal sex-determination."
+    },
+    {
+      "id": "c12_bio_ch03_04",
+      "question": "Which of the following is a barrier method of contraception for females?",
+      "options": [
+        "Copper-T",
+        "Diaphragm",
+        "Oral pill",
+        "Vasectomy"
+      ],
+      "correctAnswer": "Diaphragm",
+      "conceptTag": "Contraceptive Barriers",
+      "explanation": "Diaphragms, cervical caps, and vaults are reusable rubber barrier devices inserted into the female reproductive tract to block sperm entry into the uterus."
+    },
+    {
+      "id": "c12_bio_ch04_01",
+      "question": "Mendel's Law of Segregation is based on which of the following observations?",
+      "options": [
+        "Alleles do not show any blending and that both characters are recovered as such in $F_2$ generation",
+        "Genes are linked on the same chromosome",
+        "Mutations alter phenotype permanently",
+        "Crossing over occurs during pachytene"
+      ],
+      "correctAnswer": "Alleles do not show any blending and that both characters are recovered as such in $F_2$ generation",
+      "conceptTag": "Mendel's Laws",
+      "explanation": "The Law of Segregation states that alleles segregate during gamete formation without blending, ensuring that recessive traits reappear unchanged in the $F_2$ generation."
+    },
+    {
+      "id": "c12_bio_ch04_02",
+      "question": "What is the phenotypic and genotypic ratio in a monohybrid cross for incomplete dominance (e.g., *Mirabilis jalapa*)?",
+      "options": [
+        "3:1 and 1:2:1",
+        "1:2:1 and 1:2:1",
+        "9:3:3:1 and 1:2:1:2",
+        "1:1 and 3:1"
+      ],
+      "correctAnswer": "1:2:1 and 1:2:1",
+      "conceptTag": "Incomplete Dominance",
+      "explanation": "In incomplete dominance, neither allele is completely dominant, resulting in an intermediate phenotype and identical phenotypic and genotypic ratios of 1:2:1."
+    },
+    {
+      "id": "c12_bio_ch04_03",
+      "question": "ABO blood grouping in humans is a classic example of:",
+      "options": [
+        "Complete dominance and polygenic inheritance",
+        "Multiple alleles and co-dominance",
+        "Sex-linked recessive inheritance",
+        "Pleiotropy exclusively"
+      ],
+      "correctAnswer": "Multiple alleles and co-dominance",
+      "conceptTag": "Multiple Alleles & Co-dominance",
+      "explanation": "The ABO gene has three alleles ($I^A, I^B, i$), demonstrating multiple alleles, and individuals with AB blood group express both $I^A$ and $I^B$ alleles equally (co-dominance)."
+    },
+    {
+      "id": "c12_bio_ch04_04",
+      "question": "Klinefelter's syndrome is a chromosomal disorder resulting from an extra X chromosome in males, giving the genotype:",
+      "options": [
+        "45, XO",
+        "47, XXY",
+        "47, XYY",
+        "47, Trisomy 21"
+      ],
+      "correctAnswer": "47, XXY",
+      "conceptTag": "Chromosomal Disorders",
+      "explanation": "Klinefelter's syndrome is characterized by a 47, XXY karyotype resulting from nondisjunction, leading to sterile males with feminine secondary sexual characteristics."
+    },
+    {
+      "id": "c12_bio_ch05_01",
+      "question": "Watson and Crick proposed the double helix model of DNA in 1953. The two strands of DNA run in:",
+      "options": [
+        "Parallel directions (5' to 3' and 5' to 3')",
+        "Antiparallel directions (5' to 3' and 3' to 5')",
+        "Random orientations",
+        "Perpendicular planes"
+      ],
+      "correctAnswer": "Antiparallel directions (5' to 3' and 3' to 5')",
+      "conceptTag": "DNA Structure",
+      "explanation": "DNA strands are antiparallel, with one running in the 5' $\\rightarrow$ 3' direction and the complementary strand running 3' $\\rightarrow$ 5'."
+    },
+    {
+      "id": "c12_bio_ch05_02",
+      "question": "Meselson and Stahl experimentally proved semi-conservative DNA replication using heavy isotope of nitrogen:",
+      "options": [
+        "^14N",
+        "^15N",
+        "^13C",
+        "^32P"
+      ],
+      "correctAnswer": "^15N",
+      "conceptTag": "Semi-Conservative Replication",
+      "explanation": "Meselson and Stahl cultured *E. coli* in medium containing heavy nitrogen isotope ($^{15}N$) and tracked DNA densities via CsCl equilibrium centrifugation."
+    },
+    {
+      "id": "c12_bio_ch05_03",
+      "question": "During transcription, RNA polymerase binds to a specific promoter region on DNA. In bacteria, recognition is assisted by subunit:",
+      "options": [
+        "Sigma factor ($\\sigma$)",
+        "Rho factor ($\\rho$)",
+        "Core enzyme",
+        "Helicase"
+      ],
+      "correctAnswer": "Sigma factor ($\\sigma$)",
+      "conceptTag": "Transcription",
+      "explanation": "The sigma ($\\sigma$) factor associates with RNA polymerase to recognize promoter sites and initiate transcription in prokaryotes."
+    },
+    {
+      "id": "c12_bio_ch05_04",
+      "question": "The lac operon in *E. coli* is an example of an inducible operon where the inducer molecule is:",
+      "options": [
+        "Glucose",
+        "Lactose (allolactose)",
+        "Repressor protein",
+        "Tryptophan"
+      ],
+      "correctAnswer": "Lactose (allolactose)",
+      "conceptTag": "Lac Operon",
+      "explanation": "Lactose acts as an inducer that binds to the repressor protein, inactivating it and allowing transcription of structural genes in the lac operon."
+    },
+    {
+      "id": "c12_bio_ch06_01",
+      "question": "Analogous organs (such as wings of insects and wings of birds) arise due to:",
+      "options": [
+        "Convergent evolution",
+        "Divergent evolution",
+        "Adaptive radiation",
+        "Genetic drift"
+      ],
+      "correctAnswer": "Convergent evolution",
+      "conceptTag": "Evolutionary Evidence / Homology & Analogy",
+      "explanation": "Analogous organs have similar functions but different anatomical origins, resulting from adaptation to similar environmental niches (convergent evolution)."
+    },
+    {
+      "id": "c12_bio_ch06_02",
+      "question": "Hardy-Weinberg equilibrium states that allele frequencies in a population remain constant from generation to generation unless disrupted by:",
+      "options": [
+        "Natural selection, gene flow, mutation, genetic drift, and recombination",
+        "Random mating",
+        "Large population size",
+        "Absence of mutation"
+      ],
+      "correctAnswer": "Natural selection, gene flow, mutation, genetic drift, and recombination",
+      "conceptTag": "Hardy-Weinberg Principle",
+      "explanation": "Hardy-Weinberg equilibrium ($p^2 + 2pq + q^2 = 1$) assumes stability in the absence of evolutionary forces such as selection, drift, migration, and mutation."
+    },
+    {
+      "id": "c12_bio_ch06_03",
+      "question": "Darwin's finches on the Galapagos Islands provide a classic biogeographical example of:",
+      "options": [
+        "Adaptive radiation",
+        "Industrial melanism",
+        "Saltation",
+        "Stabilizing selection"
+      ],
+      "correctAnswer": "Adaptive radiation",
+      "conceptTag": "Adaptive Radiation",
+      "explanation": "Darwin's finches diversified from a single ancestral seed-eating stock into various dietary niches on different islands, illustrating adaptive radiation."
+    },
+    {
+      "id": "c12_bio_ch06_04",
+      "question": "The earliest known human ancestor considered an ape-man with hominid traits walking upright was:",
+      "options": [
+        "*Homo habilis*",
+        "*Australopithecus*",
+        "*Homo erectus*",
+        "*Neanderthal man*"
+      ],
+      "correctAnswer": "*Australopithecus*",
+      "conceptTag": "Human Evolution",
+      "explanation": "*Australopithecus* lived in East African grasslands around 3-4 million years ago, representing an early hominid link with bipedal locomotion."
+    },
+    {
+      "id": "c12_bio_ch07_01",
+      "question": "Infectious agent responsible for common cold in humans belongs to the group of viruses called:",
+      "options": [
+        "Retroviruses",
+        "Rhinoviruses",
+        "Coronaviruses exclusively",
+        "Bacteriophages"
+      ],
+      "correctAnswer": "Rhinoviruses",
+      "conceptTag": "Common Diseases",
+      "explanation": "Rhinoviruses infect the nose and respiratory passage (excluding lungs), causing the common cold."
+    },
+    {
+      "id": "c12_bio_ch07_02",
+      "question": "Malignant malaria, the most serious and potentially fatal form, is caused by the parasite:",
+      "options": [
+        "*Plasmodium vivax*",
+        "*Plasmodium malariae*",
+        "*Plasmodium falciparum*",
+        "*Plasmodium ovale*"
+      ],
+      "correctAnswer": "*Plasmodium falciparum*",
+      "conceptTag": "Malaria",
+      "explanation": "*Plasmodium falciparum* causes malignant tertian malaria, which can lead to cerebral complications and death if untreated."
+    },
+    {
+      "id": "c12_bio_ch07_03",
+      "question": "Antibodies (immunoglobulins) produced by B-lymphocytes consist of how many polypeptide chains (2 heavy and 2 light)?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correctAnswer": "Four",
+      "conceptTag": "Immune System",
+      "explanation": "Each antibody molecule has a Y-shaped structure composed of four peptide chains: two identical heavy chains and two identical light chains ($H_2L_2$)."
+    },
+    {
+      "id": "c12_bio_ch07_04",
+      "question": "Cancer cells exhibit a characteristic property of uncontrolled division and spread to distant sites, a phenomenon known as:",
+      "options": [
+        "Metastasis",
+        "Apoptosis",
+        "Contact inhibition",
+        "Necrosis"
+      ],
+      "correctAnswer": "Metastasis",
+      "conceptTag": "Cancer",
+      "explanation": "Malignant tumors shed cells into blood or lymph vessels, establishing secondary tumor sites throughout the body via metastasis."
+    },
+    {
+      "id": "c12_bio_ch08_01",
+      "question": "Lactic acid bacteria (LAB) convert milk into curd and improve its nutritional quality by increasing vitamin:",
+      "options": [
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin A"
+      ],
+      "correctAnswer": "Vitamin B12",
+      "conceptTag": "Microbes in Household Products",
+      "explanation": "LAB (such as *Lactobacillus*) coagulate milk proteins into curd and enrich its nutritional profile by synthesizing vitamin $B_{12}$."
+    },
+    {
+      "id": "c12_bio_ch08_02",
+      "question": "Roquefort cheese is ripened and flavored distinctively by growing a specific species of:",
+      "options": [
+        "Bacterium",
+        "Fungus (mold)",
+        "Algae",
+        "Yeast"
+      ],
+      "correctAnswer": "Fungus (mold)",
+      "conceptTag": "Microbes in Industrial Products",
+      "explanation": "Roquefort cheese is ripened by growing specific fungi (*Penicillium roqueforti*) on them, giving a characteristic flavor."
+    },
+    {
+      "id": "c12_bio_ch08_03",
+      "question": "Cyclosporin A, an immunosuppressive drug used in organ transplant patients, is produced by fungus:",
+      "options": [
+        "*Trichoderma polysporum*",
+        "*Monascus purpureus*",
+        "*Aspergillus niger*",
+        "*Penicillium notatum*"
+      ],
+      "correctAnswer": "*Trichoderma polysporum*",
+      "conceptTag": "Bioactive Molecules",
+      "explanation": "Cyclosporin A is produced by the fungus *Trichoderma polysporum*, functioning as an immunosuppressant to prevent organ transplant rejection."
+    },
+    {
+      "id": "c12_bio_ch08_04",
+      "question": "Biogas (gobar gas) produced by anaerobic digestion of organic waste consists primarily of methane along with:",
+      "options": [
+        "Carbon dioxide, hydrogen, and hydrogen sulfide",
+        "Oxygen and nitrogen",
+        "Chlorine gas",
+        "Pure helium"
+      ],
+      "correctAnswer": "Carbon dioxide, hydrogen, and hydrogen sulfide",
+      "conceptTag": "Biogas Production",
+      "explanation": "Biogas generated by methanogenic bacteria contains methane (50-70%) along with $CO_2$, hydrogen, and traces of $H_2S$."
+    },
+    {
+      "id": "c12_bio_ch09_01",
+      "question": "Restriction endonucleases cut DNA strands at specific palindromic nucleotide sequences by recognizing:",
+      "options": [
+        "Any random sequence",
+        "Specific recognition sequences",
+        "Protein capsids",
+        "Centromeric repeats"
+      ],
+      "correctAnswer": "Specific recognition sequences",
+      "conceptTag": "Restriction Enzymes",
+      "explanation": "Restriction enzymes inspect DNA sequences and cut them at specific restriction sites (palindromic recognition sequences)."
+    },
+    {
+      "id": "c12_bio_ch09_02",
+      "question": "In agarose gel electrophoresis, DNA fragments move towards the positive electrode (anode) because DNA molecules are:",
+      "options": [
+        "Positively charged",
+        "Negatively charged",
+        "Electrically neutral",
+        "Hydrophobic"
+      ],
+      "correctAnswer": "Negatively charged",
+      "conceptTag": "Gel Electrophoresis",
+      "explanation": "Phosphate backbone groups impart a net negative charge to DNA molecules, causing them to migrate toward the anode under an electric field."
+    },
+    {
+      "id": "c12_bio_ch09_03",
+      "question": "Plasmid vectors used in recombinant DNA technology often contain selectable marker genes that confer resistance to:",
+      "options": [
+        "Antibiotics",
+        "Heavy metal toxins",
+        "Ultraviolet light",
+        "High temperatures"
+      ],
+      "correctAnswer": "Antibiotics",
+      "conceptTag": "Cloning Vectors",
+      "explanation": "Selectable markers (such as ampicillin or tetracycline resistance genes) help identify and select transformants from non-transformants."
+    },
+    {
+      "id": "c12_bio_ch09_04",
+      "question": "Polymerase Chain Reaction (PCR) utilizes a thermostable DNA polymerase enzyme isolated from bacterium:",
+      "options": [
+        "*Escherichia coli*",
+        "*Thermus aquaticus*",
+        "*Agrobacterium tumefaciens*",
+        "*Bacillus thuringiensis*"
+      ],
+      "correctAnswer": "*Thermus aquaticus*",
+      "conceptTag": "PCR Technique",
+      "explanation": "Taq polymerase extracted from the thermophilic bacterium *Thermus aquaticus* remains stable at high denaturation temperatures during PCR."
+    },
+    {
+      "id": "c12_bio_ch10_01",
+      "question": "Bt toxin protein produced by *Bacillus thuringiensis* is toxic to certain insects because:",
+      "options": [
+        "It dissolves insect cell membranes directly in neutral pH",
+        "Inactivated protoxin is converted into active crystal toxin in the alkaline gut of insect larvae",
+        "It prevents insect respiration",
+        "It destroys plant root systems"
+      ],
+      "correctAnswer": "Inactivated protoxin is converted into active crystal toxin in the alkaline gut of insect larvae",
+      "conceptTag": "Bt Cotton",
+      "explanation": "Bt toxin exists as an inactive crystal protein that dissolves and becomes active in the alkaline pH of susceptible insect pest guts, creating pore lysis."
+    },
+    {
+      "id": "c12_bio_ch10_02",
+      "question": "RNA interference (RNAi) is a gene-silencing mechanism utilized in transgenic plants (such as tobacco) to protect against infestation by:",
+      "options": [
+        "Bacterial pathogens",
+        "Nematodes (*Meloidogyne incognita*)",
+        "Fungal rusts",
+        "Viral capsids"
+      ],
+      "correctAnswer": "Nematodes (*Meloidogyne incognita*)",
+      "conceptTag": "RNA Interference (RNAi)",
+      "explanation": "RNAi uses dsRNA silencing mechanisms to neutralize specific mRNA transcripts of parasitic nematodes like *Meloidogyne incognita* infecting tobacco roots."
+    },
+    {
+      "id": "c12_bio_ch10_03",
+      "question": "Genetically engineered human insulin (Humulin) is produced commercially by inserting human insulin gene into:",
+      "options": [
+        "*E. coli* bacteria",
+        "Plant chloroplasts",
+        "Yeast cells exclusively",
+        "Bacteriophage coat"
+      ],
+      "correctAnswer": "*E. coli* bacteria",
+      "conceptTag": "Genetically Engineered Insulin",
+      "explanation": "Recombinant DNA technology inserts synthetic chains A and B of human insulin into separate *E. coli* host strains to synthesize insulin chains."
+    },
+    {
+      "id": "c12_bio_ch10_04",
+      "question": "Gene therapy was first successfully applied clinically in 1990 to treat a four-year-old girl suffering from:",
+      "options": [
+        "Adenosine deaminase (ADA) deficiency",
+        "Cystic fibrosis",
+        "Hemophilia A",
+        "Phenylketonuria"
+      ],
+      "correctAnswer": "Adenosine deaminase (ADA) deficiency",
+      "conceptTag": "Gene Therapy",
+      "explanation": "ADA deficiency causes severe combined immunodeficiency (SCID), treated initially in 1990 via retroviral vector gene therapy introducing functional ADA genes into lymphocytes."
+    },
+    {
+      "id": "c12_bio_ch11_01",
+      "question": "An association between two different species where both organisms derive mutual benefit is termed:",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Amensalism"
+      ],
+      "correctAnswer": "Mutualism",
+      "conceptTag": "Population Interactions / Mutualism",
+      "explanation": "Mutualism is an interspecific interaction (+/+) where both participating species benefit (e.g., lichens, mycorrhizae, pollination mutualisms)."
+    },
+    {
+      "id": "c12_bio_ch11_02",
+      "question": "Gause's Competitive Exclusion Principle states that:",
+      "options": [
+        "Two closely related species competing for the same limiting resources cannot coexist indefinitely",
+        "Competition always leads to immediate extinction",
+        "Species never compete if resources are abundant",
+        "Predators eliminate all prey species"
+      ],
+      "correctAnswer": "Two closely related species competing for the same limiting resources cannot coexist indefinitely",
+      "conceptTag": "Competitive Exclusion Principle",
+      "explanation": "Gause's principle posits that superior competitors will eventually eliminate inferior competing species sharing identical resource niches."
+    },
+    {
+      "id": "c12_bio_ch11_03",
+      "question": "Exponential population growth curve when resources are unlimited is shaped like letter:",
+      "options": [
+        "J-shape",
+        "S-shape (sigmoid)",
+        "U-shape",
+        "Bell-shape"
+      ],
+      "correctAnswer": "J-shape",
+      "conceptTag": "Population Growth Models",
+      "explanation": "When resources are unlimited, populations grow exponentially, plotting a J-shaped curve ($dN/dt = rN$). Carrying capacity introduces a sigmoid S-shape."
+    },
+    {
+      "id": "c12_bio_ch11_04",
+      "question": "Brood parasitism—laying eggs in the nest of a host species—is characteristically exhibited by:",
+      "options": [
+        "Cuckoo (*Koel*) in crow nests",
+        "Parrots in tree trunks",
+        "Weaver birds",
+        "Pigeons"
+      ],
+      "correctAnswer": "Cuckoo (*Koel*) in crow nests",
+      "conceptTag": "Brood Parasitism",
+      "explanation": "The koel (cuckoo) exhibits brood parasitism by laying its eggs in crow nests, letting host birds incubate and rear its young."
+    },
+    {
+      "id": "c12_bio_ch12_01",
+      "question": "In an aquatic ecosystem, the pyramid of biomass is typically:",
+      "options": [
+        "Upright",
+        "Inverted",
+        "Spindle-shaped",
+        "Irregular"
+      ],
+      "correctAnswer": "Inverted",
+      "conceptTag": "Ecological Pyramids",
+      "explanation": "In aquatic ecosystems, phytoplankton biomass is small yet supports a much larger standing crop biomass of zooplankton and fish, making the biomass pyramid inverted."
+    },
+    {
+      "id": "c12_bio_ch12_020",
+      "question": "The rate of total production of organic matter during photosynthesis in an ecosystem is termed:",
+      "options": [
+        "Gross Primary Productivity (GPP)",
+        "Net Primary Productivity (NPP)",
+        "Secondary Productivity",
+        "Standing crop"
+      ],
+      "correctAnswer": "Gross Primary Productivity (GPP)",
+      "conceptTag": "Primary Productivity",
+      "explanation": "GPP is the rate of total organic matter synthesis by producers via photosynthesis; subtracting plant respiration losses yields Net Primary Productivity (NPP)."
+    },
+    {
+      "id": "c12_bio_ch12_03",
+      "question": "Decomposition process involves key steps in order of:",
+      "options": [
+        "Fragmentation, leaching, catabolism, humification, and mineralization",
+        "Mineralization, humification, catabolism",
+        "Leaching, fragmentation only",
+        "Catabolism followed by leaching"
+      ],
+      "correctAnswer": "Fragmentation, leaching, catabolism, humification, and mineralization",
+      "conceptTag": "Decomposition",
+      "explanation": "Decomposition proceeds through fragmentation (detritivores), leaching, catabolism (bacterial/fungal enzymes), humification, and inorganic mineralization."
+    },
+    {
+      "id": "c12_bio_ch12_04",
+      "question": "Ecological succession on bare rock starting with pioneer lichen crusts is known as:",
+      "options": [
+        "Hydrarch succession",
+        "Xerarch succession",
+        "Secondary succession",
+        "Halosere"
+      ],
+      "correctAnswer": "Xerarch succession",
+      "conceptTag": "Ecological Succession",
+      "explanation": "Succession originating on bare rock or dry land areas is xerarch succession, progressing from lichen pioneers to climax forests."
+    },
+    {
+      "id": "c12_bio_ch13_01",
+      "question": "Alexander von Humboldt observed that within a region, species richness increases with increasing explored area up to a limit. The species-area relationship equation is:",
+      "options": [
+        "\\log S = \\log C + Z \\log A",
+        "S = CA^Z",
+        "Both 1 and 2",
+        "S = \\log Z + AC"
+      ],
+      "correctAnswer": "Both 1 and 2",
+      "conceptTag": "Biodiversity Patterns",
+      "explanation": "The species-area relationship is expressed exponentially as $S = CA^Z$ or logarithmically as $\\log S = \\log C + Z \\log A$."
+    },
+    {
+      "id": "c12_bio_ch13_02",
+      "question": "Which of the following conservation strategies represents *in situ* (on-site) biodiversity preservation?",
+      "options": [
+        "National parks and biosphere reserves",
+        "Zoological parks and botanical gardens",
+        "Cryopreservation of gametes",
+        "Seed banks"
+      ],
+      "correctAnswer": "National parks and biosphere reserves",
+      "conceptTag": "In situ vs Ex situ Conservation",
+      "explanation": "*In situ* conservation protects endangered species within their natural habitats (national parks, wildlife sanctuaries, biosphere reserves), whereas *ex situ* uses botanical gardens and seed banks."
+    },
+    {
+      "id": "c12_bio_ch13_03",
+      "question": "Regions exhibiting high species richness and high endemism facing ongoing habitat destruction are designated by Norman Myers as:",
+      "options": [
+        "Biodiversity hotspots",
+        "Ecological deserts",
+        "Sacred groves",
+        "Endangered biomes"
+      ],
+      "correctAnswer": "Biodiversity hotspots",
+      "conceptTag": "Biodiversity Hotspots",
+      "explanation": "Hotspots are priority biogeographic regions identified by high levels of endemic plant/animal species facing severe habitat threats."
+    },
+    {
+      "id": "c12_bio_ch13_04",
+      "question": "The historic international agreement signed in Montreal (1987) aimed at controlling emission of ozone-depleting substances is the:",
+      "options": [
+        "Montreal Protocol",
+        "Kyoto Protocol",
+        "Ramsar Convention",
+        "Paris Agreement"
+      ],
+      "correctAnswer": "Montreal Protocol",
+      "conceptTag": "Environmental Issues / Protocols",
+      "explanation": "The Montreal Protocol (1987) is a landmark international environmental treaty formulated to phase out ozone-depleting chlorofluorocarbons (CFCs)."
+    }
+  ]
+}

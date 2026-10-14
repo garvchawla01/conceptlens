@@ -1,0 +1,886 @@
+{
+  "Sequence of Tenses": [
+    {
+      "id": "c9_eng_sot_01",
+      "question": "Choose the correct verb form: 'The patient ______ before the doctor arrived at the hospital.'",
+      "options": ["had died", "died", "has died", "was dying"],
+      "correctAnswer": "had died",
+      "conceptTag": "Past Perfect for Earlier Past Action",
+      "explanation": "When two actions occur in the past, the earlier action takes the Past Perfect ('had died') and the later action takes the Simple Past ('arrived')."
+    },
+    {
+      "id": "c9_eng_sot_02",
+      "question": "Complete the sentence: 'Galileo proved that the Earth ______ around the Sun.'",
+      "options": ["revolves", "revolved", "had revolved", "was revolving"],
+      "correctAnswer": "revolves",
+      "conceptTag": "Universal Truth Exception in Past Sequence",
+      "explanation": "Even if the main clause verb ('proved') is in the past tense, a subordinate clause stating a universal scientific truth must remain in the Simple Present ('revolves')."
+    },
+    {
+      "id": "c9_eng_sot_03",
+      "question": "Identify the correct option: 'He walks as fast as he ______.'",
+      "options": ["can", "could", "might", "would"],
+      "correctAnswer": "can",
+      "conceptTag": "Comparison Clause Tense Harmony",
+      "explanation": "After 'as...as' or 'than', the tense aligns with the main clause. Since 'walks' is present, 'can' is required instead of past 'could'."
+    },
+    {
+      "id": "c9_eng_sot_04",
+      "question": "Choose the correct sequence: 'She worked hard so that she ______ win the scholarship.'",
+      "options": ["might", "may", "can", "will"],
+      "correctAnswer": "might",
+      "conceptTag": "Purpose Clauses with 'So That' in Past",
+      "explanation": "When the principal clause is in the past tense ('worked'), a clause of purpose introduced by 'so that' or 'in order that' takes 'might' or 'could'."
+    },
+    {
+      "id": "c9_eng_sot_05",
+      "question": "Fill in the blank: 'I ______ for my friend since 9 o'clock this morning, and he still hasn't arrived.'",
+      "options": ["have been waiting", "am waiting", "waited", "had waited"],
+      "correctAnswer": "have been waiting",
+      "conceptTag": "Present Perfect Continuous with 'Since/For'",
+      "explanation": "An action that began in the past ('since 9 o'clock') and is still continuing in the present requires the Present Perfect Continuous tense."
+    },
+    {
+      "id": "c9_eng_sot_06",
+      "question": "Select the right verb: 'While I ______ the street, I saw an old school friend.'",
+      "options": ["was crossing", "crossed", "had crossed", "have crossed"],
+      "correctAnswer": "was crossing",
+      "conceptTag": "Interrupted Past Continuous Action",
+      "explanation": "An ongoing background action in the past ('was crossing') interrupted by a shorter action ('saw') takes the Past Continuous tense."
+    },
+    {
+      "id": "c9_eng_sot_07",
+      "question": "Complete the sentence: 'It is high time we ______ preparing for the final examinations.'",
+      "options": ["started", "start", "will start", "have started"],
+      "correctAnswer": "started",
+      "conceptTag": "Subjunctive Past after 'It is high time'",
+      "explanation": "The idiomatic expression 'It is time / It is high time + subject' is always followed by the Simple Past verb ('started') to indicate a present obligation."
+    },
+    {
+      "id": "c9_eng_sot_08",
+      "question": "Choose the correct form: 'Five years have passed since I ______ my hometown.'",
+      "options": ["left", "have left", "had left", "was leaving"],
+      "correctAnswer": "left",
+      "conceptTag": "Tense Pattern with 'Since' as Conjunction",
+      "explanation": "When 'since' connects two clauses where the main clause is in the Present Perfect ('have passed'), the clause following 'since' takes the Simple Past ('left')."
+    }
+  ],
+
+  "Modal Auxiliaries (ability, obligation, permission, possibility, advice)": [
+    {
+      "id": "c9_eng_mod_01",
+      "question": "Which modal best expresses moral obligation or duty: 'We ______ respect our elderly parents and teachers.'",
+      "options": ["ought to", "might", "dare", "could"],
+      "correctAnswer": "ought to",
+      "conceptTag": "Moral Obligation (Ought to / Should)",
+      "explanation": "'Ought to' specifically conveys moral duty, social obligation, or desirable ethical conduct."
+    },
+    {
+      "id": "c9_eng_mod_02",
+      "question": "Look at the clear blue sky; there isn't a single cloud. It ______ rain today, though anything is possible in the hills.",
+      "options": ["might", "must", "will", "should"],
+      "correctAnswer": "might",
+      "conceptTag": "Remote Possibility (Might)",
+      "explanation": "'Might' expresses weak or remote possibility when current evidence makes the event unlikely."
+    },
+    {
+      "id": "c9_eng_mod_03",
+      "question": "What is the key difference between 'was able to' and 'could' when talking about a single past achievement?",
+      "options": [
+        "'Could' expresses general past ability, whereas 'was able to' is required for a specific successful action on one occasion",
+        "'Could' is used only for future events",
+        "'Was able to' cannot be used with living subjects",
+        "Both are strictly forbidden in formal grammar"
+      ],
+      "correctAnswer": "'Could' expresses general past ability, whereas 'was able to' is required for a specific successful action on one occasion",
+      "conceptTag": "General Past Ability vs Specific Achievement",
+      "explanation": "For general past ability (e.g., 'I could swim when I was five'), 'could' works; for managing a specific one-time feat (e.g., 'The fire spread, but everyone was able to escape'), 'was/were able to' is used."
+    },
+    {
+      "id": "c9_eng_mod_04",
+      "question": "Choose the correct modal for prohibition: 'Visitors ______ feed the wild animals in the zoological park; it is strictly illegal.'",
+      "options": ["must not", "need not", "do not have to", "might not"],
+      "correctAnswer": "must not",
+      "conceptTag": "Prohibition (Must not) vs Lack of Necessity (Need not)",
+      "explanation": "'Must not' indicates strict prohibition or rule violation, whereas 'need not' or 'don't have to' merely means something is optional."
+    },
+    {
+      "id": "c9_eng_mod_05",
+      "question": "Select the most formal modal for asking permission from an authority: '______ I come in, Sir?'",
+      "options": ["May", "Can", "Will", "Must"],
+      "correctAnswer": "May",
+      "conceptTag": "Formal Permission (May vs Can)",
+      "explanation": "'May' is the standard modal for polite, formal permission, whereas 'can' is informal and primarily denotes physical or mental ability."
+    },
+    {
+      "id": "c9_eng_mod_06",
+      "question": "Choose the right modal for absence of necessity: 'You ______ carry an umbrella; the weather forecast says it will be sunny all day.'",
+      "options": ["needn't", "mustn't", "couldn't", "shan't"],
+      "correctAnswer": "needn't",
+      "conceptTag": "Absence of Necessity (Need not)",
+      "explanation": "'Needn't' (need not) indicates that an action is not necessary or required, without forbidding it."
+    },
+    {
+      "id": "c9_eng_mod_07",
+      "question": "Which modal gives strong advice in a medical context: 'You have a high fever; you ______ consult a physician immediately.'",
+      "options": ["should", "may", "could", "might"],
+      "correctAnswer": "should",
+      "conceptTag": "Advisory Modals (Should)",
+      "explanation": "'Should' is used to offer strong advice, recommendations, or sensible courses of action."
+    },
+    {
+      "id": "c9_eng_mod_08",
+      "question": "Identify the correct deduction: 'The lights are on and his car is in the driveway; he ______ be at home.'",
+      "options": ["must", "can", "may not", "need"],
+      "correctAnswer": "must",
+      "conceptTag": "Logical Certainty / Positive Deduction (Must)",
+      "explanation": "'Must' is used to express strong logical deduction or certainty based on clear present evidence."
+    }
+  ],
+
+  "Reported Speech — statements, questions, commands & requests": [
+    {
+      "id": "c9_eng_rs_01",
+      "question": "Convert to indirect speech: Rohan said to me, 'I will submit my project tomorrow.'",
+      "options": [
+        "Rohan told me that he would submit his project the next day.",
+        "Rohan said to me that he will submit his project tomorrow.",
+        "Rohan told me that I would submit my project the next day.",
+        "Rohan asked me if he would submit his project the following day."
+      ],
+      "correctAnswer": "Rohan told me that he would submit his project the next day.",
+      "conceptTag": "Pronoun, Tense, and Time Adverbial Shift",
+      "explanation": "In past reporting, 'will' shifts to 'would', 'I/my' shifts to third-person 'he/his', and 'tomorrow' shifts to 'the next day / the following day'."
+    },
+    {
+      "id": "c9_eng_rs_02",
+      "question": "Convert to indirect speech: The teacher said to the girl, 'Have you completed your homework?'",
+      "options": [
+        "The teacher asked the girl if she had completed her homework.",
+        "The teacher asked the girl that had she completed her homework.",
+        "The teacher told the girl whether she has completed her homework.",
+        "The teacher inquired the girl if had she completed her homework."
+      ],
+      "correctAnswer": "The teacher asked the girl if she had completed her homework.",
+      "conceptTag": "Yes/No Interrogative Reporting (If/Whether)",
+      "explanation": "Yes/No questions use 'if' or 'whether' as the linker, drop the conjunction 'that', and invert question order ('Have you') into statement order ('she had')."
+    },
+    {
+      "id": "c9_eng_rs_03",
+      "question": "Convert to indirect speech: The stranger said to me, 'Where is the nearest post office?'",
+      "options": [
+        "The stranger asked me where the nearest post office was.",
+        "The stranger asked me where was the nearest post office.",
+        "The stranger said to me that where the nearest post office was.",
+        "The stranger asked me where is the nearest post office."
+      ],
+      "correctAnswer": "The stranger asked me where the nearest post office was.",
+      "conceptTag": "Wh- Question Word Order in Indirect Speech",
+      "explanation": "In indirect Wh- questions, the auxiliary verb ('was') must come AFTER the subject ('the nearest post office'), never before it."
+    },
+    {
+      "id": "c9_eng_rs_04",
+      "question": "Convert to indirect speech: Mother said to me, 'Do not waste your time on mobile games.'",
+      "options": [
+        "Mother advised me not to waste my time on mobile games.",
+        "Mother forbade me not to waste my time on mobile games.",
+        "Mother told me to not wasted my time on mobile games.",
+        "Mother said to me that do not waste my time."
+      ],
+      "correctAnswer": "Mother advised me not to waste my time on mobile games.",
+      "conceptTag": "Negative Imperative Reporting (Not to + V1)",
+      "explanation": "Negative commands/advice convert using 'advised/ordered + object + not to + base verb'. Note that 'forbade' already means 'not', so 'forbade... not to' is a double negative error."
+    },
+    {
+      "id": "c9_eng_rs_05",
+      "question": "Convert to indirect speech: The old man said to the boy, 'Please help me cross this busy road.'",
+      "options": [
+        "The old man requested the boy to help him cross that busy road.",
+        "The old man ordered the boy please to help him cross this road.",
+        "The old man requested to the boy that he should help him.",
+        "The old man asked the boy to please helped him cross that road."
+      ],
+      "correctAnswer": "The old man requested the boy to help him cross that busy road.",
+      "conceptTag": "Reporting Polite Requests",
+      "explanation": "The word 'Please' is replaced by the reporting verb 'requested', followed by 'object + to + V1', and 'this' shifts to 'that'."
+    },
+    {
+      "id": "c9_eng_rs_06",
+      "question": "When does the verb tense inside the reported speech NOT change even if the question is reported later?",
+      "options": [
+        "When the reporting verb is in the Present or Future tense (e.g., 'He says' or 'He will say')",
+        "When the sentence contains a pronoun",
+        "When the speaker is asking a question",
+        "When the sentence has more than ten words"
+      ],
+      "correctAnswer": "When the reporting verb is in the Present or Future tense (e.g., 'He says' or 'He will say')",
+      "conceptTag": "Present/Future Reporting Verb Rule",
+      "explanation": "If the reporting verb is in the Present ('says') or Future ('will say'), the tense of the verb inside the quotation marks remains unchanged."
+    },
+    {
+      "id": "c9_eng_rs_07",
+      "question": "Convert to indirect speech: Priya said, 'I bought a new dictionary yesterday.'",
+      "options": [
+        "Priya said that she had bought a new dictionary the previous day.",
+        "Priya said that she bought a new dictionary yesterday.",
+        "Priya told that she has bought a new dictionary the day before.",
+        "Priya said that I had bought a new dictionary the previous day."
+      ],
+      "correctAnswer": "Priya said that she had bought a new dictionary the previous day.",
+      "conceptTag": "Simple Past to Past Perfect Shift",
+      "explanation": "Simple Past ('bought') backshifts to Past Perfect ('had bought'), and 'yesterday' changes to 'the previous day / the day before'."
+    },
+    {
+      "id": "c9_eng_rs_08",
+      "question": "Convert to indirect speech: The librarian said to the students, 'Keep quiet in the reading room.'",
+      "options": [
+        "The librarian instructed the students to keep quiet in the reading room.",
+        "The librarian requested the students that they keep quiet.",
+        "The librarian asked the students if they keep quiet.",
+        "The librarian said to students to kept quiet in the reading room."
+      ],
+      "correctAnswer": "The librarian instructed the students to keep quiet in the reading room.",
+      "conceptTag": "Affirmative Imperative Commands",
+      "explanation": "Imperative instructions convert the base verb into an infinitive ('to keep') after reporting verbs like 'instructed', 'ordered', or 'told'."
+    }
+  ],
+
+  "Conditional Clause (Type 1)": [
+    {
+      "id": "c9_eng_con_01",
+      "question": "What is the standard grammatical structure of a Type 1 Conditional (Open/Probable Condition) sentence?",
+      "options": [
+        "If + Simple Present, ... will / can / may + Base Verb (V1)",
+        "If + Simple Past, ... would + Base Verb (V1)",
+        "If + Past Perfect, ... would have + Past Participle (V3)",
+        "If + Simple Future, ... Simple Future"
+      ],
+      "correctAnswer": "If + Simple Present, ... will / can / may + Base Verb (V1)",
+      "conceptTag": "Type 1 Conditional Formula",
+      "explanation": "Type 1 conditionals express real and possible future outcomes: the 'If' clause takes the Simple Present, and the main clause takes 'will/can/may + V1'."
+    },
+    {
+      "id": "c9_eng_con_02",
+      "question": "Spot the common error in: 'If it will rain tomorrow, the cricket match will be cancelled.'",
+      "options": [
+        "'will rain' in the if-clause is incorrect; it must be 'rains' (Simple Present)",
+        "'will be cancelled' should be 'was cancelled'",
+        "'If' should be replaced by 'Because'",
+        "There is no grammatical error in the sentence"
+      ],
+      "correctAnswer": "'will rain' in the if-clause is incorrect; it must be 'rains' (Simple Present)",
+      "conceptTag": "Future Tense Prohibition in 'If' Clauses",
+      "explanation": "We never use 'will' or 'shall' to indicate future time inside an 'if-clause' or time clause; the Simple Present ('If it rains') represents future conditionality."
+    },
+    {
+      "id": "c9_eng_con_03",
+      "question": "Choose the correct equivalent using 'Unless': 'If you do not hurry, you will miss the morning train.'",
+      "options": [
+        "Unless you hurry, you will miss the morning train.",
+        "Unless you do not hurry, you will miss the morning train.",
+        "Unless you will hurry, you will miss the morning train.",
+        "Unless you hurry, you will not miss the morning train."
+      ],
+      "correctAnswer": "Unless you hurry, you will miss the morning train.",
+      "conceptTag": "'Unless' as 'If... not' Misconception",
+      "explanation": "'Unless' inherently means 'if not'. Therefore, 'do not' is removed when substituting 'If' with 'Unless' to avoid a double negative."
+    },
+    {
+      "id": "c9_eng_con_04",
+      "question": "Complete the Type 1 conditional: 'If she ______ regularly, she will definitely clear the entrance exam.'",
+      "options": ["studies", "will study", "studied", "had studied"],
+      "correctAnswer": "studies",
+      "conceptTag": "Subject-Verb Agreement in Conditional Protasis",
+      "explanation": "With third-person singular subject 'she' in a Type 1 conditional, the Simple Present verb 'studies' is required."
+    },
+    {
+      "id": "c9_eng_con_05",
+      "question": "Complete the main clause: 'If you eat too much junk food, you ______ fall ill.'",
+      "options": ["will", "would", "would have", "had"],
+      "correctAnswer": "will",
+      "conceptTag": "Apodosis (Main Clause) Modal Selection",
+      "explanation": "Since the condition 'eat' is in the Simple Present, the result clause takes the future modal 'will' (or 'may/can') + V1."
+    },
+    {
+      "id": "c9_eng_con_06",
+      "question": "Which conjunction can replace 'If' in: '______ you return the library book on time, you will not be fined.'",
+      "options": ["Provided that / As long as", "Although", "Despite", "Whereas"],
+      "correctAnswer": "Provided that / As long as",
+      "conceptTag": "Alternative Conditional Conjunctions",
+      "explanation": "'Provided that', 'on condition that', and 'as long as' function as conditional linkers in Type 1 sentences."
+    },
+    {
+      "id": "c9_eng_con_07",
+      "question": "Choose the correct verb for an imperative Type 1 conditional: 'If you see Mr. Sharma at the office, ______ him to call me.'",
+      "options": ["ask", "will ask", "asked", "asking"],
+      "correctAnswer": "ask",
+      "conceptTag": "Type 1 Conditional with Imperative Result",
+      "explanation": "A Type 1 conditional can pair an 'If + Present' clause with an Imperative verb ('ask him') to give conditional instructions."
+    },
+    {
+      "id": "c9_eng_con_08",
+      "question": "Fill in the blank: 'Should you ______ any technical difficulty, please contact our support desk.'",
+      "options": ["face", "faced", "will face", "faces"],
+      "correctAnswer": "face",
+      "conceptTag": "Inverted First Conditional with 'Should'",
+      "explanation": "In formal English, 'Should + Subject + Base Verb (face)' is an inverted form of 'If you should face', always taking a bare infinitive V1."
+    }
+  ],
+
+  "Subject–Verb Concord": [
+    {
+      "id": "c9_eng_svc_01",
+      "question": "Choose the correct verb: 'The quality of these mangoes ______ not very good.'",
+      "options": ["is", "are", "were", "have been"],
+      "correctAnswer": "is",
+      "conceptTag": "Head Noun vs Prepositional Object Distractor",
+      "explanation": "The real subject is the singular head noun 'The quality', not the plural object of the preposition ('mangoes'). Hence singular 'is' is required."
+    },
+    {
+      "id": "c9_eng_svc_02",
+      "question": "Complete the sentence: 'Neither the captain nor the players ______ arrived at the stadium yet.'",
+      "options": ["have", "has", "is", "was"],
+      "correctAnswer": "have",
+      "conceptTag": "Rule of Proximity (Neither...nor / Either...or)",
+      "explanation": "With 'neither...nor' or 'either...or', the verb agrees with the nearer subject. Since 'players' is plural, the plural verb 'have' is used."
+    },
+    {
+      "id": "c9_eng_svc_03",
+      "question": "Select the correct verb: 'The teacher, along with all her students, ______ visiting the science museum today.'",
+      "options": ["is", "are", "were", "have been"],
+      "correctAnswer": "is",
+      "conceptTag": "Additive Phrases (Along with / As well as)",
+      "explanation": "When two nouns are joined by 'along with', 'as well as', 'together with', or 'besides', the verb agrees with the FIRST subject ('The teacher' -> 'is')."
+    },
+    {
+      "id": "c9_eng_svc_04",
+      "question": "Choose the right verb: 'Each of the participants ______ given a certificate of appreciation.'",
+      "options": ["was", "were", "have been", "are"],
+      "correctAnswer": "was",
+      "conceptTag": "Distributive Pronouns (Each / Every / One of)",
+      "explanation": "Pronouns like 'Each of', 'Every one of', 'Either of', and 'Neither of' are always grammatically singular and take a singular verb ('was')."
+    },
+    {
+      "id": "c9_eng_svc_05",
+      "question": "Identify the correct option: 'Mathematics ______ my favorite subject in school.'",
+      "options": ["is", "are", "were", "have"],
+      "correctAnswer": "is",
+      "conceptTag": "Singular Nouns Ending in -s",
+      "explanation": "Nouns like 'Mathematics', 'Physics', 'Economics', 'News', and 'Measles' end in '-s' in form but are singular in meaning and take a singular verb."
+    },
+    {
+      "id": "c9_eng_svc_06",
+      "question": "What is the grammatical difference between 'A number of students' and 'The number of students'?",
+      "options": [
+        "'A number of' means 'many' and takes a plural verb; 'The number of' refers to a single numerical count and takes a singular verb",
+        "Both always take a singular verb",
+        "Both always take a plural verb",
+        "'A number of' takes a singular verb while 'The number of' takes a plural verb"
+      ],
+      "correctAnswer": "'A number of' means 'many' and takes a plural verb; 'The number of' refers to a single numerical count and takes a singular verb",
+      "conceptTag": "'A number of' vs 'The number of'",
+      "explanation": "'A number of students ARE absent' (many students), whereas 'The number of students in this class IS forty' (the specific figure 40)."
+    },
+    {
+      "id": "c9_eng_svc_07",
+      "question": "Choose the correct verb: 'Fifty kilometers ______ a long distance to walk on foot.'",
+      "options": ["is", "are", "were", "have been"],
+      "correctAnswer": "is",
+      "conceptTag": "Plural Units of Distance, Time, and Money",
+      "explanation": "When a plural noun denotes a specific quantity, distance, weight, or sum of money considered as a single whole, it takes a singular verb ('is')."
+    },
+    {
+      "id": "c9_eng_svc_08",
+      "question": "Select the correct verb: 'The poet and philosopher ______ passed away.' (Referring to one single person)",
+      "options": ["has", "have", "are", "were"],
+      "correctAnswer": "has",
+      "conceptTag": "Article Repetition with Compound Subjects",
+      "explanation": "When the article 'The' is used only once before the first noun ('The poet and philosopher'), both nouns refer to the same individual, taking a singular verb ('has')."
+    }
+  ],
+
+  "Determiners": [
+    {
+      "id": "c9_eng_det_01",
+      "question": "Choose the appropriate quantifier: 'There is ______ hope of his recovery; the doctors have given up.'",
+      "options": ["little", "a little", "the little", "few"],
+      "correctAnswer": "little",
+      "conceptTag": "Little vs A Little vs Few",
+      "explanation": "'Hope' is uncountable. 'Little' (without article) means 'hardly any / almost zero' (negative sense), whereas 'a little' means 'some, though not much' (positive sense)."
+    },
+    {
+      "id": "c9_eng_det_02",
+      "question": "Fill in the blank: '______ knowledge is a dangerous thing.'",
+      "options": ["A little", "Little", "The little", "A few"],
+      "correctAnswer": "A little",
+      "conceptTag": "Positive Uncountable Quantifier (A little)",
+      "explanation": "'A little knowledge' means 'a small amount of knowledge (some)', which can mislead a person into thinking they know everything."
+    },
+    {
+      "id": "c9_eng_det_03",
+      "question": "Choose the correct determiner: 'Do you have ______ complaints regarding the hostel facilities?'",
+      "options": ["any", "some", "much", "little"],
+      "correctAnswer": "any",
+      "conceptTag": "Some vs Any in Interrogatives and Negatives",
+      "explanation": "'Any' is generally used in interrogative (question) and negative sentences, whereas 'some' is used in affirmative sentences and polite offers."
+    },
+    {
+      "id": "c9_eng_det_04",
+      "question": "Select the correct articles: 'He is ______ honest officer who graduated from ______ university in Delhi.'",
+      "options": ["an, a", "a, an", "an, an", "the, an"],
+      "correctAnswer": "an, a",
+      "conceptTag": "Phonetic Vowel vs Consonant Sound in Articles",
+      "explanation": "'Honest' begins with a silent 'h' and a vowel sound (/ɒ/), taking 'an'. 'University' begins with a consonant glide sound (/juː/), taking 'a'."
+    },
+    {
+      "id": "c9_eng_det_05",
+      "question": "Differentiate between 'Each' and 'Every': 'There were two trees on ______ side of the narrow street.'",
+      "options": ["each", "every", "many", "several"],
+      "correctAnswer": "each",
+      "conceptTag": "Each (Two or more) vs Every (Three or more)",
+      "explanation": "'Each' is used for two or more items (a street has only two sides), whereas 'every' is used only for sets of three or more."
+    },
+    {
+      "id": "c9_eng_det_06",
+      "question": "Choose the right quantifier: 'How ______ pages of this novel have you read so far?'",
+      "options": ["many", "much", "little", "any"],
+      "correctAnswer": "many",
+      "conceptTag": "Countable (Many) vs Uncountable (Much)",
+      "explanation": "'Pages' is a plural countable noun, so it takes 'many'. 'Much' is used only with uncountable nouns."
+    },
+    {
+      "id": "c9_eng_det_07",
+      "question": "Fill in the blank: '______ the books you lent me last week were very informative.'",
+      "options": ["Both", "Every", "Each", "Much"],
+      "correctAnswer": "Both",
+      "conceptTag": "Dual Determiners (Both)",
+      "explanation": "'Both' is used with plural countable nouns ('the books') and a plural verb ('were') when referring to two items together."
+    },
+    {
+      "id": "c9_eng_det_08",
+      "question": "Identify the correct determiner: '______ of the two candidates was found suitable for the post, so the interview panel rejected both.'",
+      "options": ["Neither", "None", "Either", "Every"],
+      "correctAnswer": "Neither",
+      "conceptTag": "Neither (of two) vs None (of three or more)",
+      "explanation": "When negating two items/persons, 'Neither' is used. 'None' is used for three or more."
+    }
+  ],
+
+  "Clauses — Noun Clause, Relative Clause": [
+    {
+      "id": "c9_eng_cls_01",
+      "question": "Identify the type of underlined subordinate clause: 'I do not know **what he wants**.'",
+      "options": [
+        "Noun Clause (acting as the object of the verb 'know')",
+        "Relative (Adjective) Clause",
+        "Adverb Clause of Reason",
+        "Principal Clause"
+      ],
+      "correctAnswer": "Noun Clause (acting as the object of the verb 'know')",
+      "conceptTag": "Noun Clause as Object of a Verb",
+      "explanation": "The clause 'what he wants' answers the question 'know WHAT?' after the transitive verb 'know', functioning as a Noun Clause."
+    },
+    {
+      "id": "c9_eng_cls_02",
+      "question": "How can you distinguish the clause 'where he lives' in (1) 'Tell me **where he lives**' versus (2) 'This is the house **where he lives**'?",
+      "options": [
+        "In (1) it is a Noun Clause (object of 'tell'); in (2) it is a Relative/Adjective Clause modifying the noun 'house'",
+        "Both are Relative Clauses",
+        "Both are Noun Clauses",
+        "In (1) it is a Relative Clause; in (2) it is a Noun Clause"
+      ],
+      "correctAnswer": "In (1) it is a Noun Clause (object of 'tell'); in (2) it is a Relative/Adjective Clause modifying the noun 'house'",
+      "conceptTag": "Noun Clause vs Relative Clause Functional Test",
+      "explanation": "A clause is identified by its function: in (1) it answers 'Tell me what?' (Noun Clause); in (2) it describes the antecedent noun 'the house' (Relative Clause)."
+    },
+    {
+      "id": "c9_eng_cls_03",
+      "question": "Choose the correct relative pronoun: 'The girl ______ brother won the gold medal is my classmate.'",
+      "options": ["whose", "whom", "who", "which"],
+      "correctAnswer": "whose",
+      "conceptTag": "Possessive Relative Pronoun (Whose)",
+      "explanation": "'Whose' is the possessive relative pronoun (meaning 'her brother') linking the antecedent 'The girl' to the noun 'brother'."
+    },
+    {
+      "id": "c9_eng_cls_04",
+      "question": "Select the appropriate relative pronoun: 'The gentleman ______ we met at the book fair yesterday is a renowned historian.'",
+      "options": ["whom", "who", "which", "whose"],
+      "correctAnswer": "whom",
+      "conceptTag": "Subjective (Who) vs Objective (Whom) Relative Pronouns",
+      "explanation": "Since the relative clause already has a subject ('we met ___'), the relative pronoun acts as the object of the verb 'met', requiring 'whom'."
+    },
+    {
+      "id": "c9_eng_cls_05",
+      "question": "In which of the following contexts is the relative pronoun 'that' strongly preferred over 'which' or 'who'?",
+      "options": [
+        "After superlative adjectives and words like 'all', 'only', 'nothing', and 'the same'",
+        "Inside non-defining clauses separated by commas",
+        "Immediately after a preposition (e.g., 'in that')",
+        "When referring to a person's name"
+      ],
+      "correctAnswer": "After superlative adjectives and words like 'all', 'only', 'nothing', and 'the same'",
+      "conceptTag": "Mandatory Use of 'That' in Relative Clauses",
+      "explanation": "Standard grammar uses 'that' after superlatives (e.g., 'the best book that I have read') and words like 'all' ('All that glitters is not gold')."
+    },
+    {
+      "id": "c9_eng_cls_06",
+      "question": "Identify the function of the Noun Clause in: '**What you have said** makes complete sense.'",
+      "options": [
+        "Subject of the verb 'makes'",
+        "Object of the verb 'makes'",
+        "Complement of a preposition",
+        "Relative clause modifying 'sense'"
+      ],
+      "correctAnswer": "Subject of the verb 'makes'",
+      "conceptTag": "Noun Clause as Subject of a Sentence",
+      "explanation": "The entire clause 'What you have said' occupies the subject position before the finite verb 'makes'."
+    },
+    {
+      "id": "c9_eng_cls_07",
+      "question": "Combine using a Relative Clause: 'I bought a fountain pen. It writes very smoothly.'",
+      "options": [
+        "I bought a fountain pen which writes very smoothly.",
+        "I bought a fountain pen who writes very smoothly.",
+        "I bought a fountain pen what writes very smoothly.",
+        "I bought a fountain pen where it writes very smoothly."
+      ],
+      "correctAnswer": "I bought a fountain pen which writes very smoothly.",
+      "conceptTag": "Relative Pronouns for Inanimate Objects (Which/That)",
+      "explanation": "For inanimate objects and animals ('a fountain pen'), 'which' or 'that' is used as the relative pronoun, and the redundant pronoun 'it' is dropped."
+    },
+    {
+      "id": "c9_eng_cls_08",
+      "question": "What is the difference between a 'Defining' and a 'Non-Defining' Relative Clause?",
+      "options": [
+        "A defining clause is essential to identify the noun and uses no commas; a non-defining clause gives extra information and is set off by commas",
+        "A defining clause always uses commas",
+        "A non-defining clause can only use the pronoun 'that'",
+        "There is no difference in meaning or punctuation"
+      ],
+      "correctAnswer": "A defining clause is essential to identify the noun and uses no commas; a non-defining clause gives extra information and is set off by commas",
+      "conceptTag": "Defining vs Non-Defining Relative Clauses",
+      "explanation": "Defining clauses restrict the meaning of the antecedent (no commas), while non-defining clauses add parenthetical detail between commas (and never use 'that')."
+    }
+  ],
+
+  "Editing/Omitting & Paragraph Completion": [
+    {
+      "id": "c9_eng_ed_01",
+      "question": "[Editing Error Correction] Identify the incorrect word and its correction: 'Trees plays a vital role in maintaining ecological balance.'",
+      "options": [
+        "Error: plays | Correction: play",
+        "Error: vital | Correction: vitally",
+        "Error: in | Correction: on",
+        "Error: maintaining | Correction: maintain"
+      ],
+      "correctAnswer": "Error: plays | Correction: play",
+      "conceptTag": "Editing: Plural Subject-Verb Agreement",
+      "explanation": "The plural subject 'Trees' requires the plural base verb 'play' instead of singular 'plays'."
+    },
+    {
+      "id": "c9_eng_ed_02",
+      "question": "[Editing Error Correction] Spot the error and correction: 'One of the most serious problem facing cities today is air pollution.'",
+      "options": [
+        "Error: problem | Correction: problems",
+        "Error: facing | Correction: faced",
+        "Error: is | Correction: are",
+        "Error: most | Correction: more"
+      ],
+      "correctAnswer": "Error: problem | Correction: problems",
+      "conceptTag": "Editing: 'One of the + Plural Noun' Rule",
+      "explanation": "The structure 'One of the...' selects one item out of a group, so the noun following it must always be plural ('problems'), while the verb ('is') stays singular."
+    },
+    {
+      "id": "c9_eng_ed_03",
+      "question": "[Editing Error Correction] Identify the error and correction: 'People did not knew how to preserve food in ancient times.'",
+      "options": [
+        "Error: knew | Correction: know",
+        "Error: preserve | Correction: preserved",
+        "Error: did | Correction: do",
+        "Error: in | Correction: at"
+      ],
+      "correctAnswer": "Error: knew | Correction: know",
+      "conceptTag": "Editing: Base Verb (V1) after 'Did'",
+      "explanation": "The auxiliary verb 'did / did not' already carries the past tense marker, so it must be followed by the root verb V1 ('know'), never V2 ('knew')."
+    },
+    {
+      "id": "c9_eng_ed_04",
+      "question": "[Omission Task] Identify the missing word and its position: 'Laughter is best medicine for a stressed mind.'",
+      "options": [
+        "Before: best | Missing Word: the | After: medicine",
+        "Before: is | Missing Word: a | After: best",
+        "Before: medicine | Missing Word: of | After: for",
+        "Before: stressed | Missing Word: an | After: mind"
+      ],
+      "correctAnswer": "Before: best | Missing Word: the | After: medicine",
+      "conceptTag": "Omission: Definite Article before Superlatives",
+      "explanation": "Superlative adjectives ('best') require the definite article 'the' before them ('the best medicine')."
+    },
+    {
+      "id": "c9_eng_ed_05",
+      "question": "[Omission Task] Find the omitted preposition: 'Mahatma Gandhi was born October 2, 1869, at Porbandar.'",
+      "options": [
+        "Before: October | Missing Word: on | After: 2",
+        "Before: October | Missing Word: in | After: 2",
+        "Before: born | Missing Word: at | After: October",
+        "Before: 1869 | Missing Word: in | After: at"
+      ],
+      "correctAnswer": "Before: October | Missing Word: on | After: 2",
+      "conceptTag": "Omission: Prepositions of Time (On for Dates)",
+      "explanation": "Specific days and calendar dates ('October 2') take the preposition 'on', whereas months or years alone take 'in'."
+    },
+    {
+      "id": "c9_eng_ed_06",
+      "question": "[Paragraph Completion / Gap Filling] 'Yesterday, a major fire ______ (break) out in the local market, and three shops ______ (destroy) before the fire brigade arrived.'",
+      "options": [
+        "broke, were destroyed",
+        "breaks, destroyed",
+        "broken, had destroyed",
+        "was breaking, were destroying"
+      ],
+      "correctAnswer": "broke, were destroyed",
+      "conceptTag": "Cloze Gap Filling: Active vs Passive Voice in Past",
+      "explanation": "'Fire broke out' is active voice (Simple Past), while 'three shops were destroyed' requires the Passive Voice because the shops received the action."
+    },
+    {
+      "id": "c9_eng_ed_07",
+      "question": "[Editing Error Correction] Spot the error: 'Reading books not only enhances our vocabulary and also improves concentration.'",
+      "options": [
+        "Error: and | Correction: but",
+        "Error: enhances | Correction: enhance",
+        "Error: our | Correction: their",
+        "Error: improves | Correction: improving"
+      ],
+      "correctAnswer": "Error: and | Correction: but",
+      "conceptTag": "Editing: Correlative Conjunction Pair (Not only... but also)",
+      "explanation": "The fixed correlative conjunction pair is 'not only... but also', never 'not only... and also'."
+    },
+    {
+      "id": "c9_eng_ed_08",
+      "question": "[Paragraph Completion] 'Solar energy is one of ______ cleanest sources of power which ______ be harnessed to reduce carbon emissions.'",
+      "options": [
+        "the, can",
+        "a, mustn't",
+        "an, could",
+        "some, should not"
+      ],
+      "correctAnswer": "the, can",
+      "conceptTag": "Cloze Completion: Determiner + Modal",
+      "explanation": "'Cleanest' is a superlative requiring 'the', and 'can' expresses the present capability of harnessing solar energy."
+    }
+  ],
+
+  "Sentence Rearrangement": [
+    {
+      "id": "c9_eng_sr_01",
+      "question": "Rearrange the jumbled words into a meaningful sentence: \n(P) discipline / (Q) the / (R) foundation of / (S) is / (T) a successful life",
+      "options": [
+        "Discipline is the foundation of a successful life.",
+        "The foundation of is discipline a successful life.",
+        "A successful life is discipline the foundation of.",
+        "Discipline the foundation of a successful life is."
+      ],
+      "correctAnswer": "Discipline is the foundation of a successful life.",
+      "conceptTag": "Subject + Linking Verb + Complement Order",
+      "explanation": "Standard syntax places the Subject ('Discipline') first, followed by the linking verb ('is') and the noun phrase complement ('the foundation of a successful life')."
+    },
+    {
+      "id": "c9_eng_sr_02",
+      "question": "Rearrange: (A) millions of tons / (B) every year / (C) are dumped / (D) into the oceans / (E) of plastic waste",
+      "options": [
+        "Millions of tons of plastic waste are dumped into the oceans every year.",
+        "Every year of plastic waste millions of tons are dumped into the oceans.",
+        "Into the oceans are dumped millions of tons every year of plastic waste.",
+        "Plastic waste of millions of tons every year are dumped into the oceans."
+      ],
+      "correctAnswer": "Millions of tons of plastic waste are dumped into the oceans every year.",
+      "conceptTag": "Quantifier Phrase Subject + Passive Verb + Place + Time",
+      "explanation": "The complete subject is 'Millions of tons of plastic waste', followed by the passive verb 'are dumped', place 'into the oceans', and time adverbial 'every year'."
+    },
+    {
+      "id": "c9_eng_sr_03",
+      "question": "Rearrange: (1) books / (2) companions / (3) are / (4) never / (5) who / (6) desert us / (7) our best",
+      "options": [
+        "Books are our best companions who never desert us.",
+        "Our best companions are books never who desert us.",
+        "Books who never desert us our best companions are.",
+        "Never desert us books who are our best companions."
+      ],
+      "correctAnswer": "Books are our best companions who never desert us.",
+      "conceptTag": "Positioning Relative Clauses Immediately After Antecedents",
+      "explanation": "The relative clause 'who never desert us' must immediately follow its antecedent noun 'companions'."
+    },
+    {
+      "id": "c9_eng_sr_04",
+      "question": "Rearrange: (P) regular exercise / (Q) physical fitness / (R) not only / (S) mental stress / (T) maintains / (U) but also reduces",
+      "options": [
+        "Regular exercise not only maintains physical fitness but also reduces mental stress.",
+        "Not only regular exercise maintains physical fitness but also mental stress reduces.",
+        "Physical fitness not only maintains regular exercise but also reduces mental stress.",
+        "Regular exercise maintains not only mental stress but also reduces physical fitness."
+      ],
+      "correctAnswer": "Regular exercise not only maintains physical fitness but also reduces mental stress.",
+      "conceptTag": "Parallel Structure with 'Not only... but also'",
+      "explanation": "'Not only' precedes the first verb phrase ('maintains physical fitness') and 'but also' precedes the parallel second verb phrase ('reduces mental stress')."
+    },
+    {
+      "id": "c9_eng_sr_05",
+      "question": "Rearrange into a grammatically correct question: \n(A) why / (B) tell me / (C) you / (D) were absent / (E) can you / (F) yesterday",
+      "options": [
+        "Can you tell me why you were absent yesterday?",
+        "Why can you tell me were you absent yesterday?",
+        "Can you tell me why were you absent yesterday?",
+        "You were absent yesterday why can you tell me?"
+      ],
+      "correctAnswer": "Can you tell me why you were absent yesterday?",
+      "conceptTag": "Embedded Indirect Question Word Order",
+      "explanation": "In an embedded question starting with 'Can you tell me...', the subordinate clause 'why you were absent' takes assertive order (subject 'you' before verb 'were')."
+    },
+    {
+      "id": "c9_eng_sr_06",
+      "question": "Rearrange: (1) rising temperatures / (2) polar ice caps / (3) at an alarming rate / (4) are causing / (5) to melt",
+      "options": [
+        "Rising temperatures are causing polar ice caps to melt at an alarming rate.",
+        "Polar ice caps are causing rising temperatures to melt at an alarming rate.",
+        "At an alarming rate to melt polar ice caps are causing rising temperatures.",
+        "Rising temperatures to melt polar ice caps are causing at an alarming rate."
+      ],
+      "correctAnswer": "Rising temperatures are causing polar ice caps to melt at an alarming rate.",
+      "conceptTag": "Causative Structure (Cause + Object + To-Infinitive)",
+      "explanation": "The structure is Subject ('Rising temperatures') + Verb ('are causing') + Object ('polar ice caps') + Infinitive ('to melt') + Adverbial of manner ('at an alarming rate')."
+    },
+    {
+      "id": "c9_eng_sr_07",
+      "question": "Rearrange: (A) an / (B) apple / (C) keeps / (D) a day / (E) away / (F) the doctor",
+      "options": [
+        "An apple a day keeps the doctor away.",
+        "A day an apple keeps away the doctor.",
+        "The doctor keeps away an apple a day.",
+        "An apple keeps a day the doctor away."
+      ],
+      "correctAnswer": "An apple a day keeps the doctor away.",
+      "conceptTag": "Proverbial Syntax & Phrasal Verb Placement",
+      "explanation": "'An apple a day' is the subject phrase, 'keeps' is the verb, 'the doctor' is the object, and 'away' is the adverbial particle."
+    },
+    {
+      "id": "c9_eng_sr_08",
+      "question": "Rearrange: (P) must be / (Q) heritage monuments / (R) for future generations / (S) preserved / (T) our ancient",
+      "options": [
+        "Our ancient heritage monuments must be preserved for future generations.",
+        "For future generations must be preserved our ancient heritage monuments.",
+        "Our ancient must be preserved heritage monuments for future generations.",
+        "Heritage monuments our ancient for future generations must be preserved."
+      ],
+      "correctAnswer": "Our ancient heritage monuments must be preserved for future generations.",
+      "conceptTag": "Determiner + Adjective + Noun Head + Modal Passive",
+      "explanation": "Modifiers follow the order: Possessive Determiner ('Our') + Adjective ('ancient') + Noun Adjunct ('heritage') + Head Noun ('monuments') + Modal Passive ('must be preserved')."
+    }
+  ],
+
+  "Sentence Transformation": [
+    {
+      "id": "c9_eng_st_01",
+      "question": "Transform by removing 'too': 'The box is too heavy for me to lift.'",
+      "options": [
+        "The box is so heavy that I cannot lift it.",
+        "The box is so heavy that I could not lift it.",
+        "The box is very heavy so I cannot lift.",
+        "The box is too much heavy that I cannot lift it."
+      ],
+      "correctAnswer": "The box is so heavy that I cannot lift it.",
+      "conceptTag": "Transformation: 'Too...to' to 'So...that'",
+      "explanation": "'Too + adjective + for (object) + to V1' transforms into 'so + adjective + that + subject + cannot/could not + V1 + object pronoun'. Since 'is' is present, 'cannot' is used."
+    },
+    {
+      "id": "c9_eng_st_02",
+      "question": "Transform into Passive Voice: 'Who wrote the Ramayana?'",
+      "options": [
+        "By whom was the Ramayana written?",
+        "Who was written the Ramayana by?",
+        "By whom the Ramayana was written?",
+        "Whom was the Ramayana written?"
+      ],
+      "correctAnswer": "By whom was the Ramayana written?",
+      "conceptTag": "Interrogative Active to Passive Transformation",
+      "explanation": "Active 'Who + V2 + Object?' transforms into 'By whom + was/were + Subject + V3?' maintaining interrogative auxiliary inversion."
+    },
+    {
+      "id": "c9_eng_st_03",
+      "question": "Transform into Positive Degree without changing meaning: 'Lead is heavier than any other metal.'",
+      "options": [
+        "No other metal is as heavy as lead.",
+        "Lead is the heaviest of all metals.",
+        "Very few metals are as heavy as lead.",
+        "Some metals are at least as heavy as lead."
+      ],
+      "correctAnswer": "No other metal is as heavy as lead.",
+      "conceptTag": "Degrees of Comparison Transformation",
+      "explanation": "To convert Comparative ('heavier than any other...') into Positive Degree while keeping the exact meaning, we use 'No other + singular noun + is as + positive adjective + as...'."
+    },
+    {
+      "id": "c9_eng_st_04",
+      "question": "Transform using 'No sooner... than': 'As soon as the bell rang, the students rushed out of the classroom.'",
+      "options": [
+        "No sooner did the bell ring than the students rushed out of the classroom.",
+        "No sooner the bell rang than the students rushed out of the classroom.",
+        "No sooner did the bell rang when the students rushed out of the classroom.",
+        "No sooner had the bell ring than the students rushed out."
+      ],
+      "correctAnswer": "No sooner did the bell ring than the students rushed out of the classroom.",
+      "conceptTag": "Negative Adverbial Inversion ('No sooner... than')",
+      "explanation": "When a sentence begins with 'No sooner', subject-auxiliary inversion is mandatory ('did the bell ring' or 'had the bell rung'), and the correlative conjunction is 'than' (never 'when' or 'then')."
+    },
+    {
+      "id": "c9_eng_st_05",
+      "question": "Transform from Exclamatory to Assertive: 'What a magnificent monument the Taj Mahal is!'",
+      "options": [
+        "The Taj Mahal is a very magnificent monument.",
+        "What a magnificent monument is the Taj Mahal.",
+        "The Taj Mahal is a magnificent monument!",
+        "It is the Taj Mahal which is magnificent."
+      ],
+      "correctAnswer": "The Taj Mahal is a very magnificent monument.",
+      "conceptTag": "Exclamatory to Assertive Sentence Transformation",
+      "explanation": "Exclamatory 'What a + adj + noun + S + V!' converts to assertive 'S + V + a very/great + adj + noun.'"
+    },
+    {
+      "id": "c9_eng_st_06",
+      "question": "Transform into a Negative sentence without changing the meaning: 'Everyone loves their motherland.'",
+      "options": [
+        "There is no one who does not love their motherland.",
+        "Everyone does not love their motherland.",
+        "No one loves their motherland.",
+        "Hardly anyone loves their motherland."
+      ],
+      "correctAnswer": "There is no one who does not love their motherland.",
+      "conceptTag": "Affirmative to Negative without Meaning Change",
+      "explanation": "Using double negation ('no one who does not love') makes the sentence grammatically negative while preserving the original affirmative meaning."
+    },
+    {
+      "id": "c9_eng_st_07",
+      "question": "Transform from Complex to Simple sentence: 'Although he was poor, he was always honest.'",
+      "options": [
+        "In spite of being poor, he was always honest.",
+        "He was poor, but he was always honest.",
+        "He was poor and therefore honest.",
+        "Because of his poverty, he was honest."
+      ],
+      "correctAnswer": "In spite of being poor, he was always honest.",
+      "conceptTag": "Complex to Simple Sentence (Prepositional Phrase)",
+      "explanation": "Replacing the subordinate clause 'Although he was poor' with the prepositional phrase 'In spite of being poor' (or 'Despite his poverty') reduces the sentence to a single finite clause (Simple sentence)."
+    },
+    {
+      "id": "c9_eng_st_08",
+      "question": "Transform into Interrogative without changing the meaning: 'No one can tolerate such an insult.'",
+      "options": [
+        "Who can tolerate such an insult?",
+        "Can no one tolerate such an insult?",
+        "Why can anyone tolerate such an insult?",
+        "Who cannot tolerate such an insult?"
+      ],
+      "correctAnswer": "Who can tolerate such an insult?",
+      "conceptTag": "Assertive to Rhetorical Interrogative Transformation",
+      "explanation": "Replacing 'No one' with the rhetorical question 'Who can...?' implies the exact same negative answer ('No one')."
+    }
+  ]
+}

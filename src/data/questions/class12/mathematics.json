@@ -1,0 +1,1112 @@
+{
+  "Relations and Functions": [
+    {
+      "id": "c12_math_rf_01",
+      "question": "If a relation R on set A = {1, 2, 3} is given by R = {(1, 1), (2, 2)}, is R reflexive?",
+      "options": [
+        "Yes, because (1, 1) and (2, 2) are present.",
+        "No, because (3, 3) is missing.",
+        "Yes, it is both reflexive and symmetric.",
+        "Cannot be determined without knowing the codomain."
+      ],
+      "correctAnswer": "No, because (3, 3) is missing.",
+      "conceptTag": "Reflexive Relation Definition",
+      "explanation": "A relation R on set A is reflexive if and only if (a, a) belongs to R for EVERY element a in A. Since 3 is in A but (3, 3) is absent, R is not reflexive."
+    },
+    {
+      "id": "c12_math_rf_02",
+      "question": "Let f: ℝ → ℝ be defined by f(x) = x^2. Which of the following statements is true?",
+      "options": [
+        "f is bijective.",
+        "f is injective (one-one) but not surjective (onto).",
+        "f is neither one-one nor onto.",
+        "f is surjective (onto) but not one-one."
+      ],
+      "correctAnswer": "f is neither one-one nor onto.",
+      "conceptTag": "Injectivity and Surjectivity on Real Numbers",
+      "explanation": "f(-1) = f(1) = 1, so it is not one-one. Negative real numbers have no pre-images in ℝ, so the range [0, ∞) != ℝ (codomain), making it not onto."
+    },
+    {
+      "id": "c12_math_rf_03",
+      "question": "If a relation R is defined on ℝ by (a, b) ∈ R iff 1 + ab > 0, then R is:",
+      "options": [
+        "Equivalence relation",
+        "Reflexive and symmetric but not transitive",
+        "Reflexive and transitive but not symmetric",
+        "Symmetric and transitive but not reflexive"
+      ],
+      "correctAnswer": "Reflexive and symmetric but not transitive",
+      "conceptTag": "Transitivity Counterexamples",
+      "explanation": "Reflexive: 1 + a^2 > 0 is always true. Symmetric: 1 + ab = 1 + ba > 0. For transitivity: Take a = -1, b = -1/2, c = 2. 1 + ab > 0 and 1 + bc = 0 (not > 0), breaking transitivity."
+    },
+    {
+      "id": "c12_math_rf_04",
+      "question": "Let f: A → B be an invertible function. What must be true about f?",
+      "options": [
+        "f must be one-one and onto (bijective).",
+        "f must be symmetric.",
+        "f only needs to be one-one.",
+        "f only needs to be onto."
+      ],
+      "correctAnswer": "f must be one-one and onto (bijective).",
+      "conceptTag": "Invertibility Condition",
+      "explanation": "A function f has an inverse function f^-1 if and only if f is bijective (both injective and surjective)."
+    },
+    {
+      "id": "c12_math_rf_05",
+      "question": "What is the total number of equivalence relations that can be defined on a set with 3 elements?",
+      "options": ["5", "3", "8", "9"],
+      "correctAnswer": "5",
+      "conceptTag": "Bell Numbers & Partitioning Sets",
+      "explanation": "The number of equivalence relations on a finite set of n elements equals the Bell number B_n. For n = 3, B_3 = 5 (representing partitions: 3, 2+1, 1+1+1)."
+    },
+    {
+      "id": "c12_math_rf_06",
+      "question": "If f: [0, ∞) → [0, ∞) is defined by f(x) = x^2, which statement holds?",
+      "options": [
+        "f is bijective and invertible.",
+        "f is not invertible because quadratic functions cannot be inverted.",
+        "f is one-one but not onto.",
+        "f has no inverse on non-negative reals."
+      ],
+      "correctAnswer": "f is bijective and invertible.",
+      "conceptTag": "Restricted Domain Bijectivity",
+      "explanation": "Restricting domain and codomain to [0, ∞) eliminates negative inputs and outputs, ensuring uniqueness and complete coverage; its inverse is f^-1(x) = sqrt(x)."
+    },
+    {
+      "id": "c12_math_rf_07",
+      "question": "If R = {(a, b) : a <= b} on set ℝ, is R symmetric?",
+      "options": [
+        "No, because a <= b does not imply b <= a unless a = b.",
+        "Yes, order relation is always symmetric.",
+        "Yes, because ℝ contains both positive and negative values.",
+        "Only when a and b are integers."
+      ],
+      "correctAnswer": "No, because a <= b does not imply b <= a unless a = b.",
+      "conceptTag": "Antisymmetry vs Symmetry Misconception",
+      "explanation": "For example, 2 <= 5 holds, but 5 <= 2 is false. Hence (2, 5) ∈ R does not imply (5, 2) ∈ R."
+    },
+    {
+      "id": "c12_math_rf_08",
+      "question": "If f(x) = (4x + 3) / (6x - 4) for x != 2/3, what is (f o f)(x)?",
+      "options": ["x", "1/x", "4x", "x^2"],
+      "correctAnswer": "x",
+      "conceptTag": "Composite Functions (Self-Inverse)",
+      "explanation": "Substituting f(x) into itself yields [4((4x+3)/(6x-4)) + 3] / [6((4x+3)/(6x-4)) - 4]. Simplifying the numerator and denominator gives 34x / 34 = x."
+    }
+  ],
+
+  "Inverse Trigonometric Functions": [
+    {
+      "id": "c12_math_itf_01",
+      "question": "What is the principal value branch of sin⁻¹(x)?",
+      "options": [
+        "[-π/2, π/2]",
+        "[0, π]",
+        "(-π/2, π/2)",
+        "[0, 2π]"
+      ],
+      "correctAnswer": "[-π/2, π/2]",
+      "conceptTag": "Principal Branch of Inverse Sine",
+      "explanation": "The domain of sin⁻¹(x) is [-1, 1] and its principal value branch is the closed interval [-π/2, π/2]."
+    },
+    {
+      "id": "c12_math_itf_02",
+      "question": "What is the value of cos⁻¹(cos(7π/6))?",
+      "options": ["5π/6", "7π/6", "π/6", "-π/6"],
+      "correctAnswer": "5π/6",
+      "conceptTag": "Principal Value Domain Restriction for Inverse Cosine",
+      "explanation": "The range of cos⁻¹ is [0, π]. Since 7π/6 > π, we write cos(7π/6) = cos(2π - 5π/6) = cos(5π/6). Since 5π/6 ∈ [0, π], cos⁻¹(cos(5π/6)) = 5π/6."
+    },
+    {
+      "id": "c12_math_itf_03",
+      "question": "What is the value of sin⁻¹(-1/2)?",
+      "options": ["-π/6", "11π/6", "5π/6", "7π/6"],
+      "correctAnswer": "-π/6",
+      "conceptTag": "Negative Argument Properties: sin⁻¹(-x) = -sin⁻¹(x)",
+      "explanation": "sin⁻¹(-x) = -sin⁻¹(x). Therefore, sin⁻¹(-1/2) = -sin⁻¹(1/2) = -π/6."
+    },
+    {
+      "id": "c12_math_itf_04",
+      "question": "What is the value of cos⁻¹(-1/2)?",
+      "options": ["2π/3", "-π/3", "4π/3", "π/3"],
+      "correctAnswer": "2π/3",
+      "conceptTag": "Negative Argument Properties: cos⁻¹(-x) = π - cos⁻¹(x)",
+      "explanation": "cos⁻¹(-x) = π - cos⁻¹(x). Hence cos⁻¹(-1/2) = π - cos⁻¹(1/2) = π - π/3 = 2π/3."
+    },
+    {
+      "id": "c12_math_itf_05",
+      "question": "What is the domain of sec⁻¹(x)?",
+      "options": [
+        "(-∞, -1] ∪ [1, ∞)",
+        "[-1, 1]",
+        "ℝ",
+        "[0, π] - {π/2}"
+      ],
+      "correctAnswer": "(-∞, -1] ∪ [1, ∞)",
+      "conceptTag": "Domain of Inverse Secant",
+      "explanation": "Since sec(θ) only takes values <= -1 or >= 1, the domain of sec⁻¹(x) is ℝ - (-1, 1), which is (-∞, -1] ∪ [1, ∞)."
+    },
+    {
+      "id": "c12_math_itf_06",
+      "question": "For what values of x is sin⁻¹(x) + cos⁻¹(x) = π/2 valid?",
+      "options": ["x ∈ [-1, 1]", "x ∈ ℝ", "x ∈ [0, 1]", "x ∈ (-1, 1)"],
+      "correctAnswer": "x ∈ [-1, 1]",
+      "conceptTag": "Complementary Inverse Identity Domain",
+      "explanation": "The identity sin⁻¹(x) + cos⁻¹(x) = π/2 holds strictly over the common domain of both functions, which is [-1, 1]."
+    },
+    {
+      "id": "c12_math_itf_07",
+      "question": "What is the value of tan⁻¹(tan(3π/4))?",
+      "options": ["-π/4", "3π/4", "π/4", "7π/4"],
+      "correctAnswer": "-π/4",
+      "conceptTag": "Principal Range of Inverse Tangent",
+      "explanation": "The range of tan⁻¹ is (-π/2, π/2). tan(3π/4) = tan(π - π/4) = -tan(π/4) = tan(-π/4). Hence tan⁻¹(tan(-π/4)) = -π/4."
+    },
+    {
+      "id": "c12_math_itf_08",
+      "question": "What is the principal value branch of cosec⁻¹(x)?",
+      "options": [
+        "[-π/2, π/2] - {0}",
+        "[0, π] - {π/2}",
+        "(-π/2, π/2)",
+        "[-1, 1]"
+      ],
+      "correctAnswer": "[-π/2, π/2] - {0}",
+      "conceptTag": "Principal Branch of Inverse Cosecant",
+      "explanation": "Since cosec(0) is undefined, the principal range of cosec⁻¹(x) excludes 0 from the closed interval [-π/2, π/2]."
+    }
+  ],
+
+  "Matrices": [
+    {
+      "id": "c12_math_mat_01",
+      "question": "If A and B are square matrices of the same order, is (AB)ᵀ always equal to AᵀBᵀ?",
+      "options": [
+        "No, (AB)ᵀ = BᵀAᵀ.",
+        "Yes, always.",
+        "Only if det(A) = 0.",
+        "Only if both are diagonal matrices."
+      ],
+      "correctAnswer": "No, (AB)ᵀ = BᵀAᵀ.",
+      "conceptTag": "Reversal Law for Transpose",
+      "explanation": "By the reversal law of transpose, the transpose of a product reverses the order of the matrices: (AB)ᵀ = BᵀAᵀ."
+    },
+    {
+      "id": "c12_math_mat_02",
+      "question": "A square matrix A is called skew-symmetric if:",
+      "options": [
+        "Aᵀ = -A",
+        "Aᵀ = A",
+        "A⁻¹ = A",
+        "A² = I"
+      ],
+      "correctAnswer": "Aᵀ = -A",
+      "conceptTag": "Skew-Symmetric Matrix Definition",
+      "explanation": "A matrix is skew-symmetric if Aᵀ = -A. A direct corollary is that all diagonal elements of a skew-symmetric matrix must be 0."
+    },
+    {
+      "id": "c12_math_mat_03",
+      "question": "What are all the diagonal entries of any skew-symmetric matrix?",
+      "options": ["0", "1", "-1", "Any real number"],
+      "correctAnswer": "0",
+      "conceptTag": "Diagonal Entries of Skew-Symmetric Matrices",
+      "explanation": "Since a_ii = -a_ii, 2*a_ii = 0 => a_ii = 0 for all diagonal entries."
+    },
+    {
+      "id": "c12_math_mat_04",
+      "question": "If matrix A has order 2 × 3 and matrix B has order 3 × 4, what is the order of matrix AB?",
+      "options": ["2 × 4", "3 × 3", "4 × 2", "Multiplication is not defined"],
+      "correctAnswer": "2 × 4",
+      "conceptTag": "Matrix Multiplication Dimensionality",
+      "explanation": "An (m × n) matrix multiplied by an (n × p) matrix produces an (m × p) matrix. Here, (2 × 3) * (3 × 4) = 2 × 4."
+    },
+    {
+      "id": "c12_math_mat_05",
+      "question": "Is matrix multiplication generally commutative, i.e., AB = BA?",
+      "options": [
+        "No, matrix multiplication is generally non-commutative.",
+        "Yes, multiplication of numbers and matrices follows the same laws.",
+        "Yes, for all square matrices of the same order.",
+        "Only if both have non-zero determinants."
+      ],
+      "correctAnswer": "No, matrix multiplication is generally non-commutative.",
+      "conceptTag": "Non-Commutative Property of Matrices",
+      "explanation": "Even when both AB and BA are defined and have the same dimensions, AB is generally not equal to BA."
+    },
+    {
+      "id": "c12_math_mat_06",
+      "question": "If A is a symmetric matrix, then what is A - Aᵀ?",
+      "options": ["Zero matrix", "Identity matrix", "2A", "Skew-symmetric matrix with non-zero diagonal"],
+      "correctAnswer": "Zero matrix",
+      "conceptTag": "Symmetric Matrix Operations",
+      "explanation": "For a symmetric matrix, Aᵀ = A. Therefore, A - Aᵀ = A - A = O (the zero matrix)."
+    },
+    {
+      "id": "c12_math_mat_07",
+      "question": "If A is any square matrix, then (A + Aᵀ) is always:",
+      "options": ["Symmetric", "Skew-symmetric", "Diagonal", "Scalar"],
+      "correctAnswer": "Symmetric",
+      "conceptTag": "Decomposition into Symmetric and Skew-Symmetric",
+      "explanation": "(A + Aᵀ)ᵀ = Aᵀ + (Aᵀ)ᵀ = Aᵀ + A = A + Aᵀ. Since the transpose equals itself, it is always symmetric."
+    },
+    {
+      "id": "c12_math_mat_08",
+      "question": "What is (A⁻¹)⁻¹ for an invertible square matrix A?",
+      "options": ["A", "I", "Aᵀ", "-A"],
+      "correctAnswer": "A",
+      "conceptTag": "Involution of Matrix Inverse",
+      "explanation": "The inverse of an inverse matrix returns the original matrix: (A⁻¹)⁻¹ = A."
+    }
+  ],
+
+  "Determinants": [
+    {
+      "id": "c12_math_det_01",
+      "question": "If A is an n × n square matrix and k is a scalar, what is |kA|?",
+      "options": ["kⁿ |A|", "k |A|", "kⁿ⁻¹ |A|", "|A| / k"],
+      "correctAnswer": "kⁿ |A|",
+      "conceptTag": "Scalar Multiplication Property of Determinants",
+      "explanation": "Multiplying an n × n matrix by scalar k multiplies each of its n rows by k, so the scalar factors out n times: |kA| = kⁿ |A|."
+    },
+    {
+      "id": "c12_math_det_02",
+      "question": "If A is a 3 × 3 non-singular matrix, what is |adj(A)|?",
+      "options": ["|A|²", "|A|³", "|A|", "3|A|"],
+      "correctAnswer": "|A|²",
+      "conceptTag": "Determinant of Adjoint Matrix Formula",
+      "explanation": "For any n × n square matrix, |adj(A)| = |A|ⁿ⁻¹. Since n = 3, |adj(A)| = |A|³⁻¹ = |A|²."
+    },
+    {
+      "id": "c12_math_det_03",
+      "question": "A square matrix A is called singular if:",
+      "options": ["|A| = 0", "|A| != 0", "|A| = 1", "A = I"],
+      "correctAnswer": "|A| = 0",
+      "conceptTag": "Singular Matrix Definition",
+      "explanation": "A matrix is singular if its determinant is zero, which means it cannot have a multiplicative inverse (A⁻¹ does not exist)."
+    },
+    {
+      "id": "c12_math_det_04",
+      "question": "What is the determinant of any skew-symmetric matrix of odd order?",
+      "options": ["0", "1", "-1", "Depends on the elements"],
+      "correctAnswer": "0",
+      "conceptTag": "Odd Order Skew-Symmetric Determinant",
+      "explanation": "Since Aᵀ = -A, |A| = |Aᵀ| = |-A| = (-1)ⁿ |A|. For odd n, |A| = -|A| => 2|A| = 0 => |A| = 0."
+    },
+    {
+      "id": "c12_math_det_05",
+      "question": "If three points (x₁, y₁), (x₂, y₂), and (x₃, y₃) are collinear, what is the area of the triangle formed by them?",
+      "options": ["0", "1", "x₁y₂ + x₂y₃", "Undefined"],
+      "correctAnswer": "0",
+      "conceptTag": "Collinearity Condition using Determinants",
+      "explanation": "Collinear points lie along a straight line and enclose zero area, meaning the determinant representing triangle area evaluates to 0."
+    },
+    {
+      "id": "c12_math_det_06",
+      "question": "If A and B are square matrices of the same order, what is det(AB)?",
+      "options": ["det(A) * det(B)", "det(A) + det(B)", "det(A) / det(B)", "[det(A)]²"],
+      "correctAnswer": "det(A) * det(B)",
+      "conceptTag": "Multiplicative Property of Determinants",
+      "explanation": "The determinant of a matrix product equals the product of their individual determinants: det(AB) = det(A)det(B)."
+    },
+    {
+      "id": "c12_math_det_07",
+      "question": "If all elements of a row in a determinant are multiplied by a constant k, the determinant:",
+      "options": [
+        "Gets multiplied by k",
+        "Remains unchanged",
+        "Gets multiplied by k²",
+        "Becomes zero"
+      ],
+      "correctAnswer": "Gets multiplied by k",
+      "conceptTag": "Row Multiplier Property",
+      "explanation": "Factoring out k from one row scales the entire determinant by a factor of k."
+    },
+    {
+      "id": "c12_math_det_08",
+      "question": "If two rows or columns of a determinant are identical, the value of the determinant is:",
+      "options": ["0", "1", "-1", "Twice the original row"],
+      "correctAnswer": "0",
+      "conceptTag": "Identical Rows Property of Determinants",
+      "explanation": "Swapping two identical rows changes the sign: Δ = -Δ => 2Δ = 0 => Δ = 0."
+    }
+  ],
+
+  "Continuity and Differentiability": [
+    {
+      "id": "c12_math_cd_01",
+      "question": "If a function f(x) is continuous at x = a, does it guarantee that f(x) is differentiable at x = a?",
+      "options": [
+        "Yes, continuity always implies differentiability.",
+        "No, continuity is a necessary condition but not sufficient.",
+        "Only if the function is a polynomial.",
+        "Only if the left-hand limit is zero."
+      ],
+      "correctAnswer": "No, continuity is a necessary condition but not sufficient.",
+      "conceptTag": "Continuity vs Differentiability Misconception",
+      "explanation": "Continuity does not guarantee differentiability. A classic counterexample is f(x) = |x| at x = 0, which is continuous but has a sharp corner."
+    },
+    {
+      "id": "c12_math_cd_02",
+      "question": "What is the derivative of |x| at x = 0?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Does not exist"
+      ],
+      "correctAnswer": "Does not exist",
+      "conceptTag": "Left Hand vs Right Hand Derivative",
+      "explanation": "The Left-Hand Derivative is -1 and the Right-Hand Derivative is +1. Since LHD != RHD, the derivative does not exist at x = 0."
+    },
+    {
+      "id": "c12_math_cd_03",
+      "question": "Which of the following functions is continuous everywhere on ℝ but not differentiable at x = 2?",
+      "options": [
+        "f(x) = |x - 2|",
+        "f(x) = (x - 2)^2",
+        "f(x) = 1 / (x - 2)",
+        "f(x) = sin(x - 2)"
+      ],
+      "correctAnswer": "f(x) = |x - 2|",
+      "conceptTag": "Sharp Corners and Non-Differentiability",
+      "explanation": "The modulus function |x - 2| is continuous over ℝ, but has a sharp vertex at x = 2 where slope abruptly changes from -1 to +1."
+    },
+    {
+      "id": "c12_math_cd_04",
+      "question": "If f(x) = x * sin(1/x) for x != 0 and f(0) = 0, is f(x) differentiable at x = 0?",
+      "options": [
+        "Yes, and f'(0) = 0",
+        "Yes, and f'(0) = 1",
+        "No, because lim_{h->0} sin(1/h) oscillates indefinitely",
+        "No, because f(x) is discontinuous at x = 0"
+      ],
+      "correctAnswer": "No, because lim_{h->0} sin(1/h) oscillates indefinitely",
+      "conceptTag": "Oscillatory Discontinuity & First Principles",
+      "explanation": "Using definition: f'(0) = lim_{h->0} [h sin(1/h) - 0]/h = lim_{h->0} sin(1/h). Since sin(1/h) oscillates between -1 and 1 without settling, the limit does not exist."
+    },
+    {
+      "id": "c12_math_cd_05",
+      "question": "What is the derivative of e^(sin(x)) with respect to x?",
+      "options": [
+        "cos(x) * e^(sin(x))",
+        "sin(x) * e^(cos(x))",
+        "-cos(x) * e^(sin(x))",
+        "e^(cos(x))"
+      ],
+      "correctAnswer": "cos(x) * e^(sin(x))",
+      "conceptTag": "Chain Rule for Exponential and Trigonometric Functions",
+      "explanation": "By the Chain Rule: d/dx [e^u] = e^u * du/dx. Here u = sin(x), so du/dx = cos(x), yielding cos(x) * e^(sin(x))."
+    },
+    {
+      "id": "c12_math_cd_06",
+      "question": "What is the derivative of log_a(x) with respect to x where a > 0 and a != 1?",
+      "options": [
+        "1 / (x * ln(a))",
+        "1 / x",
+        "ln(a) / x",
+        "a / x"
+      ],
+      "correctAnswer": "1 / (x * ln(a))",
+      "conceptTag": "Change of Base Rule in Differentiation",
+      "explanation": "log_a(x) converts to ln(x) / ln(a). Differentiating yields (1 / ln(a)) * (1 / x) = 1 / (x * ln(a))."
+    },
+    {
+      "id": "c12_math_cd_07",
+      "question": "If x = a*cos(θ) and y = a*sin(θ), what is dy/dx in terms of θ?",
+      "options": [
+        "-cot(θ)",
+        "-tan(θ)",
+        "tan(θ)",
+        "cot(θ)"
+      ],
+      "correctAnswer": "-cot(θ)",
+      "conceptTag": "Parametric Differentiation",
+      "explanation": "dy/dθ = a*cos(θ) and dx/dθ = -a*sin(θ). Therefore, dy/dx = (dy/dθ) / (dx/dθ) = (a*cos(θ)) / (-a*sin(θ)) = -cot(θ)."
+    },
+    {
+      "id": "c12_math_cd_08",
+      "question": "According to Rolle's Theorem, if f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b), then there exists at least one c in (a, b) such that:",
+      "options": [
+        "f'(c) = 0",
+        "f(c) = 0",
+        "f''(c) = 0",
+        "f'(c) = (f(b) - f(a)) / 2"
+      ],
+      "correctAnswer": "f'(c) = 0",
+      "conceptTag": "Rolle's Theorem & Mean Value Theorems",
+      "explanation": "Rolle's Theorem guarantees at least one stationary point c in the open interval (a, b) where the tangent slope is horizontal, i.e., f'(c) = 0."
+    }
+  ],
+
+  "Application of Derivatives": [
+    {
+      "id": "c12_math_aod_01",
+      "question": "A function f(x) is strictly increasing on an interval I if for all x in I:",
+      "options": ["f'(x) > 0", "f'(x) >= 0", "f'(x) < 0", "f''(x) > 0"],
+      "correctAnswer": "f'(x) > 0",
+      "conceptTag": "Strict Monotonicity Condition",
+      "explanation": "A strictly positive derivative f'(x) > 0 guarantees that whenever x1 < x2, f(x1) < f(x2) without any flat stationary plateaus."
+    },
+    {
+      "id": "c12_math_aod_02",
+      "question": "What is the slope of the normal to the curve y = 2x² + 3sin(x) at x = 0?",
+      "options": ["-1/3", "3", "0", "-3"],
+      "correctAnswer": "-1/3",
+      "conceptTag": "Slope of Normal vs Tangent",
+      "explanation": "dy/dx = 4x + 3cos(x). At x = 0, dy/dx = 3. The slope of the normal is -1 / (dy/dx) = -1/3."
+    },
+    {
+      "id": "c12_math_aod_03",
+      "question": "If at a critical point c, f'(c) = 0 and f''(c) < 0, what does x = c represent?",
+      "options": [
+        "Local Maximum",
+        "Local Minimum",
+        "Point of Inflection",
+        "Discontinuity"
+      ],
+      "correctAnswer": "Local Maximum",
+      "conceptTag": "Second Derivative Test for Local Extrema",
+      "explanation": "When f''(c) < 0, the curve is concave down at the stationary point, proving x = c is a local maximum."
+    },
+    {
+      "id": "c12_math_aod_04",
+      "question": "What is the critical point of f(x) = x³?",
+      "options": [
+        "x = 0 (point of inflection)",
+        "x = 0 (local maximum)",
+        "x = 0 (local minimum)",
+        "No critical points exist"
+      ],
+      "correctAnswer": "x = 0 (point of inflection)",
+      "conceptTag": "Critical Point vs Extrema (First Derivative Test)",
+      "explanation": "f'(x) = 3x² = 0 at x = 0. However, f'(x) is non-negative on both sides (does not change sign), so x = 0 is a saddle/inflection point."
+    },
+    {
+      "id": "c12_math_aod_05",
+      "question": "The rate of change of area of a circle with respect to its radius r when r = 6 cm is:",
+      "options": ["12π cm²/cm", "36π cm²/cm", "6π cm²/cm", "24π cm²/cm"],
+      "correctAnswer": "12π cm²/cm",
+      "conceptTag": "Rate of Change of Geometric Quantities",
+      "explanation": "Area A = πr². dA/dr = 2πr. When r = 6, dA/dr = 2π(6) = 12π."
+    },
+    {
+      "id": "c12_math_aod_06",
+      "question": "A tangent to a curve y = f(x) is parallel to the x-axis if:",
+      "options": ["dy/dx = 0", "dy/dx = 1", "dx/dy = 0", "d²y/dx² = 0"],
+      "correctAnswer": "dy/dx = 0",
+      "conceptTag": "Horizontal Tangent Condition",
+      "explanation": "A line parallel to the x-axis has a slope of zero; hence the derivative dy/dx must be equal to 0."
+    },
+    {
+      "id": "c12_math_aod_07",
+      "question": "What is the minimum value of f(x) = sin(x) + cos(x)?",
+      "options": ["-√2", "-1", "-2", "0"],
+      "correctAnswer": "-√2",
+      "conceptTag": "Extrema of Linear Trigonometric Combinations",
+      "explanation": "f(x) can be rewritten as √2 * sin(x + π/4). The minimum of sin is -1, making the absolute minimum -√2."
+    },
+    {
+      "id": "c12_math_aod_08",
+      "question": "A function has a point of inflection at x = c if:",
+      "options": [
+        "The concavity of the curve changes sign at c",
+        "f'(c) must be undefined",
+        "f(c) = 0",
+        "f''(c) is strictly positive"
+      ],
+      "correctAnswer": "The concavity of the curve changes sign at c",
+      "conceptTag": "Point of Inflection Geometric Definition",
+      "explanation": "An inflection point is where concavity switches from convex to concave (or vice-versa), marked by f''(x) changing signs."
+    }
+  ],
+
+  "Integrals": [
+    {
+      "id": "c12_math_int_01",
+      "question": "What is the value of ∫_{-a}^{a} f(x) dx when f(x) is an odd function?",
+      "options": ["0", "2 ∫_{0}^{a} f(x) dx", "a", "Cannot be determined"],
+      "correctAnswer": "0",
+      "conceptTag": "Definite Integral Properties (Odd Functions)",
+      "explanation": "For an odd function f(-x) = -f(x), the signed areas above and below the horizontal axis symmetrically cancel out to 0."
+    },
+    {
+      "id": "c12_math_int_02",
+      "question": "What is ∫ e^x * [f(x) + f'(x)] dx?",
+      "options": ["e^x * f(x) + C", "e^x * f'(x) + C", "e^x + f(x) + C", "e^(2x) * f(x) + C"],
+      "correctAnswer": "e^x * f(x) + C",
+      "conceptTag": "Special Exponential Integral Form",
+      "explanation": "By product differentiation: d/dx [e^x f(x)] = e^x f(x) + e^x f'(x) = e^x [f(x) + f'(x)]. Hence the integral evaluates directly to e^x f(x) + C."
+    },
+    {
+      "id": "c12_math_int_03",
+      "question": "What is ∫ 1 / (x² + a²) dx?",
+      "options": [
+        "(1/a) * tan⁻¹(x/a) + C",
+        "tan⁻¹(x/a) + C",
+        "(1/2a) * log|(x-a)/(x+a)| + C",
+        "log|x + √(x²+a²)| + C"
+      ],
+      "correctAnswer": "(1/a) * tan⁻¹(x/a) + C",
+      "conceptTag": "Standard Rational Integrals",
+      "explanation": "Substituting x = a*tan(θ) leads to dx = a*sec²(θ)dθ. Substituting gives (1/a) ∫ dθ = (1/a) tan⁻¹(x/a) + C."
+    },
+    {
+      "id": "c12_math_int_04",
+      "question": "What is the value of ∫_{0}^{π/2} (sin^n(x)) / (sin^n(x) + cos^n(x)) dx for any n > 0?",
+      "options": ["π/4", "π/2", "0", "1"],
+      "correctAnswer": "π/4",
+      "conceptTag": "King's Rule Property: ∫_0^a f(x) dx = ∫_0^a f(a - x) dx",
+      "explanation": "Using King's property replaces sin(x) with cos(x). Adding the original and transformed integrals yields 2I = ∫_0^(π/2) 1 dx = π/2 => I = π/4."
+    },
+    {
+      "id": "c12_math_int_05",
+      "question": "What is ∫ log(x) dx?",
+      "options": [
+        "x*log(x) - x + C",
+        "1/x + C",
+        "x*log(x) + x + C",
+        "(log(x))² / 2 + C"
+      ],
+      "correctAnswer": "x*log(x) - x + C",
+      "conceptTag": "Integration by Parts (ILATE Rule)",
+      "explanation": "Integrating by parts with u = log(x) and dv = 1*dx: ∫ log(x)*1 dx = x*log(x) - ∫ x*(1/x) dx = x*log(x) - x + C."
+    },
+    {
+      "id": "c12_math_int_06",
+      "question": "What is ∫ sec(x) dx?",
+      "options": [
+        "log|sec(x) + tan(x)| + C",
+        "log|sec(x) * tan(x)| + C",
+        "sec(x)*tan(x) + C",
+        "log|cos(x)| + C"
+      ],
+      "correctAnswer": "log|sec(x) + tan(x)| + C",
+      "conceptTag": "Trigonometric Substitution Integrals",
+      "explanation": "Multiplying numerator and denominator by (sec(x) + tan(x)) makes the numerator the exact derivative of the denominator, yielding log|sec(x) + tan(x)| + C."
+    },
+    {
+      "id": "c12_math_int_07",
+      "question": "What is ∫ 1 / √(a² - x²) dx?",
+      "options": [
+        "sin⁻¹(x/a) + C",
+        "(1/a) * sin⁻¹(x/a) + C",
+        "cos⁻¹(x/a) + C",
+        "log|x + √(a²-x²)| + C"
+      ],
+      "correctAnswer": "sin⁻¹(x/a) + C",
+      "conceptTag": "Standard Inverse Trigonometric Integrals",
+      "explanation": "Using substitution x = a*sin(θ), the 1/a factor cancels cleanly with dx = a*cos(θ)dθ, leaving simply sin⁻¹(x/a) + C."
+    },
+    {
+      "id": "c12_math_int_08",
+      "question": "What is the value of ∫_{a}^{b} f(x) dx + ∫_{b}^{a} f(x) dx?",
+      "options": ["0", "2 ∫_{a}^{b} f(x) dx", "b - a", "1"],
+      "correctAnswer": "0",
+      "conceptTag": "Reversal of Limits Property",
+      "explanation": "Reversing integration limits negates the definite integral: ∫_b^a f(x) dx = -∫_a^b f(x) dx. Their sum is identically 0."
+    }
+  ],
+
+  "Application of Integrals": [
+    {
+      "id": "c12_math_aoi_01",
+      "question": "What is the total area enclosed by the circle x² + y² = a²?",
+      "options": ["π a²", "2π a", "4π a²", "π a² / 2"],
+      "correctAnswer": "π a²",
+      "conceptTag": "Definite Integration of Circular Bounds",
+      "explanation": "Integrating 4 * ∫_0^a √(a² - x²) dx yields 4 * (πa² / 4) = πa²."
+    },
+    {
+      "id": "c12_math_aoi_02",
+      "question": "What is the area of the region bounded by the parabola y² = 4ax and its latus rectum x = a?",
+      "options": ["(8/3) a²", "(4/3) a²", "(16/3) a²", "2 a²"],
+      "correctAnswer": "(8/3) a²",
+      "conceptTag": "Parabolic Area Evaluation",
+      "explanation": "Area = 2 * ∫_0^a √(4ax) dx = 4√a * [ (2/3) x^(3/2) ]_0^a = (8/3) a²."
+    },
+    {
+      "id": "c12_math_aoi_03",
+      "question": "What is the area bounded by the ellipse x²/a² + y²/b² = 1?",
+      "options": ["π ab", "π a² b²", "4π ab", "2π ab"],
+      "correctAnswer": "π ab",
+      "conceptTag": "Elliptic Area Integration",
+      "explanation": "Area = 4 * (b/a) ∫_0^a √(a² - x²) dx = 4 * (b/a) * (πa²/4) = πab."
+    },
+    {
+      "id": "c12_math_aoi_04",
+      "question": "What is the area bounded by the curve y = cos(x) between x = 0 and x = 2π?",
+      "options": ["4 sq units", "0 sq units", "2 sq units", "1 sq unit"],
+      "correctAnswer": "4 sq units",
+      "conceptTag": "Geometric Area vs Signed Definite Integral",
+      "explanation": "While ∫_0^(2π) cos(x) dx = 0, physical geometric area requires integrating |cos(x)|, summing 4 symmetrical quarter-cycle lobes of 1 sq unit each = 4 sq units."
+    },
+    {
+      "id": "c12_math_aoi_05",
+      "question": "What is the area bounded between the lines y = x and the parabola y = x²?",
+      "options": ["1/6", "1/3", "1/2", "5/6"],
+      "correctAnswer": "1/6",
+      "conceptTag": "Area Enclosed Between Two Curves",
+      "explanation": "Curves intersect at x = 0 and x = 1. Area = ∫_0^1 (x - x²) dx = [x²/2 - x³/3]_0^1 = 1/2 - 1/3 = 1/6."
+    },
+    {
+      "id": "c12_math_aoi_06",
+      "question": "When computing area with respect to the y-axis, the integral formula used is:",
+      "options": ["∫ x dy", "∫ y dx", "∫ (dy/dx) dx", "∫ (x/y) dy"],
+      "correctAnswer": "∫ x dy",
+      "conceptTag": "Horizontal Strips Integration",
+      "explanation": "Using horizontal strips of width dy and length x = f(y) yields total area as ∫ x dy across limits on y."
+    },
+    {
+      "id": "c12_math_aoi_07",
+      "question": "What is the area bounded by y = |x| and the horizontal line y = 2?",
+      "options": ["4 sq units", "2 sq units", "8 sq units", "1 sq unit"],
+      "correctAnswer": "4 sq units",
+      "conceptTag": "Symmetric Modulus Area Evaluation",
+      "explanation": "The region forms an inverted triangle with base from x = -2 to x = 2 (base = 4) and height 2. Area = (1/2) * base * height = (1/2) * 4 * 2 = 4 sq units."
+    },
+    {
+      "id": "c12_math_aoi_08",
+      "question": "Can geometric area enclosed by real curves ever evaluate to a negative value?",
+      "options": [
+        "No, area is strictly non-negative.",
+        "Yes, if the curve lies below the x-axis.",
+        "Yes, if integrated from right to left.",
+        "Only when dealing with asymptotic limits."
+      ],
+      "correctAnswer": "No, area is strictly non-negative.",
+      "conceptTag": "Physical Area Positivity Axiom",
+      "explanation": "Geometric area represents physical spatial measurement and must always be positive; absolute values |f(x)| are used when regions drop below axes."
+    }
+  ],
+
+  "Differential Equations": [
+    {
+      "id": "c12_math_de_01",
+      "question": "What is the degree of the differential equation: (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) = 0?",
+      "options": [
+        "Not defined",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctAnswer": "Not defined",
+      "conceptTag": "Differential Equation Degree Polynomial Condition",
+      "explanation": "Degree is defined only when the differential equation can be written as a polynomial in its derivatives. The presence of sin(dy/dx) makes the degree undefined."
+    },
+    {
+      "id": "c12_math_de_02",
+      "question": "What is the order of the differential equation: (d³y/dx³) + 2*(d²y/dx²)⁴ - dy/dx + y = 0?",
+      "options": ["3", "4", "2", "1"],
+      "correctAnswer": "3",
+      "conceptTag": "Order of Differential Equation Definition",
+      "explanation": "The order of a differential equation is the order of the highest derivative present in the equation, which is d³y/dx³ (order = 3)."
+    },
+    {
+      "id": "c12_math_de_03",
+      "question": "What is the integrating factor (I.F.) for the linear equation dy/dx + P(x)y = Q(x)?",
+      "options": ["e^(∫ P dx)", "e^(∫ Q dx)", "∫ P dx", "e^(-∫ P dx)"],
+      "correctAnswer": "e^(∫ P dx)",
+      "conceptTag": "Integrating Factor Derivation",
+      "explanation": "Multiplying by e^(∫ P dx) turns the left-hand side into the exact derivative d/dx [y * e^(∫ P dx)]."
+    },
+    {
+      "id": "c12_math_de_04",
+      "question": "How many arbitrary constants exist in the general solution of a 4th-order differential equation?",
+      "options": ["4", "3", "0", "1"],
+      "correctAnswer": "4",
+      "conceptTag": "Arbitrary Constants in General Solutions",
+      "explanation": "The number of arbitrary constants in the general solution of an n-th order differential equation is always exactly equal to n (here, 4)."
+    },
+    {
+      "id": "c12_math_de_05",
+      "question": "How many arbitrary constants exist in a particular solution of a differential equation of order 3?",
+      "options": ["0", "3", "1", "2"],
+      "correctAnswer": "0",
+      "conceptTag": "Particular Solution Property",
+      "explanation": "A particular solution is obtained by assigning specific values to arbitrary constants using boundary conditions, leaving 0 arbitrary constants."
+    },
+    {
+      "id": "c12_math_de_06",
+      "question": "A differential equation dy/dx = f(x, y) is called homogeneous if f(x, y) is:",
+      "options": [
+        "A homogeneous function of degree 0",
+        "A linear polynomial",
+        "Strictly positive",
+        "A polynomial of degree 1"
+      ],
+      "correctAnswer": "A homogeneous function of degree 0",
+      "conceptTag": "Homogeneous Differential Equation Criteria",
+      "explanation": "dy/dx = f(x, y) is homogeneous when f(λx, λy) = λ⁰ f(x, y), allowing substitution y = vx."
+    },
+    {
+      "id": "c12_math_de_07",
+      "question": "What is the integrating factor for dy/dx + y*cot(x) = 2x?",
+      "options": ["sin(x)", "cos(x)", "cosec(x)", "-sin(x)"],
+      "correctAnswer": "sin(x)",
+      "conceptTag": "Integrating Factor Calculation",
+      "explanation": "P(x) = cot(x). I.F. = e^(∫ cot(x) dx) = e^(ln|sin(x)|) = sin(x)."
+    },
+    {
+      "id": "c12_math_de_08",
+      "question": "The general solution of dy/dx = e^(x - y) is:",
+      "options": ["e^y = e^x + C", "e^y = -e^x + C", "e^(x+y) = C", "y = x + C"],
+      "correctAnswer": "e^y = e^x + C",
+      "conceptTag": "Variable Separable Form",
+      "explanation": "Rewrite as e^y dy = e^x dx. Integrating both sides yields e^y = e^x + C."
+    }
+  ],
+
+  "Vector Algebra": [
+    {
+      "id": "c12_math_vec_01",
+      "question": "If two non-zero vectors a⃗ and b⃗ are perpendicular, which product is zero?",
+      "options": ["a⃗ · b⃗ = 0", "a⃗ × b⃗ = 0", "|a⃗ + b⃗| = 0", "a⃗ - b⃗ = 0"],
+      "correctAnswer": "a⃗ · b⃗ = 0",
+      "conceptTag": "Orthogonality Dot Product Criterion",
+      "explanation": "a⃗ · b⃗ = |a⃗||b⃗|cos(θ). When perpendicular, θ = 90° and cos(90°) = 0, so the dot product is 0."
+    },
+    {
+      "id": "c12_math_vec_02",
+      "question": "What is the value of î · (ĵ × k̂)?",
+      "options": ["1", "0", "-1", "î"],
+      "correctAnswer": "1",
+      "conceptTag": "Scalar Triple Product of Standard Basis Vectors",
+      "explanation": "In standard right-handed orientation, ĵ × k̂ = î. Thus î · î = |î|² = 1."
+    },
+    {
+      "id": "c12_math_vec_03",
+      "question": "What is the cross product of two collinear (parallel) vectors a⃗ and b⃗?",
+      "options": ["0⃗ (Zero vector)", "Scalar 0", "1", "|a⃗||b⃗|"],
+      "correctAnswer": "0⃗ (Zero vector)",
+      "conceptTag": "Collinear Vector Cross Product",
+      "explanation": "a⃗ × b⃗ = |a⃗||b⃗|sin(θ) n̂. For parallel vectors θ = 0° or 180°, so sin(θ) = 0, producing the zero vector 0⃗."
+    },
+    {
+      "id": "c12_math_vec_04",
+      "question": "What is the projection of vector a⃗ on vector b⃗?",
+      "options": [
+        "(a⃗ · b⃗) / |b⃗|",
+        "(a⃗ · b⃗) / |a⃗|",
+        "(a⃗ × b⃗) / |b⃗|",
+        "a⃗ · b⃗"
+      ],
+      "correctAnswer": "(a⃗ · b⃗) / |b⃗|",
+      "conceptTag": "Scalar Projection Formula",
+      "explanation": "The scalar projection of a⃗ onto b⃗ equals |a⃗|cos(θ) = (a⃗ · b⃗) / |b⃗|."
+    },
+    {
+      "id": "c12_math_vec_05",
+      "question": "If |a⃗ + b⃗| = |a⃗ - b⃗|, what is the angle between non-zero vectors a⃗ and b⃗?",
+      "options": ["π/2 (90°)", "0°", "π (180°)", "π/4 (45°)"],
+      "correctAnswer": "π/2 (90°)",
+      "conceptTag": "Vector Equality Modulus Expansion",
+      "explanation": "Squaring both sides gives |a|² + |b|² + 2(a·b) = |a|² + |b|² - 2(a·b) => 4(a·b) = 0 => a·b = 0, meaning they are perpendicular (90°)."
+    },
+    {
+      "id": "c12_math_vec_06",
+      "question": "What is the area of a parallelogram whose adjacent sides are given by vectors a⃗ and b⃗?",
+      "options": ["|a⃗ × b⃗|", "(1/2) |a⃗ × b⃗|", "a⃗ · b⃗", "(1/2) (a⃗ · b⃗)"],
+      "correctAnswer": "|a⃗ × b⃗|",
+      "conceptTag": "Parallelogram Vector Area",
+      "explanation": "The magnitude of the cross product of two adjacent sides directly measures the area of the spanned parallelogram."
+    },
+    {
+      "id": "c12_math_vec_07",
+      "question": "What is a unit vector in the direction of vector a⃗?",
+      "options": ["a⃗ / |a⃗|", "|a⃗| * a⃗", "a⃗ · a⃗", "a⃗ / (a⃗ · a⃗)"],
+      "correctAnswer": "a⃗ / |a⃗|",
+      "conceptTag": "Unit Vector Normalization",
+      "explanation": "Dividing any non-zero vector by its scalar Euclidean norm normalizes its length to exactly 1 while preserving orientation."
+    },
+    {
+      "id": "c12_math_vec_08",
+      "question": "What is the value of a⃗ × a⃗ for any arbitrary vector a⃗?",
+      "options": ["0⃗", "|a⃗|²", "1", "a⃗²"],
+      "correctAnswer": "0⃗",
+      "conceptTag": "Self Cross-Product Identity",
+      "explanation": "Every vector is parallel to itself (θ = 0°), and since sin(0°) = 0, the self cross-product is always the zero vector 0⃗."
+    }
+  ],
+
+  "Three Dimensional Geometry": [
+    {
+      "id": "c12_math_3d_01",
+      "question": "If l, m, n are the direction cosines of a directed line, what is l² + m² + n²?",
+      "options": ["1", "0", "3", "-1"],
+      "correctAnswer": "1",
+      "conceptTag": "Direction Cosines Fundamental Identity",
+      "explanation": "By definition, l = cos(α), m = cos(β), n = cos(γ). Their squared sum equals the squared length of the normalized unit vector, which is 1."
+    },
+    {
+      "id": "c12_math_3d_02",
+      "question": "What is the shortest distance between two parallel lines r⃗ = a₁⃗ + λ b⃗ and r⃗ = a₂⃗ + μ b⃗?",
+      "options": [
+        "|(b⃗ × (a₂⃗ - a₁⃗))| / |b⃗|",
+        "|(b⃗ · (a₂⃗ - a₁⃗))| / |b⃗|",
+        "|(a₁⃗ × a₂⃗)| / |b⃗|",
+        "|a₂⃗ - a₁⃗|"
+      ],
+      "correctAnswer": "|(b⃗ × (a₂⃗ - a₁⃗))| / |b⃗|",
+      "conceptTag": "Shortest Distance Between Parallel Lines",
+      "explanation": "For parallel lines sharing direction vector b⃗, perpendicular separation is determined using the cross product: |b⃗ × (a₂ - a₁)| / |b|."
+    },
+    {
+      "id": "c12_math_3d_03",
+      "question": "What is the condition for two lines with direction ratios (a₁, b₁, c₁) and (a₂, b₂, c₂) to be mutually perpendicular?",
+      "options": [
+        "a₁a₂ + b₁b₂ + c₁c₂ = 0",
+        "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "a₁a₂ = b₁b₂ = c₁c₂",
+        "a₁ + b₁ + c₁ = a₂ + b₂ + c₂"
+      ],
+      "correctAnswer": "a₁a₂ + b₁b₂ + c₁c₂ = 0",
+      "conceptTag": "Perpendicular Lines Direction Ratio Condition",
+      "explanation": "Lines are perpendicular when their direction vectors have a zero dot product: a₁a₂ + b₁b₂ + c₁c₂ = 0."
+    },
+    {
+      "id": "c12_math_3d_04",
+      "question": "Two skew lines in three-dimensional space are defined as lines that are:",
+      "options": [
+        "Neither intersecting nor parallel",
+        "Intersecting at infinity",
+        "Parallel and coplanar",
+        "Orthogonal in the same plane"
+      ],
+      "correctAnswer": "Neither intersecting nor parallel",
+      "conceptTag": "Definition of Skew Lines",
+      "explanation": "Skew lines are non-coplanar lines in 3D that never cross and do not point in the same direction."
+    },
+    {
+      "id": "c12_math_3d_05",
+      "question": "What is the condition for two lines to be coplanar if their shortest distance formula evaluates to d?",
+      "options": ["d = 0", "d > 0", "d = 1", "d < 0"],
+      "correctAnswer": "d = 0",
+      "conceptTag": "Coplanarity Shortest Distance Criterion",
+      "explanation": "If two straight lines lie in the exact same plane, they must either intersect or be parallel, making their shortest distance exactly 0."
+    },
+    {
+      "id": "c12_math_3d_06",
+      "question": "What are the direction cosines of the z-axis?",
+      "options": ["(0, 0, 1)", "(1, 0, 0)", "(0, 1, 0)", "(1, 1, 1)"],
+      "correctAnswer": "(0, 0, 1)",
+      "conceptTag": "Coordinate Axes Direction Cosines",
+      "explanation": "The z-axis makes angles 90°, 90°, and 0° with the x, y, and z axes respectively. Cosines are cos(90°)=0, cos(90°)=0, cos(0°)=1."
+    },
+    {
+      "id": "c12_math_3d_07",
+      "question": "The Cartesian equation of a line passing through (x₁, y₁, z₁) with direction ratios (a, b, c) is:",
+      "options": [
+        "(x - x₁)/a = (y - y₁)/b = (z - z₁)/c",
+        "ax + by + cz = 0",
+        "(x + x₁)/a = (y + y₁)/b = (z + z₁)/c",
+        "a(x - x₁) + b(y - y₁) + c(z - z₁) = 0"
+      ],
+      "correctAnswer": "(x - x₁)/a = (y - y₁)/b = (z - z₁)/c",
+      "conceptTag": "Symmetric Form of Line in 3D",
+      "explanation": "Equating the parameter λ across all coordinate components gives symmetric line form: (x - x₁)/a = (y - y₁)/b = (z - z₁)/c."
+    },
+    {
+      "id": "c12_math_3d_08",
+      "question": "If two lines are parallel, what is the relation between their direction ratios?",
+      "options": [
+        "a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "a₁a₂ + b₁b₂ + c₁c₂ = 0",
+        "a₁ = b₁ = c₁",
+        "a₁a₂ = 1"
+      ],
+      "correctAnswer": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+      "conceptTag": "Parallel Direction Ratios Proportionality",
+      "explanation": "Parallel lines have direction vectors that are scalar multiples of each other, meaning their direction ratios are directly proportional."
+    }
+  ],
+
+  "Linear Programming": [
+    {
+      "id": "c12_math_lpp_01",
+      "question": "In an LPP, the optimal value of the objective function always occurs at:",
+      "options": [
+        "A corner point (vertex) of the feasible region",
+        "The geometric centroid of the region",
+        "Any internal point inside the region",
+        "The origin exclusively"
+      ],
+      "correctAnswer": "A corner point (vertex) of the feasible region",
+      "conceptTag": "Corner Point Theorem in LPP",
+      "explanation": "By the Fundamental Theorem of Linear Programming, the optimal (maximum or minimum) value of a linear objective function over a convex polygon occurs at its corner vertices."
+    },
+    {
+      "id": "c12_math_lpp_02",
+      "question": "The feasible region for an LPP is always a:",
+      "options": [
+        "Convex polygon/set",
+        "Concave set",
+        "Circle",
+        "Open parabolic curve"
+      ],
+      "correctAnswer": "Convex polygon/set",
+      "conceptTag": "Convexity of Feasible Regions",
+      "explanation": "Since every constraint is a linear inequality representing a half-plane, the intersection of finitely many half-planes is always a convex set."
+    },
+    {
+      "id": "c12_math_lpp_03",
+      "question": "If the feasible region of an LPP is unbounded, which statement is true about the maximum value?",
+      "options": [
+        "The maximum value may or may not exist.",
+        "The maximum value must always exist.",
+        "An unbounded region never has an optimal solution.",
+        "The solution is automatically zero."
+      ],
+      "correctAnswer": "The maximum value may or may not exist.",
+      "conceptTag": "Unbounded Feasible Region Optimality",
+      "explanation": "In an unbounded region, an optimal candidate M exists only if the open half-plane ax + by > M shares no common points with the feasible region."
+    },
+    {
+      "id": "c12_math_lpp_04",
+      "question": "What are the non-negativity restrictions in standard LPP formulations?",
+      "options": ["x >= 0, y >= 0", "x <= 0, y <= 0", "x > 0, y > 0", "x + y >= 0"],
+      "correctAnswer": "x >= 0, y >= 0",
+      "conceptTag": "Non-Negativity Constraints",
+      "explanation": "Physical quantities (products, resources, units produced) cannot be negative, requiring x >= 0 and y >= 0 (First Quadrant constraint)."
+    },
+    {
+      "id": "c12_math_lpp_05",
+      "question": "If an objective function attains its maximum value at two distinct corner points, then:",
+      "options": [
+        "It achieves the same maximum at all points on the line segment connecting them.",
+        "Only the point closer to origin is optimal.",
+        "The problem has no feasible solution.",
+        "The optimal value is the average of the two."
+      ],
+      "correctAnswer": "It achieves the same maximum at all points on the line segment connecting them.",
+      "conceptTag": "Multiple Optimal Solutions",
+      "explanation": "Because linear functions are convex combinations, attaining the same optimum at two vertices extends that exact value across all intermediate points on the boundary segment."
+    },
+    {
+      "id": "c12_math_lpp_06",
+      "question": "A point is called feasible in an LPP if:",
+      "options": [
+        "It satisfies all constraints and non-negativity conditions simultaneously.",
+        "It maximizes the objective function.",
+        "It satisfies at least one constraint.",
+        "It lies on the coordinate axes."
+      ],
+      "correctAnswer": "It satisfies all constraints and non-negativity conditions simultaneously.",
+      "conceptTag": "Feasibility Definition",
+      "explanation": "Feasibility requires satisfying the entire system of linear inequality restrictions, including non-negativity conditions."
+    },
+    {
+      "id": "c12_math_lpp_07",
+      "question": "The objective function Z = ax + by of an LPP is always:",
+      "options": [
+        "A linear function to be maximized or minimized",
+        "A quadratic constraint",
+        "A constant value",
+        "An exponential curve"
+      ],
+      "correctAnswer": "A linear function to be maximized or minimized",
+      "conceptTag": "Objective Function Purpose",
+      "explanation": "The objective function defines the target performance metric (such as profit or cost) to optimize subject to linear constraints."
+    },
+    {
+      "id": "c12_math_lpp_08",
+      "question": "If the constraints in an LPP produce an empty feasible region, the problem is said to have:",
+      "options": [
+        "No feasible solution (infeasible)",
+        "Infinitely many solutions",
+        "An unbounded solution",
+        "A zero solution"
+      ],
+      "correctAnswer": "No feasible solution (infeasible)",
+      "conceptTag": "Infeasible LPP Condition",
+      "explanation": "When constraints conflict such that no coordinates satisfy all constraints simultaneously, the LPP is infeasible."
+    }
+  ],
+
+  "Probability": [
+    {
+      "id": "c12_math_prob_01",
+      "question": "If P(A) = 0.8, P(B) = 0.5, and P(B|A) = 0.4, what is P(A ∩ B)?",
+      "options": ["0.32", "0.40", "0.20", "0.10"],
+      "correctAnswer": "0.32",
+      "conceptTag": "Conditional Probability Multiplication Rule",
+      "explanation": "By definition, P(B|A) = P(A ∩ B) / P(A). Therefore, P(A ∩ B) = P(B|A) * P(A) = 0.4 * 0.8 = 0.32."
+    },
+    {
+      "id": "c12_math_prob_02",
+      "question": "If two events A and B are independent with non-zero probabilities, then:",
+      "options": [
+        "P(A ∩ B) = P(A) * P(B)",
+        "P(A ∩ B) = 0",
+        "P(A ∪ B) = P(A) + P(B)",
+        "P(A|B) = 0"
+      ],
+      "correctAnswer": "P(A ∩ B) = P(A) * P(B)",
+      "conceptTag": "Independent Events Multiplicative Property",
+      "explanation": "Independence means the occurrence of one does not affect the other: P(A|B) = P(A), which implies P(A ∩ B) = P(A) * P(B)."
+    },
+    {
+      "id": "c12_math_prob_03",
+      "question": "Can two mutually exclusive events with positive probabilities ever be independent?",
+      "options": [
+        "No, because P(A ∩ B) = 0 while P(A)*P(B) > 0.",
+        "Yes, they are always independent.",
+        "Only if P(A) + P(B) = 1.",
+        "Only if both events have probability 0.5."
+      ],
+      "correctAnswer": "No, because P(A ∩ B) = 0 while P(A)*P(B) > 0.",
+      "conceptTag": "Mutually Exclusive vs Independent Misconception",
+      "explanation": "Mutually exclusive means P(A ∩ B) = 0. Independent means P(A ∩ B) = P(A)P(B). If both probabilities are positive, P(A)P(B) > 0 != 0; they cannot be independent."
+    },
+    {
+      "id": "c12_math_prob_04",
+      "question": "What does Bayes' Theorem primarily compute?",
+      "options": [
+        "Posterior probability given that an event has occurred",
+        "The prior probability before experimentation",
+        "The joint probability of independent outcomes",
+        "The expectation of a continuous variable"
+      ],
+      "correctAnswer": "Posterior probability given that an event has occurred",
+      "conceptTag": "Bayes' Theorem Purpose",
+      "explanation": "Bayes' Theorem updates the prior probability of hypotheses based on observed evidence, giving posterior conditional probability P(E_i | A)."
+    },
+    {
+      "id": "c12_math_prob_05",
+      "question": "For a random variable X with probability distribution P(X = x_i), what is Σ P(x_i)?",
+      "options": ["1", "0", "E(X)", "Var(X)"],
+      "correctAnswer": "1",
+      "conceptTag": "Probability Distribution Normalization",
+      "explanation": "The sum of probabilities across all mutually exclusive and exhaustive outcomes of a discrete sample space must equal 1."
+    },
+    {
+      "id": "c12_math_prob_06",
+      "question": "The expectation (mean) E(X) of a discrete random variable X is defined as:",
+      "options": ["Σ x_i * p_i", "Σ (x_i)² * p_i", "(Σ x_i) / n", "Σ p_i"],
+      "correctAnswer": "Σ x_i * p_i",
+      "conceptTag": "Expectation / Mean of Discrete Variable",
+      "explanation": "The expected value is the probability-weighted average of all possible values: E(X) = Σ x_i * P(X = x_i)."
+    },
+    {
+      "id": "c12_math_prob_07",
+      "question": "If P(A) = 3/8, P(B) = 1/2, and P(A ∩ B) = 1/4, what is P(A|B)?",
+      "options": ["1/2", "3/4", "2/3", "3/8"],
+      "correctAnswer": "1/2",
+      "conceptTag": "Conditional Probability Evaluation",
+      "explanation": "P(A|B) = P(A ∩ B) / P(B) = (1/4) / (1/2) = 2/4 = 1/2."
+    },
+    {
+      "id": "c12_math_prob_08",
+      "question": "What is the variance Var(X) of a random variable in terms of expectations?",
+      "options": [
+        "E(X²) - [E(X)]²",
+        "[E(X)]² - E(X²)",
+        "E(X²) + [E(X)]²",
+        "√[E(X²)]"
+      ],
+      "correctAnswer": "E(X²) - [E(X)]²",
+      "conceptTag": "Variance Formula via Moments",
+      "explanation": "Var(X) = E[(X - μ)²] = E(X² - 2μX + μ²) = E(X²) - μ² = E(X²) - [E(X)]²."
+    }
+  ]
+}

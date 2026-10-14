@@ -1,0 +1,386 @@
+{
+  "Determiners": [
+    {
+      "id": "c10_eng_det_01",
+      "question": "Choose the appropriate quantifier: 'There is ______ hope of his recovery; the doctors have given up.'",
+      "options": ["little", "a little", "the little", "few"],
+      "correctAnswer": "little",
+      "conceptTag": "Little vs A Little vs Few",
+      "explanation": "'Hope' is uncountable. 'Little' (without article) means 'hardly any / almost zero' (negative sense), whereas 'a little' means 'some, though not much' (positive sense)."
+    },
+    {
+      "id": "c10_eng_det_02",
+      "question": "Fill in the blank: '______ knowledge is a dangerous thing.'",
+      "options": ["A little", "Little", "The little", "A few"],
+      "correctAnswer": "A little",
+      "conceptTag": "Positive Uncountable Quantifier (A little)",
+      "explanation": "'A little knowledge' means 'a small amount of knowledge (some)', which can mislead a person into thinking they know everything."
+    },
+    {
+      "id": "c10_eng_det_03",
+      "question": "Choose the correct determiner: 'Do you have ______ complaints regarding the hostel facilities?'",
+      "options": ["any", "some", "much", "little"],
+      "correctAnswer": "any",
+      "conceptTag": "Some vs Any in Interrogatives and Negatives",
+      "explanation": "'Any' is generally used in interrogative (question) and negative sentences, whereas 'some' is used in affirmative sentences and polite offers."
+    },
+    {
+      "id": "c10_eng_det_04",
+      "question": "Select the correct articles: 'He is ______ honest officer who graduated from ______ university in Delhi.'",
+      "options": ["an, a", "a, an", "an, an", "the, an"],
+      "correctAnswer": "an, a",
+      "conceptTag": "Phonetic Vowel vs Consonant Sound in Articles",
+      "explanation": "'Honest' begins with a silent 'h' and a vowel sound (/ɒ/), taking 'an'. 'University' begins with a consonant glide sound (/juː/), taking 'a'."
+    },
+    {
+      "id": "c10_eng_det_05",
+      "question": "Differentiate between 'Each' and 'Every': 'There were two trees on ______ side of the narrow street.'",
+      "options": ["each", "every", "many", "several"],
+      "correctAnswer": "each",
+      "conceptTag": "Each (Two or more) vs Every (Three or more)",
+      "explanation": "'Each' is used for two or more items (a street has only two sides), whereas 'every' is used only for sets of three or more."
+    },
+    {
+      "id": "c10_eng_det_06",
+      "question": "Choose the right quantifier: 'How ______ pages of this novel have you read so far?'",
+      "options": ["many", "much", "little", "any"],
+      "correctAnswer": "many",
+      "conceptTag": "Countable (Many) vs Uncountable (Much)",
+      "explanation": "'Pages' is a plural countable noun, so it takes 'many'. 'Much' is used only with uncountable nouns."
+    },
+    {
+      "id": "c10_eng_det_07",
+      "question": "Fill in the blank: '______ the books you lent me last week were very informative.'",
+      "options": ["Both", "Every", "Each", "Much"],
+      "correctAnswer": "Both",
+      "conceptTag": "Dual Determiners (Both)",
+      "explanation": "'Both' is used with plural countable nouns ('the books') and a plural verb ('were') when referring to two items together."
+    },
+    {
+      "id": "c10_eng_det_08",
+      "question": "Identify the correct determiner: '______ of the two candidates was found suitable for the post, so the interview panel rejected both.'",
+      "options": ["Neither", "None", "Either", "Every"],
+      "correctAnswer": "Neither",
+      "conceptTag": "Neither (of two) vs None (of three or more)",
+      "explanation": "When negating two items/persons, 'Neither' is used. 'None' is used for three or more."
+    }
+  ],
+
+  "Tenses": [
+    {
+      "id": "c10_eng_ts_01",
+      "question": "Choose the correct verb form: 'The patient ______ before the doctor arrived at the hospital.'",
+      "options": ["had died", "died", "has died", "was dying"],
+      "correctAnswer": "had died",
+      "conceptTag": "Past Perfect for Earlier Past Action",
+      "explanation": "When two actions occur in the past, the earlier action takes the Past Perfect ('had died') and the later action takes the Simple Past ('arrived')."
+    },
+    {
+      "id": "c10_eng_ts_02",
+      "question": "Complete the sentence: 'Galileo proved that the Earth ______ around the Sun.'",
+      "options": ["revolves", "revolved", "had revolved", "was revolving"],
+      "correctAnswer": "revolves",
+      "conceptTag": "Universal Truth Exception in Past Sequence",
+      "explanation": "Even if the main clause verb ('proved') is in the past tense, a subordinate clause stating a universal scientific truth must remain in the Simple Present ('revolves')."
+    },
+    {
+      "id": "c10_eng_ts_03",
+      "question": "Identify the correct option: 'He walks as fast as he ______.'",
+      "options": ["can", "could", "might", "would"],
+      "correctAnswer": "can",
+      "conceptTag": "Comparison Clause Tense Harmony",
+      "explanation": "After 'as...as' or 'than', the tense aligns with the main clause. Since 'walks' is present, 'can' is required instead of past 'could'."
+    },
+    {
+      "id": "c10_eng_ts_04",
+      "question": "Choose the correct sequence: 'She worked hard so that she ______ win the scholarship.'",
+      "options": ["might", "may", "can", "will"],
+      "correctAnswer": "might",
+      "conceptTag": "Purpose Clauses with 'So That' in Past",
+      "explanation": "When the principal clause is in the past tense ('worked'), a clause of purpose introduced by 'so that' or 'in order that' takes 'might' or 'could'."
+    },
+    {
+      "id": "c10_eng_ts_05",
+      "question": "Fill in the blank: 'I ______ for my friend since 9 o'clock this morning, and he still hasn't arrived.'",
+      "options": ["have been waiting", "am waiting", "waited", "had waited"],
+      "correctAnswer": "have been waiting",
+      "conceptTag": "Present Perfect Continuous with 'Since/For'",
+      "explanation": "An action that began in the past ('since 9 o'clock') and is still continuing in the present requires the Present Perfect Continuous tense."
+    },
+    {
+      "id": "c10_eng_ts_06",
+      "question": "Select the right verb: 'While I ______ the street, I saw an old school friend.'",
+      "options": ["was crossing", "crossed", "had crossed", "have crossed"],
+      "correctAnswer": "was crossing",
+      "conceptTag": "Interrupted Past Continuous Action",
+      "explanation": "An ongoing background action in the past ('was crossing') interrupted by a shorter action ('saw') takes the Past Continuous tense."
+    },
+    {
+      "id": "c10_eng_ts_07",
+      "question": "Complete the sentence: 'It is high time we ______ preparing for the final examinations.'",
+      "options": ["started", "start", "will start", "have started"],
+      "correctAnswer": "started",
+      "conceptTag": "Subjunctive Past after 'It is high time'",
+      "explanation": "The idiomatic expression 'It is time / It is high time + subject' is always followed by the Simple Past verb ('started') to indicate a present obligation."
+    },
+    {
+      "id": "c10_eng_ts_08",
+      "question": "Choose the correct form: 'Five years have passed since I ______ my hometown.'",
+      "options": ["left", "have left", "had left", "was leaving"],
+      "correctAnswer": "left",
+      "conceptTag": "Tense Pattern with 'Since' as Conjunction",
+      "explanation": "When 'since' connects two clauses where the main clause is in the Present Perfect ('have passed'), the clause following 'since' takes the Simple Past ('left')."
+    }
+  ],
+
+  "Modals": [
+    {
+      "id": "c10_eng_mod_01",
+      "question": "Which modal best expresses moral obligation or duty: 'We ______ respect our elderly parents and teachers.'",
+      "options": ["ought to", "might", "dare", "could"],
+      "correctAnswer": "ought to",
+      "conceptTag": "Moral Obligation (Ought to / Should)",
+      "explanation": "'Ought to' specifically conveys moral duty, social obligation, or desirable ethical conduct."
+    },
+    {
+      "id": "c10_eng_mod_02",
+      "question": "Look at the clear blue sky; there isn't a single cloud. It ______ rain today, though anything is possible in the hills.",
+      "options": ["might", "must", "will", "should"],
+      "correctAnswer": "might",
+      "conceptTag": "Remote Possibility (Might)",
+      "explanation": "'Might' expresses weak or remote possibility when current evidence makes the event unlikely."
+    },
+    {
+      "id": "c10_eng_mod_03",
+      "question": "What is the key difference between 'was able to' and 'could' when talking about a single past achievement?",
+      "options": [
+        "'Could' expresses general past ability, whereas 'was able to' is required for a specific successful action on one occasion",
+        "'Could' is used only for future events",
+        "'Was able to' cannot be used with living subjects",
+        "Both are strictly forbidden in formal grammar"
+      ],
+      "correctAnswer": "'Could' expresses general past ability, whereas 'was able to' is required for a specific successful action on one occasion",
+      "conceptTag": "General Past Ability vs Specific Achievement",
+      "explanation": "For general past ability (e.g., 'I could swim when I was five'), 'could' works; for managing a specific one-time feat, 'was/were able to' is used."
+    },
+    {
+      "id": "c10_eng_mod_04",
+      "question": "Choose the correct modal for prohibition: 'Visitors ______ feed the wild animals in the zoological park; it is strictly illegal.'",
+      "options": ["must not", "need not", "do not have to", "might not"],
+      "correctAnswer": "must not",
+      "conceptTag": "Prohibition (Must not) vs Lack of Necessity (Need not)",
+      "explanation": "'Must not' indicates strict prohibition or rule violation, whereas 'need not' or 'don't have to' merely means something is optional."
+    },
+    {
+      "id": "c10_eng_mod_05",
+      "question": "Select the most formal modal for asking permission from an authority: '______ I come in, Sir?'",
+      "options": ["May", "Can", "Will", "Must"],
+      "correctAnswer": "May",
+      "conceptTag": "Formal Permission (May vs Can)",
+      "explanation": "'May' is the standard modal for polite, formal permission, whereas 'can' is informal and primarily denotes physical or mental ability."
+    },
+    {
+      "id": "c10_eng_mod_06",
+      "question": "Choose the right modal for absence of necessity: 'You ______ carry an umbrella; the weather forecast says it will be sunny all day.'",
+      "options": ["needn't", "mustn't", "couldn't", "shan't"],
+      "correctAnswer": "needn't",
+      "conceptTag": "Absence of Necessity (Need not)",
+      "explanation": "'Needn't' (need not) indicates that an action is not necessary or required, without forbidding it."
+    },
+    {
+      "id": "c10_eng_mod_07",
+      "question": "Which modal gives strong advice in a medical context: 'You have a high fever; you ______ consult a physician immediately.'",
+      "options": ["should", "may", "could", "might"],
+      "correctAnswer": "should",
+      "conceptTag": "Advisory Modals (Should)",
+      "explanation": "'Should' is used to offer strong advice, recommendations, or sensible courses of action."
+    },
+    {
+      "id": "c10_eng_mod_08",
+      "question": "Identify the correct deduction: 'The lights are on and his car is in the driveway; he ______ be at home.'",
+      "options": ["must", "can", "may not", "need"],
+      "correctAnswer": "must",
+      "conceptTag": "Logical Certainty / Positive Deduction (Must)",
+      "explanation": "'Must' is used to express strong logical deduction or certainty based on clear present evidence."
+    }
+  ],
+
+  "Subject–Verb Concord": [
+    {
+      "id": "c10_eng_svc_01",
+      "question": "Choose the correct verb: 'The quality of these mangoes ______ not very good.'",
+      "options": ["is", "are", "were", "have been"],
+      "correctAnswer": "is",
+      "conceptTag": "Head Noun vs Prepositional Object Distractor",
+      "explanation": "The real subject is the singular head noun 'The quality', not the plural object of the preposition ('mangoes'). Hence singular 'is' is required."
+    },
+    {
+      "id": "c10_eng_svc_02",
+      "question": "Complete the sentence: 'Neither the captain nor the players ______ arrived at the stadium yet.'",
+      "options": ["have", "has", "is", "was"],
+      "correctAnswer": "have",
+      "conceptTag": "Rule of Proximity (Neither...nor / Either...or)",
+      "explanation": "With 'neither...nor' or 'either...or', the verb agrees with the nearer subject. Since 'players' is plural, the plural verb 'have' is used."
+    },
+    {
+      "id": "c10_eng_svc_03",
+      "question": "Select the correct verb: 'The teacher, along with all her students, ______ visiting the science museum today.'",
+      "options": ["is", "are", "were", "have been"],
+      "correctAnswer": "is",
+      "conceptTag": "Additive Phrases (Along with / As well as)",
+      "explanation": "When two nouns are joined by 'along with', 'as well as', 'together with', or 'besides', the verb agrees with the FIRST subject ('The teacher' -> 'is')."
+    },
+    {
+      "id": "c10_eng_svc_04",
+      "question": "Choose the right verb: 'Each of the participants ______ given a certificate of appreciation.'",
+      "options": ["was", "were", "have been", "are"],
+      "correctAnswer": "was",
+      "conceptTag": "Distributive Pronouns (Each / Every / One of)",
+      "explanation": "Pronouns like 'Each of', 'Every one of', 'Either of', and 'Neither of' are always grammatically singular and take a singular verb ('was')."
+    },
+    {
+      "id": "c10_eng_svc_05",
+      "question": "Identify the correct option: 'Mathematics ______ my favorite subject in school.'",
+      "options": ["is", "are", "were", "have"],
+      "correctAnswer": "is",
+      "conceptTag": "Singular Nouns Ending in -s",
+      "explanation": "Nouns like 'Mathematics', 'Physics', 'Economics', 'News', and 'Measles' end in '-s' in form but are singular in meaning and take a singular verb."
+    },
+    {
+      "id": "c10_eng_svc_06",
+      "question": "What is the grammatical difference between 'A number of students' and 'The number of students'?",
+      "options": [
+        "'A number of' means 'many' and takes a plural verb; 'The number of' refers to a single numerical count and takes a singular verb",
+        "Both always take a singular verb",
+        "Both always take a plural verb",
+        "'A number of' takes a singular verb while 'The number of' takes a plural verb"
+      ],
+      "correctAnswer": "'A number of' means 'many' and takes a plural verb; 'The number of' refers to a single numerical count and takes a singular verb",
+      "conceptTag": "'A number of' vs 'The number of'",
+      "explanation": "'A number of students ARE absent' (many students), whereas 'The number of students in this class IS forty' (the specific figure 40)."
+    },
+    {
+      "id": "c10_eng_svc_07",
+      "question": "Choose the correct verb: 'Fifty kilometers ______ a long distance to walk on foot.'",
+      "options": ["is", "are", "were", "have been"],
+      "correctAnswer": "is",
+      "conceptTag": "Plural Units of Distance, Time, and Money",
+      "explanation": "When a plural noun denotes a specific quantity, distance, weight, or sum of money considered as a single whole, it takes a singular verb ('is')."
+    },
+    {
+      "id": "c10_eng_svc_08",
+      "question": "Select the correct verb: 'The poet and philosopher ______ passed away.' (Referring to one single person)",
+      "options": ["has", "have", "are", "were"],
+      "correctAnswer": "has",
+      "conceptTag": "Article Repetition with Compound Subjects",
+      "explanation": "When the article 'The' is used only once before the first noun ('The poet and philosopher'), both nouns refer to the same individual, taking a singular verb ('has')."
+    }
+  ],
+
+  "Reported Speech": [
+    {
+      "id": "c10_eng_rs_01",
+      "question": "Convert to indirect speech: Rohan said to me, 'I will submit my project tomorrow.'",
+      "options": [
+        "Rohan told me that he would submit his project the next day.",
+        "Rohan said to me that he will submit his project tomorrow.",
+        "Rohan told me that I would submit my project the next day.",
+        "Rohan asked me if he would submit his project the following day."
+      ],
+      "correctAnswer": "Rohan told me that he would submit his project the next day.",
+      "conceptTag": "Statements: Pronoun, Tense, and Time Adverbial Shift",
+      "explanation": "In past reporting of statements, 'will' shifts to 'would', 'I/my' shifts to third-person 'he/his', and 'tomorrow' shifts to 'the next day'."
+    },
+    {
+      "id": "c10_eng_rs_02",
+      "question": "Convert to indirect speech: The teacher said to the girl, 'Have you completed your homework?'",
+      "options": [
+        "The teacher asked the girl if she had completed her homework.",
+        "The teacher asked the girl that had she completed her homework.",
+        "The teacher told the girl whether she has completed her homework.",
+        "The teacher inquired the girl if had she completed her homework."
+      ],
+      "correctAnswer": "The teacher asked the girl if she had completed her homework.",
+      "conceptTag": "Questions: Yes/No Interrogative Reporting (If/Whether)",
+      "explanation": "Yes/No questions use 'if' or 'whether' as the linker, drop the conjunction 'that', and invert question order ('Have you') into statement order ('she had')."
+    },
+    {
+      "id": "c10_eng_rs_03",
+      "question": "Convert to indirect speech: The stranger said to me, 'Where is the nearest post office?'",
+      "options": [
+        "The stranger asked me where the nearest post office was.",
+        "The stranger asked me where was the nearest post office.",
+        "The stranger said to me that where the nearest post office was.",
+        "The stranger asked me where is the nearest post office."
+      ],
+      "correctAnswer": "The stranger asked me where the nearest post office was.",
+      "conceptTag": "Questions: Wh- Question Word Order in Indirect Speech",
+      "explanation": "In indirect Wh- questions, the auxiliary verb ('was') must come AFTER the subject ('the nearest post office'), never before it."
+    },
+    {
+      "id": "c10_eng_rs_04",
+      "question": "Convert to indirect speech: Mother said to me, 'Do not waste your time on mobile games.'",
+      "options": [
+        "Mother advised me not to waste my time on mobile games.",
+        "Mother forbade me not to waste my time on mobile games.",
+        "Mother told me to not wasted my time on mobile games.",
+        "Mother said to me that do not waste my time."
+      ],
+      "correctAnswer": "Mother advised me not to waste my time on mobile games.",
+      "conceptTag": "Commands & Requests: Negative Imperative Reporting",
+      "explanation": "Negative commands/advice convert using 'advised/ordered + object + not to + base verb'."
+    },
+    {
+      "id": "c10_eng_rs_05",
+      "question": "Convert to indirect speech: The old man said to the boy, 'Please help me cross this busy road.'",
+      "options": [
+        "The old man requested the boy to help him cross that busy road.",
+        "The old man ordered the boy please to help him cross this road.",
+        "The old man requested to the boy that he should help him.",
+        "The old man asked the boy to please helped him cross that road."
+      ],
+      "correctAnswer": "The old man requested the boy to help him cross that busy road.",
+      "conceptTag": "Commands & Requests: Reporting Polite Requests",
+      "explanation": "The word 'Please' is replaced by the reporting verb 'requested', followed by 'object + to + V1', and 'this' shifts to 'that'."
+    },
+    {
+      "id": "c10_eng_rs_06",
+      "question": "When does the verb tense inside the reported speech NOT change even if the statement is reported later?",
+      "options": [
+        "When the reporting verb is in the Present or Future tense (e.g., 'He says' or 'He will say')",
+        "When the sentence contains a pronoun",
+        "When the speaker is asking a question",
+        "When the sentence has more than ten words"
+      ],
+      "correctAnswer": "When the reporting verb is in the Present or Future tense (e.g., 'He says' or 'He will say')",
+      "conceptTag": "Statements: Present/Future Reporting Verb Rule",
+      "explanation": "If the reporting verb is in the Present ('says') or Future ('will say'), the tense of the verb inside the quotation marks remains unchanged."
+    },
+    {
+      "id": "c10_eng_rs_07",
+      "question": "Convert to indirect speech: Priya said, 'I bought a new dictionary yesterday.'",
+      "options": [
+        "Priya said that she had bought a new dictionary the previous day.",
+        "Priya said that she bought a new dictionary yesterday.",
+        "Priya told that she has bought a new dictionary the day before.",
+        "Priya said that I had bought a new dictionary the previous day."
+      ],
+      "correctAnswer": "Priya said that she had bought a new dictionary the previous day.",
+      "conceptTag": "Statements: Simple Past to Past Perfect Shift",
+      "explanation": "Simple Past ('bought') backshifts to Past Perfect ('had bought'), and 'yesterday' changes to 'the previous day / the day before'."
+    },
+    {
+      "id": "c10_eng_rs_08",
+      "question": "Convert to indirect speech: The librarian said to the students, 'Keep quiet in the reading room.'",
+      "options": [
+        "The librarian instructed the students to keep quiet in the reading room.",
+        "The librarian requested the students that they keep quiet.",
+        "The librarian asked the students if they keep quiet.",
+        "The librarian said to students to kept quiet in the reading room."
+      ],
+      "correctAnswer": "The librarian instructed the students to keep quiet in the reading room.",
+      "conceptTag": "Commands & Requests: Affirmative Imperative Commands",
+      "explanation": "Imperative instructions convert the base verb into an infinitive ('to keep') after reporting verbs like 'instructed', 'ordered', or 'told'."
+    }
+  ]
+}

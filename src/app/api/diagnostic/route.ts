@@ -1,36 +1,27 @@
-import { NextRequest, NextResponse } from "next/server";
-import { QUESTION_BANK } from "@/data/questionbank";
+import { NextResponse } from "next/server";
+import { GoogleGenAI } from "@google/genai";
 
-export async function POST(req: NextRequest) {
+// Automatically initializes using process.env.GEMINI_API_KEY
+const ai = new GoogleGenAI();
+
+export async function POST(request: Request) {
   try {
-    const body = await req.json();
-    const topic =
-      body.topic ||
-      body.chapter ||
-      body.customTopic ||
-      "Continuity and Differentiability";
+    const { prompt, studentAnswer, correctAnswer } = await request.json();
 
-    const questions =
-      QUESTION_BANK[topic] ||
-      QUESTION_BANK["Continuity and Differentiability"];
+    const fullPrompt =
+      prompt ||
+      `Analyze this student misconception. Student answered: "${studentAnswer}", but the correct answer is "${correctAnswer}". Explain the conceptual gap clearly and concisely.`;
 
-    // Frontend ko exact format bhejo jisme score/eval data pehle se configured ho
-    return NextResponse.json({
-      success: true,
-      questions: questions,
-      score: {
-        total: questions.length,
-        obtained: 0
-      },
-      evaluation: {
-        totalQuestions: questions.length,
-        diagnosticSummary: "Diagnostic assessment loaded successfully."
-      }
+    const response = await ai.models.generateContent({
+      model: "gemini-3.8-flash",
+      contents: fullPrompt,
     });
+
+    return NextResponse.json({ diagnosis: response.text });
   } catch (error: any) {
-    console.error("Diagnostic Route Error:", error);
+    console.error("Gemini API Error:", error);
     return NextResponse.json(
-      { success: false, error: "Failed to load diagnostic assessment." },
+      { error: error.message || "Internal Server Error" },
       { status: 500 }
     );
   }

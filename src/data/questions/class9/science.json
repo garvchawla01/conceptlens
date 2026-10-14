@@ -1,0 +1,1222 @@
+{
+  "Exploration: Entering the World of Secondary Science": [
+    {
+      "id": "c9_sci_exp_01",
+      "question": "In a controlled scientific experiment, what is the 'independent variable'?",
+      "options": [
+        "The factor that is deliberately manipulated or changed by the experimenter",
+        "The outcome that is measured at the end of the experiment",
+        "The factor that is kept strictly constant throughout all trials",
+        "A random error caused by faulty lab equipment"
+      ],
+      "correctAnswer": "The factor that is deliberately manipulated or changed by the experimenter",
+      "conceptTag": "Independent vs Dependent Variables",
+      "explanation": "The independent variable is the input systematically altered by the scientist to observe its effect on the dependent variable."
+    },
+    {
+      "id": "c9_sci_exp_02",
+      "question": "Why does ice float on liquid water even though most solids are denser than their liquid states?",
+      "options": [
+        "Hydrogen bonding creates an open cage-like crystalline structure in ice, reducing its density",
+        "Ice has a higher molecular mass than liquid water",
+        "Liquid water loses oxygen atoms upon freezing",
+        "Surface tension pushes all solid objects upward regardless of density"
+      ],
+      "correctAnswer": "Hydrogen bonding creates an open cage-like crystalline structure in ice, reducing its density",
+      "conceptTag": "Anomalous Expansion of Water & Density",
+      "explanation": "When water freezes, hydrogen bonds lock molecules into a hexagonal lattice with empty spaces, making ice ~9% less dense than liquid water."
+    },
+    {
+      "id": "c9_sci_exp_03",
+      "question": "Why does the temperature of boiling water remain constant at 100°C (at standard pressure) even when heat is continuously supplied?",
+      "options": [
+        "The supplied heat is used as latent heat of vaporization to overcome intermolecular attractions",
+        "Water loses its thermal conductivity at 100°C",
+        "The thermometer reaches its maximum physical limit",
+        "Kinetic energy of water molecules drops to zero during boiling"
+      ],
+      "correctAnswer": "The supplied heat is used as latent heat of vaporization to overcome intermolecular attractions",
+      "conceptTag": "Latent Heat & Phase Transitions",
+      "explanation": "During a phase change, thermal energy goes into breaking intermolecular forces rather than raising the average kinetic energy (temperature)."
+    },
+    {
+      "id": "c9_sci_exp_04",
+      "question": "Which of the following is a base SI unit of thermodynamic temperature?",
+      "options": ["Kelvin (K)", "Degree Celsius (°C)", "Degree Fahrenheit (°F)", "Joule (J)"],
+      "correctAnswer": "Kelvin (K)",
+      "conceptTag": "SI Base Units & Measurement",
+      "explanation": "The Kelvin (K) is the fundamental SI unit of thermodynamic temperature, where 0 K represents absolute zero."
+    },
+    {
+      "id": "c9_sci_exp_05",
+      "question": "How does evaporation cause cooling on a surface?",
+      "options": [
+        "High-energy surface molecules escape into vapor, lowering the average kinetic energy of remaining particles",
+        "Air molecules freeze when touching a wet surface",
+        "Evaporation is an exothermic chemical reaction",
+        "Water molecules contract and release cold radiation"
+      ],
+      "correctAnswer": "High-energy surface molecules escape into vapor, lowering the average kinetic energy of remaining particles",
+      "conceptTag": "Evaporative Cooling Mechanism",
+      "explanation": "Particles with the highest kinetic energy absorb heat from the surroundings to overcome attraction and escape, cooling the remaining liquid."
+    },
+    {
+      "id": "c9_sci_exp_06",
+      "question": "What distinguishes a scientific 'hypothesis' from a 'scientific law'?",
+      "options": [
+        "A hypothesis is a testable proposed explanation, whereas a law describes a universal, repeatedly verified relationship",
+        "A hypothesis is an unchangeable fact, whereas a law is a rough guess",
+        "A hypothesis only applies to biology, while laws only apply to physics",
+        "Laws do not require experimental evidence"
+      ],
+      "correctAnswer": "A hypothesis is a testable proposed explanation, whereas a law describes a universal, repeatedly verified relationship",
+      "conceptTag": "Scientific Method & Epistemology",
+      "explanation": "A hypothesis is a tentative, falsifiable explanation tested by experiments; a law mathematically or concisely summarizes observed natural patterns."
+    },
+    {
+      "id": "c9_sci_exp_07",
+      "question": "If a measurement is repeated five times and gives values 9.81, 9.82, 9.81, 9.81, and 9.82 when the true value is 12.50, the measurements are:",
+      "options": [
+        "Highly precise, but not accurate",
+        "Highly accurate, but not precise",
+        "Both accurate and precise",
+        "Neither accurate nor precise"
+      ],
+      "correctAnswer": "Highly precise, but not accurate",
+      "conceptTag": "Accuracy vs Precision in Measurement",
+      "explanation": "Precision refers to how closely repeated measurements agree with each other; accuracy refers to how close a measurement is to the true value."
+    },
+    {
+      "id": "c9_sci_exp_08",
+      "question": "What happens to the rate of diffusion of a gas when the temperature of the medium is increased?",
+      "options": [
+        "It increases because the average kinetic energy and speed of particles increase",
+        "It decreases because particles collide and stop moving",
+        "It remains unchanged as diffusion only depends on container volume",
+        "The gas condenses immediately into a solid"
+      ],
+      "correctAnswer": "It increases because the average kinetic energy and speed of particles increase",
+      "conceptTag": "Kinetic Theory of Matter & Diffusion",
+      "explanation": "Higher temperature increases the root-mean-square velocity of molecules, causing them to intermix and diffuse faster."
+    }
+  ],
+
+  "Cell: The Building Block of Life": [
+    {
+      "id": "c9_sci_cell_01",
+      "question": "What happens when a living plant cell is placed in a hypertonic (highly concentrated sugar/salt) solution?",
+      "options": [
+        "Water moves out by exosmosis and the protoplast shrinks away from the cell wall (plasmolysis)",
+        "The cell swells up and bursts immediately",
+        "Water enters the cell by endosmosis making it turgid",
+        "No net movement of water occurs across the membrane"
+      ],
+      "correctAnswer": "Water moves out by exosmosis and the protoplast shrinks away from the cell wall (plasmolysis)",
+      "conceptTag": "Osmosis & Plasmolysis",
+      "explanation": "In a hypertonic medium, external water potential is lower than inside the cell, causing water to exit via osmosis and shrinking the cytoplasm."
+    },
+    {
+      "id": "c9_sci_cell_02",
+      "question": "Why are mitochondria and plastids referred to as 'semi-autonomous organelles'?",
+      "options": [
+        "They possess their own circular DNA and ribosomes, enabling them to synthesize some of their own proteins",
+        "They can survive indefinitely outside the cell in dry air",
+        "They lack an outer membrane and float freely",
+        "They control the division of the cell nucleus"
+      ],
+      "correctAnswer": "They possess their own circular DNA and ribosomes, enabling them to synthesize some of their own proteins",
+      "conceptTag": "Semi-Autonomous Organelles",
+      "explanation": "Both mitochondria and chloroplasts contain 70S ribosomes and circular DNA, allowing partial self-replication and protein synthesis."
+    },
+    {
+      "id": "c9_sci_cell_03",
+      "question": "Which organelle is known as the 'suicidal bag' of the cell, and why?",
+      "options": [
+        "Lysosome, because it contains powerful hydrolytic enzymes capable of digesting the damaged cell itself",
+        "Ribosome, because it blocks protein synthesis during stress",
+        "Golgi apparatus, because it packages toxic waste into the nucleus",
+        "Vacuole, because it floods the cytoplasm with water"
+      ],
+      "correctAnswer": "Lysosome, because it contains powerful hydrolytic enzymes capable of digesting the damaged cell itself",
+      "conceptTag": "Lysosomal Function & Autolysis",
+      "explanation": "When a cell is severely damaged, lysosomes rupture and release acid hydrolases that digest the entire cellular contents (autolysis)."
+    },
+    {
+      "id": "c9_sci_cell_04",
+      "question": "What is the fundamental structural difference between a prokaryotic cell and a eukaryotic cell?",
+      "options": [
+        "Prokaryotes lack a well-defined membrane-bound nucleus and membrane-bound organelles",
+        "Prokaryotes do not contain any genetic material (DNA/RNA)",
+        "Eukaryotes lack a plasma membrane",
+        "Prokaryotes are always multicellular organisms"
+      ],
+      "correctAnswer": "Prokaryotes lack a well-defined membrane-bound nucleus and membrane-bound organelles",
+      "conceptTag": "Prokaryotic vs Eukaryotic Organization",
+      "explanation": "Prokaryotic cells have a naked nucleoid region without a nuclear envelope and lack membrane-enclosed organelles like ER or mitochondria."
+    },
+    {
+      "id": "c9_sci_cell_05",
+      "question": "What is the primary function of the Smooth Endoplasmic Reticulum (SER) in vertebrate liver cells?",
+      "options": [
+        "Synthesis of lipids and detoxification of poisons and drugs",
+        "Manufacture of ribosomal RNA",
+        "Photosynthetic carbon fixation",
+        "Packaging of chromosomes during mitosis"
+      ],
+      "correctAnswer": "Synthesis of lipids and detoxification of poisons and drugs",
+      "conceptTag": "Endoplasmic Reticulum Specialization",
+      "explanation": "Rough ER synthesizes proteins via attached ribosomes, whereas Smooth ER manufactures lipids/steroids and detoxifies xenobiotics in liver cells."
+    },
+    {
+      "id": "c9_sci_cell_06",
+      "question": "Why is the plasma membrane described as 'selectively permeable'?",
+      "options": [
+        "It regulates the entry and exit of specific molecules and ions while restricting others",
+        "It allows all substances to pass through without any resistance",
+        "It only allows water to pass and blocks all solutes completely",
+        "It is a rigid dead layer made of cellulose"
+      ],
+      "correctAnswer": "It regulates the entry and exit of specific molecules and ions while restricting others",
+      "conceptTag": "Membrane Transport & Selective Permeability",
+      "explanation": "The phospholipid bilayer and embedded transport proteins selectively control what enters and leaves the cell to maintain homeostasis."
+    },
+    {
+      "id": "c9_sci_cell_07",
+      "question": "Which cell organelle is primarily responsible for modifying, sorting, and packaging proteins into vesicles for secretion?",
+      "options": ["Golgi apparatus", "Nucleolus", "Centrosome", "Peroxisome"],
+      "correctAnswer": "Golgi apparatus",
+      "conceptTag": "Golgi Apparatus & Endomembrane System",
+      "explanation": "Synthesized proteins from the ER enter the cis-face of the Golgi apparatus, where they are glycosylated, sorted, and budded off in vesicles."
+    },
+    {
+      "id": "c9_sci_cell_08",
+      "question": "Which type of cell division reduces the chromosome number by half to produce gametes (sperm and egg cells)?",
+      "options": ["Meiosis", "Mitosis", "Binary fission", "Budding"],
+      "correctAnswer": "Meiosis",
+      "conceptTag": "Mitosis vs Meiosis",
+      "explanation": "Meiosis is reductional division that produces four haploid (n) daughter cells from a diploid (2n) germ cell, maintaining chromosome stability across generations."
+    }
+  ],
+
+  "Tissues in Action": [
+    {
+      "id": "c9_sci_tis_01",
+      "question": "Why do meristematic cells in plants have dense cytoplasm, prominent nuclei, and lack vacuoles?",
+      "options": [
+        "They are actively dividing and do not need to store food or waste in vacuoles",
+        "They are dead mechanical cells that provide rigid support",
+        "They only conduct water upward from the roots",
+        "Vacuoles would make the cells divide too rapidly"
+      ],
+      "correctAnswer": "They are actively dividing and do not need to store food or waste in vacuoles",
+      "conceptTag": "Meristematic Tissue Adaptations",
+      "explanation": "Meristematic cells divide continuously; large vacuoles would hinder rapid cytokinesis and occupy space needed for active metabolic machinery."
+    },
+    {
+      "id": "c9_sci_tis_02",
+      "question": "Which simple permanent plant tissue provides mechanical flexibility to growing stems and petioles without breaking?",
+      "options": ["Collenchyma", "Sclerenchyma", "Xylem vessels", "Apical meristem"],
+      "correctAnswer": "Collenchyma",
+      "conceptTag": "Plant Mechanical Tissues (Collenchyma vs Sclerenchyma)",
+      "explanation": "Collenchyma consists of living cells unevenly thickened at the corners with cellulose and pectin, imparting tensile strength with flexibility."
+    },
+    {
+      "id": "c9_sci_tis_03",
+      "question": "Why is sclerenchyma tissue (such as in coconut husk) rigid, hard, and composed of dead cells at maturity?",
+      "options": [
+        "Its cell walls are heavily thickened with lignin, which makes them impermeable to water and nutrients",
+        "It lacks cell walls entirely",
+        "It is filled with chlorophyll and air cavities",
+        "It is composed of contractile muscle fibers"
+      ],
+      "correctAnswer": "Its cell walls are heavily thickened with lignin, which makes them impermeable to water and nutrients",
+      "conceptTag": "Lignification & Sclerenchyma Structure",
+      "explanation": "Lignin acts as a waterproof cement in secondary cell walls, providing high rigidity and causing the protoplast to die at maturity."
+    },
+    {
+      "id": "c9_sci_tis_04",
+      "question": "Which component of phloem tissue is a dead mechanical element, while the others are living?",
+      "options": ["Phloem fibres", "Sieve tubes", "Companion cells", "Phloem parenchyma"],
+      "correctAnswer": "Phloem fibres",
+      "conceptTag": "Complex Permanent Tissues (Phloem)",
+      "explanation": "Sieve tubes, companion cells, and phloem parenchyma are living cells required for active translocation, whereas phloem fibres (bast fibres) are dead sclerenchymatous cells."
+    },
+    {
+      "id": "c9_sci_tis_05",
+      "question": "What is the functional difference between a 'ligament' and a 'tendon' in the human musculoskeletal system?",
+      "options": [
+        "Ligaments are elastic and connect bone to bone; tendons are fibrous with great strength and connect muscle to bone",
+        "Ligaments connect muscle to bone; tendons connect bone to bone",
+        "Ligaments are made of nervous tissue; tendons are made of epithelial tissue",
+        "Both connect muscles to skin exclusively"
+      ],
+      "correctAnswer": "Ligaments are elastic and connect bone to bone; tendons are fibrous with great strength and connect muscle to bone",
+      "conceptTag": "Dense Connective Tissues",
+      "explanation": "Ligaments stabilize joints by linking bone to bone with high elasticity, while tendons transmit muscular force to bone."
+    },
+    {
+      "id": "c9_sci_tis_06",
+      "question": "Which type of muscle tissue is involuntary, striated, branched, and contracts rhythmically throughout life without fatigue?",
+      "options": ["Cardiac muscle", "Skeletal (striated) muscle", "Smooth (unstriated) muscle", "Areolar tissue"],
+      "correctAnswer": "Cardiac muscle",
+      "conceptTag": "Muscle Tissue Classification",
+      "explanation": "Cardiac muscle cells are cylindrical, branched, uninucleate, and connected via intercalated discs for continuous rhythmic heart contractions."
+    },
+    {
+      "id": "c9_sci_tis_07",
+      "question": "Which epithelial tissue lines the alveoli of lungs and blood vessels where rapid diffusion of gases occurs?",
+      "options": [
+        "Simple squamous epithelium",
+        "Stratified squamous epithelium",
+        "Columnar ciliated epithelium",
+        "Cuboidal glandular epithelium"
+      ],
+      "correctAnswer": "Simple squamous epithelium",
+      "conceptTag": "Epithelial Tissue Structure-Function Mapping",
+      "explanation": "Simple squamous epithelium consists of a single layer of extremadamente thin, flat cells that minimize the diffusion barrier."
+    },
+    {
+      "id": "c9_sci_tis_08",
+      "question": "In aquatic plants (hydrophytes), parenchyma cells contain large air cavities to provide buoyancy. What is this specialized tissue called?",
+      "options": ["Aerenchyma", "Chlorenchyma", "Collenchyma", "Suberin"],
+      "correctAnswer": "Aerenchyma",
+      "conceptTag": "Specialized Parenchyma Modifications",
+      "explanation": "Aerenchyma features extensive intercellular air spaces that allow aquatic plants to float and facilitate internal gas exchange."
+    }
+  ],
+
+  "Describing Motion Around Us": [
+    {
+      "id": "c9_sci_mot_01",
+      "question": "An athlete completes one full round of a circular track of diameter 200 m in 40 s. What is the magnitude of their displacement after 40 s?",
+      "options": ["0 m", "200 m", "628 m", "400 m"],
+      "correctAnswer": "0 m",
+      "conceptTag": "Distance vs Displacement in Closed Loops",
+      "explanation": "Displacement is the shortest straight-line vector from initial to final position. Returning to the starting point yields zero displacement."
+    },
+    {
+      "id": "c9_sci_mot_02",
+      "question": "Can a body have a constant speed and yet be accelerating continuously?",
+      "options": [
+        "Yes, in uniform circular motion where the direction of velocity changes at every point",
+        "No, acceleration is always zero when speed is constant",
+        "Only if the body is moving in a straight line",
+        "Only in a vacuum without gravity"
+      ],
+      "correctAnswer": "Yes, in uniform circular motion where the direction of velocity changes at every point",
+      "conceptTag": "Velocity as a Vector & Centripetal Acceleration",
+      "explanation": "Velocity is a vector having both magnitude (speed) and direction. Changing direction alters velocity, producing centripetal acceleration."
+    },
+    {
+      "id": "c9_sci_mot_03",
+      "question": "What does the slope of a Velocity-Time (v-t) graph represent?",
+      "options": ["Acceleration", "Displacement", "Speed", "Jerk"],
+      "correctAnswer": "Acceleration",
+      "conceptTag": "Graphical Analysis of Motion (Slope)",
+      "explanation": "Slope = Δv / Δt, which is the rate of change of velocity with respect to time, defined as acceleration."
+    },
+    {
+      "id": "c9_sci_mot_04",
+      "question": "What physical quantity is obtained by calculating the area under a Velocity-Time (v-t) graph over a given time interval?",
+      "options": [
+        "Magnitude of displacement (or distance traveled)",
+        "Average acceleration",
+        "Instantaneous velocity",
+        "Force acting on the body"
+      ],
+      "correctAnswer": "Magnitude of displacement (or distance traveled)",
+      "conceptTag": "Area Under v-t Graph",
+      "explanation": "Integrating velocity over time (Area = v × t for uniform motion) gives total displacement covered during that interval."
+    },
+    {
+      "id": "c9_sci_mot_05",
+      "question": "A car accelerates uniformly from 18 km/h to 36 km/h in 5 seconds. What is its acceleration in SI units (m/s²)?",
+      "options": ["1 m/s²", "3.6 m/s²", "2 m/s²", "5 m/s²"],
+      "correctAnswer": "1 m/s²",
+      "conceptTag": "Unit Conversion (km/h to m/s) & Kinematics",
+      "explanation": "Convert to m/s by multiplying by 5/18: u = 5 m/s, v = 10 m/s. Acceleration a = (v - u) / t = (10 - 5) / 5 = 1 m/s²."
+    },
+    {
+      "id": "c9_sci_mot_06",
+      "question": "If the Displacement-Time (s-t) graph of an object is a straight line parallel to the time axis, what is the state of the object?",
+      "options": [
+        "The object is at rest (zero velocity)",
+        "The object is moving with uniform non-zero velocity",
+        "The object is moving with uniform acceleration",
+        "The object is moving infinitely fast"
+      ],
+      "correctAnswer": "The object is at rest (zero velocity)",
+      "conceptTag": "Interpreting Position-Time Graphs",
+      "explanation": "A horizontal line on an s-t graph means position is not changing with time (slope = 0), so the object is stationary."
+    },
+    {
+      "id": "c9_sci_mot_07",
+      "question": "Which kinematic equation correctly relates initial velocity (u), final velocity (v), uniform acceleration (a), and displacement (s) independent of time (t)?",
+      "options": [
+        "v² - u² = 2as",
+        "v = u + at",
+        "s = ut + 1/2 at²",
+        "v² + u² = 2as"
+      ],
+      "correctAnswer": "v² - u² = 2as",
+      "conceptTag": "Third Equation of Uniformly Accelerated Motion",
+      "explanation": "Eliminating time t between v = u + at and s = ((u + v)/2)t yields the position-velocity relation: v² - u² = 2as."
+    },
+    {
+      "id": "c9_sci_mot_08",
+      "question": "A commuter drives 30 km to an office at 40 km/h and returns along the same route at 60 km/h. What is the average speed for the entire round trip?",
+      "options": ["48 km/h", "50 km/h", "45 km/h", "0 km/h"],
+      "correctAnswer": "48 km/h",
+      "conceptTag": "Harmonic Mean in Average Speed Misconception",
+      "explanation": "For equal distances, Average Speed = 2v₁v₂ / (v₁ + v₂) = (2 × 40 × 60) / (40 + 60) = 4800 / 100 = 48 km/h (not the arithmetic average 50 km/h)."
+    }
+  ],
+
+  "Exploring Mixtures and their Separation": [
+    {
+      "id": "c9_sci_mix_01",
+      "question": "Why does a beam of light become visible when passed through milk or fog (Tyndall effect), but not when passed through a true salt solution?",
+      "options": [
+        "Colloidal particles are large enough (1–1000 nm) to scatter light rays, whereas solute ions in a true solution are too small (< 1 nm)",
+        "Salt absorbs all visible light completely",
+        "Milk generates its own luminescence",
+        "True solutions are opaque to light"
+      ],
+      "correctAnswer": "Colloidal particles are large enough (1–1000 nm) to scatter light rays, whereas solute ions in a true solution are too small (< 1 nm)",
+      "conceptTag": "Tyndall Effect & Colloidal Properties",
+      "explanation": "Dispersed phase particles in colloids scatter incident light, whereas particles in true solutions are smaller than 1 nm and cannot scatter visible light."
+    },
+    {
+      "id": "c9_sci_mix_02",
+      "question": "Which of the following statements correctly distinguishes a 'compound' from a 'mixture'?",
+      "options": [
+        "A compound has a fixed composition and properties completely different from its constituent elements",
+        "A compound can be separated into its elements by simple physical filtration",
+        "A mixture always has a fixed melting and boiling point",
+        "Constituents of a compound retain their original individual properties"
+      ],
+      "correctAnswer": "A compound has a fixed composition and properties completely different from its constituent elements",
+      "conceptTag": "Elements, Compounds, and Mixtures",
+      "explanation": "Water (H2O) is a non-flammable liquid compound formed chemically from flammable H2 and combustion-supporting O2 in a fixed 1:8 mass ratio."
+    },
+    {
+      "id": "c9_sci_mix_03",
+      "question": "If 40 g of common salt is dissolved in 360 g of water, what is the mass-by-mass percentage concentration of the solution?",
+      "options": ["10%", "11.11%", "9%", "40%"],
+      "correctAnswer": "10%",
+      "conceptTag": "Mass Percentage Concentration Calculation",
+      "explanation": "Total mass of solution = Solute (40 g) + Solvent (360 g) = 400 g. Mass % = (40 / 400) × 100 = 10%."
+    },
+    {
+      "id": "c9_sci_mix_04",
+      "question": "Which separation technique is best suited to separate different colored dye pigments present in black ink?",
+      "options": ["Paper Chromatography", "Centrifugation", "Sublimation", "Separating funnel"],
+      "correctAnswer": "Paper Chromatography",
+      "conceptTag": "Chromatography Principle",
+      "explanation": "Chromatography separates solutes that dissolve in the same solvent based on their differential solubilities and adsorption rates on stationary paper."
+    },
+    {
+      "id": "c9_sci_mix_05",
+      "question": "How are two immiscible liquids like kerosene oil and water separated in the laboratory?",
+      "options": [
+        "Using a separating funnel based on their difference in densities",
+        "Using simple filtration through filter paper",
+        "Using magnetic separation",
+        "Using paper chromatography"
+      ],
+      "correctAnswer": "Using a separating funnel based on their difference in densities",
+      "conceptTag": "Immiscible Liquid Separation",
+      "explanation": "Immiscible liquids form distinct layers in a separating funnel; denser water settles at the bottom and can be drained off via the stopcock."
+    },
+    {
+      "id": "c9_sci_mix_06",
+      "question": "Which method is used to separate a mixture of two miscible liquids (like acetone and water) that have a boiling point difference of more than 25 K?",
+      "options": ["Simple Distillation", "Evaporation to dryness", "Decantation", "Centrifugation"],
+      "correctAnswer": "Simple Distillation",
+      "conceptTag": "Distillation vs Fractional Distillation",
+      "explanation": "Simple distillation vaporizes the more volatile component first and condenses it back into pure liquid; fractional distillation is used when boiling points differ by < 25 K."
+    },
+    {
+      "id": "c9_sci_mix_07",
+      "question": "Why is crystallization preferred over simple evaporation to dryness for purifying solids like copper sulphate or sugar?",
+      "options": [
+        "Some solids decompose or char on strong heating, and soluble impurities remain trapped in evaporation",
+        "Evaporation takes several months to complete",
+        "Crystallization converts solids into gases permanently",
+        "Evaporation increases the mass of impurities"
+      ],
+      "correctAnswer": "Some solids decompose or char on strong heating, and soluble impurities remain trapped in evaporation",
+      "conceptTag": "Crystallization Purity Advantage",
+      "explanation": "Crystallization allows pure crystals to form slowly from a saturated solution while leaving dissolved impurities behind in the mother liquor."
+    },
+    {
+      "id": "c9_sci_mix_08",
+      "question": "Brass is an alloy of copper (70%) and zinc (30%). How is brass classified in chemistry?",
+      "options": [
+        "A homogeneous solid-in-solid mixture (solid solution)",
+        "A chemical compound with ionic bonds",
+        "A heterogeneous suspension",
+        "A pure metallic element"
+      ],
+      "correctAnswer": "A homogeneous solid-in-solid mixture (solid solution)",
+      "conceptTag": "Alloys as Solid Solutions",
+      "explanation": "Alloys are homogeneous mixtures of metals because they show the properties of their constituents and can have variable composition."
+    }
+  ],
+
+  "How Forces Affect Motion": [
+    {
+      "id": "c9_sci_for_01",
+      "question": "Why does a passenger standing in a stationary bus fall backward when the bus suddenly accelerates forward?",
+      "options": [
+        "Due to inertia of rest, the upper body tends to remain stationary while the feet move forward with the bus floor",
+        "The air inside the bus pushes the passenger backward",
+        "Gravity pulls the upper body backward",
+        "Action-reaction forces act on the same object"
+      ],
+      "correctAnswer": "Due to inertia of rest, the upper body tends to remain stationary while the feet move forward with the bus floor",
+      "conceptTag": "Newton's First Law & Inertia of Rest",
+      "explanation": "The feet are in direct contact with the accelerating floor and move forward, while the upper body resists the change in state of rest."
+    },
+    {
+      "id": "c9_sci_for_02",
+      "question": "Which physical quantity is the direct measure of the inertia of an object?",
+      "options": ["Mass", "Velocity", "Acceleration", "Volume"],
+      "correctAnswer": "Mass",
+      "conceptTag": "Mass as a Measure of Inertia",
+      "explanation": "Inertia is the natural tendency of an object to resist changes in its state of motion; greater mass directly means greater inertia."
+    },
+    {
+      "id": "c9_sci_for_03",
+      "question": "Why does a cricket fielder pull their hands backward gradually while catching a fast-moving ball?",
+      "options": [
+        "To increase the time taken to bring momentum to zero, thereby reducing the rate of change of momentum and impact force",
+        "To increase the momentum of the ball",
+        "To decrease the contact time with the ball",
+        "To apply a larger impulse on the ball"
+      ],
+      "correctAnswer": "To increase the time taken to bring momentum to zero, thereby reducing the rate of change of momentum and impact force",
+      "conceptTag": "Newton's Second Law & Impulse (F = Δp / Δt)",
+      "explanation": "Since F = Δp / Δt, increasing the stopping time Δt for a fixed momentum change Δp significantly lowers the peak force on the hands."
+    },
+    {
+      "id": "c9_sci_for_04",
+      "question": "If action and reaction forces are always equal and opposite according to Newton's Third Law, why do they never cancel each other out?",
+      "options": [
+        "Because they always act on two different bodies, never on the same body",
+        "Because action is slightly stronger than reaction",
+        "Because reaction happens several seconds after action",
+        "Because friction absorbs the reaction force"
+      ],
+      "correctAnswer": "Because they always act on two different bodies, never on the same body",
+      "conceptTag": "Action-Reaction Pair Misconception",
+      "explanation": "Forces only cancel when they act on the same object. Action acts on object B by A, while reaction acts on object A by B."
+    },
+    {
+      "id": "c9_sci_for_05",
+      "question": "A constant force of 20 N acts on a body of mass 4 kg initially at rest. What is the acceleration produced?",
+      "options": ["5 m/s²", "80 m/s²", "0.2 m/s²", "16 m/s²"],
+      "correctAnswer": "5 m/s²",
+      "conceptTag": "Newton's Second Law Calculation (F = ma)",
+      "explanation": "By Newton's Second Law, a = F / m = 20 N / 4 kg = 5 m/s²."
+    },
+    {
+      "id": "c9_sci_for_06",
+      "question": "A wooden block is pulled across a rough table at a constant velocity of 2 m/s by a horizontal force of 10 N. What is the magnitude of the frictional force acting on the block?",
+      "options": ["10 N", "0 N", "20 N", "5 N"],
+      "correctAnswer": "10 N",
+      "conceptTag": "Balanced Forces & Constant Velocity",
+      "explanation": "Constant velocity means zero acceleration (a = 0), which requires net force F_net = 0. Thus, backward friction must exactly balance the 10 N pull."
+    },
+    {
+      "id": "c9_sci_for_07",
+      "question": "When a bullet is fired from a heavy rifle, the rifle recoils backward with a much smaller velocity than the bullet because:",
+      "options": [
+        "Total linear momentum is conserved, and the rifle has a much larger mass than the bullet",
+        "The bullet experiences a larger force than the rifle",
+        "Explosive gases only push the bullet",
+        "Kinetic energy is zero during recoil"
+      ],
+      "correctAnswer": "Total linear momentum is conserved, and the rifle has a much larger mass than the bullet",
+      "conceptTag": "Conservation of Linear Momentum & Recoil",
+      "explanation": "By momentum conservation, m_bullet * v_bullet + M_rifle * V_recoil = 0. Since M_rifle >> m_bullet, the recoil speed V_recoil is much smaller."
+    },
+    {
+      "id": "c9_sci_for_08",
+      "question": "What is the linear momentum of a body of mass 5 kg moving with a uniform velocity of 6 m/s?",
+      "options": ["30 kg·m/s", "1.2 kg·m/s", "11 kg·m/s", "90 kg·m/s"],
+      "correctAnswer": "30 kg·m/s",
+      "conceptTag": "Linear Momentum Definition (p = mv)",
+      "explanation": "Linear momentum p = m × v = 5 kg × 6 m/s = 30 kg·m/s."
+    }
+  ],
+
+  "Work, Energy and Simple Machines": [
+    {
+      "id": "c9_sci_wrk_01",
+      "question": "A coolie carries a 25 kg suitcase on their head and walks 50 m horizontally at a constant speed. How much work is done by the upward force exerted by the coolie against gravity?",
+      "options": [
+        "Zero, because the upward force is perpendicular (90°) to the horizontal displacement",
+        "1250 J",
+        "12250 J",
+        "Negative work"
+      ],
+      "correctAnswer": "Zero, because the upward force is perpendicular (90°) to the horizontal displacement",
+      "conceptTag": "Scientific Definition of Work (W = F·d cosθ)",
+      "explanation": "Work W = F d cos(θ). Here the angle between vertical upward force and horizontal displacement is 90°, and cos(90°) = 0."
+    },
+    {
+      "id": "c9_sci_wrk_02",
+      "question": "If the velocity of a moving object is tripled, by what factor does its kinetic energy increase?",
+      "options": ["9 times", "3 times", "6 times", "27 times"],
+      "correctAnswer": "9 times",
+      "conceptTag": "Kinetic Energy Quadratic Velocity Dependence",
+      "explanation": "Kinetic energy KE = (1/2)mv². Tripling v gives (3v)² = 9v², increasing kinetic energy by a factor of 9."
+    },
+    {
+      "id": "c9_sci_wrk_03",
+      "question": "When a ball is dropped freely from a height h in a vacuum, what happens to its total mechanical energy (Potential + Kinetic) halfway down?",
+      "options": [
+        "It remains constant and equal to mgh",
+        "It becomes half of its initial value",
+        "It doubles due to acceleration",
+        "It becomes zero"
+      ],
+      "correctAnswer": "It remains constant and equal to mgh",
+      "conceptTag": "Law of Conservation of Mechanical Energy",
+      "explanation": "In the absence of air resistance, any loss in gravitational potential energy is converted into an equal gain in kinetic energy, keeping total energy constant."
+    },
+    {
+      "id": "c9_sci_wrk_04",
+      "question": "An electric motor performs 3000 J of work in 10 seconds. What is its mechanical power output?",
+      "options": ["300 W", "30,000 W", "30 W", "3 W"],
+      "correctAnswer": "300 W",
+      "conceptTag": "Power as Rate of Doing Work",
+      "explanation": "Power P = Work / Time = 3000 J / 10 s = 300 J/s = 300 Watts."
+    },
+    {
+      "id": "c9_sci_wrk_05",
+      "question": "When an object is thrown vertically upward, what is the sign of the work done by the gravitational force of the Earth during its upward journey?",
+      "options": [
+        "Negative, because gravitational force acts downward opposite to the upward displacement (180°)",
+        "Positive, because the height is increasing",
+        "Zero, because gravity is a conservative force",
+        "Infinite"
+      ],
+      "correctAnswer": "Negative, because gravitational force acts downward opposite to the upward displacement (180°)",
+      "conceptTag": "Positive vs Negative Work",
+      "explanation": "Since gravity pulls downward while displacement is upward (θ = 180°, cos 180° = -1), the work done by gravity is negative (-mgh)."
+    },
+    {
+      "id": "c9_sci_wrk_06",
+      "question": "How does a simple machine like an inclined plane (ramp) make lifting a heavy load easier?",
+      "options": [
+        "It reduces the effort force required by increasing the distance over which the force is applied, keeping total work the same",
+        "It reduces the total gravitational work required to lift the load",
+        "It multiplies both force and speed simultaneously",
+        "It eliminates gravity acting on the load"
+      ],
+      "correctAnswer": "It reduces the effort force required by increasing the distance over which the force is applied, keeping total work the same",
+      "conceptTag": "Simple Machines & Mechanical Advantage",
+      "explanation": "By energy conservation, a simple machine cannot reduce total work (W = F × d); it trades a longer displacement d for a smaller applied force F."
+    },
+    {
+      "id": "c9_sci_wrk_07",
+      "question": "In a Class I lever, if the effort arm is 2 m and the load arm is 0.5 m, what is the Mechanical Advantage (MA)?",
+      "options": ["4", "0.25", "1", "2.5"],
+      "correctAnswer": "4",
+      "conceptTag": "Lever Principle & Mechanical Advantage",
+      "explanation": "Mechanical Advantage = Effort Arm / Load Arm = 2 m / 0.5 m = 4. The lever multiplies the input force by 4."
+    },
+    {
+      "id": "c9_sci_wrk_08",
+      "question": "Two bodies of unequal masses (m₁ < m₂) have the exact same kinetic energy. Which body has the greater linear momentum?",
+      "options": [
+        "The heavier body (m₂)",
+        "The lighter body (m₁)",
+        "Both have equal momentum",
+        "Cannot be determined without knowing their volume"
+      ],
+      "correctAnswer": "The heavier body (m₂)",
+      "conceptTag": "Kinetic Energy and Momentum Relation (p = √(2m·KE))",
+      "explanation": "Since KE = p² / (2m), we have p = √(2m · KE). For the same KE, momentum is proportional to √m, so the heavier mass has greater momentum."
+    }
+  ],
+
+  "Journey Inside the Atom": [
+    {
+      "id": "c9_sci_atm_01",
+      "question": "In Rutherford's alpha-particle scattering experiment, why did the vast majority of fast-moving alpha particles pass straight through the gold foil undeflected?",
+      "options": [
+        "Most of the space inside an atom is completely empty",
+        "Alpha particles carry zero electric charge",
+        "The nucleus occupies the entire volume of the atom",
+        "Electrons are heavy enough to pull alpha particles straight"
+      ],
+      "correctAnswer": "Most of the space inside an atom is completely empty",
+      "conceptTag": "Rutherford's Nuclear Model of the Atom",
+      "explanation": "Because almost all alpha particles passed through without deflection, Rutherford concluded that the positive charge and mass are concentrated in a tiny core, leaving most of the atom empty."
+    },
+    {
+      "id": "c9_sci_atm_02",
+      "question": "How did Niels Bohr resolve the stability problem of Rutherford's atomic model?",
+      "options": [
+        "He postulated that electrons revolve only in discrete stationary orbits without radiating energy",
+        "He proposed that electrons are stationary and embedded inside the nucleus",
+        "He stated that protons revolve around electrons",
+        "He removed neutrons from the atomic nucleus"
+      ],
+      "correctAnswer": "He postulated that electrons revolve only in discrete stationary orbits without radiating energy",
+      "conceptTag": "Bohr's Quantized Orbits Postulate",
+      "explanation": "Bohr proposed that electrons occupy fixed energy shells (K, L, M, N) and only emit or absorb energy when jumping between shells."
+    },
+    {
+      "id": "c9_sci_atm_03",
+      "question": "According to the Bohr-Bury scheme (2n²), what is the correct electronic configuration of a neutral Chlorine atom (Atomic number Z = 17)?",
+      "options": ["2, 8, 7", "2, 9, 6", "2, 7, 8", "8, 8, 1"],
+      "correctAnswer": "2, 8, 7",
+      "conceptTag": "Electronic Configuration Rules",
+      "explanation": "K shell holds max 2, L shell holds max 8, leaving the remaining 7 electrons in the outermost M shell (2, 8, 7)."
+    },
+    {
+      "id": "c9_sci_atm_04",
+      "question": "What is the valency of an element whose atomic number is 12 (Magnesium)?",
+      "options": ["2", "6", "8", "12"],
+      "correctAnswer": "2",
+      "conceptTag": "Valence Electrons vs Valency",
+      "explanation": "Z = 12 gives configuration 2, 8, 2. Having 2 valence electrons, it readily loses 2 electrons to achieve a stable octet, giving a valency of 2."
+    },
+    {
+      "id": "c9_sci_atm_05",
+      "question": "An atom has 11 protons, 11 electrons, and 12 neutrons. What is its Mass Number (A)?",
+      "options": ["23", "11", "22", "34"],
+      "correctAnswer": "23",
+      "conceptTag": "Atomic Number vs Mass Number (Nucleons)",
+      "explanation": "Mass Number (A) is the total number of nucleons (protons + neutrons) in the nucleus: 11 + 12 = 23."
+    },
+    {
+      "id": "c9_sci_atm_06",
+      "question": "Why do isotopes of an element (such as ¹²C and ¹⁴C) exhibit identical chemical properties but different physical properties?",
+      "options": [
+        "They have the same number of protons and valence electrons, but different numbers of neutrons",
+        "They have the same number of neutrons, but different numbers of electrons",
+        "They belong to different groups of the periodic table",
+        "They have identical atomic masses"
+      ],
+      "correctAnswer": "They have the same number of protons and valence electrons, but different numbers of neutrons",
+      "conceptTag": "Isotopes: Chemical vs Physical Behavior",
+      "explanation": "Chemical reactivity is governed solely by electronic configuration (which is identical in isotopes), whereas mass-dependent physical properties vary with neutron count."
+    },
+    {
+      "id": "c9_sci_atm_07",
+      "question": "How are Argon (₁₈Ar⁴⁰) and Calcium (₂₀Ca⁴⁰) related to each other?",
+      "options": [
+        "They are Isobars (different atomic numbers, same mass number)",
+        "They are Isotopes (same atomic number, different mass numbers)",
+        "They are allotropes of the same element",
+        "They have the same number of protons"
+      ],
+      "correctAnswer": "They are Isobars (different atomic numbers, same mass number)",
+      "conceptTag": "Isobars Identification",
+      "explanation": "Atoms of different elements with different atomic numbers (Z = 18 and Z = 20) that share the same mass number (A = 40) are called isobars."
+    },
+    {
+      "id": "c9_sci_atm_08",
+      "question": "Naturally occurring Chlorine consists of 75% ³⁵Cl and 25% ³⁷Cl. What is its average atomic mass?",
+      "options": ["35.5 u", "36.0 u", "35.0 u", "36.5 u"],
+      "correctAnswer": "35.5 u",
+      "conceptTag": "Fractional Average Atomic Mass Calculation",
+      "explanation": "Average mass = (35 × 0.75) + (37 × 0.25) = 26.25 + 9.25 = 35.5 u."
+    }
+  ],
+
+  "Atomic Foundations of Matter": [
+    {
+      "id": "c9_sci_fnd_01",
+      "question": "In a closed flask, 10 g of Calcium Carbonate (CaCO3) is strongly heated to produce 5.6 g of Calcium Oxide (CaO) and Carbon Dioxide (CO2) gas. What is the mass of CO2 produced?",
+      "options": ["4.4 g", "5.6 g", "15.6 g", "10.0 g"],
+      "correctAnswer": "4.4 g",
+      "conceptTag": "Law of Conservation of Mass",
+      "explanation": "By Lavoisier's Law of Conservation of Mass, total mass of reactants equals total mass of products: 10 g = 5.6 g + m(CO2) => m(CO2) = 4.4 g."
+    },
+    {
+      "id": "c9_sci_fnd_02",
+      "question": "Pure water obtained from any source always contains Hydrogen and Oxygen combined in the fixed mass ratio of 1 : 8. Which law does this illustrate?",
+      "options": [
+        "Law of Constant (Definite) Proportions",
+        "Law of Conservation of Energy",
+        "Dalton's Law of Partial Pressures",
+        "Avogadro's Hypothesis"
+      ],
+      "correctAnswer": "Law of Constant (Definite) Proportions",
+      "conceptTag": "Proust's Law of Definite Proportions",
+      "explanation": "Proust's Law states that in a pure chemical compound, the elements are always present in definite proportions by mass."
+    },
+    {
+      "id": "c9_sci_fnd_03",
+      "question": "If the valency of Aluminum is +3 (Al³⁺) and the valency of the Sulphate polyatomic ion is -2 (SO₄²⁻), what is the correct chemical formula of Aluminum Sulphate?",
+      "options": ["Al₂(SO₄)₃", "Al₃(SO₄)₂", "AlSO₄", "Al(SO₄)₃"],
+      "correctAnswer": "Al₂(SO₄)₃",
+      "conceptTag": "Criss-Cross Method & Polyatomic Ions",
+      "explanation": "Criss-crossing the charges (+3 and -2) requires 2 Al³⁺ ions (+6) to balance 3 SO₄²⁻ ions (-6), written with brackets as Al₂(SO₄)₃."
+    },
+    {
+      "id": "c9_sci_fnd_04",
+      "question": "What is the 'atomicity' of a Phosphorus molecule (P₄) and an Ozone molecule (O₃) respectively?",
+      "options": [
+        "4 (Tetra-atomic) and 3 (Tri-atomic)",
+        "1 (Monoatomic) and 2 (Diatomic)",
+        "2 and 3",
+        "8 and 2"
+      ],
+      "correctAnswer": "4 (Tetra-atomic) and 3 (Tri-atomic)",
+      "conceptTag": "Atomicity of Molecules",
+      "explanation": "Atomicity is the total number of atoms constituting a single molecule of a substance (P₄ has 4 atoms; O₃ has 3 atoms)."
+    },
+    {
+      "id": "c9_sci_fnd_05",
+      "question": "What is the molecular mass of Nitric Acid (HNO₃)? (Given atomic masses: H = 1 u, N = 14 u, O = 16 u)",
+      "options": ["63 u", "47 u", "31 u", "98 u"],
+      "correctAnswer": "63 u",
+      "conceptTag": "Molecular Mass Calculation",
+      "explanation": "Molecular mass of HNO₃ = 1(1) + 1(14) + 3(16) = 1 + 14 + 48 = 63 u."
+    },
+    {
+      "id": "c9_sci_fnd_06",
+      "question": "Which isotope was chosen by IUPAC as the standard reference unit for defining the atomic mass unit (1 u)?",
+      "options": [
+        "Carbon-12 isotope (1/12th the mass of one C-12 atom)",
+        "Oxygen-16 isotope",
+        "Hydrogen-1 isotope",
+        "Uranium-235 isotope"
+      ],
+      "correctAnswer": "Carbon-12 isotope (1/12th the mass of one C-12 atom)",
+      "conceptTag": "Standard Atomic Mass Unit Definition",
+      "explanation": "One unified atomic mass unit (1 u) is defined as exactly 1/12th of the mass of one unbound atom of Carbon-12."
+    },
+    {
+      "id": "c9_sci_fnd_07",
+      "question": "How does a sodium cation (Na⁺) differ from a neutral sodium atom (Na)?",
+      "options": [
+        "Na⁺ has one fewer electron than Na, giving it a stable octet and a net +1 charge, while proton count remains 11",
+        "Na⁺ has one extra proton in its nucleus compared to Na",
+        "Na⁺ has a larger atomic radius than neutral Na",
+        "Both have identical chemical reactivity with water"
+      ],
+      "correctAnswer": "Na⁺ has one fewer electron than Na, giving it a stable octet and a net +1 charge, while proton count remains 11",
+      "conceptTag": "Ion Formation (Cations vs Neutral Atoms)",
+      "explanation": "Ions form strictly by gaining or losing valence electrons; the nuclear proton count never changes during chemical reactions."
+    },
+    {
+      "id": "c9_sci_fnd_08",
+      "question": "How many moles are present in 88 g of Carbon Dioxide (CO₂)? (Atomic masses: C = 12 u, O = 16 u)",
+      "options": ["2 moles", "1 mole", "4 moles", "0.5 moles"],
+      "correctAnswer": "2 moles",
+      "conceptTag": "Mole Concept & Molar Mass",
+      "explanation": "Molar mass of CO₂ = 12 + 2(16) = 44 g/mol. Number of moles n = Given Mass / Molar Mass = 88 g / 44 g/mol = 2 moles."
+    }
+  ],
+
+  "Sound Waves: Characteristics and Applications": [
+    {
+      "id": "c9_sci_snd_01",
+      "question": "Why are sound waves in air classified as 'mechanical longitudinal waves'?",
+      "options": [
+        "They require a material medium to propagate, and air particles oscillate parallel to the direction of wave propagation",
+        "They can travel through vacuum and particles oscillate perpendicular to wave travel",
+        "They are electromagnetic waves like light",
+        "They transport air molecules permanently from the speaker to the listener"
+      ],
+      "correctAnswer": "They require a material medium to propagate, and air particles oscillate parallel to the direction of wave propagation",
+      "conceptTag": "Longitudinal vs Transverse Waves",
+      "explanation": "Sound propagates via alternating compressions and rarefactions where medium particles vibrate back and forth parallel to wave propagation."
+    },
+    {
+      "id": "c9_sci_snd_02",
+      "question": "Which wave property determines the 'pitch' (shrillness) of a sound, and which determines its 'loudness'?",
+      "options": [
+        "Frequency determines pitch; Amplitude determines loudness",
+        "Amplitude determines pitch; Frequency determines loudness",
+        "Wavelength determines loudness; Speed determines pitch",
+        "Speed determines both pitch and loudness"
+      ],
+      "correctAnswer": "Frequency determines pitch; Amplitude determines loudness",
+      "conceptTag": "Pitch vs Loudness Wave Correlates",
+      "explanation": "Higher frequency vibrations produce a higher-pitched (shriller) sound; larger wave amplitude carries more energy and produces a louder sound."
+    },
+    {
+      "id": "c9_sci_snd_03",
+      "question": "A sound wave has a frequency of 500 Hz and a wavelength of 0.68 m in air. What is the speed of sound in the medium?",
+      "options": ["340 m/s", "735 m/s", "170 m/s", "500.68 m/s"],
+      "correctAnswer": "340 m/s",
+      "conceptTag": "Wave Speed Relation (v = fλ)",
+      "explanation": "Wave speed v = frequency (f) × wavelength (λ) = 500 Hz × 0.68 m = 340 m/s."
+    },
+    {
+      "id": "c9_sci_snd_04",
+      "question": "In which of the following media does sound travel the fastest at room temperature?",
+      "options": ["Solid steel", "Liquid water", "Dry air", "Vacuum"],
+      "correctAnswer": "Solid steel",
+      "conceptTag": "Speed of Sound Across States of Matter",
+      "explanation": "Sound travels fastest in solids due to high elasticity and tightly packed particles (v_solid > v_liquid > v_gas; zero in vacuum)."
+    },
+    {
+      "id": "c9_sci_snd_05",
+      "question": "Taking the speed of sound in air as 344 m/s and the persistence of hearing as 0.1 s, what is the minimum distance required between a source and a reflecting wall to hear a distinct echo?",
+      "options": ["17.2 m", "34.4 m", "10.0 m", "68.8 m"],
+      "correctAnswer": "17.2 m",
+      "conceptTag": "Echo Minimum Distance Calculation",
+      "explanation": "Total round-trip distance 2d = v × t = 344 m/s × 0.1 s = 34.4 m. Therefore, one-way distance d = 34.4 / 2 = 17.2 m."
+    },
+    {
+      "id": "c9_sci_snd_06",
+      "question": "What is the normal audible frequency range for a healthy young human ear?",
+      "options": [
+        "20 Hz to 20,000 Hz (20 kHz)",
+        "0 Hz to 100 Hz",
+        "Above 20,000 Hz only",
+        "1 kHz to 100 kHz"
+      ],
+      "correctAnswer": "20 Hz to 20,000 Hz (20 kHz)",
+      "conceptTag": "Audible, Infrasonic, and Ultrasonic Ranges",
+      "explanation": "Humans hear between 20 Hz and 20 kHz. Frequencies below 20 Hz are infrasonic, and above 20 kHz are ultrasonic."
+    },
+    {
+      "id": "c9_sci_snd_07",
+      "question": "Why are the ceilings and walls of concert halls and cinema auditoriums curved and covered with sound-absorbent materials?",
+      "options": [
+        "To control excessive reverberation while ensuring uniform distribution of sound across the hall",
+        "To increase the speed of sound waves inside the building",
+        "To convert audible sound into ultrasound",
+        "To block light from reflecting off the walls"
+      ],
+      "correctAnswer": "To control excessive reverberation while ensuring uniform distribution of sound across the hall",
+      "conceptTag": "Reverberation & Acoustic Design",
+      "explanation": "Excessive multiple reflections (reverberation) cause overlapping sounds; absorbent padding dampens echoes while curved soundboards reflect sound evenly."
+    },
+    {
+      "id": "c9_sci_snd_08",
+      "question": "How is Ultrasound (frequency > 20 kHz) used to detect hidden cracks and flaws inside thick metallic blocks used in bridges?",
+      "options": [
+        "Ultrasonic waves are transmitted through the block and get reflected back from internal cracks/defects to detectors",
+        "Ultrasound melts the metal around the crack to seal it",
+        "Ultrasound changes the color of the metal surface",
+        "Ultrasound only travels through empty air pockets"
+      ],
+      "correctAnswer": "Ultrasonic waves are transmitted through the block and get reflected back from internal cracks/defects to detectors",
+      "conceptTag": "Non-Destructive Testing via Ultrasound",
+      "explanation": "Any internal boundary or air gap inside a metal block reflects ultrasonic pulses back early, revealing the exact location of structural flaws."
+    }
+  ],
+
+  "Reproduction: How Life Continues": [
+    {
+      "id": "c9_sci_rep_01",
+      "question": "What is the primary evolutionary advantage of sexual reproduction over asexual reproduction?",
+      "options": [
+        "It generates genetic variation through DNA recombination, helping populations adapt to changing environments",
+        "It requires only a single parent and is much faster",
+        "It produces genetically identical clones every generation",
+        "It completely prevents all genetic mutations"
+      ],
+      "correctAnswer": "It generates genetic variation through DNA recombination, helping populations adapt to changing environments",
+      "conceptTag": "Genetic Variation & Survival Advantage",
+      "explanation": "Combining DNA from two parents via meiosis and fertilization introduces variations that enable species survival under environmental shifts."
+    },
+    {
+      "id": "c9_sci_rep_02",
+      "question": "How does 'multiple fission' in Plasmodium (malaria parasite) differ from 'binary fission' in Amoeba?",
+      "options": [
+        "In multiple fission, the parent nucleus divides repeatedly within a cyst to form many daughter cells simultaneously",
+        "In multiple fission, only two unequal buds are formed",
+        "Binary fission requires two parents",
+        "Multiple fission only occurs in multicellular plants"
+      ],
+      "correctAnswer": "In multiple fission, the parent nucleus divides repeatedly within a cyst to form many daughter cells simultaneously",
+      "conceptTag": "Modes of Asexual Fission",
+      "explanation": "Amoeba splits into two cells by binary fission, whereas Plasmodium divides its nucleus multiple times inside a protective cyst before releasing dozens of daughter cells."
+    },
+    {
+      "id": "c9_sci_rep_03",
+      "question": "Why do agriculturists prefer 'vegetative propagation' (such as grafting or layering) for cultivating seedless fruits like banana, rose, and jasmine?",
+      "options": [
+        "It preserves desirable parental traits and enables propagation of plants that have lost the capacity to produce viable seeds",
+        "It introduces massive random genetic mutations",
+        "Plants grown by vegetative propagation take twice as long to bear flowers",
+        "It requires cross-pollination by insects"
+      ],
+      "correctAnswer": "It preserves desirable parental traits and enables propagation of plants that have lost the capacity to produce viable seeds",
+      "conceptTag": "Vegetative Propagation Advantages",
+      "explanation": "Vegetative propagation produces genetically uniform plants that flower and fruit earlier than seed-grown plants and bypasses seed sterility."
+    },
+    {
+      "id": "c9_sci_rep_04",
+      "question": "In a flowering plant (angiosperm), after fertilization, what do the 'ovule' and the 'ovary' develop into respectively?",
+      "options": [
+        "Ovule develops into a tough-coated Seed; Ovary ripens into a Fruit",
+        "Ovule develops into a Fruit; Ovary develops into a Seed",
+        "Both shrivel and fall off the plant",
+        "Ovule becomes the petal; Ovary becomes the sepal"
+      ],
+      "correctAnswer": "Ovule develops into a tough-coated Seed; Ovary ripens into a Fruit",
+      "conceptTag": "Post-Fertilization Changes in Flowers",
+      "explanation": "Following fertilization, the zygote inside the ovule forms the embryo, the ovule becomes the seed, and the surrounding ovary swells into the fruit."
+    },
+    {
+      "id": "c9_sci_rep_05",
+      "question": "Why does a complex multicellular organism like a dog or human NOT reproduce by simple regeneration when cut into pieces, unlike Planaria?",
+      "options": [
+        "Complex organisms have highly differentiated tissues organized into specialized organs, requiring complex developmental pathways rather than simple cell proliferation",
+        "Complex organisms do not undergo mitosis",
+        "Planaria is a prokaryotic organism",
+        "Human cells lack DNA in their somatic tissues"
+      ],
+      "correctAnswer": "Complex organisms have highly differentiated tissues organized into specialized organs, requiring complex developmental pathways rather than simple cell proliferation",
+      "conceptTag": "Regeneration vs True Reproduction",
+      "explanation": "Planaria possesses abundant pluripotent stem cells (neoblasts) distributed throughout its body, whereas higher vertebrates have specialized organ systems that cannot regrow a whole organism from a tissue fragment."
+    },
+    {
+      "id": "c9_sci_rep_06",
+      "question": "What is the biochemical event that lies at the core of all cellular reproduction?",
+      "options": [
+        "Replication (copying) of DNA to pass genetic blueprints to daughter cells",
+        "Destruction of all ribosomes",
+        "Conversion of proteins into carbohydrates",
+        "Fusion of two cell walls"
+      ],
+      "correctAnswer": "Replication (copying) of DNA to pass genetic blueprints to daughter cells",
+      "conceptTag": "DNA Replication as Basis of Reproduction",
+      "explanation": "DNA contains the information for making proteins that control body design; copying DNA is the fundamental first step before any cell divides."
+    },
+    {
+      "id": "c9_sci_rep_07",
+      "question": "What is the difference between 'self-pollination' and 'cross-pollination'?",
+      "options": [
+        "Self-pollination transfers pollen within the same flower (or plant); cross-pollination transfers pollen to a flower on a different plant of the same species",
+        "Self-pollination requires wind; cross-pollination occurs without any pollen",
+        "Cross-pollination occurs inside closed roots",
+        "Self-pollination only happens in non-flowering ferns"
+      ],
+      "correctAnswer": "Self-pollination transfers pollen within the same flower (or plant); cross-pollination transfers pollen to a flower on a different plant of the same species",
+      "conceptTag": "Pollination Mechanisms",
+      "explanation": "Cross-pollination brings together gametes from two genetically distinct plants via biotic (insects, birds) or abiotic (wind, water) agents."
+    },
+    {
+      "id": "c9_sci_rep_08",
+      "question": "In bread mould (Rhizopus), what are the thread-like non-reproductive vegetative structures and the blob-on-a-stick reproductive structures called?",
+      "options": [
+        "Hyphae (vegetative threads) and Sporangia (spore-bearing sacs)",
+        "Tentacles and Buds",
+        "Rhizoids and Flowers",
+        "Flagella and Cilia"
+      ],
+      "correctAnswer": "Hyphae (vegetative threads) and Sporangia (spore-bearing sacs)",
+      "conceptTag": "Spore Formation in Fungi",
+      "explanation": "Rhizopus grows as a mat of thread-like hyphae and reproduces asexually via thick-walled spores produced inside upright sporangia."
+    }
+  ],
+
+  "Patterns in Life: Diversity and Classification": [
+    {
+      "id": "c9_sci_div_01",
+      "question": "Which fundamental characteristic is used at the very first level to classify organisms into the kingdom Monera versus Protista, Fungi, Plantae, and Animalia?",
+      "options": [
+        "Whether the cell is prokaryotic (lacking a defined nucleus) or eukaryotic (having a membrane-bound nucleus)",
+        "Whether the organism lives on land or in water",
+        "Whether the organism can fly or walk",
+        "The size and body weight of the organism"
+      ],
+      "correctAnswer": "Whether the cell is prokaryotic (lacking a defined nucleus) or eukaryotic (having a membrane-bound nucleus)",
+      "conceptTag": "Whittaker's Five-Kingdom Classification Criteria",
+      "explanation": "Cellular structure (prokaryotic vs eukaryotic) is the most fundamental evolutionary division; Monera comprises all prokaryotes."
+    },
+    {
+      "id": "c9_sci_div_02",
+      "question": "Why are fungi (such as mushrooms and yeast) placed in a separate kingdom rather than in Kingdom Plantae?",
+      "options": [
+        "They are heterotrophic (saprophytic/parasitic), lack chlorophyll, and have cell walls made of chitin instead of cellulose",
+        "They do not have a cell wall at all",
+        "They are all unicellular prokaryotes",
+        "They can move rapidly using muscular legs"
+      ],
+      "correctAnswer": "They are heterotrophic (saprophytic/parasitic), lack chlorophyll, and have cell walls made of chitin instead of cellulose",
+      "conceptTag": "Kingdom Fungi Characteristics",
+      "explanation": "Unlike autotrophic plants with cellulose cell walls, fungi absorb dissolved organic matter (saprotrophs) and build their cell walls with chitin."
+    },
+    {
+      "id": "c9_sci_div_03",
+      "question": "Why are Bryophytes (such as mosses and liverworts) called the 'amphibians of the plant kingdom'?",
+      "options": [
+        "Although they grow in moist soil on land, they require a film of water for flagellated male gametes to swim and achieve fertilization",
+        "They can swim across oceans like frogs",
+        "They have gills and lungs for breathing",
+        "They feed on aquatic insects"
+      ],
+      "correctAnswer": "Although they grow in moist soil on land, they require a film of water for flagellated male gametes to swim and achieve fertilization",
+      "conceptTag": "Bryophytes Life Cycle & Habitat",
+      "explanation": "Bryophytes are non-vascular land plants that depend on external water for sexual reproduction (motile antherozoids)."
+    },
+    {
+      "id": "c9_sci_div_04",
+      "question": "How do Gymnosperms (like Pines and Cycas) differ from Angiosperms (like Mango and Mustard)?",
+      "options": [
+        "Gymnosperms bear naked seeds not enclosed within an ovary/fruit, whereas Angiosperms produce seeds enclosed inside a fruit",
+        "Gymnosperms do not produce seeds at all",
+        "Angiosperms lack xylem and phloem vascular tissues",
+        "Gymnosperms produce colorful flowers with petals"
+      ],
+      "correctAnswer": "Gymnosperms bear naked seeds not enclosed within an ovary/fruit, whereas Angiosperms produce seeds enclosed inside a fruit",
+      "conceptTag": "Gymnosperms vs Angiosperms (Spermatophytes)",
+      "explanation": "Gymnosperm means 'naked seed' (seeds borne on cone scales), while Angiosperm means 'covered seed' (ovules enclosed within a floral ovary)."
+    },
+    {
+      "id": "c9_sci_div_05",
+      "question": "In the binomial nomenclature system introduced by Carl Linnaeus, which is the correct way to write the scientific name of a human?",
+      "options": [
+        "Homo sapiens (Genus capitalized, species lowercase, both italicized or underlined separately)",
+        "homo Sapiens",
+        "HOMO SAPIENS",
+        "Homo Sapiens (both capitalized without italics)"
+      ],
+      "correctAnswer": "Homo sapiens (Genus capitalized, species lowercase, both italicized or underlined separately)",
+      "conceptTag": "Binomial Nomenclature Conventions",
+      "explanation": "By international taxonomic convention, the generic name starts with a capital letter, the specific epithet starts with a lowercase letter, and both are italicized."
+    },
+    {
+      "id": "c9_sci_div_06",
+      "question": "Which animal phylum is characterized by jointed appendages, a chitinous exoskeleton, and an open circulatory system (forming the largest phylum in Animalia)?",
+      "options": ["Arthropoda", "Mollusca", "Annelida", "Echinodermata"],
+      "correctAnswer": "Arthropoda",
+      "conceptTag": "Phylum Arthropoda Diagnostic Features",
+      "explanation": "Arthropoda ('jointed legs'—insects, spiders, crustaceans) is the largest animal phylum, featuring a chitinous exoskeleton and haemocoel."
+    },
+    {
+      "id": "c9_sci_div_07",
+      "question": "Whales and bats live in very different habitats (ocean vs air), yet both are classified under Class Mammalia because:",
+      "options": [
+        "Both are warm-blooded (homeothermic), have a four-chambered heart, breathe via lungs, and possess mammary glands to nourish young",
+        "Both lay calcareous eggs on land",
+        "Both have a two-chambered heart and gills",
+        "Both have feathers covering their skin"
+      ],
+      "correctAnswer": "Both are warm-blooded (homeothermic), have a four-chambered heart, breathe via lungs, and possess mammary glands to nourish young",
+      "conceptTag": "Homology & Mammalian Classification vs Habitat",
+      "explanation": "Taxonomic classification relies on fundamental anatomical and evolutionary homologies (mammary glands, viviparity, 4-chambered heart) rather than superficial habitat."
+    },
+    {
+      "id": "c9_sci_div_08",
+      "question": "What is the correct hierarchical sequence of taxonomic categories from broadest (highest) to most specific (lowest)?",
+      "options": [
+        "Kingdom -> Phylum/Division -> Class -> Order -> Family -> Genus -> Species",
+        "Kingdom -> Class -> Phylum -> Order -> Genus -> Family -> Species",
+        "Species -> Genus -> Family -> Order -> Class -> Phylum -> Kingdom",
+        "Phylum -> Kingdom -> Order -> Class -> Family -> Species -> Genus"
+      ],
+      "correctAnswer": "Kingdom -> Phylum/Division -> Class -> Order -> Family -> Genus -> Species",
+      "conceptTag": "Taxonomic Hierarchy Sequence",
+      "explanation": "Organisms are grouped in nested ranks from Kingdom down to the basic unit of classification, Species."
+    }
+  ],
+
+  "Earth as a System: Energy, Matter and Life": [
+    {
+      "id": "c9_sci_ear_01",
+      "question": "Why is it stated that in an ecosystem, 'energy flows unidirectionally, whereas matter (nutrients) cycles continuously'?",
+      "options": [
+        "Solar energy captured by producers is eventually dissipated as metabolic heat into space and cannot be reused by plants, whereas atoms (C, N, O) are recycled between biotic and abiotic pools",
+        "Nutrients are destroyed when animals eat plants",
+        "Heat energy is converted back into sunlight by decomposers",
+        "Matter enters Earth continuously from the Sun"
+      ],
+      "correctAnswer": "Solar energy captured by producers is eventually dissipated as metabolic heat into space and cannot be reused by plants, whereas atoms (C, N, O) are recycled between biotic and abiotic pools",
+      "conceptTag": "Energy Flow vs Biogeochemical Cycling",
+      "explanation": "Thermodynamics dictates that energy degrades into unrecoverable low-grade heat across trophic levels, while chemical elements are conserved in closed planetary cycles."
+    },
+    {
+      "id": "c9_sci_ear_02",
+      "question": "Why can green plants not absorb atmospheric Nitrogen gas (N₂) directly through their stomata the way they absorb Carbon Dioxide (CO₂)?",
+      "options": [
+        "The two nitrogen atoms in N₂ are held together by a very strong triple covalent bond (N≡N) that plants lack the enzymes to break",
+        "Nitrogen gas is too heavy to enter stomatal pores",
+        "Nitrogen is toxic to plant chlorophyll",
+        "Atmosphere contains less than 0.01% nitrogen"
+      ],
+      "correctAnswer": "The two nitrogen atoms in N₂ are held together by a very strong triple covalent bond (N≡N) that plants lack the enzymes to break",
+      "conceptTag": "Nitrogen Fixation Necessity",
+      "explanation": "N₂ is chemically inert due to its high bond dissociation energy; nitrogen-fixing bacteria (like Rhizobium) or lightning must convert it into nitrates/ammonium first."
+    },
+    {
+      "id": "c9_sci_ear_03",
+      "question": "According to Lindeman's 10% Law of trophic energy transfer, if producers capture 10,000 J of solar energy in biomass, how much energy is available to secondary consumers (3rd trophic level)?",
+      "options": ["100 J", "1,000 J", "10 J", "10,000 J"],
+      "correctAnswer": "100 J",
+      "conceptTag": "10% Law of Energy Transfer",
+      "explanation": "Producers (10,000 J) -> Primary Consumers/Herbivores (10% = 1,000 J) -> Secondary Consumers/Carnivores (10% of 1,000 J = 100 J)."
+    },
+    {
+      "id": "c9_sci_ear_04",
+      "question": "How is the 'natural greenhouse effect' beneficial for life on Earth, and why is its 'enhancement' dangerous?",
+      "options": [
+        "Natural greenhouse gases trap infrared heat to keep Earth's average temperature habitable (~15°C instead of -18°C), but excess fossil fuel emissions trap too much heat causing global warming",
+        "Greenhouse gases block all incoming visible light from the Sun",
+        "The greenhouse effect is caused by holes in the ozone layer",
+        "Carbon dioxide cools the atmosphere by reflecting sunlight"
+      ],
+      "correctAnswer": "Natural greenhouse gases trap infrared heat to keep Earth's average temperature habitable (~15°C instead of -18°C), but excess fossil fuel emissions trap too much heat causing global warming",
+      "conceptTag": "Greenhouse Effect & Radiative Forcing",
+      "explanation": "Greenhouse gases (CO2, CH4, H2O vapor) are transparent to incoming shortwave solar radiation but absorb outgoing longwave infrared radiation."
+    },
+    {
+      "id": "c9_sci_ear_05",
+      "question": "What is the role of stratospheric Ozone (O₃), and how does it differ from ground-level (tropospheric) ozone?",
+      "options": [
+        "Stratospheric ozone acts as a protective shield absorbing harmful UV radiation, whereas ground-level ozone is a toxic pollutant",
+        "Stratospheric ozone causes global warming, while ground-level ozone cures respiratory diseases",
+        "Ozone is needed by animals for cellular respiration instead of O₂",
+        "Both layers perform photosynthesis"
+      ],
+      "correctAnswer": "Stratospheric ozone acts as a protective shield absorbing harmful UV radiation, whereas ground-level ozone is a toxic pollutant",
+      "conceptTag": "Stratospheric Ozone Shield vs Tropospheric Smog",
+      "explanation": "High in the stratosphere, O3 absorbs mutagenic UV-B/C rays; at ground level, O3 is a poisonous oxidant formed in photochemical smog."
+    },
+    {
+      "id": "c9_sci_ear_06",
+      "question": "What drives the formation of coastal 'sea breezes' during the daytime?",
+      "options": [
+        "Land heats up faster than the sea (lower specific heat capacity), causing warm air over land to rise and cooler, denser air from the sea to rush in",
+        "The ocean boils during the afternoon",
+        "Earth's magnetic field pulls water vapor inland",
+        "Land cools down faster than the sea during the day"
+      ],
+      "correctAnswer": "Land heats up faster than the sea (lower specific heat capacity), causing warm air over land to rise and cooler, denser air from the sea to rush in",
+      "conceptTag": "Convection Currents & Differential Heating",
+      "explanation": "Soil has a much lower specific heat capacity than water, warming rapidly by day to create a low-pressure zone over land that draws in cool sea air."
+    },
+    {
+      "id": "c9_sci_ear_07",
+      "question": "In the nitrogen cycle, what is the specific role of 'denitrifying bacteria' (like Pseudomonas)?",
+      "options": [
+        "They convert soil nitrates back into free atmospheric nitrogen gas (N₂), completing the cycle",
+        "They convert atmospheric N₂ into ammonia in root nodules",
+        "They convert ammonia into nitrites",
+        "They digest plastic waste in soil"
+      ],
+      "correctAnswer": "They convert soil nitrates back into free atmospheric nitrogen gas (N₂), completing the cycle",
+      "conceptTag": "Nitrogen Cycle: Fixation, Nitrification, Denitrification",
+      "explanation": "Denitrifying bacteria reduce soil nitrates (NO3-) back to gaseous N2 under anaerobic conditions, returning nitrogen to the atmosphere."
+    },
+    {
+      "id": "c9_sci_ear_08",
+      "question": "Which two biological processes form the main reciprocal engine of the global Carbon and Oxygen cycles?",
+      "options": [
+        "Photosynthesis (fixes CO₂ and releases O₂) and Cellular Respiration (consumes O₂ and releases CO₂)",
+        "Transpiration and Guttation",
+        "Nitrogen fixation and Ammonification",
+        "Plasmolysis and Osmosis"
+      ],
+      "correctAnswer": "Photosynthesis (fixes CO₂ and releases O₂) and Cellular Respiration (consumes O₂ and releases CO₂)",
+      "conceptTag": "Coupled Carbon and Oxygen Cycles",
+      "explanation": "Photosynthesis converts inorganic CO2 and H2O into organic glucose and O2, while respiration oxidizes glucose back into CO2 and H2O."
+    }
+  ]
+}

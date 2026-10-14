@@ -1,0 +1,1982 @@
+{
+  "class": 11,
+  "subject": "Biology",
+  "BiologyMCQs": [
+    {
+      "id": "c11_bio_ch01_01",
+      "question": "Which of the following defines the term 'taxa' in biological classification?",
+      "options": [
+        "A scientific name of an organism",
+        "A taxonomic group of any rank",
+        "The species-specific epithet",
+        "A rank restricted only to species level"
+      ],
+      "correctAnswer": "A taxonomic group of any rank",
+      "conceptTag": "Taxonomic Hierarchy",
+      "explanation": "A taxon represents any unit or category of the taxonomic hierarchy (such as species, genus, family, order, class, etc.) at any level of classification."
+    },
+    {
+      "id": "c11_bio_ch01_02",
+      "question": "Binomial nomenclature was proposed by:",
+      "options": [
+        "Charles Darwin",
+        "Carolus Linnaeus",
+        "Ernst Mayr",
+        "Aristotle"
+      ],
+      "correctAnswer": "Carolus Linnaeus",
+      "conceptTag": "Nomenclature",
+      "explanation": "Carolus Linnaeus established the system of binomial nomenclature, where each organism is given a two-part scientific name consisting of a genus and a species epithet."
+    },
+    {
+      "id": "c11_bio_ch01_03",
+      "question": "Which of the following is a defining characteristic of all living organisms?",
+      "options": [
+        "Growth from inside",
+        "Consciousness",
+        "Ability to reproduce",
+        "Cellular organization alone"
+      ],
+      "correctAnswer": "Consciousness",
+      "conceptTag": "Defining Properties of Life",
+      "explanation": "Consciousness (response to environmental stimuli) is a defining property shared by all living organisms without exception, whereas growth and reproduction can have non-living or sterile exceptions."
+    },
+    {
+      "id": "c11_bio_ch01_04",
+      "question": "In the scientific name *Mangifera indica*, *Indica* represents the:",
+      "options": [
+        "Genus name",
+        "Specific epithet",
+        "Family name",
+        "Author citation"
+      ],
+      "correctAnswer": "Specific epithet",
+      "conceptTag": "Binomial Nomenclature Rules",
+      "explanation": "In binomial names, the first word denotes the genus (*Mangifera*) and the second word denotes the specific epithet (*indica*)."
+    },
+    {
+      "id": "c11_bio_ch01_05",
+      "question": "Herbarium is a store house of collected plant specimens that are:",
+      "options": [
+        "Kept alive in botanical gardens",
+        "Dried, pressed, and preserved on sheets",
+        "Stored in formalin solution in jars",
+        "Cultivated in glass houses"
+      ],
+      "correctAnswer": "Dried, pressed, and preserved on sheets",
+      "conceptTag": "Taxonomic Aids",
+      "explanation": "A herbarium is a repository of plant specimens that have been collected, dried, pressed, and preserved on standard sheets, labeled with classification data."
+    },
+    {
+      "id": "c11_bio_ch01_06",
+      "question": "Which taxonomic category comes immediately above Family in the hierarchical classification?",
+      "options": [
+        "Genus",
+        "Order",
+        "Class",
+        "Species"
+      ],
+      "correctAnswer": "Order",
+      "conceptTag": "Taxonomic Categories",
+      "explanation": "The ascending hierarchy order is Species $\\rightarrow$ Genus $\\rightarrow$ Family $\\rightarrow$ Order $\\rightarrow$ Class $\\rightarrow$ Phylum/Division $\\rightarrow$ Kingdom. Thus, Order is directly above Family."
+    },
+    {
+      "id": "c11_bio_ch01_07",
+      "question": "Key used for identification of plants and animals is generally based on:",
+      "options": [
+        "Similarities only",
+        "Contrasting characters usually in a pair called couplet",
+        "Random morphological features",
+        "DNA barcoding exclusively"
+      ],
+      "correctAnswer": "Contrasting characters usually in a pair called couplet",
+      "conceptTag": "Taxonomic Keys",
+      "explanation": "Taxonomic keys are analytical aids based on contrasting characters in pairs known as a couplet, where each statement in the couplet is a lead."
+    },
+    {
+      "id": "c11_bio_ch01_08",
+      "question": "Monograph contains information on:",
+      "options": [
+        "Any one taxon",
+        "All species of a particular area",
+        "Index of plant species of a region",
+        "Photographs of extinct animals"
+      ],
+      "correctAnswer": "Any one taxon",
+      "conceptTag": "Taxonomic Literature",
+      "explanation": "A monograph provides comprehensive information and detailed records regarding any single taxonomic category or taxon (such as a family or genus)."
+    },
+    {
+      "id": "c11_bio_ch02_01",
+      "question": "Who proposed the five-kingdom classification system?",
+      "options": [
+        "R.H. Whittaker",
+        "Carolus Linnaeus",
+        "Carl Woese",
+        "Aristotle"
+      ],
+      "correctAnswer": "R.H. Whittaker",
+      "conceptTag": "Five-Kingdom Classification",
+      "explanation": "R.H. Whittaker proposed the five-kingdom classification system in 1969, categorizing organisms into Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    {
+      "id": "c11_bio_ch02_02",
+      "question": "Which of the following organisms are known as chief producers in the oceans?",
+      "options": [
+        "Dinoflagellates",
+        "Diatoms",
+        "Euglenoids",
+        "Slime moulds"
+      ],
+      "correctAnswer": "Diatoms",
+      "conceptTag": "Chrysophytes / Diatoms",
+      "explanation": "Diatoms (chrysophytes) have cell walls embedded with silica forming indestructible frustules and are photosynthetic, serving as the primary photosynthetic producers in aquatic ecosystems."
+    },
+    {
+      "id": "c11_bio_ch02_03",
+      "question": "Red tides in oceans are frequently caused by the rapid multiplication of:",
+      "options": [
+        "Diatoms",
+        "Gonyaulax (Dinoflagellates)",
+        "Euglena",
+        "Red algae"
+      ],
+      "correctAnswer": "Gonyaulax (Dinoflagellates)",
+      "conceptTag": "Dinoflagellates",
+      "explanation": "Rapid multiplication of red dinoflagellates such as *Gonyaulax* makes the sea appear red ('red tide') and can release toxins lethal to marine life."
+    },
+    {
+      "id": "c11_bio_ch02_04",
+      "question": "Lichens represent a symbiotic association between:",
+      "options": [
+        "Algae and bacteria",
+        "Algae and fungi",
+        "Fungi and roots of higher plants",
+        "Viruses and host cells"
+      ],
+      "correctAnswer": "Algae and fungi",
+      "conceptTag": "Lichens",
+      "explanation": "Lichens are mutualistic symbiotic associations between an algal component (phycobiont) and a fungal component (mycobiont)."
+    },
+    {
+      "id": "c11_bio_ch02_05",
+      "question": "Contagium vivum fluidum ('infectious living fluid') for tobacco mosaic virus was coined by:",
+      "options": [
+        "D.J. Ivanowsky",
+        "M.W. Beijerinck",
+        "W.M. Stanley",
+        "Louis Pasteur"
+      ],
+      "correctAnswer": "M.W. Beijerinck",
+      "conceptTag": "Viruses",
+      "explanation": "Beijerinck demonstrated that extract of infected tobacco plants could cause infection in healthy plants and named the fluid *contagium vivum fluidum*."
+    },
+    {
+      "id": "c11_bio_ch02_06",
+      "question": "Viroids differ from viruses in lacking:",
+      "options": [
+        "RNA molecule",
+        "Protein coat (capsid)",
+        "Genetic material",
+        "Infectious nature"
+      ],
+      "correctAnswer": "Protein coat (capsid)",
+      "conceptTag": "Viroids",
+      "explanation": "Discovered by T.O. Diener, viroids consist of free low-molecular-weight RNA without the protein coat found in viruses."
+    },
+    {
+      "id": "c11_bio_ch02_07",
+      "question": "The fungal cell wall is primarily composed of:",
+      "options": [
+        "Cellulose",
+        "Chitin",
+        "Peptidoglycan",
+        "Pectin"
+      ],
+      "correctAnswer": "Chitin",
+      "conceptTag": "Fungi Characteristics",
+      "explanation": "Unlike plant cell walls which are cellulosic, fungal cell walls are composed of chitin (complex polysaccharide of N-acetylglucosamine)."
+    },
+    {
+      "id": "c11_bio_ch02_08",
+      "question": "Methanogens belong to which group of microorganisms?",
+      "options": [
+        "Eubacteria",
+        "Archaebacteria",
+        "Cyanobacteria",
+        "Actinomycetes"
+      ],
+      "correctAnswer": "Archaebacteria",
+      "conceptTag": "Archaebacteria",
+      "explanation": "Methanogens are anaerobic archaebacteria found in gut ruminants and marshy areas that produce methane gas."
+    },
+    {
+      "id": "c11_bio_ch03_01",
+      "question": "Asexual reproduction in most brown algae is by:",
+      "options": [
+        "Non-motile spores",
+        "Pyriform (pear-shaped) biflagellate zoospores",
+        "Aplanospores",
+        "Conidia"
+      ],
+      "correctAnswer": "Pyriform (pear-shaped) biflagellate zoospores",
+      "conceptTag": "Phaeophyceae (Brown Algae)",
+      "explanation": "Brown algae reproduce asexually through biflagellate zoospores that are pear-shaped (pyriform) with two unequal lateral flagella."
+    },
+    {
+      "id": "c11_bio_ch03_02",
+      "question": "Which of the following is considered the amphibian of the plant kingdom?",
+      "options": [
+        "Algae",
+        "Bryophytes",
+        "Pteridophytes",
+        "Gymnosperms"
+      ],
+      "correctAnswer": "Bryophytes",
+      "conceptTag": "Bryophytes",
+      "explanation": "Bryophytes live in soil but depend on water for sexual fertilization (sperm swimming to egg), earning them the title 'amphibians of the plant kingdom'."
+    },
+    {
+      "id": "c11_bio_ch03_03",
+      "question": "Prothallus in pteridophytes represents:",
+      "options": [
+        "Free-living photosynthetic gametophyte",
+        "Sporophytic main plant body",
+        "Parasitic sporophyte",
+        "Seed-bearing structure"
+      ],
+      "correctAnswer": "Free-living photosynthetic gametophyte",
+      "conceptTag": "Pteridophytes",
+      "explanation": "In pteridophytes, spores germinate to form a small, inconspicuous, free-living, mostly photosynthetic thalloid gametophyte called a prothallus."
+    },
+    {
+      "id": "c11_bio_ch03_04",
+      "question": "Heterospory—production of two kinds of spores (macro and microspores)—is a characteristic feature found in precursors of seed habit among:",
+      "options": [
+        "All bryophytes",
+        "Certain pteridophytes like *Selaginella* and *Salvinia*",
+        "All green algae",
+        "Mosses"
+      ],
+      "correctAnswer": "Certain pteridophytes like *Selaginella* and *Salvinia*",
+      "conceptTag": "Heterospory",
+      "explanation": "Heterospory (megaspores and microspores) is exhibited by pteridophytes such as *Selaginella* and *Salvinia*, marking an evolutionary step toward seed habit."
+    },
+    {
+      "id": "c11_bio_ch03_05",
+      "question": "Gymnosperms lack which of the following structures found in angiosperms?",
+      "options": [
+        "Seeds",
+        "Vascular bundles",
+        "Flowers and enclosed ovaries",
+        "Pollen grains"
+      ],
+      "correctAnswer": "Flowers and enclosed ovaries",
+      "conceptTag": "Gymnosperms",
+      "explanation": "Gymnosperms bear naked seeds because their ovules are not enclosed inside an ovary wall, and they lack true flowers."
+    },
+    {
+      "id": "c11_bio_ch03_06",
+      "question": "Coralloid roots associated with nitrogen-fixing cyanobacteria (*Nostoc*) are found in:",
+      "options": [
+        "*Pinus*",
+        "*Cycas*",
+        "*Cedrus*",
+        "*Ginkgo*"
+      ],
+      "correctAnswer": "*Cycas*",
+      "conceptTag": "Gymnosperm Roots",
+      "explanation": "*Cycas* roots form specialized symbiotic associations called coralloid roots that host nitrogen-fixing cyanobacteria."
+    },
+    {
+      "id": "c11_bio_ch03_07",
+      "question": "Double fertilization is a unique and universal event characteristic of:",
+      "options": [
+        "Bryophytes",
+        "Pteridophytes",
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "correctAnswer": "Angiosperms",
+      "conceptTag": "Angiosperms & Double Fertilization",
+      "explanation": "Double fertilization (synegy plus triple fusion resulting in zygote and primary endosperm nucleus) is unique to flowering plants (angiosperms)."
+    },
+    {
+      "id": "c11_bio_ch03_08",
+      "question": "What type of life cycle is exhibited by most algae such as *Spirogyra*?",
+      "options": [
+        "Haplontic",
+        "Diplontic",
+        "Haplo-diplontic",
+        "Triplontic"
+      ],
+      "correctAnswer": "Haplontic",
+      "conceptTag": "Plant Life Cycles",
+      "explanation": "Most algae have a haplontic life cycle where the dominant photosynthetic phase is free-living gametophyte (n) and zygote represents the only diploid phase."
+    },
+    {
+      "id": "c11_bio_ch04_01",
+      "question": "Water vascular system (locomotory tube feet) is a diagnostic feature of phylum:",
+      "options": [
+        "Annelida",
+        "Arthropoda",
+        "Echinodermata",
+        "Mollusca"
+      ],
+      "correctAnswer": "Echinodermata",
+      "conceptTag": "Echinodermata",
+      "explanation": "Echinoderms possess a characteristic water vascular system used for locomotion, respiration, and food capture via tube feet."
+    },
+    {
+      "id": "c11_bio_ch04_02",
+      "question": "Notochord is present throughout life in:",
+      "options": [
+        "Vertebrata",
+        "Urochordata",
+        "Cephalochordata",
+        "Hemichordata"
+      ],
+      "correctAnswer": "Cephalochordata",
+      "conceptTag": "Chordata Characteristics",
+      "explanation": "In subphylum Cephalochordata (e.g., *Amphioxus*), the notochord extends from head to tail region and persists throughout life."
+    },
+    {
+      "id": "c11_bio_ch04_03",
+      "question": "Which of the following animal groups is characterized by radial symmetry in adults and bilateral symmetry in larvae?",
+      "options": [
+        "Cnidaria",
+        "Echinodermata",
+        "Ctenophora",
+        "Porifera"
+      ],
+      "correctAnswer": "Echinodermata",
+      "conceptTag": "Symmetry in Animals",
+      "explanation": "Adult echinoderms exhibit radial symmetry, whereas their free-swimming larval forms show bilateral symmetry."
+    },
+    {
+      "id": "c11_bio_ch04_04",
+      "question": "Flame cells specialized for excretion and osmoregulation are found in:",
+      "options": [
+        "Platyhelminthes (Flatworms)",
+        "Aschelminths (Roundworms)",
+        "Annelida",
+        "Arthropoda"
+      ],
+      "correctAnswer": "Platyhelminthes (Flatworms)",
+      "conceptTag": "Platyhelminthes",
+      "explanation": "Flatworms (Platyhelminthes) possess specialized excretory cells called flame cells (protonephridia) for osmoregulation and excretion."
+    },
+    {
+      "id": "c11_bio_ch04_05",
+      "question": "Jointed appendages are a hallmark feature of phylum:",
+      "options": [
+        "Mollusca",
+        "Arthropoda",
+        "Annelida",
+        "Echinodermata"
+      ],
+      "correctAnswer": "Arthropoda",
+      "conceptTag": "Arthropoda",
+      "explanation": "Arthropods ('jointed feet') are characterized by jointed appendages, chitinous exoskeleton, and segmented bodies."
+    },
+    {
+      "id": "c11_bio_ch04_06",
+      "question": "Which of the following is an egg-laying (oviparous) mammal?",
+      "options": [
+        "Kangaroo",
+        "Platypus (*Ornithorhynchus*)",
+        "Whale",
+        "Bat"
+      ],
+      "correctAnswer": "Platypus (*Ornithorhynchus*)",
+      "conceptTag": "Mammalia / Prototheria",
+      "explanation": "Monotremes like the platypus and echidna are egg-laying mammals belonging to subclass Prototheria."
+    },
+    {
+      "id": "c11_bio_ch04_07",
+      "question": "Open circulatory system is found in:",
+      "options": [
+        "Annelids",
+        "Arthropods and non-cephalopod molluscs",
+        "Vertebrates",
+        "Cephalopods"
+      ],
+      "correctAnswer": "Arthropods and non-cephalopod molluscs",
+      "conceptTag": "Circulatory Systems",
+      "explanation": "Arthropods and most molluscs have an open circulatory system where blood flows in open tissue spaces (hemocoel) rather than enclosed vessels."
+    },
+    {
+      "id": "c11_bio_ch04_08",
+      "question": "Respiration through book lungs is characteristic of:",
+      "options": [
+        "Insects",
+        "Arachnids (Scorpions and Spiders)",
+        "Crustaceans",
+        "Annelids"
+      ],
+      "correctAnswer": "Arachnids (Scorpions and Spiders)",
+      "conceptTag": "Respiratory Organs in Arthropods",
+      "explanation": "Arachnids such as spiders and scorpions breathe using specialized internal leaf-like respiratory structures called book lungs."
+    },
+    {
+      "id": "c11_bio_ch05_01",
+      "question": "When flowers can be divided into two equal radial halves in any radial plane passing through the center, the condition is termed:",
+      "options": [
+        "Zygomorphic",
+        "Actinomorphic",
+        "Asymmetric",
+        "Hypogynous"
+      ],
+      "correctAnswer": "Actinomorphic",
+      "conceptTag": "Flower Symmetry",
+      "explanation": "Actinomorphic flowers possess radial symmetry (can be divided into two equal halves in any radial plane), whereas zygomorphic flowers show bilateral symmetry."
+    },
+    {
+      "id": "c11_bio_ch05_02",
+      "question": "In a hypogynous flower, the position of the ovary is:",
+      "options": [
+        "Inferior",
+        "Half-inferior",
+        "Superior",
+        "Embedded in thalamus"
+      ],
+      "correctAnswer": "Superior",
+      "conceptTag": "Position of Ovary",
+      "explanation": "In a hypogynous flower, the gynoecium occupies the highest position while other floral parts are situated below it, making the ovary superior."
+    },
+    {
+      "id": "c11_bio_ch05_03",
+      "question": "Vexillary aestivation (papilionaceous corolla with standard, wings, and keel) is characteristic of family:",
+      "options": [
+        "Fabaceae",
+        "Solanaceae",
+        "Liliaceae",
+        "Brassicaceae"
+      ],
+      "correctAnswer": "Fabaceae",
+      "conceptTag": "Fabaceae Family Features",
+      "explanation": "Fabaceae flowers characteristically exhibit vexillary aestivation featuring a large posterior standard (banner), two lateral wings, and two anterior fused keel petals."
+    },
+    {
+      "id": "c11_bio_ch05_04",
+      "question": "Placentation in which ovules develop on the inner walls of the ovary or on peripheral partitions (multilocular condition) is called:",
+      "options": [
+        "Marginal",
+        "Axile",
+        "Parietal",
+        "Free central"
+      ],
+      "correctAnswer": "Parietal",
+      "conceptTag": "Placentation",
+      "explanation": "In parietal placentation, ovules develop on the inner wall of the ovary or peripheral margins (often becoming multilocular due to false septum formation)."
+    },
+    {
+      "id": "c11_bio_ch05_05",
+      "question": "A modified underground stem with reduced disc-like stem and fleshy scale leaves (e.g., onion and garlic) is a:",
+      "options": [
+        "Rhizome",
+        "Tuber",
+        "Bulb",
+        "Corm"
+      ],
+      "correctAnswer": "Bulb",
+      "conceptTag": "Underground Stem Modifications",
+      "explanation": "A bulb (like onion and garlic) is a modified underground shoot consisting of a short, reduced stem surrounded by fleshy scale leaves that store food."
+    },
+    {
+      "id": "c11_bio_ch05_06",
+      "question": "The edible part of the coconut fruit is the:",
+      "options": [
+        "Epicarp",
+        "Mesocarp",
+        "Endosperm",
+        "Pericarp"
+      ],
+      "correctAnswer": "Endosperm",
+      "conceptTag": "Fruit Anatomy",
+      "explanation": "Coconut is a drupe with a fibrous mesocarp and hard endocarp; the edible portion consumed as kernel and coconut water is the liquid and cellular endosperm."
+    },
+    {
+      "id": "c11_bio_ch05_07",
+      "question": "A leaf is said to be compound when:",
+      "options": [
+        "Incisions of the lamina reach up to the midrib, breaking it into distinct leaflets",
+        "It possesses reticulate venation",
+        "The petiole is swollen",
+        "Stipules are modified into spines"
+      ],
+      "correctAnswer": "Incisions of the lamina reach up to the midrib, breaking it into distinct leaflets",
+      "conceptTag": "Leaf Morphology",
+      "explanation": "A leaf is compound when its lamina is completely incised down to the midrib or petiole, resulting in multiple separate leaflets sharing a common axis."
+    },
+    {
+      "id": "c11_bio_ch05_08",
+      "question": "Epipetalous stamens (stamens attached to petals) are typically observed in family:",
+      "options": [
+        "Fabaceae",
+        "Solanaceae",
+        "Brassicaceae",
+        "Poaceae"
+      ],
+      "correctAnswer": "Solanaceae",
+      "conceptTag": "Solanaceae Family Features",
+      "explanation": "Solanaceae family flowers typically feature epipetalous stamens attached to the petals along with syncarpous superior ovaries."
+    },
+    {
+      "id": "c11_bio_ch06_01",
+      "question": "The Casparian strip in plant roots is made of:",
+      "options": [
+        "Lignin and suberin",
+        "Cellulose and pectin",
+        "Cutin exclusively",
+        "Protein deposits"
+      ],
+      "correctAnswer": "Lignin and suberin",
+      "conceptTag": "Anatomy of Roots / Endodermis",
+      "explanation": "The tangential and radial walls of endodermal cells possess water-impermeable suberin and lignin depositions forming the Casparian strip."
+    },
+    {
+      "id": "c11_bio_ch06_02",
+      "question": "Stomata opening and closing is primarily governed by changes in:",
+      "options": [
+        "Turgor pressure of guard cells",
+        "Concentration of cuticle",
+        "Thickness of xylem vessels",
+        "Number of epidermal hairs"
+      ],
+      "correctAnswer": "Turgor pressure of guard cells",
+      "conceptTag": "Stomatal Mechanism",
+      "explanation": "Influx of potassium ions and water uptake increases guard cell turgor pressure, causing the inner walls to bow apart and open the stomatal pore."
+    },
+    {
+      "id": "c11_bio_ch06_03",
+      "question": "Vascular bundles in dicot stems are described as:",
+      "options": [
+        "Conjoint, collateral, and open",
+        "Conjoint, collateral, and closed",
+        "Radial and closed",
+        "Concentric and amphicribral"
+      ],
+      "correctAnswer": "Conjoint, collateral, and open",
+      "conceptTag": "Dicot Stem Anatomy",
+      "explanation": "Dicot stem vascular bundles are conjoint (xylem and phloem on same radius), collateral (phloem outside, xylem inside), and open because cambium is present for secondary growth."
+    },
+    {
+      "id": "c11_bio_ch06_04",
+      "question": "Heartwood differs from sapwood in:",
+      "options": [
+        "Being dark in color, dead, and durable due to deposition of resins and tannins",
+        "Conducting water actively",
+        "Being soft and light colored",
+        "Lacking secondary xylem"
+      ],
+      "correctAnswer": "Being dark in color, dead, and durable due to deposition of resins and tannins",
+      "conceptTag": "Secondary Growth / Wood",
+      "explanation": "Heartwood occupies the central region of old trees, consists of dead elements filled with organic compounds (resins, tannins), and provides mechanical support rather than water conduction."
+    },
+    {
+      "id": "c11_bio_ch06_05",
+      "question": "Bulliform cells responsible for rolling and unrolling of grass leaves to minimize water loss are modified:",
+      "options": [
+        "Epidermal cells",
+        "Guard cells",
+        "Bundle sheath cells",
+        "Mesophyll cells"
+      ],
+      "correctAnswer": "Epidermal cells",
+      "conceptTag": "Monocot Leaf Anatomy",
+      "explanation": "Bulliform cells are specialized, large, empty-looking adaxial epidermal cells in grass leaves that lose turgor during water stress, causing leaves to curl."
+    },
+    {
+      "id": "c11_bio_ch06_06",
+      "question": "Cork cambium (phellogen) produces:",
+      "options": [
+        "Cork (phellem) on the outside and secondary cortex (phelloderm) on the inside",
+        "Secondary xylem and secondary phloem",
+        "Wood and bark exclusively",
+        "Epidermis and cuticle"
+      ],
+      "correctAnswer": "Cork (phellem) on the outside and secondary cortex (phelloderm) on the inside",
+      "conceptTag": "Periderm Formation",
+      "explanation": "Phellogen (cork cambium) is a meristematic tissue that cuts off protective cork (phellem) cells outwardly and secondary cortex (phelloderm) inwardly."
+    },
+    {
+      "id": "c11_bio_ch06_07",
+      "question": "In a dorsiventral (dicot) leaf, the mesophyll is differentiated into:",
+      "options": [
+        "Palisade and spongy parenchyma",
+        "Bundle sheath and mesophyll",
+        "Sclerenchyma and collenchyma",
+        "Epidermis and cortex"
+      ],
+      "correctAnswer": "Palisade and spongy parenchyma",
+      "conceptTag": "Dicot Leaf Internal Structure",
+      "explanation": "Dicot leaves are dorsiventral, having their mesophyll differentiated into an upper palisade parenchyma and a lower spongy parenchyma."
+    },
+    {
+      "id": "c11_bio_ch06_08",
+      "question": "Which tissue provides mechanical strength to young dicotyledonous stems and petioles?",
+      "options": [
+        "Parenchyma",
+        "Collenchyma",
+        "Sclerenchyma",
+        "Aerenchyma"
+      ],
+      "correctAnswer": "Collenchyma",
+      "conceptTag": "Plant Tissues",
+      "explanation": "Collenchyma tissue features unevenly thickened corners with pectin/cellulose depositions, providing mechanical tensile strength and flexibility to growing stems and petioles."
+    },
+    {
+      "id": "c11_bio_ch07_01",
+      "question": "Intercalated discs with communication junctions (gap junctions) enabling synchronous contraction are found in:",
+      "options": [
+        "Skeletal muscle tissue",
+        "Cardiac muscle tissue",
+        "Smooth muscle tissue",
+        "Nerve tissue"
+      ],
+      "correctAnswer": "Cardiac muscle tissue",
+      "conceptTag": "Muscle Tissues",
+      "explanation": "Cardiac muscle fibers are branched and connected by intercalated discs containing gap junctions that allow wave-like synchronized contraction of the heart."
+    },
+    {
+      "id": "c11_bio_ch07_02",
+      "question": "Cuboidal epithelium with microvilli specialized for reabsorption in kidney nephrons is primarily located in:",
+      "options": [
+        "Proximal Convoluted Tubule (PCT)",
+        "Loop of Henle",
+        "Distal Convoluted Tubule",
+        "Collecting duct"
+      ],
+      "correctAnswer": "Proximal Convoluted Tubule (PCT)",
+      "conceptTag": "Epithelial Tissues",
+      "explanation": "The lining of the Proximal Convoluted Tubule (PCT) in kidney nephrons consists of microvilli-bearing brush border cuboidal epithelium for maximum reabsorption."
+    },
+    {
+      "id": "c11_bio_ch07_03",
+      "question": "The matrix of cartilage is composed of chondroitin salts and resilient protein fibers secreted by cells called:",
+      "options": [
+        "Osteocytes",
+        "Chondrocytes",
+        "Fibroblasts",
+        "Adipocytes"
+      ],
+      "correctAnswer": "Chondrocytes",
+      "conceptTag": "Connective Tissues",
+      "explanation": "Cartilage cells are called chondrocytes, which reside in fluid-filled lacunae within a solid, pliable matrix containing chondroitin sulfate."
+    },
+    {
+      "id": "c11_bio_ch07_04",
+      "question": "Haversian systems (osteons) with central canals are characteristic structural units of:",
+      "options": [
+        "Compact mammalian bone",
+        "Cartilage",
+        "Blood",
+        "Adipose tissue"
+      ],
+      "correctAnswer": "Compact mammalian bone",
+      "conceptTag": "Bone Anatomy",
+      "explanation": "Compact mammalian bone is structured into Haversian systems consisting of concentric bone lamellae surrounding central Haversian canals containing blood vessels and nerves."
+    },
+    {
+      "id": "c11_bio_ch07_05",
+      "question": "Malpighian tubules in cockroaches serve the function of:",
+      "options": [
+        "Respiration",
+        "Excretion and osmoregulation",
+        "Digestion of cellulose",
+        "Circulation of hemolymph"
+      ],
+      "correctAnswer": "Excretion and osmoregulation",
+      "conceptTag": "Cockroach Anatomy / Excretion",
+      "explanation": "Malpighian tubules are yellow-colored thread-like structures situated at the junction of midgut and hindgut in cockroaches that help remove nitrogenous wastes (uric acid)."
+    },
+    {
+      "id": "c11_bio_ch07_06",
+      "question": "The compound eyes of insects like cockroaches consist of thousands of structural and functional visual units called:",
+      "options": [
+        "Ommatidia",
+        "Rhabdoms",
+        "Sensilla",
+        "Ocelli"
+      ],
+      "correctAnswer": "Ommatidia",
+      "conceptTag": "Cockroach Sensory Organs",
+      "explanation": "Each compound eye of a cockroach is composed of up to 2000 hexagonal visual units called ommatidia, producing mosaic vision."
+    },
+    {
+      "id": "c11_bio_ch07_07",
+      "question": "Areolar connective tissue connects:",
+      "options": [
+        "Bone to bone",
+        "Muscle to bone",
+        "Skin to muscles",
+        "Bones of skull"
+      ],
+      "correctAnswer": "Skin to muscles",
+      "conceptTag": "Loose Connective Tissue",
+      "explanation": "Areolar tissue is a loose connective tissue commonly serving as a support framework for epithelium and connecting skin to underlying muscles."
+    },
+    {
+      "id": "c11_bio_ch07_08",
+      "question": "Heparin and histamine-secreting cells commonly found in connective tissue proper are:",
+      "options": [
+        "Fibroblasts",
+        "Mast cells",
+        "Macrophages",
+        "Plasma cells"
+      ],
+      "correctAnswer": "Mast cells",
+      "conceptTag": "Connective Tissue Cells",
+      "explanation": "Mast cells secrete heparin (anticoagulant), histamine (vasodilator), and serotonin, playing crucial roles in inflammatory and immune responses."
+    },
+    {
+      "id": "c11_bio_ch08_01",
+      "question": "Who formulated the classic Cell Theory stating that all living things are composed of cells and products of cells?",
+      "options": [
+        "Schleiden and Schwann",
+        "Rudolf Virchow",
+        "Antonie van Leeuwenhoek",
+        "Robert Hooke"
+      ],
+      "correctAnswer": "Schleiden and Schwann",
+      "conceptTag": "Cell Theory",
+      "explanation": "Matthias Schleiden and Theodor Schwann formulated the cell theory, later expanded by Rudolf Virchow (*Omnis cellula e cellula*)."
+    },
+    {
+      "id": "c11_bio_ch08_02",
+      "question": "Fluid mosaic model of plasma membrane structure was proposed by:",
+      "options": [
+        "Singer and Nicolson",
+        "Davson and Danielli",
+        "Robertson",
+        "Overton"
+      ],
+      "correctAnswer": "Singer and Nicolson",
+      "conceptTag": "Plasma Membrane",
+      "explanation": "S.J. Singer and G.L. Nicolson proposed the fluid mosaic model in 1972, describing proteins floating within a fluid phospholipid bilayer."
+    },
+    {
+      "id": "c11_bio_ch08_03",
+      "question": "Which organelle is referred to as the 'powerhouse of the cell' due to ATP production?",
+      "options": [
+        "Endoplasmic reticulum",
+        "Golgi apparatus",
+        "Mitochondria",
+        "Lysosome"
+      ],
+      "correctAnswer": "Mitochondria",
+      "conceptTag": "Mitochondria",
+      "explanation": "Mitochondria house oxidative phosphorylation enzymes on their inner membrane cristae, generating ATP to power cellular energy requirements."
+    },
+    {
+      "id": "c11_bio_ch08_04",
+      "question": "The 70S ribosomes found in prokaryotes and eukaryotic organelles (mitochondria/chloroplasts) consist of subunits:",
+      "options": [
+        "60S and 40S",
+        "50S and 30S",
+        "50S and 20S",
+        "40S and 30S"
+      ],
+      "correctAnswer": "50S and 30S",
+      "conceptTag": "Ribosomes",
+      "explanation": "Prokaryotic and organellar 70S ribosomes are composed of a larger 50S subunit and a smaller 30S subunit (whereas eukaryotic cytoplasmic ribosomes are 80S: 60S + 40S)."
+    },
+    {
+      "id": "c11_bio_ch08_05",
+      "question": "Axoneme of cilia and flagella typically exhibits which microtubular arrangement?",
+      "options": [
+        "9 + 0 array",
+        "9 + 2 array",
+        "9 + 1 array",
+        "8 + 2 array"
+      ],
+      "correctAnswer": "9 + 2 array",
+      "conceptTag": "Cytoskeleton / Cilia & Flagella",
+      "explanation": "The core of eukaryotic cilia and flagella (axoneme) features a '9 + 2' microtubular arrangement of peripheral doublets and central single microtubules."
+    },
+    {
+      "id": "c11_bio_ch08_06",
+      "question": "Plastids that store carbohydrates (like starch in potatoes) are termed:",
+      "options": [
+        "Chromoplasts",
+        "Chloroplasts",
+        "Amyloplasts",
+        "Elaioplasts"
+      ],
+      "correctAnswer": "Amyloplasts",
+      "conceptTag": "Plastids",
+      "explanation": "Leucoplasts are colorless plastids specialized for storage: amyloplasts store carbohydrates/starch, elaioplasts store oils, and aleuroplasts store proteins."
+    },
+    {
+      "id": "c11_bio_ch08_07",
+      "question": "Polytene chromosomes characterized by large puffs (Balbiani rings) are commonly found in salivary glands of:",
+      "options": [
+        "Humans",
+        "Chironomus larvae (Dipteran insects)",
+        "Amphibians",
+        "Plant root tips"
+      ],
+      "correctAnswer": "Chironomus larvae (Dipteran insects)",
+      "conceptTag": "Specialized Chromosomes",
+      "explanation": "Polytene chromosomes undergo repeated DNA replication without cell division, forming giant chromosomes with puffs active in transcription, found in dipteran fly larvae."
+    },
+    {
+      "id": "c11_bio_ch08_08",
+      "question": "Gas vacuoles for buoyancy in prokaryotes are found in:",
+      "options": [
+        "Blue-green algae, purple and green photosynthetic bacteria",
+        "All eukaryotic plant cells",
+        "Animal cells exclusively",
+        "Fungal hyphae"
+      ],
+      "correctAnswer": "Blue-green algae, purple and green photosynthetic bacteria",
+      "conceptTag": "Prokaryotic Inclusions",
+      "explanation": "Gas vacuoles provide buoyancy in aquatic prokaryotes such as blue-green algae and photosynthetic purple/green bacteria."
+    },
+    {
+      "id": "c11_bio_ch09_01",
+      "question": "The most abundant protein in the animal world is:",
+      "options": [
+        "Collagen",
+        "Rubisco",
+        "Keratin",
+        "Hemoglobin"
+      ],
+      "correctAnswer": "Collagen",
+      "conceptTag": "Proteins / Biomolecules",
+      "explanation": "Collagen is the most abundant protein in the animal kingdom (while Ribulose bisphosphate carboxylase-oxygenase or Rubisco is the most abundant protein in the whole biosphere/plants)."
+    },
+    {
+      "id": "c11_bio_ch09_02",
+      "question": "Which of the following is a structural polysaccharide found in plant cell walls?",
+      "options": [
+        "Glycogen",
+        "Starch",
+        "Cellulose",
+        "Inulin"
+      ],
+      "correctAnswer": "Cellulose",
+      "conceptTag": "Carbohydrates",
+      "explanation": "Cellulose is a homopolymer of glucose units linked by $\\beta$-1,4-glycosidic bonds, serving as the primary structural component of plant cell walls."
+    },
+    {
+      "id": "c11_bio_ch09_03",
+      "question": "Nucleotides consist of:",
+      "options": [
+        "Nitrogenous base + Pentose sugar",
+        "Nitrogenous base + Pentose sugar + Phosphate group",
+        "Nucleoside + Phosphate group",
+        "Both 2 and 3"
+      ],
+      "correctAnswer": "Both 2 and 3",
+      "conceptTag": "Nucleic Acids",
+      "explanation": "A nucleotide is composed of a nucleoside (nitrogenous base linked to pentose sugar) esterified with a phosphate group."
+    },
+    {
+      "id": "c11_bio_ch09_04",
+      "question": "Competitive enzyme inhibitors resemble the substrate and bind to the enzyme's:",
+      "options": [
+        "Allosteric site",
+        "Active site",
+        "Co-factor region",
+        "Protein backbone"
+      ],
+      "correctAnswer": "Active site",
+      "conceptTag": "Enzymes & Inhibition",
+      "explanation": "Competitive inhibitors have structural similarity to substrate molecules and compete for binding directly at the active site of the enzyme."
+    },
+    {
+      "id": "c11_bio_ch09_05",
+      "question": "Co-enzyme nicotinamide adenine dinucleotide (NAD) contains which essential vitamin derivative?",
+      "options": [
+        "Vitamin B1 (Thiamine)",
+        "Vitamin B3 (Niacin)",
+        "Vitamin B2 (Riboflavin)",
+        "Vitamin C"
+      ],
+      "correctAnswer": "Vitamin B3 (Niacin)",
+      "conceptTag": "Co-enzymes",
+      "explanation": "Many co-enzymes contain vitamins as essential components, such as NAD and NADP containing the vitamin niacin (B3)."
+    },
+    {
+      "id": "c11_bio_ch09_06",
+      "question": "Lipids are generally insoluble in water because they are:",
+      "options": [
+        "Hydrophobic and non-polar",
+        "Highly ionic",
+        "Composed of amino acid chains",
+        "Low molecular weight polymers"
+      ],
+      "correctAnswer": "Hydrophobic and non-polar",
+      "conceptTag": "Lipids",
+      "explanation": "Lipids are water-insoluble biomolecules composed predominantly of hydrocarbon chains that are hydrophobic and non-polar."
+    },
+    {
+      "id": "c11_bio_ch09_07",
+      "question": "Zwitterionic form of an amino acid at physiological pH possesses:",
+      "options": [
+        "Only positive charge",
+        "Only negative charge",
+        "Both positive and negative charges with net zero charge",
+        "No electrical charge at all"
+      ],
+      "correctAnswer": "Both positive and negative charges with net zero charge",
+      "conceptTag": "Amino Acids",
+      "explanation": "At its isoelectric pH, an amino acid exists as a dipolar ion (zwitterion) carrying both protonated amino group ($-NH_3^+$) and deprotonated carboxyl group ($-COO^-$)."
+    },
+    {
+      "id": "c11_bio_ch09_08",
+      "question": "In double-stranded DNA Watson-Crick model, Adenine pairs with Thymine through how many hydrogen bonds?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "conceptTag": "DNA Structure",
+      "explanation": "Adenine (A) pairs with Thymine (T) via two hydrogen bonds, while Guanine (G) pairs with Cytosine (C) via three hydrogen bonds."
+    },
+    {
+      "id": "c11_bio_ch10_01",
+      "question": "During which phase of the cell cycle does DNA replication take place?",
+      "options": [
+        "G1 phase",
+        "S phase",
+        "G2 phase",
+        "M phase"
+      ],
+      "correctAnswer": "S phase",
+      "conceptTag": "Interphase / DNA Synthesis",
+      "explanation": "The synthesis (S) phase of interphase is dedicated to DNA replication and histone synthesis, doubling the DNA content per cell."
+    },
+    {
+      "id": "c11_bio_ch10_02",
+      "question": "Crossing over—exchange of genetic material between non-sister chromatids of homologous chromosomes—occurs in:",
+      "options": [
+        "Leptotene",
+        "Pachytene",
+        "Diplotene",
+        "Diakinesis"
+      ],
+      "correctAnswer": "Pachytene",
+      "conceptTag": "Meiosis / Prophase I",
+      "explanation": "Pachytene stage of Prophase I is characterized by crossing over and recombination nodule formation between non-sister chromatids of homologous chromosomes."
+    },
+    {
+      "id": "c11_bio_ch10_03",
+      "question": "Dissolution of the synaptonemal complex and visualization of chiasmata takes place during:",
+      "options": [
+        "Zygotene",
+        "Pachytene",
+        "Diplotene",
+        "Metaphase I"
+      ],
+      "correctAnswer": "Diplotene",
+      "conceptTag": "Meiosis / Diplotene",
+      "explanation": "During diplotene, homologous chromosomes begin to separate, dissolving the synaptonemal complex, while chiasmata become visible at sites of previous crossing over."
+    },
+    {
+      "id": "c11_bio_ch10_04",
+      "question": "Cells that do not divide further exit G1 phase and enter an inactive quiescent stage termed:",
+      "options": [
+        "G0 phase",
+        "S phase",
+        "M phase",
+        "G2 checkpoint"
+      ],
+      "correctAnswer": "G0 phase",
+      "conceptTag": "Quiescent Stage (G0)",
+      "explanation": "Cells not actively dividing exit the cell cycle into G0 phase (quiescent stage) where they remain metabolically active without proliferating unless stimulated."
+    },
+    {
+      "id": "c11_bio_ch10_05",
+      "question": "At which stage of mitosis are chromosomes most condensed and best suited for microscopic study of morphology?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": "Metaphase",
+      "conceptTag": "Metaphase",
+      "explanation": "Metaphase is characterized by maximal chromosome condensation and alignment along the equatorial plate, making it ideal for karyotyping."
+    },
+    {
+      "id": "c11_bio_ch10_06",
+      "question": "Centromere splitting and chromatid separation toward opposite poles occurs during:",
+      "options": [
+        "Metaphase",
+        "Anaphase",
+        "Telophase",
+        "Prophase"
+      ],
+      "correctAnswer": "Anaphase",
+      "conceptTag": "Anaphase",
+      "explanation": "During anaphase, centromeres split simultaneously, pulling sister chromatids apart toward opposite spindle poles."
+    },
+    {
+      "id": "c11_bio_ch10_07",
+      "question": "Plant cytokinesis differs from animal cytokinesis through the formation of a:",
+      "options": [
+        "Cleavage furrow",
+        "Cell plate (phragmoplast)",
+        "Contractile ring of microfilaments",
+        "Centrosome apparatus"
+      ],
+      "correctAnswer": "Cell plate (phragmoplast)",
+      "conceptTag": "Cytokinesis",
+      "explanation": "Plant cells divide cytoplasm via cell plate formation originating from vesicle fusion (phragmoplast), unlike animal cells which divide by cleavage furrow constriction."
+    },
+    {
+      "id": "c11_bio_ch10_08",
+      "question": "What is the significance of meiosis?",
+      "options": [
+        "Conservation of chromosome number across generations through gamete reduction and introduction of genetic variation via recombination",
+        "Rapid tissue growth and repair",
+        "Production of genetically identical clones",
+        "Elimination of all mutations"
+      ],
+      "correctAnswer": "Conservation of chromosome number across generations through gamete reduction and introduction of genetic variation via recombination",
+      "conceptTag": "Significance of Meiosis",
+      "explanation": "Meiosis halves chromosome number to maintain ploidy in sexual reproduction and generates immense genetic diversity through crossing over and independent assortment."
+    },
+    {
+      "id": "c11_bio_ch11_01",
+      "question": "Who demonstrated that light is essential for plant photosynthesis using aquatic plants (*Hydrilla*)?",
+      "options": [
+        "Jan Ingenhousz",
+        "Joseph Priestley",
+        "Julius von Sachs",
+        "T.W. Engelmann"
+      ],
+      "correctAnswer": "Jan Ingenhousz",
+      "conceptTag": "Discovery of Photosynthesis",
+      "explanation": "Jan Ingenhousz showed that sunlight is essential to the plant process that purifies air, releasing oxygen bubbles only from green parts exposed to light."
+    },
+    {
+      "id": "c11_bio_ch11_02",
+      "question": "The primary acceptor of $CO_2$ in $C_3$ cycle plants is:",
+      "options": [
+        "Phosphoenolpyruvate (PEP)",
+        "Ribulose 1,5-bisphosphate (RuBP)",
+        "Oxaloacetic acid",
+        "PGA"
+      ],
+      "correctAnswer": "Ribulose 1,5-bisphosphate (RuBP)",
+      "conceptTag": "Calvin Cycle ($C_3$ Pathway)",
+      "explanation": "In $C_3$ plants, carbon dioxide fixation is catalyzed by Rubisco, with RuBP (a 5-carbon ketose sugar) acting as the primary $CO_2$ acceptor."
+    },
+    {
+      "id": "c11_bio_ch11_03",
+      "question": "Kranz anatomy with bundle sheath chloroplasts is characteristic of:",
+      "options": [
+        "$C_3$ plants",
+        "$C_4$ plants",
+        "CAM plants",
+        "Bryophytes"
+      ],
+      "correctAnswer": "$C_4$ plants",
+      "conceptTag": "Kranz Anatomy ($C_4$ Pathway)",
+      "explanation": "$C_4$ plants feature Kranz anatomy with large bundle sheath cells surrounding vascular bundles containing agranal chloroplasts specialized for Calvin cycle activity."
+    },
+    {
+      "id": "c11_bio_ch11_04",
+      "question": "Photosystem II (PS II) reaction center absorbs light at wavelength:",
+      "options": [
+        "700 nm",
+        "680 nm",
+        "400 nm",
+        "750 nm"
+      ],
+      "correctAnswer": "680 nm",
+      "conceptTag": "Photosystems",
+      "explanation": "The reaction center chlorophyll $a$ in Photosystem II has an absorption peak at 680 nm ($P_{680}$), whereas PS I absorbs maximally at 700 nm ($P_{700}$)."
+    },
+    {
+      "id": "c11_bio_ch11_05",
+      "question": "Chemiosmotic hypothesis explaining ATP synthesis in chloroplasts relies on the establishment of a proton gradient across:",
+      "options": [
+        "Thylakoid membrane",
+        "Outer mitochondrial membrane",
+        "Plasma membrane",
+        "Nuclear envelope"
+      ],
+      "correctAnswer": "Thylakoid membrane",
+      "conceptTag": "Chemiosmotic Hypothesis",
+      "explanation": "Protons accumulate inside the thylakoid lumen during photolysis and electron transport, creating an electrochemical proton gradient that drives ATP synthesis via $CF_0-CF_1$ ATP synthase."
+    },
+    {
+      "id": "c11_bio_ch11_06",
+      "question": "Splitting of water (photolysis) associated with oxygen evolution is linked directly to:",
+      "options": [
+        "Photosystem I",
+        "Photosystem II",
+        "Calvin cycle",
+        "Cyclic photophosphorylation"
+      ],
+      "correctAnswer": "Photosystem II",
+      "conceptTag": "Photolysis of Water",
+      "explanation": "Water splitting complex is associated with PS II on the lumenal side of the thylakoid membrane, releasing electrons, protons, and oxygen."
+    },
+    {
+      "id": "c11_bio_ch11_07",
+      "question": "C4 pathway plants are better adapted to tropical conditions because they:",
+      "options": [
+        "Minimize photorespiration",
+        "Do not require sunlight",
+        "Fix nitrogen directly",
+        "Operate at freezing temperatures"
+      ],
+      "correctAnswer": "Minimize photorespiration",
+      "conceptTag": "$C_4$ Advantage / Photorespiration",
+      "explanation": "$C_4$ plants utilize PEP carboxylase for initial $CO_2$ fixation, concentrating $CO_2$ in bundle sheath cells to virtually eliminate wasteful photorespiration."
+    },
+    {
+      "id": "c11_bio_ch11_08",
+      "question": "Blackman's Law of Limiting Factors states that when multiple factors affect a physiological process, its rate is determined by:",
+      "options": [
+        "The optimum factor",
+        "The slowest or nearest to its minimum factor (limiting factor)",
+        "The sum of all factors",
+        "Light intensity exclusively"
+      ],
+      "correctAnswer": "The slowest or nearest to its minimum factor (limiting factor)",
+      "conceptTag": "Law of Limiting Factors",
+      "explanation": "Blackman's law dictates that at any given time, the rate of photosynthesis is governed by the factor present in relative minimum (limiting factor)."
+    },
+    {
+      "id": "c11_bio_ch12_01",
+      "question": "Glycolysis (EMP pathway) takes place in which cellular compartment?",
+      "options": [
+        "Mitochondrial matrix",
+        "Cytoplasm (Cytosol)",
+        "Inner mitochondrial membrane",
+        "Thylakoid lumen"
+      ],
+      "correctAnswer": "Cytoplasm (Cytosol)",
+      "conceptTag": "Glycolysis",
+      "explanation": "Glycolysis occurs in the cytoplasm of all living cells, converting glucose into pyruvate without requiring oxygen."
+    },
+    {
+      "id": "c11_bio_ch12_02",
+      "question": "Link reaction bridging glycolysis and Krebs cycle converts pyruvate into acetyl-CoA with the release of:",
+      "options": [
+        "$CO_2$ and NADH",
+        "ATP only",
+        "$O_2$ and water",
+        "FADH_2"
+      ],
+      "correctAnswer": "$CO_2$ and NADH",
+      "conceptTag": "Link Reaction / Pyruvate Decarboxylation",
+      "explanation": "Oxidative decarboxylation of pyruvate by pyruvate dehydrogenase complex in the mitochondrial matrix yields acetyl-CoA, $CO_2$, and NADH."
+    },
+    {
+      "id": "c11_bio_ch12_03",
+      "question": "The first stable product formed in the Krebs cycle (TCA cycle) is:",
+      "options": [
+        "Citric acid (Citrate)",
+        "Oxaloacetic acid",
+        "Alpha-ketoglutaric acid",
+        "Malic acid"
+      ],
+      "correctAnswer": "Citric acid (Citrate)",
+      "conceptTag": "Krebs Cycle",
+      "explanation": "Acetyl-CoA condenses with oxaloacetate in the presence of citrate synthase to form the 6-carbon tricarboxylic acid, citric acid."
+    },
+    {
+      "id": "c11_bio_ch12_04",
+      "question": "What is the net gain of ATP molecules produced directly from one glucose molecule during aerobic cellular respiration?",
+      "options": [
+        "2 ATP",
+        "36 to 38 ATP",
+        "4 ATP",
+        "10 ATP"
+      ],
+      "correctAnswer": "36 to 38 ATP",
+      "conceptTag": "ATP Yield in Respiration",
+      "explanation": "Complete oxidation of one glucose molecule yields approximately 36 to 38 ATP molecules through glycolysis, TCA cycle, and oxidative phosphorylation."
+    },
+    {
+      "id": "c11_bio_ch12_05",
+      "question": "Respiratory quotient (RQ) for carbohydrate substrates like glucose is equal to:",
+      "options": [
+        "0.7",
+        "1.0",
+        "0.9",
+        "Infinity"
+      ],
+      "correctAnswer": "1.0",
+      "conceptTag": "Respiratory Quotient (RQ)",
+      "explanation": "RQ is the ratio of volume of $CO_2$ evolved to $O_2$ consumed. For carbohydrates, equal molecules of $CO_2$ and $O_2$ are exchanged, giving an RQ of 1.0."
+    },
+    {
+      "id": "c11_bio_ch12_06",
+      "question": "Terminal electron acceptor in the mitochondrial electron transport system (ETS) is:",
+      "options": [
+        "Water",
+        "Oxygen",
+        "Cytochrome c",
+        "Carbon dioxide"
+      ],
+      "correctAnswer": "Oxygen",
+      "conceptTag": "Electron Transport System",
+      "explanation": "Molecular oxygen acts as the final hydrogen and electron acceptor at Complex IV of the mitochondrial ETS, forming water."
+    },
+    {
+      "id": "c11_bio_ch12_07",
+      "question": "Fermentation (anaerobic respiration) yields how many net ATP molecules per glucose molecule broken down?",
+      "options": [
+        "38 ATP",
+        "2 ATP",
+        "8 ATP",
+        "30 ATP"
+      ],
+      "correctAnswer": "2 ATP",
+      "conceptTag": "Fermentation",
+      "explanation": "Glycolysis coupled with fermentation yields only 2 net ATP molecules because glucose is incompletely oxidized."
+    },
+    {
+      "id": "c11_bio_ch12_08",
+      "question": "Pentose phosphate pathway (hexose monophosphate shunt) operates in:",
+      "options": [
+        "Mitochondria",
+        "Cytoplasm",
+        "Chloroplast stroma",
+        "Nucleus"
+      ],
+      "correctAnswer": "Cytoplasm",
+      "conceptTag": "Alternative Pathways / PPP",
+      "explanation": "The pentose phosphate pathway is an alternative glucose oxidation route occurring in the cytoplasm that produces NADPH and ribose-5-phosphate."
+    },
+    {
+      "id": "c11_bio_ch13_01",
+      "question": "Who discovered the plant growth hormone auxin?",
+      "options": [
+        "F.W. Went",
+        "E. Kurosawa",
+        "F. Skoog",
+        "Charles Darwin"
+      ],
+      "correctAnswer": "F.W. Went",
+      "conceptTag": "Auxin Discovery",
+      "explanation": "F.W. Went isolated auxin from oat coleoptile tips (*Avena* curvature test), establishing its role in plant phototropic bending and growth."
+    },
+    {
+      "id": "c11_bio_ch13_02",
+      "question": "Which plant hormone promotes apical dominance, suppressing the growth of lateral buds?",
+      "options": [
+        "Cytokinin",
+        "Auxin",
+        "Gibberellin",
+        "Ethylene"
+      ],
+      "correctAnswer": "Auxin",
+      "conceptTag": "Auxin Functions",
+      "explanation": "High concentration of auxins synthesized at the shoot apex promotes apical dominance, inhibiting the outgrowth of lateral axillary buds."
+    },
+    {
+      "id": "c11_bio_ch13_03",
+      "question": "Bakane (foolish seedling) disease of rice plants led to the discovery of which plant growth hormone?",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "Abscisic acid"
+      ],
+      "correctAnswer": "Gibberellin",
+      "conceptTag": "Gibberellins Discovery",
+      "explanation": "Bakane disease caused by fungal pathogen *Gibberella fujikuroi* secreted gibberellic acid, causing abnormal stem elongation in rice."
+    },
+    {
+      "id": "c11_bio_ch13_04",
+      "question": "Which plant hormone is a gaseous compound that promotes fruit ripening and horizontal growth in seedlings?",
+      "options": [
+        "Abscisic acid",
+        "Ethylene",
+        "Auxin",
+        "Jasmonic acid"
+      ],
+      "correctAnswer": "Ethylene",
+      "conceptTag": "Ethylene",
+      "explanation": "Ethylene is a natural plant hormone in gaseous form that accelerates fruit ripening, senescence, and triple response in seedlings."
+    },
+    {
+      "id": "c11_bio_ch13_05",
+      "question": "Abscisic acid (ABA) is known as a stress hormone because it plays a major role in:",
+      "options": [
+        "Stomatal closure during water stress and seed dormancy induction",
+        "Cell elongation",
+        "Flowering induction in long-day plants",
+        "Root hair stimulation"
+      ],
+      "correctAnswer": "Stomatal closure during water stress and seed dormancy induction",
+      "conceptTag": "Abscisic Acid (ABA)",
+      "explanation": "ABA acts as an antitranspirant and stress hormone, triggering rapid stomatal closure during drought and maintaining seed dormancy."
+    },
+    {
+      "id": "c11_bio_ch13_06",
+      "question": "Photoperiodism—the physiological response of plants to relative lengths of light and dark periods—was first discovered in:",
+      "options": [
+        "Maryland Mammoth variety of tobacco",
+        "Arabidopsis thaliana",
+        "Oryza sativa",
+        "Pisum sativum"
+      ],
+      "correctAnswer": "Maryland Mammoth variety of tobacco",
+      "conceptTag": "Photoperiodism",
+      "explanation": "Garner and Allard discovered photoperiodism using a mutant tobacco variety called Maryland Mammoth."
+    },
+    {
+      "id": "c11_bio_ch13_07",
+      "question": "Vernalization refers to the promotion of flowering through:",
+      "options": [
+        "Low temperature treatment",
+        "High light intensity",
+        "Application of gibberellins",
+        "Water deprivation"
+      ],
+      "correctAnswer": "Low temperature treatment",
+      "conceptTag": "Vernalization",
+      "explanation": "Vernalization is the requirement of a chilling (low temperature) treatment to induce or accelerate flowering in biennial and winter annual plants."
+    },
+    {
+      "id": "c11_bio_ch13_08",
+      "question": "Sigmoidal growth curve typical of living organisms and plant organs exhibits phases in order of:",
+      "options": [
+        "Lag phase, Log (exponential) phase, and Stationary phase",
+        "Log phase, Lag phase, Death phase",
+        "Stationary phase, Exponential phase, Lag phase",
+        "Linear phase only"
+      ],
+      "correctAnswer": "Lag phase, Log (exponential) phase, and Stationary phase",
+      "conceptTag": "Plant Growth Kinetics",
+      "explanation": "A standard sigmoidal growth curve comprises an initial slow lag phase, a rapid exponential log phase, and a plateau stationary phase as nutrients limit growth."
+    },
+    {
+      "id": "c11_bio_ch14_01",
+      "question": "The partial pressure of oxygen ($PO_2$) in atmospheric air is approximately:",
+      "options": [
+        "40 mm Hg",
+        "104 mm Hg",
+        "159 mm Hg",
+        "95 mm Hg"
+      ],
+      "correctAnswer": "159 mm Hg",
+      "conceptTag": "Partial Pressures of Gases",
+      "explanation": "Atmospheric pressure is ~760 mm Hg. With $O_2$ composing roughly 21%, its partial pressure ($PO_2$) is $0.21 \\times 760 \\approx 159\\text{ mm Hg}$."
+    },
+    {
+      "id": "c11_bio_ch14_02",
+      "question": "Oxygen dissociation curve of hemoglobin shifts to the right (Bohr effect) under conditions of:",
+      "options": [
+        "High $PCO_2$, low pH, and high temperature",
+        "Low $PCO_2$, high pH, and low temperature",
+        "High oxygen concentration",
+        "Low metabolic activity"
+      ],
+      "correctAnswer": "High $PCO_2$, low pH, and high temperature",
+      "conceptTag": "Oxygen Dissociation Curve",
+      "explanation": "Conditions in exercising tissues (high $PCO_2$, low pH, high temperature) shift the oxygen dissociation curve to the right, promoting oxygen unloading from hemoglobin."
+    },
+    {
+      "id": "c11_bio_ch14_03",
+      "question": "Volume of air remaining in the lungs after a maximal forceful expiration is called:",
+      "options": [
+        "Residual Volume (RV)",
+        "Expiratory Reserve Volume (ERV)",
+        "Functional Residual Capacity (FRC)",
+        "Vital Capacity"
+      ],
+      "correctAnswer": "Residual Volume (RV)",
+      "conceptTag": "Respiratory Volumes",
+      "explanation": "Residual volume is the volume of air (typically 1100-1200 mL) remaining in lungs even after the most forceful expiration."
+    },
+    {
+      "id": "c11_bio_ch14_04",
+      "question": "Respiratory rhythm center regulating normal breathing pattern is located in the:",
+      "options": [
+        "Medulla oblongata",
+        "Pons varolii",
+        "Cerebellum",
+        "Hypothalamus"
+      ],
+      "correctAnswer": "Medulla oblongata",
+      "conceptTag": "Regulation of Respiration",
+      "explanation": "The primary respiratory rhythm center responsible for basic breathing control is located in the medulla oblongata of the brainstem."
+    },
+    {
+      "id": "c11_bio_ch14_05",
+      "question": "Carbon dioxide is transported in blood predominantly in the form of:",
+      "options": [
+        "Dissolved gas in plasma",
+        "Carbaminohemoglobin",
+        "Bicarbonate ions ($HCO_3^-$)",
+        "Carbonic acid"
+      ],
+      "correctAnswer": "Bicarbonate ions ($HCO_3^-$)",
+      "conceptTag": "Transport of $CO_2$",
+      "explanation": "Roughly 70% of $CO_2$ is transported as bicarbonate ions dissolved in plasma, facilitated by carbonic anhydrase within red blood cells."
+    },
+    {
+      "id": "c11_bio_ch14_06",
+      "question": "Total lung capacity (TLC) is equal to:",
+      "options": [
+        "TV + IRV",
+        "VC + RV",
+        "TV + ERV",
+        "FRC + IRV"
+      ],
+      "correctAnswer": "VC + RV",
+      "conceptTag": "Lung Capacities",
+      "explanation": "Total lung capacity is the maximum volume of air lungs can hold after a forced inspiration, combining vital capacity and residual volume ($TLC = VC + RV$)."
+    },
+    {
+      "id": "c11_bio_ch14_07",
+      "question": "Emphysema is a chronic respiratory disorder characterized by:",
+      "options": [
+        "Alveolar wall destruction and decreased respiratory surface area",
+        "Inflammation of bronchi and excessive mucus",
+        "Fibrosis of lung tissue due to silica dust",
+        "Bacterial infection of pleural cavity"
+      ],
+      "correctAnswer": "Alveolar wall destruction and decreased respiratory surface area",
+      "conceptTag": "Respiratory Disorders",
+      "explanation": "Emphysema (often caused by cigarette smoking) involves damage to alveolar walls, reducing gas exchange surface area and causing shortness of breath."
+    },
+    {
+      "id": "c11_bio_ch14_08",
+      "question": "Chloride shift (Hamburger phenomenon) maintains ionic balance during transport of:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Glucose"
+      ],
+      "correctAnswer": "Carbon dioxide",
+      "conceptTag": "Chloride Shift",
+      "explanation": "As bicarbonate ions diffuse out of RBCs into plasma during $CO_2$ transport, chloride ions ($Cl^-$) diffuse into RBCs to maintain electrical neutrality (chloride shift)."
+    },
+    {
+      "id": "c11_bio_ch15_01",
+      "question": "The pacemaker of the human heart is:",
+      "options": [
+        "Sinoatrial node (SAN)",
+        "Atrioventricular node (AVN)",
+        "Bundle of His",
+        "Purkinje fibers"
+      ],
+      "correctAnswer": "Sinoatrial node (SAN)",
+      "conceptTag": "Human Heart / Conduction System",
+      "explanation": "The sinoatrial node (SAN) generates spontaneous action potentials at highest frequency, pacing the heartbeat and acting as the natural pacemaker."
+    },
+    {
+      "id": "c11_bio_ch15_02",
+      "question": "During a standard ECG, the QRS complex represents:",
+      "options": [
+        "Depolarization of atria",
+        "Depolarization of ventricles",
+        "Repolarization of ventricles",
+        "Atrial diastole"
+      ],
+      "correctAnswer": "Depolarization of ventricles",
+      "conceptTag": "Electrocardiogram (ECG)",
+      "explanation": "In an ECG, the P wave represents atrial depolarization, the QRS complex represents ventricular depolarization, and the T wave represents ventricular repolarization."
+    },
+    {
+      "id": "c11_bio_ch15_03",
+      "question": "Normal cardiac output for a healthy human individual is approximately:",
+      "options": [
+        "70 mL",
+        "5 liters per minute",
+        "72 liters per minute",
+        "1.2 liters per minute"
+      ],
+      "correctAnswer": "5 liters per minute",
+      "conceptTag": "Cardiac Output",
+      "explanation": "Cardiac output is stroke volume (~70 mL) multiplied by heart rate (~72 beats/min), averaging roughly 5000 mL or 5 liters per minute."
+    },
+    {
+      "id": "c11_bio_ch15_04",
+      "question": "Rh incompatibility during pregnancy (Erythroblastosis fetalis) occurs when:",
+      "options": [
+        "Rh-positive mother carries an Rh-negative fetus",
+        "Rh-negative mother carries an Rh-positive fetus",
+        "Both parents are Rh-negative",
+        "Both parents are AB blood group"
+      ],
+      "correctAnswer": "Rh-negative mother carries an Rh-positive fetus",
+      "conceptTag": "Blood Groups / Rh Incompatibility",
+      "explanation": "Erythroblastosis fetalis can develop when an Rh-negative mother carries an Rh-positive fetus, leading to maternal anti-Rh antibody formation attacking subsequent Rh-positive fetal cells."
+    },
+    {
+      "id": "c11_bio_ch15_05",
+      "question": "The opening of pulmonary and aortic semilunar valves is responsible for producing which heart sound?",
+      "options": [
+        "First heart sound 'Lub'",
+        "Second heart sound 'Dub'",
+        "Third heart sound",
+        "Murmur sound"
+      ],
+      "correctAnswer": "Second heart sound 'Dub'",
+      "conceptTag": "Heart Sounds",
+      "explanation": "The first sound ('Lub') is associated with closure of AV valves, while the second sound ('Dub') is produced by the closure of semilunar valves at ventricular diastole start."
+    },
+    {
+      "id": "c11_bio_ch15_06",
+      "question": "Which of the following white blood cells are phagocytic cells involved in engulfing foreign pathogens?",
+      "options": [
+        "Neutrophils and monocytes",
+        "Eosinophils and basophils",
+        "Lymphocytes and platelets",
+        "Erythrocytes"
+      ],
+      "correctAnswer": "Neutrophils and monocytes",
+      "conceptTag": "Blood Cells / Leukocytes",
+      "explanation": "Neutrophils and monocytes (which differentiate into macrophages) are active phagocytic leukocytes that destroy foreign invaders in innate immunity."
+    },
+    {
+      "id": "c11_bio_ch15_07",
+      "question": "Portal system in which blood from digestive tract is conveyed directly to the liver before systemic circulation is the:",
+      "options": [
+        "Renal portal system",
+        "Hepatic portal system",
+        "Hypophyseal portal system",
+        "Coronary circulation"
+      ],
+      "correctAnswer": "Hepatic portal system",
+      "conceptTag": "Portal Systems",
+      "explanation": "The hepatic portal system connects capillary beds of the gastrointestinal tract to the liver via the hepatic portal vein for nutrient processing."
+    },
+    {
+      "id": "c11_bio_ch15_08",
+      "question": "Hypertension (high blood pressure) is defined clinically when blood pressure readings chronically exceed:",
+      "options": [
+        "120/80 mm Hg",
+        "140/90 mm Hg",
+        "100/60 mm Hg",
+        "160/100 mm Hg"
+      ],
+      "correctAnswer": "140/90 mm Hg",
+      "conceptTag": "Cardiovascular Disorders",
+      "explanation": "Blood pressure readings consistently above 140/90 mm Hg (systolic/diastolic) are clinically categorized as hypertension."
+    },
+    {
+      "id": "c11_bio_ch16_01",
+      "question": "The structural and functional filtering unit of the human kidney is the:",
+      "options": [
+        "Nephron",
+        "Ureter",
+        "Pyramid",
+        "Nephridia"
+      ],
+      "correctAnswer": "Nephron",
+      "conceptTag": "Kidney Anatomy / Nephron",
+      "explanation": "Each human kidney contains over a million nephrons, which are the fundamental structural and functional units responsible for urine formation."
+    },
+    {
+      "id": "c11_bio_ch16_02",
+      "question": "Counter-current mechanism operating in the Loop of Henle and vasa recta is primarily responsible for:",
+      "options": [
+        "Concentrating urine",
+        "Filtration of blood plasma",
+        "Secretion of creatinine",
+        "Acid-base balance"
+      ],
+      "correctAnswer": "Concentrating urine",
+      "conceptTag": "Counter-Current Mechanism",
+      "explanation": "The counter-current multiplier and exchanger mechanisms establish an osmotic gradient in the medullary interstitium, enabling the production of concentrated urine."
+    },
+    {
+      "id": "c11_bio_ch16_03",
+      "question": "Release of Antidiuretic Hormone (ADH / Vasopressin) is stimulated by:",
+      "options": [
+        "Osmoreceptor activation due to body fluid volume depletion or increased blood osmolarity",
+        "High blood pressure",
+        "Ingestion of large amounts of water",
+        "Inhibition of renin"
+      ],
+      "correctAnswer": "Osmoreceptor activation due to body fluid volume depletion or increased blood osmolarity",
+      "conceptTag": "Regulation of Kidney Function / ADH",
+      "explanation": "Hypothalamic osmoreceptors detect increased blood osmolarity and trigger ADH release from the neurohypophysis to promote water reabsorption in distal tubules."
+    },
+    {
+      "id": "c11_bio_ch16_04",
+      "question": "Juxtaglomerular Apparatus (JGA) regulates glomerular filtration rate (GFR) by releasing:",
+      "options": [
+        "Renin",
+        "Erythropoietin",
+        "Aldosterone",
+        "Atrial Natriuretic Factor"
+      ],
+      "correctAnswer": "Renin",
+      "conceptTag": "Juxtaglomerular Apparatus (JGA)",
+      "explanation": "A fall in glomerular blood flow stimulates JGA cells to release renin, activating the Renin-Angiotensin-Aldosterone system to restore blood pressure and GFR."
+    },
+    {
+      "id": "c11_bio_ch16_05",
+      "question": "Presence of glucose (glucosuria) and ketone bodies (ketonuria) in urine is diagnostic indicator of:",
+      "options": [
+        "Diabetes mellitus",
+        "Diabetes insipidus",
+        "Glomerulonephritis",
+        "Uremia"
+      ],
+      "correctAnswer": "Diabetes mellitus",
+      "conceptTag": "Excretory Disorders",
+      "explanation": "Glucosuria (glucose in urine) and ketonuria indicate diabetes mellitus, where blood glucose exceeds renal threshold reabsorption capacity."
+    },
+    {
+      "id": "c11_bio_ch16_06",
+      "question": "Nitrogenous waste excreted in the form of uric acid (uricotelic excretion) is typical of:",
+      "options": [
+        "Birds, reptiles, and land snails",
+        "Amphibians and bony fishes",
+        "Mammals and cartilaginous fishes",
+        "Aquatic insects"
+      ],
+      "correctAnswer": "Birds, reptiles, and land snails",
+      "conceptTag": "Types of Nitrogenous Wastes",
+      "explanation": "Uricotelism (excreting uric acid as paste/pellets with minimal water loss) is characteristic of birds, land reptiles, and insects."
+    },
+    {
+      "id": "c11_bio_ch16_07",
+      "question": "Dialysing fluid used in artificial kidney (hemodialysis) machines contains all plasma solutes except:",
+      "options": [
+        "Glucose",
+        "Amino acids",
+        "Nitrogenous wastes (urea)",
+        "Mineral ions"
+      ],
+      "correctAnswer": "Nitrogenous wastes (urea)",
+      "conceptTag": "Hemodialysis",
+      "explanation": "Dialysis fluid has an osmotic composition identical to plasma except for lacking nitrogenous wastes, allowing urea to diffuse out of patient blood down its concentration gradient."
+    },
+    {
+      "id": "c11_bio_ch16_08",
+      "question": "Glomerular Filtration Rate (GFR) in a healthy adult human is approximately:",
+      "options": [
+        "125 mL per minute",
+        "5 liters per minute",
+        "1.5 liters per day",
+        "500 mL per day"
+      ],
+      "correctAnswer": "125 mL per minute",
+      "conceptTag": "Glomerular Filtration Rate",
+      "explanation": "The kidneys filter approximately 125 mL of blood plasma per minute, amounting to nearly 180 liters filtered per day."
+    },
+    {
+      "id": "c11_bio_ch17_01",
+      "question": "The sliding filament theory of muscle contraction explains that muscle shortening occurs as:",
+      "options": [
+        "Actin filaments slide over myosin filaments",
+        "Myosin filaments shorten in length",
+        "Z-lines move farther apart",
+        "A-bands disappear completely"
+      ],
+      "correctAnswer": "Actin filaments slide over myosin filaments",
+      "conceptTag": "Sliding Filament Theory",
+      "explanation": "Muscle contraction occurs according to the sliding filament theory where thin actin filaments slide inward over thick myosin filaments, shortening the sarcomere."
+    },
+    {
+      "id": "c11_bio_ch17_02",
+      "question": "The neurotransmitter released at the neuromuscular junction initiating muscle action potential is:",
+      "options": [
+        "Acetylcholine",
+        "Adrenaline",
+        "Dopamine",
+        "Serotonin"
+      ],
+      "correctAnswer": "Acetylcholine",
+      "conceptTag": "Neuromuscular Junction",
+      "explanation": "Nerve impulses arriving at the neuromuscular junction trigger acetylcholine release, which binds to sarcolemma receptors and depolarizes the muscle fiber."
+    },
+    {
+      "id": "c11_bio_ch17_03",
+      "question": "Which ions play an essential role in muscle contraction by binding to troponin and uncovering myosin-binding sites on actin?",
+      "options": [
+        "Calcium ions ($Ca^{2+}$)",
+        "Sodium ions ($Na^+$)",
+        "Potassium ions ($K^+$)",
+        "Magnesium ions ($Mg^{2+}$)"
+      ],
+      "correctAnswer": "Calcium ions ($Ca^{2+}$)",
+      "conceptTag": "Role of Calcium in Muscle Contraction",
+      "explanation": "Calcium ions released from the sarcoplasmic reticulum bind to troponin, causing tropomyosin to shift and expose myosin-binding sites on actin."
+    },
+    {
+      "id": "c11_bio_ch17_04",
+      "question": "Pivot joint allowing rotational movement of the head (atlas and axis vertebrae) is an example of:",
+      "options": [
+        "Synovial joint",
+        "Cartilaginous joint",
+        "Fibrous joint",
+        "Suture joint"
+      ],
+      "correctAnswer": "Synovial joint",
+      "conceptTag": "Joints",
+      "explanation": "The pivot joint between the atlas and axis vertebrae is a type of synovial joint permitting rotational head movement."
+    },
+    {
+      "id": "c11_bio_ch17_05",
+      "question": "Osteoporosis—age-related bone disorder characterized by decreased bone mass and increased fracture risk—is frequently linked to deficiency of:",
+      "options": [
+        "Estrogen / Calcium",
+        "Insulin",
+        "Thyroxine",
+        "Vitamin C"
+      ],
+      "correctAnswer": "Estrogen / Calcium",
+      "conceptTag": "Skeletal Disorders",
+      "explanation": "Osteoporosis involves progressive bone decalcification and matrix loss, commonly associated with declining estrogen levels in post-menopausal women and calcium deficiency."
+    },
+    {
+      "id": "c11_bio_ch17_06",
+      "question": "Ribs that are attached directly to the sternum via hyaline cartilage are known as:",
+      "options": [
+        "True ribs (1st to 7th pairs)",
+        "False ribs (8th to 10th pairs)",
+        "Floating ribs (11th and 12th pairs)",
+        "Cervical ribs"
+      ],
+      "correctAnswer": "True ribs (1st to 7th pairs)",
+      "conceptTag": "Human Skeletal System / Ribs",
+      "explanation": "The first seven pairs of ribs are true ribs attached directly to the sternum anteriorly; pairs 8-10 are false ribs, and pairs 11-12 are floating ribs."
+    },
+    {
+      "id": "c11_bio_ch17_07",
+      "question": "The functional contractile unit of a skeletal muscle fiber situated between two successive Z-lines is the:",
+      "options": [
+        "Sarcomere",
+        "Sarcolemma",
+        "Sarcoplasm",
+        "Myofibril"
+      ],
+      "correctAnswer": "Sarcomere",
+      "conceptTag": "Sarcomere Structure",
+      "explanation": "A sarcomere is the repeating structural unit of a striated myofibril bounded by Z-lines, containing actin and myosin filaments."
+    },
+    {
+      "id": "c11_bio_ch17_08",
+      "question": "Myasthenia gravis is an autoimmune disorder affecting:",
+      "options": [
+        "Neuromuscular junction receptors",
+        "Synovial membranes of joints",
+        "Bone mineral density",
+        "Cartilage elasticity"
+      ],
+      "correctAnswer": "Neuromuscular junction receptors",
+      "conceptTag": "Muscular Disorders",
+      "explanation": "Myasthenia gravis is an autoimmune condition where antibodies attack acetylcholine receptors at the neuromuscular junction, causing progressive muscle fatigue and weakness."
+    },
+    {
+      "id": "c11_bio_ch18_01",
+      "question": "Resting membrane potential of a nerve fiber is maintained primarily due to differential permeability and action of:",
+      "options": [
+        "Sodium-Potassium pump ($Na^+-K^+$ ATPase pump)",
+        "Calcium channels",
+        "Voltage-gated potassium channels alone",
+        "Chloride pumps"
+      ],
+      "correctAnswer": "Sodium-Potassium pump ($Na^+-K^+$ ATPase pump)",
+      "conceptTag": "Resting Membrane Potential",
+      "explanation": "The resting membrane potential (~ -70 mV) is established and maintained by active transport via $Na^+-K^+$ pumps pumping 3 $Na^+$ out and 2 $K^+$ in, alongside leak channels."
+    },
+    {
+      "id": "c11_bio_ch18_02",
+      "question": "Saltatory conduction of nerve impulses occurs along myelinated nerve fibers because action potentials jump between:",
+      "options": [
+        "Nodes of Ranvier",
+        "Dendritic branches",
+        "Synaptic clefts",
+        "Nissl granules"
+      ],
+      "correctAnswer": "Nodes of Ranvier",
+      "conceptTag": "Nerve Impulse Conduction",
+      "explanation": "Myelin sheath acts as an electrical insulator; hence, action potentials jump rapidly from one unmyelinated Node of Ranvier to the next (saltatory conduction)."
+    },
+    {
+      "id": "c11_bio_ch18_03",
+      "question": "The photoreceptor cells in the human retina responsible for color vision and high-acuity daylight vision are:",
+      "options": [
+        "Rods",
+        "Cones",
+        "Bipolar cells",
+        "Ganglion cells"
+      ],
+      "correctAnswer": "Cones",
+      "conceptTag": "Human Eye / Photoreceptors",
+      "explanation": "Cones provide photopic (daylight) color vision, whereas rods are specialized for scotopic (dim light) monochrome vision."
+    },
+    {
+      "id": "c11_bio_ch18_04",
+      "question": "The organ of Corti responsible for auditory transduction is located within the:",
+      "options": [
+        "Scala media (Cochlear duct)",
+        "Semicircular canals",
+        "Utricle and saccule",
+        "Eustachian tube"
+      ],
+      "correctAnswer": "Scala media (Cochlear duct)",
+      "conceptTag": "Human Ear / Organ of Corti",
+      "explanation": "The organ of Corti resting on the basilar membrane inside the scala media contains hair cells that transduce fluid vibrations into nerve impulses."
+    },
+    {
+      "id": "c11_bio_ch18_05",
+      "question": "Synaptic transmission across a chemical synapse involves neurotransmitters binding to receptors on the:",
+      "options": [
+        "Presynaptic membrane",
+        "Postsynaptic membrane",
+        "Axon hillock",
+        "Myelin sheath"
+      ],
+      "correctAnswer": "Postsynaptic membrane",
+      "conceptTag": "Synaptic Transmission",
+      "explanation": "Neurotransmitter vesicles fuse with the presynaptic membrane, releasing molecules into the synaptic cleft to bind receptors on the postsynaptic membrane."
+    },
+    {
+      "id": "c11_bio_ch18_06",
+      "question": "The part of the human brain that acts as a major relay center for sensory and motor signaling and coordinates body temperature is:",
+      "options": [
+        "Thalamus and Hypothalamus",
+        "Cerebellum",
+        "Medulla oblongata",
+        "Cerebral cortex"
+      ],
+      "correctAnswer": "Thalamus and Hypothalamus",
+      "conceptTag": "Diencephalon / Brain Anatomy",
+      "explanation": "The diencephalon includes the thalamus (sensory relay) and hypothalamus (master control center for homeostasis, body temperature, thirst, and hunger)."
+    },
+    {
+      "id": "c11_bio_ch18_07",
+      "question": "Blind spot in the human retina is the region where:",
+      "options": [
+        "Optic nerve leaves the eye and photoreceptor cells are absent",
+        "Cone cells are densely packed (fovea centralis)",
+        "Blood vessels do not exist",
+        "Cornea meets sclera"
+      ],
+      "correctAnswer": "Optic nerve leaves the eye and photoreceptor cells are absent",
+      "conceptTag": "Eye Anatomy / Blind Spot",
+      "explanation": "The blind spot is the optic disc where optic nerve fibers exit the eye and retinal blood vessels enter; it lacks rods and cones."
+    },
+    {
+      "id": "c11_bio_ch18_08",
+      "question": "Eustachian tube connects the middle ear cavity with the:",
+      "options": [
+        "Pharynx",
+        "Nasal cavity",
+        "External auditory meatus",
+        "Cranial meninges"
+      ],
+      "correctAnswer": "Pharynx",
+      "conceptTag": "Ear Anatomy",
+      "explanation": "The Eustachian tube connects the middle ear cavity to the pharynx, helping equalize air pressure on both sides of the tympanic membrane."
+    },
+    {
+      "id": "c11_bio_ch19_01",
+      "question": "Hypersecretion of growth hormone in adults leading to abnormal disproportionate growth of hands, feet, and facial bones is termed:",
+      "options": [
+        "Acromegaly",
+        "Gigantism",
+        "Dwarfism",
+        "Cushing's syndrome"
+      ],
+      "correctAnswer": "Acromegaly",
+      "conceptTag": "Pituitary Disorders",
+      "explanation": "Acromegaly is caused by excess growth hormone secretion in adults after epiphyseal growth plates have closed, leading to bony enlargement of extremities and face."
+    },
+    {
+      "id": "c11_bio_ch19_02",
+      "question": "Goiter—enlargement of the thyroid gland—is typically associated with dietary deficiency of:",
+      "options": [
+        "Iodine",
+        "Iron",
+        "Calcium",
+        "Sodium"
+      ],
+      "correctAnswer": "Iodine",
+      "conceptTag": "Thyroid Disorders",
+      "explanation": "Thyroxine ($T_3$ and $T_4$) synthesis requires iodine; dietary iodine deficiency prevents thyroid hormone production, prompting compensatory gland enlargement (goiter)."
+    },
+    {
+      "id": "c11_bio_ch19_03",
+      "question": "Insulin is secreted by which specialized cells of the Islets of Langerhans in the pancreas?",
+      "options": [
+        "Alpha cells",
+        "Beta cells",
+        "Delta cells",
+        "PP cells"
+      ],
+      "correctAnswer": "Beta cells",
+      "conceptTag": "Pancreatic Hormones",
+      "explanation": "Beta ($\\beta$) cells of the Islets of Langerhans secrete insulin (hypoglycemic hormone), while alpha cells secrete glucagon."
+    },
+    {
+      "id": "c11_bio_ch19_04",
+      "question": "Emergency hormone (fight-or-flight hormone) secreted by the adrenal medulla is:",
+      "options": [
+        "Adrenaline (Epinephrine) and Noradrenaline",
+        "Cortisol and Aldosterone",
+        "Insulin and Glucagon",
+        "Thyroxine"
+      ],
+      "correctAnswer": "Adrenaline (Epinephrine) and Noradrenaline",
+      "conceptTag": "Adrenal Medulla",
+      "explanation": "Adrenaline and noradrenaline are catecholamines secreted by the adrenal medulla during stress emergencies, elevating heart rate, alertness, and blood glucose."
+    },
+    {
+      "id": "c11_bio_ch19_05",
+      "question": "Calcium homeostasis in blood is regulated primarily by the antagonistic hormones:",
+      "options": [
+        "Parathyroid hormone (PTH) and Calcitonin",
+        "Insulin and Glucagon",
+        "Cortisol and ACTH",
+        "ADH and Oxytocin"
+      ],
+      "correctAnswer": "Parathyroid hormone (PTH) and Calcitonin",
+      "conceptTag": "Calcium Regulation",
+      "explanation": "Parathyroid hormone (PTH) raises blood calcium levels, whereas calcitonin lowers blood calcium levels, maintaining precise calcium homeostasis."
+    },
+    {
+      "id": "c11_bio_ch19_06",
+      "question": "Atrial Natriuretic Factor (ANF) released by atrial walls of the heart functions to:",
+      "options": [
+        "Decrease blood pressure by causing vasodilation",
+        "Increase blood pressure and vasoconstriction",
+        "Promote sodium reabsorption in kidneys",
+        "Stimulate aldosterone secretion"
+      ],
+      "correctAnswer": "Decrease blood pressure by causing vasodilation",
+      "conceptTag": "Heart Hormones / ANF",
+      "explanation": "When blood pressure increases, atrial walls secrete ANF, which causes vasodilation and promotes sodium/water excretion to decrease blood pressure."
+    },
+    {
+      "id": "c11_bio_ch19_07",
+      "question": "Graves' disease is an autoimmune disorder resulting in hypersecretion of:",
+      "options": [
+        "Thyroid hormones",
+        "Insulin",
+        "Cortisol",
+        "Growth hormone"
+      ],
+      "correctAnswer": "Thyroid hormones",
+      "conceptTag": "Endocrine Disorders",
+      "explanation": "Graves' disease is characterized by thyroid-stimulating immunoglobulins that overstimulate the gland, causing hyperthyroidism, exophthalmos, and weight loss."
+    },
+    {
+      "id": "c11_bio_ch19_08",
+      "question": "Melatonin, the hormone regulating biological circadian rhythms and sleep-wake cycles, is secreted by the:",
+      "options": [
+        "Pineal gland",
+        "Pituitary gland",
+        "Thymus gland",
+        "Adrenal gland"
+      ],
+      "correctAnswer": "Pineal gland",
+      "conceptTag": "Pineal Gland",
+      "explanation": "The pineal gland located on the dorsal side of the forebrain secretes melatonin, which modulates diurnal circadian rhythms and sleep cycles."
+    }
+  ]
+}

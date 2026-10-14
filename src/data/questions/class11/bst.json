@@ -1,0 +1,526 @@
+{
+  "class": 11,
+  "subject": "Business Studies",
+  "BusinessStudiesMCQs": [
+    {
+      "id": "c11_bst_ch01_01",
+      "question": "Which of the following is not considered a characteristic of business activities?",
+      "options": [
+        "Production or procurement of goods and services",
+        "Sale or exchange of goods and services for satisfaction of personal consumption without profit motive",
+        "Dealing in goods and services on a regular basis",
+        "Profit earning motive"
+      ],
+      "correctAnswer": "Sale or exchange of goods and services for satisfaction of personal consumption without profit motive",
+      "conceptTag": "Characteristics of Business",
+      "explanation": "A business activity must involve a profit motive. Production or exchange of goods solely for personal consumption without any intention of earning profit is not considered a business activity."
+    },
+    {
+      "id": "c11_bst_ch01_02",
+      "question": "Economic activities are distinguished from non-economic activities primarily by:",
+      "options": [
+        "The desire to earn money and livelihood",
+        "The involvement of physical labor",
+        "The scale of operations",
+        "Government registration"
+      ],
+      "correctAnswer": "The desire to earn money and livelihood",
+      "conceptTag": "Economic vs Non-Economic Activities",
+      "explanation": "Economic activities are undertaken with the objective of earning money and economic livelihood, whereas non-economic activities are driven by sentiment, sympathy, or patriotism."
+    },
+    {
+      "id": "c11_bst_ch01_03",
+      "question": "Which of the following causes of business risk arises due to fluctuations in customer demand, price changes, and competition?",
+      "options": [
+        "Natural causes",
+        "Economic causes",
+        "Physical causes",
+        "Human causes"
+      ],
+      "correctAnswer": "Economic causes",
+      "conceptTag": "Causes of Business Risk",
+      "explanation": "Economic causes of business risk include uncertainties relating to market demand, price fluctuations, competition, and changes in financial policies."
+    },
+    {
+      "id": "c11_bst_ch01_04",
+      "question": "Commerce includes trade and which of the following?",
+      "options": [
+        "Auxiliaries to trade (Aids to trade)",
+        "Manufacturing processes",
+        "Extraction of raw materials",
+        "Internal administration"
+      ],
+      "correctAnswer": "Auxiliaries to trade (Aids to trade)",
+      "conceptTag": "Scope of Commerce",
+      "explanation": "Commerce comprises two main categories: trade (buying and selling of goods) and auxiliaries to trade (services like transport, banking, warehousing, insurance, and advertising that facilitate trade)."
+    },
+    {
+      "id": "c11_bst_ch02_01",
+      "question": "In a sole proprietorship, the liability of the owner is:",
+      "options": [
+        "Limited to capital contributed",
+        "Unlimited",
+        "Nil",
+        "Restricted to bank loans only"
+      ],
+      "correctAnswer": "Unlimited",
+      "conceptTag": "Sole Proprietorship",
+      "explanation": "A sole proprietor bears unlimited liability, meaning personal assets can be used to pay off business debts if business assets fall short."
+    },
+    {
+      "id": "c11_bst_ch02_02",
+      "question": "Maximum number of partners permitted in a partnership firm under the Companies Act / rules in India is:",
+      "options": [
+        "10",
+        "20",
+        "50",
+        "Unlimited"
+      ],
+      "correctAnswer": "50",
+      "conceptTag": "Partnership Limits",
+      "explanation": "According to the Companies (Miscellaneous) Rules, 2014, the maximum number of partners in a partnership firm cannot exceed 50."
+    },
+    {
+      "id": "c11_bst_ch02_03",
+      "question": "Which form of business organization features a 'separate legal entity' distinct from its members?",
+      "options": [
+        "Sole proprietorship",
+        "Partnership",
+        "Joint stock company",
+        "Hindu Undivided Family (HUF)"
+      ],
+      "correctAnswer": "Joint stock company",
+      "conceptTag": "Joint Stock Company Characteristics",
+      "explanation": "A joint stock company is an artificial person created by law, possessing a distinct legal entity independent of its shareholders and directors."
+    },
+    {
+      "id": "c11_bst_ch02_04",
+      "question": "The head of a joint Hindu family business is known as:",
+      "options": [
+        "Managing Director",
+        "Karta",
+        "Partner",
+        "Proprietor"
+      ],
+      "correctAnswer": "Karta",
+      "conceptTag": "Hindu Undivided Family Business",
+      "explanation": "In an HUF business, the eldest male member (or senior member) who manages the business affairs is called the Karta."
+    },
+    {
+      "id": "c11_bst_ch03_01",
+      "question": "Departmental undertakings are:",
+      "options": [
+        "Autonomous corporations set up by special acts",
+        "Managed directly by government ministries as part of government machinery",
+        "Joint ventures with private foreign entities",
+        "Registered under the Companies Act"
+      ],
+      "correctAnswer": "Managed directly by government ministries as part of government machinery",
+      "conceptTag": "Departmental Undertakings",
+      "explanation": "Departmental undertakings (such as Indian Railways and Post Office) are financed and managed directly by a government ministry as part of government administration."
+    },
+    {
+      "id": "c11_bst_ch03_02",
+      "question": "Statutory corporations are brought into existence by:",
+      "options": [
+        "Registration under the Companies Act",
+        "A special Act passed by Parliament or State Legislature",
+        "An executive order of the cabinet",
+        "Partnership deed agreement"
+      ],
+      "correctAnswer": "A special Act passed by Parliament or State Legislature",
+      "conceptTag": "Statutory Corporations",
+      "explanation": "Statutory corporations are public enterprises established by a special Act of Parliament or State Legislature that defines their powers and functions."
+    },
+    {
+      "id": "c11_bst_ch03_03",
+      "question": "A government company is defined under the Companies Act as any company in which the paid-up share capital held by the government is not less than:",
+      "options": [
+        "50 percent",
+        "51 percent",
+        "75 percent",
+        "100 percent"
+      ],
+      "correctAnswer": "51 percent",
+      "conceptTag": "Government Company",
+      "explanation": "A government company is defined as any company in which at least 51% of the paid-up share capital is held by the Central Government, State Government(s), or partly by both."
+    },
+    {
+      "id": "c11_bst_ch03_04",
+      "question": "Global enterprises (multinational corporations) are characterized by:",
+      "options": [
+        "Operations restricted to a single home country",
+        "Huge capital resources, advanced technology, and operations in multiple nations",
+        "Absence of legal formalities",
+        "Small-scale local production"
+      ],
+      "correctAnswer": "Huge capital resources, advanced technology, and operations in multiple nations",
+      "conceptTag": "Global Enterprises (MNCs)",
+      "explanation": "Multinational corporations operate across international borders with gigantic capital resources, centralized control from home headquarters, and advanced technology."
+    },
+    {
+      "id": "c11_bst_ch04_01",
+      "question": "Which business service helps remove the hindrance of place by moving goods from place of production to markets?",
+      "options": [
+        "Banking",
+        "Insurance",
+        "Transportation",
+        "Warehousing"
+      ],
+      "correctAnswer": "Transportation",
+      "conceptTag": "Business Services / Transport",
+      "explanation": "Transportation bridges the geographical gap between producers and consumers, removing the hindrance of place."
+    },
+    {
+      "id": "c11_bst_ch04_02",
+      "question": "The principle of insurance which states that the insured must suffer financial loss to claim compensation is:",
+      "options": [
+        "Principle of Utmost Good Faith",
+        "Principle of Insurable Interest",
+        "Principle of Indemnity",
+        "Principle of Subrogation"
+      ],
+      "correctAnswer": "Principle of Insurable Interest",
+      "conceptTag": "Principles of Insurance",
+      "explanation": "Insurable interest requires that the insured must have a financial stake in the subject matter insured; without it, an insurance contract is invalid."
+    },
+    {
+      "id": "c11_bst_ch04_03",
+      "question": "Which type of bank account is most suitable for businessmen who conduct numerous daily transactions?",
+      "options": [
+        "Savings Bank Account",
+        "Current Account",
+        "Fixed Deposit Account",
+        "Recurring Deposit Account"
+      ],
+      "correctAnswer": "Current Account",
+      "conceptTag": "Banking Services",
+      "explanation": "Current accounts offer unlimited deposit and withdrawal facilities without restriction, designed specifically for commercial business entities."
+    },
+    {
+      "id": "c11_bst_ch04_04",
+      "question": "Warehousing primarily helps in removing the hindrance of:",
+      "options": [
+        "Time",
+        "Place",
+        "Risk",
+        "Information"
+      ],
+      "correctAnswer": "Time",
+      "conceptTag": "Warehousing",
+      "explanation": "Warehousing stores goods produced during seasonal or continuous production periods, supplying them when demanded later, thereby removing the hindrance of time."
+    },
+    {
+      "id": "c11_bst_ch05_01",
+      "question": "B2C e-commerce transactions refer to business transactions between:",
+      "options": [
+        "Business and Consumers",
+        "Business and Business",
+        "Consumer and Consumer",
+        "Business and Government"
+      ],
+      "correctAnswer": "Business and Consumers",
+      "conceptTag": "E-Commerce Models",
+      "explanation": "B2C (Business-to-Consumer) transactions involve online retail sales where businesses sell goods or services directly to individual consumers (e.g., Amazon, Flipkart)."
+    },
+    {
+      "id": "c11_bst_ch05_02",
+      "question": "Which of the following is an advantage of e-business over traditional business?",
+      "options": [
+        "High personal touch and physical inspection",
+        "Global reach and convenience of 24/7 operations",
+        "Zero transaction security risks",
+        "Immediate face-to-face customer grievance redressal"
+      ],
+      "correctAnswer": "Global reach and convenience of 24/7 operations",
+      "conceptTag": "Advantages of E-Business",
+      "explanation": "E-business eliminates geographical boundaries, offering global reach and round-the-clock (24/7) operational capability."
+    },
+    {
+      "id": "c11_bst_ch05_03",
+      "question": "Outsourcing non-core business processes to third-party specialized agencies is known as:",
+      "options": [
+        "E-banking",
+        "Business Process Outsourcing (BPO)",
+        "Intra-B commerce",
+        "Wholesale trading"
+      ],
+      "correctAnswer": "Business Process Outsourcing (BPO)",
+      "conceptTag": "Outsourcing / BPO",
+      "explanation": "Business Process Outsourcing (BPO) involves contracting out routine or non-core business functions (such as customer support, payroll, and data entry) to external specialists."
+    },
+    {
+      "id": "c11_bst_ch05_04",
+      "question": "Payment mechanism commonly used in online shopping where cash is paid upon physical delivery of goods is called:",
+      "options": [
+        "Electronic Fund Transfer (EFT)",
+        "Cash on Delivery (CoD)",
+        "Smart card payment",
+        "Credit card clearance"
+      ],
+      "correctAnswer": "Cash on Delivery (CoD)",
+      "conceptTag": "E-Commerce Payment",
+      "explanation": "Cash on Delivery (CoD) allows customers to pay in cash or digital scan upon receiving the ordered item at their doorstep, mitigating initial online trust issues."
+    },
+    {
+      "id": "c11_bst_ch06_01",
+      "question": "Corporate social responsibility (CSR) refers to an enterprise's obligation to:",
+      "options": [
+        "Maximize short-term profits for shareholders exclusively",
+        "Serve interests of society, environment, employees, and stakeholders alongside profit",
+        "Comply solely with tax laws",
+        "Operate without any government oversight"
+      ],
+      "correctAnswer": "Serve interests of society, environment, employees, and stakeholders alongside profit",
+      "conceptTag": "Social Responsibility",
+      "explanation": "CSR mandates that businesses balance economic profitability with ethical, environmental, and social contributions to the community."
+    },
+    {
+      "id": "c11_bst_ch06_02",
+      "question": "Which stakeholder group expects fair wages, safe working conditions, and social security from a business?",
+      "options": [
+        "Shareholders",
+        "Employees",
+        "Consumers",
+        "Government"
+      ],
+      "correctAnswer": "Employees",
+      "conceptTag": "Responsibility toward Employees",
+      "explanation": "Employees are internal stakeholders who look to a business for fair remuneration, safe working environments, and professional development."
+    },
+    {
+      "id": "c11_bst_ch06_03",
+      "question": "Business ethics relates primarily to:",
+      "options": [
+        "Legal compliance alone",
+        "Moral principles and standards that guide business behavior and decisions",
+        "Minimizing tax payments legally",
+        "Aggressive marketing tactics"
+      ],
+      "correctAnswer": "Moral principles and standards that guide business behavior and decisions",
+      "conceptTag": "Business Ethics",
+      "explanation": "Business ethics defines the code of moral principles and values that govern whether business actions are right or wrong."
+    },
+    {
+      "id": "c11_bst_ch06_04",
+      "question": "Argument in favor of social responsibility includes:",
+      "options": [
+        "Dilution of business profit maximization goal",
+        "Creation of a positive public image and long-term business sustainability",
+        "Increased burden of social costs on consumers",
+        "Lack of specialized social skills among managers"
+      ],
+      "correctAnswer": "Creation of a positive public image and long-term business sustainability",
+      "conceptTag": "Arguments for Social Responsibility",
+      "explanation": "Engaging in social responsibility builds a strong brand reputation, fosters public goodwill, and ensures sustainable long-term viability."
+    },
+    {
+      "id": "c11_bst_ch07_01",
+      "question": "Equity shares represent:",
+      "options": [
+        "Borrowed funds carrying fixed interest",
+        "Ownership capital of a company carrying voting rights and residual claim on income",
+        "Short-term bank loans",
+        "Public deposits"
+      ],
+      "correctAnswer": "Ownership capital of a company carrying voting rights and residual claim on income",
+      "conceptTag": "Equity Shares",
+      "explanation": "Equity shareholders are owners of the company, bearing ultimate risk and enjoying voting rights and residual profits."
+    },
+    {
+      "id": "c11_bst_ch07_02",
+      "question": "Debenture holders of a company are considered its:",
+      "options": [
+        "Owners",
+        "Creditors",
+        "Customers",
+        "Managers"
+      ],
+      "correctAnswer": "Creditors",
+      "conceptTag": "Debentures",
+      "explanation": "Debentures are instruments of long-term debt; hence, debenture holders are creditors of the company entitled to fixed interest."
+    },
+    {
+      "id": "c11_bst_ch07_03",
+      "question": "Retained earnings refer to:",
+      "options": [
+        "Dividends paid out to shareholders",
+        "Portion of net profits kept back in business for reinvestment (ploughing back of profit)",
+        "Bank overdraft facilities",
+        "Trade credit extended to buyers"
+      ],
+      "correctAnswer": "Portion of net profits kept back in business for reinvestment (ploughing back of profit)",
+      "conceptTag": "Retained Earnings",
+      "explanation": "Retained earnings represent undistributed profits reinvested internally as a self-financing source of funds."
+    },
+    {
+      "id": "c11_bst_ch07_04",
+      "question": "Trade credit provides short-term financing by:",
+      "options": [
+        "Borrowing cash from commercial banks",
+        "Purchasing goods or services on credit from suppliers with deferred payment terms",
+        "Issuing commercial paper",
+        "Leasing machinery"
+      ],
+      "correctAnswer": "Purchasing goods or services on credit from suppliers with deferred payment terms",
+      "conceptTag": "Trade Credit",
+      "explanation": "Trade credit is credit extended by suppliers to business customers, enabling them to acquire goods without immediate cash payment."
+    },
+    {
+      "id": "c11_bst_ch08_01",
+      "question": "According to MSMED Act in India, manufacturing enterprises are classified based on investment in:",
+      "options": [
+        "Plant and machinery",
+        "Number of workers",
+        "Annual turnover only",
+        "Raw material inventory"
+      ],
+      "correctAnswer": "Plant and machinery",
+      "conceptTag": "Classification of Small Business",
+      "explanation": "Manufacturing micro, small, and medium enterprises are classified based on investments in plant and machinery (alongside annual turnover criteria)."
+    },
+    {
+      "id": "c11_bst_ch08_02",
+      "question": "Which of the following is a major challenge faced by small-scale businesses in rural and urban areas?",
+      "options": [
+        "Excessive surplus capital",
+        "Finance/credit availability and marketing constraints",
+        "Overstaffing of executives",
+        "Complex international taxation"
+      ],
+      "correctAnswer": "Finance/credit availability and marketing constraints",
+      "conceptTag": "Problems of Small Business",
+      "explanation": "Small businesses frequently struggle with institutional finance access, outdated technology, inadequate raw materials, and poor marketing channels."
+    },
+    {
+      "id": "c11_bst_ch08_03",
+      "question": "NABARD stands for:",
+      "options": [
+        "National Bank for Agriculture and Rural Development",
+        "National Board for Accelerated Rural Design",
+        "New Automated Bank for Asset Recovery and Debt",
+        "National Bureau of Agricultural Research and Development"
+      ],
+      "correctAnswer": "National Bank for Agriculture and Rural Development",
+      "conceptTag": "Institutional Support / NABARD",
+      "explanation": "NABARD is an apex development bank in India established to support agriculture, small-scale industries, cottage industries, and rural crafts."
+    },
+    {
+      "id": "c11_bst_ch08_04",
+      "question": "District Industries Centers (DICs) program was launched to provide:",
+      "options": [
+        "Integrated administrative support and promotion of small industries at the district level",
+        "International trade tariffs",
+        "Stock exchange regulations",
+        "Central bank monetary policy"
+      ],
+      "correctAnswer": "Integrated administrative support and promotion of small industries at the district level",
+      "conceptTag": "District Industries Centers (DIC)",
+      "explanation": "DICs serve as single-window nodal agencies at the district level to provide promotional services, guidance, and clearances to small and village enterprises."
+    },
+    {
+      "id": "c11_bst_ch09_01",
+      "question": "Internal trade refers to buying and selling of goods and services:",
+      "options": [
+        "Within the geographical boundaries of a nation",
+        "Between two or more countries",
+        "Through online global portals exclusively",
+        "With international embassies"
+      ],
+      "correctAnswer": "Within the geographical boundaries of a nation",
+      "conceptTag": "Internal Trade Meaning",
+      "explanation": "Internal trade (home trade) involves commercial transactions conducted within the domestic borders of a country."
+    },
+    {
+      "id": "c11_bst_ch09_02",
+      "question": "Wholesale trade is characterized by dealing in goods in:",
+      "options": [
+        "Small quantities directly to ultimate consumers",
+        "Large bulk quantities between producers and retailers",
+        "Foreign currencies",
+        "Services without physical goods"
+      ],
+      "correctAnswer": "Large bulk quantities between producers and retailers",
+      "conceptTag": "Wholesale Trade",
+      "explanation": "Wholesalers purchase goods in bulk from manufacturers and sell them in smaller lots to retailers or industrial users."
+    },
+    {
+      "id": "c11_bst_ch09_03",
+      "question": "Peddlers and hawkers are examples of:",
+      "options": [
+        "Fixed shop retailers",
+        "Itinerant retailers (street traders)",
+        "Wholesale distributors",
+        "Mail order houses"
+      ],
+      "correctAnswer": "Itinerant retailers (street traders)",
+      "conceptTag": "Itinerant Retailers",
+      "explanation": "Itinerant retailers are petty traders who do not have a fixed place of business and move from place to place to sell goods (e.g., hawkers, peddlers)."
+    },
+    {
+      "id": "c11_bst_ch09_04",
+      "question": "Departmental stores are large-scale retail establishments characterized by:",
+      "options": [
+        "Selling a single specialized product line",
+        "Offering a wide variety of goods under one roof divided into various departments",
+        "Operating exclusively through mail catalogs",
+        "Selling second-hand goods"
+      ],
+      "correctAnswer": "Offering a wide variety of goods under one roof divided into various departments",
+      "conceptTag": "Departmental Stores",
+      "explanation": "Departmental stores combine 'everything under one roof', housing diverse departments under single centralized management."
+    },
+    {
+      "id": "c11_bst_ch10_01",
+      "question": "International business involves trade and transactions conducted:",
+      "options": [
+        "Within domestic state borders",
+        "Across national borders between two or more countries",
+        "Solely within local municipal limits",
+        "By government ministries alone"
+      ],
+      "correctAnswer": "Across national borders between two or more countries",
+      "conceptTag": "International Business Meaning",
+      "explanation": "International business encompasses all commercial activities that take place transcending national frontiers."
+    },
+    {
+      "id": "c11_bst_ch10_02",
+      "question": "Export trade refers to:",
+      "options": [
+        "Buying goods from foreign countries",
+        "Selling domestic goods to buyers in foreign countries",
+        "Transporting goods domestically",
+        "Manufacturing goods abroad"
+      ],
+      "correctAnswer": "Selling domestic goods to buyers in foreign countries",
+      "conceptTag": "Export Trade",
+      "explanation": "Exporting involves sending domestic manufactured goods or services to buyers located in foreign nations."
+    },
+    {
+      "id": "c11_bst_ch10_03",
+      "question": "An Indent in export-import procedures represents a:",
+      "options": [
+        "Customs clearance certificate",
+        "Order placed by an importer for goods specifying details like price and quantity",
+        "Bill of lading issued by shipping company",
+        "Letter of credit issued by bank"
+      ],
+      "correctAnswer": "Order placed by an importer for goods specifying details like price and quantity",
+      "conceptTag": "Import Procedure / Indent",
+      "explanation": "An indent is an official purchase order sent by an importer to an exporter specifying product description, quantity, price, and delivery instructions."
+    },
+    {
+      "id": "c11_bst_ch10_04",
+      "question": "World Trade Organization (WTO) was established primarily to:",
+      "options": [
+        "Impose high trade tariffs globally",
+        "Promote free and fair international trade and resolve trade disputes among nations",
+        "Provide emergency medical loans",
+        "Regulate domestic interest rates"
+      ],
+      "correctAnswer": "Promote free and fair international trade and resolve trade disputes among nations",
+      "conceptTag": "World Trade Organization (WTO)",
+      "explanation": "WTO acts as the global international organization dealing with trade rules between nations, ensuring smooth, predictable, and fair global commerce."
+    }
+  ]
+}

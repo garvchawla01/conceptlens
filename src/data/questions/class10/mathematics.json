@@ -1,0 +1,1499 @@
+{
+  "Real Numbers": [
+    {
+      "id": "c10_m_rn_01",
+      "question": "If p is a prime number and p divides a², where a is a positive integer, what does the Fundamental Theorem of Arithmetic guarantee?",
+      "options": [
+        "p must divide a",
+        "p² must divide a",
+        "p must divide √a",
+        "a must be equal to p"
+      ],
+      "correctAnswer": "p must divide a",
+      "conceptTag": "Divisibility of Primes",
+      "explanation": "If a prime p divides the square of an integer, it must also divide the integer itself according to prime factorization properties."
+    },
+    {
+      "id": "c10_m_rn_02",
+      "question": "For any two positive integers a and b, what is the exact relationship between their HCF and LCM?",
+      "options": [
+        "HCF(a, b) × LCM(a, b) = a × b",
+        "HCF(a, b) + LCM(a, b) = a + b",
+        "HCF(a, b) / LCM(a, b) = a / b",
+        "HCF(a, b) × LCM(a, b) = (a + b)²"
+      ],
+      "correctAnswer": "HCF(a, b) × LCM(a, b) = a × b",
+      "conceptTag": "HCF and LCM Product Theorem",
+      "explanation": "The product of the Highest Common Factor and Lowest Common Multiple of two numbers is identically equal to the product of the two numbers."
+    },
+    {
+      "id": "c10_m_rn_03",
+      "question": "Which of the following numbers has a terminating decimal expansion?",
+      "options": [
+        "13 / 3125",
+        "7 / 80",
+        "17 / 8",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "conceptTag": "Terminating Decimal Expansion Criteria",
+      "explanation": "A rational number p/q has a terminating decimal expansion if the prime factorization of q is of the form 2^n * 5^m. Here 3125 = 5^5, 80 = 2^4 * 5^1, and 8 = 2^3."
+    },
+    {
+      "id": "c10_m_rn_04",
+      "question": "What is the nature of the decimal expansion of an irrational number like √2 or π?",
+      "options": [
+        "Non-terminating and non-recurring",
+        "Terminating",
+        "Non-terminating and recurring",
+        "Always a whole integer"
+      ],
+      "correctAnswer": "Non-terminating and non-recurring",
+      "conceptTag": "Irrational Decimal Expansion",
+      "explanation": "Irrational numbers cannot be expressed as simple fractions; their decimal representations continue infinitely without repeating any pattern."
+    },
+    {
+      "id": "c10_m_rn_05",
+      "question": "Can the number 4^n ever end with the digit 0 for any natural number n?",
+      "options": [
+        "No, because the prime factorisation of 4^n contains only 2 and lacks the prime 5",
+        "Yes, when n is a multiple of 5",
+        "Yes, when n is an even integer",
+        "Yes, when n = 10"
+      ],
+      "correctAnswer": "No, because the prime factorisation of 4^n contains only 2 and lacks the prime 5",
+      "conceptTag": "Fundamental Theorem of Arithmetic (Terminal Digits)",
+      "explanation": "For any number to end in 0, its prime factorization must contain both 2 and 5. 4^n = 2^(2n), containing only the prime 2."
+    },
+    {
+      "id": "c10_m_rn_06",
+      "question": "If HCF(306, 657) = 9, what is LCM(306, 657)?",
+      "options": [
+        "22338",
+        "22340",
+        "21338",
+        "23338"
+      ],
+      "correctAnswer": "22338",
+      "conceptTag": "LCM Computation via HCF",
+      "explanation": "LCM = (306 × 657) / 9 = 34 × 657 = 22338."
+    },
+    {
+      "id": "c10_m_rn_07",
+      "question": "What is the HCF of two consecutive positive integers a and a+1?",
+      "options": [
+        "1",
+        "a",
+        "a + 1",
+        "Depends on whether a is even or odd"
+      ],
+      "correctAnswer": "1",
+      "conceptTag": "Co-prime Consecutive Integers",
+      "explanation": "Any two consecutive integers share no common positive factor other than 1, making them always co-prime."
+    },
+    {
+      "id": "c10_m_rn_08",
+      "question": "Prove by contradiction that √5 is irrational. Which key algebraic fact is used in this proof?",
+      "options": [
+        "If p divides a², then p divides a",
+        "Every integer is a prime number",
+        "The sum of two rationals is always irrational",
+        "Fractions cannot be squared"
+      ],
+      "correctAnswer": "If p divides a², then p divides a",
+      "conceptTag": "Proof of Irrationality",
+      "explanation": "The proof relies on assuming √5 = a/b in lowest terms, squaring to get 5b² = a² (implying 5 divides a), and deriving a contradiction."
+    }
+  ],
+
+  "Polynomials": [
+    {
+      "id": "c10_m_poly_01",
+      "question": "If α and β are the zeroes of the quadratic polynomial ax² + bx + c, what is the sum of zeroes (α + β)?",
+      "options": [
+        "-b / a",
+        "b / a",
+        "c / a",
+        "-c / a"
+      ],
+      "correctAnswer": "-b / a",
+      "conceptTag": "Vieta's Formulas for Quadratic Sum",
+      "explanation": "The sum of the roots of a quadratic polynomial is given by the negative ratio of the coefficient of x to the coefficient of x²."
+    },
+    {
+      "id": "c10_m_poly_02",
+      "question": "What is the product of zeroes (αβ) of the quadratic polynomial ax² + bx + c?",
+      "options": [
+        "c / a",
+        "-c / a",
+        "b / a",
+        "-b / a"
+      ],
+      "correctAnswer": "c / a",
+      "conceptTag": "Vieta's Formulas for Quadratic Product",
+      "explanation": "The product of the roots is given by the ratio of the constant term to the leading coefficient: c/a."
+    },
+    {
+      "id": "c10_m_poly_03",
+      "question": "Geometrically, the zeroes of a polynomial y = p(x) are the x-coordinates of the points where the graph intersects:",
+      "options": [
+        "The x-axis",
+        "The y-axis",
+        "The origin (0, 0)",
+        "The line y = x"
+      ],
+      "correctAnswer": "The x-axis",
+      "conceptTag": "Geometric Meaning of Zeroes",
+      "explanation": "Zeroes correspond to points where the polynomial evaluates to zero (y = 0), which are the intersections with the horizontal x-axis."
+    },
+    {
+      "id": "c10_m_poly_04",
+      "question": "How many maximum zeroes can a cubic polynomial have?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "Infinite"
+      ],
+      "correctAnswer": "3",
+      "conceptTag": "Maximum Zeroes of Degree n Polynomial",
+      "explanation": "A polynomial of degree n can have at most n real zeroes. A cubic polynomial has degree 3."
+    },
+    {
+      "id": "c10_m_poly_05",
+      "question": "If one zero of the quadratic polynomial x² + 3x + k is 2, what is the value of k?",
+      "options": [
+        "-10",
+        "10",
+        "-5",
+        "5"
+      ],
+      "correctAnswer": "-10",
+      "conceptTag": "Root Substitution in Polynomials",
+      "explanation": "Substitute x = 2 into p(x): 2² + 3(2) + k = 0 => 4 + 6 + k = 0 => k = -10."
+    },
+    {
+      "id": "c10_m_poly_06",
+      "question": "A quadratic polynomial whose sum of zeroes is -3 and product of zeroes is 2 is given by:",
+      "options": [
+        "k(x² + 3x + 2)",
+        "k(x² - 3x + 2)",
+        "k(x² + 3x - 2)",
+        "k(x² - 3x - 2)"
+      ],
+      "correctAnswer": "k(x² + 3x + 2)",
+      "conceptTag": "Forming Quadratic Polynomial from Roots",
+      "explanation": "Using p(x) = k[x² - (α + β)x + αβ]: substituting sum = -3 and product = 2 gives k[x² - (-3)x + 2] = k(x² + 3x + 2)."
+    },
+    {
+      "id": "c10_m_poly_07",
+      "question": "If α, β, γ are the zeroes of the cubic polynomial ax³ + bx² + cx + d, what is the sum of the product of zeroes taken two at a time (αβ + βγ + γα)?",
+      "options": [
+        "c / a",
+        "-c / a",
+        "b / a",
+        "-d / a"
+      ],
+      "correctAnswer": "c / a",
+      "conceptTag": "Cubic Vieta's Relations",
+      "explanation": "For a cubic polynomial, αβ + βγ + γα = c/a, while sum of roots = -b/a and product of roots = -d/a."
+    },
+    {
+      "id": "c10_m_poly_08",
+      "question": "If the graph of a quadratic polynomial touches the x-axis at only one point, what can be inferred about its discriminant D = b² - 4ac?",
+      "options": [
+        "D = 0",
+        "D > 0",
+        "D < 0",
+        "D can be any real number"
+      ],
+      "correctAnswer": "D = 0",
+      "conceptTag": "Discriminant and Parabola Intersections",
+      "explanation": "Touching the x-axis at a single vertex means the parabola has two coincident (equal) real roots, which occurs strictly when D = 0."
+    }
+  ],
+
+  "Pair of Linear Equations in Two Variables": [
+    {
+      "id": "c10_m_ple_01",
+      "question": "What is the condition for a pair of linear equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 to have a unique solution?",
+      "options": [
+        "a₁ / a₂ ≠ b₁ / b₂",
+        "a₁ / a₂ = b₁ / b₂ = c₁ / c₂",
+        "a₁ / a₂ = b₁ / b₂ ≠ c₁ / c₂",
+        "a₁b₂ + a₂b₁ = 0"
+      ],
+      "correctAnswer": "a₁ / a₂ ≠ b₁ / b₂",
+      "conceptTag": "Unique Solution Condition",
+      "explanation": "Unequal ratios of coefficients (a₁/a₂ ≠ b₁/b₂) ensure the lines intersect at exactly one unique point."
+    },
+    {
+      "id": "c10_m_ple_02",
+      "question": "If a₁ / a₂ = b₁ / b₂ ≠ c₁ / c₂, what type of lines do the equations represent and how many solutions exist?",
+      "options": [
+        "Parallel lines, No solution (Inconsistent)",
+        "Intersecting lines, Unique solution",
+        "Coincident lines, Infinitely many solutions",
+        "Perpendicular lines, One solution"
+      ],
+      "correctAnswer": "Parallel lines, No solution (Inconsistent)",
+      "conceptTag": "Inconsistent Linear Systems",
+      "explanation": "Equal slope ratios with unequal constant ratios represent parallel lines that never cross, yielding no solution."
+    },
+    {
+      "id": "c10_m_ple_03",
+      "question": "For what value of k will the system 2x + 3y = 7 and 4x + ky = 14 have infinitely many solutions?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "8"
+      ],
+      "correctAnswer": "6",
+      "conceptTag": "Infinite Solutions Parameter Determination",
+      "explanation": "For infinite solutions, a₁/a₂ = b₁/b₂ = c₁/c₂ => 2/4 = 3/k = 7/14 => 1/2 = 3/k => k = 6."
+    },
+    {
+      "id": "c10_m_ple_04",
+      "question": "Which algebraic method involves expressing one variable in terms of the other from one equation and substituting it into the second equation?",
+      "options": [
+        "Substitution Method",
+        "Elimination Method",
+        "Cross-Multiplication Method",
+        "Graphical Method"
+      ],
+      "correctAnswer": "Substitution Method",
+      "conceptTag": "Substitution Method Definition",
+      "explanation": "The substitution method isolates one variable in one equation and substitutes that expression into the other equation."
+    },
+    {
+      "id": "c10_m_ple_05",
+      "question": "What is the solution of the pair of linear equations: x + y = 5 and x - y = 1?",
+      "options": [
+        "x = 3, y = 2",
+        "x = 2, y = 3",
+        "x = 4, y = 1",
+        "x = 5, y = 0"
+      ],
+      "correctAnswer": "x = 3, y = 2",
+      "conceptTag": "Simultaneous Equations Solution",
+      "explanation": "Adding both equations: 2x = 6 => x = 3. Substituting x = 3 gives 3 + y = 5 => y = 2."
+    },
+    {
+      "id": "c10_m_ple_06",
+      "question": "If a pair of linear equations is consistent, what can be said about its solution graph?",
+      "options": [
+        "It has either a unique solution or infinitely many solutions (intersecting or coincident lines)",
+        "It always has parallel lines",
+        "It has no solution",
+        "The lines must be perpendicular"
+      ],
+      "correctAnswer": "It has either a unique solution or infinitely many solutions (intersecting or coincident lines)",
+      "conceptTag": "Consistency Definition",
+      "explanation": "A consistent system has at least one common solution point (intersecting or overlapping lines)."
+    },
+    {
+      "id": "c10_m_ple_07",
+      "question": "The age of a father is twice the age of his son. Ten years ago, the father was three times as old as his son. What is the father's current age?",
+      "options": [
+        "40 years",
+        "30 years",
+        "50 years",
+        "60 years"
+      ],
+      "correctAnswer": "40 years",
+      "conceptTag": "Word Problem: Age Equations",
+      "explanation": "Let father be f, son be s. f = 2s. (f - 10) = 3(s - 10). Substitute f = 2s: 2s - 10 = 3s - 30 => s = 20, so f = 40."
+    },
+    {
+      "id": "c10_m_ple_08",
+      "question": "What condition must be met for a pair of equations to have infinitely many solutions?",
+      "options": [
+        "a₁ / a₂ = b₁ / b₂ = c₁ / c₂",
+        "a₁ / a₂ ≠ b₁ / b₂",
+        "a₁ / a₂ = b₁ / b₂ ≠ c₁ / c₂",
+        "a₁a₂ + b₁b₂ = 1"
+      ],
+      "correctAnswer": "a₁ / a₂ = b₁ / b₂ = c₁ / c₂",
+      "conceptTag": "Coincident Lines Ratio",
+      "explanation": "Infinitely many solutions occur when both equations represent the exact same line, requiring proportional coefficients across all terms."
+    }
+  ],
+
+  "Quadratic Equations": [
+    {
+      "id": "c10_m_qe_01",
+      "question": "What is the discriminant D of the quadratic equation ax² + bx + c = 0?",
+      "options": [
+        "b² - 4ac",
+        "b² + 4ac",
+        "4ac - b²",
+        "√(b² - 4ac)"
+      ],
+      "correctAnswer": "b² - 4ac",
+      "conceptTag": "Discriminant Formula",
+      "explanation": "The discriminant D = b² - 4ac determines the number and nature of the roots of a quadratic equation."
+    },
+    {
+      "id": "c10_m_qe_02",
+      "question": "If the discriminant D > 0, what is the nature of the roots of the quadratic equation?",
+      "options": [
+        "Real and distinct",
+        "Real and equal",
+        "Non-real (complex)",
+        "Zero"
+      ],
+      "correctAnswer": "Real and distinct",
+      "conceptTag": "Nature of Roots: D > 0",
+      "explanation": "When D > 0, the quadratic formula yields two distinct real values (-b ± √D) / (2a)."
+    },
+    {
+      "id": "c10_m_qe_03",
+      "question": "What are the roots of the quadratic equation 2x² - 7x + 3 = 0?",
+      "options": [
+        "3 and 1/2",
+        "-3 and -1/2",
+        "3 and -1/2",
+        "-3 and 1/2"
+      ],
+      "correctAnswer": "3 and 1/2",
+      "conceptTag": "Quadratic Factorization",
+      "explanation": "2x² - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3) = 0 => x = 1/2 or x = 3."
+    },
+    {
+      "id": "c10_m_qe_04",
+      "question": "For what value of k does the quadratic equation 2x² + kx + 3 = 0 have two equal real roots?",
+      "options": [
+        "±2√6",
+        "±√6",
+        "±6",
+        "±12"
+      ],
+      "correctAnswer": "±2√6",
+      "conceptTag": "Equal Roots Parameter Calculation",
+      "explanation": "For equal roots, D = k² - 4(2)(3) = 0 => k² - 24 = 0 => k = ±√24 = ±2√6."
+    },
+    {
+      "id": "c10_m_qe_05",
+      "question": "Which of the following is NOT a quadratic equation?",
+      "options": [
+        "x² + 3x + 1 = (x - 2)²",
+        "(x + 1)² = 2(x - 3)",
+        "x(2x + 3) = x² + 1",
+        "2x² - 5x = 0"
+      ],
+      "correctAnswer": "x² + 3x + 1 = (x - 2)²",
+      "conceptTag": "Identifying Quadratic Equations",
+      "explanation": "Expanding (x - 2)² gives x² - 4x + 4. The x² terms cancel from both sides, leaving a linear equation 7x - 3 = 0."
+    },
+    {
+      "id": "c10_m_qe_06",
+      "question": "What is the quadratic formula used to find the roots of ax² + bx + c = 0?",
+      "options": [
+        "x = (-b ± √(b² - 4ac)) / (2a)",
+        "x = (-b ± √(4ac - b²)) / a",
+        "x = (b ± √(b² - 4ac)) / (2a)",
+        "x = (-a ± √(b² - 4ac)) / (2c)"
+      ],
+      "correctAnswer": "x = (-b ± √(b² - 4ac)) / (2a)",
+      "conceptTag": "Quadratic Formula Statement",
+      "explanation": "Derived by completing the square, the quadratic formula solves for x given any coefficients a, b, and c (a ≠ 0)."
+    },
+    {
+      "id": "c10_m_qe_07",
+      "question": "If the discriminant D < 0, how many real roots does the quadratic equation have?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinite"
+      ],
+      "correctAnswer": "0",
+      "conceptTag": "Nature of Roots: D < 0",
+      "explanation": "The square root of a negative number is not real, meaning the equation has no real roots."
+    },
+    {
+      "id": "c10_m_qe_08",
+      "question": "Find the roots of x² - 3x - 10 = 0 by factorization.",
+      "options": [
+        "5 and -2",
+        "-5 and 2",
+        "5 and 2",
+        "-5 and -2"
+      ],
+      "correctAnswer": "5 and -2",
+      "conceptTag": "Quadratic Factorization Practice",
+      "explanation": "x² - 5x + 2x - 10 = x(x - 5) + 2(x - 5) = (x + 2)(x - 5) = 0 => x = 5 or x = -2."
+    }
+  ],
+
+  "Arithmetic Progressions": [
+    {
+      "id": "c10_m_ap_01",
+      "question": "What is the formula for the n-th term (aₙ) of an AP with first term 'a' and common difference 'd'?",
+      "options": [
+        "a + (n - 1)d",
+        "a + nd",
+        "a + (n + 1)d",
+        "(n / 2)(2a + d)"
+      ],
+      "correctAnswer": "a + (n - 1)d",
+      "conceptTag": "General Term of AP",
+      "explanation": "The n-th term adds the common difference d a total of (n - 1) times to the initial term."
+    },
+    {
+      "id": "c10_m_ap_02",
+      "question": "What is the common difference of the AP: -5, -1, 3, 7, ...?",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-6"
+      ],
+      "correctAnswer": "4",
+      "conceptTag": "Common Difference Calculation",
+      "explanation": "d = a₂ - a₁ = -1 - (-5) = -1 + 5 = 4."
+    },
+    {
+      "id": "c10_m_ap_03",
+      "question": "What is the formula for the sum of the first n terms (Sₙ) of an AP?",
+      "options": [
+        "(n / 2)[2a + (n - 1)d]",
+        "n[2a + (n - 1)d]",
+        "(n / 2)[a + (n - 1)d]",
+        "n(a + d)"
+      ],
+      "correctAnswer": "(n / 2)[2a + (n - 1)d]",
+      "conceptTag": "Sum of First n Terms of AP",
+      "explanation": "Sₙ = (n/2)(first term + last term) = (n/2)[2a + (n - 1)d]."
+    },
+    {
+      "id": "c10_m_ap_04",
+      "question": "What is the 10th term of the AP: 2, 7, 12, ...?",
+      "options": [
+        "47",
+        "52",
+        "42",
+        "50"
+      ],
+      "correctAnswer": "47",
+      "conceptTag": "Specific Term Evaluation in AP",
+      "explanation": "a = 2, d = 5. a₁₀ = a + 9d = 2 + 9(5) = 2 + 45 = 47."
+    },
+    {
+      "id": "c10_m_ap_05",
+      "question": "If the sum of n terms is given by Sₙ = 3n² + 5n, how is the n-th term aₙ calculated?",
+      "options": [
+        "Sₙ - Sₙ₋₁",
+        "Sₙ + Sₙ₋₁",
+        "Sₙ / n",
+        "Sₙ₊₁ - Sₙ"
+      ],
+      "correctAnswer": "Sₙ - Sₙ₋₁",
+      "conceptTag": "Relation Between Sum and nth Term",
+      "explanation": "The n-th term is the difference between the sum of the first n terms and the sum of the first (n - 1) terms."
+    },
+    {
+      "id": "c10_m_ap_06",
+      "question": "Which term of the AP: 21, 18, 15, ... is 0?",
+      "options": [
+        "8th term",
+        "7th term",
+        "9th term",
+        "6th term"
+      ],
+      "correctAnswer": "8th term",
+      "conceptTag": "Solving for Index n in AP",
+      "explanation": "a = 21, d = -3. a + (n - 1)d = 0 => 21 + (n - 1)(-3) = 0 => -3(n - 1) = -21 => n - 1 = 7 => n = 8."
+    },
+    {
+      "id": "c10_m_ap_07",
+      "question": "If a, b, c are in AP, what is the relation between them?",
+      "options": [
+        "2b = a + c",
+        "b² = ac",
+        "b = a + c",
+        "2a = b + c"
+      ],
+      "correctAnswer": "2b = a + c",
+      "conceptTag": "Arithmetic Mean Condition",
+      "explanation": "Since b - a = c - b, rearranging gives 2b = a + c, where b is the arithmetic mean of a and c."
+    },
+    {
+      "id": "c10_m_ap_08",
+      "question": "What is the sum of the first 100 positive natural numbers?",
+      "options": [
+        "5050",
+        "5000",
+        "5100",
+        "4950"
+      ],
+      "correctAnswer": "5050",
+      "conceptTag": "Sum of First n Natural Numbers",
+      "explanation": "Sₙ = n(n + 1)/2. For n = 100: S₁₀₀ = (100 × 101)/2 = 5050."
+    }
+  ],
+
+  "Triangles": [
+    {
+      "id": "c10_m_tri_01",
+      "question": "Basic Proportionality Theorem (Thales' Theorem) states that if a line is drawn parallel to one side of a triangle intersecting the other two sides, then:",
+      "options": [
+        "It divides the other two sides in the same ratio",
+        "It bisects the angle",
+        "The areas of both triangles are equal",
+        "It equals half the third side"
+      ],
+      "correctAnswer": "It divides the other two sides in the same ratio",
+      "conceptTag": "Thales' Theorem (BPT)",
+      "explanation": "If DE || BC in ΔABC, then AD/DB = AE/EC."
+    },
+    {
+      "id": "c10_m_tri_02",
+      "question": "Which of the following is NOT a criterion for similarity of two triangles?",
+      "options": [
+        "SSA (Side-Side-Angle)",
+        "AAA (Angle-Angle-Angle)",
+        "SSS (Side-Side-Side)",
+        "SAS (Side-Angle-Side)"
+      ],
+      "correctAnswer": "SSA (Side-Side-Angle)",
+      "conceptTag": "Triangle Similarity Criteria",
+      "explanation": "Recognized criteria are AAA, SSS, and SAS. SSA does not guarantee triangle similarity."
+    },
+    {
+      "id": "c10_m_tri_03",
+      "question": "If ΔABC ~ ΔDEF such that AB/DE = BC/EF = AC/DF = 2/3, what is the ratio of their areas?",
+      "options": [
+        "4 / 9",
+        "2 / 3",
+        "8 / 27",
+        "√2 / √3"
+      ],
+      "correctAnswer": "4 / 9",
+      "conceptTag": "Area Ratio of Similar Triangles",
+      "explanation": "The ratio of the areas of two similar triangles equals the square of the ratio of their corresponding sides: (2/3)² = 4/9."
+    },
+    {
+      "id": "c10_m_tri_04",
+      "question": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides. This is known as:",
+      "options": [
+        "Pythagoras Theorem",
+        "Thales Theorem",
+        "Mid-Point Theorem",
+        "Euclid's Postulate"
+      ],
+      "correctAnswer": "Pythagoras Theorem",
+      "conceptTag": "Pythagoras Theorem",
+      "explanation": "In right triangle ABC with right angle at B, AC² = AB² + BC²."
+    },
+    {
+      "id": "c10_m_tri_05",
+      "question": "In ΔABC, DE || BC. If AD = 1.5 cm, DB = 3 cm, and AE = 1 cm, what is EC?",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "1.5 cm",
+        "2.5 cm"
+      ],
+      "correctAnswer": "2 cm",
+      "conceptTag": "BPT Numerical Application",
+      "explanation": "By BPT: AD/DB = AE/EC => 1.5 / 3 = 1 / EC => 1/2 = 1 / EC => EC = 2 cm."
+    },
+    {
+      "id": "c10_m_tri_06",
+      "question": "A vertical pole of length 6 m casts a shadow 4 m long on the ground, and at the same time a tower casts a shadow 28 m long. What is the height of the tower?",
+      "options": [
+        "42 m",
+        "40 m",
+        "36 m",
+        "48 m"
+      ],
+      "correctAnswer": "42 m",
+      "conceptTag": "Shadow Similarity Problem",
+      "explanation": "Height of pole / Height of tower = Shadow of pole / Shadow of tower => 6 / H = 4 / 28 => H = 42 m."
+    },
+    {
+      "id": "c10_m_tri_07",
+      "question": "If the sides of a triangle are 7 cm, 24 cm, and 25 cm, is it a right-angled triangle?",
+      "options": [
+        "Yes, because 7² + 24² = 49 + 576 = 625 = 25²",
+        "No, because the sides do not form a triplet",
+        "Only if the 25 cm side is the base",
+        "Cannot be determined"
+      ],
+      "correctAnswer": "Yes, because 7² + 24² = 49 + 576 = 625 = 25²",
+      "conceptTag": "Converse of Pythagoras Theorem",
+      "explanation": "Satisfying a² + b² = c² proves by converse of Pythagoras theorem that the triangle is right-angled."
+    },
+    {
+      "id": "c10_m_tri_08",
+      "question": "Two polygons with the same number of sides are similar if their corresponding angles are ______ and their corresponding sides are ______.",
+      "options": [
+        "Equal, proportional",
+        "Proportional, equal",
+        "Equal, equal",
+        "Supplementary, proportional"
+      ],
+      "correctAnswer": "Equal, proportional",
+      "conceptTag": "Definition of Polygon Similarity",
+      "explanation": "Similar polygons require identical interior angles and scaled proportional side lengths."
+    }
+  ],
+
+  "Coordinate Geometry": [
+    {
+      "id": "c10_m_cg_01",
+      "question": "What is the distance between two points P(x₁, y₁) and Q(x₂, y₂)?",
+      "options": [
+        "√[(x₂ - x₁)² + (y₂ - y₁)²]",
+        "(x₂ - x₁)² + (y₂ - y₁)²",
+        "√[(x₂ + x₁)² + (y₂ + y₁)²]",
+        "|x₂ - x₁| + |y₂ - y₁|"
+      ],
+      "correctAnswer": "√[(x₂ - x₁)² + (y₂ - y₁)²]",
+      "conceptTag": "Euclidean Distance Formula",
+      "explanation": "Derived from the Pythagorean theorem, the straight-line distance is d = √[(Δx)² + (Δy)²]."
+    },
+    {
+      "id": "c10_m_cg_02",
+      "question": "What is the distance of the point P(x, y) from the origin (0, 0)?",
+      "options": [
+        "√(x² + y²)",
+        "x + y",
+        "x² + y²",
+        "√(x² - y²)"
+      ],
+      "correctAnswer": "√(x² + y²)",
+      "conceptTag": "Distance from Origin",
+      "explanation": "Substituting (0, 0) into the distance formula yields d = √(x² + y²)."
+    },
+    {
+      "id": "c10_m_cg_03",
+      "question": "What are the coordinates of the midpoint of the line segment joining (x₁, y₁) and (x₂, y₂)?",
+      "options": [
+        "((x₁ + x₂) / 2, (y₁ + y₂) / 2)",
+        "((x₁ - x₂) / 2, (y₁ - y₂) / 2)",
+        "(x₁ + x₂, y₁ + y₂)",
+        "((x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3)"
+      ],
+      "correctAnswer": "((x₁ + x₂) / 2, (y₁ + y₂) / 2)",
+      "conceptTag": "Midpoint Formula",
+      "explanation": "The midpoint divides the segment in a 1:1 ratio, giving the arithmetic average of each coordinate."
+    },
+    {
+      "id": "c10_m_cg_04",
+      "question": "The coordinates of the point dividing the line segment joining (x₁, y₁) and (x₂, y₂) internally in the ratio m₁:m₂ are:",
+      "options": [
+        "((m₁x₂ + m₂x₁) / (m₁ + m₂), (m₁y₂ + m₂y₁) / (m₁ + m₂))",
+        "((m₁x₁ + m₂x₂) / (m₁ + m₂), (m₁y₁ + m₂y₂) / (m₁ + m₂))",
+        "((m₁x₂ - m₂x₁) / (m₁ - m₂), (m₁y₂ - m₂y₁) / (m₁ - m₂))",
+        "((m₁x₁ - m₂x₂) / (m₁ + m₂), (m₁y₁ - m₂y₂) / (m₁ + m₂))"
+      ],
+      "correctAnswer": "((m₁x₂ + m₂x₁) / (m₁ + m₂), (m₁y₂ + m₂y₁) / (m₁ + m₂))",
+      "conceptTag": "Internal Section Formula",
+      "explanation": "The section formula cross-multiplies ratios with opposing endpoints to find intermediate division coordinates."
+    },
+    {
+      "id": "c10_m_cg_05",
+      "question": "What is the area of a triangle whose vertices are (0, 0), (3, 0), and (0, 4)?",
+      "options": [
+        "6 sq units",
+        "12 sq units",
+        "5 sq units",
+        "0 sq units"
+      ],
+      "correctAnswer": "6 sq units",
+      "conceptTag": "Area of Triangle in Coordinate Geometry",
+      "explanation": "Area = (1/2) * base * height = (1/2) * 3 * 4 = 6 sq units (or using the determinant area formula)."
+    },
+    {
+      "id": "c10_m_cg_06",
+      "question": "In what ratio does the y-axis divide the line segment joining points (-3, 5) and (6, 2)?",
+      "options": [
+        "1 : 2",
+        "2 : 1",
+        "1 : 3",
+        "3 : 1"
+      ],
+      "correctAnswer": "1 : 2",
+      "conceptTag": "Axis Intercept Ratio",
+      "explanation": "Points on the y-axis have x = 0. Using section formula for ratio k:1: [6k + (-3)] / (k + 1) = 0 => 6k = 3 => k = 1/2 (Ratio 1:2)."
+    },
+    {
+      "id": "c10_m_cg_07",
+      "question": "What is the centroid of a triangle with vertices (x₁, y₁), (x₂, y₂), and (x₃, y₃)?",
+      "options": [
+        "((x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3)",
+        "((x₁ + x₂ + x₃) / 2, (y₁ + y₂ + y₃) / 2)",
+        "(x₁ + x₂ + x₃, y₁ + y₂ + y₃)",
+        "((x₁x₂x₃) / 3, (y₁y₂y₃) / 3)"
+      ],
+      "correctAnswer": "((x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3)",
+      "conceptTag": "Triangle Centroid Formula",
+      "explanation": "The centroid represents the arithmetic mean of all three vertex coordinates."
+    },
+    {
+      "id": "c10_m_cg_08",
+      "question": "If three points A, B, and C are collinear, what is the area of the triangle formed by them?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "Undefined"
+      ],
+      "correctAnswer": "0",
+      "conceptTag": "Collinearity Condition",
+      "explanation": "Collinear points lie on a straight line and enclose zero area, meaning the determinant formula evaluates to 0."
+    }
+  ],
+
+  "Introduction to Trigonometry": [
+    {
+      "id": "c10_m_tr_01",
+      "question": "In a right triangle right-angled at B, sin(A) is defined as:",
+      "options": [
+        "Opposite side / Hypotenuse",
+        "Adjacent side / Hypotenuse",
+        "Opposite side / Adjacent side",
+        "Hypotenuse / Opposite side"
+      ],
+      "correctAnswer": "Opposite side / Hypotenuse",
+      "conceptTag": "Trigonometric Ratios",
+      "explanation": "Sine is the ratio of the side opposite to the angle to the hypotenuse."
+    },
+    {
+      "id": "c10_m_tr_02",
+      "question": "Which of the following is a fundamental Pythagorean trigonometric identity?",
+      "options": [
+        "sin²θ + cos²θ = 1",
+        "sin²θ - cos²θ = 1",
+        "sec²θ + tan²θ = 1",
+        "cosec²θ + cot²θ = 1"
+      ],
+      "correctAnswer": "sin²θ + cos²θ = 1",
+      "conceptTag": "Pythagorean Identities",
+      "explanation": "Dividing the sides of a right triangle by the hypotenuse yields sin²θ + cos²θ = 1."
+    },
+    {
+      "id": "c10_m_tr_03",
+      "question": "What is the value of 1 + tan²θ?",
+      "options": [
+        "sec²θ",
+        "cosec²θ",
+        "cot²θ",
+        "cos²θ"
+      ],
+      "correctAnswer": "sec²θ",
+      "conceptTag": "Secant-Tangent Identity",
+      "explanation": "Dividing sin²θ + cos²θ = 1 by cos²θ produces tan²θ + 1 = sec²θ."
+    },
+    {
+      "id": "c10_m_tr_04",
+      "question": "What is the value of sin(30°) + cos(60°)?",
+      "options": [
+        "1",
+        "1 / 2",
+        "√3",
+        "0"
+      ],
+      "correctAnswer": "1",
+      "conceptTag": "Standard Trigonometric Values",
+      "explanation": "sin(30°) = 1/2 and cos(60°) = 1/2. Their sum is 1/2 + 1/2 = 1."
+    },
+    {
+      "id": "c10_m_tr_05",
+      "question": "What is the value of tan(45°)?",
+      "options": [
+        "1",
+        "0",
+        "1 / √3",
+        "√3"
+      ],
+      "correctAnswer": "1",
+      "conceptTag": "Trigonometric Values at 45°",
+      "explanation": "In an isosceles right triangle, opposite and adjacent sides are equal, making tan(45°) = 1."
+    },
+    {
+      "id": "c10_m_tr_06",
+      "question": "If sin(θ) = 3/5, what is the value of tan(θ) for an acute angle θ?",
+      "options": [
+        "3 / 4",
+        "4 / 3",
+        "4 / 5",
+        "5 / 4"
+      ],
+      "correctAnswer": "3 / 4",
+      "conceptTag": "Ratio Conversion via Pythagoras",
+      "explanation": "Opposite = 3, Hypotenuse = 5. By Pythagoras, Adjacent = √(5² - 3²) = 4. Thus tan(θ) = 3/4."
+    },
+    {
+      "id": "c10_m_tr_07",
+      "question": "What is the value of (1 + tan θ + sec θ)(1 + cot θ - cosec θ)?",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "-1"
+      ],
+      "correctAnswer": "2",
+      "conceptTag": "Trigonometric Expression Simplification",
+      "explanation": "Converting all terms to sine and cosine and simplifying algebraic terms yields a constant value of 2."
+    },
+    {
+      "id": "c10_m_tr_08",
+      "question": "Can the value of sin(θ) for any real angle θ ever exceed 1?",
+      "options": [
+        "No, because the hypotenuse is always the longest side in a right triangle",
+        "Yes, for angles greater than 90°",
+        "Yes, when tan(θ) is very large",
+        "Only when θ = 0°"
+      ],
+      "correctAnswer": "No, because the hypotenuse is always the longest side in a right triangle",
+      "conceptTag": "Boundedness of Sine and Cosine",
+      "explanation": "The opposite side can never exceed the hypotenuse, bounding sin(θ) in [-1, 1]."
+    }
+  ],
+
+  "Some Applications of Trigonometry": [
+    {
+      "id": "c10_m_app_01",
+      "question": "What is the 'Angle of Elevation' of an object viewed from a point, when the object is located:",
+      "options": [
+        "Above the horizontal level of the observer",
+        "Below the horizontal level of the observer",
+        "Directly parallel to the observer's eye",
+        "At an infinite distance"
+      ],
+      "correctAnswer": "Above the horizontal level of the observer",
+      "conceptTag": "Angle of Elevation Definition",
+      "explanation": "The angle of elevation is formed by the line of sight upward from the horizontal line of sight."
+    },
+    {
+      "id": "c10_m_app_02",
+      "question": "What is the 'Angle of Depression' of an object viewed from a vantage point?",
+      "options": [
+        "The angle formed by the line of sight downward from the horizontal",
+        "The angle formed upward from the vertical",
+        "The angle between the ground and the tower",
+        "Always equal to 90 degrees"
+      ],
+      "correctAnswer": "The angle formed by the line of sight downward from the horizontal",
+      "conceptTag": "Angle of Depression Definition",
+      "explanation": "The angle of depression is the angle between the horizontal line of sight and the downward line of sight."
+    },
+    {
+      "id": "c10_m_app_03",
+      "question": "If the angle of elevation of the sun is 30° and the shadow of a tower is 50√3 m long, what is the height of the tower?",
+      "options": [
+        "50 m",
+        "150 m",
+        "50 / 3 m",
+        "100 m"
+      ],
+      "correctAnswer": "50 m",
+      "conceptTag": "Height and Distance Calculation",
+      "explanation": "tan(30°) = Height / Shadow => 1/√3 = h / (50√3) => h = 50 m."
+    },
+    {
+      "id": "c10_m_app_04",
+      "question": "An observer 1.5 m tall is 28.5 m away from a tower. The angle of elevation of the top of the tower from her eyes is 45°. What is the height of the tower?",
+      "options": [
+        "30 m",
+        "28.5 m",
+        "27 m",
+        "31.5 m"
+      ],
+      "correctAnswer": "30 m",
+      "conceptTag": "Observer Height Adjustment",
+      "explanation": "tan(45°) = h_above_eyes / 28.5 => h_above_eyes = 28.5 m. Total height = 28.5 + 1.5 = 30 m."
+    },
+    {
+      "id": "c10_m_app_05",
+      "question": "If the height of a tower and the distance of the point of observation from its foot are both increased by 10%, how does the angle of elevation change?",
+      "options": [
+        "It remains unchanged",
+        "It increases by 10%",
+        "It decreases by 10%",
+        "It doubles"
+      ],
+      "correctAnswer": "It remains unchanged",
+      "conceptTag": "Ratio Scaling in Heights and Distances",
+      "explanation": "tan(θ) = h / d. Scaling both h and d by factor k gives (kh)/(kd) = h/d, so θ remains unchanged."
+    },
+    {
+      "id": "c10_m_app_06",
+      "question": "From a point on a bridge across a river, the angles of depression of the banks on opposite sides are 30° and 45°. If the bridge is at a height of 3 m, what is the width of the river?",
+      "options": [
+        "3(√3 + 1) m",
+        "3(√3 - 1) m",
+        "3√3 m",
+        "6 m"
+      ],
+      "correctAnswer": "3(√3 + 1) m",
+      "conceptTag": "Two-Sided Angle of Depression Problem",
+      "explanation": "Width = 3/tan(30°) + 3/tan(45°) = 3√3 + 3 = 3(√3 + 1) m."
+    },
+    {
+      "id": "c10_m_app_07",
+      "question": "The angle of elevation of a cloud from a point h meters above a lake is θ, and the angle of depression of its reflection in the lake is φ. What is the height of the cloud?",
+      "options": [
+        "h * (tan φ + tan θ) / (tan φ - tan θ)",
+        "h * (tan φ - tan θ) / (tan φ + tan θ)",
+        "h * tan θ * tan φ",
+        "2h * tan θ"
+      ],
+      "correctAnswer": "h * (tan φ + tan θ) / (tan φ - tan θ)",
+      "conceptTag": "Advanced Reflection and Height Problem",
+      "explanation": "Setting up simultaneous equations for the cloud height above water and its reflection yields H = h(tanφ + tanθ)/(tanφ - tanθ)."
+    },
+    {
+      "id": "c10_m_app_08",
+      "question": "Why are angles of elevation and depression measured strictly with respect to the horizontal line?",
+      "options": [
+        "Because the horizontal serves as the baseline reference for line-of-sight elevation and depression",
+        "Because gravity pulls horizontally",
+        "Because vertical lines have no angles",
+        "It is merely a convention with no geometric meaning"
+      ],
+      "correctAnswer": "Because the horizontal serves as the baseline reference for line-of-sight elevation and depression",
+      "conceptTag": "Baseline Reference in Trigonometry",
+      "explanation": "Trigonometric applications use the horizontal ground or eye-level line as the baseline to define right triangles with line-of-sight hypotenuses."
+    }
+  ],
+
+  "Circles": [
+    {
+      "id": "c10_m_cir_01",
+      "question": "The tangent at any point of a circle is perpendicular to the radius through:",
+      "options": [
+        "The point of contact",
+        "The center exclusively",
+        "The midpoint of the chord",
+        "The diameter's endpoint"
+      ],
+      "correctAnswer": "The point of contact",
+      "conceptTag": "Tangent-Radius Theorem",
+      "explanation": "The radius to the point of contact represents the shortest distance from the center to the tangent line, meeting at 90°."
+    },
+    {
+      "id": "c10_m_cir_02",
+      "question": "The lengths of tangents drawn from an external point to a circle are:",
+      "options": [
+        "Equal",
+        "Unequal",
+        "Proportional to radius",
+        "Double the radius"
+      ],
+      "correctAnswer": "Equal",
+      "conceptTag": "Tangents from External Point",
+      "explanation": "Right triangles formed by the center, external point, and contact points are congruent by RHS, proving both tangents equal."
+    },
+    {
+      "id": "c10_m_cir_03",
+      "question": "How many tangents can be drawn to a circle from a point lying strictly INSIDE the circle?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinite"
+      ],
+      "correctAnswer": "0",
+      "conceptTag": "Number of Tangents from Interior Point",
+      "explanation": "Any line through an interior point intersects the circle at two points, forming a secant rather than a tangent."
+    },
+    {
+      "id": "c10_m_cir_04",
+      "question": "How many tangents can be drawn to a circle from an external point?",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "Infinite"
+      ],
+      "correctAnswer": "2",
+      "conceptTag": "Tangents from Exterior Point",
+      "explanation": "From any point outside a circle, exactly two distinct tangents can be drawn."
+    },
+    {
+      "id": "c10_m_cir_05",
+      "question": "If two tangents PA and PB from a point P to a circle with center O are inclined to each other at 80°, what is ∠POA?",
+      "options": [
+        "50°",
+        "60°",
+        "70°",
+        "80°"
+      ],
+      "correctAnswer": "50°",
+      "conceptTag": "Angle Subtended by Tangents at Center",
+      "explanation": "∠AOB + ∠APB = 180° => ∠AOB = 100°. The line OP bisects ∠AOB, so ∠POA = 100° / 2 = 50°."
+    },
+    {
+      "id": "c10_m_cir_06",
+      "question": "A line intersecting a circle at two distinct points is called a:",
+      "options": [
+        "Secant",
+        "Tangent",
+        "Diameter",
+        "Chord"
+      ],
+      "correctAnswer": "Secant",
+      "conceptTag": "Secant vs Tangent",
+      "explanation": "A tangent touches at one point, while a secant cuts across the circle at two distinct points."
+    },
+    {
+      "id": "c10_m_cir_07",
+      "question": "The angle between two tangents drawn from an external point and the angle subtended by the contact points at the center are:",
+      "options": [
+        "Supplementary (sum to 180°)",
+        "Complementary (sum to 90°)",
+        "Equal",
+        "Vertical angles"
+      ],
+      "correctAnswer": "Supplementary (sum to 180°)",
+      "conceptTag": "Supplementary Angles of Tangents and Radii",
+      "explanation": "The quadrilateral formed by the center, two contact points, and external point has two 90° angles, leaving opposite angles supplementary."
+    },
+    {
+      "id": "c10_m_cir_08",
+      "question": "What is the maximum number of parallel tangents a circle can have on a given secant direction?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "Infinite"
+      ],
+      "correctAnswer": "2",
+      "conceptTag": "Parallel Tangents",
+      "explanation": "Parallel tangents can only occur at the diametrically opposite endpoints of a single diameter."
+    }
+  ],
+
+  "Areas Related to Circles": [
+    {
+      "id": "c10_m_arc_01",
+      "question": "What is the formula for the area of a circle with radius r?",
+      "options": [
+        "π r²",
+        "2 π r",
+        "π r",
+        "(4/3) π r³"
+      ],
+      "correctAnswer": "π r²",
+      "conceptTag": "Area of Circle Formula",
+      "explanation": "The area enclosed by a circle of radius r is A = πr²."
+    },
+    {
+      "id": "c10_m_arc_02",
+      "question": "What is the formula for the circumference (perimeter) of a circle with radius r?",
+      "options": [
+        "2 π r",
+        "π r²",
+        "π r",
+        "4 π r²"
+      ],
+      "correctAnswer": "2 π r",
+      "conceptTag": "Circumference Formula",
+      "explanation": "The perimeter of a circle is C = 2πr."
+    },
+    {
+      "id": "c10_m_arc_03",
+      "question": "What is the area of a sector of a circle with radius r and central angle θ (in degrees)?",
+      "options": [
+        "(θ / 360°) × π r²",
+        "(θ / 180°) × π r²",
+        "(θ / 360°) × 2 π r",
+        "(θ / 360°) × π r"
+      ],
+      "correctAnswer": "(θ / 360°) × π r²",
+      "conceptTag": "Area of Sector Formula",
+      "explanation": "A sector is a fractional slice of the full circle area based on its central angle proportion: (θ/360°) * πr²."
+    },
+    {
+      "id": "c10_m_arc_04",
+      "question": "What is the length of an arc of a sector of a circle with radius r and angle θ?",
+      "options": [
+        "(θ / 360°) × 2 π r",
+        "(θ / 360°) × π r²",
+        "(θ / 180°) × π r²",
+        "θ × π r"
+      ],
+      "correctAnswer": "(θ / 360°) × 2 π r",
+      "conceptTag": "Arc Length Formula",
+      "explanation": "Arc length is the proportional fraction of the full circumference: (θ/360°) * 2πr."
+    },
+    {
+      "id": "c10_m_arc_05",
+      "question": "If the perimeter of a circular field is equal to that of a square field, what is the ratio of their areas?",
+      "options": [
+        "14 : 11",
+        "11 : 14",
+        "22 : 7",
+        "7 : 22"
+      ],
+      "correctAnswer": "14 : 11",
+      "conceptTag": "Area Ratio of Equal Perimeters",
+      "explanation": "Let perimeter be P. Radius of circle r = P/(2π). Side of square a = P/4. Ratio of areas (πr²)/a² = 14:11."
+    },
+    {
+      "id": "c10_m_arc_06",
+      "question": "What is the area of a quadrant of a circle whose circumference is 22 cm?",
+      "options": [
+        "9.625 cm²",
+        "38.5 cm²",
+        "19.25 cm²",
+        "4.81 cm²"
+      ],
+      "correctAnswer": "9.625 cm²",
+      "conceptTag": "Quadrant Area Calculation",
+      "explanation": "2πr = 22 => r = 7/2 cm. Quadrant Area = (1/4) * πr² = (1/4)*(22/7)*(49/4) = 77/8 = 9.625 cm²."
+    },
+    {
+      "id": "c10_m_arc_07",
+      "question": "How is the area of a minor segment of a circle calculated?",
+      "options": [
+        "Area of corresponding sector - Area of corresponding triangle",
+        "Area of corresponding sector + Area of triangle",
+        "Area of full circle - Area of sector",
+        "Circumference minus arc length"
+      ],
+      "correctAnswer": "Area of corresponding sector - Area of corresponding triangle",
+      "conceptTag": "Segment vs Sector Area",
+      "explanation": "A segment is bounded by a chord and an arc; its area equals the sector area minus the triangle formed by the two radii and the chord."
+    },
+    {
+      "id": "c10_m_arc_08",
+      "question": "If the radius of a circle is increased by 100% (doubled), by what percentage does its area increase?",
+      "options": [
+        "300%",
+        "100%",
+        "200%",
+        "400%"
+      ],
+      "correctAnswer": "300%",
+      "conceptTag": "Percentage Increase in Area",
+      "explanation": "New radius = 2r. New area = π(2r)² = 4πr² (4 times original). Increase = 4A - A = 3A, which is a 300% increase."
+    }
+  ],
+
+  "Surface Areas and Volumes": [
+    {
+      "id": "c10_m_sav_01",
+      "question": "What is the total surface area of a cuboid with dimensions length l, breadth b, and height h?",
+      "options": [
+        "2(lb + bh + hl)",
+        "l * b * h",
+        "2(l + b)h",
+        "6l²"
+      ],
+      "correctAnswer": "2(lb + bh + hl)",
+      "conceptTag": "Cuboid Total Surface Area",
+      "explanation": "A cuboid has 3 pairs of identical rectangular faces: lb, bh, and hl."
+    },
+    {
+      "id": "c10_m_sav_02",
+      "question": "What is the volume of a right circular cylinder of radius r and height h?",
+      "options": [
+        "π r² h",
+        "2 π r h",
+        "2 π r (r + h)",
+        "(1/3) π r² h"
+      ],
+      "correctAnswer": "π r² h",
+      "conceptTag": "Cylinder Volume Formula",
+      "explanation": "Cylinder volume equals base area multiplied by height: V = πr²h."
+    },
+    {
+      "id": "c10_m_sav_03",
+      "question": "What is the formula for the volume of a right circular cone?",
+      "options": [
+        "(1/3) π r² h",
+        "π r² h",
+        "π r l",
+        "4/3 π r³"
+      ],
+      "correctAnswer": "(1/3) π r² h",
+      "conceptTag": "Cone Volume Formula",
+      "explanation": "The volume of a cone is exactly one-third the volume of a cylinder with the same base radius and height."
+    },
+    {
+      "id": "c10_m_sav_04",
+      "question": "What is the total surface area of a solid hemisphere of radius r?",
+      "options": [
+        "3 π r²",
+        "2 π r²",
+        "4 π r²",
+        "π r²"
+      ],
+      "correctAnswer": "3 π r²",
+      "conceptTag": "Hemisphere Total Surface Area",
+      "explanation": "TSA = Curved surface (2πr²) + Flat circular base (πr²) = 3πr²."
+    },
+    {
+      "id": "c10_m_sav_05",
+      "question": "Two cubes each of volume 64 cm³ are joined end to end. What is the surface area of the resulting cuboid?",
+      "options": [
+        "160 cm²",
+        "120 cm²",
+        "180 cm²",
+        "96 cm²"
+      ],
+      "correctAnswer": "160 cm²",
+      "conceptTag": "Joining Cubes Surface Area",
+      "explanation": "Volume = 64 cm³ => side a = 4 cm. Joining two cubes gives a cuboid of dimensions 8 × 4 × 4 cm. TSA = 2(32 + 16 + 32) = 160 cm²."
+    },
+    {
+      "id": "c10_m_sav_06",
+      "question": "What is the formula for the volume of a sphere of radius r?",
+      "options": [
+        "(4/3) π r³",
+        "4 π r²",
+        "(2/3) π r³",
+        "2 π r²"
+      ],
+      "correctAnswer": "(4/3) π r³",
+      "conceptTag": "Sphere Volume Formula",
+      "explanation": "The volume enclosed by a spherical surface is V = (4/3)πr³."
+    },
+    {
+      "id": "c10_m_sav_07",
+      "question": "A metallic sphere of radius 4.2 cm is melted and recast into the shape of a cylinder of radius 6 cm. What is the height of the cylinder?",
+      "options": [
+        "2.74 cm",
+        "3.5 cm",
+        "4.2 cm",
+        "2.0 cm"
+      ],
+      "correctAnswer": "2.74 cm",
+      "conceptTag": "Conservation of Volume on Recasting",
+      "explanation": "Volume of sphere = Volume of cylinder => (4/3)π(4.2)³ = π(6)²h => h = 2.74 cm."
+    },
+    {
+      "id": "c10_m_sav_08",
+      "question": "What is the curved surface area formula for the frustum of a cone with radii r₁ and r₂ and slant height l?",
+      "options": [
+        "π (r₁ + r₂) l",
+        "2 π (r₁ + r₂) l",
+        "π (r₁² + r₂²) l",
+        "π r₁ r₂ l"
+      ],
+      "correctAnswer": "π (r₁ + r₂) l",
+      "conceptTag": "Frustum Curved Surface Area",
+      "explanation": "CSA of a cone frustum is π(r₁ + r₂)l, where l = √[h² + (r₁ - r₂)²]."
+    }
+  ],
+
+  "Statistics": [
+    {
+      "id": "c10_m_sta_01",
+      "question": "What is the empirical relationship between Mean, Median, and Mode in a moderately skewed distribution?",
+      "options": [
+        "Mode = 3 Median - 2 Mean",
+        "Median = 3 Mode - 2 Mean",
+        "Mean = 3 Median - Mode",
+        "Mode = 2 Median - 3 Mean"
+      ],
+      "correctAnswer": "Mode = 3 Median - 2 Mean",
+      "conceptTag": "Empirical Relationship (Mean, Median, Mode)",
+      "explanation": "Karl Pearson's empirical formula connects the three central tendency measures: Mode = 3 Median - 2 Mean."
+    },
+    {
+      "id": "c10_m_sta_02",
+      "question": "How is the class mark (midpoint) of a grouped frequency class interval calculated?",
+      "options": [
+        "(Upper Class Limit + Lower Class Limit) / 2",
+        "Upper Class Limit - Lower Class Limit",
+        "(Upper Class Limit * Lower Class Limit) / 2",
+        "Upper Class Limit + Lower Class Limit"
+      ],
+      "correctAnswer": "(Upper Class Limit + Lower Class Limit) / 2",
+      "conceptTag": "Class Mark Calculation",
+      "explanation": "The class mark is the average of the upper and lower boundaries of a class interval."
+    },
+    {
+      "id": "c10_m_sta_03",
+      "question": "What does the 'cumulative frequency' of a class interval represent?",
+      "options": [
+        "The running total of frequencies up to and including that class interval",
+        "The frequency of only that specific class",
+        "The average of all previous frequencies",
+        "The total number of class intervals"
+      ],
+      "correctAnswer": "The running total of frequencies up to and including that class interval",
+      "conceptTag": "Cumulative Frequency Definition",
+      "explanation": "Cumulative frequencies aggregate the frequency counts sequentially to locate the median position."
+    },
+    {
+      "id": "c10_m_sta_04",
+      "question": "What does an 'ogive' (cumulative frequency curve) graphically help determine?",
+      "options": [
+        "The Median of grouped data",
+        "The Mode exclusively",
+        "The Arithmetic Mean",
+        "The Standard Deviation"
+      ],
+      "correctAnswer": "The Median of grouped data",
+      "conceptTag": "Ogive Graphical Median",
+      "explanation": "Plotting cumulative frequencies against class boundaries forms an ogive curve, from which the median can be read at N/2."
+    },
+    {
+      "id": "c10_m_sta_05",
+      "question": "What is the formula for calculating Arithmetic Mean using the direct method for grouped data?",
+      "options": [
+        "x̄ = Σ(fᵢxᵢ) / Σfᵢ",
+        "x̄ = a + Σ(fᵢdᵢ) / Σfᵢ",
+        "x̄ = Σfᵢ / Σxᵢ",
+        "x̄ = (Maximum + Minimum) / 2"
+      ],
+      "correctAnswer": "x̄ = Σ(fᵢxᵢ) / Σfᵢ",
+      "conceptTag": "Direct Mean Formula",
+      "explanation": "The weighted average of class marks (xᵢ) multiplied by their frequencies (fᵢ) divided by total frequency (Σfᵢ)."
+    },
+    {
+      "id": "c10_m_sta_06",
+      "question": "In the formula for the median of grouped data, Median = L + [((N / 2 - cf) / f) * h], what does 'f' represent?",
+      "options": [
+        "Frequency of the median class",
+        "Total frequency N",
+        "Cumulative frequency of preceding class",
+        "Class size h"
+      ],
+      "correctAnswer": "Frequency of the median class",
+      "conceptTag": "Median Formula Parameters",
+      "explanation": "In grouped median calculation, f is the frequency of the chosen median class interval."
+    },
+    {
+      "id": "c10_m_sta_07",
+      "question": "In the mode formula for grouped data, Mode = L + [((f₁ - f₀) / (2f₁ - f₀ - f₂)) * h], what is f₁?",
+      "options": [
+        "Frequency of the modal class",
+        "Frequency of the preceding class",
+        "Frequency of the succeeding class",
+        "Total frequency"
+      ],
+      "correctAnswer": "Frequency of the modal class",
+      "conceptTag": "Mode Formula Parameters",
+      "explanation": "f₁ is the frequency of the modal class, f₀ precedes it, and f₂ succeeds it."
+    },
+    {
+      "id": "c10_m_sta_08",
+      "question": "If each observation in a data set is increased by 5, how does the mean of the data set change?",
+      "options": [
+        "It increases by 5",
+        "It remains unchanged",
+        "It increases by 5 times",
+        "It increases by 25"
+      ],
+      "correctAnswer": "It increases by 5",
+      "conceptTag": "Effect of Linear Transformations on Mean",
+      "explanation": "Adding a constant c to every observation shifts the mean by exactly c."
+    }
+  ],
+
+  "Probability": [
+    {
+      "id": "c10_m_pr_01",
+      "question": "What is the probability P(E) of an event E satisfying which valid inequality range?",
+      "options": [
+        "0 ≤ P(E) ≤ 1",
+        "0 < P(E) < 1",
+        "-1 ≤ P(E) ≤ 1",
+        "P(E) ≥ 1"
+      ],
+      "correctAnswer": "0 ≤ P(E) ≤ 1",
+      "conceptTag": "Probability Range Axiom",
+      "explanation": "Probability is bounded between 0 (impossible event) and 1 (certain event)."
+    },
+    {
+      "id": "c10_m_pr_02",
+      "question": "For any event E, what is the relationship between P(E) and P(not E)?",
+      "options": [
+        "P(E) + P(not E) = 1",
+        "P(E) - P(not E) = 1",
+        "P(E) * P(not E) = 1",
+        "P(E) = P(not E)"
+      ],
+      "correctAnswer": "P(E) + P(not E) = 1",
+      "conceptTag": "Complementary Events Rule",
+      "explanation": "The sum of the probability of an event happening and its complement not happening is always 1."
+    },
+    {
+      "id": "c10_m_pr_03",
+      "question": "A die is thrown once. What is the probability of getting a prime number?",
+      "options": [
+        "1 / 2",
+        "1 / 3",
+        "1 / 6",
+        "2 / 3"
+      ],
+      "correctAnswer": "1 / 2",
+      "conceptTag": "Standard Die Prime Probability",
+      "explanation": "Sample space = {1, 2, 3, 4, 5, 6}. Primes = {2, 3, 5} (3 favorable). P = 3/6 = 1/2."
+    },
+    {
+      "id": "c10_m_pr_04",
+      "question": "What is the probability of getting a face card when a single card is drawn from a well-shuffled deck of 52 cards?",
+      "options": [
+        "3 / 13",
+        "1 / 13",
+        "4 / 13",
+        "12 / 52"
+      ],
+      "correctAnswer": "3 / 13",
+      "conceptTag": "Standard Deck Face Cards",
+      "explanation": "There are 12 face cards (Kings, Queens, Jacks). P = 12 / 52 = 3 / 13."
+    },
+    {
+      "id": "c10_m_pr_05",
+      "question": "Two coins are tossed simultaneously. What is the probability of getting at least one head?",
+      "options": [
+        "3 / 4",
+        "1 / 2",
+        "1 / 4",
+        "1"
+      ],
+      "correctAnswer": "3 / 4",
+      "conceptTag": "Coin Toss Sample Space",
+      "explanation": "Sample space: {HH, HT, TH, TT}. Outcomes with at least one head: {HH, HT, TH} (3 favorable). P = 3/4."
+    },
+    {
+      "id": "c10_m_pr_06",
+      "question": "Which of the following numbers CANNOT be the probability of an event?",
+      "options": [
+        "-1.5",
+        "2 / 3",
+        "15%",
+        "0.7"
+      ],
+      "correctAnswer": "-1.5",
+      "conceptTag": "Negative Probability Impossibility",
+      "explanation": "Probability can never be negative; -1.5 is outside the valid range [0, 1]."
+    },
+    {
+      "id": "c10_m_pr_07",
+      "question": "A box contains 3 red balls, 5 black balls, and 4 white balls. A ball is drawn at random. What is the probability that the ball drawn is NOT black?",
+      "options": [
+        "7 / 12",
+        "5 / 12",
+        "1 / 3",
+        "3 / 4"
+      ],
+      "correctAnswer": "7 / 12",
+      "conceptTag": "Non-Event Probability",
+      "explanation": "Total balls = 3 + 5 + 4 = 12. Non-black balls = Red (3) + White (4) = 7. P = 7/12."
+    },
+    {
+      "id": "c10_m_pr_08",
+      "question": "A game of chance consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8. What is the probability that it will point at an odd number?",
+      "options": [
+        "1 / 2",
+        "1 / 4",
+        "3 / 8",
+        "5 / 8"
+      ],
+      "correctAnswer": "1 / 2",
+      "conceptTag": "Odd Numbers Probability",
+      "explanation": "Odd numbers in {1..8} are {1, 3, 5, 7} (4 favorable). P = 4/8 = 1/2."
+    }
+  ]
+}

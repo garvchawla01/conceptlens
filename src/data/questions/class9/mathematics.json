@@ -1,0 +1,1089 @@
+{
+  "Orienting Yourself: The Use of Coordinates": [
+    {
+      "id": "c9_math_coord_01",
+      "question": "What are the coordinates of the origin where the horizontal and vertical reference axes intersect in a Cartesian plane?",
+      "options": ["(0, 0)", "(1, 1)", "(0, 1)", "(1, 0)"],
+      "correctAnswer": "(0, 0)",
+      "conceptTag": "Origin Coordinates",
+      "explanation": "The point of intersection of the x-axis and y-axis is defined as the origin, represented by (0, 0)."
+    },
+    {
+      "id": "c9_math_coord_02",
+      "question": "If a point has a negative abscissa (x < 0) and a positive ordinate (y > 0), in which quadrant does it lie?",
+      "options": ["Quadrant II", "Quadrant I", "Quadrant III", "Quadrant IV"],
+      "correctAnswer": "Quadrant II",
+      "conceptTag": "Quadrant Sign Conventions",
+      "explanation": "Quadrant II contains points where x is negative and y is positive (-x, +y)."
+    },
+    {
+      "id": "c9_math_coord_03",
+      "question": "Any point located strictly on the x-axis has which coordinate identically equal to zero?",
+      "options": ["Ordinate (y-coordinate)", "Abscissa (x-coordinate)", "Both coordinates", "Neither coordinate"],
+      "correctAnswer": "Ordinate (y-coordinate)",
+      "conceptTag": "Points on Coordinate Axes",
+      "explanation": "Points on the horizontal axis have an elevation of zero relative to the origin, taking the form (x, 0)."
+    },
+    {
+      "id": "c9_math_coord_04",
+      "question": "What is the perpendicular distance of the point P(-4, 3) from the y-axis?",
+      "options": ["4 units", "3 units", "-4 units", "5 units"],
+      "correctAnswer": "4 units",
+      "conceptTag": "Distance to Coordinate Axes",
+      "explanation": "Distance from the y-axis equals the absolute value of the x-coordinate: |-4| = 4 units."
+    },
+    {
+      "id": "c9_math_coord_05",
+      "question": "What is the perpendicular distance of the point Q(5, -7) from the x-axis?",
+      "options": ["7 units", "5 units", "-7 units", "12 units"],
+      "correctAnswer": "7 units",
+      "conceptTag": "Distance to x-axis",
+      "explanation": "Distance from the x-axis equals the absolute value of the y-coordinate: |-7| = 7 units."
+    },
+    {
+      "id": "c9_math_coord_06",
+      "question": "Which of the following points lies in Quadrant IV?",
+      "options": ["(3, -5)", "(-3, 5)", "(-3, -5)", "(3, 5)"],
+      "correctAnswer": "(3, -5)",
+      "conceptTag": "Identifying Quadrant Locations",
+      "explanation": "Quadrant IV consists of positive x-coordinates and negative y-coordinates (+x, -y)."
+    },
+    {
+      "id": "c9_math_coord_07",
+      "question": "The Cartesian plane was developed by which philosopher and mathematician?",
+      "options": ["René Descartes", "Euclid", "Blaise Pascal", "Isaac Newton"],
+      "correctAnswer": "René Descartes",
+      "conceptTag": "Cartesian Geometry Origin",
+      "explanation": "Cartesian coordinates are named after the French mathematician René Descartes, who formalized analytic geometry."
+    },
+    {
+      "id": "c9_math_coord_08",
+      "question": "If the coordinates of two points are A(2, 3) and B(2, -4), what is the orientation of the line segment joining them?",
+      "options": [
+        "Parallel to the y-axis (vertical)",
+        "Parallel to the x-axis (horizontal)",
+        "Passing through the origin",
+        "Inclined at 45 degrees"
+      ],
+      "correctAnswer": "Parallel to the y-axis (vertical)",
+      "conceptTag": "Collinear Points with Constant Abscissa",
+      "explanation": "Since both points share the identical x-coordinate x = 2, the line is strictly vertical and parallel to the y-axis."
+    }
+  ],
+
+  "Introduction to Linear Polynomials": [
+    {
+      "id": "c9_math_poly_01",
+      "question": "What is the degree of a linear polynomial in one variable?",
+      "options": ["1", "0", "2", "Undefined"],
+      "correctAnswer": "1",
+      "conceptTag": "Degree of Linear Polynomials",
+      "explanation": "A linear polynomial has the general form p(x) = ax + b (where a != 0), which has a highest variable exponent of 1."
+    },
+    {
+      "id": "c9_math_poly_02",
+      "question": "How many zeroes does a non-zero linear polynomial have?",
+      "options": ["Exactly one", "At most two", "Infinitely many", "Zero"],
+      "correctAnswer": "Exactly one",
+      "conceptTag": "Number of Zeroes of Linear Polynomials",
+      "explanation": "Solving ax + b = 0 yields x = -b/a, which produces exactly one unique real root."
+    },
+    {
+      "id": "c9_math_poly_03",
+      "question": "What is the zero of the polynomial p(x) = 3x - 12?",
+      "options": ["4", "-4", "12", "1/4"],
+      "correctAnswer": "4",
+      "conceptTag": "Zero Evaluation",
+      "explanation": "Set 3x - 12 = 0 => 3x = 12 => x = 4."
+    },
+    {
+      "id": "c9_math_poly_04",
+      "question": "What is the degree of a non-zero constant polynomial such as p(x) = 7?",
+      "options": ["0", "1", "7", "Undefined"],
+      "correctAnswer": "0",
+      "conceptTag": "Degree of Constant Polynomial",
+      "explanation": "p(x) = 7 can be written as 7x^0, giving it a degree of 0."
+    },
+    {
+      "id": "c9_math_poly_05",
+      "question": "What is the degree of the zero polynomial p(x) = 0?",
+      "options": ["Not defined", "0", "1", "Infinity"],
+      "correctAnswer": "Not defined",
+      "conceptTag": "Degree of the Zero Polynomial",
+      "explanation": "The degree of the zero polynomial is undefined because 0 can be written as 0x^n for any arbitrary power n."
+    },
+    {
+      "id": "c9_math_poly_06",
+      "question": "Which of the following algebraic expressions is a valid polynomial?",
+      "options": ["x² + 3x - 5", "x^(1/2) + 4", "3/x + 2", "x^(-2) + 1"],
+      "correctAnswer": "x² + 3x - 5",
+      "conceptTag": "Polynomial Exponent Constraint",
+      "explanation": "In a polynomial, every exponent of the variable must be a non-negative integer (whole number)."
+    },
+    {
+      "id": "c9_math_poly_07",
+      "question": "What is the coefficient of x in the linear polynomial p(x) = 9 - 4x?",
+      "options": ["-4", "4", "9", "-9"],
+      "correctAnswer": "-4",
+      "conceptTag": "Coefficient Identification",
+      "explanation": "Rewriting 9 - 4x in standard form yields -4x + 9; the coefficient multiplying x is -4."
+    },
+    {
+      "id": "c9_math_poly_08",
+      "question": "What is the geometric shape of the graph of any linear polynomial y = ax + b?",
+      "options": ["A straight line", "A parabola", "A circle", "A hyperbola"],
+      "correctAnswer": "A straight line",
+      "conceptTag": "Geometric Form of Linear Equations",
+      "explanation": "A polynomial of degree 1 maintains a constant rate of change (slope), forming a straight line on the Cartesian plane."
+    }
+  ],
+
+  "The World of Numbers": [
+    {
+      "id": "c9_math_num_01",
+      "question": "A number whose decimal expansion is non-terminating and non-recurring is classified as:",
+      "options": ["An irrational number", "A rational number", "An integer", "A natural number"],
+      "correctAnswer": "An irrational number",
+      "conceptTag": "Decimal Expansion Characterization",
+      "explanation": "Rational numbers have decimal expansions that either terminate or repeat periodically. Non-terminating, non-recurring decimals define irrationals."
+    },
+    {
+      "id": "c9_math_num_02",
+      "question": "Which of the following numbers is an irrational number?",
+      "options": ["√7", "√9", "0.333...", "22/7"],
+      "correctAnswer": "√7",
+      "conceptTag": "Identifying Irrational Numbers",
+      "explanation": "Square roots of non-perfect square integers are irrational. √9 = 3 (rational) and 22/7 is a ratio of integers (rational)."
+    },
+    {
+      "id": "c9_math_num_03",
+      "question": "How many rational numbers exist strictly between any two distinct rational numbers?",
+      "options": ["Infinitely many", "Only one", "A finite countable number", "Ten"],
+      "correctAnswer": "Infinitely many",
+      "conceptTag": "Density Property of Real Numbers",
+      "explanation": "Between any two distinct real numbers, an infinite number of rational and irrational numbers can be inserted."
+    },
+    {
+      "id": "c9_math_num_04",
+      "question": "What is the rationalising factor of the denominator in 1 / (√5 - 2)?",
+      "options": ["√5 + 2", "√5 - 2", "-√5 - 2", "5 + √2"],
+      "correctAnswer": "√5 + 2",
+      "conceptTag": "Rationalising the Denominator",
+      "explanation": "Multiplying by the conjugate (√5 + 2) uses (a - b)(a + b) = a² - b² to eliminate square roots from the denominator."
+    },
+    {
+      "id": "c9_math_num_05",
+      "question": "What is the simplified value of (64)^(1/3)?",
+      "options": ["4", "8", "16", "2"],
+      "correctAnswer": "4",
+      "conceptTag": "Laws of Fractional Exponents",
+      "explanation": "64 = 4³, so (4³)^(1/3) = 4^(3 * 1/3) = 4^1 = 4."
+    },
+    {
+      "id": "c9_math_num_06",
+      "question": "Which statement about the number zero is correct?",
+      "options": [
+        "Zero is a rational number because it can be written as 0/1",
+        "Zero is irrational because it cannot be factored",
+        "Zero is a positive integer",
+        "Zero is undefined in arithmetic"
+      ],
+      "correctAnswer": "Zero is a rational number because it can be written as 0/1",
+      "conceptTag": "Classification of Zero",
+      "explanation": "Zero can be expressed as 0/q where q is any non-zero integer, satisfying the definition of a rational number p/q."
+    },
+    {
+      "id": "c9_math_num_07",
+      "question": "What is the value of 2^(3) * 2^(4)?",
+      "options": ["2^7", "2^12", "4^7", "4^12"],
+      "correctAnswer": "2^7",
+      "conceptTag": "Product Rule of Exponents",
+      "explanation": "For identical bases: a^m * a^n = a^(m+n). Thus 2^(3+4) = 2^7."
+    },
+    {
+      "id": "c9_math_num_08",
+      "question": "Is the sum of a non-zero rational number and an irrational number always irrational?",
+      "options": [
+        "Yes, always irrational",
+        "No, it can be rational",
+        "Only if the irrational number is negative",
+        "Only when multiplied by zero"
+      ],
+      "correctAnswer": "Yes, always irrational",
+      "conceptTag": "Closure Properties of Rationals and Irrationals",
+      "explanation": "If rational r + irrational s = rational t, then s = t - r would be rational, creating a contradiction."
+    }
+  ],
+
+  "Exploring Algebraic Identities": [
+    {
+      "id": "c9_math_alg_01",
+      "question": "What is the expanded form of (x + y + z)²?",
+      "options": [
+        "x² + y² + z² + 2xy + 2yz + 2zx",
+        "x² + y² + z² + xy + yz + zx",
+        "x² + y² + z² - 2xy - 2yz - 2zx",
+        "x³ + y³ + z³ + 3xyz"
+      ],
+      "correctAnswer": "x² + y² + z² + 2xy + 2yz + 2zx",
+      "conceptTag": "Trinomial Square Identity",
+      "explanation": "Expanding (x + y + z)² gives x² + y² + z² + 2xy + 2yz + 2zx."
+    },
+    {
+      "id": "c9_math_alg_02",
+      "question": "If x + y + z = 0, what is the value of x³ + y³ + z³?",
+      "options": ["3xyz", "0", "-3xyz", "xyz"],
+      "correctAnswer": "3xyz",
+      "conceptTag": "Cubic Identity Conditional Property",
+      "explanation": "Using x³ + y³ + z³ - 3xyz = (x + y + z)(x² + y² + z² - xy - yz - zx): when x + y + z = 0, the right-hand side becomes 0, so x³ + y³ + z³ = 3xyz."
+    },
+    {
+      "id": "c9_math_alg_03",
+      "question": "What is the factorised form of x³ - y³?",
+      "options": [
+        "(x - y)(x² + xy + y²)",
+        "(x - y)(x² - xy + y²)",
+        "(x + y)(x² - xy + y²)",
+        "(x - y)³"
+      ],
+      "correctAnswer": "(x - y)(x² + xy + y²)",
+      "conceptTag": "Difference of Cubes Identity",
+      "explanation": "The standard factorization for the difference of two cubes is (x - y)(x² + xy + y²)."
+    },
+    {
+      "id": "c9_math_alg_04",
+      "question": "What is the expansion of (x + a)(x + b)?",
+      "options": [
+        "x² + (a + b)x + ab",
+        "x² + abx + (a + b)",
+        "x² + (a - b)x - ab",
+        "x² + 2(a + b)x + ab"
+      ],
+      "correctAnswer": "x² + (a + b)x + ab",
+      "conceptTag": "Binomial Product Identity",
+      "explanation": "(x + a)(x + b) = x(x + b) + a(x + b) = x² + bx + ax + ab = x² + (a + b)x + ab."
+    },
+    {
+      "id": "c9_math_alg_05",
+      "question": "What is the value of 105 × 95 calculated using an algebraic identity?",
+      "options": ["9975", "10025", "9875", "9950"],
+      "correctAnswer": "9975",
+      "conceptTag": "Difference of Squares Application",
+      "explanation": "105 × 95 = (100 + 5)(100 - 5) = 100² - 5² = 10000 - 25 = 9975."
+    },
+    {
+      "id": "c9_math_alg_06",
+      "question": "What is the expansion of (2x - 3y)³?",
+      "options": [
+        "8x³ - 36x²y + 54xy² - 27y³",
+        "8x³ - 27y³",
+        "8x³ + 36x²y + 54xy² + 27y³",
+        "8x³ - 18x²y + 18xy² - 27y³"
+      ],
+      "correctAnswer": "8x³ - 36x²y + 54xy² - 27y³",
+      "conceptTag": "Cube of a Binomial Expansion",
+      "explanation": "(a - b)³ = a³ - 3a²b + 3ab² - b³. With a = 2x and b = 3y: (2x)³ - 3(4x²)(3y) + 3(2x)(9y²) - (3y)³ = 8x³ - 36x²y + 54xy² - 27y³."
+    },
+    {
+      "id": "c9_math_alg_07",
+      "question": "If x + 1/x = 4, what is the value of x² + 1/x²?",
+      "options": ["14", "16", "18", "12"],
+      "correctAnswer": "14",
+      "conceptTag": "Reciprocal Quadratic Identity",
+      "explanation": "Square both sides: (x + 1/x)² = 4² => x² + 2 + 1/x² = 16 => x² + 1/x² = 14."
+    },
+    {
+      "id": "c9_math_alg_08",
+      "question": "What are the factors of 49a² - 28ab + 4b²?",
+      "options": ["(7a - 2b)²", "(7a + 2b)²", "(7a - 4b)(7a + b)", "(49a - 2b)²"],
+      "correctAnswer": "(7a - 2b)²",
+      "conceptTag": "Recognizing Perfect Square Trinomials",
+      "explanation": "49a² = (7a)², 4b² = (2b)², and 2(7a)(2b) = 28ab. It factors into (7a - 2b)²."
+    }
+  ],
+
+  "I'm Up and Down, and Round and Round": [
+    {
+      "id": "c9_math_geom_01",
+      "question": "The angle subtended by a diameter at any point on the semi-circle is always:",
+      "options": ["90 degrees (Right angle)", "180 degrees", "60 degrees", "45 degrees"],
+      "correctAnswer": "90 degrees (Right angle)",
+      "conceptTag": "Angle in a Semicircle Theorem",
+      "explanation": "An angle subtended by a semicircle arc on the remaining circumference is half of the 180° central angle, which is 90°."
+    },
+    {
+      "id": "c9_math_geom_02",
+      "question": "The perpendicular drawn from the center of a circle to a chord:",
+      "options": [
+        "Bisects the chord into two equal halves",
+        "Doubles the length of the chord",
+        "Is always equal to the radius",
+        "Passes outside the circle"
+      ],
+      "correctAnswer": "Bisects the chord into two equal halves",
+      "conceptTag": "Chord Perpendicular Bisector Property",
+      "explanation": "A line drawn from the center perpendicular to a chord bisects the chord."
+    },
+    {
+      "id": "c9_math_geom_03",
+      "question": "Angles subtended by the same arc in the same segment of a circle are:",
+      "options": ["Equal", "Supplementary", "Complementary", "Unequal"],
+      "correctAnswer": "Equal",
+      "conceptTag": "Angles in the Same Segment",
+      "explanation": "Angles inscribed in the same segment of a circle are equal to one another."
+    },
+    {
+      "id": "c9_math_geom_04",
+      "question": "What is the sum of opposite angles in a cyclic quadrilateral?",
+      "options": ["180 degrees", "360 degrees", "90 degrees", "270 degrees"],
+      "correctAnswer": "180 degrees",
+      "conceptTag": "Cyclic Quadrilateral Opposite Angles",
+      "explanation": "The opposite angles of a quadrilateral inscribed inside a circle are supplementary (sum = 180°)."
+    },
+    {
+      "id": "c9_math_geom_05",
+      "question": "What is the angle subtended by an arc at the center compared to the angle subtended by it at any point on the remaining part of the circle?",
+      "options": ["Double", "Half", "Equal", "Triple"],
+      "correctAnswer": "Double",
+      "conceptTag": "Central Angle Theorem",
+      "explanation": "The angle subtended by an arc at the center is double the angle subtended by it at any point on the remaining circumference."
+    },
+    {
+      "id": "c9_math_geom_06",
+      "question": "How many circles can pass through three non-collinear points?",
+      "options": ["Exactly one unique circle", "Two circles", "Infinitely many", "Zero"],
+      "correctAnswer": "Exactly one unique circle",
+      "conceptTag": "Uniqueness of Circle Through Three Points",
+      "explanation": "Three non-collinear points form a triangle with a unique circumcenter, yielding exactly one circumcircle."
+    },
+    {
+      "id": "c9_math_geom_07",
+      "question": "Chords of a circle that are equidistant from the center are:",
+      "options": ["Equal in length", "Unequal in length", "Perpendicular to each other", "Intersecting at 60 degrees"],
+      "correctAnswer": "Equal in length",
+      "conceptTag": "Equidistant Chords Property",
+      "explanation": "Chords equidistant from the center of a circle are equal in length."
+    },
+    {
+      "id": "c9_math_geom_08",
+      "question": "What is the longest chord of any circle?",
+      "options": ["Diameter", "Radius", "Secant", "Tangent"],
+      "correctAnswer": "Diameter",
+      "conceptTag": "Diameter as Maximal Chord",
+      "explanation": "The chord passing through the center is the diameter, which is the longest possible straight segment across a circle."
+    }
+  ],
+
+  "Measuring Space: Perimeter and Area": [
+    {
+      "id": "c9_math_area_01",
+      "question": "In Heron's formula for the area of a triangle, Area = √[s(s - a)(s - b)(s - c)], what does 's' represent?",
+      "options": [
+        "Semi-perimeter: (a + b + c) / 2",
+        "Sum of three sides: a + b + c",
+        "Square of the longest side",
+        "Altitude of the triangle"
+      ],
+      "correctAnswer": "Semi-perimeter: (a + b + c) / 2",
+      "conceptTag": "Heron's Formula Semi-perimeter Definition",
+      "explanation": "In Heron's formula, 's' is the semi-perimeter, calculated as half the perimeter: s = (a + b + c) / 2."
+    },
+    {
+      "id": "c9_math_area_02",
+      "question": "What is the area of an equilateral triangle with side length 'a'?",
+      "options": ["(√3 / 4) a²", "(√3 / 2) a²", "(1 / 2) a²", "(3 / 4) a²"],
+      "correctAnswer": "(√3 / 4) a²",
+      "conceptTag": "Equilateral Triangle Area Formula",
+      "explanation": "Applying Heron's formula with a = b = c yields Area = (√3 / 4) a²."
+    },
+    {
+      "id": "c9_math_area_03",
+      "question": "What is the area of a triangle with side lengths 3 cm, 4 cm, and 5 cm?",
+      "options": ["6 cm²", "12 cm²", "7.5 cm²", "10 cm²"],
+      "correctAnswer": "6 cm²",
+      "conceptTag": "Right Triangle and Heron's Application",
+      "explanation": "Since 3² + 4² = 5², it is a right-angled triangle. Area = (1/2) * base * height = (1/2) * 3 * 4 = 6 cm²."
+    },
+    {
+      "id": "c9_math_area_04",
+      "question": "If each side of a triangle is doubled, by what factor does its area increase?",
+      "options": ["4 times", "2 times", "8 times", "16 times"],
+      "correctAnswer": "4 times",
+      "conceptTag": "Scaling Law for Area",
+      "explanation": "Area scales with the square of linear dimensions. Doubling all sides increases area by 2² = 4 times."
+    },
+    {
+      "id": "c9_math_area_05",
+      "question": "What is the area of an isosceles right triangle with hypotenuse 8 cm?",
+      "options": ["16 cm²", "32 cm²", "8 cm²", "64 cm²"],
+      "correctAnswer": "16 cm²",
+      "conceptTag": "Isosceles Right Triangle Area",
+      "explanation": "Let the equal legs be x. x² + x² = 8² => 2x² = 64 => x² = 32. Area = (1/2) * x * x = x² / 2 = 32 / 2 = 16 cm²."
+    },
+    {
+      "id": "c9_math_area_06",
+      "question": "What is the perimeter of an equilateral triangle whose area is 16√3 cm²?",
+      "options": ["24 cm", "12 cm", "18 cm", "8 cm"],
+      "correctAnswer": "24 cm",
+      "conceptTag": "Reverse Calculation of Triangle Dimensions",
+      "explanation": "(√3 / 4) a² = 16√3 => a² / 4 = 16 => a² = 64 => a = 8 cm. Perimeter = 3a = 3(8) = 24 cm."
+    },
+    {
+      "id": "c9_math_area_07",
+      "question": "A triangular park has sides 120 m, 80 m, and 50 m. What is its semi-perimeter s?",
+      "options": ["125 m", "250 m", "150 m", "100 m"],
+      "correctAnswer": "125 m",
+      "conceptTag": "Semi-perimeter Evaluation",
+      "explanation": "s = (120 + 80 + 50) / 2 = 250 / 2 = 125 m."
+    },
+    {
+      "id": "c9_math_area_08",
+      "question": "Can a triangle be formed with side lengths 2 cm, 3 cm, and 6 cm?",
+      "options": [
+        "No, because the sum of any two sides must be strictly greater than the third side",
+        "Yes, any three positive numbers form a triangle",
+        "Yes, using Heron's formula",
+        "Only if one angle is obtuse"
+      ],
+      "correctAnswer": "No, because the sum of any two sides must be strictly greater than the third side",
+      "conceptTag": "Triangle Inequality Theorem",
+      "explanation": "The Triangle Inequality requires a + b > c. Here, 2 + 3 = 5, which is not greater than 6. Hence no triangle can exist."
+    }
+  ],
+
+  "The Mathematics of Maybe: Introduction to Probability": [
+    {
+      "id": "c9_math_prob_01",
+      "question": "What is empirical (experimental) probability based on?",
+      "options": [
+        "Actual results of experiments and observed frequencies",
+        "Pure theoretical assumption without testing",
+        "Subjective belief alone",
+        "Inductive reasoning only"
+      ],
+      "correctAnswer": "Actual results of experiments and observed frequencies",
+      "conceptTag": "Empirical Probability Definition",
+      "explanation": "Empirical probability is calculated from trials: P(E) = (Number of trials in which event occurred) / (Total number of trials)."
+    },
+    {
+      "id": "c9_math_prob_02",
+      "question": "What is the sum of probabilities of all possible elementary events of an experiment?",
+      "options": ["1", "0", "100", "0.5"],
+      "correctAnswer": "1",
+      "conceptTag": "Axiom of Total Probability",
+      "explanation": "The probabilities of all mutually exclusive and exhaustive elementary events sum to 1."
+    },
+    {
+      "id": "c9_math_prob_03",
+      "question": "A coin is tossed 1000 times with frequencies: Head: 455, Tail: 545. What is the empirical probability of getting a Head?",
+      "options": ["0.455", "0.545", "0.500", "0.450"],
+      "correctAnswer": "0.455",
+      "conceptTag": "Computing Experimental Probability",
+      "explanation": "P(Head) = 455 / 1000 = 0.455."
+    },
+    {
+      "id": "c9_math_prob_04",
+      "question": "What is the probability of an event that is completely impossible to happen?",
+      "options": ["0", "1", "-1", "Undefined"],
+      "correctAnswer": "0",
+      "conceptTag": "Impossible Event Probability",
+      "explanation": "An event that cannot occur has 0 favorable outcomes, making its probability 0."
+    },
+    {
+      "id": "c9_math_prob_05",
+      "question": "What is the valid numerical range for the probability P(E) of any event?",
+      "options": ["0 <= P(E) <= 1", "0 < P(E) < 1", "-1 <= P(E) <= 1", "P(E) >= 1"],
+      "correctAnswer": "0 <= P(E) <= 1",
+      "conceptTag": "Probability Range Bound",
+      "explanation": "Probability is bounded between 0 (impossible event) and 1 (certain event)."
+    },
+    {
+      "id": "c9_math_prob_06",
+      "question": "A die is thrown 500 times and the number 3 appears 85 times. What is the empirical probability of rolling a 3?",
+      "options": ["0.17", "0.30", "0.15", "0.085"],
+      "correctAnswer": "0.17",
+      "conceptTag": "Frequency-Based Probability Calculation",
+      "explanation": "P(3) = 85 / 500 = 17 / 100 = 0.17."
+    },
+    {
+      "id": "c9_math_prob_07",
+      "question": "If P(E) = 0.68, what is the probability of the complement event 'not E'?",
+      "options": ["0.32", "0.68", "-0.68", "1.68"],
+      "correctAnswer": "0.32",
+      "conceptTag": "Complementary Event Probability",
+      "explanation": "P(not E) = 1 - P(E) = 1 - 0.68 = 0.32."
+    },
+    {
+      "id": "c9_math_prob_08",
+      "question": "As the number of trials in a random experiment increases to a very large number, what does experimental probability approach?",
+      "options": [
+        "Theoretical probability",
+        "Zero",
+        "One",
+        "An unpredictable value"
+      ],
+      "correctAnswer": "Theoretical probability",
+      "conceptTag": "Law of Large Numbers",
+      "explanation": "By the Law of Large Numbers, empirical frequency ratios converge toward theoretical probability as trials increase."
+    }
+  ],
+
+  "Predicting What Comes Next: Exploring Sequences and Progressions": [
+    {
+      "id": "c9_math_seq_01",
+      "question": "What is the common difference 'd' in the sequence: 5, 9, 13, 17, 21, ...?",
+      "options": ["4", "5", "3", "6"],
+      "correctAnswer": "4",
+      "conceptTag": "Common Difference Identification",
+      "explanation": "Subtract adjacent terms: d = a₂ - a₁ = 9 - 5 = 4."
+    },
+    {
+      "id": "c9_math_seq_02",
+      "question": "What is the 8th term of the arithmetic pattern whose first term is 3 and common difference is 5?",
+      "options": ["38", "43", "35", "40"],
+      "correctAnswer": "38",
+      "conceptTag": "Finding nth Term in Patterns",
+      "explanation": "a₈ = a + 7d = 3 + 7(5) = 3 + 35 = 38."
+    },
+    {
+      "id": "c9_math_seq_03",
+      "question": "What is the next term in the geometric doubling sequence: 3, 6, 12, 24, ...?",
+      "options": ["48", "36", "30", "42"],
+      "correctAnswer": "48",
+      "conceptTag": "Geometric Progression Term Prediction",
+      "explanation": "Each term is multiplied by 2: 24 × 2 = 48."
+    },
+    {
+      "id": "c9_math_seq_04",
+      "question": "What is the 10th term in the square sequence: 1, 4, 9, 16, 25, ...?",
+      "options": ["100", "81", "64", "121"],
+      "correctAnswer": "100",
+      "conceptTag": "Quadratic Sequence Pattern Recognition",
+      "explanation": "The n-th term is n². For n = 10, 10² = 100."
+    },
+    {
+      "id": "c9_math_seq_05",
+      "question": "What is the next term in the Fibonacci sequence: 1, 1, 2, 3, 5, 8, ...?",
+      "options": ["13", "11", "12", "15"],
+      "correctAnswer": "13",
+      "conceptTag": "Recursive Fibonacci Sequences",
+      "explanation": "In the Fibonacci sequence, each term is the sum of the preceding two terms: 5 + 8 = 13."
+    },
+    {
+      "id": "c9_math_seq_06",
+      "question": "If the n-th term of a sequence is given by T_n = 3n - 2, what is its first term T_1?",
+      "options": ["1", "3", "-2", "4"],
+      "correctAnswer": "1",
+      "conceptTag": "Formula Substitution in Sequences",
+      "explanation": "Substitute n = 1: T₁ = 3(1) - 2 = 1."
+    },
+    {
+      "id": "c9_math_seq_07",
+      "question": "What is the sum of the first 5 positive odd integers (1 + 3 + 5 + 7 + 9)?",
+      "options": ["25", "20", "30", "16"],
+      "correctAnswer": "25",
+      "conceptTag": "Sum of Odd Numbers Property",
+      "explanation": "The sum of the first n odd positive integers equals n². For n = 5, 5² = 25."
+    },
+    {
+      "id": "c9_math_seq_08",
+      "question": "A sequence where the difference between consecutive terms is constant is known as:",
+      "options": [
+        "An Arithmetic Progression",
+        "A Geometric Progression",
+        "A Harmonic Series",
+        "A Random Sequence"
+      ],
+      "correctAnswer": "An Arithmetic Progression",
+      "conceptTag": "Arithmetic Sequence Definition",
+      "explanation": "An Arithmetic Progression is a sequence in which each term after the first is obtained by adding a constant difference."
+    }
+  ],
+
+  "Propositions and their Converses": [
+    {
+      "id": "c9_math_logic_01",
+      "question": "In mathematical logic, what is a proposition (statement)?",
+      "options": [
+        "A declarative sentence that is either strictly true or strictly false, but not both",
+        "An exclamatory sentence expressing emotional surprise",
+        "An open question with ambiguous interpretations",
+        "A command or imperative order"
+      ],
+      "correctAnswer": "A declarative sentence that is either strictly true or strictly false, but not both",
+      "conceptTag": "Mathematical Statement Definition",
+      "explanation": "A proposition is an assertive sentence with an unambiguous truth value: either true or false."
+    },
+    {
+      "id": "c9_math_logic_02",
+      "question": "What is the converse of the proposition: 'If a triangle is equilateral, then it is isosceles'?",
+      "options": [
+        "If a triangle is isosceles, then it is equilateral.",
+        "If a triangle is not equilateral, then it is not isosceles.",
+        "If a triangle is not isosceles, then it is not equilateral.",
+        "A triangle is equilateral if and only if it is right-angled."
+      ],
+      "correctAnswer": "If a triangle is isosceles, then it is equilateral.",
+      "conceptTag": "Formulating the Converse (If p then q -> If q then p)",
+      "explanation": "The converse swaps hypothesis and conclusion: 'If p then q' becomes 'If q then p'."
+    },
+    {
+      "id": "c9_math_logic_03",
+      "question": "If a mathematical theorem is true, is its converse automatically guaranteed to be true?",
+      "options": [
+        "No, the converse of a true statement may or may not be true",
+        "Yes, converses are always logically equivalent to the theorem",
+        "Only in algebraic statements",
+        "Yes, by the axiom of equality"
+      ],
+      "correctAnswer": "No, the converse of a true statement may or may not be true",
+      "conceptTag": "Truth Value of Converses Misconception",
+      "explanation": "A statement and its converse do not always share truth values. For example, every square is a rectangle (true), but not every rectangle is a square (false)."
+    },
+    {
+      "id": "c9_math_logic_04",
+      "question": "What is the contrapositive of 'If p, then q'?",
+      "options": [
+        "If not q, then not p",
+        "If q, then p",
+        "If not p, then not q",
+        "p if and only if q"
+      ],
+      "correctAnswer": "If not q, then not p",
+      "conceptTag": "Contrapositive Equivalence",
+      "explanation": "The contrapositive negates and swaps both parts: 'If not q, then not p', which is logically equivalent to the original conditional."
+    },
+    {
+      "id": "c9_math_logic_05",
+      "question": "What is the converse of Pythagoras' Theorem?",
+      "options": [
+        "If the square of one side of a triangle equals the sum of squares of the other two sides, the angle opposite the first side is a right angle",
+        "In a right triangle, hypotenuse squared equals base squared plus height squared",
+        "If a triangle has three equal angles, it is right-angled",
+        "The perimeter of a right triangle equals the sum of its legs"
+      ],
+      "correctAnswer": "If the square of one side of a triangle equals the sum of squares of the other two sides, the angle opposite the first side is a right angle",
+      "conceptTag": "Converse of Pythagoras Theorem",
+      "explanation": "Pythagoras' Theorem states right triangle => a² + b² = c². Its converse states a² + b² = c² => right triangle."
+    },
+    {
+      "id": "c9_math_logic_06",
+      "question": "Which of the following sentences is a valid mathematical proposition?",
+      "options": [
+        "The sum of angles in a planar triangle is 180 degrees.",
+        "Mathematics is a fascinating subject.",
+        "Close the classroom door immediately!",
+        "What is the square root of 64?"
+      ],
+      "correctAnswer": "The sum of angles in a planar triangle is 180 degrees.",
+      "conceptTag": "Distinguishing Statements from Subjective Opinions",
+      "explanation": "'The sum of angles in a planar triangle is 180 degrees' is a declarative sentence with a definite truth value (True)."
+    },
+    {
+      "id": "c9_math_logic_07",
+      "question": "What is the negation of the proposition: 'All prime numbers are odd'?",
+      "options": [
+        "There exists at least one prime number that is not odd (e.g., 2)",
+        "No prime numbers are odd",
+        "All odd numbers are prime",
+        "Composite numbers are even"
+      ],
+      "correctAnswer": "There exists at least one prime number that is not odd (e.g., 2)",
+      "conceptTag": "Negation of Universal Quantifiers",
+      "explanation": "The negation of 'For all x, P(x)' is 'There exists at least one x such that not P(x)'. The even prime 2 provides a counterexample."
+    },
+    {
+      "id": "c9_math_logic_08",
+      "question": "When both a proposition 'If p then q' and its converse 'If q then p' are true, how are they combined?",
+      "options": [
+        "p if and only if q (biconditional)",
+        "p or q",
+        "Neither p nor q",
+        "p implies not q"
+      ],
+      "correctAnswer": "p if and only if q (biconditional)",
+      "conceptTag": "Biconditional Equivalence (iff)",
+      "explanation": "When implication holds in both directions, it forms a biconditional statement denoted as 'p if and only if q' (p <=> q)."
+    }
+  ],
+
+  "How Quantities Combine: Understanding Data": [
+    {
+      "id": "c9_math_data_01",
+      "question": "What is the mean of the data set: 6, 8, 10, 12, 14?",
+      "options": ["10", "12", "8", "11"],
+      "correctAnswer": "10",
+      "conceptTag": "Arithmetic Mean Calculation",
+      "explanation": "Mean = (6 + 8 + 10 + 12 + 14) / 5 = 50 / 5 = 10."
+    },
+    {
+      "id": "c9_math_data_02",
+      "question": "What is the median of the observation set: 15, 6, 23, 8, 19, 12, 31?",
+      "options": ["15", "12", "19", "16"],
+      "correctAnswer": "15",
+      "conceptTag": "Median of Odd Number of Observations",
+      "explanation": "Arrange in ascending order: 6, 8, 12, 15, 19, 23, 31. The middle observation (4th value) is 15."
+    },
+    {
+      "id": "c9_math_data_03",
+      "question": "What is the mode of the data: 3, 5, 7, 5, 9, 5, 2, 8, 3?",
+      "options": ["5", "3", "7", "9"],
+      "correctAnswer": "5",
+      "conceptTag": "Mode Definition",
+      "explanation": "The mode is the value that occurs most frequently. 5 appears three times, more than any other number."
+    },
+    {
+      "id": "c9_math_data_04",
+      "question": "What is the range of the statistical data: 102, 45, 67, 89, 210, 134, 56?",
+      "options": ["165", "210", "45", "154"],
+      "correctAnswer": "165",
+      "conceptTag": "Statistical Range Formula",
+      "explanation": "Range = Maximum Value - Minimum Value = 210 - 45 = 165."
+    },
+    {
+      "id": "c9_math_data_05",
+      "question": "What is the class mark (midpoint) of the class interval 40 - 60?",
+      "options": ["50", "20", "100", "45"],
+      "correctAnswer": "50",
+      "conceptTag": "Class Mark Calculation",
+      "explanation": "Class mark = (Upper limit + Lower limit) / 2 = (60 + 40) / 2 = 100 / 2 = 50."
+    },
+    {
+      "id": "c9_math_data_06",
+      "question": "In a histogram, what does the area of each rectangular bar represent?",
+      "options": [
+        "Proportional to the frequency of the respective class interval",
+        "The cumulative frequency exclusively",
+        "The class mark squared",
+        "The standard deviation"
+      ],
+      "correctAnswer": "Proportional to the frequency of the respective class interval",
+      "conceptTag": "Histogram Graphical Interpretation",
+      "explanation": "In a histogram, the area of each bar is proportional to the frequency of the corresponding class interval."
+    },
+    {
+      "id": "c9_math_data_07",
+      "question": "If the mean of 5 observations x, x+2, x+4, x+6, and x+8 is 11, what is the value of x?",
+      "options": ["7", "9", "5", "11"],
+      "correctAnswer": "7",
+      "conceptTag": "Solving for Unknown Variable from Mean",
+      "explanation": "(5x + 20) / 5 = 11 => x + 4 = 11 => x = 7."
+    },
+    {
+      "id": "c9_math_data_08",
+      "question": "Which measure of central tendency is most heavily distorted by extreme outliers in a skewed distribution?",
+      "options": ["Mean", "Median", "Mode", "All are equally affected"],
+      "correctAnswer": "Mean",
+      "conceptTag": "Outlier Sensitivity of Central Tendency Measures",
+      "explanation": "The mean incorporates every value directly into its sum, making it sensitive to extreme values, unlike positional metrics like median or mode."
+    }
+  ],
+
+  "The World of Algorithms": [
+    {
+      "id": "c9_math_algo_01",
+      "question": "What is an algorithm in mathematics and computer science?",
+      "options": [
+        "A well-defined step-by-step procedure for solving a problem in finite steps",
+        "An unsolvable algebraic equation",
+        "A random guessing method",
+        "A hardware circuit inside a processor"
+      ],
+      "correctAnswer": "A well-defined step-by-step procedure for solving a problem in finite steps",
+      "conceptTag": "Algorithm Definition",
+      "explanation": "An algorithm is an unambiguous, finite sequence of computational steps designed to solve a problem."
+    },
+    {
+      "id": "c9_math_algo_02",
+      "question": "What is the primary purpose of Euclid's Division Algorithm?",
+      "options": [
+        "To find the Highest Common Factor (HCF) of two positive integers",
+        "To solve systems of linear equations in three variables",
+        "To approximate irrational square roots",
+        "To sort lists of random numbers"
+      ],
+      "correctAnswer": "To find the Highest Common Factor (HCF) of two positive integers",
+      "conceptTag": "Euclidean Algorithm Application",
+      "explanation": "Euclid's division algorithm computes the HCF (GCD) of two integers using successive division steps."
+    },
+    {
+      "id": "c9_math_algo_03",
+      "question": "In the Division Algorithm: Dividend = (Divisor × Quotient) + Remainder, what condition must the remainder r satisfy relative to divisor b?",
+      "options": ["0 <= r < b", "0 < r <= b", "r >= b", "r = b / 2"],
+      "correctAnswer": "0 <= r < b",
+      "conceptTag": "Division Algorithm Remainder Condition",
+      "explanation": "The remainder must be non-negative and strictly smaller than the divisor (0 <= r < b)."
+    },
+    {
+      "id": "c9_math_algo_04",
+      "question": "What geometric symbol is used in flowcharts to represent a decision-making / conditional branch step?",
+      "options": ["Diamond (Rhombus)", "Rectangle", "Oval", "Parallelogram"],
+      "correctAnswer": "Diamond (Rhombus)",
+      "conceptTag": "Flowchart Standard Conventions",
+      "explanation": "A diamond represents a conditional branch/decision (e.g., Yes/No, True/False), while rectangles denote operations and ovals represent start/end."
+    },
+    {
+      "id": "c9_math_algo_05",
+      "question": "What is the HCF of 45 and 12 calculated via successive division steps?",
+      "options": ["3", "5", "9", "1"],
+      "correctAnswer": "3",
+      "conceptTag": "Applying Euclid's Algorithm",
+      "explanation": "45 = 12 × 3 + 9; then 12 = 9 × 1 + 3; then 9 = 3 × 3 + 0. The last non-zero remainder is 3."
+    },
+    {
+      "id": "c9_math_algo_06",
+      "question": "What is a 'loop' in an algorithm design?",
+      "options": [
+        "A sequence of instructions that repeats until a specific condition is met",
+        "An unresolvable logic error that crashes execution",
+        "A method to terminate the algorithm instantly",
+        "The starting node of a flowchart"
+      ],
+      "correctAnswer": "A sequence of instructions that repeats until a specific condition is met",
+      "conceptTag": "Iteration and Loop Constructs",
+      "explanation": "A loop is an iterative control structure that repeats instructions until a terminating condition evaluates to true."
+    },
+    {
+      "id": "c9_math_algo_07",
+      "question": "The Sieve of Eratosthenes is an ancient algorithm used for:",
+      "options": [
+        "Finding all prime numbers up to a specified integer limit",
+        "Calculating square roots by hand",
+        "Trigonometric table generation",
+        "Solving quadratic equations"
+      ],
+      "correctAnswer": "Finding all prime numbers up to a specified integer limit",
+      "conceptTag": "Sieve of Eratosthenes Purpose",
+      "explanation": "The Sieve of Eratosthenes identifies primes up to a limit n by iteratively marking off multiples of each prime."
+    },
+    {
+      "id": "c9_math_algo_08",
+      "question": "What must be true about the termination of a valid algorithm?",
+      "options": [
+        "It must terminate after a finite number of steps",
+        "It must continue running indefinitely in the background",
+        "It must require user intervention at every step",
+        "It must only handle even numbers"
+      ],
+      "correctAnswer": "It must terminate after a finite number of steps",
+      "conceptTag": "Finiteness Criterion of Algorithms",
+      "explanation": "Finiteness is a required property: an algorithm must stop after a finite sequence of operations."
+    }
+  ],
+
+  "Quadrilaterals": [
+    {
+      "id": "c9_math_quad_01",
+      "question": "What is the sum of the interior angles of any planar quadrilateral?",
+      "options": ["360 degrees", "180 degrees", "540 degrees", "720 degrees"],
+      "correctAnswer": "360 degrees",
+      "conceptTag": "Quadrilateral Angle Sum Property",
+      "explanation": "Dividing a quadrilateral into two triangles with a diagonal yields an interior angle sum of 2 × 180° = 360°."
+    },
+    {
+      "id": "c9_math_quad_02",
+      "question": "The diagonals of which quadrilateral bisect each other perpendicularly at right angles?",
+      "options": ["Rhombus", "Rectangle", "Parallelogram", "Trapezium"],
+      "correctAnswer": "Rhombus",
+      "conceptTag": "Rhombus Diagonal Properties",
+      "explanation": "In a rhombus (and a square), diagonals are perpendicular bisectors of one another."
+    },
+    {
+      "id": "c9_math_quad_03",
+      "question": "The Mid-Point Theorem states that the line segment joining the midpoints of two sides of a triangle is:",
+      "options": [
+        "Parallel to the third side and equal to half of it",
+        "Perpendicular to the third side and equal to it",
+        "Equal to one-third of the third side",
+        "Parallel to all three sides simultaneously"
+      ],
+      "correctAnswer": "Parallel to the third side and equal to half of it",
+      "conceptTag": "Mid-Point Theorem Statement",
+      "explanation": "The Mid-Point Theorem guarantees that the segment connecting two side midpoints is parallel to and half the length of the third side."
+    },
+    {
+      "id": "c9_math_quad_04",
+      "question": "If the diagonals of a parallelogram are equal in length, what specific quadrilateral must it be?",
+      "options": ["Rectangle", "Rhombus", "Trapezium", "Kite"],
+      "correctAnswer": "Rectangle",
+      "conceptTag": "Equal Diagonals in Parallelogram",
+      "explanation": "A parallelogram with equal diagonals must have all four interior angles equal to 90°, making it a rectangle."
+    },
+    {
+      "id": "c9_math_quad_05",
+      "question": "What type of quadrilateral is formed by joining the midpoints of the sides of any quadrilateral in order?",
+      "options": ["Parallelogram (Varignon's Theorem)", "Trapezium", "Kite", "Irregular polygon"],
+      "correctAnswer": "Parallelogram (Varignon's Theorem)",
+      "conceptTag": "Varignon's Theorem",
+      "explanation": "By Varignon's Theorem, joining the midpoints of adjacent sides of any planar quadrilateral forms a parallelogram."
+    },
+    {
+      "id": "c9_math_quad_06",
+      "question": "In a parallelogram ABCD, if ∠A = 70°, what is the measure of adjacent angle ∠B?",
+      "options": ["110 degrees", "70 degrees", "90 degrees", "120 degrees"],
+      "correctAnswer": "110 degrees",
+      "conceptTag": "Consecutive Interior Angles of Parallelogram",
+      "explanation": "Adjacent angles in a parallelogram are supplementary (sum = 180°): ∠B = 180° - 70° = 110°."
+    },
+    {
+      "id": "c9_math_quad_07",
+      "question": "A quadrilateral with exactly one pair of opposite sides parallel is called a:",
+      "options": ["Trapezium", "Parallelogram", "Rhombus", "Kite"],
+      "correctAnswer": "Trapezium",
+      "conceptTag": "Trapezium Definition",
+      "explanation": "A trapezium is a quadrilateral that has exactly one pair of parallel opposite sides."
+    },
+    {
+      "id": "c9_math_quad_08",
+      "question": "Which of the following conditions is NOT sufficient to prove that a quadrilateral is a parallelogram?",
+      "options": [
+        "One pair of opposite sides is parallel, and the other pair is equal",
+        "Both pairs of opposite sides are equal",
+        "Both pairs of opposite angles are equal",
+        "One pair of opposite sides is both equal and parallel"
+      ],
+      "correctAnswer": "One pair of opposite sides is parallel, and the other pair is equal",
+      "conceptTag": "Parallelogram Sufficiency Criteria",
+      "explanation": "An isosceles trapezium has one pair of parallel sides and the other pair equal, but it is not a parallelogram. The other options are sufficient."
+    }
+  ],
+
+  "Two Variables, One Line": [
+    {
+      "id": "c9_math_lin2_01",
+      "question": "How many solutions does a linear equation in two variables ax + by + c = 0 have over real numbers?",
+      "options": ["Infinitely many solutions", "Only one unique solution", "Exactly two solutions", "No solutions"],
+      "correctAnswer": "Infinitely many solutions",
+      "conceptTag": "Infinitude of Linear Equation Solutions",
+      "explanation": "Every point (x, y) on the line satisfies the equation, yielding infinitely many pairs of solutions."
+    },
+    {
+      "id": "c9_math_lin2_02",
+      "question": "What is the general form of the equation of the x-axis?",
+      "options": ["y = 0", "x = 0", "x + y = 0", "y = c"],
+      "correctAnswer": "y = 0",
+      "conceptTag": "Equation of Coordinate Axes",
+      "explanation": "Every point on the horizontal x-axis has a y-coordinate of 0; thus its equation is y = 0."
+    },
+    {
+      "id": "c9_math_lin2_03",
+      "question": "The graph of the equation x = k (where k is a constant) is a straight line:",
+      "options": [
+        "Parallel to the y-axis",
+        "Parallel to the x-axis",
+        "Passing through the origin",
+        "Inclined at 45 degrees"
+      ],
+      "correctAnswer": "Parallel to the y-axis",
+      "conceptTag": "Lines Parallel to Axes",
+      "explanation": "x = k contains points with a constant x-value, producing a vertical line parallel to the y-axis."
+    },
+    {
+      "id": "c9_math_lin2_04",
+      "question": "Which of the following points lies on the line 2x + 3y = 12?",
+      "options": ["(3, 2)", "(2, 3)", "(0, 6)", "(4, 2)"],
+      "correctAnswer": "(3, 2)",
+      "conceptTag": "Point Verification on Line",
+      "explanation": "Substitute (3, 2): 2(3) + 3(2) = 6 + 6 = 12. The coordinates satisfy the equation."
+    },
+    {
+      "id": "c9_math_lin2_05",
+      "question": "Any line passing through the origin (0, 0) has an equation of the form:",
+      "options": ["y = mx (constant term c = 0)", "x = c", "y = c", "x + y = k"],
+      "correctAnswer": "y = mx (constant term c = 0)",
+      "conceptTag": "Lines Passing Through Origin",
+      "explanation": "A line through (0, 0) satisfies 0 = m(0) + c => c = 0, taking the form y = mx."
+    },
+    {
+      "id": "c9_math_lin2_06",
+      "question": "If the point (2, -2) lies on the line 3x + ky = 4, what is the value of k?",
+      "options": ["1", "-1", "2", "-2"],
+      "correctAnswer": "1",
+      "conceptTag": "Solving for Unknown Parameter in Line",
+      "explanation": "Substitute x = 2 and y = -2: 3(2) + k(-2) = 4 => 6 - 2k = 4 => -2k = -2 => k = 1."
+    },
+    {
+      "id": "c9_math_lin2_07",
+      "question": "How many straight lines can pass through a single given point (x₁, y₁)?",
+      "options": ["Infinitely many", "Only one", "Two", "Zero"],
+      "correctAnswer": "Infinitely many",
+      "conceptTag": "Lines Through a Single Point",
+      "explanation": "An infinite number of lines with different slopes can pass through a single point in a plane."
+    },
+    {
+      "id": "c9_math_lin2_08",
+      "question": "At what point does the line 4x + 3y = 24 cross the y-axis (y-intercept)?",
+      "options": ["(0, 8)", "(6, 0)", "(0, 6)", "(8, 0)"],
+      "correctAnswer": "(0, 8)",
+      "conceptTag": "Finding Axis Intercepts",
+      "explanation": "Set x = 0 to find the y-intercept: 4(0) + 3y = 24 => 3y = 24 => y = 8. The point is (0, 8)."
+    }
+  ],
+
+  "Math of Space: Surface Area and Volume": [
+    {
+      "id": "c9_math_mens_01",
+      "question": "What is the formula for the curved surface area of a right circular cone with radius r and slant height l?",
+      "options": ["π r l", "2 π r l", "π r² h", "(1/3) π r² h"],
+      "correctAnswer": "π r l",
+      "conceptTag": "Cone Curved Surface Area Formula",
+      "explanation": "Curved surface area of a cone is given by CSA = πrl, where l = √(r² + h²)."
+    },
+    {
+      "id": "c9_math_mens_02",
+      "question": "What is the volume of a sphere of radius r?",
+      "options": ["(4/3) π r³", "4 π r²", "(2/3) π r³", "2 π r³"],
+      "correctAnswer": "(4/3) π r³",
+      "conceptTag": "Sphere Volume Formula",
+      "explanation": "The volume enclosed by a spherical surface of radius r is V = (4/3)πr³."
+    },
+    {
+      "id": "c9_math_mens_03",
+      "question": "What is the total surface area of a solid hemisphere of radius r?",
+      "options": ["3 π r²", "2 π r²", "4 π r²", "π r²"],
+      "correctAnswer": "3 π r²",
+      "conceptTag": "Solid Hemisphere Surface Area",
+      "explanation": "Total surface area = Curved surface (2πr²) + Flat circular base (πr²) = 3πr²."
+    },
+    {
+      "id": "c9_math_mens_04",
+      "question": "If the radius of a sphere is doubled, what happens to its surface area?",
+      "options": ["Increases by 4 times", "Doubles", "Increases by 8 times", "Remains unchanged"],
+      "correctAnswer": "Increases by 4 times",
+      "conceptTag": "Scaling of Spherical Surface Area",
+      "explanation": "Surface area A = 4πr² scales with r². Doubling the radius gives (2r)² = 4r², increasing area by 4 times."
+    },
+    {
+      "id": "c9_math_mens_05",
+      "question": "What is the ratio of the volume of a cone to the volume of a cylinder having the same radius and height?",
+      "options": ["1 : 3", "3 : 1", "1 : 2", "2 : 3"],
+      "correctAnswer": "1 : 3",
+      "conceptTag": "Cone vs Cylinder Volume Ratio",
+      "explanation": "V_cone = (1/3)πr²h and V_cylinder = πr²h. Their ratio is (1/3) : 1 = 1 : 3."
+    },
+    {
+      "id": "c9_math_mens_06",
+      "question": "What is the slant height l of a cone with radius 6 cm and height 8 cm?",
+      "options": ["10 cm", "14 cm", "12 cm", "48 cm"],
+      "correctAnswer": "10 cm",
+      "conceptTag": "Slant Height Pythagorean Calculation",
+      "explanation": "l = √(r² + h²) = √(6² + 8²) = √(36 + 64) = √100 = 10 cm."
+    },
+    {
+      "id": "c9_math_mens_07",
+      "question": "What is the capacity in liters of a cubical water tank with side length 1 meter (1 m³)?",
+      "options": ["1000 liters", "100 liters", "10 liters", "10,000 liters"],
+      "correctAnswer": "1000 liters",
+      "conceptTag": "Volumetric Unit Conversion",
+      "explanation": "1 cubic meter equals 1,000 cubic decimeters, which corresponds to 1,000 liters."
+    },
+    {
+      "id": "c9_math_mens_08",
+      "question": "What is the curved surface area of a right circular cylinder of radius r and height h?",
+      "options": ["2 π r h", "2 π r (r + h)", "π r² h", "4 π r h"],
+      "correctAnswer": "2 π r h",
+      "conceptTag": "Cylinder Curved Surface Area Formula",
+      "explanation": "Unrolling the lateral face of a cylinder forms a rectangle with width 2πr and height h, giving CSA = 2πrh."
+    }
+  ]
+}

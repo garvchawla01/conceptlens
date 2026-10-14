@@ -1,0 +1,942 @@
+{
+  "class": 11,
+  "subject": "Chemistry",
+  "ChemistryMCQs": [
+    {
+      "id": "c11_chem_ch01_01",
+      "question": "What is the mass of 1 molecule of water ($H_2O$)?",
+      "options": [
+        "3.0 x 10^-23 g",
+        "1.8 x 10^-24 g",
+        "6.023 x 10^-23 g",
+        "1.0 x 10^-22 g"
+      ],
+      "correctAnswer": "3.0 x 10^-23 g",
+      "conceptTag": "Mole Concept",
+      "explanation": "Molar mass of $H_2O = 18\\text{ g/mol}$. Mass of 1 molecule = $\\frac{18}{6.022 \\times 10^{23}} \\approx 2.99 \\times 10^{-23}\\text{ g} \\approx 3.0 \\times 10^{-23}\\text{ g}$."
+    },
+    {
+      "id": "c11_chem_ch01_02",
+      "question": "How many significant figures are present in the number 0.0025?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "conceptTag": "Significant Figures",
+      "explanation": "Trailing and leading zeros before the first non-zero digit are not significant. Only '2' and '5' are significant, giving 2 figures."
+    },
+    {
+      "id": "c11_chem_ch01_03",
+      "question": "What is the concentration of a solution in molarity if 4 g of NaOH is dissolved in water to make a 250 mL solution?",
+      "options": [
+        "0.1 M",
+        "0.2 M",
+        "0.4 M",
+        "1.0 M"
+      ],
+      "correctAnswer": "0.4 M",
+      "conceptTag": "Molarity",
+      "explanation": "Molar mass of NaOH = 40 g/mol. Moles of NaOH = $4 / 40 = 0.1\\text{ mol}$. Volume = 0.25 L. Molarity = $0.1 / 0.25 = 0.4\\text{ M}$."
+    },
+    {
+      "id": "c11_chem_ch01_04",
+      "question": "What is the empirical formula of a compound containing 40% carbon, 6.7% hydrogen, and 53.3% oxygen by mass?",
+      "options": [
+        "CHO",
+        "CH2O",
+        "C2H4O2",
+        "CH3OH"
+      ],
+      "correctAnswer": "CH2O",
+      "conceptTag": "Empirical Formula",
+      "explanation": "Moles: C = $40/12 = 3.33$, H = $6.7/1 = 6.7$, O = $53.3/16 = 3.33$. Mole ratio C:H:O = 1:2:1, so the empirical formula is $CH_2O$."
+    },
+    {
+      "id": "c11_chem_ch01_05",
+      "question": "In the reaction $N_2 + 3H_2 \\rightarrow 2NH_3$, what volume of ammonia gas at STP is produced if 20 L of hydrogen gas reacts completely with excess nitrogen?",
+      "options": [
+        "10 L",
+        "13.33 L",
+        "20 L",
+        "30 L"
+      ],
+      "correctAnswer": "13.33 L",
+      "conceptTag": "Stoichiometry & Gay-Lussac's Law",
+      "explanation": "According to stoichiometry, 3 volumes of $H_2$ produce 2 volumes of $NH_3$. Thus, 20 L of $H_2$ produces $\\frac{2}{3} \\times 20 = 13.33\\text{ L}$ of $NH_3$."
+    },
+    {
+      "id": "c11_chem_ch01_06",
+      "question": "Which of the following contains the maximum number of atoms?",
+      "options": [
+        "1 g of $H_2$",
+        "1 g of $O_2$",
+        "1 g of $N_2$",
+        "1 g of $Cl_2$"
+      ],
+      "correctAnswer": "1 g of $H_2$",
+      "conceptTag": "Mole and Atom Count",
+      "explanation": "Number of moles of $H_2 = 1/2 = 0.5$ mol (1 mole of atoms = 1 g mole of $H_2$ has 1 mole of molecules, but 2 moles of atoms). Highest moles of atoms belong to $H_2$."
+    },
+    {
+      "id": "c11_chem_ch01_07",
+      "question": "What is the mole fraction of solute in a 1.00 m (molal) aqueous solution?",
+      "options": [
+        "0.0177",
+        "0.018",
+        "0.100",
+        "1.00"
+      ],
+      "correctAnswer": "0.0177",
+      "conceptTag": "Mole Fraction",
+      "explanation": "1 molal means 1 mole of solute in 1000 g (55.56 moles) of water. Mole fraction of solute = $1 / (1 + 55.56) = 1 / 56.56 \\approx 0.0177$."
+    },
+    {
+      "id": "c11_chem_ch01_08",
+      "question": "Law of definite proportions was given by:",
+      "options": [
+        "Antoine Lavoisier",
+        "Joseph Proust",
+        "John Dalton",
+        "Amedeo Avogadro"
+      ],
+      "correctAnswer": "Joseph Proust",
+      "conceptTag": "Laws of Chemical Combination",
+      "explanation": "Joseph Proust stated that a given chemical compound always contains its component elements in fixed ratio (by mass) and does not depend on its source."
+    },
+    {
+      "id": "c11_chem_ch02_01",
+      "question": "Which of the following quantum numbers determines the orientation of an orbital in space?",
+      "options": [
+        "Principal quantum number ($n$)",
+        "Azimuthal quantum number ($l$)",
+        "Magnetic quantum number ($m_l$)",
+        "Spin quantum number ($m_s$)"
+      ],
+      "correctAnswer": "Magnetic quantum number ($m_l$)",
+      "conceptTag": "Quantum Numbers",
+      "explanation": "The magnetic quantum number ($m_l$) designates the specific orientation of an orbital in space relative to an external magnetic field."
+    },
+    {
+      "id": "c11_chem_ch02_02",
+      "question": "What is the maximum number of electrons that can be accommodated in a subshell with azimuthal quantum number $l = 2$?",
+      "options": [
+        "6",
+        "10",
+        "14",
+        "2"
+      ],
+      "correctAnswer": "10",
+      "conceptTag": "Subshells and Electron Capacity",
+      "explanation": "For $l = 2$ (d subshell), the number of orbitals is $2l + 1 = 5$. Each orbital holds 2 electrons, so maximum capacity is $5 \\times 2 = 10$."
+    },
+    {
+      "id": "c11_chem_ch02_03",
+      "question": "De Broglie wavelength of a particle of mass $m$ and velocity $v$ is given by:",
+      "options": [
+        "$\\lambda = \\frac{h}{mv}$",
+        "$\\lambda = \\frac{mv}{h}$",
+        "$\\lambda = \\frac{h}{\\sqrt{2mE}}$",
+        "$\\lambda = h \\cdot mv$"
+      ],
+      "correctAnswer": "$\\lambda = \\frac{h}{mv}$",
+      "conceptTag": "De Broglie Equation",
+      "explanation": "De Broglie proposed wave-particle duality, giving the wavelength formula $\\lambda = \\frac{h}{p} = \\frac{h}{mv}$."
+    },
+    {
+      "id": "c11_chem_ch02_04",
+      "question": "Heisenberg's uncertainty principle states that it is impossible to simultaneously determine both:",
+      "options": [
+        "Position and momentum of a subatomic particle accurately",
+        "Energy and time",
+        "Mass and velocity",
+        "Charge and spin"
+      ],
+      "correctAnswer": "Position and momentum of a subatomic particle accurately",
+      "conceptTag": "Heisenberg's Uncertainty Principle",
+      "explanation": "The uncertainty relation is $\\Delta x \\cdot \\Delta p_x \\geq \\frac{h}{4\\pi}$, stating position and momentum cannot be measured simultaneously with absolute precision."
+    },
+    {
+      "id": "c11_chem_ch02_05",
+      "question": "Which transition in the hydrogen atom spectrum emits a photon of the highest frequency?",
+      "options": [
+        "n = 2 to n = 1",
+        "n = 6 to n = 1",
+        "n = infinity to n = 1",
+        "n = 5 to n = 2"
+      ],
+      "correctAnswer": "n = infinity to n = 1",
+      "conceptTag": "Hydrogen Spectrum & Energy Levels",
+      "explanation": "Highest frequency corresponds to maximum energy change (Lyman series limit from $n = \\infty$ to $n = 1$)."
+    },
+    {
+      "id": "c11_chem_ch02_06",
+      "question": "What is the electronic configuration of Chromium (Cr, atomic number 24)?",
+      "options": [
+        "[Ar] 3d^4 4s^2",
+        "[Ar] 3d^5 4s^1",
+        "[Ar] 3d^6 4s^0",
+        "[Ar] 3d^3 4s^3"
+      ],
+      "correctAnswer": "[Ar] 3d^5 4s^1",
+      "conceptTag": "Electronic Configuration Exceptions",
+      "explanation": "Half-filled ($3d^5$) and fully filled subshells impart extra stability, leading to an exception where one 4s electron promotes to 3d, giving $[Ar] 3d^5 4s^1$."
+    },
+    {
+      "id": "c11_chem_ch02_07",
+      "question": "The radial node for a 2s orbital is located at a distance $r$ from the nucleus equal to:",
+      "options": [
+        "$r = \\frac{a_0}{2}$",
+        "$r = a_0$",
+        "$r = 2a_0$",
+        "$r = 0$"
+      ],
+      "correctAnswer": "$r = a_0$",
+      "conceptTag": "Radial Nodes",
+      "explanation": "Number of radial nodes is given by $n - l - 1 = 2 - 0 - 1 = 1$. For 2s, the radial node occurs at $r = a_0$."
+    },
+    {
+      "id": "c11_chem_ch02_08",
+      "question": "Pauli's exclusion principle states that:",
+      "options": [
+        "No two electrons in an atom can have the same set of all four quantum numbers",
+        "Orbitals are filled in order of increasing energy",
+        "Pairing of electrons does not occur until all orbitals of a subshell are singly filled",
+        "Energy of an electron is quantized"
+      ],
+      "correctAnswer": "No two electrons in an atom can have the same set of all four quantum numbers",
+      "conceptTag": "Pauli's Exclusion Principle",
+      "explanation": "Pauli's exclusion principle restricts any two electrons in the same atom from sharing identical values for all four quantum numbers ($n, l, m_l, m_s$)."
+    },
+    {
+      "id": "c11_chem_ch03_01",
+      "question": "Which of the following ions is smallest in size (isoelectronic series)?",
+      "options": [
+        "O^2-",
+        "F-",
+        "Na+",
+        "Mg^2+"
+      ],
+      "correctAnswer": "Mg^2+",
+      "conceptTag": "Isoelectronic Ionic Radii",
+      "explanation": "For isoelectronic species ($10\\text{ electrons: } O^{2-}, F^-$ , $Na^+, Mg^{2+}$), ionic radius decreases as nuclear charge (atomic number $Z$) increases because stronger attraction pulls electrons closer. Mg has highest $Z$ (12)."
+    },
+    {
+      "id": "c11_chem_ch03_02",
+      "question": "The second ionization enthalpy of an element is generally:",
+      "options": [
+        "Less than the first ionization enthalpy",
+        "Equal to the first ionization enthalpy",
+        "Greater than the first ionization enthalpy",
+        "Zero"
+      ],
+      "correctAnswer": "Greater than the first ionization enthalpy",
+      "conceptTag": "Ionization Enthalpy",
+      "explanation": "Removing an electron from a positively charged ion requires more energy than removing it from a neutral atom due to increased electrostatic attraction from the remaining electrons and nucleus."
+    },
+    {
+      "id": "c11_chem_ch03_03",
+      "question": "Why does fluorine have a lower electron gain enthalpy (less negative) than chlorine?",
+      "options": [
+        "Fluorine is larger in size",
+        "Chlorine has higher electronegativity",
+        "Small size of fluorine causes high interelectronic repulsion",
+        "Chlorine is a gas"
+      ],
+      "correctAnswer": "Small size of fluorine causes high interelectronic repulsion",
+      "conceptTag": "Electron Gain Enthalpy",
+      "explanation": "Fluorine's extremely compact 2p subshell creates high electron-electron repulsion when adding an incoming electron, making its electron gain enthalpy less negative than chlorine's."
+    },
+    {
+      "id": "c11_chem_ch03_04",
+      "question": "Which element has the highest electronegativity according to the Pauling scale?",
+      "options": [
+        "Oxygen",
+        "Fluorine",
+        "Chlorine",
+        "Nitrogen"
+      ],
+      "correctAnswer": "Fluorine",
+      "conceptTag": "Electronegativity",
+      "explanation": "Fluorine is assigned the highest electronegativity value of 4.0 on the Pauling scale."
+    },
+    {
+      "id": "c11_chem_ch03_05",
+      "question": "Across a period in the periodic table, atomic radii generally:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "First increase then decrease"
+      ],
+      "correctAnswer": "Decrease",
+      "conceptTag": "Periodic Trends in Atomic Size",
+      "explanation": "As you move left to right across a period, nuclear charge increases while electrons are added to the same shell, pulling the electron cloud closer and decreasing atomic radius."
+    },
+    {
+      "id": "c11_chem_ch03_06",
+      "question": "Which of the following oxides is amphoteric in nature?",
+      "options": [
+        "Na2O",
+        "CO2",
+        "Al2O3",
+        "SO3"
+      ],
+      "correctAnswer": "Al2O3",
+      "conceptTag": "Nature of Oxides",
+      "explanation": "Aluminum oxide ($Al_2O_3$) exhibits both acidic and basic behavior, reacting with both acids and bases, making it amphoteric."
+    },
+    {
+      "id": "c11_chem_ch03_07",
+      "question": "Diagonal relationship is exhibited by lithium with which element?",
+      "options": [
+        "Beryllium",
+        "Magnesium",
+        "Aluminum",
+        "Boron"
+      ],
+      "correctAnswer": "Magnesium",
+      "conceptTag": "Diagonal Relationship",
+      "explanation": "Lithium shows similar chemical properties to magnesium due to comparable charge-to-radius ratios (diagonal relationship in periodic table)."
+    },
+    {
+      "id": "c11_chem_ch03_08",
+      "question": "Modern periodic law states that physical and chemical properties of elements are periodic functions of their:",
+      "options": [
+        "Atomic masses",
+        "Atomic numbers",
+        "Mass numbers",
+        "Number of neutrons"
+      ],
+      "correctAnswer": "Atomic numbers",
+      "conceptTag": "Modern Periodic Law",
+      "explanation": "Henry Moseley established that atomic number (number of protons) is the fundamental property governing periodicity, replacing Mendeleev's atomic mass basis."
+    },
+    {
+      "id": "c11_chem_ch04_01",
+      "question": "What is the hybridization of the central atom in $PCl_5$?",
+      "options": [
+        "sp^3",
+        "sp^3d",
+        "sp^3d^2",
+        "dsp^2"
+      ],
+      "correctAnswer": "sp^3d",
+      "conceptTag": "Hybridization",
+      "explanation": "$PCl_5$ has 5 bond pairs and 0 lone pairs on phosphorus ($5 + 0 = 5$), corresponding to trigonal bipyramidal geometry and $sp^3d$ hybridization."
+    },
+    {
+      "id": "c11_chem_ch04_02",
+      "question": "Which of the following molecules has a zero dipole moment?",
+      "options": [
+        "H2O",
+        "NH3",
+        "BF3",
+        "SO2"
+      ],
+      "correctAnswer": "BF3",
+      "conceptTag": "Dipole Moment",
+      "explanation": "$BF_3$ has a symmetrical trigonal planar geometry where bond dipoles cancel out completely, resulting in a zero net dipole moment."
+    },
+    {
+      "id": "c11_chem_ch04_03",
+      "question": "According to VSEPR theory, what is the shape of a molecule with 3 bond pairs and 1 lone pair?",
+      "options": [
+        "Trigonal planar",
+        "Pyramidal (Trigonal pyramidal)",
+        "T-shaped",
+        "Tetrahedral"
+      ],
+      "correctAnswer": "Pyramidal (Trigonal pyramidal)",
+      "conceptTag": "VSEPR Theory & Molecular Shape",
+      "explanation": "With 4 electron pairs (3 bonds + 1 lone pair like $NH_3$), the electron geometry is tetrahedral, but the molecular shape is trigonal pyramidal."
+    },
+    {
+      "id": "c11_chem_ch04_04",
+      "question": "What is the bond order of the oxygen molecule ($O_2$) according to Molecular Orbital Theory?",
+      "options": [
+        "1",
+        "1.5",
+        "2",
+        "3"
+      ],
+      "correctAnswer": "2",
+      "conceptTag": "Molecular Orbital Theory",
+      "explanation": "$O_2$ has 16 electrons. Configuration gives bonding electrons ($N_b = 10$) and antibonding electrons ($N_a = 6$). Bond order = $\\frac{10 - 6}{2} = 2$."
+    },
+    {
+      "id": "c11_chem_ch04_05",
+      "question": "Which type of overlapping forms a pi ($\\pi$) bond?",
+      "options": [
+        "Axial overlap of s-s orbitals",
+        "Axial overlap of p-p orbitals",
+        "Lateral (sideways) overlap of p-p orbitals",
+        "Overlap of s and p orbitals"
+      ],
+      "correctAnswer": "Lateral (sideways) overlap of p-p orbitals",
+      "conceptTag": "Sigma and Pi Bonds",
+      "explanation": "Pi ($\\pi$) bonds are formed by lateral (sideways) overlapping of atomic orbitals (such as parallel p orbitals), whereas sigma ($\\pi$) bonds involve head-on axial overlap."
+    },
+    {
+      "id": "c11_chem_ch04_06",
+      "question": "Which of the following species is paramagnetic?",
+      "options": [
+        "O2^2-",
+        "N2",
+        "O2+",
+        "CO"
+      ],
+      "correctAnswer": "O2+",
+      "conceptTag": "Paramagnetism in MOT",
+      "explanation": "$O_2^+$ has 15 electrons, leaving one unpaired electron in its molecular orbitals, which makes it paramagnetic."
+    },
+    {
+      "id": "c11_chem_ch04_07",
+      "question": "The hydrogen bond is strongest in which of the following compounds?",
+      "options": [
+        "H2S",
+        "HCl",
+        "HF",
+        "HBr"
+      ],
+      "correctAnswer": "HF",
+      "conceptTag": "Hydrogen Bonding",
+      "explanation": "Fluorine is the most electronegative element, resulting in the strongest hydrogen bonding interactions in HF compared to other hydrogen halides."
+    },
+    {
+      "id": "c11_chem_ch04_08",
+      "question": "What is the formal charge on the central oxygen atom in ozone ($O_3$) structure?",
+      "options": [
+        "0",
+        "+1",
+        "-1",
+        "+2"
+      ],
+      "correctAnswer": "+1",
+      "conceptTag": "Formal Charge",
+      "explanation": "In the resonance structure of ozone ($O = O^+ - O^-$), the central oxygen has 3 bonds and 1 lone pair, giving formal charge = $6 - 2 - \\frac{1}{2}(6) = +1$."
+    },
+    {
+      "id": "c11_chem_ch05_01",
+      "question": "An isolated system is one that can exchange with surroundings:",
+      "options": [
+        "Neither energy nor matter",
+        "Only energy",
+        "Only matter",
+        "Both energy and matter"
+      ],
+      "correctAnswer": "Neither energy nor matter",
+      "conceptTag": "Thermodynamic Systems",
+      "explanation": "By definition, an isolated system has no interaction (neither energy nor matter exchange) with its surroundings."
+    },
+    {
+      "id": "c11_chem_ch05_02",
+      "question": "First law of thermodynamics mathematical equation is:",
+      "options": [
+        "$\\Delta U = q + w$",
+        "$\\Delta U = q - w$",
+        "$\\Delta S = \\frac{q_{rev}}{T}$",
+        "$\\Delta G = \\Delta H - T\\Delta S$"
+      ],
+      "correctAnswer": "$\\Delta U = q + w$",
+      "conceptTag": "First Law of Thermodynamics",
+      "explanation": "Change in internal energy equals heat added to the system ($q$) plus work done on the system ($w$): $\\Delta U = q + w$."
+    },
+    {
+      "id": "c11_chem_ch05_03",
+      "question": "Enthalpy change ($\\Delta H$) and internal energy change ($\\Delta U$) for a gaseous reaction are related as:",
+      "options": [
+        "$\\Delta H = \\Delta U + \\Delta n_g RT$",
+        "$\\Delta H = \\Delta U - \\Delta n_g RT$",
+        "$\\Delta H = \\Delta U + P\\Delta V$",
+        "$\\Delta H = \\Delta U + RT$"
+      ],
+      "correctAnswer": "$\\Delta H = \\Delta U + \\Delta n_g RT$",
+      "conceptTag": "Enthalpy and Internal Energy",
+      "explanation": "Using $H = U + PV$ and ideal gas law $PV = \\Delta n_g RT$, enthalpy change is $\\Delta H = \\Delta U + \\Delta n_g RT$."
+    },
+    {
+      "id": "c11_chem_ch05_04",
+      "question": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change ($\\Delta G$) must be:",
+      "options": [
+        "Positive (> 0)",
+        "Negative (< 0)",
+        "Zero (= 0)",
+        "Infinity"
+      ],
+      "correctAnswer": "Negative (< 0)",
+      "conceptTag": "Gibbs Free Energy",
+      "explanation": "A process is thermodynamically spontaneous at constant $T$ and $P$ when $\\Delta G < 0$."
+    },
+    {
+      "id": "c11_chem_ch05_05",
+      "question": "Standard enthalpy of formation of an element in its standard state is taken as:",
+      "options": [
+        "1 kJ/mol",
+        "Zero",
+        "-1 kJ/mol",
+        "Undefined"
+      ],
+      "correctAnswer": "Zero",
+      "conceptTag": "Standard Enthalpy of Formation",
+      "explanation": "By convention, the standard enthalpy of formation of any element in its standard reference state is defined as zero."
+    },
+    {
+      "id": "c11_chem_ch05_06",
+      "question": "Which of the following is an intensive property?",
+      "options": [
+        "Mass",
+        "Volume",
+        "Temperature",
+        "Enthalpy"
+      ],
+      "correctAnswer": "Temperature",
+      "conceptTag": "State and Path Functions",
+      "explanation": "Intensive properties (like temperature, pressure, density) do not depend on the quantity of matter in the system, whereas mass, volume, and enthalpy are extensive."
+    },
+    {
+      "id": "c11_chem_ch05_07",
+      "question": "Hess's Law of Constant Heat Summation is a direct consequence of:",
+      "options": [
+        "First law of thermodynamics",
+        "Conservation of mass",
+        "Entropy increase",
+        "Second law of thermodynamics"
+      ],
+      "correctAnswer": "First law of thermodynamics",
+      "conceptTag": "Hess's Law",
+      "explanation": "Hess's law relies on enthalpy being a state function, which is guaranteed by the conservation of energy (first law of thermodynamics)."
+    },
+    {
+      "id": "c11_chem_ch05_08",
+      "question": "What is the entropy change when 1 mole of water melts at 0°C (latent heat of fusion = 6 kJ/mol)?",
+      "options": [
+        "21.98 J/K mol",
+        "60 J/K mol",
+        "100 J/K mol",
+        "0 J/K mol"
+      ],
+      "correctAnswer": "21.98 J/K mol",
+      "conceptTag": "Entropy Calculation",
+      "explanation": "$\\Delta S = \\frac{\\Delta H_{fusion}}{T} = \\frac{6000\\text{ J/mol}}{273.15\\text{ K}} \\approx 21.97\\text{ J/K mol}$."
+    },
+    {
+      "id": "c11_chem_ch06_01",
+      "question": "What is the expression for the equilibrium constant $K_c$ for the reaction $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$?",
+      "options": [
+        "$\\frac{[NH_3]^2}{[N_2][H_2]^3}$",
+        "$\\frac{[N_2][H_2]^3}{[NH_3]^2}$",
+        "$\\frac{[NH_3]}{[N_2][H_2]}$",
+        "$\\frac{2[NH_3]}{[N_2] + 3[H_2]}$"
+      ],
+      "correctAnswer": "$\\frac{[NH_3]^2}{[N_2][H_2]^3}$",
+      "conceptTag": "Chemical Equilibrium Constant",
+      "explanation": "Equilibrium constant expression puts products raised to their stoichiometric coefficients in the numerator and reactants in the denominator."
+    },
+    {
+      "id": "c11_chem_ch06_02",
+      "question": "How are $K_p$ and $K_c$ related for the reaction $A(g) + B(g) \\rightleftharpoons 2C(g)$?",
+      "options": [
+        "$K_p = K_c$",
+        "$K_p = K_c(RT)$",
+        "$K_p = K_c(RT)^2$",
+        "$K_p = \\frac{K_c}{RT}$"
+      ],
+      "correctAnswer": "$K_p = K_c$",
+      "conceptTag": "Relation between Kp and Kc",
+      "explanation": "Equation is $K_p = K_c(RT)^{\\Delta n_g}$. Here $\\Delta n_g = 2 - (1 + 1) = 0$, so $K_p = K_c$."
+    },
+    {
+      "id": "c11_chem_ch06_03",
+      "question": "According to Le Chatelier's principle, if pressure is increased on a gaseous equilibrium system with $\\Delta n_g > 0$, the equilibrium will:",
+      "options": [
+        "Shift in the forward direction",
+        "Shift in the backward direction",
+        "Remain unaffected",
+        "Stop completely"
+      ],
+      "correctAnswer": "Shift in the backward direction",
+      "conceptTag": "Le Chatelier's Principle",
+      "explanation": "An increase in pressure favors the direction that produces fewer moles of gas. Since $\\Delta n_g > 0$ (more moles on product side), increasing pressure shifts equilibrium backward."
+    },
+    {
+      "id": "c11_chem_ch06_04",
+      "question": "What is the pH of a $10^{-3}$ M HCl solution?",
+      "options": [
+        "2",
+        "3",
+        "11",
+        "7"
+      ],
+      "correctAnswer": "3",
+      "conceptTag": "pH Calculation",
+      "explanation": "$[H^+] = 10^{-3}\\text{ M}$. pH = $-\\log[H^+] = -\\log(10^{-3}) = 3$."
+    },
+    {
+      "id": "c11_chem_ch06_05",
+      "question": "What is the conjugate base of the ammonium ion ($NH_4^+$)?",
+      "options": [
+        "NH3",
+        "NH2-",
+        "NH4OH",
+        "NO3-"
+      ],
+      "correctAnswer": "NH3",
+      "conceptTag": "Bronsted-Lowry Acid-Base Conjugates",
+      "explanation": "A conjugate base is formed by removing a proton ($H^+$) from an acid. Removing $H^+$ from $NH_4^+$ yields ammonia ($NH_3$)."
+    },
+    {
+      "id": "c11_chem_ch06_06",
+      "question": "What is the solubility product ($K_{sp}$) expression for sparingly soluble salt $Ag_2SO_4$?",
+      "options": [
+        "$[Ag^+][SO_4^{2-}]$",
+        "$[Ag^+]^2[SO_4^{2-}]$",
+        "$[Ag^+][SO_4^{2-}]^2$",
+        "$2[Ag^+][SO_4^{2-}]$"
+      ],
+      "correctAnswer": "$[Ag^+]^2[SO_4^{2-}]$",
+      "conceptTag": "Solubility Product",
+      "explanation": "Dissociation: $Ag_2SO_4 \\rightleftharpoons 2Ag^+ + SO_4^{2-}$. Thus, $K_{sp} = [Ag^+]^2[SO_4^{2-}]$."
+    },
+    {
+      "id": "c11_chem_ch06_07",
+      "question": "A buffer solution can be prepared by mixing a weak acid with:",
+      "options": [
+        "Its salt with a strong base",
+        "A strong acid",
+        "Water only",
+        "A strong base in equivalent amounts"
+      ],
+      "correctAnswer": "Its salt with a strong base",
+      "conceptTag": "Buffer Solutions",
+      "explanation": "An acidic buffer consists of a weak acid and its salt with a strong base (e.g., acetic acid and sodium acetate)."
+    },
+    {
+      "id": "c11_chem_ch06_08",
+      "question": "The ionic product of water ($K_w$) at 298 K is:",
+      "options": [
+        "$10^{-14}$",
+        "$10^{-7}$",
+        "$10^{14}$",
+        "$1$."
+      ],
+      "correctAnswer": "$10^{-14}$",
+      "conceptTag": "Ionic Product of Water",
+      "explanation": "At 25°C (298 K), $K_w = [H^+][OH^-] = 1.0 \\times 10^{-14} \\text{ mol}^2\\text{L}^{-2}$."
+    },
+    {
+      "id": "c11_chem_ch07_01",
+      "question": "What is the oxidation state of sulfur in $H_2SO_4$?",
+      "options": [
+        "+4",
+        "+6",
+        "-2",
+        "+2"
+      ],
+      "correctAnswer": "+6",
+      "conceptTag": "Oxidation Numbers",
+      "explanation": "Let oxidation state of S be $x$. $2(+1) + x + 4(-2) = 0 \\implies 2 + x - 8 = 0 \\implies x = +6$."
+    },
+    {
+      "id": "c11_chem_ch07_02",
+      "question": "Which of the following processes represents oxidation?",
+      "options": [
+        "Gain of electrons",
+        "Increase in oxidation number",
+        "Addition of hydrogen",
+        "Decrease in oxidation number"
+      ],
+      "correctAnswer": "Increase in oxidation number",
+      "conceptTag": "Oxidation and Reduction Definition",
+      "explanation": "Oxidation is classically defined as loss of electrons or an increase in oxidation number."
+    },
+    {
+      "id": "c11_chem_ch07_03",
+      "question": "In the reaction $Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu$, which species acts as the oxidizing agent?",
+      "options": [
+        "Zn",
+        "Cu^2+",
+        "Zn^2+",
+        "Cu"
+      ],
+      "correctAnswer": "Cu^2+",
+      "conceptTag": "Oxidizing and Reducing Agents",
+      "explanation": "$Cu^{2+}$ gets reduced to $Cu$ by accepting electrons, so it acts as the oxidizing agent."
+    },
+    {
+      "id": "c11_chem_ch07_04",
+      "question": "What is the oxidation number of chromium in potassium dichromate ($K_2Cr_2O_7$)?",
+      "options": [
+        "+3",
+        "+6",
+        "+7",
+        "+5"
+      ],
+      "correctAnswer": "+6",
+      "conceptTag": "Oxidation Number Calculation",
+      "explanation": "$2(+1) + 2(x) + 7(-2) = 0 \\implies 2 + 2x - 14 = 0 \\implies 2x = 12 \\implies x = +6$."
+    },
+    {
+      "id": "c11_chem_ch07_05",
+      "question": "Disproportionation reaction is one in which:",
+      "options": [
+        "Same element is simultaneously oxidized and reduced",
+        "Two different elements are oxidized",
+        "No electron transfer takes place",
+        "A salt is formed"
+      ],
+      "correctAnswer": "Same element is simultaneously oxidized and reduced",
+      "conceptTag": "Disproportionation Reactions",
+      "explanation": "In a disproportionation reaction, a single reactant element in an intermediate oxidation state undergoes both oxidation and reduction simultaneously."
+    },
+    {
+      "id": "c11_chem_ch07_06",
+      "question": "Fluorine always exhibits an oxidation state of -1 in its compounds because it is:",
+      "options": [
+        "The most electronegative element",
+        "A gas",
+        "Small in size",
+        "An alkali metal"
+      ],
+      "correctAnswer": "The most electronegative element",
+      "conceptTag": "Oxidation State of Fluorine",
+      "explanation": "Fluorine has the highest electronegativity (4.0) and lacks d-orbitals to expand its octet, so it never exhibits positive oxidation states."
+    },
+    {
+      "id": "c11_chem_ch07_07",
+      "question": "In balancing redox equations by the ion-electron method in acidic medium, $H^+$ ions and which molecules are added?",
+      "options": [
+        "OH- ions",
+        "Water ($H_2O$) molecules",
+        "Hydrogen gas ($H_2$)",
+        "Oxygen gas ($O_2$)"
+      ],
+      "correctAnswer": "Water ($H_2O$) molecules",
+      "conceptTag": "Balancing Redox Reactions",
+      "explanation": "Oxygen atoms are balanced by adding $H_2O$ molecules, and hydrogen atoms are balanced by adding $H^+$ ions in acidic media."
+    },
+    {
+      "id": "c11_chem_ch07_08",
+      "question": "What is the oxidation number of iron in $Fe_3O_4$ (mixed oxide)?",
+      "options": [
+        "+2",
+        "+3",
+        "Fractional average (+8/3)",
+        "+8"
+      ],
+      "correctAnswer": "Fractional average (+8/3)",
+      "conceptTag": "Fractional Oxidation Numbers",
+      "explanation": "$Fe_3O_4$ is a combination of $FeO$ and $Fe_2O_3$. The average formal oxidation number calculated is $+8/3$."
+    },
+    {
+      "id": "c11_chem_ch08_01",
+      "question": "The IUPAC name of tertiary-butyl alcohol is:",
+      "options": [
+        "2-methylpropan-2-ol",
+        "butan-1-ol",
+        "2-methylpropan-1-ol",
+        "propan-2-ol"
+      ],
+      "correctAnswer": "2-methylpropan-2-ol",
+      "conceptTag": "IUPAC Nomenclature",
+      "explanation": "Tertiary-butyl alcohol has a central carbon bonded to three methyl groups and an -OH group, giving the longest chain of 3 carbons with a methyl and OH at carbon-2: 2-methylpropan-2-ol."
+    },
+    {
+      "id": "c11_chem_ch08_02",
+      "question": "Homolytic cleavage of a covalent bond results in the formation of:",
+      "options": [
+        "Carbocations",
+        "Carbanions",
+        "Free radicals",
+        "Protons"
+      ],
+      "correctAnswer": "Free radicals",
+      "conceptTag": "Fission of Covalent Bonds",
+      "explanation": "In homolytic fission, each bonded atom retains one of the shared electrons, generating neutral species with unpaired electrons called free radicals."
+    },
+    {
+      "id": "c11_chem_ch08_03",
+      "question": "Which of the following carbocations is the most stable?",
+      "options": [
+        "Primary ($1^{\\circ}$)",
+        "Secondary ($2^{\\circ}$)",
+        "Tertiary ($3^{\\circ}$)",
+        "Methyl carbocation"
+      ],
+      "correctAnswer": "Tertiary ($3^{\\circ}$)",
+      "conceptTag": "Stability of Carbocations",
+      "explanation": "Tertiary carbocations are most stable due to maximum hyperconjugation and inductive electron-donating effects from adjacent alkyl groups."
+    },
+    {
+      "id": "c11_chem_ch08_04",
+      "question": "The inductive effect (-I effect) is exhibited by groups that are:",
+      "options": [
+        "Electron-donating",
+        "Electron-withdrawing",
+        "Neutral and non-polar",
+        "Free radicals"
+      ],
+      "correctAnswer": "Electron-withdrawing",
+      "conceptTag": "Inductive Effect",
+      "explanation": "Electron-withdrawing groups (like $-NO_2$, $-CN$, $-F$) pull sigma electrons toward themselves, exerting a $-I$ (negative inductive) effect."
+    },
+    {
+      "id": "c11_chem_ch08_05",
+      "question": "Electromeric effect ($E$-effect) is a:",
+      "options": [
+        "Permanent polarization effect",
+        "Temporary polarization effect occurring in the presence of a reagent",
+        "Resonance effect",
+        "Steric effect"
+      ],
+      "correctAnswer": "Temporary polarization effect occurring in the presence of a reagent",
+      "conceptTag": "Electromeric Effect",
+      "explanation": "The electromeric effect is a temporary effect where $\\pi$ electrons are completely transferred to one of the bonded atoms upon demand of an attacking reagent."
+    },
+    {
+      "id": "c11_chem_ch08_06",
+      "question": "Which of the following molecules shows geometrical (cis-trans) isomerism?",
+      "options": [
+        "1-butene",
+        "2-butene",
+        "2-methyl-2-butene",
+        "propene"
+      ],
+      "correctAnswer": "2-butene",
+      "conceptTag": "Geometrical Isomerism",
+      "explanation": "For cis-trans isomerism, each carbon of the double bond must be attached to two different groups. 2-butene satisfies this ($CH_3-CH=CH-CH_3$)."
+    },
+    {
+      "id": "c11_chem_ch08_07",
+      "question": "Estimation of halogen in an organic compound is done using:",
+      "options": [
+        "Kjeldahl method",
+        "Carius method",
+        "Liebig method",
+        "Dumas method"
+      ],
+      "correctAnswer": "Carius method",
+      "conceptTag": "Quantitative Analysis of Organic Compounds",
+      "explanation": "The Carius method involves heating organic compounds with fuming $HNO_3$ and $AgNO_3$ to estimate halogens quantitatively as silver halide precipitate."
+    },
+    {
+      "id": "c11_chem_ch08_08",
+      "question": "Hyperconjugation involves the delocalization of:",
+      "options": [
+        "sigma electrons of C-H bond into adjacent pi orbital or p orbital",
+        "lone pair electrons",
+        "pi electrons only",
+        "d-orbital electrons"
+      ],
+      "correctAnswer": "sigma electrons of C-H bond into adjacent pi orbital or p orbital",
+      "conceptTag": "Hyperconjugation",
+      "explanation": "Hyperconjugation (no-bond resonance) involves interaction between electrons of a $\\sigma$ C-H bond of an alkyl group and an adjacent $\\pi$ bond or unshared p orbital."
+    },
+    {
+      "id": "c11_chem_ch09_01",
+      "question": "Benzene ring exhibits aromatic character because it contains how many conjugated pi electrons satisfying Hückel's rule ($4n + 2$)?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctAnswer": "6",
+      "conceptTag": "Aromaticity & Hückel's Rule",
+      "explanation": "Benzene has 3 double bonds (6 $\\pi$ electrons). For $n = 1$, $4(1) + 2 = 6$, satisfying Hückel's rule for aromaticity."
+    },
+    {
+      "id": "c11_chem_ch09_02",
+      "question": "Wurtz reaction is used for the preparation of:",
+      "options": [
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Alcohols"
+      ],
+      "correctAnswer": "Alkanes",
+      "conceptTag": "Preparation of Alkanes",
+      "explanation": "Wurtz reaction involves reacting alkyl halides with sodium metal in dry ether to form higher symmetrical alkanes."
+    },
+    {
+      "id": "c11_chem_ch09_03",
+      "question": "Markovnikov's rule is followed during the addition of unsymmetrical reagents to:",
+      "options": [
+        "Alkanes",
+        "Alkenes and alkynes",
+        "Alkyl halides",
+        "Benzene"
+      ],
+      "correctAnswer": "Alkenes and alkynes",
+      "conceptTag": "Markovnikov's Rule",
+      "explanation": "Markovnikov's rule governs electrophilic addition to unsymmetrical alkenes/alkynes, stating the negative part of the addend attaches to the carbon with fewer hydrogen atoms."
+    },
+    {
+      "id": "c11_chem_ch09_04",
+      "question": "What is formed when calcium carbide ($CaC_2$) reacts with water?",
+      "options": [
+        "Methane",
+        "Ethylene (Ethene)",
+        "Acetylene (Ethyne)",
+        "Ethane"
+      ],
+      "correctAnswer": "Acetylene (Ethyne)",
+      "conceptTag": "Preparation of Alkynes",
+      "explanation": "Hydrolysis of calcium carbide produces acetylene gas ($CaC_2 + 2H_2O \\rightarrow Ca(OH)_2 + C_2H_2$)."
+    },
+    {
+      "id": "c11_chem_ch09_05",
+      "question": "Friedel-Crafts alkylation of benzene involves which electrophile?",
+      "options": [
+        "Carbocation ($R^+$)",
+        "Acyl cation ($R-CO^+$)",
+        "Chloronium ion ($Cl^+$)",
+        "Nitronium ion ($NO_2^+$)"
+      ],
+      "correctAnswer": "Carbocation ($R^+$)",
+      "conceptTag": "Electrophilic Aromatic Substitution",
+      "explanation": "Friedel-Crafts alkylation uses an alkyl halide and Lewis acid catalyst ($AlCl_3$) to generate a carbocation electrophile ($R^+$) that attacks the benzene ring."
+    },
+    {
+      "id": "c11_chem_ch09_06",
+      "question": "Ozonolysis of alkenes followed by reaction with zinc dust and water yields:",
+      "options": [
+        "Only carboxylic acids",
+        "Aldehydes and/or ketones",
+        "Alcohols",
+        "Alkanes"
+      ],
+      "correctAnswer": "Aldehydes and/or ketones",
+      "conceptTag": "Ozonolysis of Alkenes",
+      "explanation": "Cleavage of alkene double bonds via ozonolysis with $Zn/H_2O$ breaks the carbon-carbon double bond, producing carbonyl compounds (aldehydes or ketones)."
+    },
+    {
+      "id": "c11_chem_ch09_07",
+      "question": "Direct iodination of alkanes with iodine is reversible because:",
+      "options": [
+        "Iodine is a solid",
+        "Hydrogen iodide ($HI$) formed is a strong reducing agent",
+        "Iodine is unreactive",
+        "Reaction is explosive"
+      ],
+      "correctAnswer": "Hydrogen iodide ($HI$) formed is a strong reducing agent",
+      "conceptTag": "Halogenation of Alkanes",
+      "explanation": "$HI$ acts as a strong reducing agent that reduces the alkyl iodide back to alkane, making iodination reversible unless an oxidizing agent like $HIO_3$ is added."
+    },
+    {
+      "id": "c11_chem_ch09_08",
+      "question": "Conformational isomers of ethane (erostered/staggered and eclipsed) differ by rotation around which bond?",
+      "options": [
+        "C-C sigma bond",
+        "C=C pi bond",
+        "C-H sigma bond",
+        "C-C pi bond"
+      ],
+      "correctAnswer": "C-C sigma bond",
+      "conceptTag": "Conformational Isomerism",
+      "explanation": "Conformations arise from rotation around the carbon-carbon single ($\\sigma$) bond without breaking chemical bonds."
+    }
+  ]
+}

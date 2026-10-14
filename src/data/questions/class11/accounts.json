@@ -1,0 +1,474 @@
+{
+  "class": 11,
+  "subject": "Accountancy",
+  "AccountancyMCQs": [
+    {
+      "id": "c11_acc_ch01_01",
+      "question": "Which of the following is considered the language of business?",
+      "options": [
+        "Economics",
+        "Accounting",
+        "Statistics",
+        "Mathematics"
+      ],
+      "correctAnswer": "Accounting",
+      "conceptTag": "Introduction to Accounting",
+      "explanation": "Accounting is often termed the 'language of business' because it communicates financial information about a business entity to various stakeholders."
+    },
+    {
+      "id": "c11_acc_ch01_02",
+      "question": "Which step in the accounting process involves recording financial transactions in a journal?",
+      "options": [
+        "Identifying",
+        "Recording",
+        "Summarising",
+        "Communicating"
+      ],
+      "correctAnswer": "Recording",
+      "conceptTag": "Process of Accounting",
+      "explanation": "Recording is the primary phase where all business transactions, once identified and measured in monetary terms, are chronologically entered into books of original entry (journals)."
+    },
+    {
+      "id": "c11_acc_ch01_03",
+      "question": "Who among the following are considered external users of accounting information?",
+      "options": [
+        "Directors",
+        "Managers",
+        "Tax authorities",
+        "Partners"
+      ],
+      "correctAnswer": "Tax authorities",
+      "conceptTag": "Users of Accounting Information",
+      "explanation": "Tax authorities, creditors, and investors are external users because they operate outside the day-to-day management and decision-making apparatus of the firm."
+    },
+    {
+      "id": "c11_acc_ch01_04",
+      "question": "Which attribute of accounting ensures that financial statements can be verified through supporting documents?",
+      "options": [
+        "Understandability",
+        "Relevance",
+        "Reliability",
+        "Comparability"
+      ],
+      "correctAnswer": "Reliability",
+      "conceptTag": "Qualitative Characteristics of Accounting",
+      "explanation": "Reliability requires accounting information to be free from material error and bias, verifiable through source documents such as bills, receipts, and invoices."
+    },
+    {
+      "id": "c11_acc_ch02_01",
+      "question": "According to the Going Concern Concept, it is assumed that the business will:",
+      "options": [
+        "Close down at the end of the accounting year",
+        "Continue its operations for a foreseeable future",
+        "Liquidate immediately upon partner retirement",
+        "Change its core activity every year"
+      ],
+      "correctAnswer": "Continue its operations for a foreseeable future",
+      "conceptTag": "Going Concern Concept",
+      "explanation": "The going concern assumption posits that the enterprise will continue operating for the foreseeable future without liquidation or forced scale-down."
+    },
+    {
+      "id": "c11_acc_ch02_02",
+      "question": "The accounting convention of conservatism (prudence) dictates that an accountant should:",
+      "options": [
+        "Anticipate all future profits and ignore potential losses",
+        "Anticipate no profit and provide for all possible losses",
+        "Record revenue only when cash is received",
+        "Treat capital expenditure as revenue expenditure"
+      ],
+      "correctAnswer": "Anticipate no profit and provide for all possible losses",
+      "conceptTag": "Convention of Conservatism",
+      "explanation": "Conservatism requires prudence: anticipate no potential profits until realized, but provide for all foreseeable losses and liabilities."
+    },
+    {
+      "id": "c11_acc_ch02_03",
+      "question": "Which accounting principle states that expenses incurred in an accounting period should be matched with revenues earned during that same period?",
+      "options": [
+        "Matching Concept",
+        "Cost Concept",
+        "Dual Aspect Concept",
+        "Revenue Recognition Concept"
+      ],
+      "correctAnswer": "Matching Concept",
+      "conceptTag": "Matching Concept",
+      "explanation": "The matching concept ensures correct profit determination by matching costs incurred against revenues generated within the corresponding accounting period."
+    },
+    {
+      "id": "c11_acc_ch02_04",
+      "question": "What is the basis of recording transactions under the accrual concept?",
+      "options": [
+        "Cash received or paid only",
+        "Revenues earned and expenses incurred, regardless of cash flow",
+        "Credit transactions only",
+        "Government directives"
+      ],
+      "correctAnswer": "Revenues earned and expenses incurred, regardless of cash flow",
+      "conceptTag": "Accrual Concept",
+      "explanation": "Under accrual accounting, revenues and expenses are recorded when they occur/earn/incur, irrespective of whether cash changes hands."
+    },
+    {
+      "id": "c11_acc_ch03_01",
+      "question": "The double-entry system of bookkeeping means that:",
+      "options": [
+        "Every transaction is recorded twice in the same account",
+        "Every transaction affects at least two accounts, with debit and credit of equal amount",
+        "Only cash transactions are recorded twice",
+        "Two sets of books are maintained"
+      ],
+      "correctAnswer": "Every transaction affects at least two accounts, with debit and credit of equal amount",
+      "conceptTag": "Double-Entry System",
+      "explanation": "Double-entry bookkeeping is based on the dual aspect concept, ensuring that for every debit there is an equal and corresponding credit."
+    },
+    {
+      "id": "c11_acc_ch03_02",
+      "question": "Which account is debited when goods are purchased for cash?",
+      "options": [
+        "Cash Account",
+        "Purchases Account",
+        "Capital Account",
+        "Sales Account"
+      ],
+      "correctAnswer": "Purchases Account",
+      "conceptTag": "Journal Entries",
+      "explanation": "When goods are bought, the purchases expense increases (debited) while cash decreases (credited)."
+    },
+    {
+      "id": "c11_acc_ch03_03",
+      "question": "Withdrawal of cash by the proprietor for personal use is debited to:",
+      "options": [
+        "Cash Account",
+        "Drawings Account",
+        "Capital Account",
+        "Expenses Account"
+      ],
+      "correctAnswer": "Drawings Account",
+      "conceptTag": "Drawings Entry",
+      "explanation": "Drawings represent a reduction of owner's capital and are debited to the Drawings account."
+    },
+    {
+      "id": "c11_acc_ch03_04",
+      "question": "The rule 'Debit the receiver, Credit the giver' applies to:",
+      "options": [
+        "Real accounts",
+        "Nominal accounts",
+        "Personal accounts",
+        "Valuation accounts"
+      ],
+      "correctAnswer": "Personal accounts",
+      "conceptTag": "Golden Rules of Accounting",
+      "explanation": "Personal accounts follow the rule: debit the receiver and credit the giver."
+    },
+    {
+      "id": "c11_acc_ch04_01",
+      "question": "Cash book is a book of:",
+      "options": [
+        "Original entry only",
+        "Final entry only",
+        "Both original entry and ledger account (subsidiary book and principal book)",
+        "Memorandum record only"
+      ],
+      "correctAnswer": "Both original entry and ledger account (subsidiary book and principal book)",
+      "conceptTag": "Cash Book Nature",
+      "explanation": "A cash book serves a dual purpose: it acts as a book of original entry (journal) and simultaneously functions as the Cash and Bank ledger accounts."
+    },
+    {
+      "id": "c11_acc_ch04_02",
+      "question": "A contra entry in a double-column cash book involves transactions between:",
+      "options": [
+        "Cash and Creditors",
+        "Cash and Bank accounts",
+        "Bank and Customers",
+        "Capital and Drawings"
+      ],
+      "correctAnswer": "Cash and Bank accounts",
+      "conceptTag": "Contra Entries",
+      "explanation": "A contra entry occurs when both cash and bank accounts are affected simultaneously (e.g., cash deposited into bank or cash withdrawn from bank for office use)."
+    },
+    {
+      "id": "c11_acc_ch04_03",
+      "question": "Trade discount allowed on goods purchased is recorded in:",
+      "options": [
+        "Purchase Book",
+        "Journal Proper",
+        "Trade discount is never recorded separately in books",
+        "Cash Book"
+      ],
+      "correctAnswer": "Trade discount is never recorded separately in books",
+      "conceptTag": "Trade Discount",
+      "explanation": "Trade discount is deducted directly from the list price in the invoice; hence, only the net amount is recorded in the books of accounts."
+    },
+    {
+      "id": "c11_acc_ch04_04",
+      "question": "Which subsidiary book records the return of goods previously sold to customers on credit?",
+      "options": [
+        "Sales Return Book",
+        "Purchase Return Book",
+        "Journal Proper",
+        "Bills Receivable Book"
+      ],
+      "correctAnswer": "Sales Return Book",
+      "conceptTag": "Subsidiary Books",
+      "explanation": "The Sales Return Book (Return Inward Book) records goods returned by customers."
+    },
+    {
+      "id": "c11_acc_ch05_01",
+      "question": "A Bank Reconciliation Statement is prepared by:",
+      "options": [
+        "The bank",
+        "The customer (account holder)",
+        "Auditors only",
+        "Income tax department"
+      ],
+      "correctAnswer": "The customer (account holder)",
+      "conceptTag": "Bank Reconciliation Statement (BRS)",
+      "explanation": "BRS is a statement prepared by the business account holder to reconcile differences between cash book bank balance and passbook balance."
+    },
+    {
+      "id": "c11_acc_ch05_02",
+      "question": "When checking cash book with bank passbook, a favorable balance in the cash book means:",
+      "options": [
+        "Debit balance in cash book (overdraft in bank)",
+        "Credit balance in passbook (bank overdraft)",
+        "Debit balance in cash book (bank deposit balance)",
+        "Credit balance in cash book"
+      ],
+      "correctAnswer": "Debit balance in cash book (bank deposit balance)",
+      "conceptTag": "Cash Book Balances",
+      "explanation": "A debit balance in the cash book signifies a favorable bank balance (money deposited with the bank)."
+    },
+    {
+      "id": "c11_acc_ch05_03",
+      "question": "Cheques issued by a firm but not yet presented for payment to the bank will cause:",
+      "options": [
+        "Cash book balance to be higher than passbook balance",
+        "Passbook balance to be higher than cash book balance",
+        "No difference between balances",
+        "Passbook to show overdraft"
+      ],
+      "correctAnswer": "Cash book balance to be higher than passbook balance",
+      "conceptTag": "Causes of Differences in BRS",
+      "explanation": "When cheques are issued, the firm credits its cash book immediately, reducing its balance. However, until presented, the bank passbook remains unreduced, making cash book balance lower than passbook balance (or vice-versa when starting from passbook)."
+    },
+    {
+      "id": "c11_acc_ch05_04",
+      "question": "Direct deposit by a customer into the bank account will result in:",
+      "options": [
+        "Increase in passbook balance relative to cash book",
+        "Decrease in passbook balance",
+        "No effect on balances",
+        "Overdraft creation"
+      ],
+      "correctAnswer": "Increase in passbook balance relative to cash book",
+      "conceptTag": "Direct Deposits in BRS",
+      "explanation": "A direct customer deposit increases the bank passbook balance before the business records it in the cash book."
+    },
+    {
+      "id": "c11_acc_ch06_01",
+      "question": "A trial balance is primarily prepared to check the:",
+      "options": [
+        "Arithmetical accuracy of ledger accounts",
+        "Financial position of the business",
+        "Net profit earned",
+        "Cash in hand"
+      ],
+      "correctAnswer": "Arithmetical accuracy of ledger accounts",
+      "conceptTag": "Trial Balance Purpose",
+      "explanation": "The trial balance tests whether total debits equal total credits, verifying the arithmetical accuracy of ledger postings."
+    },
+    {
+      "id": "c11_acc_ch06_02",
+      "question": "Which of the following errors is not disclosed by a trial balance?",
+      "options": [
+        "Error of posting to the wrong account on the correct side",
+        "Posting an incorrect amount",
+        "Omitting a debit entry entirely",
+        "Recording unequal debit and credit amounts"
+      ],
+      "correctAnswer": "Error of posting to the wrong account on the correct side",
+      "conceptTag": "Errors Not Disclosed by Trial Balance",
+      "explanation": "Errors of commission like posting to a wrong account on the correct side maintain debit-credit equality and escape detection by a trial balance."
+    },
+    {
+      "id": "c11_acc_ch06_03",
+      "question": "An error of principle occurs when:",
+      "options": [
+        "A transaction is completely omitted",
+        "A fundamental accounting principle is violated (e.g., treating capital expenditure as revenue)",
+        "Wrong casting of subsidiary books occurs",
+        "Posting is made on the wrong side"
+      ],
+      "correctAnswer": "A fundamental accounting principle is violated (e.g., treating capital expenditure as revenue)",
+      "conceptTag": "Errors of Principle",
+      "explanation": "Errors of principle violate accounting conventions, such as debiting repairs instead of machinery asset account for a new installation."
+    },
+    {
+      "id": "c11_acc_ch06_04",
+      "question": "Suspense account is opened to rectify trial balance disagreement when:",
+      "options": [
+        "Errors are located before preparing trial balance",
+        "Trial balance totals do not tally and errors cannot be immediately located",
+        "Only when errors of principle occur",
+        "When preparing balance sheet"
+      ],
+      "correctAnswer": "Trial balance totals do not tally and errors cannot be immediately located",
+      "conceptTag": "Suspense Account",
+      "explanation": "A suspense account temporarily holds the difference in trial balance totals until pending errors are investigated and rectified."
+    },
+    {
+      "id": "c11_acc_ch07_01",
+      "question": "Depreciation refers to:",
+      "options": [
+        "Appreciation in market value of assets",
+        "Permanent, gradual, and continuous decrease in the book value of fixed assets",
+        "Fluctuation in currency exchange rates",
+        "Interest on capital"
+      ],
+      "correctAnswer": "Permanent, gradual, and continuous decrease in the book value of fixed assets",
+      "conceptTag": "Depreciation Concept",
+      "explanation": "Depreciation is the systematic allocation of the depreciable amount of an asset over its estimated useful life due to wear, tear, or obsolescence."
+    },
+    {
+      "id": "c11_acc_ch07_02",
+      "question": "Under the Straight Line Method (SLM), depreciation is calculated on:",
+      "options": [
+        "Original cost of the asset",
+        "Diminishing (written down) value of the asset",
+        "Market value at year end",
+        "Scrap value only"
+      ],
+      "correctAnswer": "Original cost of the asset",
+      "conceptTag": "Straight Line Method",
+      "explanation": "SLM applies a fixed percentage to the original historical cost of the asset every year, resulting in a constant depreciation expense."
+    },
+    {
+      "id": "c11_acc_ch07_03",
+      "question": "A provision is created for:",
+      "options": [
+        "Known liabilities whose exact amount is uncertain",
+        "General expansion of business",
+        "Unknown future losses",
+        "Distributed dividends"
+      ],
+      "correctAnswer": "Known liabilities whose exact amount is uncertain",
+      "conceptTag": "Provisions vs Reserves",
+      "explanation": "Provisions are amounts set aside out of profits to provide for known liabilities or losses whose exact quantum is uncertain (e.g., Provision for Doubtful Debts)."
+    },
+    {
+      "id": "c11_acc_ch07_04",
+      "question": "General reserve is created out of:",
+      "options": [
+        "Capital profits",
+        "Divisible profits (revenue profits)",
+        "Securities premium",
+        "Asset revaluation surplus"
+      ],
+      "correctAnswer": "Divisible profits (revenue profits)",
+      "conceptTag": "Reserves",
+      "explanation": "General reserves are retained earnings set aside out of normal operating profits to strengthen financial position."
+    },
+    {
+      "id": "c11_acc_ch08_01",
+      "question": "Financial statements of a sole proprietorship generally include:",
+      "options": [
+        "Trading and Profit & Loss Account, and Balance Sheet",
+        "Cash Flow Statement only",
+        "Trial Balance and Journal",
+        "Fund Flow Statement"
+      ],
+      "correctAnswer": "Trading and Profit & Loss Account, and Balance Sheet",
+      "conceptTag": "Financial Statements Overview",
+      "explanation": "Basic financial statements for trading entities comprise the Trading and Profit and Loss Account (income statement) and the Balance Sheet (position statement)."
+    },
+    {
+      "id": "c11_acc_ch08_02",
+      "question": "Direct expenses incurred on manufacturing or purchasing goods are debited to:",
+      "options": [
+        "Profit and Loss Account",
+        "Trading Account",
+        "Balance Sheet",
+        "Capital Account"
+      ],
+      "correctAnswer": "Trading Account",
+      "conceptTag": "Trading Account",
+      "explanation": "Direct expenses (such as wages, carriage inward, factory rent) are debited to the Trading Account to compute gross profit."
+    },
+    {
+      "id": "c11_acc_ch08_03",
+      "question": "Operating profit is calculated by:",
+      "options": [
+        "Adding operating expenses to gross profit",
+        "Deducting operating expenses from gross profit",
+        "Multiplying sales by net margin",
+        "Subtracting cost of goods sold from net profit"
+      ],
+      "correctAnswer": "Deducting operating expenses from gross profit",
+      "conceptTag": "Profit and Loss Account",
+      "explanation": "Operating profit reflects earnings from primary operations, found by subtracting operating expenses from gross profit."
+    },
+    {
+      "id": "c11_acc_ch08_04",
+      "question": "Balance sheet equation represents:",
+      "options": [
+        "Assets = Liabilities + Capital",
+        "Capital = Assets + Liabilities",
+        "Liabilities = Assets + Capital",
+        "Revenue = Expenses"
+      ],
+      "correctAnswer": "Assets = Liabilities + Capital",
+      "conceptTag": "Accounting Equation / Balance Sheet",
+      "explanation": "The fundamental accounting equation states that total assets equal the sum of outside liabilities and owner's equity (capital)."
+    },
+    {
+      "id": "c11_acc_ch09_01",
+      "question": "Closing stock given outside the trial balance is adjusted by:",
+      "options": [
+        "Crediting Trading Account and debiting Current Assets (Stock)",
+        "Debiting Trading Account only",
+        "Showing in Balance Sheet asset side only",
+        "Ignoring it"
+      ],
+      "correctAnswer": "Crediting Trading Account and debiting Current Assets (Stock)",
+      "conceptTag": "Adjustments in Financial Statements",
+      "explanation": "An adjustment item outside trial balance is recorded in two places: credited to Trading Account and shown as a current asset in the Balance Sheet."
+    },
+    {
+      "id": "c11_acc_ch09_02",
+      "question": "Outstanding expenses at the end of the accounting period are treated in financial statements by:",
+      "options": [
+        "Adding to the respective expense in P&L Account and showing as a liability in Balance Sheet",
+        "Deducting from expense and showing as asset",
+        "Ignoring until paid in cash",
+        "Debiting Capital Account directly"
+      ],
+      "correctAnswer": "Adding to the respective expense in P&L Account and showing as a liability in Balance Sheet",
+      "conceptTag": "Outstanding Expenses Adjustment",
+      "explanation": "Under accrual accounting, outstanding expenses are added to the corresponding expense item and recorded as current liabilities."
+    },
+    {
+      "id": "c11_acc_ch09_03",
+      "question": "Prepaid insurance appearing in adjustments is treated by:",
+      "options": [
+        "Deducting from insurance expense and showing as a current asset",
+        "Adding to insurance and showing as liability",
+        "Ignoring until next year",
+        "Debiting Trading Account"
+      ],
+      "correctAnswer": "Deducting from insurance expense and showing as a current asset",
+      "conceptTag": "Prepaid Expenses Adjustment",
+      "explanation": "Prepaid expenses relate to future periods; hence, they are subtracted from current period expenses and shown as prepaid assets."
+    },
+    {
+      "id": "c11_acc_ch09_04",
+      "question": "Provision for doubtful debts is calculated as a percentage of:",
+      "options": [
+        "Total Creditors",
+        "Gross Sales",
+        "Sundry Debtors (after deducting further bad debts)",
+        "Fixed Assets"
+      ],
+      "correctAnswer": "Sundry Debtors (after deducting further bad debts)",
+      "conceptTag": "Provision for Doubtful Debts",
+      "explanation": "Provision for doubtful debts is estimated as a percentage of remaining good debtors after subtracting any additional bad debts written off."
+    }
+  ]
+}

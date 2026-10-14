@@ -1,0 +1,2275 @@
+{
+  "The Rise of Nationalism in Europe": [
+    {
+      "id": "c10_sst_hist1_01",
+      "question": "What was the main purpose of the Civil Code of 1804 (Napoleonic Code)?",
+      "options": [
+        "Abolished privileges based on birth and established equality before law",
+        "Restored absolute monarchies across European territories",
+        "Granted universal adult suffrage to all women and men",
+        "Enforced feudal serfdom across conquered states"
+      ],
+      "correctAnswer": "Abolished privileges based on birth and established equality before law",
+      "conceptTag": "Napoleonic Code Reforms and Legal Equality",
+      "explanation": "The Civil Code of 1804 removed feudal privileges, secured property rights, and established legal equality."
+    },
+    {
+      "id": "c10_sst_hist1_02",
+      "question": "Which treaty recognized Greece as an independent nation in 1832?",
+      "options": [
+        "Treaty of Constantinople",
+        "Treaty of Vienna",
+        "Treaty of Versailles",
+        "Treaty of Paris"
+      ],
+      "correctAnswer": "Treaty of Constantinople",
+      "conceptTag": "Greek War of Independence Diplomatic Treaties",
+      "explanation": "The Treaty of Constantinople of 1832 formally declared Greece an independent sovereign nation."
+    },
+    {
+      "id": "c10_sst_hist1_03",
+      "question": "What was 'Zollverein', formed at the initiative of Prussia in 1834?",
+      "options": [
+        "A customs union that eliminated tariff barriers and reduced currencies",
+        "A political coalition against Austrian imperial rule",
+        "A secret revolutionary society led by Giuseppe Mazzini",
+        "A religious alliance among German Catholic principalities"
+      ],
+      "correctAnswer": "A customs union that eliminated tariff barriers and reduced currencies",
+      "conceptTag": "Economic Nationalism and Customs Unions",
+      "explanation": "Zollverein abolished internal tariff barriers and slashed regional currencies, promoting economic unification."
+    },
+    {
+      "id": "c10_sst_hist1_04",
+      "question": "Who was described by Klemens von Metternich as 'the most dangerous enemy of our social order'?",
+      "options": [
+        "Giuseppe Mazzini",
+        "Otto von Bismarck",
+        "Napoleon Bonaparte",
+        "Count Camillo de Cavour"
+      ],
+      "correctAnswer": "Giuseppe Mazzini",
+      "conceptTag": "Liberal Nationalist Figures in Italy",
+      "explanation": "Metternich viewed Giuseppe Mazzini's underground revolutionary republican movements as a direct threat to conservative monarchies."
+    },
+    {
+      "id": "c10_sst_hist1_05",
+      "question": "What was the primary political goal of the Frankfurt Parliament convened in 1848?",
+      "options": [
+        "To draft a constitution for a unified German nation headed by a constitutional monarch",
+        "To execute the Prussian king and establish a communist regime",
+        "To declare war against the Austrian Habsburg Empire",
+        "To dissolve the German Confederation permanently"
+      ],
+      "correctAnswer": "To draft a constitution for a unified German nation headed by a constitutional monarch",
+      "conceptTag": "1848 Frankfurt National Assembly",
+      "explanation": "Elected middle-class delegates assembled in St. Paul’s Church to draft a constitution for a united Germany."
+    },
+    {
+      "id": "c10_sst_hist1_06",
+      "question": "Who led the movement to unify Italy through diplomatic alliances and military campaigns from Piedmont-Sardinia?",
+      "options": [
+        "Count Camillo de Cavour and King Victor Emmanuel II",
+        "Giuseppe Garibaldi solely through peasant uprisings",
+        "The Pope from the Papal States",
+        "Austrian Habsburg Chancellor Metternich"
+      ],
+      "correctAnswer": "Count Camillo de Cavour and King Victor Emmanuel II",
+      "conceptTag": "Italian Unification Leadership",
+      "explanation": "Chief Minister Cavour forged a diplomatic alliance with France to defeat Austria, enabling Victor Emmanuel II to unify Italy."
+    },
+    {
+      "id": "c10_sst_hist1_07",
+      "question": "Which visual allegory was chosen to symbolize the German nation?",
+      "options": ["Germania", "Marianne", "Britannia", "Bharat Mata"],
+      "correctAnswer": "Germania",
+      "conceptTag": "Visual Allegories of Nationalism",
+      "explanation": "Germania became the national allegory for Germany, depicted wearing a crown of oak leaves signifying heroism."
+    },
+    {
+      "id": "c10_sst_hist1_08",
+      "question": "Why did the Balkan region become a major source of intense imperialist rivalry before 1914?",
+      "options": [
+        "Explosive ethnic tensions coupled with competing interests of big European powers",
+        "Discovery of major oil fields in Greece and Serbia",
+        "A sudden economic trade war with North America",
+        "Total collapse of the British naval fleet in the Mediterranean"
+      ],
+      "correctAnswer": "Explosive ethnic tensions coupled with competing interests of big European powers",
+      "conceptTag": "Balkan Conflict and Imperial Expansionism",
+      "explanation": "The decay of the Ottoman Empire caused ethnic fragmentation among Slav nationalities, which external powers exploited."
+    }
+  ],
+
+  "Nationalism in India": [
+    {
+      "id": "c10_sst_hist2_01",
+      "question": "Why did Mahatma Gandhi organize the Kheda Satyagraha in 1917?",
+      "options": [
+        "To support peasants affected by crop failure and plague epidemic seeking revenue relaxation",
+        "To demand higher wages for cotton mill workers",
+        "To protest against the oppressive indigo plantation system",
+        "To oppose the imposition of the Rowlatt Act"
+      ],
+      "correctAnswer": "To support peasants affected by crop failure and plague epidemic seeking revenue relaxation",
+      "conceptTag": "Early Gandhian Regional Satyagrahas",
+      "explanation": "Kheda supported farmers demanding revenue collection relief after crop failures and plague."
+    },
+    {
+      "id": "c10_sst_hist2_02",
+      "question": "What did the infamous Rowlatt Act of 1919 authorize the British colonial government to do?",
+      "options": [
+        "Detain political prisoners without trial for up to two years",
+        "Impose mandatory military recruitment on all adult Indians",
+        "Abolish regional princely states unilaterally",
+        "Prohibit Indian children from attending missionary schools"
+      ],
+      "correctAnswer": "Detain political prisoners without trial for up to two years",
+      "conceptTag": "Rowlatt Act Provisions and Civil Liberties",
+      "explanation": "The Rowlatt Act granted sweeping powers to suppress political activities and imprison suspects without legal trial."
+    },
+    {
+      "id": "c10_sst_hist2_03",
+      "question": "Why did Mahatma Gandhi abruptly withdraw the Non-Cooperation Movement in February 1922?",
+      "options": [
+        "Violent confrontation at Chauri Chaura where a police station was burned",
+        "Acceptance of all national demands by Viceroy Lord Irwin",
+        "Arrest of all Khilafat committee leaders",
+        "Disagreements inside the Swaraj Party over council entry"
+      ],
+      "correctAnswer": "Violent confrontation at Chauri Chaura where a police station was burned",
+      "conceptTag": "Suspension of Non-Cooperation Movement",
+      "explanation": "Gandhi withdrew the movement after protestors set fire to a police station at Chauri Chaura, violating non-violence."
+    },
+    {
+      "id": "c10_sst_hist2_04",
+      "question": "Why was the Simon Commission boycotted by Indian political organizations across all ideological lines?",
+      "options": [
+        "It did not contain a single Indian member among its commissioners",
+        "It recommended the immediate partition of Bengal",
+        "It refused to travel outside of Calcutta and Bombay",
+        "It demanded total cancellation of agricultural credit"
+      ],
+      "correctAnswer": "It did not contain a single Indian member among its commissioners",
+      "conceptTag": "Simon Commission Composition and Boycott",
+      "explanation": "The statutory commission sent to review India's constitutional governance consisted entirely of British members."
+    },
+    {
+      "id": "c10_sst_hist2_05",
+      "question": "What historical resolution was formally adopted at the Lahore Session of the Indian National Congress in December 1929?",
+      "options": [
+        "Resolution for 'Purna Swaraj' (Complete Independence)",
+        "Demand for Provincial Autonomy within the British Empire",
+        "Endorsement of the Gandhi-Irwin Pact",
+        "Launch of the Quit India Movement"
+      ],
+      "correctAnswer": "Resolution for 'Purna Swaraj' (Complete Independence)",
+      "conceptTag": "Lahore Congress and Purna Swaraj Declaration",
+      "explanation": "Presided over by Jawaharlal Nehru, the Lahore Congress formalized the demand for 'Purna Swaraj'."
+    },
+    {
+      "id": "c10_sst_hist2_06",
+      "question": "Why was common salt selected by Mahatma Gandhi as the unifying symbol for the Civil Disobedience Movement?",
+      "options": [
+        "Salt was an essential dietary commodity taxed heavily and monopolized by the state",
+        "Salt was produced solely by elite landowning communities",
+        "The salt trade was owned entirely by American merchants",
+        "Salt was exempt from all internal transport taxes"
+      ],
+      "correctAnswer": "Salt was an essential dietary commodity taxed heavily and monopolized by the state",
+      "conceptTag": "Salt March Strategic Symbolism",
+      "explanation": "Salt was consumed equally by rich and poor; taxing it highlighted the oppressive everyday reach of colonial law."
+    },
+    {
+      "id": "c10_sst_hist2_07",
+      "question": "What was the outcome of the Poona Pact signed in September 1932 between Mahatma Gandhi and Dr. B.R. Ambedkar?",
+      "options": [
+        "Depressed classes received reserved seats in provincial councils under a joint electorate",
+        "Depressed classes obtained separate communal electorates permanently",
+        "Dr. Ambedkar withdrew from the Round Table Conferences",
+        "The British government granted immediate dominion status"
+      ],
+      "correctAnswer": "Depressed classes received reserved seats in provincial councils under a joint electorate",
+      "conceptTag": "Poona Pact and Communal Award Resolution",
+      "explanation": "The Poona Pact gave Depressed Classes reserved seats in provincial and central legislatures within a joint electorate system."
+    },
+    {
+      "id": "c10_sst_hist2_08",
+      "question": "Who formed the Swaraj Party within the Congress to advocate for fighting British policies inside the legislative councils?",
+      "options": [
+        "C.R. Das and Motilal Nehru",
+        "Jawaharlal Nehru and Subhas Chandra Bose",
+        "Mahatma Gandhi and Sardar Patel",
+        "Bal Gangadhar Tilak and Bipin Chandra Pal"
+      ],
+      "correctAnswer": "C.R. Das and Motilal Nehru",
+      "conceptTag": "Council Entry Debates and Swaraj Party",
+      "explanation": "C.R. Das and Motilal Nehru formed the Swaraj Party in 1923 to contest elections and disrupt British policies from within councils."
+    }
+  ],
+
+  "The Making of a Global World": [
+    {
+      "id": "c10_sst_hist3_01",
+      "question": "What was the primary impact of the discovery of the Americas by Christopher Columbus on global trade and diet in the 16th century?",
+      "options": [
+        "Introduction of new crops like potatoes, maize, tomatoes, and chilies to the Old World, transforming European diets and farming",
+        "Immediate establishment of free democratic republics across South America",
+        "Complete halt of maritime trade between Europe and Asia",
+        "Discovery of vast diamond reserves in Western Europe"
+      ],
+      "correctAnswer": "Introduction of new crops like potatoes, maize, tomatoes, and chilies to the Old World, transforming European diets and farming",
+      "conceptTag": "Columbian Exchange and Global Diet",
+      "explanation": "Foods from the Americas like potatoes allowed poor peasants in Europe to survive and stave off famine."
+    },
+    {
+      "id": "c10_sst_hist3_02",
+      "question": "How did the global economic depression of 1929 originate and spread worldwide?",
+      "options": [
+        "Triggered by the collapse of the US stock market, leading American banks to recall loans and stop foreign lending, causing worldwide economic collapse",
+        "Caused by a sudden global shortage of drinking water",
+        "Triggered by a worldwide ban on gold mining",
+        "Caused by the abolition of all international shipping lines"
+      ],
+      "correctAnswer": "Triggered by the collapse of the US stock market, leading American banks to recall loans and stop foreign lending, causing worldwide economic collapse",
+      "conceptTag": "The Great Depression Causes and Spread",
+      "explanation": "US financial market crashes led to panic, withdrawal of international credit, collapsing agricultural prices, and mass unemployment."
+    },
+    {
+      "id": "c10_sst_hist3_03",
+      "question": "What system of international monetary management was established at the Bretton Woods Conference in 1944?",
+      "options": [
+        "Creation of the International Monetary Fund (IMF) and the World Bank to ensure post-war financial stability and trade",
+        "Establishment of a global communist trading bloc",
+        "Abolition of all national currencies in favor of gold bars",
+        "Transfer of all global manufacturing exclusively to Africa"
+      ],
+      "correctAnswer": "Creation of the International Monetary Fund (IMF) and the World Bank to ensure post-war financial stability and trade",
+      "conceptTag": "Bretton Woods System and Institutions",
+      "explanation": "The Bretton Woods conference set up the IMF and World Bank (often called the Bretton Woods twins) to manage global economic stability."
+    },
+    {
+      "id": "c10_sst_hist3_04",
+      "question": "What was the 'Rinderpest' cattle plague that devastated Africa in the late 1880s?",
+      "options": [
+        "A fast-spreading cattle disease brought by infected imported cattle from British Asia, killing 90% of African livestock and destroying local livelihoods",
+        "A plant disease that wiped out cotton plantations in Egypt",
+        "A human epidemic that halted gold mining in South Africa",
+        "A locust swarm that consumed colonial grain stores"
+      ],
+      "correctAnswer": "A fast-spreading cattle disease brought by infected imported cattle from British Asia, killing 90% of African livestock and destroying local livelihoods",
+      "conceptTag": "Rinderpest and African Colonial Economy",
+      "explanation": "Rinderpest wiped out African cattle herds, forcing pastoralists and indigenous people into the wage labor market of European mines and plantations."
+    },
+    {
+      "id": "c10_sst_hist3_05",
+      "question": "How did the British colonial government's policies transform the economy of 19th-century India regarding textiles?",
+      "options": [
+        "India changed from being a major exporter of finished cotton goods into an exporter of raw cotton and importer of cheap British machine-made factory textiles",
+        "British factories stopped all textile production and bought handloom cloth exclusively from India",
+        "India became the sole manufacturer of automobiles in the British Empire",
+        "Textile trade between India and Europe was completely banned"
+      ],
+      "correctAnswer": "India changed from being a major exporter of finished cotton goods into an exporter of raw cotton and importer of cheap British machine-made factory textiles",
+      "conceptTag": "Deindustrialization and Colonial Trade Patterns",
+        "explanation": "Tariff barriers imposed by Britain crushed traditional Indian weavers, turning India into a supplier of raw materials for British mills."
+    },
+    {
+      "id": "c10_sst_hist3_06",
+      "question": "What was 'Indentured Labour migration' from India in the 19th century?",
+      "options": [
+        "Bonded laborers bound by a contract to work for a specific number of years on plantations in the Caribbean, Fiji, or South Africa to pay off travel costs",
+        "Free migration of wealthy Indian merchants establishing banks in Europe",
+        "Mandatory military service for all Indian citizens abroad",
+        "Seasonal migration of IT professionals to Silicon Valley"
+      ],
+      "correctAnswer": "Bonded laborers bound by a contract to work for a specific number of years on plantations in the Caribbean, Fiji, or South Africa to pay off travel costs",
+      "conceptTag": "Indentured Labor System",
+      "explanation": "Poverty caused by colonial policies drove many Indians to sign contracts for harsh plantation labor abroad, often under misleading conditions."
+    },
+    {
+      "id": "c10_sst_hist3_07",
+      "question": "What role did 'Silk Routes' play in pre-modern global exchange?",
+      "options": [
+        "Vast networks of land and sea routes connecting Asia to Europe and northern Africa, carrying Chinese silk, Indian spices, precious metals, and cultural ideas like Buddhism",
+        "Roads built exclusively for transporting military chariots across China",
+        "Underground tunnels used for smuggling gold out of Rome",
+        "Sea lanes controlled entirely by American merchant ships in antiquity"
+      ],
+      "correctAnswer": "Vast networks of land and sea routes connecting Asia to Europe and northern Africa, carrying Chinese silk, Indian spices, precious metals, and cultural ideas like Buddhism",
+      "conceptTag": "Silk Routes and Pre-modern Exchange",
+      "explanation": "The Silk Routes facilitated vibrant trade in goods, technologies, and religions long before the modern era."
+    },
+    {
+      "id": "c10_sst_hist3_08",
+      "question": "What does 'G-77' refer to in the context of post-WWII international economic history?",
+      "options": [
+        "A group of developing countries (originally 77) that demanded a New International Economic Order (NIEO) for fairer access to resources and markets",
+        "A secret military alliance of 77 European nations",
+        "The total number of central banks in the world",
+        "An association of 77 multinational oil corporations"
+      ],
+      "correctAnswer": "A group of developing countries (originally 77) that demanded a New International Economic Order (NIEO) for fairer access to resources and markets",
+      "conceptTag": "Group of 77 (G-77) and NIEO",
+      "explanation": "Newly independent nations formed the G-77 to lobby for a fairer global economic system that benefited developing economies."
+    }
+  ],
+
+  "The Age of Industrialisation": [
+    {
+      "id": "c10_sst_hist4_01",
+      "question": "What characterized 'Proto-industrialisation' in Europe before the coming of large mechanized factories?",
+      "options": [
+        "Production of goods for international markets was carried out by network artisans in rural households controlled by merchants, rather than in centralized factories",
+        "All goods were manufactured inside high-tech city laboratories",
+        "Industrial production had not started in any form anywhere",
+        "Peasants refused to sell any goods outside their own villages"
+      ],
+      "correctAnswer": "Production of goods for international markets was carried out by network artisans in rural households controlled by merchants, rather than in centralized factories",
+      "conceptTag": "Proto-industrialisation and Rural Production",
+      "explanation": "Before factory agglomeration, merchants supplied raw materials to rural peasants who produced goods in their cottages."
+    },
+    {
+      "id": "c10_sst_hist4_02",
+      "question": "Why did Victorian industrialists in Britain often prefer human manual labor over investing in new steam-powered machines?",
+      "options": [
+        "Abundant seasonal labor was cheap, so employers had no incentive to introduce expensive machines that required high capital investment",
+        "Steam engines were forbidden by religious laws in London",
+        "Workers went on strike whenever a machine was turned on",
+        "Machines could only produce goods of inferior quality"
+      ],
+      "correctAnswer": "Abundant seasonal labor was cheap, so employers had no incentive to introduce expensive machines that required high capital investment",
+      "conceptTag": "Labor Supply vs Machine Adoption in Victorian Britain",
+      "explanation": "Low wages and seasonal availability of cheap labor made hand labor attractive to many British industrialists."
+    },
+    {
+      "id": "c10_sst_hist4_03",
+      "question": "Who was the 'Gomastha' in the context of British colonial control over Indian weavers?",
+      "options": [
+        "A paid servant/agent appointed by the British government to supervise weavers, examine cloth quality, and collect supplies",
+        "A traditional elected headman of the weaver's guild",
+        "An independent Indian merchant trading directly with America",
+        "A British military general in charge of artillery"
+      ],
+      "correctAnswer": "A paid servant/agent appointed by the British government to supervise weavers, examine cloth quality, and collect supplies",
+      "conceptTag": "Gomasthas and Colonial Control of Weavers",
+      "explanation": "Gomasthas exercised strict control over weavers, often using advance loans to bind them and preventing them from selling to other buyers."
+    },
+    {
+      "id": "c10_sst_hist4_04",
+      "question": "What invention by James Watt revolutionized steam power and industrial manufacturing?",
+      "options": [
+        "Steam engine fitted with a rotary motion gear (sun and planet gear) driven by Newcomen's modified design",
+        "The electric generator",
+        "The spinning jenny water wheel",
+        "The automated loom powered by diesel"
+      ],
+      "correctAnswer": "Steam engine fitted with a rotary motion gear (sun and planet gear) driven by Newcomen's modified design",
+      "conceptTag": "James Watt Steam Engine Innovation",
+      "explanation": "Watt adapted Newcomen's steam engine by adding a rotary motion mechanism, making steam a versatile power source for factory machinery."
+    },
+    {
+      "id": "c10_sst_hist4_05",
+      "question": "Why did Indian handloom weavers face severe crisis and destitution during the 19th century under British rule?",
+      "options": [
+        "Inflow of cheap machine-made British cotton goods flooded the Indian market, while export markets collapsed due to high tariffs and lack of raw cotton",
+        "Indian weavers completely forgot how to weave cloth",
+        "Traditional looms were banned by the United Nations",
+        "Demand for Indian cloth skyrocketed globally"
+      ],
+      "correctAnswer": "Inflow of cheap machine-made British cotton goods flooded the Indian market, while export markets collapsed due to high tariffs and lack of raw cotton",
+      "conceptTag": "Impact of British Imports on Indian Weavers",
+      "explanation": "British machine-made textiles were cheaper and crushed the domestic handloom industry, leaving weavers jobless."
+    },
+    {
+      "id": "c10_sst_hist4_06",
+      "question": "Where and when were the first modern industrial cotton and jute mills established in India?",
+      "options": [
+        "Cotton mill in Bombay (1854) and Jute mill in Bengal (1855)",
+        "Cotton mill in Madras (1900) and Jute mill in Punjab (1910)",
+        "Cotton mill in Delhi (1820) and Jute mill in Surat (1830)",
+        "Cotton mill in Calcutta (1750) and Jute mill in Bombay (1760)"
+      ],
+      "correctAnswer": "Cotton mill in Bombay (1854) and Jute mill in Bengal (1855)",
+      "conceptTag": "Rise of Early Indian Factories",
+      "explanation": "Indian entrepreneurs (like Dwarkanath Tagore, Jamsetji Tata, Dinshaw Petit) set up early mills in Bombay and Bengal."
+    },
+    {
+      "id": "c10_sst_hist4_07",
+      "question": "How did European Managing Agencies dominate industrial enterprise in colonial India?",
+      "options": [
+        "They controlled major sectors like tea, coffee, indigo, and mining, raising capital in London and managing operations through agency houses in India",
+        "They focused exclusively on funding rural village artisans",
+        "They were banned from owning any property outside of London",
+        "They operated entirely as charitable non-profit trusts"
+      ],
+      "correctAnswer": "They controlled major sectors like tea, coffee, indigo, and mining, raising capital in London and managing operations through agency houses in India",
+      "conceptTag": "European Managing Agencies in Colonial India",
+      "explanation": "Managing agencies dominated colonial enterprise, limiting Indian industrialists mostly to raw material supply or domestic cotton weaving."
+    },
+    {
+      "id": "c10_sst_hist4_08",
+      "question": "What role did 'advertisements' play in shaping the consumer market during the industrial age?",
+      "options": [
+        "Advertisements made products appear desirable, created new consumer needs, and shaped the cultural preference for branded machine-made goods over local crafts",
+        "Advertisements were strictly forbidden by law in all European capitals",
+        "Advertisements only listed technical manufacturing errors",
+        "Advertisements were used exclusively to recruit soldiers"
+      ],
+      "correctAnswer": "Advertisements made products appear desirable, created new consumer needs, and shaped the cultural preference for branded machine-made goods over local crafts",
+      "conceptTag": "Role of Advertising in Industrial Consumerism",
+      "explanation": "Magazines, billboards, and calendar art featuring royalty and nationalists helped create new consumer desires and brand loyalty."
+    }
+  ],
+
+  "Print Culture and the Modern World": [
+    {
+      "id": "c10_sst_hist5_01",
+      "question": "Where was the earliest form of print technology (hand-printing on paper) developed?",
+      "options": [
+        "China, Japan, and Korea (East Asia)",
+        "Britain and France",
+        "Ancient Egypt and Mesopotamia",
+        "Mesoamerica (Aztec and Maya)"
+      ],
+      "correctAnswer": "China, Japan, and Korea (East Asia)",
+      "conceptTag": "Origins of Print Technology in East Asia",
+      "explanation": "China developed woodblock printing around the 6th century AD, followed by accordion books and Buddhist scrolls."
+    },
+    {
+      "id": "c10_sst_hist5_02",
+      "question": "Who invented the revolutionary printing press with movable metal type in Europe around the 1430s?",
+      "options": [
+        "Johannes Gutenberg",
+        "Marco Polo",
+        "William Caxton",
+        "Martin Luther"
+      ],
+      "correctAnswer": "Johannes Gutenberg",
+      "conceptTag": "Gutenberg and Movable Type Press",
+      "explanation": "Gutenberg adapted existing wine press technology and alloyed lead, tin, and antimony to create durable metal type."
+    },
+    {
+      "id": "c10_sst_hist5_03",
+      "question": "What was the immediate religious and social impact of the Protestant Reformation sparked by Martin Luther's 'Ninety-five Theses' (1517)?",
+      "options": [
+        "Mass printing and circulation of vernacular translations of the Bible challenged the authority of the Catholic Church and sparked widespread debate",
+        "Printing presses were immediately destroyed across all of Europe",
+        "The Catholic Church banned all reading and writing permanently",
+        "Only Latin manuscripts were allowed to be printed"
+      ],
+      "correctAnswer": "Mass printing and circulation of vernacular translations of the Bible challenged the authority of the Catholic Church and sparked widespread debate",
+      "conceptTag": "Print and Religious Reformation",
+      "explanation": "Luther's writings were printed in thousands of copies, empowering ordinary people to read scripture and question clerical corruption."
+    },
+    {
+      "id": "c10_sst_hist5_04",
+      "question": "How did the colonial government in British India attempt to control the burgeoning Indian press through the Vernacular Press Act of 1878?",
+      "options": [
+        "It empowered the government to confiscate printing presses and assets of vernacular newspapers that published 'seditious' or critical reports against British rule",
+        "It granted free cash subsidies to all vernacular editors",
+        "It made English illegal in all government offices",
+        "It required newspapers to be printed only in Sanskrit"
+      ],
+      "correctAnswer": "It empowered the government to confiscate printing presses and assets of vernacular newspapers that published 'seditious' or critical reports against British rule",
+      "conceptTag": "Vernacular Press Act of 1878 and Censorship",
+      "explanation": "Modeled on Irish press laws, the Act provided the state extensive rights to censor and seize nationalist vernacular publications."
+    },
+    {
+      "id": "c10_sst_hist5_05",
+      "question": "What was the significance of 'Chapbooks' and 'Penny Chapbooks' in 18th-century Europe?",
+      "options": [
+        "Pocket-sized cheap books sold by petty pedlars (chapmen) that made popular literature and folk tales accessible to ordinary working-class readers",
+        "Exclusive leather-bound folios kept inside royal palaces",
+        "Scientific journals read only by university professors",
+        "Handwritten letters exchanged exclusively by diplomats"
+      ],
+      "correctAnswer": "Pocket-sized cheap books sold by petty pedlars (chapmen) that made popular literature and folk tales accessible to ordinary working-class readers",
+      "conceptTag": "Chapbooks and Popular Reading Culture",
+      "explanation": "Chapbooks brought cheap entertainment and folklore to common folk, spreading literacy and reading habits."
+    },
+    {
+      "id": "c10_sst_hist5_06",
+      "question": "How did print culture impact women's reading and writing in 19th-century India?",
+      "options": [
+        "Reading and writing became popular among middle-class women; reformers published journals (like Rashundari Debi's 'Amar Jiban') highlighting women's education, domestic struggles, and rights",
+        "Women were legally barred from touching any printed book",
+        "Only men were allowed to read women's magazines",
+        "Print culture had zero impact on Indian women"
+      ],
+      "correctAnswer": "Reading and writing became popular among middle-class women; reformers published journals (like Rashundari Debi's 'Amar Jiban') highlighting women's education, domestic struggles, and rights",
+      "conceptTag": "Print Culture and Women's Education in India",
+      "explanation": "Magazines, autobiographies, and novels written by and for women opened doors to female education and social reform."
+    },
+    {
+      "id": "c10_sst_hist5_07",
+      "question": "What was the 'Index of Prohibited Books' maintained by the Roman Catholic Church from 1558?",
+      "options": [
+        "A formal list of heretical or 'dangerous' books that Catholics were forbidden to read or print to control reading habits",
+        "A library catalog of best-selling novels in Rome",
+        "A list of tax exemptions for book publishers",
+        "A registry of approved mathematical textbooks"
+      ],
+      "correctAnswer": "A formal list of heretical or 'dangerous' books that Catholics were forbidden to read or print to control reading habits",
+      "conceptTag": "Church Censorship and the Index Librorum Prohibitorum",
+      "explanation": "Fearing the spread of dissident ideas via print, the Church instituted strict censorship and maintained the Index of forbidden books."
+    },
+    {
+      "id": "c10_sst_hist5_08",
+      "question": "What role did 'Visual Culture' play alongside text in print media during the nationalist era in India?",
+      "options": [
+        "Mass-produced cheap prints and calendar art (like Ravi Varma's paintings or nationalist caricatures) portrayed Bharat Mata and national heroes, conveying political ideas easily to both literate and illiterate masses",
+        "Images were used purely to decorate school exercise books",
+        "Pictures were banned from all nationalist newspapers",
+        "Visual art had no connection to political movements"
+      ],
+      "correctAnswer": "Mass-produced cheap prints and calendar art (like Ravi Varma's paintings or nationalist caricatures) portrayed Bharat Mata and national heroes, conveying political ideas easily to both literate and illiterate masses",
+      "conceptTag": "Visual Print Culture and Nationalism",
+      "explanation": "Visual prints and calendar art reached illiterate citizens, stirring patriotic sentiment and shaping collective national identity."
+    }
+  ],
+
+  "Resources and Development": [
+    {
+      "id": "c10_sst_geo1_01",
+      "question": "What constitutes an 'Individual Resource'?",
+      "options": [
+        "Plots, pasture lands, and residential ponds owned privately by individuals",
+        "Burial grounds and village common grazing lands",
+        "Minerals found within territorial marine boundaries",
+        "Solar radiation and oceanic wind potential"
+      ],
+      "correctAnswer": "Plots, pasture lands, and residential ponds owned privately by individuals",
+      "conceptTag": "Classification of Resources by Ownership",
+      "explanation": "Resources owned privately by individuals (like farmland, urban plots, private wells) are classified as individual resources."
+    },
+    {
+      "id": "c10_sst_geo1_02",
+      "question": "The oceanic area extending up to 200 nautical miles from coastline belongs to which international zone?",
+      "options": [
+        "Exclusive Economic Zone (EEZ)",
+        "Internal Territorial Waters",
+        "Open International High Seas",
+        "Contiguous Continental Shelf"
+      ],
+      "correctAnswer": "Exclusive Economic Zone (EEZ)",
+      "conceptTag": "Maritime Boundaries and Resource Rights",
+      "explanation": "Oceanic resources up to 200 nautical miles of the EEZ belong to the coastal nation for sovereign exploration."
+    },
+    {
+      "id": "c10_sst_geo1_03",
+      "question": "Which soil type develops deep cracks during hot weather, facilitating aeration, and is widely renowned for cotton cultivation?",
+      "options": ["Black Soil (Regur)", "Laterite Soil", "Alluvial Soil", "Red and Yellow Soil"],
+      "correctAnswer": "Black Soil (Regur)",
+      "conceptTag": "Soil Characteristics and Crop Suitability",
+      "explanation": "Black soil is clayey, holds moisture well, cracks during summer, and is ideal for cotton farming."
+    },
+    {
+      "id": "c10_sst_geo1_04",
+      "question": "What is the primary cause of intense land degradation in Punjab, Haryana, and Western Uttar Pradesh?",
+      "options": [
+        "Over-irrigation leading to waterlogging and soil salinity",
+        "Extensive open-cast mining activities",
+        "Excessive overgrazing by pastoral herds",
+        "Deforestation due to urban timber extraction"
+      ],
+      "correctAnswer": "Over-irrigation leading to waterlogging and soil salinity",
+      "conceptTag": "Regional Land Degradation Drivers",
+      "explanation": "Over-irrigation raises the sub-surface water table, causing waterlogging and increasing salinity in agricultural topsoil."
+    },
+    {
+      "id": "c10_sst_geo1_05",
+      "question": "In hilly and mountainous terrain, which soil conservation technique is most effective against water runoff?",
+      "options": ["Terrace farming and contour ploughing", "Strip cropping", "Shelter belts", "Sand dune stabilization"],
+      "correctAnswer": "Terrace farming and contour ploughing",
+      "conceptTag": "Soil Conservation Practices in Slopes",
+      "explanation": "Cutting steps on slopes (terraces) and ploughing along elevation contours slows downhill water flow, curbing gully erosion."
+    },
+    {
+      "id": "c10_sst_geo1_06",
+      "question": "What was the landmark consensus established at the Rio de Janeiro Earth Summit in 1992?",
+      "options": [
+        "Agenda 21 for global sustainable development",
+        "Total ban on non-renewable mineral extraction",
+        "Establishment of the World Trade Organization",
+        "Abolition of all national emission quotas"
+      ],
+      "correctAnswer": "Agenda 21 for global sustainable development",
+      "conceptTag": "Global Environmental Treaties (Agenda 21)",
+      "explanation": "The 1992 UN Conference on Environment and Development adopted Agenda 21 to achieve global sustainable development via local action."
+    },
+    {
+      "id": "c10_sst_geo1_07",
+      "question": "Laterite soil is formed primarily as a result of which geological process?",
+      "options": [
+        "Intense leaching due to heavy rainfall and high temperature",
+        "Alluvial river deposit sedimentations",
+        "Weathering of volcanic basalt plateau rock",
+        "Accumulation of wind-borne desert silt"
+      ],
+      "correctAnswer": "Intense leaching due to heavy rainfall and high temperature",
+      "conceptTag": "Laterite Soil Pedogenesis and Leaching",
+      "explanation": "Laterite forms under tropical wet-and-dry conditions where heavy rain leaches away silica and lime, leaving iron and aluminum oxides."
+    },
+    {
+      "id": "c10_sst_geo1_08",
+      "question": "What is meant by 'Gross Cropped Area' in agricultural statistics?",
+      "options": [
+        "Total area sown once as well as more than once in an agricultural year",
+        "Land left uncultivated for more than five agricultural years",
+        "Area sown only once in a single harvest season",
+        "Total forested land cleared for seasonal plantation"
+      ],
+      "correctAnswer": "Total area sown once as well as more than once in an agricultural year",
+      "conceptTag": "Land Use Classification Terminology",
+      "explanation": "Net Sown Area counts physical acreage sown once, while Gross Cropped Area counts land multiple times if multiple crops are harvested."
+    }
+  ],
+
+  "Forest and Wildlife Resources": [
+    {
+      "id": "c10_sst_geo2_01",
+      "question": "What is the difference between 'Reserved Forests' and 'Protected Forests' under the Indian Forest Act?",
+      "options": [
+        "Reserved forests are regarded as the most valuable for timber/conservation where all activities are banned unless permitted; Protected forests are protected from further depletion with some local grazing/wood collection rights allowed",
+        "Reserved forests are open for clear-cutting, while protected forests are private gardens",
+        "Protected forests are strictly off-limits to humans",
+        "There is no legal difference between them"
+      ],
+      "correctAnswer": "Reserved forests are regarded as the most valuable for timber/conservation where all activities are banned unless permitted; Protected forests are protected from further depletion with some local grazing/wood collection rights allowed",
+      "conceptTag": "Reserved vs Protected Forests",
+      "explanation": "Reserved forests have full legal restrictions; protected forests have fewer restrictions unless explicitly notified."
+    },
+    {
+      "id": "c10_sst_geo2_02",
+      "question": "What was the primary objective of 'Project Tiger' launched in 1973?",
+      "options": [
+        "To protect the dwindling population of tigers from poaching and habitat loss and ensure viable breeding populations across tiger reserves in India",
+        "To domesticate tigers for agricultural plowing",
+        "To relocate all Indian tigers to European zoos",
+        "To breed tigers for commercial leather manufacturing"
+      ],
+      "correctAnswer": "To protect the dwindling population of tigers from poaching and habitat loss and ensure viable breeding populations across tiger reserves in India",
+      "conceptTag": "Project Tiger Conservation Initiative",
+      "explanation": "Project Tiger averted the imminent extinction of tigers by establishing protected reserves and curbing poaching."
+    },
+    {
+      "id": "c10_sst_geo2_03",
+      "question": "How did the 'Chipko Movement' in the Himalayas demonstrate community resilience in forest conservation?",
+      "options": [
+        "Villagers (particularly women) hugged trees to prevent commercial contractors from felling them, proving that local communities can protect forests for ecological survival",
+        "Villagers set fire to timber mills to protest high electricity prices",
+        "Villagers planted plastic trees across government highways",
+        "Villagers sued the Prime Minister in the International Court"
+      ],
+      "correctAnswer": "Villagers (particularly women) hugged trees to prevent commercial contractors from felling them, proving that local communities can protect forests for ecological survival",
+      "conceptTag": "Chipko Movement and Community Forestry",
+      "explanation": "The Chipko movement highlighted grassroots resistance against deforestation and promoted community-based forest management."
+    },
+    {
+      "id": "c10_sst_geo2_04",
+      "question": "What is 'Joint Forest Management' (JFM) introduced in India in 1988?",
+      "options": [
+        "A partnership program where local village communities assist the forest department in protecting degraded forests in exchange for intermediary benefits like non-timber forest produce",
+        "Joint ownership of private agricultural lands by the United Nations",
+        "A military pact between neighboring states over timber rights",
+        "Commercial clear-cutting of reserved forests by foreign firms"
+      ],
+      "correctAnswer": "A partnership program where local village communities assist the forest department in protecting degraded forests in exchange for intermediary benefits like non-timber forest produce",
+      "conceptTag": "Joint Forest Management (JFM) Framework",
+      "explanation": "JFM bridges state forestry departments and local villagers to sustainably restore degraded forest land."
+    },
+    {
+      "id": "c10_sst_geo2_05",
+      "question": "Why are sacred groves (such as those protected by indigenous communities in Rajasthan, Meghalaya, or the Western Ghats) vital for biodiversity conservation?",
+      "options": [
+        "They represent untouched patches of pristine virgin forest protected by religious taboos and cultural beliefs, preserving rare endemic flora and fauna",
+        "They are modern botanical gardens funded by corporate IT firms",
+        "They are barren quarries used for stone mining",
+        "They are artificial tree plantations grown in cities"
+      ],
+      "correctAnswer": "They represent untouched patches of pristine virgin forest protected by religious taboos and cultural beliefs, preserving rare endemic flora and fauna",
+      "conceptTag": "Sacred Groves and Indigenous Conservation",
+      "explanation": "Sacred groves act as sanctuaries for rare plant and animal species protected by local spiritual beliefs."
+    },
+    {
+      "id": "c10_sst_geo2_06",
+      "question": "What is the classification of species like the Asiatic cheetah, pink-headed duck, or mountain quail by the IUCN?",
+      "options": ["Extinct Species", "Endangered Species", "Vulnerable Species", "Rare Species"],
+      "correctAnswer": "Extinct Species",
+      "conceptTag": "IUCN Species Extinction Classification",
+      "explanation": "Species that are not found after searches of known or likely areas where they may occur are classified as extinct."
+    },
+    {
+      "id": "c10_sst_geo2_07",
+      "question": "Which of the following is an example of an 'Endemic Species' in India?",
+      "options": [
+        "Nicobar pigeon, Andaman wild pig, or Mithun in Arunachal Pradesh",
+        "House sparrow found worldwide",
+        "Common street pigeon",
+        "Migratory Siberian crane"
+      ],
+      "correctAnswer": "Nicobar pigeon, Andaman wild pig, or Mithun in Arunachal Pradesh",
+      "conceptTag": "Endemic Species Definition",
+      "explanation": "Endemic species are restricted to a particular region or island due to geographical isolation."
+    },
+    {
+      "id": "c10_sst_geo2_08",
+      "question": "What role does the Wildlife Protection Act of 1972 play in India?",
+      "options": [
+        "It provided legal protection to wildlife, instituted schedules of protected plants and animals, banned hunting of endangered species, and established national parks and sanctuaries",
+        "It legalized the export of tiger skins to foreign countries",
+        "It abolished all forest departments in every state",
+        "It allowed unrestricted commercial logging in tiger reserves"
+      ],
+      "correctAnswer": "It provided legal protection to wildlife, instituted schedules of protected plants and animals, banned hunting of endangered species, and established national parks and sanctuaries",
+      "conceptTag": "Wildlife Protection Act of 1972",
+      "explanation": "The 1972 Act laid the legal foundation for wildlife conservation, habitat protection, and anti-poaching measures in India."
+    }
+  ],
+
+  "Water Resources": [
+    {
+      "id": "c10_sst_geo3_01",
+      "question": "Despite 71% of Earth being covered with water, why do scientists warn of an impending global 'water crisis'?",
+      "options": [
+        "Over 97.5% of Earth's water is saline ocean water, and of the remaining fresh water, most is locked in polar ice caps or deep underground, leaving less than 1% accessible for human use",
+        "Rainfall has permanently stopped on all continents",
+        "Human beings consume 50% of the oceans every year",
+        "Fresh water cannot be mixed with any other liquid"
+      ],
+      "correctAnswer": "Over 97.5% of Earth's water is saline ocean water, and of the remaining fresh water, most is locked in polar ice caps or deep underground, leaving less than 1% accessible for human use",
+      "conceptTag": "Freshwater Scarcity and Global Distribution",
+      "explanation": "The absolute volume of freshwater is extremely scarce and unevenly distributed across river basins."
+    },
+    {
+      "id": "c10_sst_geo3_02",
+      "question": "Who famously referred to multi-purpose river dams as the 'Temples of Modern India'?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Sardar Vallabhbhai Patel",
+        "Dr. B.R. Ambedkar"
+      ],
+      "correctAnswer": "Jawaharlal Nehru",
+      "conceptTag": "Multipurpose River Projects and Jawaharlal Nehru",
+      "explanation": "Nehru championed river valley projects (like Bhakra Nangal, Hirakud) as engines of agricultural and industrial modernization."
+    },
+    {
+      "id": "c10_sst_geo3_03",
+      "question": "Why have large multi-purpose dams faced severe environmental and social criticism (leading to movements like Narmada Bachao Andolan)?",
+      "options": [
+        "They cause massive submergence of forests and fertile land, displace indigenous tribal communities without adequate rehabilitation, alter river ecology, cause sedimentation in reservoirs, and trigger seismic tremors",
+        "Dams produce zero electricity and reduce agricultural yields permanently",
+        "Dams prevent all rivers from ever reaching the sea",
+        "Dams cause permanent global cooling"
+      ],
+      "correctAnswer": "They cause massive submergence of forests and fertile land, displace indigenous tribal communities without adequate rehabilitation, alter river ecology, cause sedimentation in reservoirs, and trigger seismic tremors",
+      "conceptTag": "Critique of Multi-Purpose River Projects",
+      "explanation": "While dams generate power and irrigation, their social and environmental costs (displacement, silting, aquatic fragmentation) sparked major anti-dam movements."
+    },
+    {
+      "id": "c10_sst_geo3_04",
+      "question": "What is 'Rainwater Harvesting' (RWH), and what was the traditional method called 'Tankas' in arid Rajasthan?",
+      "options": [
+        "RWH collects runoff rainwater from rooftops or ground catchments for immediate use or groundwater recharge; Tankas are underground subterranean tanks built in Bikaner/Barmer houses to store drinking water",
+        "Tankas are open swimming pools filled with river water in Delhi",
+        "RWH is the process of desalinating seawater using nuclear power",
+        "Tankas are irrigation canals built across the Thar desert"
+      ],
+      "correctAnswer": "RWH collects runoff rainwater from rooftops or ground catchments for immediate use or groundwater recharge; Tankas are underground subterranean tanks built in Bikaner/Barmer houses to store drinking water",
+      "conceptTag": "Traditional Rainwater Harvesting and Tankas",
+      "explanation": "In arid regions like western Rajasthan, houses traditionally featured underground tankas connected to sloping rooftops to collect precious drinking water."
+    },
+    {
+      "id": "c10_sst_geo3_05",
+      "question": "How did the remote village of Gendathur in Mysore, Karnataka, solve its acute water shortage?",
+      "options": [
+        "By installing household-level rooftop rainwater harvesting systems across 200 houses, making the village self-sufficient in water",
+        "By building a massive nuclear desalination plant",
+        "By diverting the Cauvery river through a private tunnel",
+        "By importing bottled mineral water from the Himalayas"
+      ],
+      "correctAnswer": "By installing household-level rooftop rainwater harvesting systems across 200 houses, making the village self-sufficient in water",
+      "conceptTag": "Gendathur Community Rainwater Harvesting",
+      "explanation": "Gendathur became a model for decentralized community-managed rooftop rainwater harvesting in rural India."
+    },
+    {
+      "id": "c10_sst_geo3_06",
+      "question": "What are 'Kuls' or 'Guls' found in the Western Himalayas?",
+      "options": [
+        "Traditional diversion channels built by hill communities to channel flowing stream water down to mountain agriculture fields",
+        "Underground hot springs used for generating electricity",
+        "Glacial caves where villagers store winter ice",
+        "Sacred fish ponds located inside Buddhist monasteries"
+      ],
+      "correctAnswer": "Traditional diversion channels built by hill communities to channel flowing stream water down to mountain agriculture fields",
+      "conceptTag": "Traditional Irrigation: Kuls and Guls",
+      "explanation": "In hilly terrain like Himachal Pradesh, people built diversion channels called kuls to lead water to terraced fields."
+    },
+    {
+      "id": "c10_sst_geo3_07",
+      "question": "What is the primary cause of water pollution in Indian river basins such as the Ganga and Yamuna?",
+      "options": [
+        "Discharge of untreated industrial effluents, municipal sewage, agricultural chemical runoff (fertilizers/pesticides), and religious/domestic waste into rivers",
+        "Natural melting of snow in the Himalayas",
+        "Rainwater falling directly into river channels",
+        "Swimming of freshwater dolphins in urban stretches"
+      ],
+      "correctAnswer": "Discharge of untreated industrial effluents, municipal sewage, agricultural chemical runoff (fertilizers/pesticides), and religious/domestic waste into rivers",
+      "conceptTag": "Causes of River Water Pollution in India",
+      "explanation": "Rapid urbanization and lack of functional sewage treatment plants turn major rivers into toxic drains along urban stretches."
+    },
+    {
+      "id": "c10_sst_geo3_08",
+      "question": "What is 'Bamboo Drip Irrigation System' practiced in Meghalaya?",
+      "options": [
+        "An ingenious 200-year-old system tapping springwater using bamboo pipes to transport water over hundreds of meters directly to plant roots drop by drop",
+        "A modern industrial plastic pipe network funded by the UN",
+        "Bamboo poles used to measure river depths during floods",
+        "A musical instrument played during rain dances"
+      ],
+      "correctAnswer": "An ingenious 200-year-old system tapping springwater using bamboo pipes to transport water over hundreds of meters directly to plant roots drop by drop",
+      "conceptTag": "Bamboo Drip Irrigation in Meghalaya",
+      "explanation": "In Meghalaya, tribal farmers use bamboo channels to drip water efficiently onto betel nut tree roots on steep slopes."
+    }
+  ],
+
+  "Agriculture": [
+    {
+      "id": "c10_sst_geo4_01",
+      "question": "What is the difference between 'Primitive Subsistence Farming' (Jhum cultivation/slash-and-burn) and 'Commercial Farming'?",
+      "options": [
+        "Primitive subsistence relies on family labor, primitive tools (hoe/dao), and monsoon rainfall to grow food strictly for local family consumption; commercial farming uses high doses of modern inputs (HYV seeds, chemical fertilizers, insecticides) to grow crops for sale in regional and global markets",
+        "Commercial farming uses no fertilizers and is done exclusively by hand",
+        "Primitive subsistence farming is practiced on massive corporate estates",
+        "There is no difference in technology or purpose between them"
+      ],
+      "correctAnswer": "Primitive subsistence relies on family labor, primitive tools (hoe/dao), and monsoon rainfall to grow food strictly for local family consumption; commercial farming uses high doses of modern inputs (HYV seeds, chemical fertilizers, insecticides) to grow crops for sale in regional and global markets",
+      "conceptTag": "Primitive Subsistence vs Commercial Agriculture",
+      "explanation": "Subsistence farming focuses on immediate survival; commercial agriculture targets profit, high yield, and market export."
+    },
+    {
+      "id": "c10_sst_geo4_02",
+      "question": "What are the three distinct crop seasons in the Indian agricultural calendar?",
+      "options": [
+        "Rabi (winter/sown Oct-Dec, harvested Apr-Jun), Kharif (monsoon/sown with onset of rains, harvested Sep-Oct), and Zaid (short summer season between Rabi and Kharif producing watermelon/cucumbers)",
+        "Spring, Autumn, and Winter",
+        "Monsoon, Cyclone, and Drought seasons",
+        "Food crops, Cash crops, and Plantation crops"
+      ],
+      "correctAnswer": "Rabi (winter/sown Oct-Dec, harvested Apr-Jun), Kharif (monsoon/sown with onset of rains, harvested Sep-Oct), and Zaid (short summer season between Rabi and Kharif producing watermelon/cucumbers)",
+      "conceptTag": "Cropping Seasons: Rabi, Kharif and Zaid",
+      "explanation": "India's agricultural cycle is organized around seasonal monsoon patterns into Rabi, Kharif, and Zaid crops."
+    },
+    {
+      "id": "c10_sst_geo4_03",
+      "question": "Which of the following is a major 'Kharif' crop grown in India?",
+      "options": ["Paddy (Rice), Maize, Jowar, Bajra, Tur, Moong, Cotton, and Jute", "Wheat, Barley, Peas, Gram, and Mustard", "Watermelon, Muskmelon, and Cucumber", "Apples and Walnuts"],
+      "correctAnswer": "Paddy (Rice), Maize, Jowar, Bajra, Tur, Moong, Cotton, and Jute",
+      "conceptTag": "Major Kharif Crops",
+      "explanation": "Kharif crops require high water and warmth, sown with the arrival of the southwest monsoon in June/July."
+    },
+    {
+      "id": "c10_sst_geo4_04",
+      "question": "Which of the following is a major 'Rabi' crop grown in India?",
+      "options": ["Wheat, Barley, Peas, Gram, and Mustard", "Rice, Maize, and Jute", "Rubber, Tea, and Coffee", "Sugarcane and Tobacco"],
+      "correctAnswer": "Wheat, Barley, Peas, Gram, and Mustard",
+      "conceptTag": "Major Rabi Crops",
+      "explanation": "Rabi crops are sown in winter from October to December and harvested in summer from April to June."
+    },
+    {
+      "id": "c10_sst_geo4_05",
+      "question": "What was the 'Green Revolution' introduced in India in the late 1960s and 1970s?",
+      "options": [
+        "An agricultural modernization strategy introducing High-Yielding Variety (HYV) seeds of wheat and rice, chemical fertilizers, pesticides, and assured irrigation to achieve national food self-sufficiency",
+        "A program to paint all rural houses green",
+        "A law banning all chemical fertilizers permanently",
+        "A forestry campaign to plant trees in urban parks"
+      ],
+      "correctAnswer": "An agricultural modernization strategy introducing High-Yielding Variety (HYV) seeds of wheat and rice, chemical fertilizers, pesticides, and assured irrigation to achieve national food self-sufficiency",
+      "conceptTag": "Green Revolution Impact and Inputs",
+      "explanation": "The Green Revolution transformed India from a food-deficient nation into a self-sufficient grain producer, though it created regional disparities and ecological issues."
+    },
+    {
+      "id": "c10_sst_geo4_06",
+      "question": "What is 'Plantation Agriculture', and what are its key defining features?",
+      "options": [
+        "A single-crop (monoculture) commercial farming system practiced on vast estates requiring capital-intensive inputs, migrant labor, and a close interface with industry (e.g., Tea in Assam, Coffee in Karnataka, Rubber in Kerala)",
+        "Growing small kitchen gardens in urban apartments",
+        "Subsistence farming of wheat on 1-acre family plots",
+        "Raising sheep and cattle for wool in alpine meadows"
+      ],
+      "correctAnswer": "A single-crop (monoculture) commercial farming system practiced on vast estates requiring capital-intensive inputs, migrant labor, and a close interface with industry (e.g., Tea in Assam, Coffee in Karnataka, Rubber in Kerala)",
+      "conceptTag": "Plantation Agriculture Characteristics",
+      "explanation": "Plantations are large-scale commercial agricultural enterprises specializing in cash crops for processing and export."
+    },
+    {
+      "id": "c10_sst_geo4_07",
+      "question": "What was the objective of the 'Bhoodan-Gramdan' movement initiated by Vinoba Bhave after independence?",
+      "options": [
+        "To persuade wealthy landowners to voluntarily donate a fraction of their land to landless peasants for cooperative farming, addressing rural economic inequality peacefully",
+        "To forcefully seize all private property in India",
+        "To auction government forests to foreign mining firms",
+        "To convert all agricultural land into cricket stadiums"
+      ],
+      "correctAnswer": "To persuade wealthy landowners to voluntarily donate a fraction of their land to landless peasants for cooperative farming, addressing rural economic inequality peacefully",
+      "conceptTag": "Bhoodan-Gramdan Movement (Vinoba Bhave)",
+      "explanation": "Often called the Bloodless Revolution, Bhoodan sought land reform through moral persuasion and voluntary gifting."
+    },
+    {
+      "id": "c10_sst_geo4_08",
+      "question": "What institutional and technological land reforms were introduced by the Indian government to support agriculture post-independence?",
+      "options": [
+        "Abolition of the Zamindari system, consolidation of land holdings, provision of Kisan Credit Cards (KCC), crop insurance (PMFBY), and broadcasting agricultural weather bulletins on radio/TV",
+        "Imposing a 100% tax on all farm seeds",
+        "Banning tractors and chemical fertilizers nationwide",
+        "Forbidding farmers from selling crops in open markets"
+      ],
+      "correctAnswer": "Abolition of the Zamindari system, consolidation of land holdings, provision of Kisan Credit Cards (KCC), crop insurance (PMFBY), and broadcasting agricultural weather bulletins on radio/TV",
+      "conceptTag": "Agricultural Reforms in India",
+      "explanation": "Land reforms and institutional credit support (like KCC and NABARD) aimed to protect cultivators from exploitative intermediaries and weather risks."
+    }
+  ],
+
+  "Minerals and Energy Resources": [
+    {
+      "id": "c10_sst_geo5_01",
+      "question": "What is a 'Mineral' defined as in geology and geography?",
+      "options": [
+        "A naturally occurring, homogenous inorganic substance having a definite internal atomic structure and chemical composition",
+        "Any artificial plastic or glass object manufactured in a factory",
+        "Liquid crude oil extracted from automobile engines",
+        "Organic plant matter found on forest floors"
+      ],
+      "correctAnswer": "A naturally occurring, homogenous inorganic substance having a definite internal atomic structure and chemical composition",
+      "conceptTag": "Geological Definition of a Mineral",
+      "explanation": "Minerals are inorganic solids with specific chemical formulas and crystalline structures formed by geological processes."
+    },
+    {
+      "id": "c10_sst_geo5_02",
+      "question": "Where are metallic minerals like iron ore, copper, lead, and zinc typically found in the Earth's crust?",
+      "options": [
+        "In igneous and metamorphic rock veins and lodes (formed by cooling of molten magma or hydrothermal fluids)",
+        "In loose sand dunes of hot deserts",
+        "Floating freely on the surface of freshwater lakes",
+        "In atmospheric clouds during thunderstorms"
+      ],
+      "correctAnswer": "In igneous and metamorphic rock veins and lodes (formed by cooling of molten magma or hydrothermal fluids)",
+      "conceptTag": "Occurrence of Minerals in Veins and Lodes",
+      "explanation": "Minerals in veins and lodes form when molten or liquid minerals are forced upward through cracks in crustal rocks and cool."
+    },
+    {
+      "id": "c10_sst_geo5_03",
+      "question": "How are sedimentary mineral deposits (like coal, gypsum, potash, and sodium salt) formed?",
+      "options": [
+        "Through deposition, accumulation, and concentration in horizontal strata (layers) due to evaporation in arid regions or organic compression",
+        "By violent volcanic eruptions launching rocks into space",
+        "By meteors striking Earth from outer space",
+        "By lightning striking limestone caves"
+      ],
+      "correctAnswer": "Through deposition, accumulation, and concentration in horizontal strata (layers) due to evaporation in arid regions or organic compression",
+      "conceptTag": "Sedimentary Mineral Deposits Formation",
+      "explanation": "Sedimentary beds form over millennia as mineral particles or evaporites accumulate in basins and lakes."
+    },
+    {
+      "id": "c10_sst_geo5_04",
+      "question": "Which iron ore is considered the finest quality iron ore with a high iron content of up to 70% and exceptional magnetic qualities?",
+      "options": ["Magnetite", "Hematite", "Limonite", "Siderite"],
+      "correctAnswer": "Magnetite",
+      "conceptTag": "Types of Iron Ore (Magnetite vs Hematite)",
+      "explanation": "Magnetite is the finest iron ore with magnetic properties; hematite is the most industrially used commercial ore in terms of volume."
+    },
+    {
+      "id": "c10_sst_geo5_05",
+      "question": "What is the primary difference between 'Conventional' and 'Non-Conventional' sources of energy?",
+      "options": [
+        "Conventional sources are traditional, finite, non-renewable fossil fuels (coal, petroleum, natural gas) that pollute; Non-conventional sources are renewable, inexhaustible modern technologies (solar, wind, geothermal, tidal, biomass)",
+        "Conventional sources are free, while non-conventional sources cost 100 times more",
+        "Non-conventional energy is generated exclusively inside coal-fired power plants",
+        "There is no difference in renewability between them"
+      ],
+      "correctAnswer": "Conventional sources are traditional, finite, non-renewable fossil fuels (coal, petroleum, natural gas) that pollute; Non-conventional sources are renewable, inexhaustible modern technologies (solar, wind, geothermal, tidal, biomass)",
+      "conceptTag": "Conventional vs Non-Conventional Energy Sources",
+      "explanation": "Transitioning from exhaustible fossil fuels to renewable non-conventional energy is vital for energy security and climate mitigation."
+    },
+    {
+      "id": "c10_sst_geo5_06",
+      "question": "Why is 'Bauxite' of paramount economic importance as a mineral ore?",
+      "options": [
+        "It is the clay-like substance from which 'Aluminum' is extracted, which is lightweight, corrosion-resistant, and conducts electricity",
+        "It is used to make nuclear weapons",
+        "It is refined into petrol and diesel for cars",
+        "It is processed into glass windows"
+      ],
+      "correctAnswer": "It is the clay-like substance from which 'Aluminum' is extracted, which is lightweight, corrosion-resistant, and conducts electricity",
+      "conceptTag": "Bauxite and Aluminum Extraction",
+      "explanation": "Aluminum is obtained from bauxite ore; its lightness and strength make it vital for aircraft, packaging, and electrical cables."
+    },
+    {
+      "id": "c10_sst_geo5_07",
+      "question": "What is the geological origin of 'Coal', and what are its four graded ranks?",
+      "options": [
+        "Formed from compressed plant remains over millions of years; ranked from lowest to highest carbon content as Peat, Lignite, Bituminous, and Anthracite",
+        "Formed from fossilized marine fish skeletons in deep ocean trenches",
+        "Formed from crystallized volcanic lava cooling underwater",
+        "Formed from meteorite impacts on limestone plateaus"
+      ],
+      "correctAnswer": "Formed from compressed plant remains over millions of years; ranked from lowest to highest carbon content as Peat, Lignite, Bituminous, and Anthracite",
+      "conceptTag": "Coal Formation and Ranks (Peat to Anthracite)",
+      "explanation": "Degree of compression and burial depth determines coal rank; anthracite has the highest carbon content (>80%) and burns cleanest."
+    },
+    {
+      "id": "c10_sst_geo5_08",
+      "question": "Why is 'Nuclear (Atomic) Energy' considered a unique alternative energy source?",
+      "options": [
+        "It is generated by altering atomic nuclei (fission of Uranium-235 or Thorium), producing massive energy output from a minuscule quantity of fuel, though radioactive waste disposal remains a major challenge",
+        "It relies entirely on burning coal inside nuclear reactors",
+        "It produces zero radioactive waste and operates at room temperature without uranium",
+        "It uses solar panels installed on the Moon"
+      ],
+      "correctAnswer": "It is generated by altering atomic nuclei (fission of Uranium-235 or Thorium), producing massive energy output from a minuscule quantity of fuel, though radioactive waste disposal remains a major challenge",
+      "conceptTag": "Nuclear Energy Generation and Waste Challenge",
+      "explanation": "Nuclear fission releases immense energy per gram of fuel compared to coal, but spent radioactive fuel requires secure long-term geological storage."
+    }
+  ],
+
+  "Manufacturing Industries": [
+    {
+      "id": "c10_sst_geo6_01",
+      "question": "Why is 'Manufacturing' considered the backbone of economic development in a country?",
+      "options": [
+        "Manufacturing industries modernize agriculture, reduce heavy dependence on primary agricultural income by creating jobs in secondary/tertiary sectors, eradicate unemployment/poverty, and export manufactured goods to earn foreign exchange",
+        "Manufacturing industries produce all the drinking water for rivers",
+        "Manufacturing prevents urbanization and keeps all people in rural farming",
+        "Manufacturing countries do not need any banking or transport infrastructure"
+      ],
+      "correctAnswer": "Manufacturing industries modernize agriculture, reduce heavy dependence on primary agricultural income by creating jobs in secondary/tertiary sectors, eradicate unemployment/poverty, and export manufactured goods to earn foreign exchange",
+      "conceptTag": "Importance of Manufacturing to National Economy",
+      "explanation": "Industrial growth drives overall economic modernization, adding high value to raw materials and boosting GDP."
+    },
+    {
+      "id": "c10_sst_geo6_02",
+      "question": "What are the locational factors that determine where an industrial plant (like an iron and steel factory) is set up?",
+      "options": [
+        "Access to raw materials, cheap labor, power/energy sources, capital, banking, market proximity, and efficient transport networks",
+        "Availability of sandy beaches and tropical sunshine",
+        "Proximity to active volcanic craters",
+        "Presence of heavy snowfall throughout the year"
+      ],
+      "correctAnswer": "Access to raw materials, cheap labor, power/energy sources, capital, banking, market proximity, and efficient transport networks",
+      "conceptTag": "Industrial Location Factors",
+      "explanation": "Industries cluster where production costs are minimized—often near raw material sources (weight-losing industries) or consumer markets."
+    },
+    {
+      "id": "c10_sst_geo6_03",
+      "question": "Why is the 'Iron and Steel Industry' referred to as a 'Basic / Key Industry'?",
+      "options": [
+        "Because all other industries—heavy machinery, construction, defense, railways, medical equipment, and consumer goods—depend on iron and steel for their machinery and tools",
+        "Because it is the only industry allowed to operate in capital cities",
+        "Because it produces plastic toys for children",
+        "Because steel is used exclusively to make cooking utensils"
+      ],
+      "correctAnswer": "Because all other industries—heavy machinery, construction, defense, railways, medical equipment, and consumer goods—depend on iron and steel for their machinery and tools",
+      "conceptTag": "Iron and Steel as Basic/Key Industry",
+      "explanation": "Without iron and steel, no other industrial machinery, transport vehicle, or infrastructure project can be built."
+    },
+    {
+      "id": "c10_sst_geo6_04",
+      "question": "How are industries classified based on their 'Source of Raw Materials'?",
+      "options": [
+        "Agro-based industries (cotton, jute, silk, sugar from agriculture) and Mineral-based industries (iron, steel, cement, petrochemicals from minerals)",
+        "Public sector and Private sector industries",
+        "Heavy industries and Light industries",
+        "Cooperative and Joint sector industries"
+      ],
+      "correctAnswer": "Agro-based industries (cotton, jute, silk, sugar from agriculture) and Mineral-based industries (iron, steel, cement, petrochemicals from minerals)",
+      "conceptTag": "Classification of Industries by Raw Materials",
+      "explanation": "Industries derive raw materials either from biological agricultural output (agro-based) or geological mineral deposits (mineral-based)."
+    },
+    {
+      "id": "c10_sst_geo6_05",
+      "question": "What is the difference between 'Public Sector', 'Private Sector', 'Joint Sector', and 'Cooperative Sector' industries?",
+      "options": [
+        "Public sector is owned/operated by the government (BHEL, SAIL); Private sector by individuals/firms (TISCO, Reliance); Joint sector jointly by state and private parties (OIL); Cooperative sector by the producers/suppliers of raw materials (Amul, sugarcane cooperatives)",
+        "Cooperative industries are owned exclusively by foreign multinational corporations",
+        "Public sector industries pay zero wages to workers",
+        "Private sector factories are banned from making profits"
+      ],
+      "correctAnswer": "Public sector is owned/operated by the government (BHEL, SAIL); Private sector by individuals/firms (TISCO, Reliance); Joint sector jointly by state and private parties (OIL); Cooperative sector by the producers/suppliers of raw materials (Amul, sugarcane cooperatives)",
+      "conceptTag": "Ownership Classification of Industries",
+      "explanation": "Industries are categorized by ownership structure into public, private, joint, and cooperative models."
+    },
+    {
+      "id": "c10_sst_geo6_06",
+      "question": "What are the major causes of 'Industrial Pollution' of air, water, and land, and how can 'Thermal Pollution' damage aquatic ecosystems?",
+      "options": [
+        "Air pollution comes from sulfur dioxide and carbon monoxide smoke; water pollution from chemical effluents; thermal pollution occurs when hot untreated water from factories/power plants is discharged directly into rivers/lakes, lowering dissolved oxygen and killing fish",
+        "Thermal pollution cools rivers down until they freeze into glaciers",
+        "Industrial plants produce zero pollution if they use electricity",
+        "Land pollution is caused exclusively by falling autumn leaves"
+      ],
+      "correctAnswer": "Air pollution comes from sulfur dioxide and carbon monoxide smoke; water pollution from chemical effluents; thermal pollution occurs when hot untreated water from factories/power plants is discharged directly into rivers/lakes, lowering dissolved oxygen and killing fish",
+      "conceptTag": "Industrial Pollution and Thermal Pollution",
+      "explanation": "Thermal pollution reduces oxygen solubility in aquatic habitats, disrupting aquatic flora and fauna."
+    },
+    {
+      "id": "c10_sst_geo6_07",
+      "question": "How does the National Thermal Power Corporation (NTPC) in India demonstrate proactive 'Environmental Management' in its power plants?",
+      "options": [
+        "By maximizing ash utilization, optimizing plant efficiency, establishing green belts around stations for ecological balance, and monitoring water/air pollution continuously",
+        "By dumping all fly ash directly into drinking water reservoirs",
+        "By burning plastic waste instead of coal",
+        "By operating without any filters or chimneys"
+      ],
+      "correctAnswer": "By maximizing ash utilization, optimizing plant efficiency, establishing green belts around stations for ecological balance, and monitoring water/air pollution continuously",
+      "conceptTag": "NTPC Environmental Management Approach",
+      "explanation": "NTPC sets an industry benchmark for sustainable thermal power generation through afforestation, ash recycling, and strict emission monitoring."
+    },
+    {
+      "id": "c10_sst_geo6_08",
+      "question": "Why is the 'Cotton Textile Industry' in India traditionally concentrated in Maharashtra and Gujarat (around Mumbai and Ahmedabad)?",
+      "options": [
+        "Availability of raw black cotton soil, humid climate (preventing yarn breakage during spinning), proximity to port facilities for export, skilled labor, and accessible capital markets",
+        "Because water is freezing cold in Mumbai",
+        "Because cotton cannot grow anywhere else in Asia",
+        "Because electricity is free in Gujarat"
+      ],
+      "correctAnswer": "Availability of raw black cotton soil, humid climate (preventing yarn breakage during spinning), proximity to port facilities for export, skilled labor, and accessible capital markets",
+      "conceptTag": "Localization of Cotton Textile Industry",
+      "explanation": "Climatic humidity, raw material proximity, and port access historically anchored India's textile mills in western India."
+    }
+  ],
+
+  "Lifelines of National Economy": [
+    {
+      "id": "c10_sst_geo7_01",
+      "question": "Why are 'Transport and Communication' referred to as the 'Lifelines of a National Economy'?",
+      "options": [
+        "They facilitate the physical movement of goods, raw materials, and people from production sites to consumer markets, linking regions and integrating the national economy",
+        "They are used exclusively for military troop deployment during wartime",
+        "They generate electricity for home lighting",
+        "They replace the need for agriculture and manufacturing entirely"
+      ],
+      "correctAnswer": "They facilitate the physical movement of goods, raw materials, and people from production sites to consumer markets, linking regions and integrating the national economy",
+      "conceptTag": "Transport and Communication as Economic Lifelines",
+      "explanation": "Efficient transport and telecommunication reduce economic distance, unifying domestic markets and international trade."
+    },
+    {
+      "id": "c10_sst_geo7_02",
+      "question": "What are the strategic advantages of 'Road Transport' over 'Rail Transport' in India?",
+      "options": [
+        "Roads offer door-to-door service, lower construction costs in rugged topography, flexibility of route/schedule, and connect remote rural villages that trains cannot reach",
+        "Roads can carry heavier freight loads than a freight train across continents",
+        "Road transport is always faster than supersonic air travel",
+        "Roads require zero maintenance compared to railways"
+      ],
+      "correctAnswer": "Roads offer door-to-door service, lower construction costs in rugged topography, flexibility of route/schedule, and connect remote rural villages that trains cannot reach",
+      "conceptTag": "Road Transport Advantages over Railways",
+      "explanation": "Roads provide unmatched accessibility, feeder service to rail terminals, and low capital cost over uneven terrain."
+    },
+    {
+      "id": "c10_sst_geo7_03",
+      "question": "What is the classification hierarchy of roads maintained in India under the National Highway Authority and state agencies?",
+      "options": [
+        "Golden Quadrilateral Super Highways, National Highways (NH), State Highways (SH), Major District Roads, and Rural/Village Roads",
+        "Expressways, Bicycle paths, and Footpaths only",
+        "Private toll roads, Railway tracks, and Canal paths",
+        "International highways managed directly by the United Nations"
+      ],
+      "correctAnswer": "Golden Quadrilateral Super Highways, National Highways (NH), State Highways (SH), Major District Roads, and Rural/Village Roads",
+      "conceptTag": "Road Network Hierarchy in India",
+      "explanation": "India's road network is categorized by function and jurisdiction into Golden Quadrilateral, NH, SH, district, and rural roads."
+    },
+    {
+      "id": "c10_sst_geo7_04",
+      "question": "Why are 'Railways' considered the principal mode of transportation for freight and long-distance passenger travel in India?",
+      "options": [
+        "They bind the economic life of the country, facilitate multi-commodity bulk transport over long distances, and drive industrial growth and national integration",
+        "Railways are completely free for all citizens",
+        "Trains can travel across oceans without tracks",
+        "Railways produce zero carbon emissions without electricity or coal"
+      ],
+      "correctAnswer": "They bind the economic life of the country, facilitate multi-commodity bulk transport over long distances, and drive industrial growth and national integration",
+      "conceptTag": "Role of Railways in Indian Economy",
+      "explanation": "Indian Railways is the country's premier carrier of bulk freight and long-haul passengers, serving as an economic integrator."
+    },
+    {
+      "id": "c10_sst_geo7_05",
+      "question": "What is the strategic significance of 'Pipelines' in modern transport infrastructure?",
+      "options": [
+        "They are used to transport crude oil, petroleum products, and natural gas directly from oilfields/ports to refineries and fertilizer plants without trans-shipment losses or delays",
+        "They carry drinking water across international borders to irrigate deserts",
+        "They are used to pump solid coal blocks underground",
+        "They replace all cargo ships on the open ocean"
+      ],
+      "correctAnswer": "They are used to transport crude oil, petroleum products, and natural gas directly from oilfields/ports to refineries and fertilizer plants without trans-shipment losses or delays",
+      "conceptTag": "Pipeline Transport Utility",
+      "explanation": "Pipelines (like the Hazira-Vijaipur-Jagadishpur HVJ gas pipeline) enable continuous, safe, and efficient fluid/gas transport."
+    },
+    {
+      "id": "c10_sst_geo7_06",
+      "question": "What role do 'Major Sea Ports' play in India's international trade?",
+      "options": [
+        "India has a 7,516.6 km coastline with 12 major and 200+ minor ports handling 95% of India's foreign trade volume (goods and commodities)",
+        "Ports are used exclusively for domestic passenger cruises",
+        "Ports handle zero international cargo",
+        "All foreign trade in India goes through land border checkpoints only"
+      ],
+      "correctAnswer": "India has a 7,516.6 km coastline with 12 major and 200+ minor ports handling 95% of India's foreign trade volume (goods and commodities)",
+      "conceptTag": "Major Sea Ports and Foreign Trade",
+      "explanation": "Maritime ports (like Kandla, Mumbai, Chennai, Visakhapatnam) serve as gateways for bulk international trade."
+    },
+    {
+      "id": "c10_sst_geo7_07",
+      "question": "Why is 'Air Transport' vital despite being the most expensive mode of travel?",
+      "options": [
+        "It is the fastest, most comfortable mode, capable of crossing difficult terrains (mountains, deserts, dense forests, oceans) and is indispensable during national emergencies and disasters",
+        "It can transport millions of tons of coal cheaper than freight trains",
+        "Airplanes land on every village street in India",
+        "Air travel produces no noise or air pollution"
+      ],
+      "correctAnswer": "It is the fastest, most comfortable mode, capable of crossing difficult terrains (mountains, deserts, dense forests, oceans) and is indispensable during national emergencies and disasters",
+      "conceptTag": "Significance of Air Transport",
+      "explanation": "Aviation connects remote inaccessible regions (North-East India) and provides rapid emergency relief during calamities."
+    },
+    {
+      "id": "c10_sst_geo7_08",
+      "question": "What is the difference between 'International Trade' and 'Local Trade', and what is meant by a 'favorable balance of trade'?",
+      "options": [
+        "International trade occurs between countries; a favorable balance of trade occurs when the value of exports exceeds the value of imports (earning net foreign exchange)",
+        "Local trade involves foreign currencies, while international trade uses barter",
+        "A favorable balance of trade means importing more goods than you export",
+        "International trade is banned by the World Trade Organization"
+      ],
+      "correctAnswer": "International trade occurs between countries; a favorable balance of trade occurs when the value of exports exceeds the value of imports (earning net foreign exchange)",
+      "conceptTag": "International Trade and Balance of Trade",
+      "explanation": "Export earnings exceeding import expenditures constitute a trade surplus (favorable balance of trade)."
+    }
+  ],
+
+  "Power Sharing": [
+    {
+      "id": "c10_sst_pol1_01",
+      "question": "What was the ethnic composition of Belgium's total population in terms of language communities?",
+      "options": [
+        "59% Dutch speakers (Flemish region), 40% French speakers (Wallonia), 1% German speakers",
+        "80% French speakers, 20% Dutch speakers evenly dispersed",
+        "50% German speakers, 40% Dutch speakers, 10% French speakers",
+        "70% Dutch speakers, 30% English speakers"
+      ],
+      "correctAnswer": "59% Dutch speakers (Flemish region), 40% French speakers (Wallonia), 1% German speakers",
+      "conceptTag": "Ethnic Demographics of Belgium",
+      "explanation": "Dutch speakers formed the national majority (59%) in Flanders, while French speakers (40%) formed the majority in Brussels."
+    },
+    {
+      "id": "c10_sst_pol1_02",
+      "question": "Why did the Sri Lankan government pass an Act in 1956 declaring Sinhala as the only official language?",
+      "options": [
+        "To establish majoritarian supremacy favoring the Buddhist Sinhala majority",
+        "To accommodate ethnic demands of the Sri Lankan Tamil minority",
+        "To establish a multilingual federal democratic framework",
+        "To meet prerequisites for international loans"
+      ],
+      "correctAnswer": "To establish majoritarian supremacy favoring the Buddhist Sinhala majority",
+      "conceptTag": "Majoritarianism Policy in Sri Lanka",
+      "explanation": "The 1956 Act disregarded Tamil linguistic rights, institutionalizing Sinhala majoritarian rule."
+    },
+    {
+      "id": "c10_sst_pol1_03",
+      "question": "Horizontal distribution of power refers to sharing of power among:",
+      "options": [
+        "Different organs of government placed at the same level: Legislature, Executive, and Judiciary",
+        "Central government, State governments, and Local municipalities",
+        "Different social and religious groups in society",
+        "Multiple competing political coalitions"
+      ],
+      "correctAnswer": "Different organs of government placed at the same level: Legislature, Executive, and Judiciary",
+      "conceptTag": "Horizontal vs Vertical Power Sharing",
+      "explanation": "Horizontal separation places organs at the same constitutional level, creating a system of checks and balances."
+    },
+    {
+      "id": "c10_sst_pol1_04",
+      "question": "What is the primary constitutional feature of the 'Community Government' in Belgium?",
+      "options": [
+        "It is elected by people belonging to one language community regarding cultural, educational, and language issues",
+        "It controls state army and borders directly",
+        "It manages nationwide monetary printing exclusively",
+        "It is appointed by the European Union council"
+      ],
+      "correctAnswer": "It is elected by people belonging to one language community regarding cultural, educational, and language issues",
+      "conceptTag": "Belgian Consociational Governance",
+      "explanation": "Belgium created Community Governments for Dutch, French, and German speakers to manage cultural and linguistic matters."
+    },
+    {
+      "id": "c10_sst_pol1_05",
+      "question": "What is the 'Prudential reason' for adopting democratic power-sharing mechanisms?",
+      "options": [
+        "It reduces the likelihood of social conflict and political instability",
+        "It is the intrinsic ethical spirit of democracy",
+        "It consolidates all power within the executive",
+        "It reduces the financial costs of conducting elections"
+      ],
+      "correctAnswer": "It reduces the likelihood of social conflict and political instability",
+      "conceptTag": "Prudential vs Moral Reasons for Power Sharing",
+      "explanation": "Prudential reasons focus on practical outcomes (reducing civic unrest and violence), while moral reasons emphasize democracy's inherent values."
+    },
+    {
+      "id": "c10_sst_pol1_06",
+      "question": "Power sharing between Union and State tiers of government is technically classified as:",
+      "options": [
+        "Vertical division of power",
+        "Horizontal separation of powers",
+        "Civil society decentralization",
+        "Bicameral legislative arrangement"
+      ],
+      "correctAnswer": "Vertical division of power",
+      "conceptTag": "Vertical Power Division (Federalism)",
+      "explanation": "Distributing power from higher to lower administrative tiers constitutes a vertical hierarchy of governance."
+    },
+    {
+      "id": "c10_sst_pol1_07",
+      "question": "Which city was chosen as the headquarters of the European Union due to its successful model of power accommodation?",
+      "options": ["Brussels", "Geneva", "Paris", "Amsterdam"],
+      "correctAnswer": "Brussels",
+      "conceptTag": "European Union Institutional Headquarters",
+      "explanation": "Brussels was selected as the EU administrative center in tribute to its peaceful resolution of deep linguistic divides."
+    },
+    {
+      "id": "c10_sst_pol1_08",
+      "question": "In modern democracies, coalition governments formed by two or more political parties represent power sharing among:",
+      "options": [
+        "Different political parties representing diverse interests and ideologies",
+        "Government and judiciary exclusively",
+        "Civilian leaders and military generals",
+        "Religious leaders and monarchs"
+      ],
+      "correctAnswer": "Different political parties representing diverse interests and ideologies",
+      "conceptTag": "Coalition Politics and Multi-Party Power Sharing",
+      "explanation": "When no single party wins an absolute majority, alliances form coalitions, distributing ministerial portfolios."
+    }
+  ],
+
+  "Federalism": [
+    {
+      "id": "c10_sst_pol2_01",
+      "question": "Which of the following countries is an example of a 'Holding Together' federation?",
+      "options": ["India", "USA", "Switzerland", "Australia"],
+      "correctAnswer": "India",
+      "conceptTag": "Coming Together vs Holding Together Federations",
+      "explanation": "In 'Holding Together' federations (India, Spain, Belgium), a large unitary country divides power internally between national and state governments."
+    },
+    {
+      "id": "c10_sst_pol2_02",
+      "question": "According to the Seventh Schedule of the Indian Constitution, subjects of national importance like Defense, Foreign Affairs, and Banking fall under:",
+      "options": ["Union List", "State List", "Concurrent List", "Residuary Powers"],
+      "correctAnswer": "Union List",
+      "conceptTag": "Constitutional Division of Legislative Subjects",
+      "explanation": "The Union List contains subjects needing a single national policy, governed exclusively by Parliament."
+    },
+    {
+      "id": "c10_sst_pol2_03",
+      "question": "In case of a legal conflict between Union and State laws regarding a subject on the Concurrent List, which law prevails?",
+      "options": [
+        "The Union Law prevails",
+        "The State Law prevails",
+        "Both laws are nullified automatically",
+        "The Governor decides based on merit"
+      ],
+      "correctAnswer": "The Union Law prevails",
+      "conceptTag": "Concurrent List Repugnancy and Federal Paramountcy",
+      "explanation": "Under Article 254, if a state law conflicts with a central law on a Concurrent subject, the Union statute overrides state law."
+    },
+    {
+      "id": "c10_sst_pol2_04",
+      "question": "Who holds the authority to legislate on 'Residuary Subjects' (like Information Technology) that emerged after the Constitution was adopted?",
+      "options": [
+        "Union Parliament exclusively",
+        "State Legislative Assemblies",
+        "Both Union and States equally",
+        "The Supreme Court Chief Justice"
+      ],
+      "correctAnswer": "Union Parliament exclusively",
+      "conceptTag": "Residuary Legislative Jurisdiction",
+      "explanation": "Article 248 grants exclusive legislative competence over topics not mentioned in any of the three lists to Parliament."
+    },
+    {
+      "id": "c10_sst_pol2_05",
+      "question": "What major constitutional reform was enacted through the 73rd and 74th Amendments in 1992?",
+      "options": [
+        "Strengthening rural and urban local self-government with mandatory elections and reservations",
+        "Abolition of the post of State Governors",
+        "Nationalization of state commercial banking assets",
+        "Creation of bilingual state boundaries"
+      ],
+      "correctAnswer": "Strengthening rural and urban local self-government with mandatory elections and reservations",
+      "conceptTag": "1992 Decentralization Amendments",
+      "explanation": "The 1992 amendments mandated regular local body elections, created State Election Commissions, and reserved seats for women."
+    },
+    {
+      "id": "c10_sst_pol2_06",
+      "question": "What proportion of all elected positions in local municipal and panchayat bodies is reserved for women in India?",
+      "options": ["At least one-third (33%)", "Half (50%) in all states", "One-fourth (25%)", "Ten percent (10%)"],
+      "correctAnswer": "At least one-third (33%)",
+      "conceptTag": "Gender Reservation in Local Self-Governance",
+      "explanation": "The Constitution mandates at least one-third (33%) of all seats in Panchayati Raj and urban bodies be reserved for women."
+    },
+    {
+      "id": "c10_sst_pol2_07",
+      "question": "Who serves as the political head of a Municipal Corporation in urban administrative bodies?",
+      "options": ["Mayor", "Municipal Commissioner (IAS)", "District Magistrate", "Governor"],
+      "correctAnswer": "Mayor",
+      "conceptTag": "Urban Governance Institutional Roles",
+      "explanation": "The Mayor is the elected representative heading the Municipal Corporation council."
+    },
+    {
+      "id": "c10_sst_pol2_08",
+      "question": "Why does India lack a single 'National Language' specified in its Constitution?",
+      "options": [
+        "Hindi is designated as official language alongside English to protect linguistic diversity",
+        "Sanskrit was chosen as the sole national language",
+        "States were prohibited from speaking regional vernaculars",
+        "The Constituent Assembly could not hold a vote on languages"
+      ],
+      "correctAnswer": "Hindi is designated as official language alongside English to protect linguistic diversity",
+      "conceptTag": "Linguistic Diversity and Official Language Policy",
+      "explanation": "The Constitution does not grant 'National Language' status to any single language; Hindi is designated alongside 21 other Eighth Schedule languages."
+    }
+  ],
+
+  "Gender, Religion and Caste": [
+    {
+      "id": "c10_sst_pol3_01",
+      "question": "What is the sociological distinction between 'Sex' and 'Gender'?",
+      "options": [
+        "Sex refers to biological differences between males and females, whereas gender refers to socially constructed roles, behaviors, and expectations attributed to men and women",
+        "Sex is cultural, while gender is purely biological",
+        "Both terms refer exclusively to legal tax categories",
+        "There is no difference between sex and gender"
+      ],
+      "correctAnswer": "Sex refers to biological differences between males and females, whereas gender refers to socially constructed roles, behaviors, and expectations attributed to men and women",
+      "conceptTag": "Sex vs Gender Distinction",
+      "explanation": "Sex is biological anatomy; gender division is a social construct that assigns unequal household and public roles."
+    },
+    {
+      "id": "c10_sst_pol3_02",
+      "question": "What is 'Feminist Movement' and what has been its primary political objective?",
+      "options": [
+        "A radical or reformist global movement aimed at achieving equality for women in personal and public life (voting rights, equal wages, education, ending domestic violence)",
+        "A movement to ban women from participating in elections",
+        "A campaign to eliminate all schools and colleges",
+        "A political party dedicated to establishing matriarchal dictatorships"
+      ],
+      "correctAnswer": "A radical or reformist global movement aimed at achieving equality for women in personal and public life (voting rights, equal wages, education, ending domestic violence)",
+      "conceptTag": "Feminist Movements and Gender Equality",
+      "explanation": "Feminism seeks political, economic, and social equality of the sexes across private and public spheres."
+    },
+    {
+      "id": "c10_sst_pol3_03",
+      "question": "What is 'Communalism' in politics, and why is it dangerous to a secular democracy?",
+      "options": [
+        "An ideology where religion is treated as the basis of a nation, pitting religious communities against each other and promoting sectarian division, hatred, or violence",
+        "Peaceful coexistence of all religions in a secular state",
+        "A constitutional law requiring all citizens to practice meditation",
+        "A policy of funding schools equally regardless of religion"
+      ],
+      "correctAnswer": "An ideology where religion is treated as the basis of a nation, pitting religious communities against each other and promoting sectarian division, hatred, or violence",
+      "conceptTag": "Communalism and Secularism",
+      "explanation": "Communalism uses religious identity to polarize electorates, threatening secularism and pluralistic democracy."
+    },
+    {
+      "id": "c10_sst_pol3_04",
+      "question": "How does the Indian Constitution embody 'Secularism' as a foundational state principle?",
+      "options": [
+        "India has no official state religion, guarantees all citizens freedom to profess/practice/propagate any religion, and prohibits state discrimination based on religion",
+        "The Indian government forces all citizens to convert to a single state religion",
+        "Religious institutions are banned from operating anywhere in India",
+        "The Prime Minister acts as the supreme religious high priest"
+      ],
+      "correctAnswer": "India has no official state religion, guarantees all citizens freedom to profess/practice/propagate any religion, and prohibits state discrimination based on religion",
+      "conceptTag": "Indian Secular Model (Sarva Dharma Sambhava)",
+      "explanation": "Unlike states with established state religions, India maintains principled distance from all religions while ensuring equal respect."
+    },
+    {
+      "id": "c10_sst_pol3_05",
+      "question": "How has 'Casteism' influenced Indian electoral politics?",
+      "options": [
+        "Political parties often factor in caste arithmetic when selecting candidates, appealing to caste sentiments to secure vote banks, though voters do not vote blindly along single caste lines",
+        "Caste has zero influence on any election in India",
+        "Only members of the highest caste are allowed to run for office",
+        "Caste is abolished by police decree every election year"
+      ],
+      "correctAnswer": "Political parties often factor in caste arithmetic when selecting candidates, appealing to caste sentiments to secure vote banks, though voters do not vote blindly along single caste lines",
+      "conceptTag": "Caste in Politics and Electoral Arithmetic",
+      "explanation": "While caste influences candidate selection and voting behavior, it interacts with economic interests, leadership, and development issues."
+    },
+    {
+      "id": "c10_sst_pol3_06",
+      "question": "What is the difference between 'caste in politics' and 'politics in caste'?",
+      "options": [
+        "Caste in politics means political parties use caste identities to mobilize votes; politics in caste means various castes organize politically, form coalitions, and demand rights, thereby politicizing caste",
+        "Both terms mean that castes are illegal",
+        "Politics in caste means banning all elections",
+        "Caste in politics refers only to taxation laws"
+      ],
+      "correctAnswer": "Caste in politics means political parties use caste identities to mobilize votes; politics in caste means various castes organize politically, form coalitions, and demand rights, thereby politicizing caste",
+      "conceptTag": "Caste in Politics vs Politics in Caste",
+      "explanation": "Political mobilization gives marginalized castes a platform to challenge social hierarchies and assert democratic power."
+    },
+    {
+      "id": "c10_sst_pol3_07",
+      "question": "What is the status of women's representation in the Indian Parliament (Lok Sabha)?",
+      "options": [
+        "Historically low, hovering around 14% in the 17th Lok Sabha, lagging behind many global democratic averages",
+        "Mandated by the Constitution to be exactly 50%",
+        "Over 80% of all MPs have always been women",
+        "Women are legally banned from entering Parliament"
+      ],
+      "correctAnswer": "Historically low, hovering around 14% in the 17th Lok Sabha, lagging behind many global democratic averages",
+      "conceptTag": "Gender Representation in Parliament",
+      "explanation": "Despite local bodies having 33% reservation, women's representation in state assemblies and Lok Sabha remains low."
+    },
+    {
+      "id": "c10_sst_pol3_08",
+      "question": "Why did social reformers like Jyotirao Phule, Periyar, Gandhiji, and Dr. B.R. Ambedkar fight against the caste system?",
+      "options": [
+        "To dismantle hierarchical discrimination, untouchability, and birth-based oppression, establishing a society based on human dignity, social justice, and equality",
+        "To enforce stricter caste segregation across all villages",
+        "To make animal sacrifice mandatory for all citizens",
+        "To abolish all schools and public institutions"
+      ],
+      "correctAnswer": "To dismantle hierarchical discrimination, untouchability, and birth-based oppression, establishing a society based on human dignity, social justice, and equality",
+      "conceptTag": "Social Reformers and Anti-Caste Movements",
+      "explanation": "Anti-caste reformers challenged graded inequality, paving the way for constitutional protections and affirmative action."
+    }
+  ],
+
+  "Political Parties": [
+    {
+      "id": "c10_sst_pol4_01",
+      "question": "What is a 'Political Party', and what are its three primary components?",
+      "options": [
+        "An organized group of people who come together to contest elections and hold power in government; components are the Leaders, the Active Members, and the Followers (masses)",
+        "A private corporation that manufactures cars and consumer electronics",
+        "A religious trust that operates temples and mosques",
+        "A trade union of factory workers with no electoral ambitions"
+      ],
+      "correctAnswer": "An organized group of people who come together to contest elections and hold power in government; components are the Leaders, the Active Members, and the Followers (masses)",
+      "conceptTag": "Definition and Components of Political Parties",
+      "explanation": "Parties aggregate public preferences, select candidates, contest elections, and shape policy when in power."
+    },
+    {
+      "id": "c10_sst_pol4_02",
+      "question": "What is the difference between a 'One-Party System', a 'Two-Party System', and a 'Multi-Party System'?",
+      "options": [
+        "One-party allows only a single ruling party (China); Two-party features two major dominant parties where power alternates (USA/UK); Multi-party has several parties competing and often forming coalition governments (India)",
+        "Multi-party systems have zero political competition",
+        "Two-party systems have 50 political parties in parliament",
+        "One-party systems are the most democratic in the world"
+      ],
+      "correctAnswer": "One-party allows only a single ruling party (China); Two-party features two major dominant parties where power alternates (USA/UK); Multi-party has several parties competing and often forming coalition governments (India)",
+      "conceptTag": "Party Systems (One, Two, Multi-party)",
+      "explanation": "Party systems evolve based on a country's social and geographical diversity; India's multi-party system reflects its pluralistic society."
+    },
+    {
+      "id": "c10_sst_pol4_03",
+      "question": "What criteria must a political party fulfill to be recognized as a 'National Party' by the Election Commission of India?",
+      "options": [
+        "Secure at least 6% of total votes in Lok Sabha or Assembly elections in 4 states AND win at least 4 seats in the Lok Sabha",
+        "Win at least 1 seat in any single village panchayat",
+        "Have a party office in New Delhi made of gold",
+        "Collect 100 crore rupees in election donations"
+      ],
+      "correctAnswer": "Secure at least 6% of total votes in Lok Sabha or Assembly elections in 4 states AND win at least 4 seats in the Lok Sabha",
+      "conceptTag": "Recognition Criteria for National Political Parties",
+      "explanation": "National parties have a presence across multiple states, distinguishing them from regional state-level parties."
+    },
+    {
+      "id": "c10_sst_pol4_04",
+      "question": "What are the major 'Challenges to Political Parties' in modern democracies like India?",
+      "options": [
+        "Lack of internal democracy (dynastic succession), growing role of money and muscle power, absence of meaningful ideological choices for voters, and frequent defections",
+        "Parties having too many active members and too much transparency",
+        "Parties refusing to contest any elections",
+        "Complete absence of any criticism from media"
+      ],
+      "correctAnswer": "Lack of internal democracy (dynastic succession), growing role of money and muscle power, absence of meaningful ideological choices for voters, and frequent defections",
+      "conceptTag": "Challenges Facing Political Parties",
+      "explanation": "Internal oligarchy, dynastic control, black money in campaigns, and lack of ideological differentiation plague modern party systems."
+    },
+    {
+      "id": "c10_sst_pol4_05",
+      "question": "What measures have been taken in India to 'reform political parties' and curb corruption?",
+      "options": [
+        "Anti-defection law (disqualifying MPs/MLAs who change parties), mandatory affidavits of assets/criminal records, and ECI guidelines ordering parties to hold organizational elections and file income tax returns",
+        "Banning all political parties permanently",
+        "Giving unlimited cash donations to ministers without audit",
+        "Allowing criminals to run police stations"
+      ],
+      "correctAnswer": "Anti-defection law (disqualifying MPs/MLAs who change parties), mandatory affidavits of assets/criminal records, and ECI guidelines ordering parties to hold organizational elections and file income tax returns",
+      "conceptTag": "Political Party Reforms in India",
+      "explanation": "Constitutional and legal reforms like the 10th Schedule (Anti-defection) and Supreme Court asset disclosures aim to clean up party politics."
+    },
+    {
+      "id": "c10_sst_pol4_06",
+      "question": "What is an 'Ideological Party' versus a 'Personality-driven / Regional Party'?",
+      "options": [
+        "Ideological parties are anchored in clear political philosophies (like Communism or Socialism); regional/personality-driven parties center around charismatic leaders and local/regional grievances",
+        "Ideological parties have no political views",
+        "Regional parties are banned from operating in states",
+        "Personality-driven parties never win any elections"
+      ],
+      "correctAnswer": "Ideological parties are anchored in clear political philosophies (like Communism or Socialism); regional/personality-driven parties center around charismatic leaders and local/regional grievances",
+      "conceptTag": "Ideological vs Regional / Personality Parties",
+      "explanation": "Party motivations range from broad national socio-economic ideologies to specific regional identity aspirations."
+    },
+    {
+      "id": "c10_sst_pol4_07",
+      "question": "What is 'Defection' in a political context?",
+      "options": [
+        "A politician leaving the party on whose ticket they were elected to join another party for personal or ministerial gain",
+        "A voter boycotting election day",
+        "A political party refusing to contest elections",
+        "The resignation of a judge from the Supreme Court"
+      ],
+      "correctAnswer": "A politician leaving the party on whose ticket they were elected to join another party for personal or ministerial gain",
+      "conceptTag": "Political Defection and Anti-Defection Law",
+      "explanation": "Aya Ram Gaya Ram politics destabilized governments until the 52nd Constitutional Amendment (Anti-Defection Law) penalized floor-crossing."
+    },
+    {
+      "id": "c10_sst_pol4_08",
+      "question": "How do political parties act as 'Opposition' when they lose an election?",
+      "options": [
+        "By voicing different views, criticizing government failures, mobilizing public opinion, and keeping the ruling party accountable",
+        "By shutting down all schools and hospitals",
+        "By refusing to sit in parliament ever again",
+        "By taking over military command"
+      ],
+      "correctAnswer": "By voicing different views, criticizing government failures, mobilizing public opinion, and keeping the ruling party accountable",
+      "conceptTag": "Role of Opposition Parties in Democracy",
+      "explanation": "A vibrant opposition is essential in a democracy to provide alternative policies and check executive overreach."
+    }
+  ],
+
+  "Outcomes of Democracy": [
+    {
+      "id": "c10_sst_pol5_01",
+      "question": "Why is democracy considered a 'better form of government' than dictatorship or monarchy, even if it is not completely free of corruption or inefficiency?",
+      "options": [
+        "It promotes equality among citizens, enhances individual dignity, improves the quality of decision-making, provides a method to resolve conflicts, and allows room for correcting mistakes",
+        "It guarantees that every citizen becomes a millionaire overnight",
+        "It ensures zero economic inequality or poverty anywhere",
+        "It makes government decision-making instantaneous without debate"
+      ],
+      "correctAnswer": "It promotes equality among citizens, enhances individual dignity, improves the quality of decision-making, provides a method to resolve conflicts, and allows room for correcting mistakes",
+      "conceptTag": "Outcomes of Democracy: Why Democracy is Better",
+      "explanation": "Democracy excels in normative and procedural outcomes (dignity, accountability, peaceful change) even if economic growth rates vary."
+    },
+    {
+      "id": "c10_sst_pol5_02",
+      "question": "How do democracies perform regarding 'Economic Growth and Development' compared to dictatorships?",
+      "options": [
+        "Dictatorships have sometimes shown slightly higher average growth rates historically, but there is overall significant variation; democracy alone does not guarantee high economic growth, as growth depends on population size, global situation, and economic policies",
+        "Democracies always have 100% economic growth every year without fail",
+        "Dictatorships always suffer permanent economic collapse",
+        "Economic growth has zero relation to government type"
+      ],
+      "correctAnswer": "Dictatorships have sometimes shown slightly higher average growth rates historically, but there is overall significant variation; democracy alone does not guarantee high economic growth, as growth depends on population size, global situation, and economic policies",
+      "conceptTag": "Economic Growth and Development in Democracy",
+      "explanation": "While democracy is valued for liberty and rights, economic development depends on multiple structural factors beyond regime type."
+    },
+    {
+      "id": "c10_sst_pol5_03",
+      "question": "Does democracy successfully eliminate 'Economic Inequality and Poverty'?",
+      "options": [
+        "Not entirely; while political equality is foundational in a democracy, economic inequality often persists where a small fraction of the population holds a vast share of wealth",
+        "Yes, democracy automatically makes all citizens earn the exact same salary",
+        "Poverty only exists in democratic countries and never in dictatorships",
+        "Democracies forbid poor people from voting"
+      ],
+      "correctAnswer": "Not entirely; while political equality is foundational in a democracy, economic inequality often persists where a small fraction of the population holds a vast share of wealth",
+      "conceptTag": "Economic Inequality and Poverty in Democracies",
+      "explanation": "Democracy guarantees one person one vote, but economic disparity requires dedicated welfare policies and progressive taxation to reduce."
+    },
+    {
+      "id": "c10_sst_pol5_04",
+      "question": "How does democracy manage 'Accommodation of Social Diversity'?",
+      "options": [
+        "By allowing peaceful competition among diverse religious, linguistic, and caste groups rather than suppressing minorities, preventing social explosion",
+        "By forcing everyone to speak a single language and practice a single religion",
+        "By banning all minority groups from living in cities",
+        "By creating separate countries for every ethnic group"
+      ],
+      "correctAnswer": "By allowing peaceful competition among diverse religious, linguistic, and caste groups rather than suppressing minorities, preventing social explosion",
+      "conceptTag": "Accommodation of Social Diversity",
+      "explanation": "Democracy provides institutional channels to negotiate pluralistic interests without violent civil conflict."
+    },
+    {
+      "id": "c10_sst_pol5_05",
+      "question": "What is meant by saying that democracy ensures 'Transparency' and 'Accountability'?",
+      "options": [
+        "Citizens have the right and means (RTI, free press, elections) to examine how decisions were made and hold elected rulers responsible for their actions",
+        "Government meetings are held in secret underground bunkers forever",
+        "Politicians are never questioned by journalists or courts",
+        "Citizens have zero access to government budget records"
+      ],
+      "correctAnswer": "Citizens have the right and means (RTI, free press, elections) to examine how decisions were made and hold elected rulers responsible for their actions",
+      "conceptTag": "Transparency and Accountability in Governance",
+      "explanation": "Accountability to voters and transparency in procedure are bedrock principles distinguishing democracies from autocracies."
+    },
+    {
+      "id": "c10_sst_pol5_06",
+      "question": "Why do people often give 'Expectations' as a major test of democracy?",
+      "options": [
+        "As democracy functions, it generates expectations for more rights and better services; the fact that people complain is proof of success, showing they are active citizens rather than passive subjects",
+        "Complaints prove that democracy has completely failed",
+        "Expectations mean citizens want to abolish voting",
+        "Dictatorships have fewer complaints because citizens are too afraid to speak"
+      ],
+      "correctAnswer": "As democracy functions, it generates expectations for more rights and better services; the fact that people complain is proof of success, showing they are active citizens rather than passive subjects",
+      "conceptTag": "Democratic Expectations as a Measure of Success",
+      "explanation": "Public demands and critiques reflect political consciousness and empowerment born out of democratic freedom."
+    },
+    {
+      "id": "c10_sst_pol5_07",
+      "question": "What is the relationship between 'Democracy and Dignity of Women / Disadvantaged Castes'?",
+      "options": [
+        "Democracy provides legal and moral backing for women and marginalized castes to stake claims for equality, self-respect, and justice, even if social prejudice persists",
+        "Democracy reinforces untouchability and gender subordination by law",
+        "Marginalized groups have no voting rights in democracies",
+        "Dignity is irrelevant in political systems"
+      ],
+      "correctAnswer": "Democracy provides legal and moral backing for women and marginalized castes to stake claims for equality, self-respect, and justice, even if social prejudice persists",
+      "conceptTag": "Dignity and Freedom of Marginalized Groups",
+      "explanation": "Democratic empowerment gives legal tools and voice to historically oppressed communities to fight for social justice."
+    },
+    {
+      "id": "c10_sst_pol5_08",
+      "question": "Which of the following is a legitimate government in the eyes of citizens worldwide?",
+      "options": [
+        "A democratic government elected through free and fair regular elections accountable to the people",
+        "An absolute military junta that seizes power by coup",
+        "An unelected monarch who rules by divine right",
+        "A corporation that buys a country's government"
+      ],
+      "correctAnswer": "A democratic government elected through free and fair regular elections accountable to the people",
+      "conceptTag": "Legitimacy of Democratic Governance",
+      "explanation": "Global public opinion overwhelmingly favors democracy as the most legitimate form of governance because it derives authority from the governed."
+    }
+  ],
+
+  "Development": [
+    {
+      "id": "c10_sst_eco1_01",
+      "question": "Why do different persons often have conflicting developmental goals?",
+      "options": [
+        "What constitutes development for one section may cause disruption or loss to another",
+        "People lack economic aspirations in modern societies",
+        "Income levels are identical across all social classes",
+        "National policies treat all citizens uniformly"
+      ],
+      "correctAnswer": "What constitutes development for one section may cause disruption or loss to another",
+      "conceptTag": "Conflicting Developmental Goals",
+      "explanation": "Constructing a dam generates hydroelectricity for industrialists, but submerges agricultural land and displaces tribal communities."
+    },
+    {
+      "id": "c10_sst_eco1_02",
+      "question": "What is the primary indicator used by the World Bank in its World Development Reports to classify nations?",
+      "options": [
+        "Per Capita Income (Average Income)",
+        "Infant Mortality Rate",
+        "Net Attendance Ratio",
+        "Gross Domestic Happiness"
+      ],
+      "correctAnswer": "Per Capita Income (Average Income)",
+      "conceptTag": "World Bank Economic Classification",
+      "explanation": "The World Bank classifies countries into high, middle, and low income categories based on per capita gross national income."
+    },
+    {
+      "id": "c10_sst_eco1_03",
+      "question": "How is Per Capita Income of a country calculated?",
+      "options": [
+        "Total National Income divided by Total Population",
+        "Total Domestic Exports divided by Number of Households",
+        "Annual Corporate Output divided by Adult Labor Force",
+        "Gross Tax Revenue divided by Agricultural Land"
+      ],
+      "correctAnswer": "Total National Income divided by Total Population",
+      "conceptTag": "Per Capita Income Formula",
+      "explanation": "Per Capita Income measures average income earned per person: PCI = Total National Income / Total Population."
+    },
+    {
+      "id": "c10_sst_eco1_04",
+      "question": "What parameters are integrated by the United Nations Development Programme (UNDP) to measure human development?",
+      "options": [
+        "Per Capita Income, Life Expectancy at birth, and Educational attainment",
+        "Total Military Budget, Industrial Exports, and Gold Reserves",
+        "Crude Oil reserves and Urban Highway density",
+        "Population growth rate and currency exchange rate"
+      ],
+      "correctAnswer": "Per Capita Income, Life Expectancy at birth, and Educational attainment",
+      "conceptTag": "Human Development Index (HDI) Metrics",
+      "explanation": "The HDI combines health (life expectancy), knowledge (schooling years), and standard of living (per capita GNI)."
+    },
+    {
+      "id": "c10_sst_eco1_05",
+      "question": "What is 'Infant Mortality Rate' (IMR)?",
+      "options": [
+        "Number of children that die before completing one year of age per 1,000 live births in that year",
+        "Percentage of children suffering from chronic malnutrition before age 5",
+        "Number of maternal deaths during childbirth per 10,000 deliveries",
+        "Number of children who drop out of primary education before grade 3"
+      ],
+      "correctAnswer": "Number of children that die before completing one year of age per 1,000 live births in that year",
+      "conceptTag": "Infant Mortality Demographic Measurement",
+      "explanation": "IMR measures infant deaths under age one per 1,000 live births, serving as a key indicator of healthcare quality."
+    },
+    {
+      "id": "c10_sst_eco1_06",
+      "question": "Why does Kerala report a significantly lower Infant Mortality Rate than Haryana, despite Haryana having a higher Per Capita Income?",
+      "options": [
+        "Adequate provision of basic healthcare, high female literacy, and efficient PDS",
+        "Lower population density in rural districts",
+        "Absence of agricultural manual labor",
+        "Direct foreign aid grants to all families"
+      ],
+      "correctAnswer": "Adequate provision of basic healthcare, high female literacy, and efficient PDS",
+      "conceptTag": "Public Facilities vs Private Monetary Wealth",
+      "explanation": "High individual income cannot buy clean air or medical care if public health infrastructure and education are absent."
+    },
+    {
+      "id": "c10_sst_eco1_07",
+      "question": "How is Body Mass Index (BMI) calculated for evaluating adult nutritional status?",
+      "options": [
+        "Weight in kilograms divided by the square of height in meters",
+        "Height in centimeters divided by weight in kilograms",
+        "Weight in pounds multiplied by age in years",
+        "Chest circumference divided by total body weight"
+      ],
+      "correctAnswer": "Weight in kilograms divided by the square of height in meters",
+      "conceptTag": "Body Mass Index (BMI) Calculation",
+      "explanation": "BMI = Weight (kg) / [Height (m)]². A value below 18.5 indicates undernourishment, while above 25 signifies overweight."
+    },
+    {
+      "id": "c10_sst_eco1_08",
+      "question": "What does 'Sustainable Development' mandate?",
+      "options": [
+        "Development that meets current needs without compromising future generations' ability to meet their own",
+        "Halting all infrastructure and factory manufacturing completely",
+        "Extracting all underground groundwater reserves immediately",
+        "Privatizing all public sector utilities"
+      ],
+      "correctAnswer": "Development that meets current needs without compromising future generations' ability to meet their own",
+      "conceptTag": "Sustainable Development Core Principle",
+      "explanation": "Sustainable development balances economic progress with environmental conservation for future generations."
+    }
+  ],
+
+  "Sectors of the Indian Economy": [
+    {
+      "id": "c10_sst_eco2_01",
+      "question": "Activities that produce goods through the direct exploitation of natural resources belong to which sector?",
+      "options": ["Primary Sector", "Secondary Sector", "Tertiary Sector", "Quaternary Sector"],
+      "correctAnswer": "Primary Sector",
+      "conceptTag": "Primary Sector Classification",
+      "explanation": "Agriculture, forestry, fishing, and mining exploit raw natural assets directly."
+    },
+    {
+      "id": "c10_sst_eco2_02",
+      "question": "Manufacturing cotton yarn into fabric in a textile mill belongs to which economic sector?",
+      "options": ["Secondary Sector", "Primary Sector", "Tertiary Sector", "Informal Sector"],
+      "correctAnswer": "Secondary Sector",
+      "conceptTag": "Secondary Sector Processing Role",
+      "explanation": "The secondary sector transforms raw primary commodities into finished goods through industrial manufacturing."
+    },
+    {
+      "id": "c10_sst_eco2_03",
+      "question": "Why are banking, transport, telecommunications, and warehousing classified under the Tertiary Sector?",
+      "options": [
+        "They generate supportive services rather than tangible physical goods",
+        "They use raw minerals directly from the earth",
+        "They rely strictly on government funding",
+        "They operate without human labor"
+      ],
+      "correctAnswer": "They generate supportive services rather than tangible physical goods",
+      "conceptTag": "Tertiary / Service Sector Characteristics",
+      "explanation": "The tertiary sector provides logistical, financial, and technical infrastructure supporting primary and secondary production."
+    },
+    {
+      "id": "c10_sst_eco2_04",
+      "question": "How is Gross Domestic Product (GDP) of a nation calculated?",
+      "options": [
+        "Total monetary value of all final goods and services produced within a country during a year",
+        "Total revenue collected from foreign tourism and export taxes",
+        "Sum of all corporate balance sheets across private firms",
+        "Value of raw intermediate components used in factories"
+      ],
+      "correctAnswer": "Total monetary value of all final goods and services produced within a country during a year",
+      "conceptTag": "GDP National Accounting Definition",
+      "explanation": "GDP measures the market value of all final goods and services produced domestically over one year."
+    },
+    {
+      "id": "c10_sst_eco2_05",
+      "question": "What is 'Disguised Unemployment' (Underemployment)?",
+      "options": [
+        "A situation where more workers are engaged in an activity than required, so marginal productivity is near zero",
+        "Unemployment caused by seasonal variations in agricultural cycles",
+        "Workers losing jobs due to technical automation",
+        "Educated graduates unable to secure office jobs"
+      ],
+      "correctAnswer": "A situation where more workers are engaged in an activity than required, so marginal productivity is near zero",
+      "conceptTag": "Disguised Unemployment in Agriculture",
+      "explanation": "When extra family members work on a farm where removing them does not reduce total output, their contribution is disguised."
+    },
+    {
+      "id": "c10_sst_eco2_06",
+      "question": "Under the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA 2005), how many days of guaranteed wage employment are provided per year?",
+      "options": ["100 days", "150 days", "200 days", "365 days"],
+      "correctAnswer": "100 days",
+      "conceptTag": "MGNREGA Social Safety Architecture",
+      "explanation": "MGNREGA legally guarantees 100 days of unskilled manual employment per financial year to rural households."
+    },
+    {
+      "id": "c10_sst_eco2_07",
+      "question": "Which of the following characteristics accurately defines the 'Unorganized Sector'?",
+      "options": [
+        "Jobs are low-paid, irregular, without formal appointment letters or social security benefits",
+        "Terms of employment are registered under factories legislation",
+        "Overtime work is compensated at double hourly wages",
+        "Employees receive paid leaves and provident fund contributions"
+      ],
+      "correctAnswer": "Jobs are low-paid, irregular, without formal appointment letters or social security benefits",
+      "conceptTag": "Organized vs Unorganized Sector Dynamics",
+      "explanation": "The unorganized sector falls outside government regulatory enforcement, offering insecure wages and no benefits."
+    },
+    {
+      "id": "c10_sst_eco2_08",
+      "question": "Which sector has emerged as the largest contributing sector to India's GDP over the last three decades?",
+      "options": ["Tertiary (Service) Sector", "Primary (Agriculture) Sector", "Secondary (Manufacturing) Sector", "Mining Sector"],
+      "correctAnswer": "Tertiary (Service) Sector",
+      "conceptTag": "Structural Shift in Indian GDP Composition",
+      "explanation": "The service sector (IT, finance, logistics, healthcare) accounts for over 50% of national GDP."
+    }
+  ],
+
+  "Money and Credit": [
+    {
+      "id": "c10_sst_eco3_01",
+      "question": "Why is 'Money' accepted as a medium of exchange?",
+      "options": [
+        "Because it is authorized by the government of the country (fiat currency) and eliminates the cumbersome 'double coincidence of wants' required in barter trade",
+        "Because money has high nutritional and calorific food value",
+        "Because money can only be used as raw material for jewelry",
+        "Because barter trade is legally required for all international trade"
+      ],
+      "correctAnswer": "Because it is authorized by the government of the country (fiat currency) and eliminates the cumbersome 'double coincidence of wants' required in barter trade",
+      "conceptTag": "Medium of Exchange & Double Coincidence of Wants",
+      "explanation": "Barter requires both parties to want what the other has; money acts as an intermediate medium accepted by everyone."
+    },
+    {
+      "id": "c10_sst_eco3_02",
+      "question": "What are 'Demand Deposits' in commercial banks?",
+      "options": [
+        "Deposits in bank accounts that can be withdrawn on demand, and can also be used as a medium of exchange via cheques, UPI, or debit cards (considered money/M1)",
+        "Fixed deposits locked for 10 years that cannot be withdrawn early",
+        "Loans taken by banks from the Reserve Bank of India",
+        "Gold coins kept in lockers for emergency use"
+      ],
+      "correctAnswer": "Deposits in bank accounts that can be withdrawn on demand, and can also be used as a medium of exchange via cheques, UPI, or debit cards (considered money/M1)",
+      "conceptTag": "Demand Deposits and Bank Money",
+      "explanation": "Demand deposits share the essential features of money since they can be settled directly through checks or electronic transfers."
+    },
+    {
+      "id": "c10_sst_eco3_03",
+      "question": "How do commercial banks make a profit using public deposits?",
+      "options": [
+        "By charging a higher interest rate on loans than what they pay to depositors on savings/fixed deposits, keeping the difference (spread)",
+        "By charging depositors a fee for keeping money safe in lockers",
+        "By printing currency notes independently without RBI approval",
+        "By trading stocks on the stock exchange with customer savings"
+      ],
+      "correctAnswer": "By charging a higher interest rate on loans than what they pay to depositors on savings/fixed deposits, keeping the difference (spread)",
+      "conceptTag": "Bank Intermediation and Profit Spread",
+      "explanation": "Banks act as intermediaries between depositors (who get low interest) and borrowers (who pay higher interest)."
+    },
+    {
+      "id": "c10_sst_eco3_04",
+      "question": "What is 'Collateral' in credit agreements, and why do banks require it?",
+      "options": [
+        "An asset that the borrower owns (land, building, vehicle, livestock, gold) and uses as a guarantee to a lender until the loan is repaid",
+        "A cash tip given to the bank manager to approve a loan",
+        "A government certificate proving the borrower's university degree",
+        "An agreement to work for the bank for free"
+      ],
+      "correctAnswer": "An asset that the borrower owns (land, building, vehicle, livestock, gold) and uses as a guarantee to a lender until the loan is repaid",
+      "conceptTag": "Collateral and Security in Lending",
+      "explanation": "If a borrower defaults, the lender has the right to sell the collateral to recover the loan amount."
+    },
+    {
+      "id": "c10_sst_eco3_05",
+      "question": "What are 'Self-Help Groups' (SHGs) for the poor, and how do they help rural women?",
+      "options": [
+        "Small groups of rural poor (mostly women) who pool their savings regularly, providing small collateral-free loans to members and collectively applying for bank loans to start micro-enterprises",
+        "Government tax collection agencies operating in remote villages",
+        "Private microfinance companies charging 100% daily interest",
+        "Charitable soup kitchens run by international NGOs"
+      ],
+      "correctAnswer": "Small groups of rural poor (mostly women) who pool their savings regularly, providing small collateral-free loans to members and collectively applying for bank loans to start micro-enterprises",
+      "conceptTag": "Self-Help Groups (SHGs) and Microfinance",
+      "explanation": "SHGs overcome the lack of collateral among rural poor, empowering women financially through peer support and collective thrift."
+    },
+    {
+      "id": "c10_sst_eco3_06",
+      "question": "What is the primary role of the 'Reserve Bank of India' (RBI) in the country's financial system?",
+      "options": [
+        "It issues currency notes on behalf of the central government, supervises commercial banks' cash reserves, regulates interest rates, and acts as lender of last resort",
+        "It provides direct agricultural loans to every farmer in India",
+        "It manages the stock market indices like Sensex and Nifty",
+        "It collects income taxes from salaried employees"
+      ],
+      "correctAnswer": "It issues currency notes on behalf of the central government, supervises commercial banks' cash reserves, regulates interest rates, and acts as lender of last resort",
+      "conceptTag": "Reserve Bank of India (RBI) Functions",
+      "explanation": "As the apex central bank, the RBI regulates monetary policy and ensures commercial banks maintain statutory cash reserves."
+    },
+    {
+      "id": "c10_sst_eco3_07",
+      "question": "What is the difference between 'Formal Sector Credit' and 'Informal Sector Credit' in India?",
+      "options": [
+        "Formal credit comes from banks and cooperatives supervised by RBI with low interest rates; informal credit comes from moneylenders, traders, or relatives with high interest and no supervision",
+        "Informal credit is regulated strictly by the Supreme Court",
+        "Formal credit requires zero paperwork and no interest",
+        "Informal lenders are always government-approved cooperative banks"
+      ],
+      "correctAnswer": "Formal credit comes from banks and cooperatives supervised by RBI with low interest rates; informal credit comes from moneylenders, traders, or relatives with high interest and no supervision",
+      "conceptTag": "Formal vs Informal Credit Sources",
+      "explanation": "Expanding formal credit to rural poor is vital to rescue them from exploitative informal moneylenders."
+    },
+    {
+      "id": "c10_sst_eco3_08",
+      "question": "What is a 'Debt Trap'?",
+      "options": [
+        "A situation where a borrower cannot repay a loan due to high interest, forcing them to take fresh loans to pay old debts, plunging deeper into financial ruin",
+        "Winning a lottery prize that pays off all credit card debt",
+        "A bank offering 0% interest on home loans",
+        "Opening a fixed deposit account in a nationalized bank"
+      ],
+      "correctAnswer": "A situation where a borrower cannot repay a loan due to high interest, forcing them to take fresh loans to pay old debts, plunging deeper into financial ruin",
+      "conceptTag": "Debt Trap and High Interest Burdens",
+      "explanation": "High-interest informal loans frequently trap vulnerable borrowers in a compounding cycle of inescapable debt."
+    }
+  ],
+
+  "Globalisation and the Indian Economy": [
+    {
+      "id": "c10_sst_eco4_01",
+      "question": "What is 'Globalisation' defined as?",
+      "options": [
+        "The rapid integration and interconnection between countries through trade, foreign investment, movement of people, technology, and cultural exchange across borders",
+        "Banning all international travel and imposing 500% tariffs on imports",
+        "A law requiring all countries to use a single language",
+        "The colonization of space by international rocket agencies"
+      ],
+      "correctAnswer": "The rapid integration and interconnection between countries through trade, foreign investment, movement of people, technology, and cultural exchange across borders",
+      "conceptTag": "Definition of Globalisation",
+      "explanation": "Globalisation knits national economies into a single global marketplace through trade and capital flows."
+    },
+    {
+      "id": "c10_sst_eco4_02",
+      "question": "What is a 'Multinational Corporation' (MNC)?",
+      "options": [
+        "A corporate enterprise that owns or controls production in more than one nation, setting up factories and offices worldwide to minimize costs",
+        "A local grocery store operating in a single village",
+        "A government department that collects domestic railway taxes",
+        "A charitable NGO funded entirely by local volunteers"
+      ],
+      "correctAnswer": "A corporate enterprise that owns or controls production in more than one nation, setting up factories and offices worldwide to minimize costs",
+      "conceptTag": "Multinational Corporations (MNCs)",
+      "explanation": "MNCs drive globalisation by outsourcing manufacturing and services to countries with cheap labor and favorable policies."
+    },
+    {
+      "id": "c10_sst_eco4_03",
+      "question": "What are 'Foreign Direct Investment' (FDI) and 'Foreign Portfolio Investment'?",
+      "options": [
+        "FDI is investment by MNCs in physical assets like factories and machinery abroad; Portfolio investment is financial investment in foreign stocks/bonds without direct control over production",
+        "FDI is money spent on foreign tourism and vacations",
+        "Portfolio investment means buying agricultural land to grow wheat",
+        "Both terms mean taking a personal loan from a foreign bank"
+      ],
+      "correctAnswer": "FDI is investment by MNCs in physical assets like factories and machinery abroad; Portfolio investment is financial investment in foreign stocks/bonds without direct control over production",
+      "conceptTag": "FDI vs Foreign Portfolio Investment",
+      "explanation": "FDI brings long-term capital, technology, and employment, whereas portfolio investment involves buying financial securities."
+    },
+    {
+      "id": "c10_sst_eco4_04",
+      "question": "What policy shift occurred in India in July 1991 regarding economic governance?",
+      "options": [
+        "Adoption of 'New Economic Policy' (Liberalisation, Privatisation, Globalisation - LPG reforms), removing trade barriers and opening doors to foreign investment",
+        "Nationalization of all private businesses and banning foreign trade",
+        "Re-introduction of the East India Company trade monopoly",
+        "Abolition of all banks and currency notes in India"
+      ],
+      "correctAnswer": "Adoption of 'New Economic Policy' (Liberalisation, Privatisation, Globalisation - LPG reforms), removing trade barriers and opening doors to foreign investment",
+      "conceptTag": "1991 Economic Reforms (LPG / New Economic Policy)",
+      "explanation": "Faced with a balance of payments crisis in 1991, India dismantled license-raj controls and welcomed globalisation."
+    },
+    {
+      "id": "c10_sst_eco4_05",
+      "question": "What is a 'Trade Barrier' (such as import tariffs or quotas), and why did governments use them historically?",
+      "options": [
+        "Restrictions imposed by governments on foreign trade (like taxes on imports) to protect domestic producers from foreign competition and preserve foreign exchange reserves",
+        "A physical wall built across the ocean to stop cargo ships",
+        "A tax paid by consumers when they buy local goods",
+        "A law making all imports completely free and tax-free"
+      ],
+      "correctAnswer": "Restrictions imposed by governments on foreign trade (like taxes on imports) to protect domestic producers from foreign competition and preserve foreign exchange reserves",
+      "conceptTag": "Trade Barriers (Tariffs and Quotas)",
+      "explanation": "Tariffs make foreign goods expensive, shielding infant domestic industries until they can compete globally."
+    },
+    {
+      "id": "c10_sst_eco4_06",
+      "question": "What is 'Liberalisation' of foreign trade and investment?",
+      "options": [
+        "Removing government-imposed restrictions and trade barriers (tariffs/licenses) to allow goods and investments to flow freely across borders",
+        "Forbidding private companies from earning any profit",
+        "Taxing all exports at 100% of their value",
+        "Closing down all stock exchanges"
+      ],
+      "correctAnswer": "Removing government-imposed restrictions and trade barriers (tariffs/licenses) to allow goods and investments to flow freely across borders",
+      "conceptTag": "Liberalisation of Foreign Trade",
+      "explanation": "Liberalization eases bureaucratic red tape, letting businesses decide imports, exports, and investments freely."
+    },
+    {
+      "id": "c10_sst_eco4_07",
+      "question": "What is the role of the 'World Trade Organisation' (WTO) in the global economy?",
+      "options": [
+        "An international organization aiming to liberalize international trade, set global trade rules, and resolve trade disputes among member nations",
+        "A global central bank that prints US dollars for all countries",
+        "A military alliance that defends international shipping lanes",
+        "An NGO that provides free food to developing nations"
+      ],
+      "correctAnswer": "An international organization aiming to liberalize international trade, set global trade rules, and resolve trade disputes among member nations",
+      "conceptTag": "World Trade Organisation (WTO) Role",
+      "explanation": "The WTO oversees trade agreements and arbitrates disputes, promoting free trade while sparking debates over fairness to developing nations."
+    },
+    {
+      "id": "c10_sst_eco4_08",
+      "question": "How has 'Fair Globalisation' been proposed as a remedy to the inequalities created by unfettered globalisation?",
+      "options": [
+        "Ensuring that the benefits of globalisation are shared more equitably by supporting small domestic producers, enforcing labor/environmental standards, and creating fair rules that protect vulnerable workers worldwide",
+        "Banning all international trade and returning to medieval barter",
+        "Allowing multinational corporations to ignore all labor laws",
+        "Stopping technological innovation worldwide"
+      ],
+      "correctAnswer": "Ensuring that the benefits of globalisation are shared more equitably by supporting small domestic producers, enforcing labor/environmental standards, and creating fair rules that protect vulnerable workers worldwide",
+      "conceptTag": "Fair Globalisation and Policy Regulation",
+      "explanation": "Fair globalisation advocates for government intervention and labor protections so global trade lifts all workers rather than concentrating wealth exclusively in MNCs."
+    }
+  ],
+
+  "Consumer Rights": [
+    {
+      "id": "c10_sst_eco5_01",
+      "question": "Why did the 'Consumer Movement' originate in India during the 1960s, leading to the enactment of COPRA in 1986?",
+      "options": [
+        "As a reaction to widespread consumer exploitation—including rampant food adulteration, black-marketing, hoarding, and defective products—with no legal recourse available at the time",
+        "To promote multinational corporate monopolies",
+        "To ban all shopping malls and supermarkets",
+        "To force factories to stop producing consumer goods"
+      ],
+      "correctAnswer": "As a reaction to widespread consumer exploitation—including rampant food adulteration, black-marketing, hoarding, and defective products—with no legal recourse available at the time",
+      "conceptTag": "Origins of the Consumer Movement in India",
+      "explanation": "Consumer dissatisfaction against unfair trade practices and adulteration sparked social activism, culminating in the landmark Consumer Protection Act (COPRA) of 1986."
+    },
+    {
+      "id": "c10_sst_eco5_02",
+      "question": "What is the 'Consumer Protection Act' (COPRA, 1986 / updated 2019), and what is its primary contribution?",
+      "options": [
+        "It established a three-tier quasi-judicial consumer dispute redressal machinery at District, State, and National levels, and recognized key consumer rights",
+        "It banned all consumer purchases using credit cards",
+        "It gave manufacturers immunity from product liability",
+        "It created a police force to arrest shoppers"
+      ],
+      "correctAnswer": "It established a three-tier quasi-judicial consumer dispute redressal machinery at District, State, and National levels, and recognized key consumer rights",
+      "conceptTag": "COPRA 1986 / 2019 Three-Tier Redressal System",
+      "explanation": "COPRA provided consumers with accessible, speedy quasi-judicial forums to claim compensation for defective goods and deficient services."
+    },
+    {
+      "id": "c10_sst_eco5_03",
+      "question": "What are the core 'Consumer Rights' recognized under Indian and international consumer protection frameworks?",
+      "options": [
+        "Right to Safety, Right to Be Informed, Right to Choose, Right to Seek Redressal, Right to Consumer Education, and Right to Be Heard",
+        "Right to demand free products from any store",
+        "Right to manage retail store inventories",
+        "Right to bypass all tax payments"
+      ],
+      "correctAnswer": "Right to Safety, Right to Be Informed, Right to Choose, Right to Seek Redressal, Right to Consumer Education, and Right to Be Heard",
+      "conceptTag": "Core Consumer Rights (Jago Re Jago)",
+      "explanation": "These six foundational rights empower consumers against fraudulent advertising, unsafe goods, and unfair denial of recourse."
+    },
+    {
+      "id": "c10_sst_eco5_04",
+      "question": "What do standardization certification marks like 'ISI', 'AGMARK', and 'Hallmark' signify to a consumer?",
+      "options": [
+        "They assure product quality and safety: ISI for industrial/electrical goods, AGMARK for agricultural food products, and Hallmark for precious jewelry (gold)",
+        "They indicate that a product was manufactured illegally",
+        "They are decorative stickers placed by shopkeepers to raise prices",
+        "They signify that a product is expired and unsafe"
+      ],
+      "correctAnswer": "They assure product quality and safety: ISI for industrial/electrical goods, AGMARK for agricultural food products, and Hallmark for precious jewelry (gold)",
+      "conceptTag": "Quality Certification Marks (ISI, AGMARK, Hallmark)",
+      "explanation": "Certification logos help consumers verify that goods meet prescribed national quality and safety standards."
+    },
+    {
+      "id": "c10_sst_eco5_05",
+      "question": "How is the 'Three-Tier Quasi-Judicial Machinery' structured under consumer law for filing complaints in terms of financial jurisdiction?",
+      "options": [
+        "District Commission (claims up to ₹50 Lakhs), State Commission (₹50 Lakhs to ₹2 Crores), and National Commission (claims exceeding ₹2 Crores)",
+        "District Commission handles international trade disputes only",
+        "National Commission handles all consumer complaints regardless of value",
+        "Cases can only be filed in the Supreme Court directly"
+      ],
+      "correctAnswer": "District Commission (claims up to ₹50 Lakhs), State Commission (₹50 Lakhs to ₹2 Crores), and National Commission (claims exceeding ₹2 Crores)",
+      "conceptTag": "Consumer Courts Jurisdiction (District, State, National)",
+      "explanation": "Jurisdictional financial thresholds route consumer disputes appropriately from district forums up to the National Consumer Disputes Redressal Commission (NCDRC)."
+    },
+    {
+      "id": "c10_sst_eco5_06",
+      "question": "What does the 'Right to be Informed' entail for consumers when purchasing packaged commodities?",
+      "options": [
+        "Manufacturers are legally required to display details on packaging: ingredients, manufacturing date, maximum retail price (MRP), batch number, expiry date, and manufacturer address",
+        "Manufacturers are forbidden from printing prices on boxes",
+        "Products must be sold without any ingredient labels",
+        "Only the brand logo needs to be printed on packaging"
+      ],
+      "correctAnswer": "Manufacturers are legally required to display details on packaging: ingredients, manufacturing date, maximum retail price (MRP), batch number, expiry date, and manufacturer address",
+      "conceptTag": "Right to be Informed & Product Labelling",
+      "explanation": "Mandatory disclosures protect consumers from unfair pricing, expired goods, and hidden chemical ingredients."
+    },
+    {
+      "id": "c10_sst_eco5_07",
+      "question": "What constitutes 'Deficiency in Service' or 'Unfair Trade Practice' under the Consumer Protection Act?",
+      "options": [
+        "Any fault, imperfection, or inadequacy in the quality/performance of a service (banking, medical, telecom, transport), or deceptive practices like false advertising and refusal to issue cash memos/bills",
+        "A shopkeeper smiling at a customer",
+        "Selling goods below the maximum retail price (MRP)",
+        "Providing free home delivery to elderly customers"
+      ],
+      "correctAnswer": "Any fault, imperfection, or inadequacy in the quality/performance of a service (banking, medical, telecom, transport), or deceptive practices like false advertising and refusal to issue cash memos/bills",
+      "conceptTag": "Deficiency in Service & Unfair Trade Practices",
+      "explanation": "Consumer protection laws cover both defective physical goods and deficient services (like delayed trains, medical negligence, or banking fraud)."
+    },
+    {
+      "id": "c10_sst_eco5_08",
+      "question": "What is the role of 'Consumer Awareness' and organizations like 'CAG' or 'VOICE' in strengthening consumer rights?",
+      "options": [
+        "They educate consumers about their rights, test product quality in independent laboratories, publish comparative reports (like 'Consumer Voice' magazine), and file PILs or class-action suits against fraudulent corporations",
+        "They manufacture counterfeit consumer electronics",
+        "They help manufacturers hide product defects from the public",
+        "They discourage consumers from filing legal complaints"
+      ],
+      "correctAnswer": "They educate consumers about their rights, test product quality in independent laboratories, publish comparative reports (like 'Consumer Voice' magazine), and file PILs or class-action suits against fraudulent corporations",
+      "conceptTag": "Role of Consumer Organizations & Awareness",
+      "explanation": "'Jago ग्राहक Jago': Consumer organizations play a watchdog role, empowering citizens to demand redressal and expose corporate malpractice."
+    }
+  ]
+}

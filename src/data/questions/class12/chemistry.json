@@ -1,0 +1,526 @@
+{
+  "class": 12,
+  "subject": "Chemistry",
+  "ChemistryMCQs": [
+    {
+      "id": "c12_chem_ch01_01",
+      "question": "Which of the following colligative properties is most suitable for determining the molar mass of polymers and proteins?",
+      "options": [
+        "Relative lowering of vapour pressure",
+        "Elevation in boiling point",
+        "Depression in freezing point",
+        "Osmotic pressure"
+      ],
+      "correctAnswer": "Osmotic pressure",
+      "conceptTag": "Colligative Properties",
+      "explanation": "Osmotic pressure is measured at room temperature and uses molar concentration instead of molality, making it extremely sensitive and ideal for measuring large molecular masses like polymers and proteins."
+    },
+    {
+      "id": "c12_chem_ch01_02",
+      "question": "State Henry's law. The solubility of a gas in liquid increases with:",
+      "options": [
+        "Increase in temperature",
+        "Decrease in pressure",
+        "Increase in pressure",
+        "Decrease in surface area"
+      ],
+      "correctAnswer": "Increase in pressure",
+      "conceptTag": "Henry's Law",
+      "explanation": "Henry's law states that the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the solution. Thus, increasing pressure increases solubility."
+    },
+    {
+      "id": "c12_chem_ch01_03",
+      "question": "What is the van't Hoff factor ($i$) for a dilute aqueous solution of barium chloride ($BaCl_2$) assuming complete dissociation?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "3",
+      "conceptTag": "Van't Hoff Factor",
+      "explanation": "Barium chloride dissociates completely as $BaCl_2 \\rightarrow Ba^{2+} + 2Cl^-$, yielding 3 particles per formula unit. Hence, $i = 3$."
+    },
+    {
+      "id": "c12_chem_ch01_04",
+      "question": "A solution that has a higher osmotic pressure than another solution is called:",
+      "options": [
+        "Hypotonic",
+        "Hypertonic",
+        "Isotonic",
+        "Ideal"
+      ],
+      "correctAnswer": "Hypertonic",
+      "conceptTag": "Osmotic Pressure",
+      "explanation": "A hypertonic solution has a higher osmotic pressure relative to another reference solution, causing water to flow out of cells via osmosis."
+    },
+    {
+      "id": "c12_chem_ch02_01",
+      "question": "What is the standard cell potential ($E^\\circ_{cell}$) for a galvanic cell if the equilibrium constant $K_c = 1$?",
+      "options": [
+        "+1.0 V",
+        "0.0 V",
+        "-1.0 V",
+        "+0.59 V"
+      ],
+      "correctAnswer": "0.0 V",
+      "conceptTag": "Nernst Equation & Equilibrium",
+      "explanation": "Using the relation $\\Delta G^\\circ = -nFE^\\circ_{cell} = -RT \\ln K_c$. When $K_c = 1$, $\\ln(1) = 0$, so $E^\\circ_{cell} = 0$."
+    },
+    {
+      "id": "c12_chem_ch02_02",
+      "question": "Kohlrausch's law of independent migration of ions states that limiting molar conductivity of an electrolyte is the sum of:",
+      "options": [
+        "Conductivities of cations only",
+        "Conductivities of anions only",
+        "Individual contributions of its constituent cations and anions",
+        "Product of ionic mobilities"
+      ],
+      "correctAnswer": "Individual contributions of its constituent cations and anions",
+      "conceptTag": "Kohlrausch's Law",
+      "explanation": "Kohlrausch's law states that limiting molar conductivity of an electrolyte is the sum of the limiting ionic conductivities of its constituent cations and anions."
+    },
+    {
+      "id": "c12_chem_ch02_03",
+      "question": "During the charging of a lead storage battery, which reaction takes place at the anode?",
+      "options": [
+        "$PbSO_4$ is converted to $Pb$",
+        "$PbSO_4$ is converted to $PbO_2$ and $Pb$",
+        "Lead is oxidized to $PbSO_4$",
+        "Water is reduced"
+      ],
+      "correctAnswer": "$PbSO_4$ is converted to $PbO_2$ and $Pb$",
+      "conceptTag": "Lead Storage Battery",
+      "explanation": "During charging, electrical energy drives the reverse cell reaction: $PbSO_4$ at electrodes is converted back to lead ($Pb$) at the negative electrode and lead dioxide ($PbO_2$) at the positive electrode."
+    },
+    {
+      "id": "c12_chem_ch02_04",
+      "question": "The unit of molar conductivity ($\\Lambda_m$) in SI is:",
+      "options": [
+        "S cm^2 mol^-1",
+        "S m^2 mol^-1",
+        "ohm cm^-1",
+        "S cm^-1"
+      ],
+      "correctAnswer": "S m^2 mol^-1",
+      "conceptTag": "Molar Conductivity Units",
+      "explanation": "In SI units, molar conductivity is expressed as Siemens meter squared per mole ($\\text{S m}^2 \\text{mol}^{-1}$)."
+    },
+    {
+      "id": "c12_chem_ch03_01",
+      "question": "The unit of rate constant for a zero-order reaction is identical to the unit of:",
+      "options": [
+        "Rate of reaction",
+        "First-order rate constant",
+        "Second-order rate constant",
+        "Activation energy"
+      ],
+      "correctAnswer": "Rate of reaction",
+      "conceptTag": "Rate Constant Units",
+      "explanation": "For a zero-order reaction, Rate = $k[A]^0 = k$. Thus, the unit of $k$ is $\\text{mol L}^{-1}\\text{s}^{-1}$, which is the same as the rate of reaction."
+    },
+    {
+      "id": "c12_chem_ch03_02",
+      "question": "Arrhenius equation relating rate constant $k$ and temperature $T$ is given by:",
+      "options": [
+        "$k = A e^{-E_a / RT}$",
+        "$k = A e^{E_a / RT}$",
+        "$k = RT \\ln E_a$",
+        "$k = \\frac{E_a}{RT}$"
+      ],
+      "correctAnswer": "$k = A e^{-E_a / RT}$",
+      "conceptTag": "Arrhenius Equation",
+      "explanation": "The Arrhenius equation is $k = A e^{-E_a/RT}$, where $A$ is the Arrhenius factor and $E_a$ is activation energy."
+    },
+    {
+      "id": "c12_chem_ch03_03",
+      "question": "The half-life ($t_{1/2}$) of a first-order reaction is independent of:",
+      "options": [
+        "Rate constant $k$",
+        "Initial concentration of reactant",
+        "Temperature",
+        "Activation energy"
+      ],
+      "correctAnswer": "Initial concentration of reactant",
+      "conceptTag": "First-Order Half-Life",
+      "explanation": "For a first-order reaction, $t_{1/2} = \\frac{0.693}{k}$, which depends only on the rate constant $k$ and is independent of initial reactant concentration."
+    },
+    {
+      "id": "c12_chem_ch03_04",
+      "question": "Molecularity of a reaction refers to:",
+      "options": [
+        "Number of moles in balanced equation",
+        "Number of reacting species colliding simultaneously in an elementary step",
+        "Overall order of the reaction",
+        "Number of products formed"
+      ],
+      "correctAnswer": "Number of reacting species colliding simultaneously in an elementary step",
+      "conceptTag": "Molecularity",
+      "explanation": "Molecularity is the theoretical number of reacting species (atoms, ions, or molecules) taking part in an elementary reaction step."
+    },
+    {
+      "id": "c12_chem_ch04_01",
+      "question": "Which of the following transition metal ions is colored in aqueous solution?",
+      "options": [
+        "Sc^3+",
+        "Ti^4+",
+        "Zn^2+",
+        "Ti^3+"
+      ],
+      "correctAnswer": "Ti^3+",
+      "conceptTag": "Transition Metals Color",
+      "explanation": "Transition metal ions with partially filled d-orbitals exhibit d-d transitions and show color. $Ti^{3+}$ has $3d^1$ configuration (colored), whereas $Sc^{3+}$, $Ti^{4+}$, and $Zn^{2+}$ have $d^0$ or $d^{10}$ configurations (colorless)."
+    },
+    {
+      "id": "c12_chem_ch04_02",
+      "question": "The gradual decrease in atomic and ionic radii across the lanthanoid series is known as:",
+      "options": [
+        "Actinoid contraction",
+        "Lanthanoid contraction",
+        "Diagonal relationship",
+        "Inert pair effect"
+      ],
+      "correctAnswer": "Lanthanoid contraction",
+      "conceptTag": "Lanthanoid Contraction",
+      "explanation": "Lanthanoid contraction refers to the steady decrease in atomic and ionic radii from La to Lu due to poor shielding of nuclear charge by 4f electrons."
+    },
+    {
+      "id": "c12_chem_ch04_03",
+      "question": "Which oxidation state is most stable for manganese ($Mn$) across its compounds?",
+      "options": [
+        "+2",
+        "+4",
+        "+7",
+        "+3"
+      ],
+      "correctAnswer": "+2",
+      "conceptTag": "Oxidation States of d-Block",
+      "explanation": "Manganese exhibits oxidation states from +2 to +7, but +2 is especially stable due to its half-filled $3d^5$ electronic configuration in $Mn^{2+}$."
+    },
+    {
+      "id": "c12_chem_ch04_04",
+      "question": "Potassium permanganate ($KMnO_4$) acts as a powerful oxidizing agent in acidic medium. In this process, $MnO_4^-$ is reduced to:",
+      "options": [
+        "Mn^2+",
+        "MnO_2",
+        "MnO_4^2-",
+        "Mn_2O_3"
+      ],
+      "correctAnswer": "Mn^2+",
+      "conceptTag": "Potassium Permanganate",
+      "explanation": "In acidic medium, purple permanganate ($MnO_4^-$) accepts 5 electrons to form colorless divalent manganese ($Mn^{2+}$)."
+    },
+    {
+      "id": "c12_chem_ch05_01",
+      "question": "What is the coordination number of cobalt in $[Co(en)_3]Cl_3$ (where 'en' is ethylenediamine)?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "12"
+      ],
+      "correctAnswer": "6",
+      "conceptTag": "Coordination Number",
+      "explanation": "Ethylenediamine ($en$) is a bidentate ligand. Three $en$ ligands donate 6 donor pairs of electrons to the central cobalt ion, giving a coordination number of 6."
+    },
+    {
+      "id": "c12_chem_ch05_02",
+      "question": "Which type of isomerism is exhibited by the coordination compounds $[Co(NH_3)_5(NO_2)]Cl$ and $[Co(NH_3)_5(ONO)]Cl$?",
+      "options": [
+        "Ionisation isomerism",
+        "Linkage isomerism",
+        "Hydrate isomerism",
+        "Coordination isomerism"
+      ],
+      "correctAnswer": "Linkage isomerism",
+      "conceptTag": "Isomerism in Coordination Compounds",
+      "explanation": "Linkage isomerism arises in coordination compounds containing ambidentate ligands like $NO_2^-$ which can coordinate through different atoms ($N$ in nitro vs $O$ in nitrito)."
+    },
+    {
+      "id": "c12_chem_ch05_03",
+      "question": "According to Valence Bond Theory, the hybridization of nickel in $[Ni(CN)_4]^{2-}$ (square planar) is:",
+      "options": [
+        "sp^3",
+        "dsp^2",
+        "sp^3d",
+        "d^2sp^3"
+      ],
+      "correctAnswer": "dsp^2",
+      "conceptTag": "Valence Bond Theory",
+      "explanation": "Cyanide ($CN^-$) is a strong field ligand that forces electron pairing in $Ni^{2+}$ ($3d^8$), leaving one $d$, one $s$, and two $p$ orbitals vacant for $dsp^2$ square planar hybridization."
+    },
+    {
+      "id": "c12_chem_ch05_04",
+      "question": "What is the IUPAC name of the coordination compound $K_4[Fe(CN)_6]$?",
+      "options": [
+        "Potassium hexacyanoferrate(II)",
+        "Potassium hexacyanidoiron(III)",
+        "Tetrapotassium iron(II) cyanide",
+        "Potassium hexacyanoferrate(III)"
+      ],
+      "correctAnswer": "Potassium hexacyanoferrate(II)",
+      "conceptTag": "IUPAC Nomenclature of Coordination Compounds",
+      "explanation": "The compound is named by stating the cation first (potassium), followed by anionic ligand count and name (hexacyanoferrate), and metal oxidation state in roman numerals (+2)."
+    },
+    {
+      "id": "c12_chem_ch06_01",
+      "question": "Which of the following alkyl halides undergoes $S_N2$ reaction at the fastest rate?",
+      "options": [
+        "CH_3Cl",
+        "CH_3Br",
+        "CH_3I",
+        "CH_3F"
+      ],
+      "correctAnswer": "CH_3I",
+      "conceptTag": "Nucleophilic Substitution ($S_N2$)",
+      "explanation": "The rate of $S_N2$ depends on the carbon-halogen bond strength. Iodide is the best leaving group due to the large size and weak C-I bond strength, making $CH_3I$ react the fastest."
+    },
+    {
+      "id": "c12_chem_ch06_02",
+      "question": "Reaction of alkyl halide with sodium metal in dry ether to form higher alkanes is known as:",
+      "options": [
+        "Fittig reaction",
+        "Wurtz reaction",
+        "Sandmeyer reaction",
+        "Swarts reaction"
+      ],
+      "correctAnswer": "Wurtz reaction",
+      "conceptTag": "Wurtz Reaction",
+      "explanation": "The Wurtz reaction couples two alkyl halide molecules with sodium in dry ether to synthesize symmetrical higher alkanes."
+    },
+    {
+      "id": "c12_chem_ch06_03",
+      "question": "Chiral molecules exhibit optical activity because they are:",
+      "options": [
+        "Symmetrical",
+        "Superimposable on their mirror images",
+        "Asymmetric and non-superimposable on their mirror images",
+        "Composed of double bonds"
+      ],
+      "correctAnswer": "Asymmetric and non-superimposable on their mirror images",
+      "conceptTag": "Chirality & Optical Isomerism",
+      "explanation": "Chirality is defined as the structural property of a molecule being non-superimposable on its mirror image, which leads to optical rotation."
+    },
+    {
+      "id": "c12_chem_ch06_04",
+      "question": "Aryls halides are less reactive towards nucleophilic substitution compared to alkyl halides due to:",
+      "options": [
+        "Partial double bond character of C-Cl bond due to resonance",
+        "Inductive effect",
+        "High solubility",
+        "Steric hindrance"
+      ],
+      "correctAnswer": "Partial double bond character of C-Cl bond due to resonance",
+      "conceptTag": "Reactivity of Haloarenes",
+      "explanation": "Resonance stabilization in chlorobenzene imparts partial double bond character to the carbon-chlorine bond, making it difficult to cleave."
+    },
+    {
+      "id": "c12_chem_ch07_01",
+      "question": "Which of the following reagents is used to distinguish between primary, secondary, and tertiary alcohols (Lucas Test)?",
+      "options": [
+        "Anhydrous $ZnCl_2$ and concentrated $HCl$",
+        "Acidified $KMnO_4$",
+        "Bromine water",
+        "Tollens' reagent"
+      ],
+      "correctAnswer": "Anhydrous $ZnCl_2$ and concentrated $HCl$",
+      "conceptTag": "Lucas Test",
+      "explanation": "Lucas reagent (anhydrous $ZnCl_2$ + conc. $HCl$) reacts at varying speeds with alcohols: tertiary reacts immediately, secondary reacts in 5 minutes, and primary does not react at room temperature."
+    },
+    {
+      "id": "c12_chem_ch07_02",
+      "question": "Phenol is more acidic than ethanol because:",
+      "options": [
+        "Phenoxide ion is resonance stabilized",
+        "Ethanol has a benzene ring",
+        "Phenol has a higher molecular mass",
+        "Ethanol forms stronger hydrogen bonds"
+      ],
+      "correctAnswer": "Phenoxide ion is resonance stabilized",
+      "conceptTag": "Acidity of Phenols",
+      "explanation": "Loss of a proton from phenol yields a phenoxide ion whose negative charge is delocalized into the benzene ring via resonance, stabilizing the conjugate base."
+    },
+    {
+      "id": "c12_chem_ch07_03",
+      "question": "Williamson synthesis is used for the preparation of:",
+      "options": [
+        "Alcohols",
+        "Ethers",
+        "Aldehydes",
+        "Esters"
+      ],
+      "correctAnswer": "Ethers",
+      "conceptTag": "Williamson Synthesis",
+      "explanation": "Williamson synthesis involves the reaction of an alkyl halide with a sodium alkoxide to form symmetrical or asymmetrical ethers."
+    },
+    {
+      "id": "c12_chem_ch07_04",
+      "question": "Reimer-Tiemann reaction on phenol using chloroform and sodium hydroxide introduces which group at the ortho position?",
+      "options": [
+        "$-COOH$",
+        "$-CHO$",
+        "$-CH_2OH$",
+        "$-OCH_3$"
+      ],
+      "correctAnswer": "$-CHO$",
+      "conceptTag": "Reimer-Tiemann Reaction",
+      "explanation": "The Reimer-Tiemann reaction converts phenol into salicylaldehyde (introducing a formyl $-CHO$ group at the ortho position)."
+    },
+    {
+      "id": "c12_chem_ch08_01",
+      "question": "Which of the following compounds will give a positive Fehling's test?",
+      "options": [
+        "Acetone",
+        "Benzaldehyde",
+        "Acetaldehyde",
+        "Diethyl ether"
+      ],
+      "correctAnswer": "Acetaldehyde",
+      "conceptTag": "Fehling's Test",
+      "explanation": "Fehling's test is positive for aliphatic aldehydes (like acetaldehyde). Ketones and aromatic aldehydes do not reduce Fehling's solution."
+    },
+    {
+      "id": "c12_chem_ch08_02",
+      "question": "Aldehydes lacking $\\alpha$-hydrogens undergo self-oxidation and reduction when treated with concentrated alkali in which reaction?",
+      "options": [
+        "Aldol condensation",
+        "Cannizzaro reaction",
+        "Crossed Aldol",
+        "Clemmensen reduction"
+      ],
+      "correctAnswer": "Cannizzaro reaction",
+      "conceptTag": "Cannizzaro Reaction",
+      "explanation": "Aldehydes without $\\alpha$-hydrogens (such as formaldehyde or benzaldehyde) undergo disproportionation (Cannizzaro reaction) in the presence of concentrated alkali."
+    },
+    {
+      "id": "c12_chem_ch08_03",
+      "question": "Reduction of carbonyl group of aldehydes and ketones to $\\mathrm{-CH_2-}$ group using zinc amalgam and concentrated hydrochloric acid is called:",
+      "options": [
+        "Wolf-Kishner reduction",
+        "Clemmensen reduction",
+        "Rosenmund reduction",
+        "Catalytic hydrogenation"
+      ],
+      "correctAnswer": "Clemmensen reduction",
+      "conceptTag": "Clemmensen Reduction",
+      "explanation": "The Clemmensen reduction uses $Zn-Hg$ amalgam and conc. $HCl$ to deoxygenate aldehydes and ketones into corresponding alkanes."
+    },
+    {
+      "id": "c12_chem_ch08_04",
+      "question": "Carboxylic acids are stronger acids than phenols because:",
+      "options": [
+        "Carboxylate anion has two equivalent resonance structures",
+        "Carboxylic acids have more carbon atoms",
+        "Phenoxide ion is unstable",
+        "Carboxylic acids do not form hydrogen bonds"
+      ],
+      "correctAnswer": "Carboxylate anion has two equivalent resonance structures",
+      "conceptTag": "Acidity of Carboxylic Acids",
+      "explanation": "The negative charge on a carboxylate anion is delocalized equally over two electronegative oxygen atoms in equivalent resonance structures, conferring high stability."
+    },
+    {
+      "id": "c12_chem_ch09_01",
+      "question": "Which test is used to distinguish between primary, secondary, and tertiary amines using benzene sulphonyl chloride (Hinsberg's reagent)?",
+      "options": [
+        "Lucas test",
+        "Hinsberg test",
+        "Carbylamine test",
+        "Tollens test"
+      ],
+      "correctAnswer": "Hinsberg test",
+      "conceptTag": "Hinsberg Test for Amines",
+      "explanation": "Hinsberg's reagent ($C_6H_5SO_2Cl$) reacts differently with $1^\\circ$, $2^\\circ$, and $3^\\circ$ amines, allowing their separation and identification."
+    },
+    {
+      "id": "c12_chem_ch09_02",
+      "question": "Carbylamine test is given by which type of amines?",
+      "options": [
+        "Primary amines only",
+        "Secondary amines only",
+        "Tertiary amines only",
+        "All amines"
+      ],
+      "correctAnswer": "Primary amines only",
+      "conceptTag": "Carbylamine Test",
+      "explanation": "Both aliphatic and aromatic primary amines react with chloroform and ethanolic KOH to form foul-smelling isocyanides (carbylamines), serving as a specific test for primary amines."
+    },
+    {
+      "id": "c12_chem_ch09_03",
+      "question": "Basicity of aliphatic amines in aqueous solution follows which general order (where $R$ is methyl)?",
+      "options": [
+        "$1^\\circ > 2^\\circ > 3^\\circ$",
+        "$2^\\circ > 1^\\circ > 3^\\circ$ (or $2^\\circ > 3^\\circ > 1^\\circ$ depending on alkyl group solvation)",
+        "$3^\\circ > 2^\\circ > 1^\\circ$",
+        "All are equally basic"
+      ],
+      "correctAnswer": "$2^\\circ > 1^\\circ > 3^\\circ$",
+      "conceptTag": "Basicity of Amines",
+      "explanation": "In aqueous medium, basicity is determined by a combination of inductive effect, steric hindrance, and solvation stabilization. For methylamines, secondary is most basic: $(CH_3)_2NH > CH_3NH_2 > (CH_3)_3N$."
+    },
+    {
+      "id": "c12_chem_ch09_04",
+      "question": "Reaction of aniline with nitrous acid ($HNO_2$ or $NaNO_2 + HCl$) at 273-278 K yields:",
+      "options": [
+        "Nitrobenzene",
+        "Phenol",
+        "Benzenediazonium chloride",
+        "Phenylisocyanate"
+      ],
+      "correctAnswer": "Benzenediazonium chloride",
+      "conceptTag": "Diazotization",
+      "explanation": "Primary aromatic amines react with nitrous acid at 0-5°C (273-278 K) to form stable diazonium salts via diazotization."
+    },
+    {
+      "id": "c12_chem_ch10_01",
+      "question": "Which of the following is a reducing sugar?",
+      "options": [
+        "Sucrose",
+        "Glucose",
+        "Cellulose",
+        "Starch"
+      ],
+      "correctAnswer": "Glucose",
+      "conceptTag": "Carbohydrates & Reducing Sugars",
+      "explanation": "Glucose contains a free aldehyde or ketone group capable of reducing Tollens' or Fehling's reagents, making it a reducing sugar (unlike sucrose where anomeric carbons are linked)."
+    },
+    {
+      "id": "c12_chem_ch10_02",
+      "question": "The linkage joining two amino acids together in a protein molecule is called a:",
+      "options": [
+        "Glycosidic linkage",
+        "Peptide bond",
+        "Phosphodiester bond",
+        "Hydrogen bond"
+      ],
+      "correctAnswer": "Peptide bond",
+      "conceptTag": "Proteins & Peptide Linkage",
+      "explanation": "A peptide bond is an amide linkage formed between the carboxyl group of one amino acid and the amino group of the next with the elimination of water."
+    },
+    {
+      "id": "c12_chem_ch10_03",
+      "question": "Vitamin C (ascorbic acid) deficiency causes which of the following diseases?",
+      "options": [
+        "Beriberi",
+        "Scurvy",
+        "Rickets",
+        "Night blindness"
+      ],
+      "correctAnswer": "Scurvy",
+      "conceptTag": "Vitamins",
+      "explanation": "Ascorbic acid (Vitamin C) is a water-soluble vitamin whose deficiency results in scurvy (bleeding gums and connective tissue weakening)."
+    },
+    {
+      "id": "c12_chem_ch10_04",
+      "question": "Which nitrogenous base is present in RNA but absent in DNA?",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Uracil",
+        "Thymine"
+      ],
+      "correctAnswer": "Uracil",
+      "conceptTag": "Nucleic Acids",
+      "explanation": "DNA contains thymine (T), whereas RNA replaces thymine with uracil (U), which pairs with adenine."
+    }
+  ]
+}

@@ -1,0 +1,1459 @@
+{
+  "PhysicsMCQs": [
+    {
+      "id": "c11_phy_ch01_01",
+      "question": "Which of the following physical quantities has the same dimensions as Planck's constant (h)?",
+      "options": [
+        "Linear momentum",
+        "Angular momentum",
+        "Torque",
+        "Pressure"
+      ],
+      "correctAnswer": "Angular momentum",
+      "conceptTag": "Dimensional Analysis",
+      "explanation": "Planck's constant has dimensions [ML^2T^-1], which is identical to angular momentum ($L = I\\omega$ or $mvr$)."
+    },
+    {
+      "id": "c11_phy_ch01_02",
+      "question": "If the error in measuring the radius of a sphere is 2%, what is the percentage error in its volume?",
+      "options": [
+        "2%",
+        "4%",
+        "6%",
+        "8%"
+      ],
+      "correctAnswer": "6%",
+      "conceptTag": "Propagation of Errors",
+      "explanation": "Volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Taking relative errors, $\\frac{\\Delta V}{V} = 3 \\frac{\\Delta r}{r} = 3 \\times 2\\% = 6\\%$."
+    },
+    {
+      "id": "c11_phy_ch01_03",
+      "question": "What is the number of significant figures in the number 0.005070?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "conceptTag": "Significant Figures",
+      "explanation": "Leading zeros are not significant. Trailing zeros after a decimal point are significant. Thus, 5, 0, 7, and the final 0 are significant, giving 4 figures."
+    },
+    {
+      "id": "c11_phy_ch01_04",
+      "question": "Express 1 Joule in CGS units (Ergs).",
+      "options": [
+        "10^5 Ergs",
+        "10^7 Ergs",
+        "10^-7 Ergs",
+        "10^-5 Ergs"
+      ],
+      "correctAnswer": "10^7 Ergs",
+      "conceptTag": "Unit Conversion",
+      "explanation": "1 J = 1 kg m^2 s^-2 = (1000 g)(100 cm)^2 (1 s)^-2 = 10^3 \\times 10^4 = 10^7 g cm^2 s^-2 (Ergs)."
+    },
+    {
+      "id": "c11_phy_ch01_05",
+      "question": "Which of the following pairs of physical quantities does not have identical dimensions?",
+      "options": [
+        "Work and Torque",
+        "Impulse and Momentum",
+        "Inertia and Moment of Inertia",
+        "Surface Tension and Spring Constant"
+      ],
+      "correctAnswer": "Inertia and Moment of Inertia",
+      "conceptTag": "Dimensional Consistency",
+      "explanation": "Inertia is mass [M], while moment of inertia is mass $\\times$ distance squared [ML^2]."
+    },
+    {
+      "id": "c11_phy_ch01_06",
+      "question": "The resistance $R = V/I$, where $V = (100 \\pm 5)\\text{ V}$ and $I = (10 \\pm 0.2)\\text{ A}$. What is the percentage error in $R$?",
+      "options": [
+        "3%",
+        "5%",
+        "7%",
+        "2%"
+      ],
+      "correctAnswer": "7%",
+      "conceptTag": "Error Propagation in Division",
+      "explanation": "Maximum fractional error in $R$ is $\\frac{\\Delta R}{R} = \\frac{\\Delta V}{V} + \\frac{\\Delta I}{I} = \\frac{5}{100} + \\frac{0.2}{10} = 0.05 + 0.02 = 0.07$, which is 7%."
+    },
+    {
+      "id": "c11_phy_ch01_07",
+      "question": "Checking the dimensional consistency of an equation helps to:",
+      "options": [
+        "Prove that the equation is absolutely correct",
+        "Determine the exact numerical constants",
+        "Check whether an equation is definitely wrong",
+        "Find the physical meaning of terms"
+      ],
+      "correctAnswer": "Check whether an equation is definitely wrong",
+      "conceptTag": "Limitations of Dimensional Analysis",
+      "explanation": "Dimensional analysis can only test whether dimensions are consistent; a dimensionally correct equation may still be mathematically incorrect due to missing dimensionless constants."
+    },
+    {
+      "id": "c11_phy_ch01_08",
+      "question": "Light year is a unit of:",
+      "options": [
+        "Time",
+        "Distance",
+        "Light intensity",
+        "Velocity"
+      ],
+      "correctAnswer": "Distance",
+      "conceptTag": "Units and Measurements",
+      "explanation": "A light year is the distance that light travels in vacuum in one year."
+    },
+    {
+      "id": "c11_phy_ch02_01",
+      "question": "A particle moves along a straight line with position $x = 3t^2 - 5t + 2$. What is its velocity at $t = 2\\text{ s}$?",
+      "options": [
+        "1 m/s",
+        "7 m/s",
+        "12 m/s",
+        "17 m/s"
+      ],
+      "correctAnswer": "7 m/s",
+      "conceptTag": "Instantaneous Velocity",
+      "explanation": "Velocity $v = \\frac{dx}{dt} = 6t - 5$. At $t = 2\\text{ s}$, $v = 6(2) - 5 = 7\\text{ m/s}$."
+    },
+    {
+      "id": "c11_phy_ch02_02",
+      "question": "The slope of a displacement-time graph for a particle moving in a straight line represents:",
+      "options": [
+        "Acceleration",
+        "Velocity",
+        "Displacement",
+        "Average speed"
+      ],
+      "correctAnswer": "Velocity",
+      "conceptTag": "Graphical Analysis",
+      "explanation": "The slope of the position-time (displacement-time) graph gives the rate of change of position with respect to time, which is velocity."
+    },
+    {
+      "id": "c11_phy_ch02_03",
+      "question": "A car travels the first half of a total distance with speed $v_1$ and the second half with speed $v_2$. What is its average speed?",
+      "options": [
+        "\\frac{v_1 + v_2}{2}",
+        "\\frac{2v_1 v_2}{v_1 + v_2}",
+        "\\sqrt{v_1 v_2}",
+        "\\frac{v_1 v_2}{v_1 + v_2}"
+      ],
+      "correctAnswer": "\\frac{2v_1 v_2}{v_1 + v_2}",
+      "conceptTag": "Average Speed",
+      "explanation": "Average speed is total distance divided by total time: $v_{avg} = \\frac{d + d}{\\frac{d}{v_1} + \\frac{d}{v_2}} = \\frac{2v_1 v_2}{v_1 + v_2}$."
+    },
+    {
+      "id": "c11_phy_ch02_04",
+      "question": "Can a body have zero velocity and still possess a non-zero acceleration?",
+      "options": [
+        "No, velocity and acceleration must always be non-zero together.",
+        "Yes, when a body is thrown vertically upwards at its highest point.",
+        "Yes, only in uniform circular motion.",
+        "No, it violates Newton's laws."
+      ],
+      "correctAnswer": "Yes, when a body is thrown vertically upwards at its highest point.",
+      "conceptTag": "Kinematic Concepts",
+      "explanation": "At the highest point of a vertical throw, instantaneous velocity is zero, but acceleration due to gravity ($g$ downwards) is still acting on it."
+    },
+    {
+      "id": "c11_phy_ch02_05",
+      "question": "The area under an acceleration-time graph represents:",
+      "options": [
+        "Displacement",
+        "Change in velocity",
+        "Average acceleration",
+        "Distance traveled"
+      ],
+      "correctAnswer": "Change in velocity",
+      "conceptTag": "Graphical Analysis",
+      "explanation": "Since $a = \\frac{dv}{dt}$, integrating acceleration with respect to time gives $\\int a \\, dt = \\Delta v$ (change in velocity)."
+    },
+    {
+      "id": "c11_phy_ch02_06",
+      "question": "A body dropped freely from a tower reaches the ground in 4 seconds. Taking $g = 10\\text{ m/s}^2$, the height of the tower is:",
+      "options": [
+        "40 m",
+        "80 m",
+        "160 m",
+        "20 m"
+      ],
+      "correctAnswer": "80 m",
+      "conceptTag": "Motion Under Gravity",
+      "explanation": "Using $h = ut + \\frac{1}{2}gt^2$ with $u = 0$: $h = \\frac{1}{2}(10)(4^2) = 5(16) = 80\\text{ m}$."
+    },
+    {
+      "id": "c11_phy_ch02_07",
+      "question": "Which of the following kinematic equations is derived directly using calculus without assuming uniform acceleration?",
+      "options": [
+        "$v = u + at$",
+        "$s = ut + \\frac{1}{2}at^2$",
+        "$v^2 = u^2 + 2as$",
+        "None, all require uniform acceleration assumption"
+      ],
+      "correctAnswer": "None, all require uniform acceleration assumption",
+      "conceptTag": "Kinematic Equations",
+      "explanation": "Standard kinematic equations assume constant acceleration ($a = \\text{constant}$)."
+    },
+    {
+      "id": "c11_phy_ch02_08",
+      "question": "If the velocity-time graph of a particle is a straight line parallel to the time axis, the acceleration is:",
+      "options": [
+        "Constant and non-zero",
+        "Increasing uniformly",
+        "Zero",
+        "Infinite"
+      ],
+      "correctAnswer": "Zero",
+      "conceptTag": "Velocity-Time Graphs",
+      "explanation": "A horizontal line on a v-t graph means velocity is constant, so its slope (acceleration) is zero."
+    },
+    {
+      "id": "c11_phy_ch03_01",
+      "question": "What is the angle between two vectors $\\vec{A} = \\hat{i} + \\hat{j}$ and $\\vec{B} = \\hat{i} - \\hat{j}$?",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "correctAnswer": "90°",
+      "conceptTag": "Vector Dot Product",
+      "explanation": "Compute the dot product: $\\vec{A} \\cdot \\vec{B} = (1)(1) + (1)(-1) = 1 - 1 = 0$. Since the dot product is zero, the vectors are orthogonal (90°)."
+    },
+    {
+      "id": "c11_phy_ch03_02",
+      "question": "For what angle of projection is the horizontal range equal to four times the maximum height of a projectile?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "75°"
+      ],
+      "correctAnswer": "45°",
+      "conceptTag": "Projectile Motion",
+      "explanation": "Range $R = \\frac{u^2 \\sin 2\\theta}{g}$ and max height $H = \\frac{u^2 \\sin^2\\theta}{2g}$. Setting $R = 4H$ gives $\\tan\\theta = 1$, so $\\theta = 45°$."
+    },
+    {
+      "id": "c11_phy_ch03_03",
+      "question": "Why does a cyclist lean inward while negotiating a circular turn?",
+      "options": [
+        "To increase gravity",
+        "To provide the necessary centripetal force from the frictional component",
+        "To reduce air resistance",
+        "To lower the center of gravity"
+      ],
+      "correctAnswer": "To provide the necessary centripetal force from the frictional component",
+      "conceptTag": "Circular Motion",
+      "explanation": "Leaning inward allows the normal reaction and friction components to provide the horizontal centripetal force required for turning."
+    },
+    {
+      "id": "c11_phy_ch03_04",
+      "question": "What is the direction of centripetal acceleration in uniform circular motion?",
+      "options": [
+        "Tangential to the circle",
+        "Along the direction of motion",
+        "Directed towards the center of the circular path",
+        "Directed radially outward"
+      ],
+      "correctAnswer": "Directed towards the center of the circular path",
+      "conceptTag": "Centripetal Acceleration",
+      "explanation": "Centripetal acceleration always points radially inward toward the center of the circle."
+    },
+    {
+      "id": "c11_phy_ch03_05",
+      "question": "The magnitude of the resultant of two forces of equal magnitude $F$ acting at an angle $\\theta$ is:",
+      "options": [
+        "$2F \\cos(\\theta/2)$",
+        "$2F \\sin(\\theta/2)$",
+        "$F \\cos\\theta$",
+        "\\sqrt{2}F"
+      ],
+      "correctAnswer": "$2F \\cos(\\theta/2)$",
+      "conceptTag": "Vector Addition",
+      "explanation": "Resultant $R = \\sqrt{F^2 + F^2 + 2F^2\\cos\\theta} = \\sqrt{2F^2(1 + \\cos\\theta)} = \\sqrt{4F^2 \\cos^2(\\theta/2)} = 2F \\cos(\\theta/2)$."
+    },
+    {
+      "id": "c11_phy_ch03_06",
+      "question": "A projectile is fired with an initial velocity of 20 m/s at an angle of 30° with the horizontal. What is its time of flight? ($g = 10\\text{ m/s}^2$)",
+      "options": [
+        "1 s",
+        "2 s",
+        "4 s",
+        "0.5 s"
+      ],
+      "correctAnswer": "2 s",
+      "conceptTag": "Projectile Motion",
+      "explanation": "Time of flight $T = \\frac{2u \\sin\\theta}{g} = \\frac{2(20)\\sin(30°)}{10} = \\frac{40(0.5)}{10} = 2\\text{ s}$."
+    },
+    {
+      "id": "c11_phy_ch03_07",
+      "question": "The scalar product of two vectors is commutative because:",
+      "options": [
+        "$\\vec{A} \\cdot \\vec{B} = AB \\cos\\theta = BA \\cos\\theta = \\vec{B} \\cdot \\vec{A}$",
+        "$\\vec{A} \\times \\vec{B} = -(\\vec{B} \\times \\vec{A})$",
+        "Dot product results in a vector",
+        "Cross product is commutative"
+      ],
+      "correctAnswer": "$\\vec{A} \\cdot \\vec{B} = AB \\cos\\theta = BA \\cos\\theta = \\vec{B} \\cdot \\vec{A}$",
+      "conceptTag": "Dot Product Properties",
+      "explanation": "The scalar product yields a real number multiplied by cosines, which commute algebraically."
+    },
+    {
+      "id": "c11_phy_ch03_08",
+      "question": "At which point of a projectile's trajectory is its speed minimum?",
+      "options": [
+        "At the point of projection",
+        "At the highest point",
+        "Just before hitting the ground",
+        "Halfway up"
+      ],
+      "correctAnswer": "At the highest point",
+      "conceptTag": "Projectile Properties",
+      "explanation": "At the highest point, the vertical component of velocity is zero, and only the constant horizontal component remains, making the total speed minimum."
+    },
+    {
+      "id": "c11_phy_ch04_01",
+      "question": "Newton's first law of motion is also known as the law of:",
+      "options": [
+        "Momentum",
+        "Inertia",
+        "Force",
+        "Action and Reaction"
+      ],
+      "correctAnswer": "Inertia",
+      "conceptTag": "Laws of Motion",
+      "explanation": "Newton's first law defines inertia, stating that an object remains at rest or in uniform motion unless acted upon by an external force."
+    },
+    {
+      "id": "c11_phy_ch04_02",
+      "question": "A force of 10 N acts on a body of mass 2 kg for 4 s. Find the change in momentum.",
+      "options": [
+        "20 kg m/s",
+        "40 kg m/s",
+        "80 kg m/s",
+        "5 kg m/s"
+      ],
+      "correctAnswer": "40 kg m/s",
+      "conceptTag": "Impulse-Momentum Theorem",
+      "explanation": "Change in momentum equals impulse: $\\Delta p = F \\times \\Delta t = 10\\text{ N} \\times 4\\text{ s} = 40\\text{ kg m/s}$."
+    },
+    {
+      "id": "c11_phy_ch04_03",
+      "question": "Why do passengers lean forward when a moving bus suddenly stops?",
+      "options": [
+        "Due to gravitational pull",
+        "Due to inertia of motion",
+        "Due to frictional force",
+        "Due to centrifugal force"
+      ],
+      "correctAnswer": "Due to inertia of motion",
+      "conceptTag": "Inertia",
+      "explanation": "The lower part of the body stops with the bus, but the upper part continues moving forward due to the inertia of motion."
+    },
+    {
+      "id": "c11_phy_ch04_04",
+      "question": "What is the maximum safe speed of a vehicle on a banked circular road of radius $r$ with banking angle $\theta$ and coefficient of friction $\\mu$?",
+      "options": [
+        "$\\sqrt{rg \\frac{\\mu + \\tan\\theta}{1 - \\mu \\tan\\theta}}$",
+        "$\\sqrt{rg \\tan\\theta}$",
+        "$\\sqrt{\\mu rg}$",
+        "$\\sqrt{\\frac{rg}{\\mu}}$"
+      ],
+      "correctAnswer": "$\\sqrt{rg \\frac{\\mu + \\tan\\theta}{1 - \\mu \\tan\\theta}}$",
+      "conceptTag": "Banked Roads",
+      "explanation": "The maximum safe speed considering both banking and friction is given by $v_{\\max} = \\sqrt{rg \\frac{\\mu + \\tan\\theta}{1 - \\mu \\tan\\theta}}$."
+    },
+    {
+      "id": "c11_phy_ch04_05",
+      "question": "A block of mass 5 kg is pulled along a rough horizontal floor ($\\mu = 0.2$) with a horizontal force. What is the acceleration of the block? ($g = 10\\text{ m/s}^2$) assuming the applied force is just enough to overcome limiting friction or specified as such? Wait, let's assume friction alone or net force. Let's look at standard problems: if pulled with a force equal to friction, acceleration is zero. Let's make the question unambiguous: 'A block of mass 5 kg is on a rough horizontal floor with $\\mu = 0.2$. If a horizontal force of 20 N acts on it, find its acceleration ($g = 10\\text{ m/s}^2$):'",
+      "options": [
+        "2 m/s^2",
+        "4 m/s^2",
+        "1 m/s^2",
+        "0 m/s^2"
+      ],
+      "correctAnswer": "2 m/s^2",
+      "conceptTag": "Friction and Newton's Second Law",
+      "explanation": "Frictional force $f = \\mu mg = 0.2 \\times 5 \\times 10 = 10\\text{ N}$. Net force $F_{net} = 20 - 10 = 10\\text{ N}$. Acceleration $a = F_{net}/m = 10 / 5 = 2\\text{ m/s}^2$."
+    },
+    {
+      "id": "c11_phy_ch04_06",
+      "question": "Action and reaction forces:",
+      "options": [
+        "Act on the same body and cancel each other out",
+        "Act on two different bodies",
+        "Have unequal magnitudes and opposite directions",
+        "Are always directed perpendicular to each other"
+      ],
+      "correctAnswer": "Act on two different bodies",
+      "conceptTag": "Newton's Third Law",
+      "explanation": "Newton's third law states that action and reaction act on two different bodies, which is why they do not cancel each other out."
+    },
+    {
+      "id": "c11_phy_ch04_07",
+      "question": "What is the tension in a string when a mass $m$ is pulled upward with an acceleration $a$?",
+      "options": [
+        "$mg$",
+        "$m(g - a)$",
+        "$m(g + a)$",
+        "$ma$"
+      ],
+      "correctAnswer": "$m(g + a)$",
+      "conceptTag": "Connected Bodies",
+      "explanation": "Equation of motion for upward acceleration: $T - mg = ma \\implies T = m(g + a)$."
+    },
+    {
+      "id": "c11_phy_ch04_08",
+      "question": "The coefficient of static friction is generally:",
+      "options": [
+        "Less than the coefficient of kinetic friction",
+        "Equal to the coefficient of kinetic friction",
+        "Greater than the coefficient of kinetic friction",
+        "Independent of surface roughness"
+      ],
+      "correctAnswer": "Greater than the coefficient of kinetic friction",
+      "conceptTag": "Friction",
+      "explanation": "Limiting static friction is slightly greater than kinetic friction because it takes more force to start motion than to maintain it."
+    },
+    {
+      "id": "c11_phy_ch05_01",
+      "question": "Under what condition is the work done by a force zero?",
+      "options": [
+        "When force and displacement are in the same direction",
+        "When force and displacement are perpendicular to each other",
+        "When displacement is maximum",
+        "When velocity is constant"
+      ],
+      "correctAnswer": "When force and displacement are perpendicular to each other",
+      "conceptTag": "Work",
+      "explanation": "Work $W = Fd \\cos\\theta$. When $\\theta = 90°$, $\\cos(90°) = 0$, so work done is zero."
+    },
+    {
+      "id": "c11_phy_ch05_02",
+      "question": "Which of the following is a conservative force?",
+      "options": [
+        "Frictional force",
+        "Viscous force",
+        "Gravitational force",
+        "Air drag"
+      ],
+      "correctAnswer": "Gravitational force",
+      "conceptTag": "Conservative Forces",
+      "explanation": "Gravitational force is conservative because work done by it depends only on initial and final positions, not on the path taken."
+    },
+    {
+      "id": "c11_phy_ch05_03",
+      "question": "A body of mass 2 kg is dropped from a height of 10 m. What is its kinetic energy just before hitting the ground? ($g = 10\\text{ m/s}^2$)",
+      "options": [
+        "100 J",
+        "200 J",
+        "50 J",
+        "400 J"
+      ],
+      "correctAnswer": "200 J",
+      "conceptTag": "Conservation of Mechanical Energy",
+      "explanation": "By conservation of energy, initial potential energy equals final kinetic energy: $KE = mgh = 2 \\times 10 \\times 10 = 200\\text{ J}$."
+    },
+    {
+      "id": "c11_phy_ch05_04",
+      "question": "In an elastic collision in one dimension:",
+      "options": [
+        "Only kinetic energy is conserved",
+        "Only linear momentum is conserved",
+        "Both linear momentum and kinetic energy are conserved",
+        "Neither momentum nor kinetic energy is conserved"
+      ],
+      "correctAnswer": "Both linear momentum and kinetic energy are conserved",
+      "conceptTag": "Collisions",
+      "explanation": "By definition, an elastic collision conserves both total linear momentum and total kinetic energy."
+    },
+    {
+      "id": "c11_phy_ch05_05",
+      "question": "A pump is required to lift 600 kg of water per minute from a well 20 m deep. What is the power of the pump? ($g = 10\\text{ m/s}^2$)",
+      "options": [
+        "2000 W",
+        "4000 W",
+        "1200 W",
+        "6000 W"
+      ],
+      "correctAnswer": "2000 W",
+      "conceptTag": "Power",
+      "explanation": "Power $P = \\frac{W}{t} = \\frac{mgh}{t} = \\frac{600 \\times 10 \\times 20}{60\\text{ s}} = \\frac{120000}{60} = 2000\\text{ W}$."
+    },
+    {
+      "id": "c11_phy_ch05_06",
+      "question": "The work-energy theorem states that the change in kinetic energy of a particle is equal to:",
+      "options": [
+        "Total work done by all forces",
+        "Work done by conservative forces only",
+        "Potential energy stored",
+        "Power multiplied by time"
+      ],
+      "correctAnswer": "Total work done by all forces",
+      "conceptTag": "Work-Energy Theorem",
+      "explanation": "The work-energy theorem states that $\\Delta KE = W_{net}$, where $W_{net}$ is the work done by all forces acting on the body."
+    },
+    {
+      "id": "c11_phy_ch05_07",
+      "question": "What happens to the total mechanical energy in a system experiencing non-conservative forces like friction?",
+      "options": [
+        "It remains conserved",
+        "It increases",
+        "It decreases (dissipates as heat)",
+        "It becomes zero instantly"
+      ],
+      "conceptTag": "Conservation of Energy",
+      "explanation": "Non-conservative forces dissipate mechanical energy into thermal energy or sound, reducing the total mechanical energy."
+    },
+    {
+      "id": "c11_phy_ch05_08",
+      "question": "Dimensional formula for power is:",
+      "options": [
+        "[ML^2T^-2]",
+        "[ML^2T^-3]",
+        "[MLT^-2]",
+        "[ML^2T^-1]"
+      ],
+      "correctAnswer": "[ML^2T^-3]",
+      "conceptTag": "Dimensions of Power",
+      "explanation": "Power is Work/Time = $[ML^2T^{-2}] / [T] = [ML^2T^{-3}]$."
+    },
+    {
+      "id": "c11_phy_ch06_01",
+      "question": "Where is the center of mass of a uniform semicircular ring of radius $R$ located?",
+      "options": [
+        "At the center",
+        "At a distance of $\\frac{2R}{\\pi}$ from the center along the axis of symmetry",
+        "At a distance of $\\frac{R}{2}$",
+        "At a distance of $\\frac{\\pi R}{2}$"
+      ],
+      "correctAnswer": "At a distance of $\\frac{2R}{\\pi}$ from the center along the axis of symmetry",
+      "conceptTag": "Center of Mass",
+      "explanation": "For a uniform semicircular ring, integration yields the center of mass at height $Y_{cm} = \\frac{2R}{\\pi}$ from the geometric center."
+    },
+    {
+      "id": "c11_phy_ch06_02",
+      "question": "The vector expression for torque ($\\vec{\\tau}$) in terms of position vector $\\vec{r}$ and force $\\vec{F}$ is:",
+      "options": [
+        "$\\vec{\\tau} = \\vec{r} \\cdot \\vec{F}$",
+        "$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$",
+        "$\\vec{\\tau} = \\vec{F} \\times \\vec{r}$",
+        "$\\vec{\\tau} = \\frac{\\vec{r}}{\\vec{F}}$"
+      ],
+      "correctAnswer": "$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$",
+      "conceptTag": "Torque",
+      "explanation": "Torque is defined as the cross product of the position vector from the axis of rotation to the point of application and the force vector: $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$."
+    },
+    {
+      "id": "c11_phy_ch06_03",
+      "question": "State and use the theorem of perpendicular axes. For a planar body in the $xy$-plane, the moment of inertia about the $z$-axis ($I_z$) is related to $I_x$ and $I_y$ by:",
+      "options": [
+        "$I_z = I_x + I_y$",
+        "$I_z = I_x - I_y$",
+        "$I_z = \\sqrt{I_x^2 + I_y^2}$",
+        "$I_z = \\frac{I_x + I_y}{2}$"
+      ],
+      "correctAnswer": "$I_z = I_x + I_y$",
+      "conceptTag": "Theorem of Perpendicular Axes",
+      "explanation": "The perpendicular axes theorem states that the moment of inertia of a planar lamina about an axis perpendicular to the plane ($I_z$) equals the sum of moments of inertia about two mutually perpendicular axes in the plane ($I_x$ and $I_y$)."
+    },
+    {
+      "id": "c11_phy_ch06_04",
+      "question": "A wheel of radius 0.5 m rotates with an angular speed of 20 rad/s. What is the linear speed at its rim?",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "20 m/s",
+        "40 m/s"
+      ],
+      "correctAnswer": "10 m/s",
+      "conceptTag": "Rotational Dynamics",
+      "explanation": "Linear speed $v = r\\omega = 0.5\\text{ m} \\times 20\\text{ rad/s} = 10\\text{ m/s}$."
+    },
+    {
+      "id": "c11_phy_ch06_05",
+      "question": "When no external torque acts on a system, which of the following remains conserved?",
+      "options": [
+        "Linear momentum",
+        "Angular momentum",
+        "Moment of inertia",
+        "Angular velocity"
+      ],
+      "correctAnswer": "Angular momentum",
+      "conceptTag": "Conservation of Angular Momentum",
+      "explanation": "By the principle of conservation of angular momentum, if the net external torque acting on a system is zero, its total angular momentum remains constant."
+    },
+    {
+      "id": "c11_phy_ch06_06",
+      "question": "The physical significance of moment of inertia in rotational motion is analogous to:",
+      "options": [
+        "Force in linear motion",
+        "Mass in linear motion",
+        "Velocity in linear motion",
+        "Momentum in linear motion"
+      ],
+      "correctAnswer": "Mass in linear motion",
+      "conceptTag": "Moment of Inertia",
+      "explanation": "Moment of inertia plays the same role in rotational motion (opposition to change in rotational state) that mass plays in linear motion (inertia)."
+    },
+    {
+      "id": "c11_phy_ch06_07",
+      "question": "The ratio of radius of gyration of a solid sphere to that of a hollow sphere of the same mass and radius about their diameters is:",
+      "options": [
+        "\\sqrt{3:5}",
+        "\\sqrt{3:2}",
+        "\\sqrt{2:3}",
+        "3:5"
+      ],
+      "correctAnswer": "\\sqrt{3:5}",
+      "conceptTag": "Radius of Gyration",
+      "explanation": "Moment of inertia of solid sphere $I = \\frac{2}{5}mr^2 \\implies k = \\sqrt{\\frac{2}{5}}r$. For hollow sphere $I = \\frac{2}{3}mr^2 \\implies k = \\sqrt{\\frac{2}{3}}r$. Ratio is $\\sqrt{\\frac{2/5}{2/3}} = \\sqrt{\\frac{3}{5}}$."
+    },
+    {
+      "id": "c11_phy_ch06_08",
+      "question": "Total kinetic energy of a rolling body is the sum of:",
+      "options": [
+        "Translational kinetic energy only",
+        "Rotational kinetic energy only",
+        "Translational and rotational kinetic energies",
+        "Potential and kinetic energies"
+      ],
+      "correctAnswer": "Translational and rotational kinetic energies",
+      "conceptTag": "Rolling Motion",
+      "explanation": "A rolling body undergoes both translation of its center of mass and rotation about its center of mass, so its total KE is $KE_{trans} + KE_{rot}$."
+    },
+    {
+      "id": "c11_phy_ch07_01",
+      "question": "The universal gravitational constant $G$ has the dimensional formula:",
+      "options": [
+        "[M^-1 L^3 T^-2]",
+        "[ML^2T^-2]",
+        "[M^-1 L^2 T^-2]",
+        "[MLT^-2]"
+      ],
+      "correctAnswer": "[M^-1 L^3 T^-2]",
+      "conceptTag": "Universal Gravitation",
+      "explanation": "From $F = \\frac{G m_1 m_2}{r^2}$, $G = \\frac{Fr^2}{m_1 m_2} = \\frac{[MLT^{-2}][L^2]}{[M^2]} = [M^{-1}L^3T^{-2}]$."
+    },
+    {
+      "id": "c11_phy_ch07_02",
+      "question": "How does the value of acceleration due to gravity ($g$) vary with depth $d$ below the Earth's surface?",
+      "options": [
+        "It increases linearly with depth",
+        "It decreases linearly as $g' = g(1 - \\frac{d}{R})$",
+        "It remains constant",
+        "It varies inversely with $d^2$"
+      ],
+      "correctAnswer": "It decreases linearly as $g' = g(1 - \\frac{d}{R})$",
+      "conceptTag": "Variation of Gravity",
+      "explanation": "Inside the Earth at depth $d$, effective mass reduces, leading to $g' = g(1 - \\frac{d}{R})$, which decreases linearly."
+    },
+    {
+      "id": "c11_phy_ch07_03",
+      "question": "What is the expression for escape velocity from the surface of Earth of radius $R$ and mass $M$?",
+      "options": [
+        "\\sqrt{\\frac{GM}{R}}",
+        "\\sqrt{\\frac{2GM}{R}}",
+        "\\frac{GM}{R}",
+        "\\sqrt{2gR^2}"
+      ],
+      "correctAnswer": "\\sqrt{\\frac{2GM}{R}}",
+      "conceptTag": "Escape Velocity",
+      "explanation": "Equating total energy to zero at infinity gives $\\frac{1}{2}mv_e^2 - \\frac{GMm}{R} = 0 \\implies v_e = \\sqrt{\\frac{2GM}{R}}$ or $\\sqrt{2gR}$."
+    },
+    {
+      "id": "c11_phy_ch07_04",
+      "question": "Kepler's third law states that the square of the time period of a planet is proportional to:",
+      "options": [
+        "Semi-major axis $r$",
+        "Cube of the semi-major axis $r^3$",
+        "Square of the semi-major axis $r^2$",
+        "Inverse square of $r$"
+      ],
+      "correctAnswer": "Cube of the semi-major axis $r^3$",
+      "conceptTag": "Kepler's Laws",
+      "explanation": "Kepler's third law states $T^2 \\propto r^3$, where $r$ is the semi-major axis of the elliptical orbit."
+    },
+    {
+      "id": "c11_phy_ch07_05",
+      "question": "Why is gravitational potential energy always negative?",
+      "options": [
+        "Because work is done against gravity to bring a mass from infinity",
+        "Because mass is negative",
+        "Because reference point is taken at infinity where potential energy is maximum positive",
+        "By convention, taking potential energy as zero at infinity and attractive forces pulling objects closer"
+      ],
+      "correctAnswer": "By convention, taking potential energy as zero at infinity and attractive forces pulling objects closer",
+      "conceptTag": "Gravitational Potential Energy",
+      "explanation": "With potential energy defined as zero at infinity, attractive gravitational forces mean energy is released as objects approach, resulting in negative values."
+    },
+    {
+      "id": "c11_phy_ch07_06",
+      "question": "What is a geostationary satellite?",
+      "options": [
+        "A satellite that remains stationary relative to the stars",
+        "A satellite with an orbital period equal to Earth's rotational period (24 hours) appearing stationary from Earth",
+        "A satellite placed at any height above the equator",
+        "A polar orbiting satellite"
+      ],
+      "correctAnswer": "A satellite with an orbital period equal to Earth's rotational period (24 hours) appearing stationary from Earth",
+      "conceptTag": "Satellites",
+      "explanation": "Geostationary satellites orbit in the equatorial plane with a 24-hour period matching Earth's rotation."
+    },
+    {
+      "id": "c11_phy_ch07_07",
+      "question": "If the radius of the Earth were to shrink by 1% with its mass remaining constant, how would the acceleration due to gravity on its surface change?",
+      "options": [
+        "Increase by 2%",
+        "Decrease by 2%",
+        "Increase by 1%",
+        "Remain unchanged"
+      ],
+      "correctAnswer": "Increase by 2%",
+      "conceptTag": "Gravity Variations",
+      "explanation": "Since $g = \\frac{GM}{R^2}$, taking logarithms and differentials gives $\\frac{\\Delta g}{g} = -2\\frac{\\Delta R}{R}$. A -1% change in $R$ results in a +2% change in $g$."
+    },
+    {
+      "id": "c11_phy_ch07_08",
+      "question": "The orbital velocity of a satellite very close to the Earth's surface is approximately:",
+      "options": [
+        "11.2 km/s",
+        "7.9 km/s",
+        "3.1 km/s",
+        "42 km/s"
+      ],
+      "correctAnswer": "7.9 km/s",
+      "conceptTag": "Orbital Velocity",
+      "explanation": "Orbital velocity $v_o = \\sqrt{gR} \\approx \\sqrt{9.8 \\times 6400000} \\approx 7.9\\text{ km/s}$."
+    },
+    {
+      "id": "c11_phy_ch08_01",
+      "question": "Hooke's law states that within the elastic limit:",
+      "options": [
+        "Stress is inversely proportional to strain",
+        "Stress is directly proportional to strain",
+        "Strain is constant",
+        "Stress is independent of strain"
+      ],
+      "correctAnswer": "Stress is directly proportional to strain",
+      "conceptTag": "Hooke's Law",
+      "explanation": "Hooke's law states that stress $\\propto$ strain, meaning $\\frac{\\text{Stress}}{\\text{Strain}} = \\text{Modulus of elasticity}$ within elastic limits."
+    },
+    {
+      "id": "c11_phy_ch08_02",
+      "question": "Why are springs made of steel and not of copper?",
+      "options": [
+        "Steel is cheaper than copper",
+        "Steel has a higher Young's modulus of elasticity than copper",
+        "Copper is magnetic",
+        "Steel has lower tensile strength"
+      ],
+      "correctAnswer": "Steel has a higher Young's modulus of elasticity than copper",
+      "conceptTag": "Elasticity Applications",
+      "explanation": "Steel is more elastic than copper (higher Young's modulus), meaning it recovers its original shape better and undergoes less permanent deformation under load."
+    },
+    {
+      "id": "c11_phy_ch08_03",
+      "question": "What is the theoretical lower and upper limit for Poisson's ratio ($\\sigma$) for an isotropic material?",
+      "options": [
+        "-1 to 0.5",
+        "0 to 1",
+        "-0.5 to 0.5",
+        "0.5 to 1"
+      ],
+      "correctAnswer": "-1 to 0.5",
+      "conceptTag": "Poisson's Ratio",
+      "explanation": "Thermodynamically, Poisson's ratio for stable isotropic solid materials lies between -1.0 and 0.5."
+    },
+    {
+      "id": "c11_phy_ch08_04",
+      "question": "The elastic potential energy stored per unit volume in a stretched wire is given by:",
+      "options": [
+        "$\\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain}$",
+        "$\\text{Stress} \\times \\text{Strain}$",
+        "$\\frac{1}{2} \\times \\text{Young's Modulus} \\times \\text{Strain}$",
+        "$\\frac{\\text{Stress}}{\\text{Strain}}$"
+      ],
+      "correctAnswer": "$\\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain}$",
+      "conceptTag": "Elastic Potential Energy",
+      "explanation": "Energy density (potential energy per unit volume) in a stretched wire is $\\frac{1}{2} \\times \\text{stress} \\times \\text{strain}$."
+    },
+    {
+      "id": "c11_phy_ch08_05",
+      "question": "Which modulus of elasticity is involved in changing the volume of a spherical body?",
+      "options": [
+        "Young's modulus",
+        "Modulus of rigidity",
+        "Bulk modulus",
+        "Poisson's ratio"
+      ],
+      "correctAnswer": "Bulk modulus",
+      "conceptTag": "Bulk Modulus",
+      "explanation": "Bulk modulus governs volumetric elasticity when uniform compressive stress is applied from all sides."
+    },
+    {
+      "id": "c11_phy_ch08_06",
+      "question": "A wire of length $L$ and cross-sectional area $A$ is stretched by $l$ under a load $F$. Young's modulus $Y$ is:",
+      "options": [
+        "$\\frac{FL}{Al}$",
+        "$\\frac{Fl}{AL}$",
+        "$\\frac{FA}{l L}$",
+        "$\\frac{Al}{FL}$"
+      ],
+      "correctAnswer": "$\\frac{FL}{Al}$",
+      "conceptTag": "Young's Modulus Formula",
+      "explanation": "Young's modulus $Y = \\frac{\\text{Stress}}{\\text{Strain}} = \\frac{F/A}{l/L} = \\frac{FL}{Al}$."
+    },
+    {
+      "id": "c11_phy_ch08_07",
+      "question": "The breaking stress of a wire depends upon:",
+      "options": [
+        "Length of the wire",
+        "Radius of the wire",
+        "Material of the wire",
+        "Shape of the cross-section"
+      ],
+      "correctAnswer": "Material of the wire",
+      "conceptTag": "Breaking Stress",
+      "explanation": "Breaking stress is a characteristic property of the material itself and does not depend on dimensions like length or radius."
+    },
+    {
+      "id": "c11_phy_ch08_08",
+      "question": "In a stress-strain curve, the point beyond which the material permanently deforms even after the removal of load is called:",
+      "options": [
+        "Proportional limit",
+        "Elastic limit (Yield point)",
+        "Fracture point",
+        "Ultimate tensile strength"
+      ],
+      "correctAnswer": "Elastic limit (Yield point)",
+      "conceptTag": "Stress-Strain Curve",
+      "explanation": "Beyond the yield point (elastic limit), the material exhibits permanent plastic deformation."
+    },
+    {
+      "id": "c11_phy_ch09_01",
+      "question": "Pascal's law states that:",
+      "options": [
+        "Pressure in a fluid at rest is the same at all points at the same horizontal level",
+        "Pressure applied to an enclosed liquid is transmitted undiminished to every portion of the liquid and walls of the container",
+        "Pressure decreases with depth",
+        "Buoyant force equals weight of displaced fluid"
+      ],
+      "correctAnswer": "Pressure applied to an enclosed liquid is transmitted undiminished to every portion of the liquid and walls of the container",
+      "conceptTag": "Pascal's Law",
+      "explanation": "Pascal's principle forms the basis of hydraulic lifts, stating that pressure changes in an enclosed fluid are transmitted undiminished."
+    },
+    {
+      "id": "c11_phy_ch09_02",
+      "question": "Why do small liquid drops tend to be spherical in shape?",
+      "options": [
+        "Due to atmospheric pressure",
+        "Due to surface tension minimizing surface area for a given volume",
+        "Due to gravity",
+        "Due to viscosity"
+      ],
+      "correctAnswer": "Due to surface tension minimizing surface area for a given volume",
+      "conceptTag": "Surface Tension",
+      "explanation": "Surface tension forces pull liquid molecules inward, minimizing surface area, and a sphere has the minimum surface area for a given volume."
+    },
+    {
+      "id": "c11_phy_ch09_03",
+      "question": "Bernoulli's theorem is a direct consequence of the conservation of:",
+      "options": [
+        "Linear momentum",
+        "Angular momentum",
+        "Energy",
+        "Mass"
+      ],
+      "correctAnswer": "Energy",
+      "conceptTag": "Bernoulli's Principle",
+      "explanation": "Bernoulli's equation represents the conservation of mechanical energy (pressure energy, kinetic energy, and potential energy per unit volume) for flowing ideal fluids."
+    },
+    {
+      "id": "c11_phy_ch09_04",
+      "question": "What is the excess pressure inside a spherical soap bubble of radius $r$ and surface tension $T$?",
+      "options": [
+        "$\\frac{T}{r}$",
+        "$\\frac{2T}{r}$",
+        "$\\frac{4T}{r}$",
+        "$\\frac{8T}{r}$"
+      ],
+      "correctAnswer": "$\\frac{4T}{r}$",
+      "conceptTag": "Excess Pressure",
+      "explanation": "A soap bubble has two free surfaces (inner and outer), so excess pressure $\\Delta P = \\frac{2 \\times 2T}{r} = \\frac{4T}{r}$. (For a liquid drop with one surface, it is $\\frac{2T}{r}$)."
+    },
+    {
+      "id": "c11_phy_ch09_05",
+      "question": "Terminal velocity $v_t$ of a small sphere falling through a viscous fluid is proportional to:",
+      "options": [
+        "$r$",
+        "$r^2$",
+        "$r^3$",
+        "$\\frac{1}{r}$"
+      ],
+      "correctAnswer": "$r^2$",
+      "conceptTag": "Stokes' Law & Terminal Velocity",
+      "explanation": "Stokes' law gives $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$, showing that terminal velocity is directly proportional to the square of the radius ($r^2$)."
+    },
+    {
+      "id": "c11_phy_ch09_06",
+      "question": "Reynolds number ($R_e$) used to distinguish streamline flow from turbulent flow is given by:",
+      "options": [
+        "$\\frac{\\rho v d}{\\eta}$",
+        "$\\frac{\\eta}{\\rho v d}$",
+        "$\\frac{v d}{\\rho \\eta}$",
+        "$\\frac{\\rho \\eta}{v d}$"
+      ],
+      "correctAnswer": "$\\frac{\\rho v d}{\\eta}$",
+      "conceptTag": "Reynolds Number",
+      "explanation": "Reynolds number is a dimensionless quantity defined as $R_e = \\frac{\\rho v d}{\\eta}$ (density $\\times$ velocity $\\times$ diameter / viscosity)."
+    },
+    {
+      "id": "c11_phy_ch09_07",
+      "question": "The rise of liquid in a capillary tube is due to:",
+      "options": [
+        "Viscosity",
+        "Surface tension",
+        "Atmospheric pressure alone",
+        "Buoyancy"
+      ],
+      "correctAnswer": "Surface tension",
+      "conceptTag": "Capillarity",
+      "explanation": "Capillary action (liquid rise or fall) is caused by surface tension forces acting along the line of contact between the liquid and the tube wall."
+    },
+    {
+      "id": "c11_phy_ch09_08",
+      "question": "SI unit of coefficient of viscosity is:",
+      "options": [
+        "N s / m^2 (or Pa s)",
+        "N / m",
+        "kg / m^2 s",
+        "J s / m^3"
+      ],
+      "correctAnswer": "N s / m^2 (or Pa s)",
+      "conceptTag": "Viscosity Units",
+      "explanation": "From Newton's law of viscosity $F = \\eta A \\frac{dv}{dz}$, the unit of $\\eta$ is $\\frac{\\text{N}}{\\text{m}^2 \\cdot \\text{s}^{-1}} = \\text{N s/m}^2$ or Pa s."
+    },
+    {
+      "id": "c11_phy_ch10_01",
+      "question": "Convert 300 K into Celsius scale:",
+      "options": [
+        "27°C",
+        "37°C",
+        "273°C",
+        "543°C"
+      ],
+      "correctAnswer": "27°C",
+      "conceptTag": "Temperature Scales",
+      "explanation": "$T(°C) = T(K) - 273.15 = 300 - 273 = 27°C$."
+    },
+    {
+      "id": "c11_phy_ch10_02",
+      "question": "Coefficients of linear expansion ($\\alpha$), superficial expansion ($\\beta$), and volume expansion ($\\gamma$) are related as:",
+      "options": [
+        "$\\alpha : \\beta : \\gamma = 1 : 2 : 3$",
+        "$\\alpha : \\beta : \\gamma = 1 : 1 : 1$",
+        "$\\alpha : \\beta : \\gamma = 3 : 2 : 1$",
+        "$\\alpha : \\beta : \\gamma = 1 : 4 : 9$"
+      ],
+      "correctAnswer": "$\\alpha : \\beta : \\gamma = 1 : 2 : 3$",
+      "conceptTag": "Thermal Expansion",
+      "explanation": "For isotropic solids, area expansion $\\beta = 2\\alpha$ and volume expansion $\\gamma = 3\\alpha$, giving the ratio $1 : 2 : 3$."
+    },
+    {
+      "id": "c11_phy_ch10_03",
+      "question": "State Wien's displacement law. The wavelength corresponding to maximum energy emitted by a blackbody is:",
+      "options": [
+        "Directly proportional to absolute temperature",
+        "Inversely proportional to absolute temperature",
+        "Independent of temperature",
+        "Proportional to $T^4$"
+      ],
+      "correctAnswer": "Inversely proportional to absolute temperature",
+      "conceptTag": "Wien's Law",
+      "explanation": "Wien's law states $\\lambda_m T = \\text{constant}$, meaning $\\lambda_m$ is inversely proportional to absolute temperature $T$."
+    },
+    {
+      "id": "c11_phy_ch10_04",
+      "question": "Newton's law of cooling is a special case of:",
+      "options": [
+        "Stefan-Boltzmann law",
+        "Kirchhoff's law",
+        "Planck's law",
+        "Boyle's law"
+      ],
+      "correctAnswer": "Stefan-Boltzmann law",
+      "conceptTag": "Newton's Law of Cooling",
+      "explanation": "Newton's law of cooling applies when the temperature difference between the body and surroundings is small, derived as an approximation of the Stefan-Boltzmann radiation law."
+    },
+    {
+      "id": "c11_phy_ch10_05",
+      "question": "Thermal conductivity of a material depends upon:",
+      "options": [
+        "Length and cross-sectional area",
+        "Nature of the material",
+        "Temperature difference across ends",
+        "Time of heat flow"
+      ],
+      "correctAnswer": "Nature of the material",
+      "conceptTag": "Thermal Conductivity",
+      "explanation": "Coefficient of thermal conductivity ($K$) is a characteristic material property independent of dimensions or temperature gradients."
+    },
+    {
+      "id": "c11_phy_ch10_06",
+      "question": "A metal rod of length 50 cm is heated from 0°C to 100°C. What is the change in its length if $\\alpha = 1.2 \\times 10^{-5}\\text{ K}^{-1}$?",
+      "options": [
+        "0.06 cm",
+        "0.6 cm",
+        "0.006 cm",
+        "1.2 cm"
+      ],
+      "correctAnswer": "0.06 cm",
+      "conceptTag": "Thermal Expansion Calculation",
+      "explanation": "$\\Delta L = L \\alpha \\Delta T = 50\\text{ cm} \\times 1.2 \\times 10^{-5} \\times 100 = 50 \\times 1.2 \\times 10^{-3} = 0.06\\text{ cm}$."
+    },
+    {
+      "id": "c11_phy_ch10_07",
+      "question": "The SI unit of specific heat capacity is:",
+      "options": [
+        "J / kg K",
+        "J / K",
+        "J kg / K",
+        "W / m K"
+      ],
+      "correctAnswer": "J / kg K",
+      "conceptTag": "Specific Heat Capacity",
+      "explanation": "Specific heat capacity is heat energy per unit mass per unit temperature change, measured in J/(kg·K)."
+    },
+    {
+      "id": "c11_phy_ch10_08",
+      "question": "Good absorbers of radiation are:",
+      "options": [
+        "Poor emitters",
+        "Good emitters",
+        "Non-reflectors only",
+        "Transparent bodies"
+      ],
+      "correctAnswer": "Good emitters",
+      "conceptTag": "Kirchhoff's Law",
+      "explanation": "According to Kirchhoff's law, good absorbers of thermal radiation are also good emitters at a given temperature."
+    },
+    {
+      "id": "c11_phy_ch11_01",
+      "question": "The zeroth law of thermodynamics leads to the concept of:",
+      "options": [
+        "Internal energy",
+        "Temperature",
+        "Entropy",
+        "Work"
+      ],
+      "correctAnswer": "Temperature",
+      "conceptTag": "Zeroth Law",
+      "explanation": "The zeroth law establishes thermal equilibrium and introduces temperature as a property shared by systems in thermal equilibrium."
+    },
+    {
+      "id": "c11_phy_ch11_02",
+      "question": "The first law of thermodynamics is essentially the principle of conservation of:",
+      "options": [
+        "Momentum",
+        "Energy",
+        "Mass",
+        "Heat"
+      ],
+      "correctAnswer": "Energy",
+      "conceptTag": "First Law of Thermodynamics",
+      "explanation": "The first law ($\\Delta Q = \\Delta U + \\Delta W$) states that heat supplied to a system is conserved as internal energy change and mechanical work done."
+    },
+    {
+      "id": "c11_phy_ch11_03",
+      "question": "In an adiabatic process for an ideal gas, which of the following relations holds true?",
+      "options": [
+        "$PV = \\text{constant}$",
+        "$P V^{\\gamma} = \\text{constant}$",
+        "$P / V = \\text{constant}$",
+        "$T V = \\text{constant}$"
+      ],
+      "correctAnswer": "$P V^{\\gamma} = \\text{constant}$",
+      "conceptTag": "Adiabatic Process",
+      "explanation": "For adiabatic expansion or compression ($Q = 0$), ideal gases satisfy $PV^{\\gamma} = \\text{constant}$ where $\\gamma = C_p/C_v$."
+    },
+    {
+      "id": "c11_phy_ch11_04",
+      "question": "Why is the specific heat of a gas at constant pressure ($C_p$) greater than at constant volume ($C_v$)?",
+      "options": [
+        "Because work is done in expanding the gas at constant pressure",
+        "Because volume is constant in $C_v$",
+        "Because temperature changes faster at constant pressure",
+        "Pressure requires more heat"
+      ],
+      "correctAnswer": "Because work is done in expanding the gas at constant pressure",
+      "conceptTag": "Molar Heat Capacities",
+      "explanation": "At constant pressure, heat must supply both internal energy increase and external work of expansion, making $C_p > C_v$."
+    },
+    {
+      "id": "c11_phy_ch11_05",
+      "question": "What is the efficiency of a Carnot engine operating between temperatures 500 K and 300 K?",
+      "options": [
+        "40%",
+        "60%",
+        "30%",
+        "50%"
+      ],
+      "correctAnswer": "40%",
+      "conceptTag": "Carnot Engine Efficiency",
+      "explanation": "Efficiency $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{300}{500} = 1 - 0.6 = 0.4$, which is 40%."
+    },
+    {
+      "id": "c11_phy_ch11_06",
+      "question": "The Kelvin-Planck statement of the second law of thermodynamics deals with:",
+      "options": [
+        "Heat flow from cold to hot bodies",
+        "Impossibility of a 100% efficient engine converting heat entirely into work",
+        "Conservation of energy",
+        "Absolute zero temperature"
+      ],
+      "correctAnswer": "Impossibility of a 100% efficient engine converting heat entirely into work",
+      "conceptTag": "Second Law of Thermodynamics",
+      "explanation": "The Kelvin-Planck statement rules out thermal engines that absorb heat from a single reservoir and convert it completely into work without any exhaust."
+    },
+    {
+      "id": "c11_phy_ch11_07",
+      "question": "During an isothermal process, the internal energy of an ideal gas:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Becomes zero"
+      ],
+      "correctAnswer": "Remains constant",
+      "conceptTag": "Isothermal Process",
+      "explanation": "Since temperature is constant in an isothermal process and internal energy of an ideal gas depends only on temperature, internal energy remains constant ($\\Delta U = 0$)."
+    },
+    {
+      "id": "c11_phy_ch11_08",
+      "question": "In an isochoric process:",
+      "options": [
+        "Pressure is constant",
+        "Volume is constant, so work done is zero",
+        "Temperature is constant",
+        "No heat is exchanged"
+      ],
+      "correctAnswer": "Volume is constant, so work done is zero",
+      "conceptTag": "Isochoric Process",
+      "explanation": "An isochoric process occurs at constant volume ($\\Delta V = 0$), meaning work $W = P \\Delta V = 0$."
+    },
+    {
+      "id": "c11_phy_ch12_01",
+      "question": "The root mean square (rms) speed of gas molecules is directly proportional to:",
+      "options": [
+        "Absolute temperature $T$",
+        "Square root of absolute temperature $\\sqrt{T}$",
+        "Square of temperature $T^2$",
+        "Pressure $P$"
+      ],
+      "correctAnswer": "Square root of absolute temperature $\\sqrt{T}$",
+      "conceptTag": "Kinetic Theory & RMS Speed",
+      "explanation": "RMS speed $v_{rms} = \\sqrt{\\frac{3RT}{M}}$, showing it is proportional to $\\sqrt{T}$."
+    },
+    {
+      "id": "c11_phy_ch12_02",
+      "question": "State the law of equipartition of energy. The energy associated with each degree of freedom per molecule is:",
+      "options": [
+        "$k_B T$",
+        "\\frac{1}{2} k_B T",
+        "\\frac{3}{2} k_B T",
+        "RT"
+      ],
+      "correctAnswer": "\\frac{1}{2} k_B T",
+      "conceptTag": "Equipartition of Energy",
+      "explanation": "According to the law of equipartition of energy, each translational or rotational degree of freedom has an associated average energy of $\\frac{1}{2}k_B T$ per molecule."
+    },
+    {
+      "id": "c11_phy_ch12_03",
+      "question": "What is the number of degrees of freedom for a rigid diatomic molecule (like $O_2$ or $N_2$) at room temperature?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "5",
+      "conceptTag": "Degrees of Freedom",
+      "explanation": "A rigid diatomic molecule has 3 translational and 2 rotational degrees of freedom, totaling 5 degrees of freedom at room temperature."
+    },
+    {
+      "id": "c11_phy_ch12_04",
+      "question": "Mean free path of gas molecules is inversely proportional to:",
+      "options": [
+        "Pressure",
+        "Molecular diameter squared ($d^2$)",
+        "Absolute temperature",
+        "Density"
+      ],
+      "correctAnswer": "Molecular diameter squared ($d^2$)",
+      "conceptTag": "Mean Free Path",
+      "explanation": "Mean free path $\\lambda = \\frac{1}{\\sqrt{2}\\pi n d^2}$, showing inverse proportionality to number density $n$ and $d^2$."
+    },
+    {
+      "id": "c11_phy_ch12_05",
+      "question": "Why do real gases deviate from ideal gas behavior at high pressure and low temperature?",
+      "options": [
+        "Intermolecular forces and molecular volume become significant",
+        "Molecules stop moving",
+        "Collisions become inelastic",
+        "Gas molecules dissociate"
+      ],
+      "correctAnswer": "Intermolecular forces and molecular volume become significant",
+      "conceptTag": "Real Gases",
+      "explanation": "At high pressure and low temperature, intermolecular forces and the finite volume of gas molecules cannot be neglected, violating ideal gas assumptions."
+    },
+    {
+      "id": "c11_phy_ch12_06",
+      "question": "The pressure exerted by an ideal gas is given by:",
+      "options": [
+        "\\frac{1}{3} \\rho v_{rms}^2",
+        "\\frac{1}{2} \\rho v_{rms}^2",
+        "\\rho v_{rms}",
+        "3 \\rho v_{rms}^2"
+      ],
+      "correctAnswer": "\\frac{1}{3} \\rho v_{rms}^2",
+      "conceptTag": "Gas Pressure Formula",
+      "explanation": "Kinetic theory derives gas pressure as $P = \\frac{1}{3} \\frac{M}{V} v_{rms}^2 = \\frac{1}{3}\\rho v_{rms}^2$."
+    },
+    {
+      "id": "c11_phy_ch12_07",
+      "question": "What is the internal energy of 1 mole of a monoatomic gas at temperature $T$?",
+      "options": [
+        "\\frac{1}{2} RT",
+        "\\frac{3}{2} RT",
+        "\\frac{5}{2} RT",
+        "3 RT"
+      ],
+      "correctAnswer": "\\frac{3}{2} RT",
+      "conceptTag": "Internal Energy",
+      "explanation": "A monoatomic gas has 3 degrees of freedom, so internal energy per mole is $U = 3 \\times (\\frac{1}{2}RT) = \\frac{3}{2}RT$."
+    },
+    {
+      "id": "c11_phy_ch12_08",
+      "question": "Boyle's law ($PV = \\text{constant}$) is valid for a fixed mass of gas under:",
+      "options": [
+        "Constant temperature",
+        "Constant pressure",
+        "Constant volume",
+        "Adiabatic conditions"
+      ],
+      "correctAnswer": "Constant temperature",
+      "conceptTag": "Gas Laws",
+      "explanation": "Boyle's law describes the inverse relationship between pressure and volume at a constant temperature."
+    },
+    {
+      "id": "c11_phy_ch13_01",
+      "question": "The displacement of a particle in simple harmonic motion is given by $x = 5 \\sin(20t + \\pi/4)$. What is its amplitude?",
+      "options": [
+        "5",
+        "20",
+        "\\pi/4",
+        "10"
+      ],
+      "correctAnswer": "5",
+      "conceptTag": "Simple Harmonic Motion",
+      "explanation": "In standard SHM form $x = A \\sin(\\omega t + \\phi)$, the amplitude $A$ is the coefficient of the sine term, which is 5."
+    },
+    {
+      "id": "c11_phy_ch13_02",
+      "question": "The time period of a simple pendulum of length $L$ is given by:",
+      "options": [
+        "$2\\pi \\sqrt{\\frac{g}{L}}$",
+        "$2\\pi \\sqrt{\\frac{L}{g}}$",
+        "\\frac{1}{2\\pi} \\sqrt{\\frac{L}{g}}$",
+        "2\\pi \\frac{L}{g}"
+      ],
+      "correctAnswer": "$2\\pi \\sqrt{\\frac{L}{g}}$",
+      "conceptTag": "Simple Pendulum",
+      "explanation": "Solving torque equations for a pendulum for small angles yields time period $T = 2\\pi \\sqrt{\\frac{L}{g}}$."
+    },
+    {
+      "id": "c11_phy_ch13_03",
+      "question": "Total mechanical energy of a particle executing SHM with amplitude $A$ and angular frequency $\\omega$ is proportional to:",
+      "options": [
+        "$A$",
+        "$A^2$",
+        "\\sqrt{A}",
+        "$A^{-1}$"
+      ],
+      "correctAnswer": "$A^2$",
+      "conceptTag": "Energy in SHM",
+      "explanation": "Total energy in SHM is given by $E = \\frac{1}{2}mA^2\\omega^2$, which is directly proportional to $A^2$."
+    },
+    {
+      "id": "c11_phy_ch13_04",
+      "question": "At what position is the velocity of a particle executing SHM maximum?",
+      "options": [
+        "At the extreme positions",
+        "At the mean position",
+        "Halfway between mean and extreme",
+        "Velocity is constant everywhere"
+      ],
+      "correctAnswer": "At the mean position",
+      "conceptTag": "SHM Velocity",
+      "explanation": "Velocity in SHM is $v = \\omega \\sqrt{A^2 - x^2}$. At the mean position ($x = 0$), velocity is maximum ($v_{max} = A\\omega$)."
+    },
+    {
+      "id": "c11_phy_ch13_05",
+      "question": "What is a damped oscillation?",
+      "options": [
+        "An oscillation with constant amplitude",
+        "An oscillation whose amplitude decreases with time due to resistive forces",
+        "An oscillation with increasing frequency",
+        "Resonance condition"
+      ],
+      "correctAnswer": "An oscillation whose amplitude decreases with time due to resistive forces",
+      "conceptTag": "Damped Oscillations",
+      "explanation": "Damped oscillations experience energy dissipation (such as air resistance or friction), causing their amplitude to decay over time."
+    },
+    {
+      "id": "c11_phy_ch13_06",
+      "question": "Phenomenon of resonance occurs when:",
+      "options": [
+        "Driving frequency equals the natural frequency of the system",
+        "Damping is maximum",
+        "External force is zero",
+        "Time period is infinite"
+      ],
+      "correctAnswer": "Driving frequency equals the natural frequency of the system",
+      "conceptTag": "Resonance",
+      "explanation": "Resonance occurs when the frequency of an external periodic force matches the natural frequency of the oscillating system, resulting in maximum amplitude response."
+    },
+    {
+      "id": "c11_phy_ch13_07",
+      "question": "The acceleration of a particle executing SHM is proportional to:",
+      "options": [
+        "Displacement $x$",
+        "$-x$",
+        "$x^2$",
+        "Velocity"
+      ],
+      "correctAnswer": "$-x$",
+      "conceptTag": "Defining Equation of SHM",
+      "explanation": "SHM is defined by the acceleration condition $a = -\\omega^2 x$, meaning acceleration is proportional to negative displacement."
+    },
+    {
+      "id": "c11_phy_ch13_08",
+      "question": "The phase difference between displacement and velocity in SHM is:",
+      "options": [
+        "0",
+        "\\pi/2 radians",
+        "\\pi radians",
+        "2\\pi radians"
+      ],
+      "correctAnswer": "\\pi/2 radians",
+      "conceptTag": "Phase in SHM",
+      "explanation": "Displacement is proportional to $\\sin(\\omega t)$ while velocity is proportional to $\\cos(\\omega t) = \\sin(\\omega t + \\pi/2)$, giving a phase difference of $\\pi/2$."
+    },
+    {
+      "id": "c11_phy_ch14_01",
+      "question": "Transverse waves differ from longitudinal waves in that transverse waves exhibit:",
+      "options": [
+        "Compression and rarefaction",
+        "Polarization",
+        "Interference",
+        "Reflection"
+      ],
+      "correctAnswer": "Polarization",
+      "conceptTag": "Wave Types",
+      "explanation": "Transverse waves oscillate perpendicular to wave propagation and can be polarized, whereas longitudinal waves oscillate parallel and cannot be polarized."
+    },
+    {
+      "id": "c11_phy_ch14_02",
+      "question": "In a stationary (standing) wave, nodes are points where:",
+      "options": [
+        "Amplitude is maximum",
+        "Amplitude is minimum (zero)",
+        "Particle velocity is maximum",
+        "Pressure variation is zero"
+      ],
+      "correctAnswer": "Amplitude is minimum (zero)",
+      "conceptTag": "Stationary Waves",
+      "explanation": "Nodes are points of destructive interference in standing waves where displacement amplitude is permanently zero."
+    },
+    {
+      "id": "c11_phy_ch14_03",
+      "question": "What is the fundamental frequency of an open organ pipe of length $L$ (speed of sound $v$)?",
+      "options": [
+        "\\frac{v}{4L}",
+        "\\frac{v}{2L}",
+        "\\frac{2v}{L}",
+        "\\frac{v}{L}"
+      ],
+      "correctAnswer": "\\frac{v}{2L}",
+      "conceptTag": "Organ Pipes",
+      "explanation": "An open organ pipe has displacement antinodes at both ends, giving fundamental wavelength $\\lambda = 2L$ and frequency $f = \\frac{v}{\\lambda} = \\frac{v}{2L}$."
+    },
+    {
+      "id": "c11_phy_ch14_04",
+      "question": "Beats are produced when two sound waves of:",
+      "options": [
+        "Equal frequencies and phases travel together",
+        "Slightly different frequencies interfere",
+        "Very high frequencies meet",
+        "Perpendicular directions cross"
+      ],
+      "correctAnswer": "Slightly different frequencies interfere",
+      "conceptTag": "Beats",
+      "explanation": "Superposition of two sound waves with slightly different frequencies results in periodic constructive and destructive interference perceived as beats."
+    },
+    {
+      "id": "c11_phy_ch14_05",
+      "question": "Laplace correction in the formula for the speed of sound in gases accounts for:",
+      "options": [
+        "Isothermal nature of sound propagation",
+        "Adiabatic nature of rapid pressure/temperature changes in sound waves",
+        "Humidity of air",
+        "Wind velocity"
+      ],
+      "correctAnswer": "Adiabatic nature of rapid pressure/temperature changes in sound waves",
+      "conceptTag": "Laplace Correction",
+      "explanation": "Newton assumed isothermal sound propagation, but sound compressions/rarefactions occur too quickly for heat exchange, making the process adiabatic (Laplace correction factor $\\gamma$)."
+    },
+    {
+      "id": "c11_phy_ch14_06",
+      "question": "A sound wave has a frequency of 500 Hz and a wavelength of 0.6 m. What is its wave speed?",
+      "options": [
+        "250 m/s",
+        "300 m/s",
+        "330 m/s",
+        "833 m/s"
+      ],
+      "correctAnswer": "300 m/s",
+      "conceptTag": "Wave Equation",
+      "explanation": "Wave speed $v = f\\lambda = 500\\text{ Hz} \\times 0.6\\text{ m} = 300\\text{ m/s}$."
+    },
+    {
+      "id": "c11_phy_ch14_07",
+      "question": "The distance between consecutive nodes in a stationary wave is equal to:",
+      "options": [
+        "\\lambda",
+        "\\frac{\\lambda}{2}",
+        "\\frac{\\lambda}{4}",
+        "2\\lambda"
+      ],
+      "correctAnswer": "\\frac{\\lambda}{2}",
+      "conceptTag": "Stationary Waves Properties",
+      "explanation": "In standing waves, the distance between two successive nodes (or two successive antinodes) is half a wavelength ($\\frac{\\lambda}{2}$)."
+    },
+    {
+      "id": "c11_phy_ch14_08",
+      "question": "Which of the following factors does not affect the speed of sound in a gas?",
+      "options": [
+        "Temperature of the gas",
+        "Pressure of the gas (at constant temperature)",
+        "Density of the gas",
+        "Nature of the gas (monoatomic vs diatomic)"
+      ],
+      "correctAnswer": "Pressure of the gas (at constant temperature)",
+      "conceptTag": "Speed of Sound",
+      "explanation": "By ideal gas law, pressure changes proportional to density at constant temperature, so pressure changes cancel out, making sound speed independent of pressure at constant temperature."
+    }
+  ]
+}

@@ -1,0 +1,1221 @@
+{
+  "Chemical Reactions and Equations": [
+    {
+      "id": "c10_sci_cre_01",
+      "question": "Which of the following observations confirms that a chemical reaction has definitely taken place?",
+      "options": [
+        "Evolution of a new gas with distinct chemical properties",
+        "Only change in the physical state of matter",
+        "Dissolution of sugar in water",
+        "Melting of wax"
+      ],
+      "correctAnswer": "Evolution of a new gas with distinct chemical properties",
+      "conceptTag": "Chemical vs Physical Change Misconception",
+      "explanation": "Evolution of a new chemically distinct gas or formation of a precipitate indicates bond breaking and forming, whereas melting or dissolution are physical changes."
+    },
+    {
+      "id": "c10_sci_cre_02",
+      "question": "In the reaction: CuO + H₂ → Cu + H₂O, which substance is oxidized?",
+      "options": ["H₂", "CuO", "Cu", "H₂O"],
+      "correctAnswer": "H₂",
+      "conceptTag": "Oxidation and Reduction Identification",
+      "explanation": "Hydrogen gains oxygen to form H₂O, which means H₂ is oxidized. CuO loses oxygen and is reduced to Cu."
+    },
+    {
+      "id": "c10_sci_cre_03",
+      "question": "Why is respiration considered an exothermic reaction?",
+      "options": [
+        "Glucose oxidizes to release energy in the form of ATP and heat",
+        "It absorbs solar energy to break chemical bonds",
+        "It requires heat from the surroundings to proceed",
+        "No energy transformation occurs during respiration"
+      ],
+      "correctAnswer": "Glucose oxidizes to release energy in the form of ATP and heat",
+      "conceptTag": "Exothermic vs Endothermic Biochemical Processes",
+      "explanation": "Respiration is the cellular combustion/oxidation of glucose producing CO₂, H₂O, and releasing substantial heat/ATP energy."
+    },
+    {
+      "id": "c10_sci_cre_04",
+      "question": "What is observed when quicklime (CaO) is added to water?",
+      "options": [
+        "A vigorous reaction occurs releasing a large amount of heat to form slaked lime",
+        "The container cools down due to endothermic absorption",
+        "A clear blue solution forms without any heat change",
+        "Hydrogen gas bubbles evolve with a pop sound"
+      ],
+      "correctAnswer": "A vigorous reaction occurs releasing a large amount of heat to form slaked lime",
+      "conceptTag": "Combination and Exothermic Reactions",
+      "explanation": "CaO + H₂O → Ca(OH)₂ + Heat. It is an intense combination reaction that releases significant thermal energy."
+    },
+    {
+      "id": "c10_sci_cre_05",
+      "question": "What type of reaction occurs when silver chloride (AgCl) turns grey in sunlight?",
+      "options": [
+        "Photochemical decomposition",
+        "Displacement reaction",
+        "Thermal combination",
+        "Precipitation reaction"
+      ],
+      "correctAnswer": "Photochemical decomposition",
+      "conceptTag": "Photolytic Decomposition",
+      "explanation": "Sunlight breaks down white AgCl into grey elemental silver (Ag) and chlorine gas (Cl₂): 2AgCl → 2Ag + Cl₂."
+    },
+    {
+      "id": "c10_sci_cre_06",
+      "question": "Why do iron nails turn brown and copper sulphate solution fade from blue to light green when nails are dipped in it?",
+      "options": [
+        "Iron displaces copper from CuSO₄ because iron is more reactive",
+        "Copper oxidizes iron to form iron oxide",
+        "It is a neutralisation reaction forming a salt",
+        "Iron nail absorbs the blue pigment of copper sulphate"
+      ],
+      "correctAnswer": "Iron displaces copper from CuSO₄ because iron is more reactive",
+      "conceptTag": "Reactivity Series and Single Displacement",
+      "explanation": "Fe + CuSO₄ → FeSO₄ + Cu. Fe is above Cu in the activity series, so it displaces Cu, forming green FeSO₄ and reddish-brown Cu deposit."
+    },
+    {
+      "id": "c10_sci_cre_07",
+      "question": "Which gas is flushed into packets of potato chips to prevent rancidity?",
+      "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Hydrogen"],
+      "correctAnswer": "Nitrogen",
+      "conceptTag": "Prevention of Rancidity and Oxidation",
+      "explanation": "Nitrogen is an unreactive inert gas that displaces oxygen, preventing the oxidation and foul odor/taste of oils and fats."
+    },
+    {
+      "id": "c10_sci_cre_08",
+      "question": "Balancing a chemical equation is fundamentally based on which law of nature?",
+      "options": [
+        "Law of Conservation of Mass",
+        "Law of Constant Proportions",
+        "Law of Multiple Proportions",
+        "Avogadro's Law"
+      ],
+      "correctAnswer": "Law of Conservation of Mass",
+      "conceptTag": "Conservation of Mass in Stoichiometry",
+      "explanation": "Mass can neither be created nor destroyed in a chemical reaction; hence total atoms of each element on reactant side must equal the product side."
+    }
+  ],
+
+  "Acids, Bases and Salts": [
+    {
+      "id": "c10_sci_abs_01",
+      "question": "Why does dry HCl gas not change the color of dry blue litmus paper?",
+      "options": [
+        "HCl dissociates into H⁺ ions only in the presence of water/moisture",
+        "Dry litmus paper cannot absorb gas molecules",
+        "HCl is basic in gaseous form",
+        "Litmus paper only reacts with organic acids"
+      ],
+      "correctAnswer": "HCl dissociates into H⁺ ions only in the presence of water/moisture",
+      "conceptTag": "Ionization of Acids in Aqueous Media",
+      "explanation": "Acidic behavior is caused by hydronium (H₃O⁺) or H⁺ ions. In dry conditions, HCl molecules do not dissociate, exhibiting no acidic property."
+    },
+    {
+      "id": "c10_sci_abs_02",
+      "question": "What is the pH value of a completely neutral aqueous solution at 25°C?",
+      "options": ["7", "0", "14", "1"],
+      "correctAnswer": "7",
+      "conceptTag": "Neutral pH & Hydronium Equilibrium",
+      "explanation": "At standard temperature, pure water has [H⁺] = [OH⁻] = 10⁻⁷ M, resulting in pH 7."
+    },
+    {
+      "id": "c10_sci_abs_03",
+      "question": "Which gas is liberated when an active metal reacts with dilute hydrochloric acid?",
+      "options": ["Hydrogen gas", "Oxygen gas", "Carbon dioxide gas", "Chlorine gas"],
+      "correctAnswer": "Hydrogen gas",
+      "conceptTag": "Acid-Metal Reaction Product",
+      "explanation": "Metal + Dilute Acid → Metal Salt + H₂ gas (which burns with a characteristic pop sound)."
+    },
+    {
+      "id": "c10_sci_abs_04",
+      "question": "What happens when excess carbon dioxide is passed through limewater?",
+      "options": [
+        "The milkiness disappears due to the formation of soluble Ca(HCO₃)₂",
+        "The milkiness turns dark yellow",
+        "A thick black precipitate settles down",
+        "The solution solidifies completely"
+      ],
+      "correctAnswer": "The milkiness disappears due to the formation of soluble Ca(HCO₃)₂",
+      "conceptTag": "Limewater Test and Excess CO₂ Effect",
+      "explanation": "Initial milkiness is due to insoluble CaCO₃. Excess CO₂ converts it into soluble calcium hydrogen carbonate: CaCO₃ + H₂O + CO₂ → Ca(HCO₃)₂."
+    },
+    {
+      "id": "c10_sci_abs_05",
+      "question": "What is the chemical formula of Plaster of Paris?",
+      "options": [
+        "CaSO₄ · ½ H₂O",
+        "CaSO₄ · 2 H₂O",
+        "CaSO₄ · 5 H₂O",
+        "CaSO₄ · 10 H₂O"
+      ],
+      "correctAnswer": "CaSO₄ · ½ H₂O",
+      "conceptTag": "Water of Crystallization (Gypsum vs POP)",
+      "explanation": "Plaster of Paris is calcium sulphate hemihydrate (CaSO₄ · ½ H₂O), formed by heating gypsum (CaSO₄ · 2 H₂O) to 373 K."
+    },
+    {
+      "id": "c10_sci_abs_06",
+      "question": "Tooth decay starts when the pH in the oral cavity falls below:",
+      "options": ["5.5", "7.0", "6.5", "8.0"],
+      "correctAnswer": "5.5",
+      "conceptTag": "pH in Tooth Enamel Degradation",
+      "explanation": "Enamel (calcium hydroxyapatite) corrodes when bacteria degrade sugar residues, dropping mouth pH below 5.5."
+    },
+    {
+      "id": "c10_sci_abs_07",
+      "question": "Which of the following salts produces an acidic aqueous solution when dissolved in water?",
+      "options": ["NH₄Cl", "NaCl", "CH₃COONa", "K₂SO₄"],
+      "correctAnswer": "NH₄Cl",
+      "conceptTag": "Hydrolysis of Strong Acid - Weak Base Salts",
+      "explanation": "NH₄Cl is formed from a strong acid (HCl) and a weak base (NH₄OH); its cation undergoes hydrolysis, yielding an acidic solution (pH < 7)."
+    },
+    {
+      "id": "c10_sci_abs_08",
+      "question": "Why is adding water to concentrated acid strictly avoided, and instead acid is added to water with constant stirring?",
+      "options": [
+        "Dilution is highly exothermic and can cause dangerous acid splashing",
+        "Acid will evaporate instantly without mixing",
+        "Water loses its density and freezes",
+        "The chemical reaction turns endothermic"
+      ],
+      "correctAnswer": "Dilution is highly exothermic and can cause dangerous acid splashing",
+      "conceptTag": "Safety and Enthalpy of Acid Dilution",
+      "explanation": "Adding water to concentrated acid releases sudden localized heat that can boil the water instantly and splatter corrosive acid onto the user."
+    }
+  ],
+
+  "Metals and Non-metals": [
+    {
+      "id": "c10_sci_mnm_01",
+      "question": "Which metal is liquid at standard room temperature?",
+      "options": ["Mercury", "Gallium", "Bromine", "Sodium"],
+      "correctAnswer": "Mercury",
+      "conceptTag": "Physical Exceptions in Metals",
+      "explanation": "Mercury (Hg) is the only metallic element that remains liquid at room temperature (Bromine is a liquid non-metal)."
+    },
+    {
+      "id": "c10_sci_mnm_02",
+      "question": "Why are sodium and potassium stored under kerosene oil?",
+      "options": [
+        "They react vigorously with moisture and oxygen in the air catching fire",
+        "They dissolve completely in atmospheric nitrogen",
+        "Kerosene enhances their metallic electrical conductivity",
+        "To prevent them from evaporating at ambient temperatures"
+      ],
+      "correctAnswer": "They react vigorously with moisture and oxygen in the air catching fire",
+      "conceptTag": "Alkali Metal High Reactivity",
+      "explanation": "Sodium and potassium react violently and exothermically with atmospheric O₂ and water vapor, producing flammable hydrogen gas."
+    },
+    {
+      "id": "c10_sci_mnm_03",
+      "question": "Which non-metal is lustrous and has a shiny surface?",
+      "options": ["Iodine", "Carbon (Charcoal)", "Sulphur", "Phosphorus"],
+      "correctAnswer": "Iodine",
+      "conceptTag": "Non-metal Physical Property Exceptions",
+      "explanation": "Although non-metals are typically dull, Iodine crystals possess a metallic purplish-grey luster."
+    },
+    {
+      "id": "c10_sci_mnm_04",
+      "question": "What is an amphoteric oxide?",
+      "options": [
+        "An oxide that reacts with both acids and bases to produce salt and water",
+        "An oxide that dissolves only in organic solvents",
+        "An oxide that has a neutral pH of 7",
+        "An oxide that turns blue litmus red only"
+      ],
+      "correctAnswer": "An oxide that reacts with both acids and bases to produce salt and water",
+      "conceptTag": "Amphoteric Nature of Metal Oxides",
+      "explanation": "Oxides like Al₂O₃ and ZnO react with both acids (behaving as a base) and strong alkalis (behaving as an acid) to form salt and water."
+    },
+    {
+      "id": "c10_sci_mnm_05",
+      "question": "Which method is used to prevent the rusting of iron by coating it with a thin layer of zinc?",
+      "options": ["Galvanisation", "Anodising", "Electroplating with tin", "Alloying with copper"],
+      "correctAnswer": "Galvanisation",
+      "conceptTag": "Corrosion Prevention (Galvanisation)",
+      "explanation": "Galvanisation applies a sacrificial zinc layer over iron. Even if scratched, zinc oxidizes preferentially before iron."
+    },
+    {
+      "id": "c10_sci_mnm_06",
+      "question": "What type of bond is formed when electrons are completely transferred from a metal atom to a non-metal atom?",
+      "options": ["Ionic (Electrovalent) bond", "Covalent bond", "Coordinate bond", "Metallic bond"],
+      "correctAnswer": "Ionic (Electrovalent) bond",
+      "conceptTag": "Ionic Bonding Mechanism",
+      "explanation": "Metals lose electrons to form positive cations, while non-metals gain them to form negative anions, held by electrostatic attraction."
+    },
+    {
+      "id": "c10_sci_mnm_07",
+      "question": "Why do ionic compounds conduct electricity in molten state or aqueous solution but NOT in solid state?",
+      "options": [
+        "Ions are locked in rigid lattice positions in solid state but free to move in liquid state",
+        "Electrons disappear in solid ionic crystals",
+        "Solid salts do not have charged particles",
+        "Water creates new metal atoms"
+      ],
+      "correctAnswer": "Ions are locked in rigid lattice positions in solid state but free to move in liquid state",
+      "conceptTag": "Electrical Conductivity of Ionic Crystals",
+      "explanation": "Solid ionic compounds have strong electrostatic lattice forces keeping ions immobile. Molten state or hydration frees ions to carry charge."
+    },
+    {
+      "id": "c10_sci_mnm_08",
+      "question": "What is an amalgam?",
+      "options": [
+        "An alloy where one of the constituent metals is mercury",
+        "An alloy composed purely of non-metals",
+        "A compound of iron and carbon",
+        "An electroplated copper sheet"
+      ],
+      "correctAnswer": "An alloy where one of the constituent metals is mercury",
+      "conceptTag": "Definition of Amalgams",
+      "explanation": "An amalgam is an alloy of mercury with one or more other metals (e.g., sodium amalgam, dental silver amalgam)."
+    }
+  ],
+
+  "Carbon and its Compounds": [
+    {
+      "id": "c10_sci_cnc_01",
+      "question": "Why does carbon form covalent bonds rather than ionic bonds (C⁴⁺ or C⁴⁻)?",
+      "options": [
+        "Forming C⁴⁺ requires enormous energy to remove 4 electrons, and gaining 4 electrons makes holding 6 protons for 10 electrons unstable",
+        "Carbon has 8 valence electrons already",
+        "Carbon is an inert noble gas",
+        "Carbon atoms cannot share electrons"
+      ],
+      "correctAnswer": "Forming C⁴⁺ requires enormous energy to remove 4 electrons, and gaining 4 electrons makes holding 6 protons for 10 electrons unstable",
+      "conceptTag": "Tetracovalency & Covalent Bonding in Carbon",
+      "explanation": "With 4 valence electrons, carbon achieves stability by sharing pairs of electrons (covalent bonding) rather than full electron transfer."
+    },
+    {
+      "id": "c10_sci_cnc_02",
+      "question": "What is 'Catenation'?",
+      "options": [
+        "The unique ability of carbon atoms to link with other carbon atoms to form long chains, branched chains, and rings",
+        "The property of carbon burning with a blue flame",
+        "The conversion of graphite into diamond at high pressure",
+        "The bonding of carbon with oxygen to form CO₂"
+      ],
+      "correctAnswer": "The unique ability of carbon atoms to link with other carbon atoms to form long chains, branched chains, and rings",
+      "conceptTag": "Catenation Property of Carbon",
+      "explanation": "Due to its small size and strong carbon-carbon covalent bond strength, carbon exhibits catenation to a far greater extent than any other element."
+    },
+    {
+      "id": "c10_sci_cnc_03",
+      "question": "What is the general formula of acyclic saturated hydrocarbons (Alkanes)?",
+      "options": ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙHₙ"],
+      "correctAnswer": "CₙH₂ₙ₊₂",
+      "conceptTag": "Alkanes General Formula",
+      "explanation": "Alkanes contain only single carbon-carbon bonds and follow the general formula CₙH₂ₙ₊₂."
+    },
+    {
+      "id": "c10_sci_cnc_04",
+      "question": "What is the structural difference between diamond and graphite, both of which are allotropes of carbon?",
+      "options": [
+        "In diamond, each carbon is tetrahedrally bonded to 4 others forming a rigid 3D network; in graphite, carbons are bonded in hexagonal layers with weak Van der Waals forces allowing layers to slide",
+        "Diamond is made of pure silicon, while graphite is pure lead",
+        "Graphite is a 3D rigid crystal, while diamond is composed of 2D slippery sheets",
+        "Diamond conducts electricity while graphite is an electrical insulator"
+      ],
+      "correctAnswer": "In diamond, each carbon is tetrahedrally bonded to 4 others forming a rigid 3D network; in graphite, carbons are bonded in hexagonal layers with weak Van der Waals forces allowing layers to slide",
+      "conceptTag": "Allotropes of Carbon (Diamond vs Graphite)",
+      "explanation": "Diamond's 3D covalent network makes it extremely hard; graphite's layered sheets with delocalized electrons make it soft, slippery, and a good electrical conductor."
+    },
+    {
+      "id": "c10_sci_cnc_05",
+      "question": "What functional group is present in Ethanol (CH₃CH₂OH)?",
+      "options": ["Alcohol (-OH)", "Aldehyde (-CHO)", "Carboxylic Acid (-COOH)", "Ketone (>C=O)"],
+      "correctAnswer": "Alcohol (-OH)",
+      "conceptTag": "Functional Groups Identification",
+      "explanation": "The hydroxyl group (-OH) characterizes alcoholic organic compounds."
+    },
+    {
+      "id": "c10_sci_cnc_06",
+      "question": "What happens when ethanol is heated with excess concentrated sulphuric acid (H₂SO₄) at 443 K?",
+      "options": [
+        "Ethanol undergoes dehydration to form ethene gas (alkene)",
+        "Ethanol oxidizes into ethanoic acid",
+        "Ethanol polymerizes into polyethylene plastic",
+        "Ethanol reacts with sodium to form carbon dioxide"
+      ],
+      "correctAnswer": "Ethanol undergoes dehydration to form ethene gas (alkene)",
+      "conceptTag": "Dehydration of Alcohols to Alkenes",
+      "explanation": "Concentrated H₂SO₄ acts as a dehydrating agent, removing a water molecule from ethanol to yield unsaturated ethene (CH₂=CH₂)."
+    },
+    {
+      "id": "c10_sci_cnc_07",
+      "question": "How do soaps clean greasy clothes (Micelle formation)?",
+      "options": [
+        "Soap molecules have a hydrophobic hydrocarbon tail that attaches to oil/grease and a hydrophilic ionic head that dissolves in water, forming spherical clusters called micelles that wash away",
+        "Soap dissolves grease by turning it into solid stone",
+        "Soap molecules dissolve clothes chemically",
+        "Soap heats up the water to boil off grease"
+      ],
+      "correctAnswer": "Soap molecules have a hydrophobic hydrocarbon tail that attaches to oil/grease and a hydrophilic ionic head that dissolves in water, forming spherical clusters called micelles that wash away",
+      "conceptTag": "Cleansing Action of Soap & Micelles",
+      "explanation": "The dual nature of soap molecules allows them to emulsify oily dirt into water-suspensible micelles during agitation."
+    },
+    {
+      "id": "c10_sci_cnc_08",
+      "question": "Why do soaps fail to lather in hard water containing dissolved calcium and magnesium salts, whereas synthetic detergents work effectively?",
+      "options": [
+        "Soaps react with Ca²⁺ and Mg²⁺ ions to form an insoluble sticky precipitate called scum, whereas synthetic detergents form soluble calcium and magnesium salts",
+        "Hard water destroys all detergent molecules permanently",
+        "Soaps turn into pure alcohol in hard water",
+        "Detergents contain acid that dissolves hard water minerals"
+      ],
+      "correctAnswer": "Soaps react with Ca²⁺ and Mg²⁺ ions to form an insoluble sticky precipitate called scum, whereas synthetic detergents form soluble calcium and magnesium salts",
+      "conceptTag": "Hard Water vs Soaps and Detergents",
+      "explanation": "Scum wastes soap and hinders cleaning in hard water; synthetic detergents bypass this because their charged sulphonate/sulphate heads do not precipitate with calcium or magnesium."
+    }
+  ],
+
+  "Life Processes": [
+    {
+      "id": "c10_sci_lp_01",
+      "question": "Where does the light-independent (dark) reaction or carbon fixation phase of photosynthesis take place in the chloroplast?",
+      "options": ["Stroma", "Thylakoid membrane", "Grana", "Outer membrane"],
+      "correctAnswer": "Stroma",
+      "conceptTag": "Photosynthetic Compartmentalization",
+      "explanation": "Light reactions occur in the thylakoid membranes (grana), while Calvin cycle enzymes are located in the liquid stroma."
+    },
+    {
+      "id": "c10_sci_lp_02",
+      "question": "What is the role of bile juice secreted by the liver in the human digestive system?",
+      "options": [
+        "Emulsification of large fat globules and providing an alkaline medium",
+        "Digestion of proteins into amino acids",
+        "Hydrolysis of starch into maltose",
+        "Killing bacteria through high acidity"
+      ],
+      "correctAnswer": "Emulsification of large fat globules and providing an alkaline medium",
+      "conceptTag": "Digestive Functions of Bile Salts",
+      "explanation": "Bile contains no digestive enzymes; it emulsifies fats into smaller micelles and creates the alkaline pH required for pancreatic lipase."
+    },
+    {
+      "id": "c10_sci_lp_03",
+      "question": "During anaerobic respiration in human muscle cells during vigorous exercise, pyruvate is converted into:",
+      "options": ["Lactic acid and energy", "Ethanol, CO₂ and energy", "Water and CO₂", "Glucose and urea"],
+      "correctAnswer": "Lactic acid and energy",
+      "conceptTag": "Anaerobic Glycolytic Pathway in Muscle",
+      "explanation": "Due to insufficient oxygen, muscle cells reduce pyruvate into 3-carbon lactic acid, causing localized muscle cramps."
+    },
+    {
+      "id": "c10_sci_lp_04",
+      "question": "Why do ventricles have thicker muscular walls than atria in the human heart?",
+      "options": [
+        "Ventricles have to pump blood with high pressure to distant organs",
+        "Atria store blood under high hydraulic pressure",
+        "Ventricles prevent backward flow of deoxygenated blood",
+        "Atria are directly connected to systemic capillary beds"
+      ],
+      "correctAnswer": "Ventricles have to pump blood with high pressure to distant organs",
+      "conceptTag": "Cardiac Chamber Wall Architecture",
+      "explanation": "Atria only pump blood down into adjacent ventricles, whereas ventricles (especially the left) pump blood tolungs and entire body against resistance."
+    },
+    {
+      "id": "c10_sci_lp_05",
+      "question": "What is the structural and functional filtration unit of the human kidney?",
+      "options": ["Nephron", "Neuron", "Alveolus", "Glomerular capsule only"],
+      "correctAnswer": "Nephron",
+      "conceptTag": "Renal Microanatomy",
+      "explanation": "Each human kidney contains roughly 1 million nephrons responsible for filtration, reabsorption, and urine excretion."
+    },
+    {
+      "id": "c10_sci_lp_06",
+      "question": "Which vascular tissue transports sucrose, amino acids, and hormones bidirectionally in vascular plants?",
+      "options": ["Phloem", "Xylem", "Parenchyma", "Sclerenchyma"],
+      "correctAnswer": "Phloem",
+      "conceptTag": "Translocation in Plants",
+      "explanation": "Xylem conducts water/minerals unidirectionally upward. Phloem moves photosynthates bidirectionally from source to sink via active translocation."
+    },
+    {
+      "id": "c10_sci_lp_07",
+      "question": "What prevents the collapse of the human trachea when there is less air inside it?",
+      "options": [
+        "C-shaped rings of cartilage",
+        "Bony ribs",
+        "Muscular mucosal lining",
+        "Pleural fluid pressure"
+      ],
+      "correctAnswer": "C-shaped rings of cartilage",
+      "conceptTag": "Respiratory Airway Anatomy",
+      "explanation": "Incomplete cartilaginous rings maintain structural rigidity in the trachea, preventing mechanical collapse during inhalation."
+    },
+    {
+      "id": "c10_sci_lp_08",
+      "question": "What is the primary driving force for upward water movement in tall trees during daylight hours?",
+      "options": [
+        "Transpiration pull",
+        "Root pressure alone",
+        "Gravitational pull",
+        "Phloem osmotic pressure"
+      ],
+      "correctAnswer": "Transpiration pull",
+      "conceptTag": "Cohesion-Tension Transpiration Pull",
+      "explanation": "Evaporation of water from stomata creates a negative suction tension throughout the xylem vessel column, pulling water upward."
+    }
+  ],
+
+  "Control and Coordination": [
+    {
+      "id": "c10_sci_cac_01",
+      "question": "What is the junction or microscopic gap between two communicating neurons called?",
+      "options": ["Synapse", "Axon hillock", "Dendrite", "Myelin sheath"],
+      "correctAnswer": "Synapse",
+      "conceptTag": "Neuronal Synaptic Transmission",
+      "explanation": "The synapse is the functional contact point where electrical impulses trigger neurotransmitter release across the synaptic cleft."
+    },
+    {
+      "id": "c10_sci_cac_02",
+      "question": "Which plant hormone is primarily responsible for promoting cell elongation and phototropism?",
+      "options": ["Auxin", "Abscisic acid", "Cytokinin", "Ethylene"],
+      "correctAnswer": "Auxin",
+      "conceptTag": "Plant Growth Regulators (Auxin)",
+      "explanation": "Auxin accumulates on the shaded side of shoot tips, stimulating faster cell elongation and bending the shoot toward light."
+    },
+    {
+      "id": "c10_sci_cac_03",
+      "question": "Which part of the human brain controls involuntary vital functions like heartbeat, blood pressure, and salivation?",
+      "options": ["Medulla oblongata", "Cerebrum", "Cerebellum", "Hypothalamus"],
+      "correctAnswer": "Medulla oblongata",
+      "conceptTag": "Hindbrain Autonomic Control",
+      "explanation": "The medulla oblongata in the hindbrain houses cardiovascular, vasomotor, and swallowing/salivation reflex centers."
+    },
+    {
+      "id": "c10_sci_cac_04",
+      "question": "Which part of the brain is responsible for maintaining body posture, equilibrium, and precision of voluntary movements?",
+      "options": ["Cerebellum", "Cerebrum", "Pons", "Thalamus"],
+      "correctAnswer": "Cerebellum",
+      "conceptTag": "Motor Coordination in Cerebellum",
+      "explanation": "The cerebellum coordinates skeletal muscle contractions, ensuring precision, balance, and fine motor stability."
+    },
+    {
+      "id": "c10_sci_cac_05",
+      "question": "Which hormone promotes wilting, stomatal closure, and acts as a stress hormone in plants?",
+      "options": ["Abscisic Acid (ABA)", "Gibberellin", "Auxin", "Cytokinin"],
+      "correctAnswer": "Abscisic Acid (ABA)",
+      "conceptTag": "Plant Growth Inhibitors (ABA)",
+      "explanation": "Abscisic acid inhibits growth, initiates stomatal closure under drought, and induces leaf/flower abscission."
+    },
+    {
+      "id": "c10_sci_cac_06",
+      "question": "Why is iodised salt recommended in dietary intake?",
+      "options": [
+        "Iodine is essential for the thyroid gland to synthesize thyroxine",
+        "It prevents bacterial infection in salivary glands",
+        "It increases hemoglobin affinity for oxygen",
+        "It provides electrolytes for muscular contraction"
+      ],
+      "correctAnswer": "Iodine is essential for the thyroid gland to synthesize thyroxine",
+      "conceptTag": "Endocrine Homeostasis & Thyroxine",
+      "explanation": "Thyroxine regulates carbohydrate, protein, and fat metabolism. Iodine deficiency impairs its synthesis, causing goitre."
+    },
+    {
+      "id": "c10_sci_cac_07",
+      "question": "In a reflex arc, where is the rapid integration between sensory and motor neurons processed?",
+      "options": ["Spinal cord", "Cerebral cortex", "Pituitary gland", "Sympathetic ganglia"],
+      "correctAnswer": "Spinal cord",
+      "conceptTag": "Spinal Reflex Arc Mechanism",
+      "explanation": "Reflex actions bypass direct brain control to save critical response time, integrating through interneurons in the spinal cord."
+    },
+    {
+      "id": "c10_sci_cac_08",
+      "question": "Which endocrine gland secretes insulin to regulate blood glucose concentrations?",
+      "options": ["Pancreas", "Adrenal gland", "Thyroid gland", "Parathyroid"],
+      "correctAnswer": "Pancreas",
+      "conceptTag": "Endocrine Pancreatic Regulation",
+      "explanation": "Beta cells of the Islets of Langerhans in the pancreas secrete insulin, promoting cellular uptake of blood glucose."
+    }
+  ],
+
+  "How do Organisms Reproduce?": [
+    {
+      "id": "c10_sci_rep_01",
+      "question": "What is the primary evolutionary advantage of sexual reproduction over asexual reproduction?",
+      "options": [
+        "It generates genetic variation through DNA recombination, helping populations adapt to changing environments",
+        "It requires only a single parent and is much faster",
+        "It produces genetically identical clones every generation",
+        "It completely prevents all genetic mutations"
+      ],
+      "correctAnswer": "It generates genetic variation through DNA recombination, helping populations adapt to changing environments",
+      "conceptTag": "Genetic Variation & Survival Advantage",
+      "explanation": "Combining DNA from two parents via meiosis and fertilization introduces variations that enable species survival under environmental shifts."
+    },
+    {
+      "id": "c10_sci_rep_02",
+      "question": "How does 'multiple fission' in Plasmodium (malaria parasite) differ from 'binary fission' in Amoeba?",
+      "options": [
+        "In multiple fission, the parent nucleus divides repeatedly within a cyst to form many daughter cells simultaneously",
+        "In multiple fission, only two unequal buds are formed",
+        "Binary fission requires two parents",
+        "Multiple fission only occurs in multicellular plants"
+      ],
+      "correctAnswer": "In multiple fission, the parent nucleus divides repeatedly within a cyst to form many daughter cells simultaneously",
+      "conceptTag": "Modes of Asexual Fission",
+      "explanation": "Amoeba splits into two cells by binary fission, whereas Plasmodium divides its nucleus multiple times inside a protective cyst before releasing dozens of daughter cells."
+    },
+    {
+      "id": "c10_sci_rep_03",
+      "question": "Why do agriculturists prefer 'vegetative propagation' (such as grafting or layering) for cultivating seedless fruits like banana, rose, and jasmine?",
+      "options": [
+        "It preserves desirable parental traits and enables propagation of plants that have lost the capacity to produce viable seeds",
+        "It introduces massive random genetic mutations",
+        "Plants grown by vegetative propagation take twice as long to bear flowers",
+        "It requires cross-pollination by insects"
+      ],
+      "correctAnswer": "It preserves desirable parental traits and enables propagation of plants that have lost the capacity to produce viable seeds",
+      "conceptTag": "Vegetative Propagation Advantages",
+      "explanation": "Vegetative propagation produces genetically uniform plants that flower and fruit earlier than seed-grown plants and bypasses seed sterility."
+    },
+    {
+      "id": "c10_sci_rep_04",
+      "question": "In a flowering plant (angiosperm), after fertilization, what do the 'ovule' and the 'ovary' develop into respectively?",
+      "options": [
+        "Ovule develops into a tough-coated Seed; Ovary ripens into a Fruit",
+        "Ovule develops into a Fruit; Ovary develops into a Seed",
+        "Both shrivel and fall off the plant",
+        "Ovule becomes the petal; Ovary becomes the sepal"
+      ],
+      "correctAnswer": "Ovule develops into a tough-coated Seed; Ovary ripens into a Fruit",
+      "conceptTag": "Post-Fertilization Changes in Flowers",
+      "explanation": "Following fertilization, the zygote inside the ovule forms the embryo, the ovule becomes the seed, and the surrounding ovary swells into the fruit."
+    },
+    {
+      "id": "c10_sci_rep_05",
+      "question": "Where does fertilization typically occur in the human female reproductive system?",
+      "options": [
+        "Fallopian tube (Oviduct)",
+        "Uterus (Womb)",
+        "Vagina",
+        "Ovary"
+      ],
+      "correctAnswer": "Fallopian tube (Oviduct)",
+      "conceptTag": "Human Fertilization Site",
+      "explanation": "Sperm meets and fertilizes the ovum inside the ampulla of the fallopian tube before the zygote implants into the uterine lining."
+    },
+    {
+      "id": "c10_sci_rep_06",
+      "question": "What is the function of the prostate gland and seminal vesicles in the human male reproductive system?",
+      "options": [
+        "To secrete fluid that provides nourishment to sperms and facilitates their transport",
+        "To produce male germ cells (sperms)",
+        "To store urine before excretion",
+        "To produce testosterone hormone exclusively"
+      ],
+      "correctAnswer": "To secrete fluid that provides nourishment to sperms and facilitates their transport",
+      "conceptTag": "Male Accessory Glands",
+      "explanation": "Seminal vesicles and prostate gland add seminal plasma secretions that nourish sperm and provide a fluid medium for motility."
+    },
+    {
+      "id": "c10_sci_rep_07",
+      "question": "Which of the following is a barrier method of contraception that also provides protection against sexually transmitted diseases (STDs)?",
+      "options": [
+        "Condoms",
+        "Oral contraceptive pills",
+        "Copper-T (IUD)",
+        "Tubectomy"
+      ],
+      "correctAnswer": "Condoms",
+      "conceptTag": "Contraception & STD Protection",
+      "explanation": "Barrier methods like condoms physically prevent sperm-egg contact and reduce infection transmission, unlike pills or IUDs."
+    },
+    {
+      "id": "c10_sci_rep_08",
+      "question": "What is the surgical method of contraception performed in human females by blocking the fallopian tubes?",
+      "options": [
+        "Tubectomy",
+        "Vasectomy",
+        "Castration",
+        "Hysterectomy"
+      ],
+      "correctAnswer": "Tubectomy",
+      "conceptTag": "Permanent Surgical Contraception",
+      "explanation": "Tubectomy blocks fallopian tubes in females to prevent eggs from reaching the uterus; vasectomy blocks vas deferens in males."
+    }
+  ],
+
+  "Heredity": [
+    {
+      "id": "c10_sci_her_01",
+      "question": "What is Mendel's 'Law of Segregation' (First Law)?",
+      "options": [
+        "Alleles separate during gamete formation so that each gamete carries only one allele for each gene",
+        "Genes for different traits are inherited independently of each other",
+        "Dominant traits completely mask recessive traits in every generation",
+        "Acquired characters are passed on to offspring"
+      ],
+      "correctAnswer": "Alleles separate during gamete formation so that each gamete carries only one allele for each gene",
+      "conceptTag": "Law of Segregation",
+      "explanation": "During meiosis, paired alleles segregate randomly so that each gamete receives a single allele per locus."
+    },
+    {
+      "id": "c10_sci_her_02",
+      "question": "In Mendel's monohybrid cross of tall (TT) and dwarf (tt) pea plants, what is the phenotypic ratio observed in the F₂ generation?",
+      "options": [
+        "3 Tall : 1 Dwarf",
+        "1 TT : 2 Tt : 1 tt",
+        "all Tall",
+        "9 : 3 : 3 : 1"
+      ],
+      "correctAnswer": "3 Tall : 1 Dwarf",
+      "conceptTag": "Monohybrid Cross Phenotypic Ratio",
+      "explanation": "The F₂ generation yields 1 TT : 2 Tt : 1 tt genotypically, which translates to a 3:1 phenotypic ratio of tall to dwarf plants."
+    },
+    {
+      "id": "c10_sci_her_03",
+      "question": "What is the phenotypic ratio in a Mendel's dihybrid cross involving two independent traits in the F₂ generation?",
+      "options": [
+        "9 : 3 : 3 : 1",
+        "3 : 1",
+        "1 : 2 : 1",
+        "1 : 1 : 1 : 1"
+      ],
+      "correctAnswer": "9 : 3 : 3 : 1",
+      "conceptTag": "Dihybrid Cross Phenotypic Ratio",
+      "explanation": "A dihybrid cross (e.g., round-yellow x wrinkled-green) yields 9 round-yellow, 3 round-green, 3 wrinkled-yellow, and 1 wrinkled-green (9:3:3:1)."
+    },
+    {
+      "id": "c10_sci_her_04",
+      "question": "How is the sex of a child determined genetically in human beings?",
+      "options": [
+        "By whether the sperm carries an X or a Y chromosome to fertilize the X-bearing egg",
+        "By the temperature of the external environment during embryonic development",
+        "By whether the mother contributes a Y chromosome",
+        "By nutritional intake during pregnancy"
+      ],
+      "correctAnswer": "By whether the sperm carries an X or a Y chromosome to fertilize the X-bearing egg",
+      "conceptTag": "Human Sex Determination (XX-XY)",
+      "explanation": "Human females are homogametic (XX) producing only X eggs; males are heterogametic (XY) producing X and Y sperm, determining offspring sex."
+    },
+    {
+      "id": "c10_sci_her_05",
+      "question": "What is the difference between an organism's 'genotype' and its 'phenotype'?",
+      "options": [
+        "Genotype is the genetic constitution (allele combination), whereas phenotype is the observable physical or biochemical trait",
+        "Genotype is visible to the eye, while phenotype is hidden inside DNA",
+        "Genotype changes with age, while phenotype never changes",
+        "Genotype applies only to plants, phenotype to animals"
+      ],
+      "correctAnswer": "Genotype is the genetic constitution (allele combination), whereas phenotype is the observable physical or biochemical trait",
+      "conceptTag": "Genotype vs Phenotype",
+      "explanation": "Genotype represents the underlying gene alleles (e.g., Tt), while phenotype represents the expressed physical trait (e.g., Tall)."
+    },
+    {
+      "id": "c10_sci_her_06",
+      "question": "Why are acquired traits (like muscle mass built by rigorous exercise or loss of a finger in an accident) not inherited by offspring?",
+      "options": [
+        "They do not cause any change in the DNA of germ cells (sperms/eggs)",
+        "Acquired traits are immediately deleted by enzymes in the zygote",
+        "Muscles do not contain cells",
+        "Only dominant genes can be acquired"
+      ],
+      "correctAnswer": "They do not cause any change in the DNA of germ cells (sperms/eggs)",
+      "conceptTag": "Acquired vs Inherited Traits",
+      "explanation": "Changes occurring in somatic (body) tissues are not transmitted to progeny; only germline genetic modifications affect inheritance."
+    },
+    {
+      "id": "c10_sci_her_07",
+      "question": "What is 'genetic drift'?",
+      "options": [
+        "A random change in allele frequencies in a population from generation to generation due to chance events",
+        "The migration of animals to a new forest",
+        "The targeted selection of fast runners by predators",
+        "The intentional cross-breeding of crops by farmers"
+      ],
+      "correctAnswer": "A random change in allele frequencies in a population from generation to generation due to chance events",
+      "conceptTag": "Genetic Drift Definition",
+      "explanation": "Genetic drift is an evolutionary mechanism driven by random sampling error, highly pronounced in small populations (bottleneck/founder effects)."
+    },
+    {
+      "id": "c10_sci_her_08",
+      "question": "What are 'homologous organs' (e.g., forelimbs of humans, lizards, birds, and whales)?",
+      "options": [
+        "Organs that have the same fundamental structural/embryonic origin but perform different functions",
+        "Organs that look identical and perform identical functions but have different evolutionary origins",
+        "Organs that have shrunk and lost all biological function",
+        "Organs found only in fossilized reptiles"
+      ],
+      "correctAnswer": "Organs that have the same fundamental structural/embryonic origin but perform different functions",
+      "conceptTag": "Homologous vs Analogous Organs",
+      "explanation": "Homologous structures indicate common ancestry (divergent evolution), whereas analogous organs (like bird and insect wings) indicate convergent evolution."
+    }
+  ],
+
+  "Light – Reflection and Refraction": [
+    {
+      "id": "c10_sci_lrr_01",
+      "question": "What is the relationship between the focal length f and radius of curvature R for a spherical mirror of small aperture?",
+      "options": ["f = R / 2", "f = 2R", "f = R²", "f = 1 / R"],
+      "correctAnswer": "f = R / 2",
+      "conceptTag": "Focal Length and Curvature Relationship",
+      "explanation": "For paraxial rays striking a spherical mirror of small aperture, the principal focus lies halfway between pole and center of curvature: f = R / 2."
+    },
+    {
+      "id": "c10_sci_lrr_02",
+      "question": "Where should an object be placed in front of a concave mirror to obtain a virtual, erect, and magnified image?",
+      "options": [
+        "Between the pole (P) and principal focus (F)",
+        "At the principal focus (F)",
+        "At the center of curvature (C)",
+        "Beyond the center of curvature"
+      ],
+      "correctAnswer": "Between the pole (P) and principal focus (F)",
+      "conceptTag": "Virtual Image Ray Optics for Concave Mirror",
+      "explanation": "When an object is placed between P and F of a concave mirror, the reflected rays diverge and appear to intersect behind the mirror."
+    },
+    {
+      "id": "c10_sci_lrr_03",
+      "question": "Why are convex mirrors preferred as rear-view mirrors in automobiles?",
+      "options": [
+        "They always form erect, diminished images giving a wider field of view",
+        "They form inverted, magnified images",
+        "They have infinite focal length",
+        "They eliminate all chromatic aberration"
+      ],
+      "correctAnswer": "They always form erect, diminished images giving a wider field of view",
+      "conceptTag": "Convex Mirror Field of View Application",
+      "explanation": "Convex mirrors curve outward, creating upright diminished images and giving drivers a much wider viewing perspective."
+    },
+    {
+      "id": "c10_sci_lrr_04",
+      "question": "What is the SI unit of the optical power of a lens?",
+      "options": ["Dioptre (D)", "Watt", "Metre", "Candela"],
+      "correctAnswer": "Dioptre (D)",
+      "conceptTag": "Lens Optical Power Definition",
+      "explanation": "Power is defined as P = 1 / f(in metres). The SI unit of lens power is the dioptre (m⁻¹)."
+    },
+    {
+      "id": "c10_sci_lrr_05",
+      "question": "When a ray of light enters an optically denser medium from an optically rarer medium at an angle, it:",
+      "options": [
+        "Bends toward the normal and its speed decreases",
+        "Bends away from the normal and its speed increases",
+        "Continues undeviated with unchanged speed",
+        "Reflects backward at 180 degrees"
+      ],
+      "correctAnswer": "Bends toward the normal and its speed decreases",
+      "conceptTag": "Snell's Law and Refractive Speed Changes",
+      "explanation": "In an optically denser medium, speed of light decreases. By Snell's Law (n₁ sin i = n₂ sin r), the ray refracts toward the normal."
+    },
+    {
+      "id": "c10_sci_lrr_06",
+      "question": "What is the refractive index of a medium if the speed of light in it is 2 × 10⁸ m/s (c = 3 × 10⁸ m/s)?",
+      "options": ["1.5", "1.33", "0.67", "2.0"],
+      "correctAnswer": "1.5",
+      "conceptTag": "Absolute Refractive Index Calculation",
+      "explanation": "n = c / v = (3 × 10⁸) / (2 × 10⁸) = 1.5."
+    },
+    {
+      "id": "c10_sci_lrr_07",
+      "question": "A convex lens produces a real and inverted image of the same size as the object when the object is placed at:",
+      "options": ["2F₁ (Twice the focal length)", "F₁", "Between F₁ and 2F₁", "Infinity"],
+      "correctAnswer": "2F₁ (Twice the focal length)",
+      "conceptTag": "Convex Lens 1:1 Conjugate Foci",
+      "explanation": "Placing an object at 2F₁ yields an image at 2F₂ with magnification m = -1 (real, inverted, equal size)."
+    },
+    {
+      "id": "c10_sci_lrr_08",
+      "question": "What is the magnification formula for spherical lenses in terms of image distance v and object distance u?",
+      "options": ["m = v / u", "m = -v / u", "m = u / v", "m = -u / v"],
+      "correctAnswer": "m = v / u",
+      "conceptTag": "Lens vs Mirror Magnification Sign Convention",
+      "explanation": "For lenses, magnification m = v / u (positive ratio). For spherical mirrors, m = -v / u."
+    }
+  ],
+
+  "The Human Eye and the Colourful World": [
+    {
+      "id": "c10_sci_hecw_01",
+      "question": "What is the function of the ciliary muscles in the human eye?",
+      "options": [
+        "To modify the curvature of the crystalline lens, enabling 'accommodation' for focusing on near and distant objects",
+        "To control the total amount of light entering the pupil",
+        "To convert light rays into electrical nerve impulses",
+        "To maintain the shape of the eyeball by secreting vitreous humor"
+      ],
+      "correctAnswer": "To modify the curvature of the crystalline lens, enabling 'accommodation' for focusing on near and distant objects",
+      "conceptTag": "Accommodation of Eye Lens",
+      "explanation": "Ciliary muscles relax to flatten the lens for distant vision and contract to thicken the lens for near focusing."
+    },
+    {
+      "id": "c10_sci_hecw_02",
+      "question": "What is 'Myopia' (Near-sightedness), and how is it corrected?",
+      "options": [
+        "A person can see nearby objects clearly but cannot see distant objects distinctly; corrected using a concave lens",
+        "A person can see distant objects clearly but not nearby objects; corrected using a convex lens",
+        "Loss of accommodation power in old age; corrected using bifocals",
+        "Uneven corneal curvature causing blurred vision; corrected using cylindrical lenses"
+      ],
+      "correctAnswer": "A person can see nearby objects clearly but cannot see distant objects distinctly; corrected using a concave lens",
+      "conceptTag": "Myopia Correction with Concave Lens",
+      "explanation": "In myopia, distant images form in front of the retina; a diverging concave lens diverges incoming rays so they focus precisely on the retina."
+    },
+    {
+      "id": "c10_sci_hecw_03",
+      "question": "Why does the clear sky appear blue during daytime?",
+      "options": [
+        "Rayleigh scattering: shorter blue wavelengths of sunlight are scattered much more strongly by atmospheric air molecules than longer red wavelengths",
+        "Air molecules absorb all colors except blue and reflect it downward",
+        "The oceans reflect their blue color onto the upper atmosphere",
+        "Nitrogen gas in the air emits blue fluorescence when struck by sunlight"
+      ],
+      "correctAnswer": "Rayleigh scattering: shorter blue wavelengths of sunlight are scattered much more strongly by atmospheric air molecules than longer red wavelengths",
+      "conceptTag": "Rayleigh Scattering of Blue Light",
+      "explanation": "Scattering intensity is inversely proportional to the fourth power of wavelength (I ∝ 1/λ⁴), making blue light scatter ~9.4 times more than red light."
+    },
+    {
+      "id": "c10_sci_hecw_04",
+      "question": "Why do the Sun and surrounding sky appear reddish during sunrise and sunset?",
+      "options": [
+        "Light travels through a much thicker layer of atmosphere at the horizon, scattering away most blue and shorter wavelengths, leaving mostly red and orange wavelengths to reach our eyes",
+        "The Sun changes its chemical composition and turns into a red giant every evening",
+        "Sunset temperatures make the air red",
+        "Carbon dioxide levels spike during evening hours"
+      ],
+      "correctAnswer": "Light travels through a much thicker layer of atmosphere at the horizon, scattering away most blue and shorter wavelengths, leaving mostly red and orange wavelengths to reach our eyes",
+      "conceptTag": "Reddish Appearance of Sun at Sunrise/Sunset",
+      "explanation": "At the horizon, light path length is maximized, scattering away shorter wavelengths and transmitting only least-scattered longer red wavelengths."
+    },
+    {
+      "id": "c10_sci_hecw_05",
+      "question": "What causes the phenomenon of a 'Rainbow' in the sky after a rain shower?",
+      "options": [
+        "Dispersion, total internal reflection, and refraction of sunlight through tiny spherical water droplets acting as prisms",
+        "Reflection of light off flat clouds like mirrors",
+        "Electrical discharge between raindrops and lightning",
+        "Diffraction of light through dry dust particles"
+      ],
+      "conceptTag": "Rainbow Formation Mechanics",
+      "explanation": "Water droplets refract, disperse white sunlight into constituent colors, internally reflect off the back surface, and refract again upon exiting toward the observer."
+    },
+    {
+      "id": "c10_sci_hecw_06",
+      "question": "What is 'Hypermetropia' (Far-sightedness), and how is it corrected?",
+      "options": [
+        "A person can see distant objects clearly but nearby objects appear blurred; corrected using a convex lens",
+        "Inability to distinguish between red and green colors",
+        "Clouding of the crystalline lens causing blindness",
+        "Inability of the pupil to dilate in darkness"
+      ],
+      "correctAnswer": "A person can see distant objects clearly but nearby objects appear blurred; corrected using a convex lens",
+      "conceptTag": "Hypermetropia Correction with Convex Lens",
+      "explanation": "In hypermetropia, images of near objects focus behind the retina; a converging convex lens adds converging power to focus light on the retina."
+    },
+    {
+      "id": "c10_sci_hecw_07",
+      "question": "Why do stars appear to 'twinkle' at night, whereas planets do not?",
+      "options": [
+        "Stars are distant point-sized sources of light whose rays undergo rapid atmospheric refraction through fluctuating air layers; planets are extended sources (collections of point sources) whose variations average out to zero",
+        "Stars switch their nuclear fusion reactors on and off every second",
+        "Planets produce their own stable laser light",
+        "Earth's magnetic field blocks starlight periodically"
+      ],
+      "correctAnswer": "Stars are distant point-sized sources of light whose rays undergo rapid atmospheric refraction through fluctuating air layers; planets are extended sources (collections of point sources) whose variations average out to zero",
+      "conceptTag": "Atmospheric Twinkling of Stars vs Planets",
+      "explanation": "Starlight flickers due to atmospheric density fluctuations bending light path randomly; planet discs average out these fluctuations, appearing steady."
+    },
+    {
+      "id": "c10_sci_hecw_08",
+      "question": "What is 'Presbyopia', and what is the typical corrective eyewear prescribed for it?",
+      "options": [
+        "Gradual weakening of ciliary muscles and loss of lens flexibility with age; corrected using bifocal lenses (containing both concave and convex parts)",
+        "Total color blindness treated with dark glasses",
+        "Permanent dilation of pupils treated with eye drops",
+        "Complete opacification of the cornea treated with transplants"
+      ],
+      "correctAnswer": "Gradual weakening of ciliary muscles and loss of lens flexibility with age; corrected using bifocal lenses (containing both concave and convex parts)",
+      "conceptTag": "Presbyopia and Bifocal Correction",
+      "explanation": "As people age, accommodation power declines (presbyopia), often requiring bifocals to see both distant and near objects clearly."
+    }
+  ],
+
+  "Electricity": [
+    {
+      "id": "c10_sci_elc_01",
+      "question": "Ohm's Law states that the current I flowing through a metallic conductor is directly proportional to the potential difference V across its ends, provided:",
+      "options": [
+        "Temperature and other physical conditions remain constant",
+        "The cross-sectional area changes continuously",
+        "The circuit is kept under zero atmospheric pressure",
+        "The magnetic field is strictly zero"
+      ],
+      "correctAnswer": "Temperature and other physical conditions remain constant",
+      "conceptTag": "Ohm's Law Physical Conditions",
+      "explanation": "Ohm's Law (V = IR) holds true only if temperature and dimensions remain unchanged, because resistance varies with temperature."
+    },
+    {
+      "id": "c10_sci_elc_02",
+      "question": "If the length of a uniform cylindrical metallic wire is doubled by stretching, what happens to its resistance?",
+      "options": ["It becomes 4 times", "It doubles", "It halves", "It remains unchanged"],
+      "correctAnswer": "It becomes 4 times",
+      "conceptTag": "Resistance Stretching and Volume Invariance",
+      "explanation": "Volume V = A * L remains constant. Doubling length (L' = 2L) halves cross-sectional area (A' = A/2). New R' = ρ(2L)/(A/2) = 4 * (ρL/A) = 4R."
+    },
+    {
+      "id": "c10_sci_elc_03",
+      "question": "What is the equivalent resistance of three identical resistors of resistance R connected in parallel?",
+      "options": ["R / 3", "3R", "R² / 3", "3 / R"],
+      "correctAnswer": "R / 3",
+      "conceptTag": "Parallel Resistance Combination Formula",
+      "explanation": "1/R_eq = 1/R + 1/R + 1/R = 3/R => R_eq = R / 3."
+    },
+    {
+      "id": "c10_sci_elc_04",
+      "question": "According to Joule's Law of Heating, the heat H produced in a resistor of resistance R carrying current I for time t is:",
+      "options": ["H = I² R t", "H = I R² t", "H = I R t", "H = I² / (R t)"],
+      "correctAnswer": "H = I² R t",
+      "conceptTag": "Joule's Law of Heating Formulation",
+      "explanation": "Electrical work W = VIt = (IR)It = I²Rt. This energy dissipates as heat H = I²Rt."
+    },
+    {
+      "id": "c10_sci_elc_05",
+      "question": "What is the commercial unit of electrical energy (1 kilowatt-hour, kWh) in Joules?",
+      "options": ["3.6 × 10⁶ J", "3.6 × 10⁵ J", "1000 J", "3600 J"],
+      "correctAnswer": "3.6 × 10⁶ J",
+      "conceptTag": "Commercial Electrical Energy Conversion",
+      "explanation": "1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 × 10⁶ Joules."
+    },
+    {
+      "id": "c10_sci_elc_06",
+      "question": "Why is an ammeter always connected in series in an electric circuit?",
+      "options": [
+        "It has very low internal resistance to ensure the whole circuit current passes through it without voltage drop",
+        "It has infinite resistance to block high currents",
+        "It measures potential differences across branches",
+        "It acts as a safety fuse"
+      ],
+      "correctAnswer": "It has very low internal resistance to ensure the whole circuit current passes through it without voltage drop",
+      "conceptTag": "Ammeter Characteristics and Circuit Topology",
+      "explanation": "An ideal ammeter has zero internal resistance, ensuring it does not alter total circuit current when wired in series."
+    },
+    {
+      "id": "c10_sci_elc_07",
+      "question": "Why is tungsten metal used almost exclusively for the filament of incandescent electric lamps?",
+      "options": [
+        "It has a very high melting point and high resistivity, glowing white without melting",
+        "It is the best conductor of electricity among all metals",
+        "It oxidizes easily at low temperatures",
+        "It is cheap and soft like copper"
+      ],
+      "correctAnswer": "It has a very high melting point and high resistivity, glowing white without melting",
+      "conceptTag": "Material Properties of Heating Elements",
+      "explanation": "Tungsten has an exceptionally high melting point (3380°C) and emits visible incandescence when heated."
+    },
+    {
+      "id": "c10_sci_elc_08",
+      "question": "What happens to the electrical resistivity of a metallic wire if its length and radius are doubled?",
+      "options": [
+        "It remains completely unchanged",
+        "It doubles",
+        "It becomes four times",
+        "It halves"
+      ],
+      "correctAnswer": "It remains completely unchanged",
+      "conceptTag": "Resistance vs Resistivity Distinction",
+      "explanation": "Resistivity (ρ) is an intrinsic material property that depends only on the nature of the material and temperature, not dimensions."
+    }
+  ],
+
+  "Magnetic Effects of Electric Current": [
+    {
+      "id": "c10_sci_mec_01",
+      "question": "What is the shape of magnetic field lines around a straight current-carrying wire?",
+      "options": [
+        "Concentric circles centered on the wire",
+        "Straight parallel lines pointing away from the wire",
+        "Elliptical loops along the length of wire",
+        "Random spirals"
+      ],
+      "correctAnswer": "Concentric circles centered on the wire",
+      "conceptTag": "Right-Hand Thumb Rule Geometry",
+      "explanation": "By Maxwell's Right-Hand Thumb Rule, circular concentric magnetic lines surround any straight conductor carrying electric current."
+    },
+    {
+      "id": "c10_sci_mec_02",
+      "question": "Inside a long current-carrying cylindrical solenoid, the magnetic field is:",
+      "options": [
+        "Uniform and parallel to the axis",
+        "Zero everywhere",
+        "Strongest at the outer surface",
+        "Circular around each cross-section"
+      ],
+      "correctAnswer": "Uniform and parallel to the axis",
+      "conceptTag": "Uniform Magnetic Field Inside Solenoids",
+      "explanation": "The field lines inside a solenoid run parallel and equidistant along the axis, indicating a uniform magnetic field."
+    },
+    {
+      "id": "c10_sci_mec_03",
+      "question": "Which rule gives the direction of magnetic force experienced by a current-carrying conductor in an external magnetic field?",
+      "options": [
+        "Fleming's Left-Hand Rule",
+        "Fleming's Right-Hand Rule",
+        "Right-Hand Thumb Rule",
+        "Lenz's Law"
+      ],
+      "correctAnswer": "Fleming's Left-Hand Rule",
+      "conceptTag": "Fleming's Left-Hand Rule",
+      "explanation": "Fleming's Left-Hand Rule determines mechanical force/motion direction (Thumb) using Magnetic Field (Forefinger) and Current (Middle finger)."
+    },
+    {
+      "id": "c10_sci_mec_04",
+      "question": "Why do two magnetic field lines never intersect each other?",
+      "options": [
+        "At the point of intersection, a compass needle would have to point in two different directions simultaneously, which is impossible",
+        "Magnetic lines repel each other by electrostatic force",
+        "Lines only exist inside magnetic materials",
+        "Magnetic poles have different charges"
+      ],
+      "correctAnswer": "At the point of intersection, a compass needle would have to point in two different directions simultaneously, which is impossible",
+      "conceptTag": "Non-Intersection Property of Field Lines",
+      "explanation": "The tangent to a field line gives the unique resultant magnetic field vector direction. Intersecting lines would imply two simultaneous resultant directions at one point."
+    },
+    {
+      "id": "c10_sci_mec_05",
+      "question": "What is the function of the earth wire in domestic electric circuits?",
+      "options": [
+        "It provides a low-resistance path to direct accidental leakage currents safely to the ground",
+        "It completes the AC live circuit loop",
+        "It increases household voltage supply",
+        "It regulates current fluctuations"
+      ],
+      "correctAnswer": "It provides a low-resistance path to direct accidental leakage currents safely to the ground",
+      "conceptTag": "Safety Earthing Function",
+      "explanation": "The earth wire connects metal appliances to the ground, preventing electric shocks by tripping the circuit if live wires contact metal casings."
+    },
+    {
+      "id": "c10_sci_mec_06",
+      "question": "What type of current is supplied to domestic households in India, and at what frequency?",
+      "options": ["Alternating Current (AC) at 50 Hz", "Direct Current (DC) at 50 Hz", "Alternating Current (AC) at 60 Hz", "Direct Current (DC) at 100 Hz"],
+      "correctAnswer": "Alternating Current (AC) at 50 Hz",
+      "conceptTag": "Domestic AC Grid Specifications",
+      "explanation": "Standard domestic electrical supply in India operates at 220 V Alternating Current with a frequency of 50 Hz (100 reversals per second)."
+    },
+    {
+      "id": "c10_sci_mec_07",
+      "question": "What is an electromagnet?",
+      "options": [
+        "A soft iron core placed inside a current-carrying solenoid",
+        "A piece of permanently magnetized steel",
+        "A copper bar wrapped in insulation without current",
+        "An aluminium plate exposed to sunlight"
+      ],
+      "correctAnswer": "A soft iron core placed inside a current-carrying solenoid",
+      "conceptTag": "Electromagnet Core Composition",
+      "explanation": "Soft iron has high magnetic permeability and loses its magnetism as soon as current stops, making it ideal for temporary electromagnets."
+    },
+    {
+      "id": "c10_sci_mec_08",
+      "question": "What is the phenomenon of generating an electric current in a circuit by changing the magnetic flux linked with it?",
+      "options": [
+        "Electromagnetic Induction",
+        "Joule's heating effect",
+        "Electrostatic discharge",
+        "Photoelectric effect"
+      ],
+      "correctAnswer": "Electromagnetic Induction",
+      "conceptTag": "Electromagnetic Induction (Faraday's Law)",
+      "explanation": "Discovered by Michael Faraday, electromagnetic induction produces an induced EMF/current across a conductor when exposed to varying magnetic flux."
+    }
+  ],
+
+  "Our Environment": [
+    {
+      "id": "c10_sci_oe_01",
+      "question": "Why is the flow of energy in a food chain always unidirectional and non-cyclic?",
+      "options": [
+        "Energy captured by autotrophs is progressively dissipated as heat across trophic levels and cannot be recycled back to the sun",
+        "Energy increases as it moves up higher trophic levels",
+        "Decomposers convert heat back into solar radiation",
+        "Carnivores consume 100% of the energy from herbivores"
+      ],
+      "correctAnswer": "Energy captured by autotrophs is progressively dissipated as heat across trophic levels and cannot be recycled back to the sun",
+      "conceptTag": "Unidirectional Energy Flow",
+      "explanation": "By the laws of thermodynamics, energy degrades into unusable heat at every trophic transfer, preventing energy cycling."
+    },
+    {
+      "id": "c10_sci_oe_02",
+      "question": "What is 'Biological Magnification' (Biomagnification)?",
+      "options": [
+        "The progressive increase in concentration of non-biodegradable toxic chemicals (like DDT or heavy metals) at successive trophic levels",
+        "The multiplication of animal populations in a forest",
+        "The increase in plant height due to fertilizers",
+        "The microscopic growth of bacteria"
+      ],
+      "correctAnswer": "The progressive increase in concentration of non-biodegradable toxic chemicals (like DDT or heavy metals) at successive trophic levels",
+      "conceptTag": "Biomagnification of Toxins",
+      "explanation": "Since non-biodegradable pollutants cannot be metabolized, their tissue concentrations multiply drastically as predators consume multiple contaminated prey."
+    },
+    {
+      "id": "c10_sci_oe_03",
+      "question": "How is stratospheric ozone formed, and why is its depletion by chlorofluorocarbons (CFCs) dangerous?",
+      "options": [
+        "Ozone forms when UV radiation splits O₂ molecules into free oxygen atoms that combine with O₂; CFCs release chlorine atoms that catalytically destroy ozone molecules, letting harmful UV-B radiation reach Earth",
+        "Ozone is formed by burning coal, and its loss causes global cooling",
+        "CFCs turn ozone into breathable oxygen gas, which is beneficial",
+        "Ozone depletion causes earthquakes and volcanic eruptions"
+      ],
+      "correctAnswer": "Ozone forms when UV radiation splits O₂ molecules into free oxygen atoms that combine with O₂; CFCs release chlorine atoms that catalytically destroy ozone molecules, letting harmful UV-B radiation reach Earth",
+      "conceptTag": "Ozone Layer Depletion & CFC Impact",
+      "explanation": "Stratospheric ozone shields Earth from mutagenic UV radiation; free chlorine radicals from CFCs break down thousands of ozone molecules without being consumed."
+    },
+    {
+      "id": "c10_sci_oe_04",
+      "question": "What is the difference between biodegradable and non-biodegradable wastes?",
+      "options": [
+        "Biodegradable wastes are broken down into harmless substances by biological action of microbes; non-biodegradable wastes cannot be decomposed and persist in the environment for centuries",
+        "Non-biodegradable wastes disappear overnight",
+        "Biodegradable wastes are made of synthetic plastic",
+        "Both types of waste decompose at the exact same rate"
+      ],
+      "correctAnswer": "Biodegradable wastes are broken down into harmless substances by biological action of microbes; non-biodegradable wastes cannot be decomposed and persist in the environment for centuries",
+      "conceptTag": "Biodegradable vs Non-Biodegradable Waste",
+      "explanation": "Microbial saprophytes possess enzymes specific to organic matter, leaving synthetic polymers (plastics, glass) untouched."
+    },
+    {
+      "id": "c10_sci_oe_05",
+      "question": "According to the 10% Law, if plants in a grassland fix 10,000 kJ of energy, how much energy is available to tertiary carnivores (4th trophic level)?",
+      "options": ["10 kJ", "100 kJ", "1,000 kJ", "1 kJ"],
+      "correctAnswer": "10 kJ",
+      "conceptTag": "10% Law of Energy Transfer",
+      "explanation": "Trophic level 1 (Producers): 10,000 kJ -> T1 to T2 (Herbivores): 1,000 kJ -> T2 to T3 (Carnivores): 100 kJ -> T3 to T4 (Tertiary): 10 kJ."
+    },
+    {
+      "id": "c10_sci_oe_06",
+      "question": "Which international agreement successfully restricted and phased out the production of ozone-depleting CFCs worldwide?",
+      "options": [
+        "Montreal Protocol (1987)",
+        "Kyoto Protocol (1997)",
+        "Paris Agreement (2015)",
+        "Rio Earth Summit (1992)"
+      ],
+      "correctAnswer": "Montreal Protocol (1987)",
+      "conceptTag": "Montreal Protocol Environmental Treaty",
+      "explanation": "The Montreal Protocol stands as a landmark global treaty that successfully curbed ozone-depleting substances."
+    },
+    {
+      "id": "c10_sci_oe_07",
+      "question": "Why are food webs more stable and realistic representations of ecosystems than a simple linear food chain?",
+      "options": [
+        "Real organisms eat multiple types of food and belong to multiple trophic levels, so if one prey species declines, predators can switch to alternative sources",
+        "Linear food chains always contain infinite species",
+        "Food webs do not include energy loss",
+        "Food webs only exist in aquatic environments"
+      ],
+      "correctAnswer": "Real organisms eat multiple types of food and belong to multiple trophic levels, so if one prey species declines, predators can switch to alternative sources",
+      "conceptTag": "Food Web Complexity and Ecosystem Stability",
+      "explanation": "Interconnected feeding relationships provide ecological resilience against population crashes or environmental shocks."
+    },
+    {
+      "id": "c10_sci_oe_08",
+      "question": "What is the role of decomposers (bacteria and fungi) in an ecosystem?",
+      "options": [
+        "They break down complex organic wastes from dead plants and animals into simple inorganic nutrients, recycling matter back into the soil",
+        "They produce food via photosynthesis",
+        "They consume primary producers directly to generate solar energy",
+        "They remove all moisture from the atmosphere"
+      ],
+      "correctAnswer": "They break down complex organic wastes from dead plants and animals into simple inorganic nutrients, recycling matter back into the soil",
+      "conceptTag": "Role of Decomposers in Nutrient Cycling",
+      "explanation": "Decomposers act as nature's scavengers and recyclers, ensuring that vital chemical elements do not remain locked up in dead matter."
+    }
+  ]
+}

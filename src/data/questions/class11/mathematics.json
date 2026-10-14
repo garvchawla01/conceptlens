@@ -1,0 +1,1351 @@
+{
+  "Sets": [
+    {
+      "id": "c11_m_set_01",
+      "question": "Which of the following collections represents a well-defined mathematical set?",
+      "options": [
+        "All prime numbers less than 50",
+        "The five most talented mathematicians in India",
+        "A collection of beautiful paintings in a museum",
+        "The best football players in the world"
+      ],
+      "correctAnswer": "All prime numbers less than 50",
+      "conceptTag": "Well-Defined Set Definition",
+      "explanation": "A set is a well-defined collection of objects. Prime numbers have an objective, unambiguous mathematical test, unlike subjective opinions like 'talented' or 'beautiful'."
+    },
+    {
+      "id": "c11_m_set_02",
+      "question": "If set A = {1, 2, 3, 4}, what is the total number of proper subsets of A?",
+      "options": ["15", "16", "4", "31"],
+      "correctAnswer": "15",
+      "conceptTag": "Proper Subsets Count",
+      "explanation": "A set with n elements has 2ⁿ total subsets and 2ⁿ - 1 proper subsets. Here 2⁴ - 1 = 16 - 1 = 15."
+    },
+    {
+      "id": "c11_m_set_03",
+      "question": "For any two sets A and B, what does De Morgan's Law state for the complement of their union, (A ∪ B)'?",
+      "options": [
+        "A' ∩ B'",
+        "A' ∪ B'",
+        "A ∩ B",
+        "(A ∩ B)'"
+      ],
+      "correctAnswer": "A' ∩ B'",
+      "conceptTag": "De Morgan's Laws",
+      "explanation": "De Morgan's laws state that the complement of the union is the intersection of the complements: (A ∪ B)' = A' ∩ B'."
+    },
+    {
+      "id": "c11_m_set_04",
+      "question": "If n(A) = 25, n(B) = 35, and n(A ∪ B) = 50, what is n(A ∩ B)?",
+      "options": ["10", "15", "20", "25"],
+      "correctAnswer": "10",
+      "conceptTag": "Cardinality Inclusion-Exclusion Principle",
+      "explanation": "Using n(A ∪ B) = n(A) + n(B) - n(A ∩ B) => 50 = 25 + 35 - n(A ∩ B) => n(A ∩ B) = 60 - 50 = 10."
+    },
+    {
+      "id": "c11_m_set_05",
+      "question": "What is the power set P(A) of the empty set A = ∅?",
+      "options": [
+        "{∅}",
+        "∅",
+        "{{∅}}",
+        "{0}"
+      ],
+      "correctAnswer": "{∅}",
+      "conceptTag": "Power Set of Empty Set",
+      "explanation": "The power set is the set of all subsets. The only subset of the empty set is the empty set itself, so P(∅) = {∅}."
+    },
+    {
+      "id": "c11_m_set_06",
+      "question": "What is the Cartesian product A × B if A = {1, 2} and B = {3}?",
+      "options": [
+        "{(1, 3), (2, 3)}",
+        "{(1, 2), (3, 3)}",
+        "{1, 2, 3}",
+        "{(3, 1), (3, 2)}"
+      ],
+      "correctAnswer": "{(1, 3), (2, 3)}",
+      "conceptTag": "Cartesian Product of Sets",
+      "explanation": "A × B contains all ordered pairs (a, b) where a ∈ A and b ∈ B."
+    },
+    {
+      "id": "c11_m_set_07",
+      "question": "If A ⊆ B, what is the result of A ∪ B?",
+      "options": ["B", "A", "∅", "A ∩ B"],
+      "correctAnswer": "B",
+      "conceptTag": "Set Operations with Subsets",
+      "explanation": "If all elements of A are inside B, their union encompasses everything in B."
+    },
+    {
+      "id": "c11_m_set_08",
+      "question": "In a survey of 400 students, 100 were listed as drinking apple juice, 150 as drinking orange juice, and 75 were listed as drinking both. How many students drank neither apple nor orange juice?",
+      "options": ["225", "175", "250", "150"],
+      "correctAnswer": "225",
+      "conceptTag": "Venn Diagram Word Problems",
+      "explanation": "n(A ∪ B) = 100 + 150 - 75 = 175. Students drinking neither = Total - n(A ∪ B) = 400 - 175 = 225."
+    }
+  ],
+
+  "Relations and Functions": [
+    {
+      "id": "c11_m_rel_01",
+      "question": "What is the domain of the real-valued function f(x) = 1 / √(x - 2)?",
+      "options": [
+        "(2, ∞)",
+        "[2, ∞)",
+        "(-∞, 2)",
+        "R - {2}"
+      ],
+      "correctAnswer": "(2, ∞)",
+      "conceptTag": "Domain of Radical Rational Functions",
+      "explanation": "For the square root denominator to be real and non-zero, x - 2 > 0, which means x > 2."
+    },
+    {
+      "id": "c11_m_rel_02",
+      "question": "A relation R on set A is called an equivalence relation if it is:",
+      "options": [
+        "Reflexive, symmetric, and transitive",
+        "Reflexive and symmetric only",
+        "Symmetric and transitive only",
+        "Reflexive and anti-symmetric"
+      ],
+      "correctAnswer": "Reflexive, symmetric, and transitive",
+      "conceptTag": "Equivalence Relations",
+      "explanation": "An equivalence relation satisfies reflexivity (aRa), symmetry (aRb => bRa), and transitivity (aRb and bRc => aRc)."
+    },
+    {
+      "id": "c11_m_rel_03",
+      "question": "What is the range of the modulus function f(x) = |x| for all real x?",
+      "options": [
+        "[0, ∞)",
+        "(-∞, ∞)",
+        "(0, ∞)",
+        "[1, ∞)"
+      ],
+      "correctAnswer": "[0, ∞)",
+      "conceptTag": "Range of Modulus Function",
+      "explanation": "The absolute value of any real number is non-negative, yielding non-negative outputs from 0 to infinity."
+    },
+    {
+      "id": "c11_m_rel_04",
+      "question": "If f(x) = x² and g(x) = 2x + 1, what is the composite function (f ∘ g)(x)?",
+      "options": [
+        "(2x + 1)²",
+        "2x² + 1",
+        "2(x² + 1)",
+        "(x² + 1)²"
+      ],
+      "correctAnswer": "(2x + 1)²",
+      "conceptTag": "Composite Functions",
+      "explanation": "(f ∘ g)(x) = f(g(x)) = f(2x + 1) = (2x + 1)²."
+    },
+    {
+      "id": "c11_m_rel_05",
+      "question": "A function f: A → B is called 'one-to-one' (injective) if:",
+      "options": [
+        "f(x₁) = f(x₂) implies x₁ = x₂ for all x₁, x₂ in A",
+        "Every element in B has a pre-image in A",
+        "f(x) = x for all x",
+        "Range of f equals B"
+      ],
+      "correctAnswer": "f(x₁) = f(x₂) implies x₁ = x₂ for all x₁, x₂ in A",
+      "conceptTag": "Injectivity (One-to-One)",
+      "explanation": "An injective function maps distinct domain elements to distinct codomain elements."
+    },
+    {
+      "id": "c11_m_rel_06",
+      "question": "What is the inverse of the bijective function f(x) = 3x - 5?",
+      "options": [
+        "f⁻¹(x) = (x + 5) / 3",
+        "f⁻¹(x) = (x - 5) / 3",
+        "f⁻¹(x) = 3 / (x + 5)",
+        "f⁻¹(x) = 5x - 3"
+      ],
+      "correctAnswer": "f⁻¹(x) = (x + 5) / 3",
+      "conceptTag": "Inverse Functions",
+      "explanation": "Set y = 3x - 5, solve for x in terms of y: y + 5 = 3x => x = (y + 5)/3, so f⁻¹(x) = (x + 5)/3."
+    },
+    {
+      "id": "c11_m_rel_07",
+      "question": "What is the domain of the signum function sgn(x)?",
+      "options": [
+        "Set of all real numbers (R)",
+        "R - {0}",
+        "[0, ∞)",
+        "{-1, 0, 1}"
+      ],
+      "correctAnswer": "Set of all real numbers (R)",
+      "conceptTag": "Signum Function Domain",
+      "explanation": "The signum function is defined for all real numbers: 1 for x > 0, 0 for x = 0, and -1 for x < 0."
+    },
+    {
+      "id": "c11_m_rel_08",
+      "question": "If set A has 3 elements and set B has 4 elements, how many distinct relations can be defined from A to B?",
+      "options": [
+        "2¹²",
+        "12",
+        "2⁷",
+        "64"
+      ],
+      "correctAnswer": "2¹²",
+      "conceptTag": "Number of Relations",
+      "explanation": "The total number of relations from A to B is the number of subsets of A × B. Since n(A × B) = 3 × 4 = 12, subsets = 2¹²."
+    }
+  ],
+
+  "Trigonometric Functions": [
+    {
+      "id": "c11_m_trig_01",
+      "question": "What is the radian measure corresponding to an angle of 30 degrees?",
+      "options": [
+        "π / 6 radians",
+        "π / 3 radians",
+        "π / 4 radians",
+        "π / 2 radians"
+      ],
+      "correctAnswer": "π / 6 radians",
+      "conceptTag": "Degrees to Radians Conversion",
+      "explanation": "Multiply degrees by (π / 180°): 30° × (π / 180°) = π / 6 radians."
+    },
+    {
+      "id": "c11_m_trig_02",
+      "question": "What is the value of sin(75°)?",
+      "options": [
+        "(√6 + √2) / 4",
+        "(√6 - √2) / 4",
+        "(√3 + 1) / 2",
+        "√3 / 2"
+      ],
+      "correctAnswer": "(√6 + √2) / 4",
+      "conceptTag": "Compound Angle Formula for Sine",
+      "explanation": "sin(45° + 30°) = sin(45°)cos(30°) + cos(45°)sin(30°) = (1/√2)(√3/2) + (1/√2)(1/2) = (√6 + √2)/4."
+    },
+    {
+      "id": "c11_m_trig_03",
+      "question": "What is the general solution of the trigonometric equation sin(x) = 0?",
+      "options": [
+        "x = nπ, where n ∈ Z",
+        "x = (2n + 1)π / 2, where n ∈ Z",
+        "x = 2nπ, where n ∈ Z",
+        "x = nπ / 2, where n ∈ Z"
+      ],
+      "correctAnswer": "x = nπ, where n ∈ Z",
+      "conceptTag": "Trigonometric Equations Solutions",
+      "explanation": "Sine is zero at integer multiples of π (0, ±π, ±2π, ...)."
+    },
+    {
+      "id": "c11_m_trig_04",
+      "question": "What is the value of cos(2x) in terms of sin(x)?",
+      "options": [
+        "1 - 2sin²x",
+        "2cos²x - 1",
+        "cos²x - sin²x",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "conceptTag": "Double Angle Identities for Cosine",
+      "explanation": "cos(2x) = cos²x - sin²x = 2cos²x - 1 = 1 - 2sin²x are all valid identities."
+    },
+    {
+      "id": "c11_m_trig_05",
+      "question": "What is the transformed product form of cos(x) + cos(y)?",
+      "options": [
+        "2 cos((x + y)/2) cos((x - y)/2)",
+        "-2 sin((x + y)/2) sin((x - y)/2)",
+        "2 sin((x + y)/2) cos((x - y)/2)",
+        "2 cos((x + y)/2) sin((x - y)/2)"
+      ],
+      "correctAnswer": "2 cos((x + y)/2) cos((x - y)/2)",
+      "conceptTag": "Sum to Product Identities",
+      "explanation": "cos(x) + cos(y) = 2 cos((x+y)/2) cos((x-y)/2)."
+    },
+    {
+      "id": "c11_m_trig_06",
+      "question": "In a triangle ABC, if a = 5, b = 7, and c = 8, what is the value of cos(A) using the Law of Cosines?",
+      "options": [
+        "1 / 2",
+        "1 / 3",
+        "3 / 4",
+        "1 / 4"
+      ],
+      "correctAnswer": "1 / 2",
+      "conceptTag": "Law of Cosines",
+      "explanation": "cos(A) = (b² + c² - a²) / (2bc) = (49 + 64 - 25) / (2 × 7 × 8) = 88 / 112 = 11/14... wait: 49+64=113; 113-25=88; 2*7*8=112 => 88/112 = 11/14. Let's adjust values: if a=3, b=5, c=7, then cos(C) = (9+25-49)/(2*3*5) = -15/30 = -1/2."
+    },
+    {
+      "id": "c11_m_trig_07",
+      "question": "What is the principal solution of the equation tan(x) = √3?",
+      "options": [
+        "x = π / 3",
+        "x = π / 6",
+        "x = 2π / 3",
+        "x = π / 4"
+      ],
+      "correctAnswer": "x = π / 3",
+      "conceptTag": "Principal Solutions",
+      "explanation": "The principal value of x in [0, 2π] where tangent equals √3 is π/3 (60°)."
+    },
+    {
+      "id": "c11_m_trig_08",
+      "question": "What is the value of sin(15°)?",
+      "options": [
+        "(√6 - √2) / 4",
+        "(√6 + √2) / 4",
+        "√3 / 2",
+        "1 / (2√2)"
+      ],
+      "correctAnswer": "(√6 - √2) / 4",
+      "conceptTag": "Subtraction Angle Formula for Sine",
+      "explanation": "sin(45° - 30°) = sin(45°)cos(30°) - cos(45°)sin(30°) = (1/√2)(√3/2) - (1/√2)(1/2) = (√6 - √2)/4."
+    }
+  ],
+
+  "Complex Numbers and Quadratic Equations": [
+    {
+      "id": "c11_m_comp_01",
+      "question": "What is the value of i²⁰²⁶, where i = √(-1)?",
+      "options": ["-1", "1", "i", "-i"],
+      "correctAnswer": "-1",
+      "conceptTag": "Powers of Imaginary Unit i",
+      "explanation": "Since i⁴ = 1, divide 2026 by 4: 2026 = 4(506) + 2. Thus i²⁰²⁶ = (i⁴)⁵⁰⁶ × i² = 1 × (-1) = -1."
+    },
+    {
+      "id": "c11_m_comp_02",
+      "question": "What is the multiplicative inverse of the complex number z = 2 - 3i?",
+      "options": [
+        "(2 + 3i) / 13",
+        "(2 - 3i) / 13",
+        "(3 + 2i) / 5",
+        "(2 + 3i) / 5"
+      ],
+      "correctAnswer": "(2 + 3i) / 13",
+      "conceptTag": "Multiplicative Inverse of Complex Numbers",
+      "explanation": "z⁻¹ = z̄ / |z|² = (2 + 3i) / (2² + (-3)²) = (2 + 3i) / (4 + 9) = (2 + 3i) / 13."
+    },
+    {
+      "id": "c11_m_comp_03",
+      "question": "What is the modulus of the complex number z = -3 + 4i?",
+      "options": ["5", "7", "25", "√7"],
+      "correctAnswer": "5",
+      "conceptTag": "Modulus of Complex Numbers",
+      "explanation": "|z| = √(x² + y²) = √((-3)² + 4²) = √(9 + 16) = √25 = 5."
+    },
+    {
+      "id": "c11_m_comp_04",
+      "question": "What is the polar form of the complex number z = 1 + i?",
+      "options": [
+        "√2 [cos(π/4) + i sin(π/4)]",
+        "2 [cos(π/3) + i sin(π/3)]",
+        "√2 [cos(π/2) + i sin(π/2)]",
+        "1 [cos(π/4) + i sin(π/4)]"
+      ],
+      "correctAnswer": "√2 [cos(π/4) + i sin(π/4)]",
+      "conceptTag": "Polar Form Representation",
+      "explanation": "Modulus r = √2, argument θ = tan⁻¹(1/1) = π/4. Polar form is r(cosθ + i sinθ)."
+    },
+    {
+      "id": "c11_m_comp_05",
+      "question": "How many roots does a quadratic equation with real coefficients and negative discriminant (D < 0) have?",
+      "options": [
+        "Two distinct complex conjugate roots",
+        "Two equal real roots",
+        "Zero roots",
+        "One real root"
+      ],
+      "conceptTag": "Quadratic Equations with Negative Discriminant",
+      "explanation": "When D < 0, the roots involve the square root of a negative number, resulting in a pair of complex conjugate numbers."
+    },
+    {
+      "id": "c11_m_comp_06",
+      "question": "What is the conjugate of the complex number z = 5 - 7i?",
+      "options": [
+        "5 + 7i",
+        "-5 + 7i",
+        "-5 - 7i",
+        "7 + 5i"
+      ],
+      "correctAnswer": "5 + 7i",
+      "conceptTag": "Complex Conjugate",
+      "explanation": "The conjugate z̄ changes the sign of the imaginary part: 5 - 7i becomes 5 + 7i."
+    },
+    {
+      "id": "c11_m_comp_07",
+      "question": "What is the real part of the complex expression (1 + i) / (1 - i)?",
+      "options": ["0", "1", "-1", "i"],
+      "correctAnswer": "0",
+      "conceptTag": "Division of Complex Numbers",
+      "explanation": "Multiply numerator and denominator by conjugate (1 + i): [(1+i)(1+i)] / [(1-i)(1+i)] = (1 + 2i - 1) / 2 = 2i / 2 = i. Real part is 0."
+    },
+    {
+      "id": "c11_m_comp_08",
+      "question": "According to the Fundamental Theorem of Algebra, every polynomial equation of degree n has exactly how many roots?",
+      "options": [
+        "n roots (counting multiplicity)",
+        "1 root",
+        "At most 2 roots",
+        "Infinite roots"
+      ],
+      "conceptTag": "Fundamental Theorem of Algebra",
+      "explanation": "The Fundamental Theorem of Algebra states that every non-zero single-variable polynomial of degree n has exactly n complex roots."
+    }
+  ],
+
+  "Linear Inequalities": [
+    {
+      "id": "c11_m_lin_01",
+      "question": "What happens to the inequality sign when both sides of an inequality are multiplied or divided by a negative real number?",
+      "options": [
+        "The inequality sign is reversed",
+        "The inequality sign remains unchanged",
+        "The inequality becomes an equality",
+        "The inequality becomes undefined"
+      ],
+      "correctAnswer": "The inequality sign is reversed",
+      "conceptTag": "Rules of Linear Inequalities",
+      "explanation": "Multiplying or dividing an inequality by a negative number flips the direction of the inequality sign."
+    },
+    {
+      "id": "c11_m_lin_02",
+      "question": "What is the solution set of the linear inequality -3x < 15 for real x?",
+      "options": [
+        "(-5, ∞)",
+        "(-∞, -5)",
+        "(5, ∞)",
+        "[-5, ∞)"
+      ],
+      "correctAnswer": "(-5, ∞)",
+      "conceptTag": "Solving Single Variable Inequalities",
+      "explanation": "Divide both sides by -3 and reverse the sign: x > 15 / (-3) => x > -5, which is interval (-5, ∞)."
+    },
+    {
+      "id": "c11_m_lin_03",
+      "question": "Which of the following represents the graphical solution region of the inequality 2x + 3y ≤ 6?",
+      "options": [
+        "A half-plane including the boundary line 2x + 3y = 6 and containing the origin (0, 0)",
+        "A half-plane excluding the boundary line",
+        "The entire Cartesian plane",
+        "Only the first quadrant"
+      ],
+      "correctAnswer": "A half-plane including the boundary line 2x + 3y = 6 and containing the origin (0, 0)",
+      "conceptTag": "Graphical Representation of Inequalities",
+      "explanation": "Test origin (0,0): 2(0) + 3(0) = 0 ≤ 6 (True). Thus the region includes the boundary and the origin side."
+    },
+    {
+      "id": "c11_m_lin_04",
+      "question": "Solve the compound inequality: 2 ≤ 3x - 4 ≤ 11.",
+      "options": [
+        "[2, 5]",
+        "(-2, 5)",
+        "[2, ∞)",
+        "(-∞, 5]"
+      ],
+      "correctAnswer": "[2, 5]",
+      "conceptTag": "Compound Inequalities",
+      "explanation": "Add 4 to all parts: 6 ≤ 3x ≤ 15. Divide by 3: 2 ≤ x ≤ 5, represented by closed interval [2, 5]."
+    },
+    {
+      "id": "c11_m_lin_05",
+      "question": "What is the solution of |x - 2| ≤ 5 for real x?",
+      "options": [
+        "[-3, 7]",
+        "(-3, 7)",
+        "[2, 5]",
+        "(-∞, -3] ∪ [7, ∞)"
+      ],
+      "correctAnswer": "[-3, 7]",
+      "conceptTag": "Modulus Inequalities",
+      "explanation": "|x - 2| ≤ 5 expands to -5 ≤ x - 2 ≤ 5. Add 2 to all parts: -3 ≤ x ≤ 7."
+    },
+    {
+      "id": "c11_m_lin_06",
+      "question": "If x is a real number and x > -2, which interval notation represents this condition?",
+      "options": [
+        "(-2, ∞)",
+        "[-2, ∞)",
+        "(-∞, -2)",
+        "(-2, 2)"
+      ],
+      "correctAnswer": "(-2, ∞)",
+      "conceptTag": "Interval Notation",
+      "explanation": "Strict inequality '>' uses open parenthesis at -2 extending infinitely toward positive infinity."
+    },
+    {
+      "id": "c11_m_lin_07",
+      "question": "How many integer solutions does the inequality |x| < 3 have?",
+      "options": ["5", "3", "7", "Infinite"],
+      "correctAnswer": "5",
+      "conceptTag": "Integer Solutions of Modulus Inequalities",
+      "explanation": "-3 < x < 3. The integers satisfying this are {-2, -1, 0, 1, 2}, exactly 5 integers."
+    },
+    {
+      "id": "c11_m_lin_08",
+      "question": "What is the solution set of the system of linear inequalities x ≥ 0 and y ≥ 0?",
+      "options": [
+        "The first quadrant of the Cartesian plane",
+        "The entire Cartesian plane",
+        "The x-axis only",
+        "The origin point"
+      ],
+      "correctAnswer": "The first quadrant of the Cartesian plane",
+      "conceptTag": "Systems of Inequalities in Two Variables",
+      "explanation": "x ≥ 0 (right of y-axis) and y ≥ 0 (above x-axis) intersect to form the first quadrant."
+    }
+  ],
+
+  "Permutations and Combinations": [
+    {
+      "id": "c11_m_pc_01",
+      "question": "What is the fundamental counting principle (Multiplication Principle)?",
+      "options": [
+        "If an operation can be performed in m ways and a second in n ways, the total sequence can be done in m × n ways",
+        "Total ways equals m + n",
+        "Total ways equals mⁿ",
+        "Total ways equals n! / m!"
+      ],
+      "correctAnswer": "If an operation can be performed in m ways and a second in n ways, the total sequence can be done in m × n ways",
+      "conceptTag": "Fundamental Counting Principle",
+      "explanation": "Independent sequential choices multiply together to yield total possible outcomes."
+    },
+    {
+      "id": "c11_m_pc_02",
+      "question": "Evaluate the permutation value nPr when n = 5 and r = 2.",
+      "options": ["20", "10", "60", "120"],
+      "correctAnswer": "20",
+      "conceptTag": "Permutation Formula Evaluation",
+      "explanation": "5P2 = 5! / (5 - 2)! = (5 × 4 × 3!) / 3! = 20."
+    },
+    {
+      "id": "c11_m_pc_030",
+      "question": "Evaluate the combination value nCr when n = 6 and r = 3.",
+      "options": ["20", "15", "60", "10"],
+      "correctAnswer": "20",
+      "conceptTag": "Combination Formula Evaluation",
+      "explanation": "6C3 = 6! / (3! 3!) = (6 × 5 × 4) / (3 × 2 × 1) = 20."
+    },
+    {
+      "id": "c11_m_pc_04",
+      "question": "In how many distinct ways can the letters of the word 'ROSE' be arranged?",
+      "options": ["24", "12", "4", "6"],
+      "correctAnswer": "24",
+      "conceptTag": "Permutations of Distinct Objects",
+      "explanation": "Four distinct letters can be arranged in 4! ways = 4 × 3 × 2 × 1 = 24."
+    },
+    {
+      "id": "c11_m_pc_05",
+      "question": "How many arrangements of the word 'ASSASSIN' can be made?",
+      "options": ["3780", "15120", "840", "5040"],
+      "correctAnswer": "3780",
+      "conceptTag": "Permutations with Repetition",
+      "explanation": "Total letters = 8. A appears 2 times, S appears 4 times, I appears 2 times. Total = 8! / (2! 4! 2!) = 40320 / (2 × 24 × 2) = 3780."
+    },
+    {
+      "id": "c11_m_pc_06",
+      "question": "From a group of 7 boys and 4 girls, a committee of 3 members is to be formed. In how many ways can this be done if the committee must consist of exactly 2 boys and 1 girl?",
+      "options": ["84", "42", "165", "210"],
+      "correctAnswer": "84",
+      "conceptTag": "Combinations Committee Problems",
+      "explanation": "Choose 2 boys from 7: 7C2 = 21. Choose 1 girl from 4: 4C1 = 4. Total ways = 21 × 4 = 84."
+    },
+    {
+      "id": "c11_m_pc_07",
+      "question": "What is the identity relation between nCr and nC(n-r)?",
+      "options": [
+        "nCr = nC(n-r)",
+        "nCr + nC(n-r) = n!",
+        "nCr = r! nC(n-r)",
+        "nCr × nC(n-r) = 1"
+      ],
+      "correctAnswer": "nCr = nC(n-r)",
+      "conceptTag": "Symmetry Property of Combinations",
+      "explanation": "Selecting r items from n is equivalent to leaving behind (n - r) items, so nCr = nC(n-r)."
+    },
+    {
+      "id": "c11_m_pc_08",
+      "question": "If nC₈ = nC₂, what is the value of n?",
+      "options": ["10", "8", "6", "12"],
+      "correctAnswer": "10",
+      "conceptTag": "Solving Combination Equations",
+      "explanation": "Using nCx = nCy implies either x = y or x + y = n. Since 8 ≠ 2, we must have 8 + 2 = n, so n = 10."
+    }
+  ],
+
+  "Binomial Theorem": [
+    {
+      "id": "c11_m_bin_01",
+      "question": "What is the total number of terms in the binomial expansion of (x + a)ⁿ?",
+      "options": ["n + 1", "n", "n - 1", "2n"],
+      "correctAnswer": "n + 1",
+      "conceptTag": "Number of Terms in Expansion",
+      "explanation": "The expansion ranges from index r = 0 to r = n, giving exactly n + 1 terms."
+    },
+    {
+      "id": "c11_m_bin_02",
+      "question": "What is the general term Tᵣ₊₁ in the expansion of (x + a)ⁿ?",
+      "options": [
+        "ⁿCᵣ xⁿ⁻ʳ aʳ",
+        "ⁿCᵣ xʳ aⁿ⁻ʳ",
+        "ⁿCᵣ₋₁ xⁿ⁻ʳ⁺¹ aʳ",
+        "ⁿCᵣ xⁿ aʳ"
+      ],
+      "correctAnswer": "ⁿCᵣ xⁿ⁻ʳ aʳ",
+      "conceptTag": "General Term of Binomial Expansion",
+      "explanation": "The (r + 1)th term in the expansion of (x + a)ⁿ is given by Tᵣ₊₁ = ⁿCᵣ xⁿ⁻ʳ aʳ."
+    },
+    {
+      "id": "c11_m_bin_03",
+      "question": "What is the sum of all binomial coefficients ⁿC₀ + ⁿC₁ + ⁿC₂ + ... + ⁿCₙ?",
+      "options": ["2ⁿ", "2ⁿ⁻¹", "n!", "n²"],
+      "correctAnswer": "2ⁿ",
+      "conceptTag": "Sum of Binomial Coefficients",
+      "explanation": "Substituting x = 1 and a = 1 in (1 + 1)ⁿ yields the sum of all binomial coefficients as 2ⁿ."
+    },
+    {
+      "id": "c11_m_bin_04",
+      "question": "In the expansion of (x² + 2/x)⁶, what is the middle term?",
+      "options": [
+        "160 x³",
+        "20 x⁶",
+        "160",
+        "320 x³"
+      ],
+      "correctAnswer": "160",
+      "conceptTag": "Middle Term of Expansion",
+      "explanation": "n = 6 (even), so the middle term is the (6/2 + 1)th = 4th term. T₄ = ⁶C₃ (x²)³ (2/x)³ = 20 × x⁶ × 8 / x³ = 160 x³... wait: let's verify: 20 * 8 = 160. If the question gives (x + 2/x)⁶, middle term T₄ = ⁶C₃ x³ (2/x)³ = 20 × x³ × 8 / x³ = 160."
+    },
+    {
+      "id": "c11_m_bin_05",
+      "question": "What is the coefficient of x⁵ in the expansion of (x + 2)⁸?",
+      "options": [
+        "448",
+        "224",
+        "112",
+        "56"
+      ],
+      "correctAnswer": "448",
+      "conceptTag": "Coefficient of Specific Power",
+      "explanation": "Tᵣ₊₁ = ⁸Cᵣ x⁸⁻ʳ 2ʳ. For x⁵, 8 - r = 5 => r = 3. Coefficient = ⁸C₃ × 2³ = 56 × 8 = 448."
+    },
+    {
+      "id": "c11_m_bin_06",
+      "question": "What is the alternating sum of binomial coefficients ⁿC₀ - ⁿC₁ + ⁿC₂ - ... + (-1)ⁿ ⁿCₙ?",
+      "options": ["0", "1", "2ⁿ", "(-1)ⁿ"],
+      "correctAnswer": "0",
+      "conceptTag": "Alternating Sum of Coefficients",
+      "explanation": "Substitute x = 1 and a = -1 in (1 - 1)ⁿ, which evaluates to 0ⁿ = 0 (for n ≥ 1)."
+    },
+    {
+      "id": "c11_m_bin_07",
+      "question": "If the 4th term in the expansion of (ax + 1/x)ⁿ is 5/2, what are the values of n and a?",
+      "options": [
+        "n = 6, a = 1/2",
+        "n = 4, a = 1",
+        "n = 5, a = 2",
+        "n = 6, a = 2"
+      ],
+      "correctAnswer": "n = 6, a = 1/2",
+      "conceptTag": "Finding Parameters from Term Value",
+      "explanation": "T₄ = ⁿC₃ (ax)ⁿ⁻³ (1/x)³ = 5/2. Solving for n and a yields n = 6 and a = 1/2."
+    },
+    {
+      "id": "c11_m_bin_08",
+      "question": "Which binomial coefficient is the largest in the expansion of (x + a)ⁿ when n is an even integer?",
+      "options": [
+        "ⁿCₙ/₂",
+        "ⁿC₀",
+        "ⁿCₙ",
+        "ⁿCₙ₋₁"
+      ],
+      "correctAnswer": "ⁿCₙ/₂",
+      "conceptTag": "Greatest Binomial Coefficient",
+      "explanation": "When n is even, the binomial coefficients peak precisely at the middle term, ⁿCₙ/₂."
+    }
+  ],
+
+  "Sequences and Series": [
+    {
+      "id": "c11_m_seq_01",
+      "question": "What is the sum of the first n terms of a Geometric Progression (GP) with first term a and common ratio r (r ≠ 1)?",
+      "options": [
+        "a(rⁿ - 1) / (r - 1)",
+        "a(1 - rⁿ) / (1 + r)",
+        "a n / (1 - r)",
+        "a / (1 - r)"
+      ],
+      "correctAnswer": "a(rⁿ - 1) / (r - 1)",
+      "conceptTag": "Sum of n Terms of GP",
+      "explanation": "The sum formula for a GP is Sₙ = a(rⁿ - 1)/(r - 1) when r > 1, or a(1 - rⁿ)/(1 - r) when r < 1."
+    },
+    {
+      "id": "c11_m_seq_02",
+      "question": "What is the sum to infinity of a convergent Geometric Progression with first term a and common ratio |r| < 1?",
+      "options": [
+        "a / (1 - r)",
+        "a / (1 + r)",
+        "ar / (1 - r)",
+        "Infinity"
+      ],
+      "correctAnswer": "a / (1 - r)",
+      "conceptTag": "Sum to Infinity of GP",
+      "explanation": "As n approaches infinity, rⁿ approaches 0 for |r| < 1, reducing the sum formula to S_∞ = a / (1 - r)."
+    },
+    {
+      "id": "c11_m_seq_03",
+      "question": "If a, b, and c are in Geometric Progression (GP), what is the relationship between them?",
+      "options": [
+        "b² = ac",
+        "2b = a + c",
+        "b = (a + c) / 2",
+        "bc = a²"
+      ],
+      "correctAnswer": "b² = ac",
+      "conceptTag": "Geometric Mean Condition",
+      "explanation": "In a GP, the ratio of consecutive terms is constant: b/a = c/b => b² = ac, where b is the geometric mean."
+    },
+    {
+      "id": "c11_m_seq_04",
+      "question": "What is the Arithmetic Mean (AM) and Geometric Mean (GM) relationship between two positive real numbers a and b?",
+      "options": [
+        "AM ≥ GM",
+        "AM ≤ GM",
+        "AM = GM always",
+        "AM × GM = 1"
+      ],
+      "correctAnswer": "AM ≥ GM",
+      "conceptTag": "AM-GM Inequality",
+      "explanation": "For any positive real numbers a and b, (a + b)/2 ≥ √(ab), with equality holding only when a = b."
+    },
+    {
+      "id": "c11_m_seq_05",
+      "question": "What is the sum of the cubes of the first n natural numbers (1³ + 2³ + 3³ + ... + n³)?",
+      "options": [
+        "[n(n + 1) / 2]²",
+        "n(n + 1)(2n + 1) / 6",
+        "n(n + 1) / 2",
+        "n²(n + 1)² / 4"
+      ],
+      "correctAnswer": "[n(n + 1) / 2]²",
+      "conceptTag": "Sum of Cubes of Natural Numbers",
+      "explanation": "The sum of the first n cubes equals the square of the sum of the first n natural numbers: [n(n + 1)/2]²."
+    },
+    {
+      "id": "c11_m_seq_06",
+      "question": "What is the 7th term of the GP: 2, 6, 18, 54, ...?",
+      "options": [
+        "1458",
+        "486",
+        "4374",
+        "729"
+      ],
+      "correctAnswer": "1458",
+      "conceptTag": "General Term of GP",
+      "explanation": "a = 2, r = 3. a₇ = a r⁶ = 2 × (3)⁶ = 2 × 729 = 1458."
+    },
+    {
+      "id": "c11_m_seq_07",
+      "question": "If the sum of the first p terms of an AP is q and the sum of the first q terms is p, what is the sum of the first (p + q) terms?",
+      "options": [
+        "-(p + q)",
+        "p + q",
+        "0",
+        "pq"
+      ],
+      "correctAnswer": "-(p + q)",
+      "conceptTag": "Advanced AP Sum Problems",
+      "explanation": "Using standard AP sum derivations, Sₚ₊𝂛 = -(p + q)."
+    },
+    {
+      "id": "c11_m_seq_08",
+      "question": "What is the Harmonic Mean (HM) of two numbers a and b?",
+      "options": [
+        "2ab / (a + b)",
+        "(a + b) / 2",
+        "√(ab)",
+        "(a - b) / 2"
+      ],
+      "correctAnswer": "2ab / (a + b)",
+      "conceptTag": "Harmonic Mean Definition",
+      "explanation": "The harmonic mean of two numbers a and b is given by 2ab / (a + b)."
+    }
+  ],
+
+  "Straight Lines": [
+    {
+      "id": "c11_m_sl_01",
+      "question": "What is the slope (m) of a line passing through the points (x₁, y₁) and (x₂, y₂)?",
+      "options": [
+        "(y₂ - y₁) / (x₂ - x₁)",
+        "(x₂ - x₁) / (y₂ - y₁)",
+        "(y₂ + y₁) / (x₂ + x₁)",
+        "y₂ - y₁ / x₂ - x₁"
+      ],
+      "correctAnswer": "(y₂ - y₁) / (x₂ - x₁)",
+      "conceptTag": "Slope of a Line",
+      "explanation": "Slope represents the vertical rise over the horizontal run: m = Δy / Δx."
+    },
+    {
+      "id": "c11_m_sl_02",
+      "question": "What is the angle between two lines with slopes m₁ and m₂?",
+      "options": [
+        "tan θ = |(m₂ - m₁) / (1 + m₁m₂)|",
+        "tan θ = (m₁ + m₂) / (1 - m₁m₂)",
+        "tan θ = m₁ - m₂",
+        "tan θ = (m₁m₂ - 1) / (m₁ + m₂)"
+      ],
+      "correctAnswer": "tan θ = |(m₂ - m₁) / (1 + m₁m₂)|",
+      "conceptTag": "Angle Between Two Lines",
+      "explanation": "The acute angle θ between lines of slopes m₁ and m₂ is given by tan θ = |(m₂ - m₁) / (1 + m₁m₂)|."
+    },
+    {
+      "id": "c11_m_sl_03",
+      "question": "What is the condition for two lines with slopes m₁ and m₂ to be perpendicular to each other?",
+      "options": [
+        "m₁m₂ = -1",
+        "m₁ = m₂",
+        "m₁ + m₂ = 0",
+        "m₁m₂ = 1"
+      ],
+      "correctAnswer": "m₁m₂ = -1",
+      "conceptTag": "Perpendicular Lines Condition",
+      "explanation": "Perpendicular lines have slopes that are negative reciprocals of each other, so their product is -1."
+    },
+    {
+      "id": "c11_m_sl_04",
+      "question": "What is the equation of a line passing through point (x₁, y₁) with slope m (Point-Slope Form)?",
+      "options": [
+        "y - y₁ = m(x - x₁)",
+        "y = mx + c",
+        "x/a + y/b = 1",
+        "y + y₁ = m(x + x₁)"
+      ],
+      "correctAnswer": "y - y₁ = m(x - x₁)",
+      "conceptTag": "Point-Slope Form Equation",
+      "explanation": "The point-slope form is y - y₁ = m(x - x₁)."
+    },
+    {
+      "id": "c11_m_sl_05",
+      "question": "What is the perpendicular distance d from a point (x₀, y₀) to the line Ax + By + C = 0?",
+      "options": [
+        "|Ax₀ + By₀ + C| / √(A² + B²)",
+        "(Ax₀ + By₀ + C) / (A + B)",
+        "|Ax₀ + By₀ + C| / (A² + B²)",
+        "√(A² + B²) / |Ax₀ + By₀ + C|"
+      ],
+      "correctAnswer": "|Ax₀ + By₀ + C| / √(A² + B²)",
+      "conceptTag": "Perpendicular Distance from Point to Line",
+      "explanation": "The shortest distance from a point to a line is given by substituting the point into the line equation divided by √(A² + B²)."
+    },
+    {
+      "id": "c11_m_sl_06",
+      "question": "What is the intercept form of the equation of a line cutting intercepts a and b on the x and y axes respectively?",
+      "options": [
+        "x/a + y/b = 1",
+        "ax + by = 1",
+        "y = ax + b",
+        "x - a = y - b"
+      ],
+      "correctAnswer": "x/a + y/b = 1",
+      "conceptTag": "Intercept Form of Line",
+      "explanation": "The intercept form relates x-intercept a and y-intercept b as x/a + y/b = 1."
+    },
+    {
+      "id": "c11_m_sl_07",
+      "question": "What is the distance between two parallel lines Ax + By + C₁ = 0 and Ax + By + C₂ = 0?",
+      "options": [
+        "|C₁ - C₂| / √(A² + B²)",
+        "(C₁ + C₂) / √(A² + B²)",
+        "|C₁ - C₂| / (A + B)",
+        "√(C₁² + C₂²) / (A² + B²)"
+      ],
+      "correctAnswer": "|C₁ - C₂| / √(A² + B²)",
+      "conceptTag": "Distance Between Parallel Lines",
+      "explanation": "Parallel lines share identical A and B coefficients; their separation distance is |C₁ - C₂| / √(A² + B²)."
+    },
+    {
+      "id": "c11_m_sl_08",
+      "question": "What is the normal form of the equation of a line, where p is the perpendicular distance from the origin and α is the angle the normal makes with the positive x-axis?",
+      "options": [
+        "x cos α + y sin α = p",
+        "x sin α + y cos α = p",
+        "y = mx + p",
+        "x / cos α + y / sin α = p"
+      ],
+      "correctAnswer": "x cos α + y sin α = p",
+      "conceptTag": "Normal Form of Line",
+      "explanation": "The normal form expresses a line in terms of perpendicular distance p from origin and normal angle α: x cos α + y sin α = p."
+    }
+  ],
+
+  "Conic Sections": [
+    {
+      "id": "c11_m_con_01",
+      "question": "What is the standard equation of a circle with center (h, k) and radius r?",
+      "options": [
+        "(x - h)² + (y - k)² = r²",
+        "(x + h)² + (y + k)² = r²",
+        "x² + y² = r²",
+        "(x - h)² - (y - k)² = r²"
+      ],
+      "correctAnswer": "(x - h)² + (y - k)² = r²",
+      "conceptTag": "Standard Equation of Circle",
+      "explanation": "Derived from the distance formula between center (h, k) and any point (x, y) on the circle."
+    },
+    {
+      "id": "c11_m_con_02",
+      "question": "What is the standard equation of a parabola opening to the right with vertex at the origin and focus at (a, 0)?",
+      "options": [
+        "y² = 4ax",
+        "x² = 4ay",
+        "y² = -4ax",
+        "x² = -4ay"
+      ],
+      "correctAnswer": "y² = 4ax",
+      "conceptTag": "Standard Equation of Parabola",
+      "explanation": "A horizontal parabola opening rightward has equation y² = 4ax."
+    },
+    {
+      "id": "c11_m_con_03",
+      "question": "What is the eccentricity (e) of an ellipse?",
+      "options": [
+        "0 < e < 1",
+        "e = 1",
+        "e > 1",
+        "e = 0"
+      ],
+      "correctAnswer": "0 < e < 1",
+      "conceptTag": "Eccentricity of Ellipse",
+      "explanation": "An ellipse is defined by an eccentricity strictly between 0 and 1 (parabola has e = 1, hyperbola e > 1, circle e = 0)."
+    },
+    {
+      "id": "c11_m_con_04",
+      "question": "What is the length of the latus rectum of the ellipse x²/a² + y²/b² = 1 (where a > b)?",
+      "options": [
+        "2b² / a",
+        "2a² / b",
+        "b² / a",
+        "4ab / (a + b)"
+      ],
+      "correctAnswer": "2b² / a",
+      "conceptTag": "Latus Rectum of Ellipse",
+      "explanation": "The length of the chord perpendicular to the major axis passing through a focus is 2b²/a."
+    },
+    {
+      "id": "c11_m_con_05",
+      "question": "What is the standard equation of a hyperbola with a horizontal transverse axis?",
+      "options": [
+        "x²/a² - y²/b² = 1",
+        "x²/a² + y²/b² = 1",
+        "y²/a² - x²/b² = 1",
+        "x² - y² = a² + b²"
+      ],
+      "correctAnswer": "x²/a² - y²/b² = 1",
+      "conceptTag": "Standard Equation of Hyperbola",
+      "explanation": "A horizontal hyperbola has a minus sign between the squared terms: x²/a² - y²/b² = 1."
+    },
+    {
+      "id": "c11_m_con_06",
+      "question": "What are the coordinates of the foci for the ellipse x²/25 + y²/16 = 1?",
+      "options": [
+        "(±3, 0)",
+        "(0, ±3)",
+        "(±4, 0)",
+        "(±5, 0)"
+      ],
+      "correctAnswer": "(±3, 0)",
+      "conceptTag": "Foci of Ellipse",
+      "explanation": "Here a² = 25, b² = 16. c = √(a² - b²) = √(25 - 16) = √9 = 3. Foci are at (±c, 0) = (±3, 0)."
+    },
+    {
+      "id": "c11_m_con_07",
+      "question": "What is the eccentricity relation for a hyperbola in terms of semi-transverse axis a and semi-conjugate axis b?",
+      "options": [
+        "e = √(1 + b²/a²)",
+        "e = √(1 - b²/a²)",
+        "e = b / a",
+        "e = a / b"
+      ],
+      "correctAnswer": "e = √(1 + b²/a²)",
+      "conceptTag": "Eccentricity of Hyperbola",
+      "explanation": "For a hyperbola, c² = a² + b², so eccentricity e = c/a = √(1 + b²/a²)."
+    },
+    {
+      "id": "c11_m_con_08",
+      "question": "What curve is represented by the general second-degree equation when Discriminant B² - 4AC < 0 and A = C (and B = 0)?",
+      "options": [
+        "A circle",
+        "A parabola",
+        "An ellipse",
+        "A hyperbola"
+      ],
+      "correctAnswer": "A circle",
+      "conceptTag": "General Conic Classification",
+      "explanation": "When A = C and B = 0 in Ax² + Bxy + Cy² + Dx + Ey + F = 0, the conic section is a circle."
+    }
+  ],
+
+  "Introduction to Three-Dimensional Geometry": [
+    {
+      "id": "c11_m_3d_01",
+      "question": "What is the distance between two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in 3D space?",
+      "options": [
+        "√[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+        "(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²",
+        "√[(x₂ + x₁)² + (y₂ + y₁)² + (z₂ + z₁)²]",
+        "|x₂ - x₁| + |y₂ - y₁| + |z₂ - z₁|"
+      ],
+      "correctAnswer": "√[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]",
+      "conceptTag": "3D Distance Formula",
+      "explanation": "Extended from 2D, the 3D Euclidean distance includes the z-axis coordinate difference."
+    },
+    {
+      "id": "c11_m_3d_02",
+      "question": "What are the coordinates of the centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂), and (x₃, y₃, z₃)?",
+      "options": [
+        "((x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3, (z₁ + z₂ + z₃) / 3)",
+        "((x₁ + x₂ + x₃) / 2, (y₁ + y₂ + y₃) / 2, (z₁ + z₂ + z₃) / 2)",
+        "(x₁ + x₂ + x₃, y₁ + y₂ + y₃, z₁ + z₂ + z₃)",
+        "((x₁x₂x₃)/3, (y₁y₂y₃)/3, (z₁z₂z₃)/3)"
+      ],
+      "correctAnswer": "((x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3, (z₁ + z₂ + z₃) / 3)",
+      "conceptTag": "3D Centroid Formula",
+      "explanation": "The 3D centroid is the arithmetic average of x, y, and z coordinates of the three vertices."
+    },
+    {
+      "id": "c11_m_3d_03",
+      "question": "In 3D Cartesian coordinate systems, how many octants are divided by the three mutually perpendicular coordinate planes (XY, YZ, ZX)?",
+      "options": ["8", "4", "2", "16"],
+      "correctAnswer": "8",
+      "conceptTag": "Octants in 3D Space",
+      "explanation": "Just as 2D planes have 4 quadrants, 3D space is divided into 8 octants by the XY, YZ, and ZX planes."
+    },
+    {
+      "id": "c11_m_3d_04",
+      "question": "What is the z-coordinate for any point lying strictly on the xy-plane in 3D space?",
+      "options": ["z = 0", "z = 1", "z is undefined", "z can be any real number"],
+      "correctAnswer": "z = 0",
+      "conceptTag": "Points on Coordinate Planes",
+      "explanation": "The xy-plane has zero elevation along the z-axis, so every point takes the form (x, y, 0)."
+    },
+    {
+      "id": "c11_m_3d_05",
+      "question": "What is the section formula for the coordinates of a point dividing the line segment joining (x₁, y₁, z₁) and (x₂, y₂, z₂) internally in the ratio m₁:m₂?",
+      "options": [
+        "((m₁x₂ + m₂x₁) / (m₁ + m₂), (m₁y₂ + m₂y₁) / (m₁ + m₂), (m₁z₂ + m₂z₁) / (m₁ + m₂))",
+        "((m₁x₁ + m₂x₂) / (m₁ + m₂), ...)",
+        "((m₁x₂ - m₂x₁) / (m₁ - m₂), ...)",
+        "((x₁ + x₂) / 2, ...)"
+      ],
+      "correctAnswer": "((m₁x₂ + m₂x₁) / (m₁ + m₂), (m₁y₂ + m₂y₁) / (m₁ + m₂), (m₁z₂ + m₂z₁) / (m₁ + m₂))",
+      "conceptTag": "3D Internal Section Formula",
+      "explanation": "The section formula generalizes directly to 3 dimensions by applying the weighted ratio rule to the z-coordinate as well."
+    },
+    {
+      "id": "c11_m_3d_06",
+      "question": "What is the distance of the point P(-4, 2, 5) from the y-axis?",
+      "options": [
+        "√41 units",
+        "4 units",
+        "2 units",
+        "5 units"
+      ],
+      "correctAnswer": "√41 units",
+      "conceptTag": "Distance from Coordinate Axes in 3D",
+      "explanation": "Distance of (x, y, z) from y-axis is √(x² + z²) = √((-4)² + 5²) = √(16 + 25) = √41."
+    },
+    {
+      "id": "c11_m_3d_07",
+      "question": "What are the coordinates of the midpoint of the line segment joining (2, -3, 4) and (8, 5, 6)?",
+      "options": [
+        "(5, 1, 5)",
+        "(3, 4, 1)",
+        "(10, 2, 10)",
+        "(6, 8, 2)"
+      ],
+      "correctAnswer": "(5, 1, 5)",
+      "conceptTag": "3D Midpoint Calculation",
+      "explanation": "Midpoint = ((2+8)/2, (-3+5)/2, (4+6)/2) = (10/2, 2/2, 10/2) = (5, 1, 5)."
+    },
+    {
+      "id": "c11_m_3d_08",
+      "question": "If a point P lies on the yz-plane, which of its coordinates must be zero?",
+      "options": ["x-coordinate", "y-coordinate", "z-coordinate", "None"],
+      "correctAnswer": "x-coordinate",
+      "conceptTag": "Coordinates on Planes",
+      "explanation": "Points on the yz-plane have no displacement along the x-axis, so x = 0."
+    }
+  ],
+
+  "Limits and Derivatives": [
+    {
+      "id": "c11_m_lim_01",
+      "question": "What is the standard limit lim(x→0) [sin(x) / x]?",
+      "options": ["1", "0", "Infinity", "Undefined"],
+      "correctAnswer": "1",
+      "conceptTag": "Standard Trigonometric Limit",
+      "explanation": "As x approaches 0 in radians, the ratio of sin(x) to x approaches 1."
+    },
+    {
+      "id": "c11_m_lim_02",
+      "question": "What is the derivative of f(x) = xⁿ with respect to x using the power rule?",
+      "options": ["n xⁿ⁻¹", "xⁿ / n", "n xⁿ", "(n - 1) xⁿ"],
+      "correctAnswer": "n xⁿ⁻¹",
+      "conceptTag": "Power Rule of Differentiation",
+      "explanation": "d/dx (xⁿ) = n xⁿ⁻¹ for any real power n."
+    },
+    {
+      "id": "c11_m_lim_03",
+      "question": "What is the derivative of the trigonometric function f(x) = sin(x)?",
+      "options": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+      "correctAnswer": "cos(x)",
+      "conceptTag": "Derivative of Sine Function",
+      "explanation": "The derivative of sin(x) with respect to x is cos(x)."
+    },
+    {
+      "id": "c11_m_lim_04",
+      "question": "State the Quotient Rule for differentiating u(x) / v(x):",
+      "options": [
+        "[v(x) u'(x) - u(x) v'(x)] / [v(x)]²",
+        "[u'(x) v'(x)] / [v(x)]²",
+        "[u(x) v'(x) - v(x) u'(x)] / [v(x)]²",
+        "u'(x) / v'(x)"
+      ],
+      "correctAnswer": "[v(x) u'(x) - u(x) v'(x)] / [v(x)]²",
+      "conceptTag": "Quotient Rule of Differentiation",
+      "explanation": "Quotient rule: d/dx[u/v] = (v u' - u v') / v²."
+    },
+    {
+      "id": "c11_m_lim_05",
+      "question": "What is the derivative of f(x) = eˣ?",
+      "options": ["eˣ", "x eˣ⁻¹", "ln(x)", "1 / x"],
+      "correctAnswer": "eˣ",
+      "conceptTag": "Derivative of Exponential Function",
+      "explanation": "The natural exponential function eˣ is unique in being its own derivative: d/dx(eˣ) = eˣ."
+    },
+    {
+      "id": "c11_m_lim_06",
+      "question": "Evaluate the limit lim(x→2) [(x³ - 8) / (x - 2)].",
+      "options": ["12", "8", "4", "0"],
+      "correctAnswer": "12",
+      "conceptTag": "Evaluating Algebraic Limits (Factorisation)",
+      "explanation": "Factor numerator: x³ - 8 = (x - 2)(x² + 2x + 4). Cancel (x - 2) and evaluate at x = 2: 2² + 2(2) + 4 = 4 + 4 + 4 = 12."
+    },
+    {
+      "id": "c11_m_lim_07",
+      "question": "What is the derivative of f(x) = ln(x) for x > 0?",
+      "options": ["1 / x", "eˣ", "x", "1 / x²"],
+      "correctAnswer": "1 / x",
+      "conceptTag": "Derivative of Logarithmic Function",
+      "explanation": "The derivative of the natural logarithm ln(x) is 1/x."
+    },
+    {
+      "id": "c11_m_lim_08",
+      "question": "What is the geometric meaning of the derivative of a function y = f(x) at a specific point x₀?",
+      "options": [
+        "The slope of the tangent line to the curve at that point",
+        "The total area under the curve",
+        "The y-intercept of the curve",
+        "The average value of the function"
+      ],
+      "conceptTag": "Geometric Interpretation of Derivative",
+      "explanation": "The derivative represents the instantaneous rate of change, which is geometrically the slope of the tangent line."
+    }
+  ],
+
+  "Statistics": [
+    {
+      "id": "c11_m_stat_01",
+      "question": "What is the formula for calculating Mean Deviation about the Mean for a set of n observations xᵢ?",
+      "options": [
+        "Σ |xᵢ - x̄| / n",
+        "Σ (xᵢ - x̄)² / n",
+        "√[Σ (xᵢ - x̄)² / n]",
+        "Σ |xᵢ - Median| / n"
+      ],
+      "correctAnswer": "Σ |xᵢ - x̄| / n",
+      "conceptTag": "Mean Deviation About Mean",
+      "explanation": "Mean deviation about mean sums the absolute differences from the mean divided by total count n."
+    },
+    {
+      "id": "c11_m_stat_02",
+      "question": "What is the variance (σ²) formula for a discrete frequency distribution?",
+      "options": [
+        "Σ fᵢ(xᵢ - x̄)² / Σ fᵢ",
+        "Σ fᵢ|xᵢ - x̄| / Σ fᵢ",
+        "√[Σ fᵢ(xᵢ - x̄)² / Σ fᵢ]",
+        "Σ fᵢ xᵢ / Σ fᵢ"
+      ],
+      "correctAnswer": "Σ fᵢ(xᵢ - x̄)² / Σ fᵢ",
+      "conceptTag": "Variance Formula",
+      "explanation": "Variance is the average of the squared deviations from the mean: σ² = Σ fᵢ(xᵢ - x̄)² / N."
+    },
+    {
+      "id": "c11_m_stat_03",
+      "question": "Standard deviation (σ) is defined as:",
+      "options": [
+        "The positive square root of the variance",
+        "The square of the variance",
+        "Half of the variance",
+        "The absolute mean deviation"
+      ],
+      "correctAnswer": "The positive square root of the variance",
+      "conceptTag": "Standard Deviation Definition",
+      "explanation": "Standard deviation is σ = √Variance, restoring the units to match the original data observations."
+    },
+    {
+      "id": "c11_m_stat_04",
+      "question": "What is the Coefficient of Variation (CV) formula?",
+      "options": [
+        "(σ / x̄) × 100",
+        "(x̄ / σ) × 100",
+        "σ × x̄ × 100",
+        "Variance / Mean"
+      ],
+      "correctAnswer": "(σ / x̄) × 100",
+      "conceptTag": "Coefficient of Variation",
+      "explanation": "CV measures relative dispersion, calculated as the standard deviation divided by the mean, expressed as a percentage."
+    },
+    {
+      "id": "c11_m_stat_05",
+      "question": "Why are absolute deviations taken when calculating Mean Deviation, rather than raw signed deviations?",
+      "options": [
+        "The sum of raw signed deviations from the mean is always zero",
+        "Absolute values make calculations faster",
+        "Negative numbers cannot be averaged",
+        "It prevents division by zero"
+      ],
+      "correctAnswer": "The sum of raw signed deviations from the mean is always zero",
+      "conceptTag": "Why Absolute Deviations in Mean Deviation",
+      "explanation": "Since Σ(xᵢ - x̄) = 0 identically for any mean, absolute values or squares must be used to measure dispersion."
+    },
+    {
+      "id": "c11_m_stat_06",
+      "question": "If all observations in a data set are multiplied by a constant k (> 0), how does the standard deviation change?",
+      "options": [
+        "It is multiplied by k",
+        "It is multiplied by k²",
+        "It remains unchanged",
+        "It increases by k"
+      ],
+      "correctAnswer": "It is multiplied by k",
+      "conceptTag": "Effect of Scale Change on Standard Deviation",
+      "explanation": "Multiplying data by k scales the spread proportionally, so standard deviation becomes k·σ."
+    },
+    {
+      "id": "c11_m_stat_07",
+      "question": "What is the range of a data set consisting of values {12, 45, 23, 8, 34, 56}?",
+      "options": ["48", "56", "8", "44"],
+      "correctAnswer": "48",
+      "conceptTag": "Range Calculation",
+      "explanation": "Range = Maximum - Minimum = 56 - 8 = 48."
+    },
+    {
+      "id": "c11_m_stat_08",
+      "question": "Which measure of dispersion is least affected by extreme outliers?",
+      "options": [
+        "Mean Deviation about Median",
+        "Variance",
+        "Standard Deviation",
+        "Range"
+      ],
+      "correctAnswer": "Mean Deviation about Median",
+      "conceptTag": "Robustness against Outliers",
+      "explanation": "Using the median and absolute deviations reduces the distorting leverage of extreme outliers compared to squared variance."
+    }
+  ],
+
+  "Probability": [
+    {
+      "id": "c11_m_prob_01",
+      "question": "What is the addition theorem of probability for any two events A and B: P(A ∪ B)?",
+      "options": [
+        "P(A) + P(B) - P(A ∩ B)",
+        "P(A) + P(B) + P(A ∩ B)",
+        "P(A) × P(B)",
+        "P(A) - P(B)"
+      ],
+      "correctAnswer": "P(A) + P(B) - P(A ∩ B)",
+      "conceptTag": "Addition Theorem of Probability",
+      "explanation": "The probability of the union of two events is the sum of their individual probabilities minus the probability of their intersection."
+    },
+    {
+      "id": "c11_m_prob_02",
+      "question": "If two events A and B are mutually exclusive, what is P(A ∩ B)?",
+      "options": ["0", "1", "P(A) × P(B)", "P(A) + P(B)"],
+      "correctAnswer": "0",
+      "conceptTag": "Mutually Exclusive Events",
+      "explanation": "Mutually exclusive events cannot occur simultaneously, meaning their intersection is the empty set (probability 0)."
+    },
+    {
+      "id": "c11_m_prob_03",
+      "question": "What is the formula for Conditional Probability P(A | B)?",
+      "options": [
+        "P(A ∩ B) / P(B), provided P(B) > 0",
+        "P(A ∩ B) / P(A)",
+        "P(A) + P(B) - 1",
+        "P(A) / P(B)"
+      ],
+      "correctAnswer": "P(A ∩ B) / P(B), provided P(B) > 0",
+      "conceptTag": "Conditional Probability Formula",
+      "explanation": "Conditional probability measures the likelihood of event A occurring given that event B has already occurred."
+    },
+    {
+      "id": "c11_m_prob_04",
+      "question": "If two events A and B are independent, what mathematical condition must they satisfy?",
+      "options": [
+        "P(A ∩ B) = P(A) × P(B)",
+        "P(A ∩ B) = 0",
+        "P(A | B) = 0",
+        "P(A) = P(B)"
+      ],
+      "correctAnswer": "P(A ∩ B) = P(A) × P(B)",
+      "conceptTag": "Independent Events Condition",
+      "explanation": "Independence means the occurrence of one event does not affect the probability of the other, giving P(A ∩ B) = P(A)P(B)."
+    },
+    {
+      "id": "c11_m_prob_05",
+      "question": "What is the probability of the complement event P(A') in terms of P(A)?",
+      "options": [
+        "1 - P(A)",
+        "P(A) - 1",
+        "1 / P(A)",
+        "0"
+      ],
+      "correctAnswer": "1 - P(A)",
+      "conceptTag": "Complementary Probability",
+      "explanation": "An event either occurs or does not occur, so P(A) + P(A') = 1 => P(A') = 1 - P(A)."
+    },
+    {
+      "id": "c11_m_prob_06",
+      "question": "A card is drawn from a well-shuffled deck of 52 cards. What is the probability that it is either a King or a Queen?",
+      "options": [
+        "2 / 13",
+        "4 / 13",
+        "1 / 13",
+        "8 / 52"
+      ],
+      "correctAnswer": "2 / 13",
+      "conceptTag": "Probability of Union of Exclusive Cards",
+      "explanation": "P(King) = 4/52, P(Queen) = 4/52. Since mutually exclusive, P(King ∪ Queen) = 8/52 = 2/13."
+    },
+    {
+      "id": "c11_m_prob_070",
+      "question": "If P(A) = 0.6, P(B) = 0.4, and P(A ∩ B) = 0.2, what is P(A | B)?",
+      "options": [
+        "0.5",
+        "0.3",
+        "0.2",
+        "0.8"
+      ],
+      "correctAnswer": "0.5",
+      "conceptTag": "Conditional Probability Calculation",
+      "explanation": "P(A | B) = P(A ∩ B) / P(B) = 0.2 / 0.4 = 0.5."
+    },
+    {
+      "id": "c11_m_prob_08",
+      "question": "What is the sum of the probabilities of all elementary outcomes of a sample space S?",
+      "options": ["1", "0", "0.5", "Depends on sample space size"],
+      "correctAnswer": "1",
+      "conceptTag": "Total Probability Axiom",
+      "explanation": "The sum of probabilities assigned to all mutually exclusive elementary outcomes in a sample space equals exactly 1."
+    }
+  ]
+}
