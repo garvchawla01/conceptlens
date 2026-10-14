@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import MathRenderer from "@/components/MathRenderer";
+import { CURRICULUM_DATA } from "@/data/curricula";
 
 interface DiagnosticQuestion {
   id: string;
@@ -32,11 +33,18 @@ interface AssessmentResult {
 }
 
 export default function ConceptLensDashboard() {
-  const [standard, setStandard] = useState("Class 12");
-  const [board, setBoard] = useState("CBSE (NCERT)");
-  const [subject, setSubject] = useState("Mathematics");
-  const [topic, setTopic] = useState("Continuity and Differentiability");
+  // Cascading Dropdown States
+  const [standard, setStandard] = useState<string>("Class 12");
+  const board = "CBSE (NCERT)"; // Locked to CBSE only
 
+  // Derive initial subjects and topics dynamically
+  const initialSubjects = Object.keys(CURRICULUM_DATA["Class 12"] || {});
+  const [subject, setSubject] = useState<string>(initialSubjects[0] || "Mathematics");
+
+  const initialTopics = CURRICULUM_DATA["Class 12"]?.[initialSubjects[0] || "Mathematics"] || [];
+  const [topic, setTopic] = useState<string>(initialTopics[0] || "");
+
+  // Assessment Lifecycle States
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [questions, setQuestions] = useState<DiagnosticQuestion[]>([]);
@@ -44,10 +52,28 @@ export default function ConceptLensDashboard() {
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
   const [result, setResult] = useState<AssessmentResult | null>(null);
 
-  // Per-question AI diagnosis loading & results
+  // Per-question AI diagnosis states
   const [aiDiagnoses, setAiDiagnoses] = useState<Record<number, string>>({});
   const [loadingAi, setLoadingAi] = useState<Record<number, boolean>>({});
 
+  // Helper: Handlers for cascading dropdowns
+  const handleStandardChange = (newStd: string) => {
+    setStandard(newStd);
+    const availableSubs = Object.keys(CURRICULUM_DATA[newStd] || {});
+    const defaultSub = availableSubs[0] || "";
+    setSubject(defaultSub);
+
+    const availableTops = CURRICULUM_DATA[newStd]?.[defaultSub] || [];
+    setTopic(availableTops[0] || "");
+  };
+
+  const handleSubjectChange = (newSub: string) => {
+    setSubject(newSub);
+    const availableTops = CURRICULUM_DATA[standard]?.[newSub] || [];
+    setTopic(availableTops[0] || "");
+  };
+
+  // Helper to extract clean display text from any options format
   const getOptionText = (opt: any): string => {
     if (typeof opt === "string") return opt;
     if (opt && typeof opt === "object") {
@@ -56,6 +82,7 @@ export default function ConceptLensDashboard() {
     return String(opt);
   };
 
+  // Helper to extract option key/identifier for selection matching
   const getOptionKey = (opt: any, index: number): string => {
     const letters = ["A", "B", "C", "D", "E"];
     if (typeof opt === "string") return opt;
@@ -65,6 +92,7 @@ export default function ConceptLensDashboard() {
     return letters[index] || String(index);
   };
 
+  // Start Assessment Handler
   const handleStartAssessment = async () => {
     setLoading(true);
     setErrorMessage(null);
@@ -87,12 +115,13 @@ export default function ConceptLensDashboard() {
       });
 
       const data = await res.json();
+
       if (!res.ok || !data.success) {
         throw new Error(data.error || "Failed to load diagnostic assessment.");
       }
 
       if (!data.questions || data.questions.length === 0) {
-        throw new Error("No diagnostic questions found for this topic.");
+        throw new Error("No diagnostic questions found for this topic yet.");
       }
 
       setQuestions(data.questions);
@@ -103,6 +132,7 @@ export default function ConceptLensDashboard() {
     }
   };
 
+  // Option Select Handler
   const handleSelectOption = (optKey: string) => {
     setSelectedAnswers((prev) => ({
       ...prev,
@@ -110,6 +140,7 @@ export default function ConceptLensDashboard() {
     }));
   };
 
+  // Submit Assessment Handler
   const handleSubmitAssessment = () => {
     try {
       let obtained = 0;
@@ -179,7 +210,7 @@ export default function ConceptLensDashboard() {
     } catch (err) {
       setAiDiagnoses((prev) => ({
         ...prev,
-        [idx]: item.explanation || "Review fundamental concepts of derivatives.",
+        [idx]: item.explanation || "Review fundamental concepts of this chapter.",
       }));
     } finally {
       setLoadingAi((prev) => ({ ...prev, [idx]: false }));
@@ -187,6 +218,8 @@ export default function ConceptLensDashboard() {
   };
 
   const currentQ = questions[currentIndex];
+  const availableSubjects = Object.keys(CURRICULUM_DATA[standard] || {});
+  const availableTopics = CURRICULUM_DATA[standard]?.[subject] || [];
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center p-4 sm:p-6 md:p-8">
@@ -224,50 +257,59 @@ export default function ConceptLensDashboard() {
         </div>
       )}
 
-      {/* Selection Control Panel */}
+      {/* Cascading Selection Control Panel */}
       <section className="w-full max-w-4xl bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 shadow-xl mb-6 backdrop-blur">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+          {/* Standard / Grade */}
           <div>
             <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
               Standard / Grade
             </label>
             <select
               value={standard}
-              onChange={(e) => setStandard(e.target.value)}
+              onChange={(e) => handleStandardChange(e.target.value)}
               className="w-full bg-slate-950 border border-slate-700/80 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-cyan-500"
             >
-              <option value="Class 12">Class 12</option>
+              <option value="Class 9">Class 9</option>
+              <option value="Class 10">Class 10</option>
               <option value="Class 11">Class 11</option>
+              <option value="Class 12">Class 12</option>
             </select>
           </div>
 
+          {/* Board / Syllabus (CBSE Only) */}
           <div>
             <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
               Board / Syllabus
             </label>
             <select
               value={board}
-              onChange={(e) => setBoard(e.target.value)}
-              className="w-full bg-slate-950 border border-slate-700/80 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-cyan-500"
+              disabled
+              className="w-full bg-slate-950/60 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-400 cursor-not-allowed"
             >
               <option value="CBSE (NCERT)">CBSE (NCERT)</option>
-              <option value="JEE Main">JEE Main</option>
             </select>
           </div>
 
+          {/* Subject & Stream */}
           <div>
             <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
               Subject & Stream
             </label>
             <select
               value={subject}
-              onChange={(e) => setSubject(e.target.value)}
+              onChange={(e) => handleSubjectChange(e.target.value)}
               className="w-full bg-slate-950 border border-slate-700/80 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-cyan-500"
             >
-              <option value="Mathematics">Mathematics</option>
+              {availableSubjects.map((sub) => (
+                <option key={sub} value={sub}>
+                  {sub}
+                </option>
+              ))}
             </select>
           </div>
 
+          {/* Chapter / Topic */}
           <div>
             <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
               Chapter / Topic
@@ -277,7 +319,11 @@ export default function ConceptLensDashboard() {
               onChange={(e) => setTopic(e.target.value)}
               className="w-full bg-slate-950 border border-slate-700/80 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-cyan-500"
             >
-              <option value="Continuity and Differentiability">Continuity and Differentiability</option>
+              {availableTopics.map((top) => (
+                <option key={top} value={top}>
+                  {top}
+                </option>
+              ))}
             </select>
           </div>
         </div>
@@ -380,7 +426,7 @@ export default function ConceptLensDashboard() {
         </section>
       )}
 
-      {/* Comprehensive Diagnostic Report */}
+      {/* Diagnostic Report & Cognitive Analysis */}
       {result && (
         <section className="w-full max-w-4xl bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 shadow-xl mb-6">
           <div className="text-center pb-6 border-b border-slate-800">
@@ -475,7 +521,7 @@ export default function ConceptLensDashboard() {
                   </div>
                 )}
 
-                {/* Targeted AI Misconception Diagnosis for Incorrect Answers */}
+                {/* Targeted AI Misconception Diagnosis */}
                 {!item.isCorrect && (
                   <div className="pt-2 border-t border-red-950">
                     {aiDiagnoses[idx] ? (
