@@ -4,8 +4,6 @@ const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 const MODEL = "openrouter/free";
 
 async function generateWithOpenRouter(promptText: string) {
-  const finalPrompt = `${promptText}\n\nStrictly reply with ONLY a raw JSON object containing a 'questions' array. Do not wrap it in markdown or any other conversational text.`;
-
   const response = await fetch(OPENROUTER_URL, {
     method: "POST",
     headers: {
@@ -16,8 +14,14 @@ async function generateWithOpenRouter(promptText: string) {
     },
     body: JSON.stringify({
       model: MODEL,
-      messages: [{ role: "user", content: finalPrompt }],
-      temperature: 0.2,
+      messages: [
+        {
+          role: "system",
+          content: "You are an expert curriculum designer and AI teacher. Your task is to dynamically generate a diagnostic assessment JSON based on the requested subject, chapter, standard, and board. Never use hardcoded templates; use your own knowledge to create fresh, conceptual questions."
+        },
+        { role: "user", content: promptText }
+      ],
+      temperature: 0.4,
     }),
   });
 
@@ -34,30 +38,29 @@ async function generateWithOpenRouter(promptText: string) {
   }
 
   try {
-    // Sabse pehle standard markdown clean karein
     let cleaned = content.replace(/```json\n?|```/g, "").trim();
-    
-    // Agar phir bhi extra text ho, toh regex se sirf JSON object ({ ... }) ya array ([ ... ]) extract karein
     const jsonMatch = cleaned.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
     if (jsonMatch) {
       cleaned = jsonMatch[0];
     }
 
     const parsed = JSON.parse(cleaned);
-    
-    // Ensure format is always { questions: [...] }
+
     if (Array.isArray(parsed)) {
       return { questions: parsed };
     }
-    if (!parsed.questions && typeof parsed === "object") {
-      // Agar AI ne koi aur key di ho, toh pehli array wali key ko questions maan lo
-      const possibleArray = Object.values(parsed.questions || parsed).find(val => Array.isArray(val));
-      if (possibleArray) {
-        return { questions: possibleArray };
+    if (typeof parsed === "object" && parsed !== null) {
+      if (Array.isArray(parsed.questions)) {
+        return parsed;
       }
+      const foundArrayKey = Object.keys(parsed).find(key => Array.isArray(parsed[key]));
+      if (foundArrayKey) {
+        return { questions: parsed[foundArrayKey] };
+      }
+      return { questions: [parsed] };
     }
 
-    return parsed;
+    return { questions: [] };
   } catch (e) {
     console.error("Failed to parse JSON from OpenRouter:", content);
     throw new Error("AI returned invalid JSON format.");
@@ -69,7 +72,18 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { answers, subject, standard, board, chapter } = body;
 
-    const prompt = `Generate a diagnostic assessment JSON for Class ${standard}, Board ${board}, Subject ${subject}, Chapter ${chapter}. Provide multiple-choice questions with options, correct answer, and explanation. Student context: ${JSON.stringify(answers)}`;
+    const prompt = `Generate a diagnostic assessment for:
+- Standard: Class ${standard}
+- Board: ${board}
+- Subject: ${subject}
+- Chapter: ${chapter}
+- Student context: ${JSON.stringify(answers)}
+
+Return ONLY a valid JSON object containing a root key "questions" which is an array of 5 multiple-choice questions. Each question object in the array must strictly have:
+1. "question": string (the question text)
+2. "options": array of 4 string choices
+3. "correctAnswer": string (the correct option)
+4. "explanation": string (why it is correct)`;
 
     const result = await generateWithOpenRouter(prompt);
 
