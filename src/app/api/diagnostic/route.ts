@@ -4,7 +4,7 @@ const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 const MODEL = "openrouter/free";
 
 async function generateWithOpenRouter(promptText: string) {
-  const finalPrompt = `${promptText}\n\nIMPORTANT: Return ONLY a valid JSON object with a 'questions' array containing diagnostic questions, weak concept summaries, and recommendations. No extra text, no markdown.`;
+  const finalPrompt = `${promptText}\n\nStrictly reply with ONLY a raw JSON object containing a 'questions' array. Do not wrap it in markdown or any other conversational text.`;
 
   const response = await fetch(OPENROUTER_URL, {
     method: "POST",
@@ -17,7 +17,7 @@ async function generateWithOpenRouter(promptText: string) {
     body: JSON.stringify({
       model: MODEL,
       messages: [{ role: "user", content: finalPrompt }],
-      temperature: 0.3,
+      temperature: 0.2,
     }),
   });
 
@@ -34,13 +34,29 @@ async function generateWithOpenRouter(promptText: string) {
   }
 
   try {
-    const cleaned = content.replace(/```json\n?|```/g, "").trim();
+    // Sabse pehle standard markdown clean karein
+    let cleaned = content.replace(/```json\n?|```/g, "").trim();
+    
+    // Agar phir bhi extra text ho, toh regex se sirf JSON object ({ ... }) ya array ([ ... ]) extract karein
+    const jsonMatch = cleaned.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
+    if (jsonMatch) {
+      cleaned = jsonMatch[0];
+    }
+
     const parsed = JSON.parse(cleaned);
     
-    // Fallback structure ensure karne ke liye agar 'questions' key direct na ho
-    if (!parsed.questions && Array.isArray(parsed)) {
+    // Ensure format is always { questions: [...] }
+    if (Array.isArray(parsed)) {
       return { questions: parsed };
     }
+    if (!parsed.questions && typeof parsed === "object") {
+      // Agar AI ne koi aur key di ho, toh pehli array wali key ko questions maan lo
+      const possibleArray = Object.values(parsed.questions || parsed).find(val => Array.isArray(val));
+      if (possibleArray) {
+        return { questions: possibleArray };
+      }
+    }
+
     return parsed;
   } catch (e) {
     console.error("Failed to parse JSON from OpenRouter:", content);
@@ -53,7 +69,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { answers, subject, standard, board, chapter } = body;
 
-    const prompt = `Generate a diagnostic assessment JSON for Class ${standard}, Board ${board}, Subject ${subject}, Chapter ${chapter}. Student context: ${JSON.stringify(answers)}`;
+    const prompt = `Generate a diagnostic assessment JSON for Class ${standard}, Board ${board}, Subject ${subject}, Chapter ${chapter}. Provide multiple-choice questions with options, correct answer, and explanation. Student context: ${JSON.stringify(answers)}`;
 
     const result = await generateWithOpenRouter(prompt);
 
