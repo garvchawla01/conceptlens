@@ -4,7 +4,7 @@ const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 const MODEL = "openrouter/free";
 
 async function generateWithOpenRouter(promptText: string) {
-  const finalPrompt = `${promptText}\n\nIMPORTANT: You must return ONLY a valid JSON object. No extra text, no markdown code blocks like \`\`\`json, just the raw JSON.`;
+  const finalPrompt = `${promptText}\n\nIMPORTANT: Return ONLY a valid JSON object with a 'questions' array containing diagnostic questions, weak concept summaries, and recommendations. No extra text, no markdown.`;
 
   const response = await fetch(OPENROUTER_URL, {
     method: "POST",
@@ -27,11 +27,21 @@ async function generateWithOpenRouter(promptText: string) {
   }
 
   const data = await response.json();
-  const content = data.choices[0].message.content;
+  const content = data.choices?.[0]?.message?.content;
+
+  if (!content) {
+    throw new Error("Empty response received from AI model.");
+  }
 
   try {
     const cleaned = content.replace(/```json\n?|```/g, "").trim();
-    return JSON.parse(cleaned);
+    const parsed = JSON.parse(cleaned);
+    
+    // Fallback structure ensure karne ke liye agar 'questions' key direct na ho
+    if (!parsed.questions && Array.isArray(parsed)) {
+      return { questions: parsed };
+    }
+    return parsed;
   } catch (e) {
     console.error("Failed to parse JSON from OpenRouter:", content);
     throw new Error("AI returned invalid JSON format.");
@@ -43,7 +53,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { answers, subject, standard, board, chapter } = body;
 
-    const prompt = `Generate a diagnostic assessment in JSON format with questions, weak concept summaries, and recommendations for Class ${standard}, Board ${board}, Subject ${subject}, Chapter ${chapter}. Student context: ${JSON.stringify(answers)}`;
+    const prompt = `Generate a diagnostic assessment JSON for Class ${standard}, Board ${board}, Subject ${subject}, Chapter ${chapter}. Student context: ${JSON.stringify(answers)}`;
 
     const result = await generateWithOpenRouter(prompt);
 
