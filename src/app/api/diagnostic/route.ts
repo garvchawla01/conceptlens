@@ -10,7 +10,7 @@ async function generateWithGroq(promptText: string) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "llama-3.1-8b-instant", // Yahan updated active model daal diya hai
+      model: "llama-3.3-70b-versatile", // Updated active Groq model
       messages: [{ role: "user", content: finalPrompt }],
       temperature: 0.3,
     }),
