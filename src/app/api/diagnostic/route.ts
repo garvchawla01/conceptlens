@@ -1,64 +1,47 @@
 import { NextResponse } from "next/server";
 
-// Helper function to call Groq API with automatic retry logic
-async function generateWithRetry(promptOrParts: any, isJson: boolean = true) {
-  const promptText = Array.isArray(promptOrParts)
-    ? promptOrParts.map(p => p.text || JSON.stringify(p)).join("\n")
-    : promptOrParts;
+async function generateWithGroq(promptText: string) {
+  const finalPrompt = `${promptText}\n\nIMPORTANT: You must return ONLY a valid JSON object. No extra text, no markdown code blocks like \`\`\`json, just the raw JSON.`;
 
-  const finalPrompt = isJson 
-    ? `${promptText}\n\nProvide the output strictly in valid JSON format without any extra markdown or text.`
-    : promptText;
+  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: "llama3-8b-8192",
+      messages: [{ role: "user", content: finalPrompt }],
+      temperature: 0.3,
+    }),
+  });
 
-  let lastError: any = null;
-
-  for (let attempt = 0; attempt < 3; attempt++) {
-    try {
-      const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          model: "llama3-8b-8192", // Groq ka fast aur free model
-          messages: [{ role: "user", content: finalPrompt }],
-          response_format: isJson ? { type: "json_object" } : undefined,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`Groq API error: ${response.statusText}`);
-      }
-
-      const data = await response.json();
-      const text = data.choices[0].message.content;
-
-      if (isJson) {
-        const cleanedText = text.replace(/```json\n?|```/g, "").trim();
-        return JSON.parse(cleanedText);
-      }
-      return text;
-    } catch (err: any) {
-      lastError = err;
-      console.warn(`[Groq Retry] Attempt ${attempt + 1} failed:`, err?.message || err);
-      await new Promise((res) => setTimeout(res, 2000));
-    }
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`Groq API failed: ${response.statusText} - ${errorText}`);
   }
 
-  throw lastError;
+  const data = await response.json();
+  const content = data.choices[0].message.content;
+
+  // Clean and parse JSON safely
+  try {
+    const cleaned = content.replace(/```json\n?|```/g, "").trim();
+    return JSON.parse(cleaned);
+  } catch (e) {
+    console.error("Failed to parse JSON from Groq:", content);
+    throw new Error("AI returned invalid JSON format.");
+  }
 }
 
-// Main API Route Handler for ConceptLens
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { answers, subject } = body;
+    const { answers, subject, standard, board, chapter } = body;
 
-    // Build your prompt based on the user's answers and subject
-    const prompt = `Analyze the student's answers for ${subject || "General"} and generate weak concept summaries and diagnostic recommendations based on these answers: ${JSON.stringify(answers)}`;
+    const prompt = `Generate a diagnostic assessment in JSON format with questions, weak concept summaries, and recommendations for Class ${standard}, Board ${board}, Subject ${subject}, Chapter ${chapter}. Student context: ${JSON.stringify(answers)}`;
 
-    const result = await generateWithRetry(prompt, true);
+    const result = await generateWithGroq(prompt);
 
     return NextResponse.json({ success: true, data: result });
   } catch (error: any) {
