@@ -10,7 +10,7 @@ async function generateWithGroq(promptText: string) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "llama3-8b-8192",
+      model: "llama-3.1-8b-instant", // Yahan updated active model daal diya hai
       messages: [{ role: "user", content: finalPrompt }],
       temperature: 0.3,
     }),
@@ -24,7 +24,6 @@ async function generateWithGroq(promptText: string) {
   const data = await response.json();
   const content = data.choices[0].message.content;
 
-  // Clean and parse JSON safely
   try {
     const cleaned = content.replace(/```json\n?|```/g, "").trim();
     return JSON.parse(cleaned);
