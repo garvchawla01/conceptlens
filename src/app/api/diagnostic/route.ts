@@ -8,11 +8,11 @@ async function generateWithOpenRouter(promptText: string) {
     headers: {
       "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
       "Content-Type": "application/json",
-      "HTTP-Referer": "https://conceptlens.vercel.app", // Optional for OpenRouter rankings
+      "HTTP-Referer": "https://conceptlens.vercel.app",
       "X-Title": "ConceptLens",
     },
     body: JSON.stringify({
-      model: "google/gemma-2-9b-it:free", // OpenRouter ka 100% free aur stable model
+      model: "meta-llama/llama-3.2-3b-instruct:free", // Active free Llama model
       messages: [{ role: "user", content: finalPrompt }],
       temperature: 0.3,
     }),
