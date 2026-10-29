@@ -121,6 +121,7 @@ async function askAI(
           content: userContent,
         },
       ],
+      response_format: { type: "json_object" },
       temperature: 0.4,
       max_tokens: 5000,
     }),
@@ -278,17 +279,22 @@ function normalizeQuestions(input: unknown[]): JsonObject[] {
     }
 
     return {
-      id: index + 1,
-      question: item.question.trim(),
-      options,
-      correctOption,
-      conceptualFocus:
-        typeof item.conceptualFocus === "string"
-          ? item.conceptualFocus
-          : "Conceptual understanding",
+  id: index + 1,
+  question: item.question.trim(),
+  options,
+  correctOption,
+  conceptualFocus:
+    typeof item.conceptualFocus === "string"
+      ? item.conceptualFocus
+      : "Conceptual understanding",
+  explanation:
+    typeof item.explanation === "string"
+      ? item.explanation.trim()
+           : "Review the correct answer to reinforce your conceptual understanding.",
     };
   });
 }
+
 
 export async function POST(req: Request) {
   try {
@@ -332,6 +338,8 @@ REQUIREMENTS
 6. Verify every answer before returning it.
 7. Do not include answer explanations in the student-facing questions.
 8. Return JSON only, with no Markdown or additional text.
+9. Include a concise explanation for each question explaining why the correctOption is correct, using clear conceptual reasoning rather than simply repeating the answer.
+10. The explanation must be suitable for showing to the student after the assessment is completed; do not reveal it in the question or answer choices before submission.
 
 REQUIRED JSON SCHEMA
 {
@@ -345,7 +353,8 @@ REQUIRED JSON SCHEMA
         "D": "Fourth option"
       },
       "correctOption": "A",
-      "conceptualFocus": "Concept being tested"
+      "conceptualFocus": "Concept being tested",
+      "explanation": "Why the correct answer is correct"
     }
   ]
 }
@@ -531,7 +540,15 @@ Return ONLY this JSON:
 }
 `;
 
-      const trace = await askAI(prompt, imageData);
+      let trace: Record<string, any>;
+
+try {
+  trace = await askAI(prompt, imageData);
+} catch (error) {
+  console.error("Doubt Tracer AI failure:", error);
+  throw error;
+}
+      
 
       const requiredFields = [
         "stepOfFailure",

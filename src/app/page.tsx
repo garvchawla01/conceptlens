@@ -20,6 +20,7 @@ interface Question {
   };
   correctOption: string;
   conceptualFocus: string;
+  explanation: string;
 }
 
 interface AuditReport {
@@ -633,6 +634,102 @@ export default function Home() {
                   </div>
                 </div>
 
+                {/* Answer Review */}
+                <div className="p-4 sm:p-5 bg-[#0d1117] border border-gray-800 rounded-xl space-y-4">
+                  <div>
+                    <h3 className="text-sm sm:text-base font-bold text-white">
+                      Answer Review
+                    </h3>
+                    <p className="text-xs text-gray-400 mt-1">
+                      Review your answers and understand the correct reasoning.
+                    </p>
+                  </div>
+
+                  {questions.map((question, index) => {
+                    const selectedAnswer = userAnswers[question.id];
+                    const isCorrect =
+                      selectedAnswer === question.correctOption;
+
+                    return (
+                      <div
+                        key={question.id}
+                        className="p-3.5 sm:p-4 bg-gray-900/60 border border-gray-800 rounded-xl space-y-3"
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <h4 className="text-sm font-semibold text-white">
+                            Question {index + 1}
+                          </h4>
+
+                          <span
+                            className={`text-[10px] sm:text-xs font-semibold px-2 py-1 rounded-full shrink-0 ${
+                              isCorrect
+                                ? "text-emerald-400 bg-emerald-950/60"
+                                : "text-red-400 bg-red-950/60"
+                            }`}
+                          >
+                            {isCorrect ? "Correct" : "Incorrect"}
+                          </span>
+                        </div>
+
+                        <div className="text-xs sm:text-sm text-gray-200 leading-relaxed">
+                          <MathRenderer content={question.question} />
+                        </div>
+
+                        <div className="p-2.5 rounded-lg bg-gray-800/60 text-xs sm:text-sm">
+                          <div className="text-gray-400">Your answer:</div>
+                          <div className={isCorrect ? "text-emerald-400" : "text-red-400"}>
+                            {selectedAnswer
+                              ? `${selectedAnswer}. `
+                              : "No answer selected. "}
+                            <MathRenderer
+                              content={
+                                selectedAnswer
+                                  ? question.options[
+                                      selectedAnswer as keyof typeof question.options
+                                    ] ?? "Answer unavailable"
+                                  : "No answer selected"
+                              }
+                            />
+                          </div>
+                        </div>
+
+                        <div className="p-2.5 rounded-lg bg-emerald-950/30 border border-emerald-900/40 text-xs sm:text-sm">
+                          <div className="text-emerald-400 font-semibold">
+                            Correct answer: {question.correctOption}
+                          </div>
+                          <div className="text-gray-200">
+                            <MathRenderer
+                              content={
+                                question.options[
+                                  question.correctOption as keyof typeof question.options
+                                ] ?? "Answer unavailable"
+                              }
+                            />
+                          </div>
+                        </div>
+
+                        <div className="space-y-1">
+                          <div className="text-[11px] font-semibold text-cyan-400 uppercase tracking-wider">
+                            Explanation
+                          </div>
+                          <div className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                            <MathRenderer
+                              content={
+                                question.explanation ||
+                                "An explanation is not available for this question."
+                              }
+                            />
+                          </div>
+                        </div>
+
+                        <div className="text-[11px] text-gray-500">
+                          Concept: {question.conceptualFocus}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
                 <button
                   type="button"
                   onClick={() => {
@@ -642,121 +739,264 @@ export default function Home() {
                   }}
                   className="w-full py-3 bg-gray-800 hover:bg-gray-700 text-gray-200 font-medium rounded-xl text-xs sm:text-sm transition cursor-pointer"
                 >
+                  
                   Start Another Diagnostic Assessment
                 </button>
               </div>
             )}
-          </div>
+          </div>    
         )}
 
-        {/* 2. DOUBT TRACER TAB */}
-        {activeTab === "tracer" && (
-          <div className="bg-[#161b22] border border-gray-800 rounded-2xl p-4 sm:p-7 shadow-lg space-y-5">
-            <div>
-              <h2 className="text-base sm:text-lg font-bold text-white flex items-center space-x-2">
-                <span className="text-cyan-400">🔍</span>
-                <span>Multimodal Derivation Tracer</span>
-              </h2>
-              <p className="text-xs text-gray-400 mt-1">
-                Upload a notebook rough photo or enter calculation steps to pinpoint where reasoning broke down.
-              </p>
-            </div>
+        
+{/* 2. DOUBT TRACER TAB */}
+{activeTab === "tracer" && (
+  <div className="space-y-6">
+    {/* Hero */}
+    <div className="relative overflow-hidden rounded-2xl border border-cyan-900/60 bg-gradient-to-br from-[#142431] via-[#111923] to-[#0d1117] p-5 sm:p-7">
+      <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-cyan-500/10 blur-3xl" />
 
-            <div>
-              <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                Type Rough Derivation Steps
-              </label>
-              <textarea
-                rows={4}
-                value={derivationText}
-                onChange={(e) => setDerivationText(e.target.value)}
-                placeholder="e.g. Step 1: int(tan(x)sec^2(x)dx)&#10;Step 2: Let u = sec(x)..."
-                className="w-full bg-[#0d1117] border border-gray-700 rounded-xl p-3 text-xs sm:text-sm text-gray-200 focus:outline-none focus:border-cyan-500 font-mono"
-              />
-            </div>
+      <div className="relative">
+        <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-800/60 bg-cyan-950/50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-cyan-300">
+          <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
+          AI reasoning workspace
+        </div>
 
-            <div>
-              <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                Attach Notebook Image / Rough Steps
-              </label>
-              <input
-                ref={fileInputRef}
-                type="file"
-                accept="image/*"
-                capture="environment"
-                onChange={handleFileChange}
-                className="hidden"
-              />
-              <div className="flex items-center space-x-3">
-                <button
-                  type="button"
-                  onClick={() => fileInputRef.current?.click()}
-                  className="px-4 py-2.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 text-gray-200 rounded-xl text-xs sm:text-sm font-medium transition flex items-center space-x-2 cursor-pointer"
-                >
-                  <span>📷</span>
-                  <span>{capturedImage ? "Replace Photo" : "Upload Notebook Photo"}</span>
-                </button>
-                {capturedImage && (
-                  <button
-                    type="button"
-                    onClick={() => setCapturedImage(null)}
-                    className="text-xs text-red-400 hover:underline cursor-pointer"
-                  >
-                    Remove Photo
-                  </button>
-                )}
+        <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
+          Find where your <span className="text-cyan-400">logic breaks.</span>
+        </h2>
+
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-gray-400">
+          Enter your calculations or upload your notebook. ConceptLens will
+          identify the breakdown, explain the underlying principle, and help
+          you correct your reasoning.
+        </p>
+
+        <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          {[
+            { number: "01", title: "Submit your work", subtitle: "Type steps or upload a photo" },
+            { number: "02", title: "Trace the error", subtitle: "Locate the reasoning breakdown" },
+            { number: "03", title: "Learn the fix", subtitle: "Understand the correct method" },
+          ].map((item) => (
+            <div
+              key={item.number}
+              className="flex items-start gap-3 rounded-xl border border-white/5 bg-black/20 p-3"
+            >
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-cyan-950 text-xs font-bold text-cyan-300">
+                {item.number}
+              </span>
+              <div>
+                <p className="text-xs font-semibold text-gray-100">{item.title}</p>
+                <p className="mt-1 text-[11px] leading-4 text-gray-500">{item.subtitle}</p>
               </div>
-
-              {capturedImage && (
-                <div className="mt-3 relative w-28 h-28 sm:w-32 sm:h-32 rounded-xl overflow-hidden border border-gray-700">
-                  <img src={capturedImage} alt="Captured Derivation" className="w-full h-full object-cover" />
-                </div>
-              )}
             </div>
+          ))}
+        </div>
+      </div>
+    </div>
 
+    {/* Input workspace */}
+    <div className="grid grid-cols-1 gap-5 lg:grid-cols-5">
+      <div className="space-y-5 rounded-2xl border border-gray-800 bg-[#161b22] p-4 shadow-lg sm:p-6 lg:col-span-3">
+        <div>
+          <div className="flex items-center gap-2">
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-950 text-cyan-300">
+              <span className="text-lg">✎</span>
+            </span>
+            <div>
+              <h3 className="text-sm font-bold text-white">Your derivation</h3>
+              <p className="text-[11px] text-gray-500">Show your working, one step at a time.</p>
+            </div>
+          </div>
+
+          <label className="mb-2 mt-5 block text-[11px] font-semibold uppercase tracking-wider text-gray-400">
+            Calculation steps
+          </label>
+          <textarea
+            rows={7}
+            value={derivationText}
+            onChange={(e) => setDerivationText(e.target.value)}
+            placeholder={"Step 1: Write your original equation\nStep 2: Apply a formula or identity\nStep 3: Simplify your expression\n\nExplain your reasoning wherever possible..."}
+            className="w-full resize-y rounded-xl border border-gray-700 bg-[#0d1117] p-4 font-mono text-xs leading-6 text-gray-200 placeholder:text-gray-600 focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500/30 sm:text-sm"
+          />
+          <div className="mt-2 flex items-center justify-between gap-3">
+            <p className="text-[10px] text-gray-500">Include intermediate calculations for better feedback.</p>
             <button
               type="button"
-              onClick={handleRunDerivationTrace}
-              disabled={isTracingDerivation}
-              className="w-full py-3.5 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold rounded-xl text-xs sm:text-sm transition shadow-lg shadow-cyan-950 flex items-center justify-center space-x-2 disabled:opacity-50 cursor-pointer"
+              onClick={() => setDerivationText("")}
+              className="shrink-0 text-[11px] text-gray-400 transition hover:text-cyan-300"
             >
-              {isTracingDerivation ? (
-                <>
-                  <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span>Pinpointing Breakdown...</span>
-                </>
-              ) : (
-                <span>Trace Derivation Breakdown</span>
-              )}
+              Clear text
             </button>
+          </div>
+        </div>
 
-            {traceResult && (
-              <div className="p-4 sm:p-5 bg-[#0d1117] border border-cyan-500/40 rounded-xl space-y-3.5 mt-4">
-                <div className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
-                  Derivation Trace Breakdown
-                </div>
-                <div className="p-3 bg-red-950/20 border border-red-900/40 rounded-lg space-y-1">
-                  <span className="text-[11px] font-semibold text-red-400 uppercase tracking-wider">Line of Failure:</span>
-                  <div className="text-xs sm:text-sm text-gray-200 overflow-x-auto">
-                    <MathRenderer content={traceResult.stepOfFailure} />
-                  </div>
-                </div>
-                <div className="p-3 bg-yellow-950/20 border border-yellow-900/40 rounded-lg space-y-1">
-                  <span className="text-[11px] font-semibold text-yellow-400 uppercase tracking-wider">Violated Principle:</span>
-                  <div className="text-xs sm:text-sm text-gray-200 overflow-x-auto">
-                    <MathRenderer content={traceResult.violatedPrinciple} />
-                  </div>
-                </div>
-                <div className="p-3 bg-emerald-950/20 border border-emerald-900/40 rounded-lg space-y-1">
-                  <span className="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider">Corrected Resolution:</span>
-                  <div className="text-xs sm:text-sm text-gray-200 overflow-x-auto">
-                    <MathRenderer content={traceResult.correctedDerivation} />
-                  </div>
+        <div>
+          <label className="mb-2 block text-[11px] font-semibold uppercase tracking-wider text-gray-400">
+            Notebook image <span className="font-normal normal-case text-gray-600">(optional)</span>
+          </label>
+
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/*"
+            capture="environment"
+            onChange={handleFileChange}
+            className="hidden"
+          />
+
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            className="group flex w-full items-center gap-4 rounded-xl border border-dashed border-gray-700 bg-[#0d1117] p-4 text-left transition hover:border-cyan-600 hover:bg-cyan-950/10"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-700 bg-gray-800 text-xl transition group-hover:border-cyan-800">
+              📷
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block text-xs font-semibold text-gray-200">
+                {capturedImage ? "Replace notebook image" : "Upload a photo of your work"}
+              </span>
+              <span className="mt-1 block text-[11px] text-gray-500">
+                {capturedImage ? "Choose another image if needed" : "Select an image from your device"}
+              </span>
+            </span>
+            <span className="text-xs font-medium text-cyan-400">Browse</span>
+          </button>
+
+          {capturedImage && (
+            <div className="mt-3 flex items-center gap-3 rounded-xl border border-gray-800 bg-[#0d1117] p-3">
+              <img
+                src={capturedImage}
+                alt="Notebook derivation preview"
+                className="h-16 w-16 rounded-lg border border-gray-700 object-cover"
+              />
+              <div className="min-w-0 flex-1">
+                <p className="text-xs font-medium text-gray-200">Image attached</p>
+                <p className="mt-1 text-[11px] text-gray-500">Ready to include in your trace.</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setCapturedImage(null)}
+                className="rounded-lg px-2 py-1.5 text-xs text-red-400 transition hover:bg-red-950/30"
+              >
+                Remove
+              </button>
+            </div>
+          )}
+        </div>
+
+        <button
+          type="button"
+          onClick={handleRunDerivationTrace}
+          disabled={isTracingDerivation}
+          className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 py-3.5 text-sm font-semibold text-white shadow-lg shadow-cyan-950/30 transition hover:from-cyan-500 hover:to-blue-500 disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          {isTracingDerivation ? (
+            <>
+              <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/30 border-t-white" />
+              <span>Analyzing your reasoning...</span>
+            </>
+          ) : (
+            <>
+              <span>⌕</span>
+              <span>Trace derivation breakdown</span>
+              <span>→</span>
+            </>
+          )}
+        </button>
+
+        <p className="text-center text-[10px] text-gray-600">
+          Review the AI analysis to understand and correct your reasoning.
+        </p>
+      </div>
+
+      {/* Guidance panel */}
+      <aside className="space-y-4 lg:col-span-2">
+        <div className="rounded-2xl border border-gray-800 bg-[#161b22] p-5">
+          <div className="flex items-center gap-2">
+            <span className="text-lg">💡</span>
+            <h3 className="text-sm font-bold text-white">Get better feedback</h3>
+          </div>
+          <div className="mt-4 space-y-4">
+            {[
+              { title: "Show every step", text: "Include intermediate calculations instead of only the final answer." },
+              { title: "Keep your original work", text: "Don't correct mistakes before submitting. They help locate the breakdown." },
+              { title: "Include your reasoning", text: "Mention which formula, identity, or rule you applied." },
+            ].map((item, index) => (
+              <div key={item.title} className="flex gap-3">
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-gray-700 text-[10px] font-semibold text-cyan-300">
+                  {index + 1}
+                </span>
+                <div>
+                  <p className="text-xs font-semibold text-gray-200">{item.title}</p>
+                  <p className="mt-1 text-[11px] leading-5 text-gray-500">{item.text}</p>
                 </div>
               </div>
-            )}
+            ))}
           </div>
-        )}
+        </div>
+
+        <div className="rounded-2xl border border-cyan-900/50 bg-gradient-to-br from-cyan-950/30 to-[#111923] p-5">
+          <span className="text-xl">🎯</span>
+          <h3 className="mt-2 text-sm font-bold text-white">The goal isn't just the answer.</h3>
+          <p className="mt-2 text-xs leading-5 text-gray-400">
+            Understand where your reasoning changed course, why it was incorrect,
+            and how to approach the problem correctly next time.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    {/* Analysis results */}
+    {traceResult && (
+      <div className="space-y-4 rounded-2xl border border-cyan-900/60 bg-[#111923] p-4 shadow-lg sm:p-6">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <div className="text-[10px] font-bold uppercase tracking-widest text-cyan-400">
+              Analysis complete
+            </div>
+            <h3 className="mt-1 text-lg font-bold text-white">Your derivation breakdown</h3>
+          </div>
+          <span className="rounded-full border border-cyan-800 bg-cyan-950/50 px-3 py-1 text-[10px] font-semibold text-cyan-300">
+            AI analysis
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
+          <div className="min-w-0 space-y-2 rounded-xl border border-red-900/50 bg-red-950/15 p-4">
+            <div className="flex items-center gap-2">
+              <span>⚠️</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-red-400">Line of failure</span>
+            </div>
+            <div className="min-w-0 overflow-x-auto break-words text-sm leading-7 text-gray-200 [&_.katex-display]:my-3 [&_.katex]:text-inherit">
+              <MathRenderer content={traceResult.stepOfFailure} />
+            </div>
+          </div>
+
+          <div className="min-w-0 space-y-2 rounded-xl border border-amber-900/50 bg-amber-950/15 p-4">
+            <div className="flex items-center gap-2">
+              <span>🧠</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400">Violated principle</span>
+            </div>
+            <div className="overflow-x-auto text-sm leading-6 text-gray-200">
+              <MathRenderer content={traceResult.violatedPrinciple} />
+            </div>
+          </div>
+
+          <div className="min-w-0 space-y-2 rounded-xl border border-emerald-900/50 bg-emerald-950/15 p-4">
+            <div className="flex items-center gap-2">
+              <span>✓</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400">Corrected resolution</span>
+            </div>
+            <div className="overflow-x-auto text-sm leading-6 text-gray-200">
+              <MathRenderer content={traceResult.correctedDerivation} />
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+  </div>
+)}
 
         {/* 3. AUDIT LOG TAB */}
         {activeTab === "history" && (
@@ -767,6 +1007,7 @@ export default function Home() {
                 <p className="text-xs text-gray-400">Past diagnostic sessions & gap logs.</p>
               </div>
               {auditLogHistory.length > 0 && (
+                
                 <button
                   type="button"
                   onClick={() => {
